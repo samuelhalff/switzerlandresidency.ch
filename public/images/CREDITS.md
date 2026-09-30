@@ -116,9 +116,64 @@ All photos sourced from Unsplash and licensed under the [Unsplash License](https
 - Depicts: Vineyards of the Lavaux terraces above Lake Geneva, Grandvaux, Bourg-en-Lavaux, Vaud, Switzerland.
 - Suggested alt text: "Lavaux vineyard terraces above Lake Geneva"
 
+### hero-people.webp
+- Source: https://unsplash.com/photos/QC0nNrTm7W0
+- Photographer: blib blub (@bliblublab)
+- Licence: Unsplash License
+- Depicts: A couple, silhouetted, holding hands at the edge of an alpine lake at golden hour — Grevasalvas, Sils im Engadin (near St. Moritz), Graubünden, Switzerland. No identifiable faces (backlit silhouette). Warm colour grade applied in post to shift the cool dusk tones toward the site's golden mood; wide framing with open sky, suitable for text overlay bottom-left.
+- Suggested alt text: "Silhouetted couple holding hands by an alpine lake at golden hour in the Engadin, Switzerland"
+
+### terrace-lake.webp
+- Source: https://unsplash.com/photos/G0zxqZ6MM34
+- Photographer: EL YOUBI AKRAM (@elyoubi)
+- Licence: Unsplash License
+- Depicts: A wrought-iron balcony with a bistro table and chairs set, looking out over Lake Geneva to the mountains beyond, Switzerland. No people. Warm colour grade applied in post (source photo was cool/overcast).
+- Suggested alt text: "Balcony table set for two overlooking Lake Geneva and the mountains"
+
+### chalet-interior.webp
+- Source: https://unsplash.com/photos/DYMlVra-Tgw
+- Photographer: Clay Banks (@claybanks)
+- Licence: Unsplash License
+- Depicts: A warm wood-panelled A-frame cabin living room with a lit wood-burning stove, stacked firewood and a lamp; a large window opens onto snowy woods. Location: Bethel, NY, USA — **location not verified as Switzerland**, chosen because it plausibly reads as an Alpine/Swiss chalet interior (wood, fire, lamp light). No people.
+- Suggested alt text: "Warm chalet living room with a lit wood stove and lamp light"
+
+### village-lane.webp
+- Source: https://unsplash.com/photos/GBHnN8IJkbE
+- Photographer: Tobias Reich (@electerious)
+- Licence: Unsplash License
+- Depicts: A cobblestone old-town lane in Zürich, Switzerland, with a man walking away from the camera (no identifiable face) toward a sunlit square.
+- Suggested alt text: "Person walking away down a cobblestone lane in Zürich's old town"
+
+### lakeside-walk.webp
+- Source: https://www.pexels.com/photo/sunset-stroll-by-the-lake-in-zug-switzerland-37229005/
+- Photographer: Ilia Bronskiy
+- Licence: Pexels License
+- Depicts: Two people walking along the Lake Zug promenade at golden-hour sunset, framed by bare plane trees, Switzerland. Seen from behind/at a distance — no identifiable faces.
+- Suggested alt text: "Two people walking along the Lake Zug promenade at sunset"
+
+### home-arrival.webp
+- Source: https://unsplash.com/photos/UBIqmkNE96M
+- Photographer: Jakub Żerdzicki (@jakubzerdzicki)
+- Licence: Unsplash License
+- Depicts: A hand holding a house-shaped keyring with keys, in front of a front door. No location tag — **location not verified**; chosen purely for the "moving in" moment. No identifiable face.
+- Suggested alt text: "Hand holding house keys in front of a front door"
+
+### evening-windows.webp
+- Source: https://unsplash.com/photos/ZG-r9oaQIoE
+- Photographer: Mohamad Othman (@essenking123)
+- Licence: Unsplash License
+- Depicts: A chalet-style house with warmly lit windows at night, set against a starry sky and mountains — Bergün/Bravuogn, Graubünden, Switzerland. No people.
+- Suggested alt text: "Chalet with warmly lit windows at night beneath a starry Alpine sky"
+
 ---
 
 ## Notes
 - All 16 requested slots were filled with verified, genuinely-Swiss, royalty-free (Unsplash License) photographs. No slot was left unfilled.
 - No image uses an identifiable person's face as the main subject; the only people-containing image (`family-life.webp`) shows figures at a distance/from behind.
 - All files converted to WebP with Pillow (quality ~50–78, resized to spec, metadata stripped) to stay within the requested size budgets (hero ≤ 450 KB, others ≤ 350 KB).
+
+## Notes (second batch, 2026-09-30)
+- Verified Swiss locations: `hero-people.webp` (Engadin/Sils), `village-lane.webp` (Zürich old town), `lakeside-walk.webp` (Lake Zug), `evening-windows.webp` (Bergün/Bravuogn), `terrace-lake.webp` (Lake Geneva, tagged Switzerland on the source page).
+- No identifiable faces as the main subject in any of the 8 images — people shown are silhouetted, from behind, or absent; `home-arrival.webp` shows only a hand.
+- A single warm colour grade (slight red/green boost, blue reduction, +saturation/contrast) was applied in Pillow to `hero-people.webp` and `terrace-lake.webp`, whose source photos were cool/overcast, to bring them in line with the site's golden-hour mood. The other six were warm enough as shot and left at a lighter touch.
+- All converted to WebP with Pillow (quality ~72–78, method 6, metadata stripped): `hero-people.webp` resized to 2400px wide (≤450 KB budget), the other seven to 1800px wide (≤350 KB budget).
