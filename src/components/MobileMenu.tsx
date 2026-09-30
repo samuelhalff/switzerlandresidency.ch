@@ -55,11 +55,14 @@ export default function MobileMenu({ links, cta, openLabel, closeLabel, navLabel
       }
     };
     document.addEventListener("keydown", onKey);
-    panelRef.current?.querySelector<HTMLElement>("a")?.focus();
+    // Focus the panel itself (no visible ring on touch devices); Tab then enters the links.
+    panelRef.current?.focus({ preventScroll: true });
     document.body.style.overflow = "hidden";
+    document.body.dataset.menuOpen = "true"; // hides the cookie banner while the menu covers the page
     return () => {
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = "";
+      delete document.body.dataset.menuOpen;
       main?.removeAttribute("inert");
       footer?.removeAttribute("inert");
     };
@@ -97,15 +100,19 @@ export default function MobileMenu({ links, cta, openLabel, closeLabel, navLabel
         id="mobile-menu"
         ref={panelRef}
         hidden={!open}
-        className="fixed inset-x-0 bottom-0 top-[72px] z-40 overflow-y-auto bg-bg px-4 pb-10 pt-4 text-ink"
+        role="dialog"
+        aria-modal="true"
+        aria-label={navLabel}
+        tabIndex={-1}
+        className="fixed inset-x-0 bottom-0 top-[72px] z-40 overflow-y-auto bg-bg px-4 pb-10 pt-2 text-ink outline-none"
       >
         <nav aria-label={navLabel}>
-          <ul className="flex flex-col">
+          <ul className="flex flex-col border-t border-line">
             {links.map((l) => (
               <li key={l.href}>
                 <a
                   href={l.href}
-                  className="block border-b border-line py-4 font-serif text-[1.7rem] font-light text-ink"
+                  className="flex items-center justify-between border-b border-line py-3 font-serif text-[1.25rem] font-light text-ink transition-colors active:text-accent focus-visible:text-accent focus-visible:outline-none"
                   onClick={() => setOpen(false)}
                 >
                   {l.label}
@@ -113,11 +120,11 @@ export default function MobileMenu({ links, cta, openLabel, closeLabel, navLabel
               </li>
             ))}
           </ul>
-          <Button href={cta.href} native size="lg" className="mt-8" onClick={() => setOpen(false)}>
+          <Button href={cta.href} native size="lg" className="mt-6" onClick={() => setOpen(false)}>
             {cta.label}
           </Button>
         </nav>
-        <div className="mt-8 flex flex-wrap items-center justify-between gap-4">
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-4">
           <LanguageSwitcher current={current} label={languageLabel} languages={languages} />
           <ThemeToggle labels={themeLabels} variant="full" name="theme-mobile" className="sm:w-auto" />
         </div>

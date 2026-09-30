@@ -561,3 +561,8 @@ html.reveal-ready [data-reveal].is-visible {
 .prose tbody tr:last-child td {
   border-bottom: 0;
 }
+
+/* The mobile menu lives inside the header's stacking context; keep the consent banner out of its way. */
+body[data-menu-open] .cookie-banner {
+  display: none;
+}

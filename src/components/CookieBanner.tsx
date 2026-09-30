@@ -62,7 +62,7 @@ export default function CookieBanner({ gaId, text, accept, decline, more, label,
     <div
       role="region"
       aria-label={label}
-      className="fixed inset-x-3 bottom-3 z-50 rounded-soft bg-surface px-5 py-4 shadow-[inset_0_0_0_1px_rgb(var(--line)),0_10px_30px_-12px_rgb(var(--shadow)/0.25)] sm:inset-x-6 sm:bottom-6"
+      className="cookie-banner fixed inset-x-3 bottom-3 z-50 rounded-soft bg-surface px-5 py-4 shadow-[inset_0_0_0_1px_rgb(var(--line)),0_10px_30px_-12px_rgb(var(--shadow)/0.25)] sm:inset-x-6 sm:bottom-6"
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-ink">
