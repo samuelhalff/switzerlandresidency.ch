@@ -63,7 +63,9 @@
       "title": "Make Switzerland your home, calmly and properly.",
       "subtitle": "Permits, lump-sum taxation, the right canton, a house near the lake or the mountains. We guide you and your family through every step, discreetly and in your language.",
       "primary": "Check your eligibility",
-      "secondary": "Talk to us"
+      "secondary": "Talk to us",
+      "accent": "home",
+      "reassurance": "Confidential, no obligation, in English, French or German."
     },
     "steps": {
       "title": "How it works",
@@ -82,20 +84,27 @@
           "text": "Home, schools, insurance, banking and your first tax return: we stay close while your family finds its feet."
         }
       ],
-      "cta": "See the full process"
+      "cta": "See the full process",
+      "accent": "works",
+      "eyebrow": "Step by step"
     },
     "services": {
       "title": "What we take care of",
-      "intro": "One coordinated team for the whole move, so you never have to repeat your story."
+      "intro": "One coordinated team for the whole move, so you never have to repeat your story.",
+      "accent": "care",
+      "eyebrow": "Our services"
     },
     "origins": {
       "title": "Moving from…",
-      "intro": "Every departure has its own rules. We know the questions that matter for where you live today."
+      "intro": "Every departure has its own rules. We know the questions that matter for where you live today.",
+      "eyebrow": "Wherever you live today"
     },
     "cantons": {
       "title": "Finding the right canton",
       "intro": "In Switzerland, the canton shapes almost everything: your tax, your permit practice, your schools and your language. Lake Geneva, the Alps, Zug or Ticino each offer a different way of life.",
-      "cta": "Explore the cantons"
+      "cta": "Explore the cantons",
+      "accent": "canton",
+      "eyebrow": "Where to live"
     },
     "approach": {
       "title": "Our approach",
@@ -117,12 +126,16 @@
           "title": "In your language",
           "text": "We work in English, French and German, and we are glad to explain the Swiss system as often as you need."
         }
-      ]
+      ],
+      "accent": "approach",
+      "eyebrow": "Welcome"
     },
     "guides": {
       "title": "Latest guides",
       "intro": "Clear, sourced answers to the questions families ask us most.",
-      "cta": "All guides"
+      "cta": "All guides",
+      "accent": "guides",
+      "eyebrow": "Read and prepare"
     },
     "faq": {
       "title": "Questions we often hear",
@@ -147,15 +160,24 @@
           "q": "Is the eligibility check confidential?",
           "a": "Yes. Your answers stay in your browser. Nothing is sent to us unless you choose to share your result through the contact form."
         }
-      ]
+      ],
+      "accent": "often",
+      "eyebrow": "Good to know"
     },
     "finalCta": {
       "title": "Ready to talk about your move?",
       "text": "Tell us a little about your plans. We will come back to you personally, usually within one working day.",
       "primary": "Check your eligibility",
-      "secondary": "Contact us"
+      "secondary": "Contact us",
+      "accent": "talk"
     },
-    "heroAltFallback": "Lake and mountains in Switzerland"
+    "heroAltFallback": "Lake and mountains in Switzerland",
+    "evening": {
+      "eyebrow": "A personal welcome",
+      "title": "Your first conversation is with a person, not a form.",
+      "accent": "person",
+      "text": "Tell us a little about where you live today and what you have in mind. An adviser replies to you personally, in English, French or German."
+    }
   },
   "howItWorks": {
     "title": "How it works",
@@ -637,6 +659,22 @@
     "mountainAlps": "Snow-covered Alpine peaks above a quiet valley",
     "mountainVillage": "A mountain village with wooden chalets",
     "cityGeneva": "The old town of Geneva by the lake",
-    "cityZurich": "Zurich old town along the river"
+    "cityZurich": "Zurich old town along the river",
+    "lakeLugano": "Lugano reflected on the lake at golden hour",
+    "mountainMatterhorn": "The Matterhorn glowing at sunrise above Zermatt",
+    "mountainEngadin": "A lakeside hillside in the Engadin in warm autumn light",
+    "cityZug": "Zug's lakeside skyline at sunset",
+    "cityLausanne": "Lausanne at golden hour",
+    "familyLife": "People walking along a Swiss lakeside promenade at sunset",
+    "homeChalet": "A traditional Swiss chalet in an alpine meadow",
+    "homeLakeside": "A house on a hillside overlooking Lake Lugano",
+    "school": "A modern school building in Zurich",
+    "vineyards": "The Lavaux vineyard terraces above Lake Geneva"
+  },
+  "theme": {
+    "label": "Colour theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
   }
 }

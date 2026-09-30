@@ -1,29 +1,43 @@
 import type { Config } from "tailwindcss";
 
+const tone = (name: string) => `rgb(var(--${name}) / <alpha-value>)`;
+
 const config: Config = {
   content: ["./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
   theme: {
-    container: { center: true, padding: "1rem", screens: { "2xl": "1200px" } },
     extend: {
       colors: {
-        bg: "rgb(var(--bg) / <alpha-value>)",
-        surface: "rgb(var(--surface) / <alpha-value>)",
-        sand: "rgb(var(--sand) / <alpha-value>)",
-        ink: "rgb(var(--ink) / <alpha-value>)",
-        muted: "rgb(var(--muted) / <alpha-value>)",
-        line: "rgb(var(--line) / <alpha-value>)",
-        accent: "rgb(var(--accent) / <alpha-value>)",
-        "accent-strong": "rgb(var(--accent-strong) / <alpha-value>)",
-        "accent-soft": "rgb(var(--accent-soft) / <alpha-value>)",
-        lake: "rgb(var(--lake) / <alpha-value>)",
-        "lake-soft": "rgb(var(--lake-soft) / <alpha-value>)",
-        band: "rgb(var(--band) / <alpha-value>)",
+        bg: tone("bg"),
+        surface: tone("surface"),
+        sand: tone("sand"),
+        sage: tone("sage"),
+        blush: tone("blush"),
+        caramel: tone("caramel"),
+        evening: tone("evening"),
+        "on-evening": tone("on-evening"),
+        ink: tone("ink"),
+        muted: tone("muted"),
+        line: tone("line"),
+        accent: tone("accent"),
+        "accent-strong": tone("accent-strong"),
+        "accent-soft": tone("accent-soft"),
+        lake: tone("lake"),
       },
       fontFamily: {
-        serif: ["rgb(var(--font-fraunces) / <alpha-value>)", "Georgia", "serif"],
-        sans: ["rgb(var(--font-inter) / <alpha-value>)", "system-ui", "sans-serif"],
+        serif: ["var(--font-fraunces)", "Georgia", "serif"],
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
       },
-      borderRadius: { card: "14px" },
+      fontSize: {
+        base: ["1.0625rem", { lineHeight: "1.7" }],
+      },
+      borderRadius: {
+        card: "28px",
+        tile: "20px",
+      },
+      boxShadow: {
+        soft: "0 1px 2px rgb(var(--shadow) / 0.05), 0 14px 34px -16px rgb(var(--shadow) / 0.22), inset 0 0 0 1px rgb(var(--ring) / var(--ring-alpha))",
+        lift: "0 2px 4px rgb(var(--shadow) / 0.06), 0 26px 48px -20px rgb(var(--shadow) / 0.32), inset 0 0 0 1px rgb(var(--ring) / var(--ring-alpha))",
+      },
       maxWidth: { prose: "70ch" },
     },
   },

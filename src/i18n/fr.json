@@ -63,7 +63,9 @@
       "title": "Faites de la Suisse votre chez-vous, sereinement et dans les règles.",
       "subtitle": "Permis de séjour, forfait fiscal, choix du canton, une maison près du lac ou à la montagne : nous vous accompagnons, vous et votre famille, à chaque étape, avec discrétion et dans votre langue.",
       "primary": "Vérifier votre éligibilité",
-      "secondary": "Nous parler"
+      "secondary": "Nous parler",
+      "accent": "votre chez-vous",
+      "reassurance": "Confidentiel, sans engagement, en français, en anglais ou en allemand."
     },
     "steps": {
       "title": "Notre démarche",
@@ -82,20 +84,27 @@
           "text": "Logement, écoles, assurances, banque et première déclaration d'impôt : nous restons présents le temps que votre famille trouve ses marques."
         }
       ],
-      "cta": "Voir la démarche complète"
+      "cta": "Voir la démarche complète",
+      "accent": "démarche",
+      "eyebrow": "Pas à pas"
     },
     "services": {
       "title": "Ce dont nous nous occupons",
-      "intro": "Une seule équipe coordonnée pour tout votre déménagement : vous n'avez jamais à raconter votre histoire deux fois."
+      "intro": "Une seule équipe coordonnée pour tout votre déménagement : vous n'avez jamais à raconter votre histoire deux fois.",
+      "accent": "occupons",
+      "eyebrow": "Nos services"
     },
     "origins": {
       "title": "Vous venez de…",
-      "intro": "Chaque départ obéit à ses propres règles. Nous connaissons les questions qui comptent selon le pays où vous vivez aujourd'hui."
+      "intro": "Chaque départ obéit à ses propres règles. Nous connaissons les questions qui comptent selon le pays où vous vivez aujourd'hui.",
+      "eyebrow": "Où que vous viviez aujourd'hui"
     },
     "cantons": {
       "title": "Trouver le bon canton",
       "intro": "En Suisse, le canton détermine presque tout : vos impôts, la pratique en matière de permis, les écoles et la langue. Le bassin lémanique, les Alpes, Zoug ou le Tessin offrent chacun un art de vivre différent.",
-      "cta": "Découvrir les cantons"
+      "cta": "Découvrir les cantons",
+      "accent": "canton",
+      "eyebrow": "Où s'installer"
     },
     "approach": {
       "title": "Notre approche",
@@ -117,12 +126,16 @@
           "title": "Dans votre langue",
           "text": "Nous travaillons en français, en anglais et en allemand, et nous vous expliquons le système suisse aussi souvent que nécessaire."
         }
-      ]
+      ],
+      "accent": "approche",
+      "eyebrow": "Bienvenue"
     },
     "guides": {
       "title": "Derniers guides",
       "intro": "Des réponses claires et sourcées aux questions que les familles nous posent le plus souvent.",
-      "cta": "Tous les guides"
+      "cta": "Tous les guides",
+      "accent": "guides",
+      "eyebrow": "Lire et se préparer"
     },
     "faq": {
       "title": "Les questions que l'on nous pose souvent",
@@ -147,15 +160,24 @@
           "q": "Le test d'éligibilité est-il confidentiel ?",
           "a": "Oui. Vos réponses restent dans votre navigateur. Rien ne nous est transmis, sauf si vous choisissez de partager votre résultat via le formulaire de contact."
         }
-      ]
+      ],
+      "accent": "souvent",
+      "eyebrow": "Bon à savoir"
     },
     "finalCta": {
       "title": "Prêts à parler de votre projet ?",
       "text": "Parlez-nous un peu de vos projets. Nous vous répondons personnellement, en général dans un délai d'un jour ouvrable.",
       "primary": "Vérifier votre éligibilité",
-      "secondary": "Nous contacter"
+      "secondary": "Nous contacter",
+      "accent": "parler"
     },
-    "heroAltFallback": "Lac et montagnes en Suisse"
+    "heroAltFallback": "Lac et montagnes en Suisse",
+    "evening": {
+      "eyebrow": "Un accueil personnel",
+      "title": "Votre premier échange se fait avec une personne, pas avec un formulaire.",
+      "accent": "personne",
+      "text": "Dites-nous en quelques mots où vous vivez aujourd'hui et ce que vous envisagez. Un conseiller vous répond personnellement, en français, en anglais ou en allemand."
+    }
   },
   "howItWorks": {
     "title": "Notre démarche",
@@ -637,6 +659,22 @@
     "mountainAlps": "Des sommets alpins enneigés au-dessus d'une vallée tranquille",
     "mountainVillage": "Un village de montagne aux chalets en bois",
     "cityGeneva": "La vieille ville de Genève au bord du lac",
-    "cityZurich": "La vieille ville de Zurich le long de la rivière"
+    "cityZurich": "La vieille ville de Zurich le long de la rivière",
+    "lakeLugano": "Lugano se reflétant dans le lac à l'heure dorée",
+    "mountainMatterhorn": "Le Cervin illuminé au lever du soleil au-dessus de Zermatt",
+    "mountainEngadin": "Un coteau au bord d'un lac en Engadine, dans la lumière chaude de l'automne",
+    "cityZug": "Les rives de Zoug au coucher du soleil",
+    "cityLausanne": "Lausanne à l'heure dorée",
+    "familyLife": "Des promeneurs au bord d'un lac suisse au coucher du soleil",
+    "homeChalet": "Un chalet suisse traditionnel dans un alpage",
+    "homeLakeside": "Une maison à flanc de colline surplombant le lac de Lugano",
+    "school": "Un bâtiment scolaire moderne à Zurich",
+    "vineyards": "Les terrasses du vignoble de Lavaux au-dessus du Léman"
+  },
+  "theme": {
+    "label": "Thème de couleur",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
   }
 }

@@ -63,7 +63,9 @@
       "title": "Machen Sie die Schweiz zu Ihrem Zuhause – in Ruhe und mit Sorgfalt.",
       "subtitle": "Bewilligungen, Pauschalbesteuerung, der passende Kanton, ein Haus am See oder in den Bergen. Wir begleiten Sie und Ihre Familie bei jedem Schritt – diskret und in Ihrer Sprache.",
       "primary": "Ihre Möglichkeiten prüfen",
-      "secondary": "Sprechen Sie mit uns"
+      "secondary": "Sprechen Sie mit uns",
+      "accent": "Zuhause",
+      "reassurance": "Vertraulich, unverbindlich, auf Deutsch, Englisch oder Französisch."
     },
     "steps": {
       "title": "So funktioniert es",
@@ -82,20 +84,27 @@
           "text": "Zuhause, Schulen, Versicherungen, Bank und Ihre erste Steuererklärung: Wir bleiben an Ihrer Seite, bis Ihre Familie angekommen ist."
         }
       ],
-      "cta": "Den ganzen Ablauf ansehen"
+      "cta": "Den ganzen Ablauf ansehen",
+      "accent": "funktioniert",
+      "eyebrow": "Schritt für Schritt"
     },
     "services": {
       "title": "Worum wir uns kümmern",
-      "intro": "Ein abgestimmtes Team für den ganzen Umzug – Sie müssen Ihre Geschichte nie zweimal erzählen."
+      "intro": "Ein abgestimmtes Team für den ganzen Umzug – Sie müssen Ihre Geschichte nie zweimal erzählen.",
+      "accent": "kümmern",
+      "eyebrow": "Unsere Leistungen"
     },
     "origins": {
       "title": "Umzug aus …",
-      "intro": "Jeder Wegzug hat seine eigenen Regeln. Wir kennen die Fragen, auf die es für Ihr heutiges Wohnsitzland ankommt."
+      "intro": "Jeder Wegzug hat seine eigenen Regeln. Wir kennen die Fragen, auf die es für Ihr heutiges Wohnsitzland ankommt.",
+      "eyebrow": "Wo auch immer Sie heute leben"
     },
     "cantons": {
       "title": "Den richtigen Kanton finden",
       "intro": "In der Schweiz prägt der Kanton fast alles: Ihre Steuern, die Bewilligungspraxis, die Schulen und die Sprache. Ob Genferseeregion, Alpen, Zug oder Tessin – jede Region steht für eine andere Lebensart.",
-      "cta": "Die Kantone entdecken"
+      "cta": "Die Kantone entdecken",
+      "accent": "Kanton",
+      "eyebrow": "Wo leben"
     },
     "approach": {
       "title": "Unsere Haltung",
@@ -117,12 +126,16 @@
           "title": "In Ihrer Sprache",
           "text": "Wir arbeiten auf Deutsch, Englisch und Französisch und erklären Ihnen das Schweizer System gerne so oft wie nötig."
         }
-      ]
+      ],
+      "accent": "Haltung",
+      "eyebrow": "Willkommen"
     },
     "guides": {
       "title": "Neueste Ratgeber",
       "intro": "Klare, belegte Antworten auf die Fragen, die uns Familien am häufigsten stellen.",
-      "cta": "Alle Ratgeber"
+      "cta": "Alle Ratgeber",
+      "accent": "Ratgeber",
+      "eyebrow": "Lesen und vorbereiten"
     },
     "faq": {
       "title": "Fragen, die wir oft hören",
@@ -147,15 +160,24 @@
           "q": "Ist der Check vertraulich?",
           "a": "Ja. Ihre Antworten bleiben in Ihrem Browser. Wir erhalten nichts, ausser Sie entscheiden sich, Ihr Ergebnis über das Kontaktformular mit uns zu teilen."
         }
-      ]
+      ],
+      "accent": "oft",
+      "eyebrow": "Gut zu wissen"
     },
     "finalCta": {
       "title": "Möchten Sie über Ihren Umzug sprechen?",
       "text": "Erzählen Sie uns kurz von Ihren Plänen. Wir melden uns persönlich bei Ihnen, in der Regel innerhalb eines Arbeitstags.",
       "primary": "Ihre Möglichkeiten prüfen",
-      "secondary": "Kontakt aufnehmen"
+      "secondary": "Kontakt aufnehmen",
+      "accent": "sprechen"
     },
-    "heroAltFallback": "See und Berge in der Schweiz"
+    "heroAltFallback": "See und Berge in der Schweiz",
+    "evening": {
+      "eyebrow": "Persönlich von Anfang an",
+      "title": "Ihr erstes Gespräch führen Sie mit einem Menschen, nicht mit einem Formular.",
+      "accent": "Menschen",
+      "text": "Erzählen Sie uns kurz, wo Sie heute leben und was Sie vorhaben. Eine Beraterin oder ein Berater antwortet Ihnen persönlich – auf Deutsch, Englisch oder Französisch."
+    }
   },
   "howItWorks": {
     "title": "So funktioniert es",
@@ -637,6 +659,22 @@
     "mountainAlps": "Schneebedeckte Alpengipfel über einem stillen Tal",
     "mountainVillage": "Ein Bergdorf mit Holzchalets",
     "cityGeneva": "Die Altstadt von Genf am See",
-    "cityZurich": "Die Zürcher Altstadt am Fluss"
+    "cityZurich": "Die Zürcher Altstadt am Fluss",
+    "lakeLugano": "Lugano spiegelt sich im See zur goldenen Stunde",
+    "mountainMatterhorn": "Das Matterhorn im Morgenlicht über Zermatt",
+    "mountainEngadin": "Ein Hang am See im Engadin in warmem Herbstlicht",
+    "cityZug": "Das Seeufer von Zug bei Sonnenuntergang",
+    "cityLausanne": "Lausanne zur goldenen Stunde",
+    "familyLife": "Spaziergänger an einer Schweizer Seepromenade bei Sonnenuntergang",
+    "homeChalet": "Ein traditionelles Schweizer Chalet auf einer Alpwiese",
+    "homeLakeside": "Ein Haus am Hang mit Blick auf den Luganersee",
+    "school": "Ein modernes Schulgebäude in Zürich",
+    "vineyards": "Die Weinbergterrassen des Lavaux über dem Genfersee"
+  },
+  "theme": {
+    "label": "Farbschema",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
   }
 }
