@@ -90,9 +90,9 @@ export default function MobileMenu({ links, cta, openLabel, closeLabel, navLabel
         aria-controls="mobile-menu"
         aria-label={open ? closeLabel : openLabel}
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex h-11 w-11 items-center justify-center rounded-full text-ink shadow-[inset_0_0_0_1px_rgb(var(--line))]"
+        className="-mr-2 inline-flex h-11 w-11 items-center justify-center text-ink transition-opacity hover:opacity-70 focus-visible:rounded-md"
       >
-        <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
           {open ? <path d="M6 6l12 12M18 6L6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
         </svg>
       </button>
