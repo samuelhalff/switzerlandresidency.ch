@@ -62,7 +62,10 @@ jobs:
           lftp -u "$FTP_USER","$FTP_PASS" -p "${FTP_PORT:-21}" "$FTP_HOST" <<LFTP
           set ftp:ssl-force true
           set ftp:ssl-protect-data true
-          set ssl:verify-certificate no
+          # GoDaddy presents a valid Starfield cert for *.prod.sxb1.secureserver.net, but no
+          # name in that zone resolves to our host IP: verify the chain, skip the hostname match.
+          set ssl:verify-certificate yes
+          set ssl:check-hostname no
           set net:max-retries 3
           set net:timeout 30
           mirror --reverse --delete --verbose --parallel=4 \

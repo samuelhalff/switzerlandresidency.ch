@@ -3,7 +3,8 @@ import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Switzerland Residency",
-  robots: { index: false, follow: true },
+  // Redirect-only page: never indexed; follow links unless the site-wide noindex gate is on.
+  robots: { index: false, follow: process.env.NEXT_PUBLIC_NOINDEX !== "true" },
   alternates: { canonical: `${SITE_URL}/en/` },
 };
 
