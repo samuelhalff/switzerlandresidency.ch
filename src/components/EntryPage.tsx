@@ -37,9 +37,11 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
           { label: entry.title, path: entryPath(collection, entry.slug) },
         ]}
       >
-        {entry.updated ? (
+        {/* Guides show when they were last checked against official sources; evergreen pages
+            (services, cantons, origins) show no date. JSON-LD keeps the real publication date. */}
+        {collection === "guides" && entry.updated ? (
           <p className="mt-6 text-sm text-muted">
-            {t(locale, "article.updated")} <time dateTime={entry.updated}>{formatDate(entry.updated, locale)}</time>
+            {t(locale, "article.reviewed")} <time dateTime={entry.updated}>{formatDate(entry.updated, locale)}</time>
           </p>
         ) : null}
       </PageHeader>

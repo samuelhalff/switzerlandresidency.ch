@@ -25,6 +25,8 @@ export type Entry = {
   translationKey: string;
   updated: string;
   published?: string;
+  /** ISO date; the page is only built on/after this date (see readCollection). */
+  publishAt?: string;
   category: string;
   draft: boolean;
   faq: FaqItem[];
@@ -58,6 +60,7 @@ function readCollection(locale: Locale, collection: Collection): Entry[] {
   const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith(".md")) : [];
   const entries = files.map((file): Entry => {
     const { data, content } = matter(fs.readFileSync(path.join(dir, file), "utf8"));
+    const publishAt = toIsoDate(data.publishAt);
     const slug = typeof data.slug === "string" && data.slug ? data.slug : file.replace(/\.md$/, "");
     return {
       collection,
@@ -67,7 +70,8 @@ function readCollection(locale: Locale, collection: Collection): Entry[] {
       description: typeset(locale, String(data.description ?? "")),
       translationKey: String(data.translationKey ?? slug),
       updated: toIsoDate(data.updated),
-      published: toIsoDate(data.published) || undefined,
+      published: toIsoDate(data.published) || publishAt || undefined,
+      publishAt: publishAt || undefined,
       category: String(data.category ?? ""),
       draft: data.draft === true,
       faq: Array.isArray(data.faq)
@@ -78,9 +82,13 @@ function readCollection(locale: Locale, collection: Collection): Entry[] {
       body: typeset(locale, content),
     };
   });
-  entries.sort((a, b) => b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title));
-  cache.set(cacheKey, entries);
-  return entries;
+  // Scheduled pages (publishAt in the future) are left out of the build entirely until the
+  // daily scheduled deploy runs on or after that date — no route, listing or sitemap entry.
+  const today = new Date().toISOString().slice(0, 10);
+  const live = entries.filter((e) => !e.publishAt || e.publishAt <= today);
+  live.sort((a, b) => b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title));
+  cache.set(cacheKey, live);
+  return live;
 }
 
 /** All entries of a collection (drafts included — they build but are noindex and unlisted). */

@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Daily rebuild publishes pages whose `publishAt` date has come (see src/lib/content.ts).
+  # The incremental deploy uploads nothing when nothing changed.
+  schedule:
+    - cron: "15 5 * * *"
 
 concurrency:
   group: deploy-production

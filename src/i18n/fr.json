@@ -320,6 +320,7 @@
   },
   "article": {
     "updated": "Mis à jour",
+    "reviewed": "Dernière vérification le",
     "sources": "Sources officielles",
     "ctaTitle": "Qu'est-ce que cela signifie dans votre cas ?",
     "ctaText": "Notre court test d'éligibilité vous indique un parcours possible en deux minutes environ. Ou écrivez-nous, tout simplement.",

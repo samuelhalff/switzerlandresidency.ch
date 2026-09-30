@@ -114,6 +114,11 @@ for (const locale of LOCALES) {
         continue;
       }
       const data = parsed.data;
+      // Scheduled pages (publishAt in the future) are not built yet (see src/lib/content.ts):
+      // skip them so links to them fail until they are live.
+      const publishAt = data.publishAt instanceof Date ? data.publishAt.toISOString().slice(0, 10) : data.publishAt;
+      if (publishAt && !ISO.test(String(publishAt))) fail(`content: ${rel} "publishAt" must be YYYY-MM-DD`);
+      if (publishAt && String(publishAt) > new Date().toISOString().slice(0, 10)) continue;
       const updated = data.updated instanceof Date ? data.updated.toISOString().slice(0, 10) : data.updated;
       const slug = data.slug || f.replace(/\.md$/, "");
 
