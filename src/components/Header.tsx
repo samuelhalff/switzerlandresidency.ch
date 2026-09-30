@@ -4,6 +4,18 @@ import { localePath } from "@/lib/paths";
 import Logo from "./Logo";
 import LanguageSwitcher from "./LanguageSwitcher";
 import MobileMenu from "./MobileMenu";
+import Button from "./ui/Button";
+import Container from "./ui/Container";
+import ThemeToggle from "./ui/ThemeToggle";
+
+export function themeLabels(locale: Locale) {
+  return {
+    label: t(locale, "theme.label"),
+    light: t(locale, "theme.light"),
+    dark: t(locale, "theme.dark"),
+    system: t(locale, "theme.system"),
+  };
+}
 
 export default function Header({ locale }: { locale: Locale }) {
   const links = [
@@ -15,18 +27,22 @@ export default function Header({ locale }: { locale: Locale }) {
   ];
   const cta = { href: localePath(locale, "/eligibility-check/"), label: t(locale, "common.ctaCheck") };
   const languages = locales.map((code) => ({ code, name: getMessages(locale).languages[code] }));
+  const theme = themeLabels(locale);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-bg/90 backdrop-blur">
-      <div className="container-page flex h-[72px] items-center justify-between gap-4">
-        <Link href={localePath(locale)} className="shrink-0 rounded-md" aria-label={`Switzerland Residency — ${t(locale, "nav.home")}`}>
+    <header className="sticky top-0 z-40 bg-bg/85 shadow-[0_1px_0_rgb(var(--line)/0.7)] backdrop-blur-md">
+      <Container className="flex h-[72px] items-center justify-between gap-4">
+        <Link href={localePath(locale)} className="shrink-0 rounded-full" aria-label={`Switzerland Residency — ${t(locale, "nav.home")}`}>
           <Logo />
         </Link>
         <nav aria-label={t(locale, "common.mainNav")} className="hidden lg:block">
-          <ul className="flex items-center gap-6 text-[0.95rem] font-medium">
+          <ul className="flex items-center gap-1 text-[0.95rem] font-medium">
             {links.map((l) => (
               <li key={l.href}>
-                <Link href={l.href} className="text-ink/90 underline-offset-8 hover:text-accent hover:underline">
+                <Link
+                  href={l.href}
+                  className="inline-flex min-h-[40px] items-center rounded-full px-3.5 text-ink/90 transition-colors duration-200 hover:bg-sand hover:text-ink"
+                >
                   {l.label}
                 </Link>
               </li>
@@ -37,19 +53,21 @@ export default function Header({ locale }: { locale: Locale }) {
           <div className="hidden sm:block">
             <LanguageSwitcher current={locale} label={t(locale, "common.language")} languages={languages} />
           </div>
-          <Link href={cta.href} className="btn btn-primary hidden px-5 py-2 text-sm lg:inline-flex">
+          <ThemeToggle labels={theme} name="theme-header" className="hidden lg:inline-flex" />
+          <Button href={cta.href} size="sm" className="hidden xl:inline-flex">
             {cta.label}
-          </Link>
+          </Button>
           <MobileMenu
             links={[...links, { href: localePath(locale, "/contact/"), label: t(locale, "nav.contact") }]}
             cta={cta}
             openLabel={t(locale, "common.menuOpen")}
             closeLabel={t(locale, "common.menuClose")}
             navLabel={t(locale, "common.mainNav")}
+            themeLabels={theme}
           />
         </div>
-      </div>
-      <div className="border-t border-line px-4 py-1 sm:hidden">
+      </Container>
+      <div className="px-4 pb-2 sm:hidden">
         <LanguageSwitcher current={locale} label={t(locale, "common.language")} languages={languages} />
       </div>
     </header>

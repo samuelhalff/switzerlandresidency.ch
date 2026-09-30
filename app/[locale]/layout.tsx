@@ -12,6 +12,8 @@ import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import AnalyticsBootstrap from "@/components/Analytics";
 import CookieBanner from "@/components/CookieBanner";
+import RevealObserver from "@/components/ui/RevealObserver";
+import { themeInitScript } from "@/lib/theme";
 
 export const dynamicParams = false;
 
@@ -44,15 +46,17 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound();
 
   return (
-    <html lang={htmlLang[locale]} className={`${fraunces.variable} ${inter.variable}`}>
+    <html lang={htmlLang[locale]} className={`${fraunces.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
+        {/* Applies the saved light/dark choice before first paint. */}
+        <script id="theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <AnalyticsBootstrap />
         <JsonLd data={[organizationLd(), websiteLd(locale)]} />
       </head>
       <body className="flex min-h-screen flex-col">
         <a
           href="#main"
-          className="sr-only z-50 rounded-md bg-ink px-4 py-2 text-bg focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
+          className="sr-only z-50 rounded-full bg-ink px-5 py-2.5 text-bg focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
         >
           {t(locale, "common.skipToContent")}
         </a>
@@ -61,6 +65,7 @@ export default async function LocaleLayout({
           {children}
         </main>
         <Footer locale={locale} />
+        <RevealObserver />
         {GA_ID ? (
           <CookieBanner
             gaId={GA_ID}
