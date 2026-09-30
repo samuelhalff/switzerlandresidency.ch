@@ -79,3 +79,16 @@ No prices shown. Leads = contact form + WhatsApp + an interactive eligibility & 
 - Cannibalisation: ark-fid.ch ranks #1 for "forfait fiscal suisse" (FR). The new site targets
   EN/DE head terms and FR long-tail; FR lump-sum pages cross-link to ark's article instead of
   duplicating it.
+
+## Codex plan review — resolutions (2026-09-30)
+- Routing: **/en/, /fr/, /de/ prefixes everywhere**; `/` → 302 by Accept-Language (fallback /en/);
+  hreflang x-default = /en/. (Overrides research/seo-topics.md root-EN suggestion.)
+- Eligibility-check spec lives in research/seo-topics.md **§5**.
+- Analytics events follow research spec: `eligibility_start`, `eligibility_step_{n}`,
+  `eligibility_result`, plus `generate_lead` (method=form|check), `contact_channel_click`.
+- CSP: static export needs inline bootstrap scripts → `script-src 'self' 'unsafe-inline'`
+  + GA/GTM hosts (no 'unsafe-eval'); everything else strict. Revisit with hashes later.
+- Content work starts only after research/legal-facts.md lands; UNVERIFIED items are not published.
+- Deploy workflow encodes protected-path excludes and a post-deploy smoke test
+  (locale homes 200, `/_archive-2026-09-30/` 403).
+- .env stays local-only (gitignored, chmod 600); rotation is a user action.
