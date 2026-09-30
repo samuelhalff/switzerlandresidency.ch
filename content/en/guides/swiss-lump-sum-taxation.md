@@ -45,7 +45,7 @@ Swiss lump-sum taxation lets foreign nationals who live in Switzerland but do no
 
 | | |
 |---|---|
-| Legal basis | Art. 14 DBG (federal) and art. 6 StHG (cantonal), in their current form since 2016 |
+| Legal basis | Art. 14 DBG (federal, current version in force since 1 January 2016) and art. 6 StHG (cantonal framework, in force since 1 January 2014) |
 | Who qualifies | Non-Swiss nationals, first-time or returning after 10+ years, no work in Switzerland |
 | Federal minimum base 2026 | CHF 435,000 (CHF 434,700 in 2025) |
 | Other floors | 7× annual rent or rental value, or 3× board and lodging, plus a control calculation |

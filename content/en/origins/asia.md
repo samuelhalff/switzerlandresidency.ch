@@ -97,7 +97,7 @@ Our guide on [moving to Switzerland from Asia](/en/guides/moving-from-asia/) set
 - **Registration:** register with your commune within 14 days of entry.
 - **Health insurance:** Swiss basic health insurance must be taken out within 3 months of registering.
 - **Family:** spouses and unmarried children under 18 may join a B-permit holder if the family lives together in suitable housing and is self-sufficient. The spouse must show local-language skills or be enrolled in a course.
-- **Property:** as a non-EU B-permit holder you may buy a main residence without a Lex Koller permit, but not a holiday home. A 2026 reform proposal would require a permit even for a main residence; it is a proposal, not law.
+- **Property:** as a non-EU B-permit holder you may buy a main residence at your actual Swiss domicile without a Lex Koller permit; holiday homes remain subject to Lex Koller authorisation and quota rules. A 2026 reform proposal would require a permit even for a main residence; it is a proposal, not law.
 
 ## Common pitfalls
 

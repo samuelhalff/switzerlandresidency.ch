@@ -147,7 +147,7 @@ Ticino is Italian-speaking, with a milder southern climate.
 | International School Basel | Aesch, Reinach | BL | — |
 | TASIS | Montagnola | TI | Yes |
 
-A dash means boarding is not mentioned on the pages we reviewed, not necessarily that it is unavailable.
+A dash means boarding is not mentioned on the pages we reviewed, not necessarily that it is unavailable. School details are as published on each school's own website in September 2026; please confirm curricula, ages and boarding directly with the school.
 
 ## Choosing a school: questions worth asking
 

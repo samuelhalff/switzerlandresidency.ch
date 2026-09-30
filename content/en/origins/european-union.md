@@ -12,7 +12,7 @@ faq:
   - q: "How much money do EU citizens need for a Swiss B permit without work?"
     a: "There is no fixed federal amount. Means are sufficient if they are above the level at which a Swiss resident could claim social assistance; for retirees, above the threshold for supplementary benefits. Cantons apply these benchmarks case by case."
   - q: "Can an EU citizen use Swiss lump-sum taxation?"
-    a: "Yes. The lump sum can be combined with an EU/EFTA permit, provided the tax conditions are met: not Swiss, first arrival or return after 10 years, and no gainful activity in Switzerland. Nationals of Belgium, Germany, Italy and Austria should check the modified lump sum under their treaty."
+    a: "Yes. The lump sum can be combined with an EU/EFTA permit, provided the tax conditions are met: not Swiss, first arrival or return after 10 years, and no gainful activity in Switzerland. Nationals of Belgium, Germany, Italy, Norway, Canada, Austria and the USA should check the modified lump sum under their treaty."
   - q: "When can EU citizens get a Swiss C permit?"
     a: "Nationals covered by settlement agreements can usually get a C permit after 5 years. For Bulgaria, Croatia, Cyprus, Czechia, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Romania, Slovakia and Slovenia there is no treaty right, and the C permit is normally granted after 10 years."
   - q: "Can EU citizens buy property in Switzerland?"
@@ -54,7 +54,7 @@ EU citizens have a much simpler route into Switzerland than non-EU nationals: un
 > - The B EU/EFTA permit for non-employed people is normally valid **5 years**.
 > - **C permit after 5 years** for most EU nationals; normally **10 years** for 13 more recent member states.
 > - Lump-sum taxation can be **combined with an EU permit**; federal minimum base **CHF 435,000 for 2026**.
-> - Treaties with **Belgium, Germany, Italy and Austria** (plus Norway) require the **modified lump sum** to claim treaty benefits.
+> - Treaties with **Belgium, Germany, Italy, Norway, Canada, Austria and the USA** require the **modified lump sum** to claim treaty benefits.
 > - EU nationals living in Switzerland are **not subject to Lex Koller**.
 
 ## Why EU families choose Switzerland

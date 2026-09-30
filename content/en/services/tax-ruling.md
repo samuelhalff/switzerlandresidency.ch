@@ -12,7 +12,7 @@ faq:
   - q: "Is a tax ruling binding?"
     a: "It binds the authority under the principle of good faith if the answer was given without reservation to you on concrete facts, the authority was competent, you could not see it was wrong, you acted on it in ways you cannot undo without harm, and the law has not changed since."
   - q: "Can I ask the tax authority a hypothetical question?"
-    a: "No. Rulings cover concrete situations that are about to happen. Zurich's tax practice, for example, states that hypothetical planning questions are not answered."
+    a: "Generally no. Rulings cover concrete situations that are about to happen; hypothetical planning questions are typically not answered, as under Zurich's published practice. Practice can vary by canton, so this is worth confirming with the canton concerned."
   - q: "Do I need a ruling for a residence permit?"
     a: "Sometimes. In Vaud, the signed lump-sum agreement with the tax administration is a required document for the non-EU fiscal-interest permit. In Zurich, the fiscal-interest permit needs a tax-authority confirmation of the expected tax."
 sources:
@@ -32,7 +32,7 @@ Moving your life to another country is hard to reverse. A tax ruling lets you fi
 
 ## What a ruling is, and what it is not
 
-A ruling (Steuerruling, Vorbescheid, ruling fiscal) is a **written, advance assessment** by the cantonal tax authority of a **concrete** set of facts that is actually about to happen. It is not an opinion on a hypothetical plan. Zurich's official tax manual says plainly that hypothetical planning questions are not answered, and other cantons take a similar line.
+A ruling (Steuerruling, Vorbescheid, ruling fiscal) is a **written, advance assessment** by the cantonal tax authority of a **concrete** set of facts that is actually about to happen. It is not an opinion on a hypothetical plan. Zurich's official tax manual says plainly that hypothetical planning questions are not answered; the exact ruling practice is worth confirming with the canton concerned, since it is not published the same way everywhere.
 
 Under the constitutional principle of good faith, a ruling binds the authority if:
 

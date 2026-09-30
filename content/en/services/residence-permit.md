@@ -49,7 +49,7 @@ We look after the migration side of your move, from the first assessment to regi
 
 The service is designed for people who want to live in Switzerland without a job here. That usually means one of three situations.
 
-**EU and EFTA nationals.** Under the free movement agreement, retirees, people of independent means and other non-employed people may live in Switzerland with their family if they have sufficient financial means and comprehensive health and accident insurance. There are no quotas. The permit (a B EU/EFTA permit) is normally valid for five years. For most EU nationals, a C permit follows after five years.
+**EU and EFTA nationals.** Under the free movement agreement, retirees, people of independent means and other non-employed people may live in Switzerland with their family if they have sufficient financial means and comprehensive health and accident insurance. There are no quotas. The permit (a B EU/EFTA permit) is normally valid for five years. A C permit follows after five years for nationalities covered by settlement agreements; nationals of Bulgaria, Croatia, Cyprus, Czechia, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Romania, Slovakia and Slovenia are normally on a ten-year track instead.
 
 **Non-EU nationals aged 55 or over.** The retiree route (art. 28 AIG) requires a minimum age of 55, special personal ties to Switzerland, sufficient means that are reliably available for life, and no gainful activity in Switzerland or abroad apart from managing your own assets. Ties mean something real: earlier long or repeated stays, close relatives here or Swiss ancestry. Owning property or having business links is not enough on its own.
 

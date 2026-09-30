@@ -51,7 +51,7 @@ The regime is for people who:
 
 - are **not Swiss nationals** (Swiss dual nationals are excluded)
 - become fully taxable in Switzerland **for the first time or after at least ten years abroad**
-- carry out **no gainful activity in Switzerland**, paid or unpaid, main or side occupation
+- carry out **no gainful activity in Switzerland**, including any main or side occupation paid from abroad; an unpaid or honorary role limited to managing your own assets can be allowed in some cantons, which we check case by case
 
 If you are married, **both spouses** must meet every condition. If one of you takes up work here or becomes Swiss, both lose the regime for that whole tax period.
 

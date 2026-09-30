@@ -76,9 +76,9 @@ No prices shown. Leads = contact form + WhatsApp + an interactive eligibility & 
 - research/seo-topics.md — 43 topics / 7 clusters, eligibility-check spec (§4), schema patterns.
   Ahrefs API unavailable on plan → volumes are estimates.
 - research/legal-facts.md — cited fact base (in progress).
-- Cannibalisation: ark-fid.ch ranks #1 for "forfait fiscal suisse" (FR). The new site targets
-  EN/DE head terms and FR long-tail; FR lump-sum pages cross-link to ark's article instead of
-  duplicating it.
+- Cannibalisation check (GSC, 2026-09-30): ark-fid.ch's "#1 for forfait fiscal suisse" was a
+  single impression on an unrelated VAT article — no real ranking. FR pages target
+  "forfait fiscal suisse" fully; the ark link stays in footer/about only.
 
 ## Codex plan review — resolutions (2026-09-30)
 - Routing: **/en/, /fr/, /de/ prefixes everywhere**; `/` → 302 by Accept-Language (fallback /en/);

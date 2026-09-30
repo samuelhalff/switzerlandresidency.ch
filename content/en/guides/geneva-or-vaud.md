@@ -126,7 +126,7 @@ For many families, the school decides the town. Based on the schools' own websit
 | St. George's International School | Montreux | Vaud |
 | Aiglon College | Chesières | Vaud |
 
-Ecolint's campuses and the International School of Lausanne offer the International Baccalaureate, according to their websites. Le Rosey describes itself as a full boarding school for ages 8 to 18. Admissions and availability change year to year, so it is worth contacting schools early. More in our [international schools guide](/en/guides/international-schools-switzerland/).
+Ecolint's campuses and the International School of Lausanne offer the International Baccalaureate, according to their websites. Le Rosey describes itself as a full boarding school for ages 8 to 18. School details are as published on each school's own website in September 2026; please confirm curricula, ages and boarding directly with the school. Admissions and availability change year to year, so it is worth contacting schools early. More in our [international schools guide](/en/guides/international-schools-switzerland/).
 
 ## Buying a home
 

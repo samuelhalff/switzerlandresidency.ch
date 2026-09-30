@@ -99,8 +99,8 @@ No Latin American treaty is on the modified lump-sum list. The standard lump sum
 
 - **Registration:** register with your commune within 14 days of entry.
 - **Health insurance:** Swiss basic health insurance must be taken out within 3 months of registering.
-- **Driving licence:** a Swiss licence is required once you have lived here for 12 months.
-- **Property:** as a non-EU B-permit holder you may buy a main residence without a Lex Koller permit, but not a holiday home. A 2026 reform proposal would require a permit even for a main residence; it is not law yet.
+- **Driving licence:** a Swiss licence is required once you have lived here for 12 months without a break of more than three months abroad.
+- **Property:** as a non-EU B-permit holder you may buy a main residence at your actual Swiss domicile without a Lex Koller permit; holiday homes remain subject to Lex Koller authorisation and quota rules. A 2026 reform proposal would require a permit even for a main residence; it is not law yet.
 - **Long-term status:** the C permit is available after 10 years, including 5 continuous years on a B permit, or after 5 years if you are well integrated and speak the local language well.
 
 ## Common pitfalls

@@ -64,8 +64,8 @@ with the **same slug**; internal links then use `/fr/…` or `/de/…`.
 
 ## Allowed internal URLs (EN; swap /en/ for /fr/ or /de/ in translations)
 - `/en/` · `/en/how-it-works/` · `/en/eligibility-check/` · `/en/contact/` · `/en/about/`
-- `/en/services/` + `/en/services/<slug>/` for: residence-and-lump-sum-taxation, tax-rulings,
-  home-search-and-purchase, settling-in, ongoing-tax-and-wealth
+- `/en/services/` + `/en/services/<slug>/` for: residence-permit, lump-sum-taxation, tax-ruling,
+  property-search-purchase, settling-in, ongoing-tax-wealth
 - `/en/moving-from/` + `/en/moving-from/<slug>/` for: united-kingdom, european-union, gulf,
   americas, asia
 - `/en/cantons/` + `/en/cantons/<slug>/` for: geneva, vaud, valais, ticino, graubunden, zug,
@@ -79,8 +79,7 @@ with the **same slug**; internal links then use `/fr/…` or `/de/…`.
   moving-from-asia, buying-property-lex-koller, lex-koller-reform-2026, holiday-homes-alps,
   best-cantons-wealthy-families, geneva-or-vaud, international-schools-switzerland,
   health-insurance-new-residents, first-90-days-checklist, inheritance-gift-tax
-- External: official sources freely; `https://ark-fid.ch/fr/` only on French lump-sum content
-  where Ark's existing forfait-fiscal article is the better reference.
+- External: official sources freely. No links to ark-fid.ch in content (footer/about handle it).
 
 ## Page templates
 - **Service page:** what it covers → who it's for → how we work (steps) → what you get →

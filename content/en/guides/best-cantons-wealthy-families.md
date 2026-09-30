@@ -45,6 +45,16 @@ sources:
     url: "https://www.isl.ch"
   - label: "TASIS The American School in Switzerland"
     url: "https://www.tasis.ch"
+  - label: "Institut Le Rosey"
+    url: "https://www.rosey.ch"
+  - label: "St. George's International School, Montreux"
+    url: "https://www.stgeorges.ch"
+  - label: "Aiglon College"
+    url: "https://www.aiglon.ch"
+  - label: "Inter-Community School Zurich"
+    url: "https://www.icsz.ch"
+  - label: "International School Basel"
+    url: "https://www.isbasel.ch"
 ---
 
 There is no single best canton for a wealthy family in Switzerland; there is the one that fits your language, schooling, tax position and pace of life. Because tax is largely cantonal, the differences are real: lump-sum minimums range from CHF 200,000 to CHF 647,100 for 2026, some cantons have abolished the lump sum altogether, and two levy no inheritance or gift tax at all. This guide lays out the cited facts side by side so you can shortlist with confidence.
@@ -117,7 +127,7 @@ International schools are concentrated in a few regions, which often narrows the
 - **Basel region:** International School Basel has campuses in Aesch and Reinach.
 - **Ticino:** TASIS is in Montagnola, above Lugano.
 
-Our [international schools guide](/en/guides/international-schools-switzerland/) goes region by region.
+School details are as published on each school's own website in September 2026; please confirm curricula, ages and boarding directly with the school. Our [international schools guide](/en/guides/international-schools-switzerland/) goes region by region.
 
 ## Lifestyle, briefly
 

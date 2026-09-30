@@ -123,9 +123,9 @@ Many British clients weigh Switzerland against Italy, the UAE and Monaco. Italy 
 
 - **Registration:** register with your commune within 14 days of entry.
 - **Health insurance:** Swiss basic health insurance must be taken out within 3 months of registering.
-- **Driving licence:** a UK licence must be exchanged once you have lived in Switzerland for 12 months.
+- **Driving licence:** a UK licence must be exchanged once you have lived in Switzerland for 12 months without a break of more than three months abroad.
 - **Cars and household goods:** these can be imported duty-free as relocation goods if you have used them for at least 6 months and keep using them.
-- **Property:** as a non-EU B-permit holder you may buy your main residence without a Lex Koller permit, but not a holiday home or investment property. A 2026 reform proposal would require a permit even for a main residence. It is a proposal, not law.
+- **Property:** as a non-EU B-permit holder you may buy your main residence at your actual Swiss domicile without a Lex Koller permit; other acquisitions, including holiday homes and investment property, remain subject to Lex Koller authorisation and quota rules. A 2026 reform proposal would require a permit even for a main residence. It is a proposal, not law.
 
 ## Common pitfalls
 

@@ -102,7 +102,7 @@ The fiscal-interest route is closely tied to lump-sum taxation (forfait fiscal):
 - **Family:** spouses and unmarried children under 18 may join a B-permit holder, subject to housing and self-sufficiency. The spouse must show local-language skills or be enrolled in a course.
 - **Cars:** vehicles you have used for at least 6 months can be imported duty-free as relocation goods and are exempt from the 4% automobile tax.
 - **Schools:** admissions and availability vary by school and region; see our [international schools guide](/en/guides/international-schools-switzerland/).
-- **Property:** a non-EU B-permit holder may buy a main residence without a Lex Koller permit, not a holiday home. A 2026 reform proposal would change this; it is a proposal, not law.
+- **Property:** a non-EU B-permit holder may buy a main residence at their actual Swiss domicile without a Lex Koller permit; holiday homes remain subject to Lex Koller authorisation and quota rules. A 2026 reform proposal would change this; it is a proposal, not law.
 
 ## Common pitfalls
 

@@ -141,7 +141,7 @@ No official processing time is published for the fiscal-interest route, and ever
 3. **Agree the lump sum.** The amount is set with the cantonal tax authority before or on arrival. In Geneva you propose an amount with a lifestyle form; in Vaud the signed agreement is part of the permit file.
 4. **File the permit application.** The canton reviews it, indicates its intention to approve, then sends it to SEM, which may refuse, limit or add conditions.
 5. **Arrive and register.** Register with your commune within 14 days of entry and take out Swiss health insurance within three months of registering.
-6. **Settle in.** As a non-employed resident you pay AHV/AVS contributions based on wealth and pension income (CHF 530 to CHF 26,500 a year in 2026). A Swiss driving licence is needed after 12 months, and a car you have used for at least six months can come in duty-free as relocation goods.
+6. **Settle in.** As a non-employed resident you pay AHV/AVS contributions based on wealth and pension income (CHF 530 to CHF 26,500 a year in 2026). A Swiss driving licence is needed after 12 months without a break of more than three months abroad, and a car you have used for at least six months can come in duty-free as relocation goods.
 
 ## Common pitfalls
 
