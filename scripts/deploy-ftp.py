@@ -71,6 +71,8 @@ PROTECTED_TOP = (".ftpquota", ".well-known", "cgi-bin")
 ASSET_TOP = ("_next", "fonts")  # content-hashed or immutable; images/ are not hashed → swapped via tmp+rename
 ASSET_EXT = (".woff", ".woff2", ".ttf", ".otf")
 RETRIES = 4
+CONNECT_RETRIES = 4
+CONNECT_BACKOFF_S = 20
 
 
 class SafetyError(RuntimeError):
@@ -241,13 +243,26 @@ class Remote:
         host, port, user, password = self.args
         ctx = ssl.create_default_context()
         ctx.check_hostname = False  # see module docstring; the chain is still verified
-        ftp = ReusingFTP_TLS(context=ctx, timeout=60)
-        ftp.connect(host, port)
-        ftp.login(user, password)
-        ftp.prot_p()
-        if self.root not in ("", ".", "./"):
-            ftp.cwd(self.root)
-        self.ftp = ftp
+        # The shared host occasionally refuses/times out new connections: retry with backoff
+        # before giving up (nothing has been written yet at this point, so retrying is safe).
+        for attempt in range(1, CONNECT_RETRIES + 1):
+            try:
+                ftp = ReusingFTP_TLS(context=ctx, timeout=60)
+                ftp.connect(host, port)
+                ftp.login(user, password)
+                ftp.prot_p()
+                if self.root not in ("", ".", "./"):
+                    ftp.cwd(self.root)
+                self.ftp = ftp
+                return
+            except ftplib.error_perm:
+                raise  # bad credentials / permissions: retrying won't help
+            except (OSError, *ftplib.all_errors) as exc:
+                if attempt == CONNECT_RETRIES:
+                    raise
+                wait = CONNECT_BACKOFF_S * attempt
+                print(f"connect attempt {attempt} failed ({exc!r}); retrying in {wait}s", flush=True)
+                time.sleep(wait)
 
     def retry(self, what: str, fn: Callable[[ftplib.FTP_TLS], object]):
         """Run fn(ftp); retry transient failures with exponential backoff and a fresh connection.
