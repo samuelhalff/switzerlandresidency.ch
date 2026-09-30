@@ -177,14 +177,25 @@ How a run works (`scripts/ai-article.mjs`):
    those quotes enter the prompt and the grounding corpus. Nothing is written to `legal-facts.md`.
 4. **Writing** — Azure OpenAI chat completions: outline → EN draft (following
    `docs/CONTENT-GUIDE.md`, with the internal-link list generated from the content files) → FR and
-   DE in one pass each (following `docs/TRANSLATION-GUIDE.md`). Each step is repaired up to
-   3 times with the failed checks fed back.
+   DE (following `docs/TRANSLATION-GUIDE.md`). Every prompt carries the exact hard limits (title
+   ≤ 60, description 140–155, word range, the citable source URLs from the fact base; for FR/DE the
+   EN structure, source URLs and link counts). After each generation, before the guardrails
+   (`scripts/lib/article-repair.mjs`, nothing relaxed): EN sources that are internal/relative,
+   malformed, off-policy, not in the fact base or unreachable are dropped (never replaced — too
+   few left still fails); FR/DE sources are aligned to the EN URLs and a targeted call restores
+   dropped body links (accepted only with exact link parity and unchanged structure); a title or
+   description outside the limits gets up to 3 "rewrite to ≤ N characters, keep the keyword" calls,
+   each candidate accepted only if it passes the same checks. A step that still fails is retried
+   (3 attempts) with the exact errors and measurements; the final attempt uses
+   `AZURE_OPENAI_DEPLOYMENT_STRONG` when set (falls back to the normal deployment if that call fails).
 5. **Guardrails** (`scripts/validate-new-article.mjs`, run again as its own workflow step) —
    frontmatter complete incl. `keywords`; title ≤ 60 and description 140–155 characters; 1,100–2,000
    words (EN; 950–2,400 for FR/DE); Key facts box, ≥ 2 question H2s, "How we help", disclaimer;
    ≥ 3 internal links that all resolve plus a CTA to the eligibility check or contact; ≥ 3 sources,
    ≥ 2 official, all on the allowed-domain list (`scripts/lib/source-policy.mjs`); no pricing
-   language, email addresses, guarantee/garanti/garantiert or UNVERIFIED; the legal-audit phrases
+   language, email addresses, affirmative guarantees ("we guarantee", "guaranteed approval", "le
+   permis est garanti"; questions and negations such as "does not guarantee", "ne garantit pas",
+   "keine Garantie" are fine) or UNVERIFIED; the legal-audit phrases
    ("183 days" as the Swiss test, "5× rent", "residency by investment", "minimum tax of CHF 435,000",
    unqualified "no inheritance/wealth tax"); no testimonials, client counts, years of experience or
    star ratings; no price assertions (multilingual cost/fee/price lexicon near an amount, "from
@@ -223,6 +234,7 @@ prints a template outline). `--apply` generates and writes; `--offline` skips ke
 | `INDEXNOW_KEY` | secret | optional; by default the committed key file `public/<key>.txt` is used. If you set it, deploy a matching `public/<key>.txt` too |
 | `AZURE_OPENAI_RESEARCH_ENDPOINT`, `AZURE_OPENAI_RESEARCH_API_KEY` | secret | optional research model (key defaults to the main one) |
 | `AZURE_OPENAI_RESEARCH_DEPLOYMENT`, `AZURE_OPENAI_RESEARCH_API_VERSION`, `AZURE_OPENAI_TRANSLATE_DEPLOYMENT` | variable | optional |
+| `AZURE_OPENAI_DEPLOYMENT_STRONG`, `AZURE_OPENAI_API_VERSION_STRONG` | variable | optional; stronger deployment on the same resource (e.g. `gpt-5.2`, `2025-01-01-preview`) for the final EN draft / translation attempt. Unset = the same model on every attempt |
 
 **Adding topics:** append an item to `content/backlog.json`:
 

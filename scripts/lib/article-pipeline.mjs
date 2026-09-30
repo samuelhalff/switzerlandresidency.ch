@@ -755,6 +755,40 @@ const QUALIFIER = { test: (s) => QUALIFIER_WORDS.test(s) || CANTON_ABBR.test(s) 
 const NEGATION =
   /\b(not|no|isn['’]t|rather than|instead of|unlike|myth|misconception|pas|aucun\w*|contrairement|nicht|kein\w*|anders als)\b|\bn['’]/i;
 
+const GUARANTEE_WORD = /(?<![\p{L}])(?:guarantee(?:s|d)?|guaranteeing|garanti\p{L}*|garantier\p{L}*)(?![\p{L}])/giu;
+/** Affirmative promises that stay forbidden even in a question ("we guarantee", "guaranteed approval"). */
+const GUARANTEE_PROMISE =
+  /(?<![\p{L}])(?:we (?:can |will )?guarantee|guaranteed (?:approval|permit|residence|residency|success|result|outcome|ruling|acceptance)|100\s?% guaranteed|nous (?:vous )?garantissons|(?:approbation|succès|résultat|permis|obtention) garanti\p{L}*|wir garantieren|garantierte[nrs]? (?:bewilligung|erfolg|ergebnis|zusage))(?![\p{L}])/iu;
+/** A negation right before the guarantee word: "does not guarantee", "no guarantee", "ne garantit", "n'est pas garanti", "keine Garantie", "ist nicht garantiert". */
+const GUARANTEE_NEG_BEFORE =
+  /(?<![\p{L}])(?:not|no|never|cannot|can['’]t|doesn['’]t|don['’]t|isn['’]t|aren['’]t|won['’]t|without|nor|neither|ne|n['’]|pas|jamais|aucun\p{L}*|sans|ni|nicht|nie|niemals|kein\p{L}*|ohne|weder)(?![\p{L}])[^.:;!?|]{0,24}$/iu;
+const GUARANTEE_NOT_ONLY = /(?<![\p{L}])(?:not only|non seulement|nicht nur)(?![\p{L}])[^.:;!?|]{0,24}$/iu;
+/** A negation right after it: "ne garantit pas", "garantiert nicht", "guarantees nothing". */
+const GUARANTEE_NEG_AFTER = /^[\s,-]*(?:-(?:il|elle|t-il|t-elle)\s+)?(?:pas|aucun\p{L}*|rien|nicht|kein\p{L}*|nichts|nothing|no(?![\p{L}]))/iu;
+
+/**
+ * True when a sentence promises a guarantee. Legitimate uses pass: questions ("Does company
+ * formation guarantee a permit?"), negations next to the word ("does not guarantee", "no
+ * guarantee", "ne garantit pas", "keine Garantie", "garantiert nicht") and the statutory term
+ * "créances garanties par gage/hypothèque" (art. 14 LIFD). Affirmative promises ("we guarantee",
+ * "guaranteed approval", "le permis est garanti") are rejected.
+ */
+export function isGuaranteePromise(sentence) {
+  const s = String(sentence).replace(/créances garanties par (des )?(hypothèques?|gages?)/giu, "");
+  const matches = [...s.matchAll(GUARANTEE_WORD)];
+  if (!matches.length) return false;
+  const promise = GUARANTEE_PROMISE.exec(s);
+  if (promise && !GUARANTEE_NEG_AFTER.test(s.slice(promise.index + promise[0].length, promise.index + promise[0].length + 20))) return true;
+  const isQuestion = /\?[\s*_|)»"”]*$/u.test(s.trim());
+  if (isQuestion) return false;
+  return matches.some((m) => {
+    const before = s.slice(Math.max(0, m.index - 40), m.index);
+    const after = s.slice(m.index + m[0].length, m.index + m[0].length + 20);
+    const negBefore = GUARANTEE_NEG_BEFORE.test(before) && !GUARANTEE_NOT_ONLY.test(before);
+    return !negBefore && !GUARANTEE_NEG_AFTER.test(after);
+  });
+}
+
 /** Rules applied sentence by sentence to every locale. */
 export const CONTENT_RULES = [
   {
@@ -780,12 +814,8 @@ export const CONTENT_RULES = [
   { id: "email", message: "contains an email address", test: (s) => /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i.test(s) },
   {
     id: "guarantee",
-    message: "uses guarantee / garanti / garantiert",
-    // "créances garanties par gage/hypothèque" is the statutory term in the control calculation (art. 14 LIFD)
-    test: (s) =>
-      /\bguarantee(s|d)?\b|\bguaranteeing\b|\bgaranti\w*|\bgarantier\w*/i.test(
-        s.replace(/créances garanties par (des )?(hypothèques?|gages?)/gi, ""),
-      ),
+    message: "promises a guarantee (guarantee / garanti / garantiert used affirmatively; questions and negations are fine)",
+    test: (s) => isGuaranteePromise(s),
   },
   {
     id: "unverified",
@@ -845,7 +875,7 @@ export function checkContentRules(text, ctx = {}) {
 
 const GENERIC_KW = new Set(["switzerland", "swiss", "suisse", "schweiz", "schweizer", "moving", "move"]);
 
-function keywordCoverage(keyword, text) {
+export function keywordCoverage(keyword, text) {
   const kw = tokens(keyword).filter((t) => !GENERIC_KW.has(t));
   if (!kw.length) return 1;
   const hay = new Set(tokens(text));

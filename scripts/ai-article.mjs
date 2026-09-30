@@ -11,15 +11,21 @@
  * scripts/refresh-keywords.mjs, else its seeds; trending RSS; best effort) → legal-facts excerpts (read at run time,
  * UNVERIFIED sentences removed) → optional research model for current developments (a fact is
  * kept only with a verbatim evidence quote found on the fetched official page; nothing is ever
- * written back to research/legal-facts.md) → outline → EN draft (repaired until the
- * guardrails pass) → FR and DE translations (one pass each, repaired on failure) → write files →
+ * written back to research/legal-facts.md) → outline → EN draft → FR and DE translations → write files →
  * full guardrails incl. validate-content.mjs → mark the backlog item done.
+ * Each draft/translation attempt: generate (prompt carries the exact hard limits) → deterministic
+ * source clean-up (EN) / EN source alignment + targeted link-parity repair (FR/DE) → targeted
+ * "shorten to ≤ N characters" calls for title/description → full guardrails. A failed attempt is
+ * retried with the exact errors and measurements; the last one uses AZURE_OPENAI_DEPLOYMENT_STRONG
+ * when set (scripts/lib/article-repair.mjs). Nothing is relaxed.
  * --dry-run prints the topic and outline and writes nothing. Any failure exits non-zero and
  * leaves no article files behind.
  *
  * Env: AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_API_KEY, AZURE_OPENAI_DEPLOYMENT, AZURE_OPENAI_API_VERSION
  * Optional: AZURE_OPENAI_RESEARCH_ENDPOINT / _DEPLOYMENT / _API_KEY / _API_VERSION (research model),
- *   AZURE_OPENAI_TRANSLATE_DEPLOYMENT, AI_ARTICLE_SLUG, AI_ARTICLE_ATTEMPTS (default 3),
+ *   AZURE_OPENAI_TRANSLATE_DEPLOYMENT, AZURE_OPENAI_DEPLOYMENT_STRONG (final-attempt escalation for the
+ *   EN draft and each translation; optional _API_VERSION_STRONG / _ENDPOINT_STRONG / _API_KEY_STRONG;
+ *   unset = same model every attempt), AI_ARTICLE_SLUG, AI_ARTICLE_ATTEMPTS (default 3),
  *   AI_ARTICLE_MAX_TOKENS (default 16000), AI_ARTICLE_DATE (YYYY-MM-DD), AI_ARTICLE_STATE,
  *   REFERENCE_ALLOWED_DOMAINS, LEGAL_FACTS_MAX_CHARS (default 100000 — the whole file today).
  */
@@ -32,7 +38,9 @@ import {
   buildFactIndex,
   checkArticle,
   checkArticleSet,
+  articleNumberText,
   existingGuideSlugs,
+  extractNumbers,
   extractLinks,
   lastGeneratedCategory,
   loadBacklog,
@@ -55,6 +63,19 @@ import { OFFICIAL_DOMAINS, INSTITUTIONAL_DOMAINS, classifySource } from "./lib/s
 import { verifyResearchFacts } from "./lib/research-verify.mjs";
 import { UNTRUSTED_NOTICE, sanitizeUntrusted, untrustedBlock } from "./lib/untrusted.mjs";
 import { checkUrl } from "./lib/url-check.mjs";
+import {
+  alignSourcesToEn,
+  cleanSources,
+  expectedLinks,
+  factBaseUrls,
+  fitMetaFields,
+  generateWithRepair,
+  measure,
+  repairFeedback,
+  repairLinks,
+  requirementsBlock,
+  strongConfig,
+} from "./lib/article-repair.mjs";
 import { STATE_FILE, discardArticle, researchCorpus, validateNewArticle } from "./validate-new-article.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -119,7 +140,7 @@ function hardRules(item) {
 - Audience: ${adviser ? "professional advisers (lawyers, tax advisers, wealth managers, relocation partners) briefing a client; peer-to-peer, precise, 'your client'" : "private individuals and families; warm, calm, reassuring"}. British spelling, sentence-case headings, short paragraphs, no exclamation marks.
 - Facts: every legal/tax figure, threshold, date or rule must come from the FACT BASE below (legal-facts.md excerpts or verified evidence quotes). Every number you write — amounts, percentages, multipliers, durations (days/months/years), counts, deadlines and effective dates — must appear in the fact base with the same value AND unit ("30 days" is not supported by "30 years"). Only article/paragraph/SR numbers and the dates of the cited acts are exempt. If a fact is not in the fact base, do not state it (say "the canton decides" / "varies by canton; confirm in a ruling").
 - Digits: write every legal threshold, duration, multiplier and count as digits ("7× the rent", "3 months", "10 years"), never in words ("seven times", "three months").
-- Never: prices, fees, costs or rates of any service, and no "starting at"/"per hour" amounts; the words guarantee/guaranteed (not even negated — write "no certainty" or "the canton decides"); email addresses; the word UNVERIFIED; invented statistics; testimonials, reviews, star ratings, client counts ("200 families helped") or years of experience; links to ark-fid.ch or ridger.ch.
+- Never: prices, fees, costs or rates of any service, and no "starting at"/"per hour" amounts; promising outcomes ("we guarantee", "guaranteed approval", "the permit is guaranteed") — a question or a clear negation is fine ("Does company formation guarantee a permit?", "it does not guarantee a permit"); email addresses; the word UNVERIFIED; invented statistics; testimonials, reviews, star ratings, client counts ("200 families helped") or years of experience; links to ark-fid.ch or ridger.ch.
 - Legal audit: never present "183 days" as a Swiss residence test (Swiss rule: domicile, or a stay of 30 days with gainful activity / 90 days without); never "5× rent" (the federal test is 7× rent or rental value); never "residency by investment" (Switzerland has no such programme); CHF 435,000 is the federal minimum tax BASE, never "a minimum tax"; never write "no inheritance tax"/"no wealth tax" without qualifying it (federal level, a named canton, spouses/descendants).
 - Proposals must be labelled as proposals. Not advice: end with the disclaimer line.
 - Commercial search terms: where the topic touches the move itself (relocation, settling in, cities, family logistics), use the terms people search for naturally in the title, H2s and FAQ: "relocation services", "relocation agency", "destination services", "moving to <city>". Never stuff keywords.
@@ -230,28 +251,62 @@ function assemble(locale, item, out) {
   };
 }
 
+const urlChecks = new Map();
+/** checkUrl; successes are memoised across attempts and locales (failures are re-checked); offline runs never fetch. */
+async function reachable(url) {
+  if (OFFLINE) return { ok: true };
+  if (urlChecks.has(url)) return urlChecks.get(url);
+  const r = await checkUrl(url);
+  if (r.ok) urlChecks.set(url, r);
+  return r;
+}
+
 /**
- * Extra generator-only checks: sources must come from the fact base, and every cited source and
- * external body link must resolve (HTTP errors, timeouts and DNS failures fail after 2 retries;
- * only known bot-blocking official sites may answer 403).
+ * Deterministic source clean-up (never invents a source): drop relative/internal, malformed,
+ * off-policy and not-in-fact-base URLs, then any that do not resolve. If fewer than 3 (or fewer
+ * than 2 official) remain, checkArticle reports it and the next attempt is asked for more.
  */
-async function sourceChecks(article, sourceText) {
-  const errors = [];
-  for (const s of article.data.sources) {
-    const bare = s.url.split("#")[0];
-    if (!sourceText.includes(bare)) errors.push(`en: source ${s.url} does not appear in the fact base (use only URLs given there)`);
+async function cleanArticleSources(article, sourceText, locale = "en") {
+  const { sources, dropped } = cleanSources(article.data.sources, { sourceText });
+  const kept = [];
+  for (const s of sources) {
+    const r = await reachable(s.url);
+    if (r.ok) {
+      if (r.warning) console.warn(`[sources] ${r.warning}`);
+      kept.push(s);
+    } else dropped.push({ source: s, reason: `unreachable (${r.reason})` });
   }
-  const urls = [...new Set([...article.data.sources.map((s) => s.url), ...extractLinks(article.body).external])];
-  for (const url of urls) {
+  for (const d of dropped) log(`[sources-${locale}] dropped ${d.source.url || "(no url)"} — ${d.reason}`);
+  return { ...article, data: { ...article.data, sources: kept } };
+}
+
+/** Body links to official/institutional pages must resolve (HTTP errors fail after 2 retries). */
+async function bodyLinkChecks(article, locale = "en") {
+  const errors = [];
+  for (const url of [...new Set(extractLinks(article.body).external)]) {
     const kind = classifySource(url);
     if (kind !== "official" && kind !== "institutional") continue; // reported by checkArticle; never fetched
-    if (OFFLINE) continue;
-    const r = await checkUrl(url);
-    if (!r.ok) errors.push(`en: ${url} is unreachable (${r.reason}) — cite a page that resolves`);
+    const r = await reachable(url);
+    if (!r.ok) errors.push(`${locale}: ${url} is unreachable (${r.reason}) — link a page that resolves or drop the link`);
     else if (r.warning) console.warn(`[sources] ${r.warning}`);
   }
   return errors;
 }
+
+/** The model output shape of an assembled article (what a retry prompt shows as the previous draft). */
+const asJson = (a) => ({ title: a.data.title, description: a.data.description, keywords: a.data.keywords, faq: a.data.faq, sources: a.data.sources, body: a.body });
+
+const META_SYSTEM = "You are a precise SEO copy editor for switzerlandresidency.ch. Output ONLY a JSON object.";
+/** Small repair calls; on the escalated attempt a failing strong call falls back to the base deployment. */
+const metaCaller = (cfg, baseCfg) => async (prompt, label) => {
+  try {
+    return await chatJson(cfg, { system: META_SYSTEM, user: prompt, maxTokens: 4000, label });
+  } catch (err) {
+    if (cfg === baseCfg) throw err;
+    log(`[${label}] ${cfg.deployment} failed (${err.message.slice(0, 120)}); retrying on ${baseCfg.deployment}`);
+    return chatJson(baseCfg, { system: META_SYSTEM, user: prompt, maxTokens: 4000, label });
+  }
+};
 
 async function draftEnglish(item, ctx, cfg, outline) {
   const system = `You write SEO/GEO-optimised guides for switzerlandresidency.ch in British English. Output ONLY a JSON object.
@@ -263,6 +318,12 @@ ${contentGuideForPrompt()}
 ${hardRules(item)}
 
 ${structureRules("en")}`;
+  const requirements = requirementsBlock({
+    locale: "en",
+    primary: ctx.keywords.locales.en.primary,
+    words: [1100, 2000],
+    sourceUrls: factBaseUrls(ctx.sourceText),
+  });
   const base = `Write the EN guide "${item.title}" (slug ${item.slug}, category ${item.category}, intent ${item.intent}, audience ${item.audience}).
 OUTLINE TO FOLLOW (you may refine it): ${JSON.stringify(outline)}
 ${keywordBrief(ctx.keywords, "en")}
@@ -272,24 +333,39 @@ ALLOWED INTERNAL URLS (EN):\n${ctx.linkList}
 ${factBase(ctx.facts, ctx.research)}
 
 ${ARTICLE_JSON}`;
-  let previous = null;
-  let errors = [];
-  for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
-    const user = previous
-      ? `${base}\n\nYOUR PREVIOUS DRAFT FAILED THESE CHECKS — fix every one and return the full corrected JSON:\n${errors.map((e) => `- ${e}`).join("\n")}\n\nPREVIOUS DRAFT:\n${JSON.stringify(previous)}`
-      : base;
-    const out = await chatJson(cfg, { system, user, maxTokens: MAX_TOKENS, label: `draft-en#${attempt}` });
-    const article = normalizeArticleCasing(assemble("en", item, out));
-    errors = [
+  return generateWithRepair({
+    attempts: ATTEMPTS,
+    label: "draft-en",
+    baseCfg: cfg,
+    strongCfg: strongConfig(cfg),
+    log,
+    generate: (c, fb, attempt) => {
+      const user = fb
+        ? `${base}\n\n${repairFeedback({ errors: fb.errors, requirements, previous: asJson(fb.article), measured: measure(fb.article) })}`
+        : `${base}\n\n${requirements}`;
+      return chatJson(c, { system, user, maxTokens: MAX_TOKENS, label: `draft-en#${attempt}` });
+    },
+    finish: async (out, c) => {
+      let article = normalizeArticleCasing(assemble("en", item, out));
+      article = await cleanArticleSources(article, ctx.sourceText, "en");
+      const fit = await fitMetaFields({
+        data: article.data,
+        locale: "en",
+        primary: article.data.keywords.primary,
+        call: metaCaller(c, cfg),
+        context: article.body.split("\n\n")[0]?.slice(0, 600) ?? "",
+        allowedNumbers: extractNumbers(articleNumberText(article), "en"),
+        factIndex: ctx.factIndex,
+        log,
+      });
+      return { ...article, data: fit.data };
+    },
+    check: async (article) => [
       ...checkArticle(article, ctx.checkCtx("en")),
       ...checkArticleSet({ en: article }, { factIndex: ctx.factIndex, unverifiedNumbers: ctx.unverifiedNumbers }).filter((e) => e.startsWith("en:")),
-      ...(await sourceChecks(article, ctx.sourceText)),
-    ];
-    if (!errors.length) return article;
-    log(`[draft-en#${attempt}] ${errors.length} issue(s):\n  - ${errors.join("\n  - ")}`);
-    previous = out;
-  }
-  throw new Error(`EN draft failed guardrails after ${ATTEMPTS} attempts:\n- ${errors.join("\n- ")}`);
+      ...(await bodyLinkChecks(article, "en")),
+    ],
+  });
 }
 
 async function translate(item, ctx, cfg, en, locale) {
@@ -303,39 +379,70 @@ ${readDoc("docs/TRANSLATION-GUIDE.md")}
 RULES (automated guardrails):
 - Same structure as EN: same number of H2 sections, same tables, same FAQ count, same sources (identical URLs, translated labels only).
 - Every number from EN — including small ones like "3 months" or "7×" — stays a digit with the same value and unit, formatted for ${locale} (${locale === "fr" ? '"CHF 435 000", decimal comma "1,25"' : "\"CHF 435'000\", decimal comma \"1,25\""}); never spell numbers out, never add or drop a figure.
-- Internal links: replace /en/ with /${locale}/, paths otherwise unchanged.
+- Internal links: replace /en/ with /${locale}/, paths otherwise unchanged. Keep every link of the EN body (same URL, same number of times).
 - Key facts line: ${locale === "fr" ? `"**Points clés (${monthYear("fr")})**"` : `"**Das Wichtigste in Kürze (Stand ${monthYear("de")})**"`}; the help section heading: ${locale === "fr" ? '"## Comment nous vous aidons"' : '"## Wie wir helfen"'}; question H2s stay questions ending with "?".
 - Last line: the italic disclaimer, dated ${longDate(locale)}.
 - Keywords: choose a ${locale} primary keyword and 5–8 secondary keywords, preferring the ${locale} candidates below (real searches); if there are fewer than 5, add natural ${locale} variants of the backlog keywords people would type. Use the primary in the title, the description and the opening paragraph, and work secondary/question keywords into H2s and FAQ questions naturally.
 - title ≤ 60 characters; description 140–155 characters (count them).
 - Commercial terms where EN uses them: ${locale === "fr" ? '"services de relocation", "agence de relocation", "s\'installer en Suisse", "déménager à <ville>"' : '"Relocation Service", "Umzug in die Schweiz", "Umzug nach <Stadt>", "Auswandern Schweiz"'}.
-- Never use: garanti/garantie/garantiert, prices or fees, email addresses, "UNVERIFIED"/"non vérifié"/"nicht verifiziert".`;
+- Never promise outcomes ("nous garantissons", "permis garanti", "wir garantieren", "garantierte Bewilligung"); a question or a clear negation is fine ("ne garantit pas", "keine Garantie", "garantiert nicht"). Never use prices or fees, email addresses, "UNVERIFIED"/"non vérifié"/"nicht verifiziert".`;
+  const expected = expectedLinks(en.body, locale);
+  const requirements = requirementsBlock({
+    locale,
+    words: [950, 2400],
+    parity: {
+      h2: (en.body.match(/^##\s/gm) ?? []).length,
+      faq: en.data.faq.length,
+      sources: en.data.sources.map((s) => s.url),
+      links: [...new Set(expected.map((e) => `${e.url} ×${expected.filter((x) => x.url === e.url).length}`))],
+    },
+  });
   const base = `${keywordBrief(ctx.keywords, locale)}
 
 EN SOURCE (JSON):
-${JSON.stringify({ title: en.data.title, description: en.data.description, keywords: en.data.keywords, faq: en.data.faq, sources: en.data.sources, body: en.body })}
+${JSON.stringify(asJson(en))}
 
 ${ARTICLE_JSON}`;
   const tcfg = { ...cfg, deployment: process.env.AZURE_OPENAI_TRANSLATE_DEPLOYMENT || cfg.deployment };
-  let previous = null;
-  let errors = [];
-  for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
-    const user = previous
-      ? `${base}\n\nYOUR PREVIOUS TRANSLATION FAILED THESE CHECKS — fix every one and return the full corrected JSON:\n${errors.map((e) => `- ${e}`).join("\n")}\n\nPREVIOUS TRANSLATION:\n${JSON.stringify(previous)}`
-      : base;
-    const out = await chatJson(tcfg, { system, user, maxTokens: MAX_TOKENS, label: `translate-${locale}#${attempt}` });
-    const article = normalizeArticleCasing(assemble(locale, item, out));
-    const enUrls = en.data.sources.map((s) => s.url).join("|");
-    errors = [
+  const enNumbers = extractNumbers(articleNumberText(en), "en");
+  const enUrls = en.data.sources.map((s) => s.url).join("|");
+  return generateWithRepair({
+    attempts: ATTEMPTS,
+    label: `translate-${locale}`,
+    baseCfg: tcfg,
+    strongCfg: strongConfig(tcfg),
+    log,
+    generate: (c, fb, attempt) => {
+      const user = fb
+        ? `${base}\n\n${repairFeedback({ errors: fb.errors, requirements, previous: asJson(fb.article), measured: measure(fb.article), what: "TRANSLATION" })}`
+        : `${base}\n\n${requirements}`;
+      return chatJson(c, { system, user, maxTokens: MAX_TOKENS, label: `translate-${locale}#${attempt}` });
+    },
+    finish: async (out, c) => {
+      let article = normalizeArticleCasing(assemble(locale, item, out));
+      article = { ...article, data: { ...article.data, sources: alignSourcesToEn(article.data.sources, en.data.sources) } };
+      const call = metaCaller(c, tcfg);
+      const links = await repairLinks({ locale, body: article.body, expected, call, log });
+      if (links?.repaired) article = { ...article, body: links.body };
+      const fit = await fitMetaFields({
+        data: article.data,
+        locale,
+        primary: article.data.keywords.primary,
+        call,
+        context: article.body.split("\n\n")[0]?.slice(0, 600) ?? "",
+        allowedNumbers: enNumbers,
+        factIndex: ctx.factIndex,
+        log,
+      });
+      return { ...article, data: fit.data };
+    },
+    check: async (article) => [
       ...checkArticle(article, ctx.checkCtx(locale)),
       ...checkArticleSet({ en, [locale]: article }, { factIndex: ctx.factIndex }).filter((e) => e.startsWith(`${locale}:`) || e.startsWith(`parity: ${locale}`)),
       ...(article.data.sources.map((s) => s.url).join("|") !== enUrls ? [`${locale}: sources must keep the EN URLs in the same order`] : []),
-    ];
-    if (!errors.length) return article;
-    log(`[translate-${locale}#${attempt}] ${errors.length} issue(s):\n  - ${errors.join("\n  - ")}`);
-    previous = out;
-  }
-  throw new Error(`${locale.toUpperCase()} translation failed guardrails after ${ATTEMPTS} attempts:\n- ${errors.join("\n- ")}`);
+      ...(await bodyLinkChecks(article, locale)),
+    ],
+  });
 }
 
 function printOutline(item, reason, ctx, outline) {
