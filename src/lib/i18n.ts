@@ -1,6 +1,7 @@
 import en from "@/i18n/en.json";
 import fr from "@/i18n/fr.json";
 import de from "@/i18n/de.json";
+import { typeset } from "./typography";
 
 export const locales = ["en", "fr", "de"] as const;
 export type Locale = (typeof locales)[number];
@@ -37,7 +38,7 @@ export function t(locale: Locale, key: TKey): string {
   for (const part of key.split(".")) {
     cur = (cur as Record<string, unknown> | undefined)?.[part];
   }
-  return typeof cur === "string" ? cur : key;
+  return typeof cur === "string" ? typeset(locale, cur) : key;
 }
 
 /** Replace {name} placeholders. */
