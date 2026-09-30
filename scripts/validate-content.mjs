@@ -25,6 +25,7 @@ const DIR_TO_COLLECTION = { guides: "guides", services: "services", cantons: "ca
 const errors = [];
 const warnings = [];
 const fail = (msg) => errors.push(msg);
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- kept for future non-fatal checks
 const warn = (msg) => warnings.push(msg);
 
 // ---------- 1. i18n key parity ----------
@@ -143,7 +144,8 @@ for (const locale of LOCALES) {
   }
 }
 
-// translation completeness (warn)
+// translation completeness (fail): every published page exists in all locales,
+// unless its frontmatter sets `singleLocale: true` (e.g. a France-only FR article)
 const byKey = new Map();
 for (const c of content.filter((x) => !x.draft)) {
   const k = `${c.collection}:${c.data.translationKey}`;
@@ -152,7 +154,8 @@ for (const c of content.filter((x) => !x.draft)) {
 }
 for (const [k, locs] of byKey) {
   const missing = LOCALES.filter((l) => !locs.has(l));
-  if (missing.length) warn(`content: ${k} has no published version in: ${missing.join(", ")}`);
+  const single = content.some((c) => `${c.collection}:${c.data.translationKey}` === k && c.data.singleLocale === true);
+  if (missing.length && !single) fail(`content: ${k} has no published version in: ${missing.join(", ")}`);
 }
 // duplicate translationKey within one locale
 const seen = new Set();
