@@ -1,6 +1,6 @@
 ---
-title: "Permis indépendant Suisse hors UE : voie entrepreneur"
-description: "Le permis indépendant suisse hors UE permet de créer une entreprise : conditions, quotas, SEM, famille, renouvellement et étapes cantonales."
+title: "Permis indépendant en Suisse pour fondateurs hors UE"
+description: "Comment un fondateur hors UE obtient un permis indépendant en Suisse : conditions de l’art. 19 LEI, approbation du SEM, quotas, famille et renouvellement."
 slug: "self-employed-permit-non-eu"
 translationKey: "self-employed-permit-non-eu"
 collection: guides
@@ -21,7 +21,7 @@ keywords:
 faq:
   - q: "Comment un ressortissant hors UE peut-il obtenir un permis indépendant en Suisse ?"
     a: "Vous déposez une demande selon l’art. 19 LEI en présentant un business plan crédible et en démontrant que l’activité est dans l’intérêt économique général de la Suisse, avec évaluation cantonale et approbation obligatoire du SEM."
-  - q: "La création d’une société garantit-elle un permis de séjour Suisse ?"
+  - q: "La création d’une société garantit-elle un permis de séjour en Suisse ?"
     a: "Non. La création d’une société ne donne aucun droit automatique de résidence en Suisse ; les autorités évaluent l’intérêt économique, la viabilité, les quotas et les critères personnels au cas par cas."
   - q: "Quels documents sont requis pour une demande de permis indépendant ?"
     a: "Le SEM attend un business plan (activités, financement, marché, personnel, investissements, chiffre d’affaires et bénéfice), des preuves de financement, et des documents de constitution tels que l’acte ou l’extrait du registre du commerce ; les cantons peuvent exiger des éléments supplémentaires."
@@ -41,7 +41,7 @@ sources:
   - label: "OASA (Ordonnance sur l’admission, le séjour et l’activité lucrative) — art. 62 (renouvellement)"
     url: "https://www.fedlex.admin.ch/eli/cc/2007/759/de#art_62"
 ---
-Si vous êtes fondateur hors UE/AELE, la **voie du permis indépendant suisse hors UE** est la principale façon de vivre en Suisse **et** d’y exploiter votre propre entreprise. Il s’agit d’une procédure discrétionnaire : il faut présenter un business plan crédible et le canton doit démontrer que votre activité est dans l’intérêt économique général de la Suisse, avec **approbation obligatoire du Secrétariat d’État aux migrations (SEM)**.
+Si vous êtes fondateur hors UE/AELE, le permis indépendant est la principale façon de vivre en Suisse **et** d’y exploiter votre propre entreprise. Il s’agit d’une procédure discrétionnaire : il faut présenter un business plan crédible et le canton doit démontrer que votre activité est dans l’intérêt économique général de la Suisse, avec **approbation obligatoire du Secrétariat d’État aux migrations (SEM)**.
 
 **Points clés (septembre 2026)**
 
@@ -84,9 +84,9 @@ La demande est traitée d’abord au niveau cantonal (lieu d’implantation de l
 
 Note pratique : de nombreux fondateurs doivent aussi coordonner immigration, logement, scolarité et logistique d’installation. Notre guide **[Services de relocation en Suisse : ce qu’un partenaire relocation fait pour une famille](/fr/guides/relocation-services-switzerland/)** vous aide à planifier ces aspects sans perdre de vue le dossier permis.
 
-## La création d’une société garantit-elle un permis de séjour Suisse ?
+## La création d’une société garantit-elle un permis de séjour en Suisse ?
 
-Non. Une confusion fréquente derrière les recherches « **permis de séjour suisse via société** » est que l’enregistrement d’une société suisse déclencherait automatiquement un droit de séjour.
+Non. Une confusion fréquente consiste à croire que l’enregistrement d’une société suisse donnerait automatiquement un permis de séjour, ou du moins un droit de séjour.
 
 Les directives du SEM précisent que **constituer une société ne donne pas en soi un droit de résidence**. C’est un élément de preuve, mais la vraie question reste de savoir si vous remplissez les critères de l’art. 19 (intérêt économique, viabilité, revenu indépendant, quotas et critères personnels), et si le SEM approuve la proposition cantonale.
 
@@ -155,9 +155,9 @@ Les délais sont importants. Selon **l’art. 47 LEI**, le regroupement familial
 
 Si vous préparez un déménagement familial, il est utile de planifier les étapes tôt (recherche de logement, inscriptions scolaires, timing d’arrivée). Notre **[checklist des 90 premiers jours en Suisse](/fr/guides/first-90-days-checklist/)** est un compagnon pratique une fois votre installation lancée.
 
-## Comment le permis indépendant se compare-t-il aux autres options de résidence Suisse ?
+## Comment le permis indépendant se compare-t-il aux autres options de résidence en Suisse ?
 
-Les personnes qui recherchent « **comment obtenir un permis de travail suisse** » confondent souvent les voies permettant une activité lucrative et celles qui ne le permettent pas. Pour les ressortissants hors UE, la distinction est cruciale.
+Lorsqu’on se demande comment obtenir un permis de travail en Suisse, on confond souvent les voies permettant une activité lucrative et celles qui ne le permettent pas. Pour les ressortissants hors UE, la distinction est cruciale.
 
 | Voie | Pour qui | Activité lucrative en Suisse ? | Ce que les autorités examinent |
 |---|---|---|---|

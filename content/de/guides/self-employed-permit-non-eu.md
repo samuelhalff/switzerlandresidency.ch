@@ -41,7 +41,7 @@ sources:
   - label: "VZAE (Verordnung über Zulassung, Aufenthalt und Erwerbstätigkeit) — Art. 62 (Verlängerungsgründe)"
     url: "https://www.fedlex.admin.ch/eli/cc/2007/759/de#art_62"
 ---
-Wenn Sie als Gründer aus einem Drittstaat kommen, ist die Route "selbständig in der Schweiz als Drittstaatsangehöriger" der zentrale Weg, um in der Schweiz zu leben **und** Ihr eigenes Unternehmen zu führen. Das Verfahren ist ermessensbasiert: Sie benötigen einen glaubwürdigen Geschäftsplan und der Kanton muss belegen, dass Ihre Tätigkeit im gesamtwirtschaftlichen Interesse der Schweiz liegt – mit **obligatorischer Genehmigung durch das Staatssekretariat für Migration (SEM)**.
+Wenn Sie als Drittstaatsangehöriger selbständig in der Schweiz arbeiten möchten, ist die Bewilligung für eine selbständige Erwerbstätigkeit der zentrale Weg, um hier zu leben **und** Ihr eigenes Unternehmen zu führen. Das Verfahren ist ermessensbasiert: Sie benötigen einen glaubwürdigen Geschäftsplan und der Kanton muss belegen, dass Ihre Tätigkeit im gesamtwirtschaftlichen Interesse der Schweiz liegt – mit **obligatorischer Genehmigung durch das Staatssekretariat für Migration (SEM)**.
 
 **Das Wichtigste in Kürze (Stand September 2026)**
 
@@ -86,7 +86,7 @@ Praxis-Tipp: Viele Gründer müssen auch Einwanderung, Wohnungssuche, Schule und
 
 ## Garantiert die Firmengründung eine Aufenthaltsbewilligung?
 
-Nein. Ein häufiger Irrtum bei Suchanfragen wie "**aufenthaltsbewilligung schweiz durch firma**" ist, dass die Registrierung einer Schweizer Firma automatisch ein Aufenthaltsrecht auslöst.
+Nein. Ein häufiger Irrtum ist, dass die Registrierung einer Schweizer Firma automatisch eine Aufenthaltsbewilligung oder zumindest ein Aufenthaltsrecht auslöst.
 
 Die SEM-Weisung stellt klar, dass **die Gründung einer Firma allein kein Aufenthaltsrecht begründet**. Sie dient als unterstützender Nachweis, während die eigentliche Prüfung sich auf die Art. 19-Kriterien (wirtschaftliches Interesse, Tragfähigkeit, selbständiges Einkommen, Quoten und persönliche Voraussetzungen) und die SEM-Genehmigung konzentriert.
 
@@ -157,7 +157,7 @@ Wenn Sie einen Familienumzug planen, hilft es, die Schritte früh zu koordiniere
 
 ## Wie unterscheidet sich die selbständige Bewilligung von anderen Schweizer Aufenthaltsoptionen?
 
-Viele, die "**aufenthaltsbewilligung schweiz als deutscher**" oder "**wie bekommt man eine arbeitsbewilligung schweiz**" recherchieren, vermischen Wege mit und ohne Erwerbstätigkeit. Für Drittstaatsangehörige ist die Unterscheidung wichtig.
+Wer sich fragt, wie man eine Arbeitsbewilligung in der Schweiz bekommt, vermischt oft Wege mit und ohne Erwerbstätigkeit. Für Drittstaatsangehörige ist die Unterscheidung wichtig.
 
 | Route | Für wen geeignet | Erwerbstätigkeit in CH? | Fokus der Behörden |
 |---|---|---|---|

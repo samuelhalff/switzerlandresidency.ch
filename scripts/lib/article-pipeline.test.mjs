@@ -12,12 +12,15 @@ import {
   countWords,
   extractFigures,
   extractNumbers,
+  isQueryShaped,
   lastGeneratedCategory,
   loadBacklog,
   loadCategories,
   markDone,
   normalizeNumber,
   pickTopic,
+  rawKeywordIssues,
+  searchMetaIssues,
   selectLegalFacts,
   serializeGuide,
   stripUnverified,
@@ -308,5 +311,70 @@ describe("review follow-ups", () => {
     fr.data.description = fr.data.description.replace("CHF 435 000", "CHF 999 000");
     const errors = checkArticleSet({ en, fr, de: fixtureArticle("de") }, { factsCorpus: stripUnverified(LEGAL) }).join("\n");
     expect(errors).toMatch(/fr: title\/description has figures not in the article: 999000/);
+  });
+});
+
+describe("keyword stuffing guardrails", () => {
+  it("tells query-shaped keywords from natural phrases", () => {
+    expect(isQueryShaped("self employed permit switzerland non eu", "en")).toBe(true);
+    expect(isQueryShaped("work permit switzerland non eu", "en")).toBe(true);
+    expect(isQueryShaped("moving to geneva with children", "en")).toBe(false);
+    expect(isQueryShaped("aufenthaltsbewilligung schweiz als deutscher", "de")).toBe(true);
+    expect(isQueryShaped("selbständig in der schweiz als drittstaatsangehöriger", "de")).toBe(false);
+    expect(isQueryShaped("permis indépendant suisse hors ue", "fr")).toBe(false);
+    expect(isQueryShaped("liste des permis en suisse", "fr")).toBe(false);
+  });
+
+  it("rejects raw lowercase queries, bolded/quoted queries and capitalised query-shaped titles", () => {
+    const kws = ["self employed permit switzerland non eu", "swiss residence permit through company", "moving to geneva with children"];
+    expect(rawKeywordIssues("The **self employed permit switzerland non eu** route is the main way.", kws, "en").join()).toMatch(/self employed permit switzerland non eu/);
+    expect(rawKeywordIssues("Self employed permit Switzerland non EU: self-employed route", kws, "en")).toHaveLength(1);
+    expect(rawKeywordIssues("Many ask about a “swiss residence permit through company”.", kws, "en")).toHaveLength(1);
+    expect(rawKeywordIssues("Many ask about a “Swiss residence permit through company”.", kws, "en")).toHaveLength(1);
+    expect(rawKeywordIssues("Some tips on **moving to geneva with children** below.", kws, "en")).toHaveLength(1);
+    expect(rawKeywordIssues("Ein Irrtum: \"selbständig in der schweiz als drittstaatsangehöriger\" reicht.", ["selbständig in der schweiz als drittstaatsangehöriger"], "de")).toHaveLength(1);
+    expect(rawKeywordIssues("La **liste des permis en suisse** change.", ["liste des permis en suisse"], "fr")).toHaveLength(1);
+  });
+
+  it("accepts natural uses of the same keywords", () => {
+    const kws = ["self employed permit switzerland non eu", "swiss residence permit through company", "moving to geneva with children", "self employed in switzerland"];
+    for (const t of [
+      "Self-employed permit in Switzerland for non-EU founders",
+      "A Swiss residence permit through company formation alone is not possible.",
+      "Moving to Geneva with children takes planning.",
+      "Being self employed in Switzerland means registering with the canton.",
+    ])
+      expect(rawKeywordIssues(t, kws, "en")).toEqual([]);
+    expect(rawKeywordIssues("Wenn Sie als Drittstaatsangehöriger selbständig in der Schweiz arbeiten möchten.", ["selbständig in der schweiz als drittstaatsangehöriger"], "de")).toEqual([]);
+    expect(rawKeywordIssues("Pour la plupart, la liste des permis en Suisse reste stable.", ["liste des permis en suisse"], "fr")).toEqual([]);
+    expect(rawKeywordIssues("short one swiss eu", ["short one swiss"], "en")).toEqual([]); // < 4 words: not checked
+  });
+
+  it("rejects meta-phrases about searches in EN/FR/DE", () => {
+    expect(searchMetaIssues("A misunderstanding behind searches like this one.", "en")).toHaveLength(1);
+    expect(searchMetaIssues("People researching “how to get a permit” mix things up.", "en")).toHaveLength(1);
+    expect(searchMetaIssues("Many people search for residence options.", "en")).toHaveLength(1);
+    expect(searchMetaIssues("Common search queries include permits.", "en")).toHaveLength(1);
+    expect(searchMetaIssues("Une confusion derrière les recherches comme celle-ci.", "fr")).toHaveLength(1);
+    expect(searchMetaIssues("Les personnes qui recherchent « comment obtenir un permis » confondent.", "fr")).toHaveLength(1);
+    expect(searchMetaIssues("Ein Irrtum bei Suchanfragen wie dieser.", "de")).toHaveLength(1);
+    expect(searchMetaIssues('Viele, die "wie bekommt man eine Bewilligung" recherchieren, irren.', "de")).toHaveLength(1);
+    // Ordinary uses of "search"/"recherche"/"Suche" stay allowed
+    expect(searchMetaIssues("Plan the housing search early; start your search for a school in spring.", "en")).toEqual([]);
+    expect(searchMetaIssues("La recherche de logement prend du temps ; ceux qui cherchent à s’installer doivent anticiper.", "fr")).toEqual([]);
+    expect(searchMetaIssues("Die Wohnungssuche dauert; wer eine Schule sucht, plant früh.", "de")).toEqual([]);
+    expect(searchMetaIssues("Check the permit type “B” on your card.", "en")).toEqual([]);
+    expect(searchMetaIssues("L’autorité cherche « un intérêt économique » concret.", "fr")).toEqual([]);
+    expect(searchMetaIssues("Das SEM sucht „nachhaltige Effekte“ für den Arbeitsmarkt.", "de")).toEqual([]);
+    expect(searchMetaIssues("Wer nach „Bewilligung Schweiz Firma“ sucht, irrt oft.", "de")).toHaveLength(1);
+  });
+
+  it("checkArticle reports a pasted query and a search meta-phrase", () => {
+    const links = new Set(buildAllowedLinks(ROOT, "en").map((x) => x.url));
+    const a = structuredClone(fixtureArticle("en"));
+    a.body = a.body.replace("\n\n", "\n\nPeople searching for “**tax residency switzerland rules**” often get this wrong.\n\n");
+    const errors = checkArticle(a, { locale: "en", slug: "swiss-tax-residency", category: "tax-and-wealth", categories: loadCategories(ROOT), allowedLinks: links }).join("\n");
+    expect(errors).toMatch(/keyword "tax residency switzerland rules" pasted as a raw search query/);
+    expect(errors).toMatch(/talks about searches\/keywords/);
   });
 });

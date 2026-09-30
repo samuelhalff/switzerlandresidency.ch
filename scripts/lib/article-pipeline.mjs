@@ -902,6 +902,118 @@ export function keywordCoverage(keyword, text) {
   return kw.filter((t) => hay.has(t) || [...hay].some((h) => h.startsWith(t.slice(0, 5)))).length / kw.length;
 }
 
+// ---------------------------------------------------------------------------
+// Keyword stuffing: raw search queries pasted verbatim, meta-talk about "searches"
+// ---------------------------------------------------------------------------
+
+/** Words that are capitalised in natural prose (countries, blocs, cities, authorities, permit letters). */
+const PROPER_WORDS = {
+  en: "switzerland swiss eu efta uk us usa europe european britain british geneva zurich zug vaud ticino basel bern berne lausanne lugano lucerne sem aig b c l g",
+  fr: "ue aele genève zurich zoug vaud tessin bâle berne lausanne lugano lucerne europe france royaume-uni sem lei b c l g",
+  de: "schweiz eu efta europa deutschland deutscher deutsche genf zürich zug waadt tessin basel bern lausanne lugano luzern sem aig b c l g",
+};
+/** Words after which a proper noun reads naturally ("in Switzerland", "hors UE", "in der Schweiz"). */
+const FUNCTION_WORDS = {
+  en: "in to for of from the a an and or with into at as by outside within via across",
+  fr: "en de du des la le les l à au aux pour et ou avec dans hors par sur via vers",
+  de: "in der die das den dem des nach aus für und oder mit von zur zum im ins als ohne bei über via",
+};
+const wordSet = (s) => new Set(s.split(" "));
+const PROPER = Object.fromEntries(Object.entries(PROPER_WORDS).map(([l, s]) => [l, wordSet(s)]));
+const FUNCTION = Object.fromEntries(Object.entries(FUNCTION_WORDS).map(([l, s]) => [l, wordSet(s)]));
+
+const kwWords = (kw) => String(kw ?? "").trim().toLowerCase().split(/\s+/).filter(Boolean);
+/** FR "suisse" is a lowercase adjective ("permis suisse") but a capitalised noun after en/la/de ("en Suisse"). */
+const isProper = (words, i, locale) =>
+  (PROPER[locale] ?? PROPER.en).has(words[i]) || (locale === "fr" && words[i] === "suisse" && i > 0 && ["en", "la", "de", "du", "à"].includes(words[i - 1]));
+
+/**
+ * A keyword that cannot be a natural phrase in any casing: a proper noun stacked straight after
+ * a content word ("permit switzerland", "non eu", "aufenthaltsbewilligung schweiz").
+ */
+export function isQueryShaped(keyword, locale = "en") {
+  const w = kwWords(keyword);
+  const fn = FUNCTION[locale] ?? FUNCTION.en;
+  return w.some((t, i) => i > 0 && isProper(w, i, locale) && !fn.has(w[i - 1]));
+}
+
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const WRAP_BEFORE = /(?:\*\*?|__?|["“„«‘'`])\s?$/;
+const WRAP_AFTER = /^\s?(?:\*\*?|__?|["”“»’'`])/;
+const QUOTE_BEFORE = /["“„«‘]\s?(?:\*\*?|__?)?$/;
+const QUOTE_AFTER = /^(?:\*\*?|__?)?\s?["”“»’]/;
+
+/**
+ * Raw search queries pasted into the prose. Only keywords of ≥ 4 words are checked. An
+ * occurrence is rejected when the keyword is query-shaped (any casing), when it is quoted
+ * verbatim (any casing: "people search for “…”"), or when it appears all-lowercase and either contains a word that should be capitalised or is wrapped in bold,
+ * italics or quotes. A naturally capitalised, grammatical use of the same words passes.
+ * @returns {string[]} one message per offending keyword
+ */
+export function rawKeywordIssues(text, keywords, locale = "en") {
+  const out = [];
+  const s = String(text ?? "");
+  for (const kw of new Set((keywords ?? []).map((k) => kwWords(k).join(" ")).filter(Boolean))) {
+    const w = kw.split(" ");
+    if (w.length < 4) continue;
+    const shaped = isQueryShaped(kw, locale);
+    const hasProper = w.some((_, i) => isProper(w, i, locale));
+    const re = new RegExp(`(?<![\\p{L}\\p{N}])${w.map(escapeRe).join("\\s+")}(?![\\p{L}\\p{N}])`, "giu");
+    for (const m of s.matchAll(re)) {
+      const lower = m[0] === m[0].toLowerCase();
+      const wrapped = WRAP_BEFORE.test(s.slice(Math.max(0, m.index - 3), m.index)) && WRAP_AFTER.test(s.slice(m.index + m[0].length, m.index + m[0].length + 3));
+      const quoted = QUOTE_BEFORE.test(s.slice(Math.max(0, m.index - 4), m.index)) && QUOTE_AFTER.test(s.slice(m.index + m[0].length, m.index + m[0].length + 4));
+      if (shaped || quoted || (lower && (hasProper || wrapped))) {
+        const ctx = s.slice(Math.max(0, m.index - 40), m.index + m[0].length + 40).replace(/\s+/g, " ").trim();
+        out.push(`keyword "${kw}" pasted as a raw search query — write it as natural prose (capitals, hyphens, grammar): "…${ctx}…"`);
+        break;
+      }
+    }
+  }
+  return out;
+}
+
+/** Meta-talk about searches/keywords instead of the topic itself. */
+const SEARCH_META = {
+  en: [
+    /\bsearch(?:es|ed)?\s+(?:like|such as)\b/iu,
+    /\bsearch\s+(?:quer(?:y|ies)|terms?|phrases?|intent)\b/iu,
+    /\b(?:people|users|many|readers|founders|expats|families)\s+(?:often\s+|commonly\s+|who\s+)?(?:search(?:es|ing)?\s+for|google|googling|look\s+up)\b/iu,
+    /\b(?:search(?:es|ing|ed)?|researching|googl(?:e|es|ing|ed)|typ(?:e|es|ing|ed)\s+in(?:to)?)\s+(?:for\s+)?[“"«„‘]/iu,
+    /\bgoogle\s+search(?:es)?\b/iu,
+    /\bkeywords?\b/iu,
+  ],
+  fr: [
+    /(?<![\p{L}])recherches?\s+(?:comme|du type|de type|telles? que|google|en ligne)(?![\p{L}])/iu,
+    /(?<![\p{L}])requêtes?\s+(?:de recherche|comme|google|du type|telles? que)(?![\p{L}])/iu,
+    /(?<![\p{L}])(?:recherchent|recherchez|tapent|tapez|googlent|googlez|cherchent sur google)\s+[«“"„]/iu,
+    /(?<![\p{L}])internautes(?![\p{L}])/iu,
+    /(?<![\p{L}])mots?[- ]clés?(?![\p{L}])/iu,
+  ],
+  de: [
+    /(?<![\p{L}])such(?:anfrage|begriff)\p{L}*/iu,
+    /(?<![\p{L}])suchen\s+wie(?![\p{L}])/iu,
+    /(?<![\p{L}])(?:googeln|gegoogelt|keywords?)(?![\p{L}])/iu,
+    /(?<![\p{L}])(?:recherchieren|recherchiert|googeln|googelt|eingeben|eintippen|suchen\s+nach|sucht\s+nach)\s+[„"«“]/iu,
+    /[„"«“][^„"«“”»\n]{3,120}[“"»”]\s+(?:recherchier|googel|eingeb|eintipp)\p{L}*/iu,
+    /(?<![\p{L}])nach\s+[„"«“][^„"«“”»\n]{3,120}[“"»”]\s+(?:such|googel)\p{L}*/iu,
+  ],
+};
+
+/** @returns {string[]} one message per meta-phrase about searches found in `text` */
+export function searchMetaIssues(text, locale = "en") {
+  const out = [];
+  const s = String(text ?? "");
+  for (const re of SEARCH_META[locale] ?? SEARCH_META.en) {
+    const m = s.match(re);
+    if (m) {
+      const ctx = s.slice(Math.max(0, m.index - 40), m.index + m[0].length + 40).replace(/\s+/g, " ").trim();
+      out.push(`talks about searches/keywords ("${m[0].trim()}") — write about the topic, not about what people search: "…${ctx}…"`);
+    }
+  }
+  return out;
+}
+
 /**
  * Guardrails for one locale of the new guide.
  * @param {{ data: object, body: string }} article
@@ -1002,6 +1114,8 @@ export function checkArticle(article, ctx) {
   const allText = `${title}\n${desc}\n${body}\n${faq.map((f) => `${f.q}\n${f.a}`).join("\n")}`;
   for (const err of checkContentRules(allText, { factIndex: ctx.factIndex })) e(err);
   if (/\bTODO\b|lorem/i.test(allText)) e(`contains TODO/lorem`);
+  for (const err of rawKeywordIssues(allText, [kw?.primary, ...(Array.isArray(kw?.secondary) ? kw.secondary : [])], locale)) e(err);
+  for (const err of searchMetaIssues(allText, locale)) e(err);
 
   // Keywords in the right places
   if (kw?.primary) {

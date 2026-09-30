@@ -1,6 +1,6 @@
 ---
-title: "Self employed permit Switzerland non EU: self-employed route"
-description: "Learn the self employed permit switzerland non eu route for founders: key requirements, SEM approval, quotas, family rules, renewals and cantonal steps."
+title: "Self-employed permit in Switzerland for non-EU founders"
+description: "How non-EU founders get a self-employed permit in Switzerland: art. 19 AIG requirements, SEM approval, quotas, family rules and the renewal process."
 slug: "self-employed-permit-non-eu"
 translationKey: "self-employed-permit-non-eu"
 collection: guides
@@ -42,7 +42,7 @@ sources:
   - label: "VZAE (Ordinance on Admission, Period of Stay and Employment) — art. 62 (renewal grounds)"
     url: "https://www.fedlex.admin.ch/eli/cc/2007/759/de#art_62"
 ---
-If you are a founder from outside the EU/EFTA, the **self employed permit switzerland non eu** route is the main way to live in Switzerland **and** run your own business here. It is a discretionary process: you need a credible business plan and the canton must be able to show that your activity is in Switzerland’s overall economic interest, with **mandatory approval by the State Secretariat for Migration (SEM)**.
+If you are a founder from outside the EU/EFTA, a self-employed permit is the main way to live in Switzerland **and** run your own business here. It is a discretionary process: you need a credible business plan and the canton must be able to show that your activity is in Switzerland’s overall economic interest, with **mandatory approval by the State Secretariat for Migration (SEM)**.
 
 **Key facts (as of September 2026)**
 
@@ -87,7 +87,7 @@ Practical note: many founders also need to align immigration, housing, schooling
 
 ## Does company formation guarantee a Swiss residence permit?
 
-No. A common misunderstanding behind searches like “**swiss residence permit through company**” is that a Swiss company registration automatically triggers a right to live in Switzerland.
+No. A common misunderstanding is that registering a Swiss company automatically gives you a Swiss residence permit, or at least a right to live in Switzerland.
 
 SEM’s guidance is clear that **incorporating a company does not by itself give you a right of residence**. It is treated as supporting evidence, while the real question remains whether you meet the art. 19 requirements (economic interest, viability, independent livelihood, quotas and personal requirements), and whether SEM approves the cantonal proposal.
 
@@ -158,7 +158,7 @@ If you are planning a family move, it can help to map the steps early (housing s
 
 ## How does the self-employed permit compare to other Swiss residence options?
 
-People researching “**how to get a swiss work permit**” often mix up routes that allow work with routes that do not. For non-EU nationals, the distinction matters.
+When non-EU nationals look into how to get a Swiss work permit, they often mix up routes that allow work with routes that do not. The distinction matters.
 
 | Route | Who it suits | Work in Switzerland? | What the authorities focus on |
 |---|---|---|---|

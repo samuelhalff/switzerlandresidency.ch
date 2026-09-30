@@ -7,7 +7,8 @@
  *   - cleanSources(): drop sources that are relative/internal, malformed, outside the source
  *     policy or absent from the fact base. Never invents a replacement; if too few remain,
  *     checkArticle still reports it.
- *   - fitMetaFields(): title > 60 or description outside 140–155 → up to 3 small "rewrite to
+ *   - fitMetaFields(): title > 60, description outside 140–155, or either pasting the raw primary
+ *     keyword query ("Self employed permit Switzerland non EU") → up to 3 small "rewrite to
  *     ≤ N characters, keep the keyword" calls with the rejected candidates fed back.
  *   - expectedLinks() / linkParity() / repairLinks(): every EN body link must survive translation
  *     (internal paths mapped to the locale); one targeted call puts dropped links back.
@@ -18,7 +19,7 @@
  *
  * The model is injected as `call(prompt, label) → Promise<object>` so tests can mock it.
  */
-import { checkContentRules, countWords, extractFigures, keywordCoverage } from "./article-pipeline.mjs";
+import { checkContentRules, countWords, extractFigures, keywordCoverage, rawKeywordIssues, searchMetaIssues } from "./article-pipeline.mjs";
 import { classifySource } from "./source-policy.mjs";
 import { startsWithLowercase } from "./title-case.mjs";
 
@@ -121,12 +122,18 @@ export function alignSourcesToEn(localeSources, enSources) {
 // Title / description length fitting
 // ---------------------------------------------------------------------------
 
-/** Title/description outside the limits. */
-export function metaProblems(data) {
+/**
+ * Title/description outside the limits, or (with `primary`) pasting the primary keyword as a raw
+ * search query — normalizeArticleCasing() only capitalises such a query ("Self employed permit
+ * Switzerland non EU"), so it has to be rewritten as a natural phrase instead.
+ */
+export function metaProblems(data, { primary = "", locale = "en" } = {}) {
   const out = [];
   for (const [field, lim] of Object.entries(META_LIMITS)) {
-    const len = String(data?.[field] ?? "").trim().length;
+    const value = String(data?.[field] ?? "").trim();
+    const len = value.length;
     if (len < lim.min || len > lim.max) out.push({ field, length: len, min: lim.min, max: lim.max });
+    else if (primary && rawKeywordIssues(value, [primary], locale).length) out.push({ field, length: len, min: lim.min, max: lim.max, reason: "raw-query" });
   }
   return out;
 }
@@ -143,6 +150,8 @@ export function fieldMisfit(field, value, { primary = "", original = "", allowed
   if (startsWithLowercase(v)) return "starts with a lowercase letter";
   const rules = checkContentRules(v, { factIndex });
   if (rules.length) return `breaks a wording rule (${rules[0].split(":")[0]})`;
+  if (primary && rawKeywordIssues(v, [primary], locale).length) return `pastes the raw search query "${primary}" — write a natural, grammatical phrase`;
+  if (searchMetaIssues(v, locale).length) return "talks about searches/keywords";
   if (primary) {
     const need = Math.min(0.5, keywordCoverage(primary, original));
     if (keywordCoverage(primary, v) < need) return `lost the primary keyword "${primary}"`;
@@ -156,7 +165,12 @@ export function fieldMisfit(field, value, { primary = "", original = "", allowed
 
 export function buildShortenPrompt({ locale, fields, primary, context = "" }) {
   const lines = fields.map((f) => {
-    const verb = f.length > f.max ? `shorten to AT MOST ${f.max} characters` : `lengthen to AT LEAST ${f.min} characters`;
+    const verb =
+      f.reason === "raw-query"
+        ? `rewrite as a natural, grammatical phrase — it pastes the raw search query "${primary}"; use correct capitalisation and hyphenation (e.g. "Self-employed permit in Switzerland for non-EU founders", not "Self employed permit Switzerland non EU")`
+        : f.length > f.max
+          ? `shorten to AT MOST ${f.max} characters`
+          : `lengthen to AT LEAST ${f.min} characters`;
     const range = f.min > 1 ? `allowed range ${f.min}–${f.max} characters` : `maximum ${f.max} characters`;
     const rejected = (f.rejected ?? []).map((r) => `\n  Rejected earlier: ${JSON.stringify(r.value)} — ${r.reason}`).join("");
     return `- ${f.field} (currently ${f.length} characters): ${verb} — ${range}; ${primary.length > f.max - 15 ? `the primary keyword "${primary}" is too long to fit whole — keep its main words (at least half of them, reordered or inflected as natural)` : `keep the primary keyword "${primary}" (its words may be reordered or inflected, not dropped)`}.\n  Current: ${JSON.stringify(f.value)}${rejected}`;
@@ -164,6 +178,7 @@ export function buildShortenPrompt({ locale, fields, primary, context = "" }) {
   return [
     `Rewrite the following ${LANGUAGE[locale] ?? locale} metadata fields of a Swiss residence guide so that each fits its character limit.`,
     "Keep the meaning, the language and the calm, factual tone. Keep every number exactly; do not add facts or figures. No prices, no promises, no guarantees. Start with a capital letter.",
+    "Write natural, grammatical wording: work the keyword in as a real phrase (correct capitals and hyphens, prepositions where needed); never paste a search query verbatim and never mention searches or keywords.",
     "Count characters including spaces; aim a few characters inside the limit (title ≤ 57, description 145–152).",
     "Give 3 different candidates per field, shortest last; each must fit on its own.",
     "",
@@ -186,9 +201,9 @@ export async function fitMetaFields({ data, locale, primary, call, rounds = 3, c
   const fixed = [];
   const rejected = {};
   for (let round = 1; round <= rounds; round++) {
-    const bad = metaProblems(current).map((f) => ({ ...f, value: String(current[f.field] ?? ""), rejected: rejected[f.field] ?? [] }));
+    const bad = metaProblems(current, { primary, locale }).map((f) => ({ ...f, value: String(current[f.field] ?? ""), rejected: rejected[f.field] ?? [] }));
     if (!bad.length) break;
-    log(`[fit-${locale}] ${bad.map((f) => `${f.field} ${f.length}→${f.length > f.max ? `≤${f.max}` : `≥${f.min}`}`).join(", ")} (round ${round}/${rounds})`);
+    log(`[fit-${locale}] ${bad.map((f) => `${f.field} ${f.reason === "raw-query" ? "raw query→natural" : `${f.length}→${f.length > f.max ? `≤${f.max}` : `≥${f.min}`}`}`).join(", ")} (round ${round}/${rounds})`);
     let out;
     try {
       out = await call(buildShortenPrompt({ locale, fields: bad, primary, context }), `shorten-${locale}#${round}`);
@@ -214,7 +229,7 @@ export async function fitMetaFields({ data, locale, primary, call, rounds = 3, c
       }
     }
   }
-  return { data: current, fixed, remaining: metaProblems(current) };
+  return { data: current, fixed, remaining: metaProblems(current, { primary, locale }) };
 }
 
 // ---------------------------------------------------------------------------

@@ -142,6 +142,25 @@ describe("title/description fitting", () => {
     expect(fieldMisfit("title", "Selbständige Erwerbstätigkeit: Bewilligung für Drittstaaten", o)).toBeNull();
   });
 
+  it("flags a title that only capitalises the raw query and asks for a natural rewrite (mocked model)", async () => {
+    const raw = "Self employed permit Switzerland non EU: self-employed route";
+    expect(metaProblems({ title: raw, description: goodDesc }, { primary, locale: "en" })).toEqual([{ field: "title", length: raw.length, min: 1, max: 60, reason: "raw-query" }]);
+    expect(metaProblems({ title: raw, description: goodDesc })).toEqual([]);
+    const o = { primary, original: raw, locale: "en" };
+    expect(fieldMisfit("title", raw, o)).toMatch(/raw search query/);
+    expect(fieldMisfit("title", "Self-employed permit: what people search for in Switzerland", o)).toMatch(/searches\/keywords/);
+    const prompts = [];
+    const call = vi.fn(async (prompt) => {
+      prompts.push(prompt);
+      return { title: ["Self employed permit Switzerland non EU founders", "Self-employed permit in Switzerland for non-EU founders"] };
+    });
+    const res = await fitMetaFields({ data: { title: raw, description: goodDesc }, locale: "en", primary, call });
+    expect(prompts[0]).toMatch(/rewrite as a natural, grammatical phrase/);
+    expect(prompts[0]).toMatch(/never paste a search query verbatim/);
+    expect(res.data.title).toBe("Self-employed permit in Switzerland for non-EU founders");
+    expect(res.remaining).toEqual([]);
+  });
+
   it("asks to lengthen a short description", () => {
     expect(buildShortenPrompt({ locale: "fr", primary: "permis", fields: [{ field: "description", length: 120, min: 140, max: 155, value: "x" }] })).toMatch(
       /lengthen to AT LEAST 140 characters — allowed range 140–155/,
