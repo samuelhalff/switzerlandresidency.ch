@@ -352,6 +352,8 @@ export function articleNumberText(article) {
   return `${article.body}\n${faq}`;
 }
 
+const metaText = (article) => `${article.data.title ?? ""}\n${article.data.description ?? ""}`;
+
 /** Compare the numeric facts of EN against each translation. Returns error strings. */
 export function checkNumberParity(articles) {
   const errors = [];
@@ -368,8 +370,8 @@ export function checkNumberParity(articles) {
 }
 
 const MONEY_OR_PERCENT = new RegExp(
-  String.raw`(?:CHF|Fr\.|EUR|€|USD|US\$|\$|£|GBP|AED)\s?(${NUM_TOKEN.source})|(${NUM_TOKEN.source})\s?(?:%|percent|per cent|pour cent|Prozent|€)`,
-  "g",
+  String.raw`(?:CHF|Fr\.|EUR|€|USD|US\$|\$|£|GBP|AED)\s?(${NUM_TOKEN.source})|(${NUM_TOKEN.source})\s?(?:%|percent\b|per cent\b|pour cent\b|Prozent\b|€|CHF\b|EUR\b|USD\b|GBP\b|AED\b|francs?\b|Franken\b|euros?\b|pounds?\b|dollars?\b)`,
+  "gi",
 );
 
 /** Money amounts and percentages in a text (normalised). */
@@ -378,6 +380,10 @@ export function extractFigures(text, locale) {
   for (const m of proseOnly(text).matchAll(MONEY_OR_PERCENT)) out.add(normalizeNumber(m[1] ?? m[2], locale));
   return out;
 }
+
+/** A currency amount in either order ("CHF 5,000" or "5 000 CHF"). */
+const CURRENCY_AMOUNT =
+  /(?:CHF|Fr\.|EUR|€|USD|\$|£|GBP|AED)\s?\d|\d[\d'’.,\u00a0\u202f ]*\s?(?:CHF|EUR|€|USD|GBP|AED|francs?|Franken|euros?|pounds?|dollars?)(?![\p{L}])/iu;
 
 /** Numbers that legal-facts only mentions inside UNVERIFIED sentences. */
 export function unverifiedOnlyNumbers(legalFactsMd) {
@@ -437,8 +443,8 @@ export const CONTENT_RULES = [
     id: "pricing",
     message: "pricing language (currency amount next to fee/price words)",
     test: (s) =>
-      /(?:CHF|Fr\.|EUR|€|USD|\$|£|GBP)\s?\d/.test(s) &&
-      /\b(fees?|prices?|priced|pricing|honoraires|prix|émoluments?|gebühr\w*|honorar\w*|preis\w*)\b/i.test(s),
+      CURRENCY_AMOUNT.test(s) &&
+      /(?<![\p{L}])(fees?|prices?|priced|pricing|honoraires|prix|émoluments?|gebühr\p{L}*|honorar\p{L}*|preis\p{L}*)(?![\p{L}])/iu.test(s),
   },
   {
     id: "our-fees",
@@ -634,7 +640,16 @@ export function checkArticleSet(articles, { factsCorpus = "", unverifiedNumbers 
   }
   errors.push(...checkNumberParity(articles));
 
-  const text = articleNumberText(en);
+  // Title/description may be phrased differently per language, but must not introduce figures
+  // that the article itself does not contain.
+  const enNumbers = extractNumbers(articleNumberText(en), "en");
+  for (const l of LOCALES) {
+    if (!articles[l]) continue;
+    const extra = [...extractFigures(metaText(articles[l]), l)].filter((n) => !enNumbers.has(n));
+    if (extra.length) errors.push(`${l}: title/description has figures not in the article: ${extra.join(", ")}`);
+  }
+
+  const text = `${articleNumberText(en)}\n${metaText(en)}`;
   if (factsCorpus) {
     const corpus = extractNumbers(factsCorpus, "en", { keepSmall: true });
     const ungrounded = [...extractFigures(text, "en")].filter((n) => !corpus.has(n));

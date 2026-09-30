@@ -273,6 +273,8 @@ async function sourceChecks(article, factText) {
   for (const s of article.data.sources) {
     const bare = s.url.split("#")[0];
     if (!factText.includes(bare)) errors.push(`en: source ${s.url} does not appear in the fact base (use only URLs given there)`);
+    const kind = classifySource(s.url);
+    if (kind !== "official" && kind !== "institutional") continue; // reported by checkArticle; never fetched
     const status = await urlStatus(s.url);
     if (status === 404 || status === 410) errors.push(`en: source ${s.url} returns HTTP ${status}`);
     else if (status === 0) console.warn(`[sources] could not reach ${s.url} (network) — not failing on this`);

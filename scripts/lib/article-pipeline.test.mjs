@@ -256,3 +256,19 @@ describe("article guardrails", () => {
     expect(parsed.content.trim()).toBe(articles.fr.body.trim());
   });
 });
+
+describe("review follow-ups", () => {
+  it("catches amounts written with the currency after the number", () => {
+    expect([...extractFigures("A filing fee of 5,000 CHF and 3 000 francs", "en")].sort()).toEqual(["3000", "5000"]);
+    expect(checkContentRules("A filing fee can be 5,000 CHF.").map((e) => e.split(":")[0])).toContain("pricing");
+    expect(checkContentRules("Une émolument de 5 000 CHF.").map((e) => e.split(":")[0])).toContain("pricing");
+  });
+
+  it("flags figures that only appear in title/description", () => {
+    const en = fixtureArticle("en");
+    const fr = fixtureArticle("fr");
+    fr.data.description = fr.data.description.replace("CHF 435 000", "CHF 999 000");
+    const errors = checkArticleSet({ en, fr, de: fixtureArticle("de") }, { factsCorpus: stripUnverified(LEGAL) }).join("\n");
+    expect(errors).toMatch(/fr: title\/description has figures not in the article: 999000/);
+  });
+});
