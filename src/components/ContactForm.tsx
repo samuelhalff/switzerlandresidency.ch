@@ -154,7 +154,7 @@ export default function ContactForm({ labels, extra, locale, formsparkId, whatsa
         <details className="group border-t border-line pt-4">
           <summary className="cursor-pointer list-none text-sm font-medium text-ink [&::-webkit-details-marker]:hidden">
             <span className="inline-flex items-center gap-2">
-              <span aria-hidden="true" className="inline-block transition-transform group-open:rotate-45">+</span>
+              <span aria-hidden="true" className="inline-block w-4 text-center text-lg leading-none text-accent transition-transform group-open:rotate-45">+</span>
               {extra.details}
             </span>
           </summary>

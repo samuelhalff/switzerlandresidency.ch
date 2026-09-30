@@ -93,3 +93,13 @@ No prices shown. Leads = contact form + WhatsApp + an interactive eligibility & 
 - Deploy workflow encodes protected-path excludes and a post-deploy smoke test
   (locale homes 200, `/_archive-2026-09-30/` 403).
 - .env stays local-only (gitignored, chmod 600); rotation is a user action.
+
+## Wave 2 site changes (2026-09-30)
+- `/for-advisers/` hub + `advisers` collection (`content/<locale>/advisers/`, same slug in all locales,
+  `/for-advisers/<slug>/`); "For advisers" in header/footer. Placeholder `referring-a-client` is a draft.
+- "Introduce a client" Formspark form (`form_type=adviser`, anonymous, no client-name field) on the hub
+  and at `/contact/?type=adviser`; contact form has optional folded qualification fields.
+  GA4 `generate_lead` method = form | check | adviser_form.
+- Frontmatter `cta: check | contact | adviser` (defaults: guides → check, services/cantons/origins →
+  contact, advisers → adviser). Heading/table-row anchors: see docs/CONTENT-GUIDE.md "Deep links".
+- Relocation vocabulary: home H1 line, services hub, settling-in display title, JSON-LD serviceType.

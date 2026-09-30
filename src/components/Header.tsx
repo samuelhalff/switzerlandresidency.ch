@@ -41,7 +41,7 @@ export default function Header({ locale }: { locale: Locale }) {
           <Logo />
         </Link>
         <nav aria-label={t(locale, "common.mainNav")} className="hidden lg:block">
-          <ul className="flex items-center gap-7 text-[0.95rem]">
+          <ul className="flex items-center gap-5 whitespace-nowrap text-[0.9rem] xl:gap-7 xl:text-[0.95rem]">
             {links.map((l) => (
               <li key={l.href}>
                 <Link href={l.href} className="underline-offset-[6px] transition-colors hover:underline">

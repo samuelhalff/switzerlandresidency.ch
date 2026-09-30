@@ -365,6 +365,11 @@ h4,
     box-shadow: inset 0 0 0 1px rgb(var(--line));
     transition: box-shadow 0.2s ease;
   }
+  /* Selects match text inputs in a shared row (browsers size them smaller by default). */
+  select.field {
+    min-height: calc(1.5rem + 1.0625rem * 1.7);
+    font-size: 1.0625rem;
+  }
   .field::placeholder {
     color: rgb(var(--muted) / 0.8);
   }
