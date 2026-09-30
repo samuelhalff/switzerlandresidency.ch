@@ -1,5 +1,5 @@
 ---
-title: "S’installer en Suisse : accompagnement à l’arrivée"
+title: "Relocation et installation en Suisse"
 description: "S’installer en Suisse après le permis : annonce à la commune, assurance maladie, écoles, banque, import de la voiture et du mobilier, et cotisations AVS."
 slug: "settling-in"
 translationKey: "settling-in"

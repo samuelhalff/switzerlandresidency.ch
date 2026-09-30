@@ -13,6 +13,17 @@ export function organizationLd() {
     "@id": ORG_ID,
     name: SITE_NAME,
     url: `${SITE_URL}/`,
+    description:
+      "Relocation services in Switzerland for private clients and families: residence permits, lump-sum taxation, tax rulings, property search, destination services and settling in.",
+    knowsAbout: [
+      "Relocation services",
+      "Destination services",
+      "Relocation to Switzerland",
+      "Swiss residence permits",
+      "Lump-sum taxation (forfait fiscal, Pauschalbesteuerung)",
+      "Swiss tax rulings",
+      "Lex Koller",
+    ],
     areaServed: "CH",
     knowsLanguage: ["en", "fr", "de"],
     parentOrganization: {
@@ -57,14 +68,16 @@ export function breadcrumbLd(crumbs: Crumb[]) {
   };
 }
 
-export function serviceLd(entry: Entry, url: string) {
+/** `serviceType` is the market term for the service (i18n services.items.<slug>.serviceType). */
+export function serviceLd(entry: Entry, url: string, serviceType?: string) {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
     name: entry.title,
     description: entry.description,
     url,
-    serviceType: entry.category || entry.title,
+    inLanguage: entry.locale,
+    serviceType: serviceType || entry.title,
     provider: { "@id": ORG_ID },
     areaServed: { "@type": "Country", name: "Switzerland" },
     audience: {

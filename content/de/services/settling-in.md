@@ -1,5 +1,5 @@
 ---
-title: "Umzug in die Schweiz: Unterstützung beim Einleben"
+title: "Relocation und Ankommen in der Schweiz"
 description: "Praktische Hilfe nach der Bewilligung: Anmeldung in der Gemeinde, Krankenkasse, Schulen, Bank, Einfuhr von Auto und Umzugsgut sowie AHV-Beiträge."
 slug: "settling-in"
 translationKey: "settling-in"

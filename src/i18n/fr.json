@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteName": "Switzerland Residency",
-    "homeTitle": "S'établir en Suisse : permis et forfait fiscal | Switzerland Residency",
-    "homeDescription": "Un accompagnement discret pour s'installer en Suisse en famille : permis, forfait fiscal, immobilier et arrivée. Votre parcours en 2 minutes.",
+    "homeTitle": "Services de relocation en Suisse : permis, forfait fiscal | Switzerland Residency",
+    "homeDescription": "Services de relocation en Suisse pour clients privés et familles : permis de séjour, forfait fiscal, logement et installation, en toute discrétion.",
     "ogLocale": "fr_CH",
     "tagline": "Un accompagnement serein et personnel pour les familles qui s'installent en Suisse."
   },
@@ -71,7 +71,8 @@
       "headline": "Faites de la Suisse votre chez-vous.",
       "headlineAccent": "chez-vous",
       "lead": "Permis, fiscalité, maison et écoles, organisés avec discrétion et dans votre langue.",
-      "credibility": "Membre du groupe Ark, Genève"
+      "credibility": "Membre du groupe Ark, Genève",
+      "h1": "Services de relocation en Suisse pour clients privés et leur famille"
     },
     "steps": {
       "title": "Notre démarche",
@@ -206,33 +207,39 @@
     "note": "Chaque situation est différente. Les permis et les arrangements fiscaux sont toujours décidés par les autorités suisses, et nous vous dirons honnêtement ce qui est réaliste."
   },
   "services": {
-    "title": "Prestations",
-    "description": "Permis de séjour, forfait fiscal, rulings, immobilier, installation et suivi fiscal et patrimonial pour les familles qui s'installent en Suisse.",
+    "title": "Services de relocation en Suisse",
+    "description": "Services de relocation en Suisse pour clients privés : permis de séjour, forfait fiscal, ruling, recherche immobilière, installation et suivi fiscal.",
     "intro": "Une seule équipe coordonnée pour chaque aspect de votre installation. Choisissez ce dont vous avez besoin, ou confiez-nous l'ensemble du parcours.",
     "items": {
       "residence-permit": {
         "title": "Permis de séjour",
-        "summary": "Le bon permis pour vous et votre famille, que vous veniez de l'UE ou d'ailleurs, et que vous prévoyiez de travailler ou non."
+        "summary": "Le bon permis pour vous et votre famille, que vous veniez de l'UE ou d'ailleurs, et que vous prévoyiez de travailler ou non.",
+        "serviceType": "Accompagnement pour permis de séjour"
       },
       "lump-sum-taxation": {
         "title": "Forfait fiscal",
-        "summary": "L'imposition d'après la dépense peut-elle s'appliquer à vous, comment se compare-t-elle à l'imposition ordinaire, et quels cantons la proposent ?"
+        "summary": "L'imposition d'après la dépense peut-elle s'appliquer à vous, comment se compare-t-elle à l'imposition ordinaire, et quels cantons la proposent ?",
+        "serviceType": "Conseil en forfait fiscal"
       },
       "tax-ruling": {
         "title": "Ruling fiscal",
-        "summary": "Une position claire de l'administration fiscale avant votre arrivée, pour décider en toute confiance."
+        "summary": "Une position claire de l'administration fiscale avant votre arrivée, pour décider en toute confiance.",
+        "serviceType": "Demande de ruling fiscal"
       },
       "property-search-purchase": {
         "title": "Recherche et achat immobilier",
-        "summary": "Trouver le bon logement à louer ou à acheter, en respectant les règles applicables aux acquéreurs étrangers."
+        "summary": "Trouver le bon logement à louer ou à acheter, en respectant les règles applicables aux acquéreurs étrangers.",
+        "serviceType": "Recherche immobilière et Lex Koller"
       },
       "settling-in": {
-        "title": "Installation",
-        "summary": "Écoles, assurance maladie, banque, voitures, personnel de maison et tous ces petits riens qui font d'un nouveau pays un vrai chez-soi."
+        "title": "Relocation et installation",
+        "summary": "Écoles, assurance maladie, banque, voitures, personnel de maison et tous ces petits riens qui font d'un nouveau pays un vrai chez-soi.",
+        "serviceType": "Services de relocation et d’installation"
       },
       "ongoing-tax-wealth": {
         "title": "Suivi fiscal et patrimonial",
-        "summary": "Déclarations d'impôt, questions de structuration patrimoniale et un interlocuteur de confiance sur place, année après année."
+        "summary": "Déclarations d'impôt, questions de structuration patrimoniale et un interlocuteur de confiance sur place, année après année.",
+        "serviceType": "Conseil fiscal pour clients privés"
       }
     },
     "detailCta": "En parler avec nous"

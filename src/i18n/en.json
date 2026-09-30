@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteName": "Switzerland Residency",
-    "homeTitle": "Move to Switzerland: residence, lump-sum tax & relocation | Switzerland Residency",
-    "homeDescription": "Discreet support for families relocating to Switzerland: permits, lump-sum taxation, property and settling in. Check your route in 2 minutes.",
+    "homeTitle": "Relocation services in Switzerland: permits, tax & home | Switzerland Residency",
+    "homeDescription": "Relocation services in Switzerland for private clients and families: residence permits, lump-sum taxation, home search and settling in, handled discreetly.",
     "ogLocale": "en_GB",
     "tagline": "Calm, personal guidance for families settling in Switzerland."
   },
@@ -71,7 +71,8 @@
       "headline": "Make Switzerland home.",
       "headlineAccent": "home",
       "lead": "Residence, tax, a house and schools, arranged discreetly and in your language.",
-      "credibility": "Part of the Ark group, Geneva"
+      "credibility": "Part of the Ark group, Geneva",
+      "h1": "Relocation services in Switzerland for private clients and their families"
     },
     "steps": {
       "title": "How it works",
@@ -206,33 +207,39 @@
     "note": "Each situation is different. Permits and tax arrangements are always decided by the Swiss authorities, and we will tell you honestly what is realistic."
   },
   "services": {
-    "title": "Services",
-    "description": "Residence permits, lump-sum taxation, tax rulings, property, settling in and ongoing tax and wealth support for families moving to Switzerland.",
+    "title": "Relocation services in Switzerland",
+    "description": "Relocation services in Switzerland for private clients: residence permits, lump-sum taxation, tax rulings, home search, settling in and tax support.",
     "intro": "One coordinated team for every part of your move. Choose what you need, or let us look after the whole journey.",
     "items": {
       "residence-permit": {
         "title": "Residence permit",
-        "summary": "The right permit for you and your family, whether you come from the EU or elsewhere, and whether you plan to work or not."
+        "summary": "The right permit for you and your family, whether you come from the EU or elsewhere, and whether you plan to work or not.",
+        "serviceType": "Residence permit services"
       },
       "lump-sum-taxation": {
         "title": "Lump-sum taxation",
-        "summary": "Whether taxation based on your living expenses may apply to you, how it compares with ordinary taxation, and which cantons offer it."
+        "summary": "Whether taxation based on your living expenses may apply to you, how it compares with ordinary taxation, and which cantons offer it.",
+        "serviceType": "Lump-sum taxation advice"
       },
       "tax-ruling": {
         "title": "Tax ruling",
-        "summary": "Clarity from the tax authorities before you move, so you can decide with confidence."
+        "summary": "Clarity from the tax authorities before you move, so you can decide with confidence.",
+        "serviceType": "Tax ruling services"
       },
       "property-search-purchase": {
         "title": "Home search & purchase",
-        "summary": "Finding the right home to rent or buy, with the rules for foreign buyers handled properly."
+        "summary": "Finding the right home to rent or buy, with the rules for foreign buyers handled properly.",
+        "serviceType": "Property search and Lex Koller support"
       },
       "settling-in": {
-        "title": "Settling in",
-        "summary": "Schools, health insurance, banking, cars, staff and all the small things that make a new country feel like home."
+        "title": "Relocation & settling in",
+        "summary": "Schools, health insurance, banking, cars, staff and all the small things that make a new country feel like home.",
+        "serviceType": "Relocation and destination services"
       },
       "ongoing-tax-wealth": {
         "title": "Ongoing tax & wealth",
-        "summary": "Tax returns, wealth structuring questions and a trusted local contact, year after year."
+        "summary": "Tax returns, wealth structuring questions and a trusted local contact, year after year.",
+        "serviceType": "Private client tax services"
       }
     },
     "detailCta": "Discuss this with us"

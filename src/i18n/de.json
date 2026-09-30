@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteName": "Switzerland Residency",
-    "homeTitle": "Wohnsitz Schweiz: Aufenthalt & Pauschalsteuer | Switzerland Residency",
-    "homeDescription": "Diskrete Begleitung für Familien beim Umzug in die Schweiz: Bewilligungen, Pauschalbesteuerung, Immobilien, Ankommen. Ihr Weg in 2 Minuten geprüft.",
+    "homeTitle": "Relocation Service Schweiz: Wohnsitz & Pauschalsteuer | Switzerland Residency",
+    "homeDescription": "Relocation Service in der Schweiz für Privatpersonen und Familien: Bewilligung, Pauschalbesteuerung, Wohnungssuche und Ankommen – diskret begleitet.",
     "ogLocale": "de_CH",
     "tagline": "Ruhige, persönliche Begleitung für Familien, die in der Schweiz ankommen möchten."
   },
@@ -71,7 +71,8 @@
       "headline": "Machen Sie die Schweiz zu Ihrem Zuhause.",
       "headlineAccent": "Zuhause",
       "lead": "Aufenthalt, Steuern, ein Zuhause und Schulen – diskret organisiert und in Ihrer Sprache.",
-      "credibility": "Teil der Ark-Gruppe, Genf"
+      "credibility": "Teil der Ark-Gruppe, Genf",
+      "h1": "Relocation Service in der Schweiz für Privatpersonen und ihre Familien"
     },
     "steps": {
       "title": "So funktioniert es",
@@ -206,33 +207,39 @@
     "note": "Jede Situation ist anders. Über Bewilligungen und Steuerregelungen entscheiden immer die Schweizer Behörden – und wir sagen Ihnen ehrlich, was realistisch ist."
   },
   "services": {
-    "title": "Leistungen",
-    "description": "Aufenthaltsbewilligung, Pauschalbesteuerung, Steuerruling, Immobilien, Ankommen und laufende Steuer- und Vermögensbetreuung für Ihren Umzug in die Schweiz.",
+    "title": "Relocation Service in der Schweiz",
+    "description": "Relocation Service Schweiz für Privatpersonen: Aufenthaltsbewilligung, Pauschalbesteuerung, Steuerruling, Immobiliensuche, Ankommen und Steuerbetreuung.",
     "intro": "Ein abgestimmtes Team für jeden Teil Ihres Umzugs. Wählen Sie, was Sie brauchen – oder überlassen Sie uns den ganzen Weg.",
     "items": {
       "residence-permit": {
         "title": "Aufenthaltsbewilligung",
-        "summary": "Die richtige Bewilligung für Sie und Ihre Familie – ob Sie aus der EU oder von anderswo kommen und ob Sie hier arbeiten möchten oder nicht."
+        "summary": "Die richtige Bewilligung für Sie und Ihre Familie – ob Sie aus der EU oder von anderswo kommen und ob Sie hier arbeiten möchten oder nicht.",
+        "serviceType": "Begleitung bei der Aufenthaltsbewilligung"
       },
       "lump-sum-taxation": {
         "title": "Pauschalbesteuerung",
-        "summary": "Ob die Besteuerung nach dem Aufwand für Sie in Frage kommt, wie sie im Vergleich zur ordentlichen Besteuerung abschneidet und welche Kantone sie anbieten."
+        "summary": "Ob die Besteuerung nach dem Aufwand für Sie in Frage kommt, wie sie im Vergleich zur ordentlichen Besteuerung abschneidet und welche Kantone sie anbieten.",
+        "serviceType": "Beratung zur Pauschalbesteuerung"
       },
       "tax-ruling": {
         "title": "Steuerruling",
-        "summary": "Klarheit von den Steuerbehörden schon vor dem Umzug, damit Sie mit gutem Gefühl entscheiden können."
+        "summary": "Klarheit von den Steuerbehörden schon vor dem Umzug, damit Sie mit gutem Gefühl entscheiden können.",
+        "serviceType": "Steuerruling"
       },
       "property-search-purchase": {
         "title": "Immobiliensuche & Kauf",
-        "summary": "Das passende Zuhause zur Miete oder zum Kauf – mit sauberer Abwicklung der Regeln für ausländische Käufer."
+        "summary": "Das passende Zuhause zur Miete oder zum Kauf – mit sauberer Abwicklung der Regeln für ausländische Käufer.",
+        "serviceType": "Immobiliensuche und Lex-Koller-Begleitung"
       },
       "settling-in": {
-        "title": "Ankommen",
-        "summary": "Schulen, Krankenversicherung, Bank, Auto, Hauspersonal und all die kleinen Dinge, die ein neues Land zum Zuhause machen."
+        "title": "Relocation und Ankommen",
+        "summary": "Schulen, Krankenversicherung, Bank, Auto, Hauspersonal und all die kleinen Dinge, die ein neues Land zum Zuhause machen.",
+        "serviceType": "Relocation Service und Destination Services"
       },
       "ongoing-tax-wealth": {
         "title": "Laufende Steuer- & Vermögensbetreuung",
-        "summary": "Steuererklärungen, Fragen zur Vermögensstruktur und eine vertraute Ansprechperson vor Ort, Jahr für Jahr."
+        "summary": "Steuererklärungen, Fragen zur Vermögensstruktur und eine vertraute Ansprechperson vor Ort, Jahr für Jahr.",
+        "serviceType": "Steuerberatung für Privatkunden"
       }
     },
     "detailCta": "Mit uns besprechen"

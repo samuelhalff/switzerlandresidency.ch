@@ -14,6 +14,7 @@ import CtaBand from "@/components/CtaBand";
 import AccentText from "@/components/ui/AccentText";
 import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
+import Eyebrow from "@/components/ui/Eyebrow";
 import FullBleedImage from "@/components/ui/FullBleedImage";
 import ImagePair from "@/components/ui/ImagePair";
 import Section from "@/components/ui/Section";
@@ -73,9 +74,14 @@ export default async function HomePage({ params }: { params: LocaleParams }) {
         />
         <Container className="pb-14 pt-40 sm:pb-20">
           <div className="max-w-3xl [text-shadow:0_1px_10px_rgb(20_14_10/0.55)]" data-reveal="">
-            <h1 className="font-light-display text-[2.6rem] leading-[1.04] sm:text-6xl lg:text-[4.5rem]">
+            {/* The page's only H1 is this short descriptive line (search wording); the display
+                headline below is a styled paragraph. */}
+            <Eyebrow as="h1" className="mb-5 max-w-xl">
+              {t(locale, "home.hero.h1")}
+            </Eyebrow>
+            <p className="font-light-display text-[2.6rem] leading-[1.04] sm:text-6xl lg:text-[4.5rem]">
               <AccentText text={t(locale, "home.hero.headline")} accent={t(locale, "home.hero.headlineAccent")} />
-            </h1>
+            </p>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">{t(locale, "home.hero.lead")}</p>
             <div className="mt-9 flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:gap-8">
               <Button href={localePath(locale, "/contact/")} size="lg">

@@ -1,5 +1,5 @@
 ---
-title: "Settling in Switzerland: relocation support"
+title: "Relocation and settling-in services in Switzerland"
 description: "Practical help after your permit: commune registration, health insurance, schools, banking, importing your car and household goods, and social security."
 slug: "settling-in"
 translationKey: "settling-in"

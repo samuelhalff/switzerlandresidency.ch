@@ -1,6 +1,6 @@
 import type { Collection, Entry } from "@/lib/content";
 import { getPublishedEntries } from "@/lib/content";
-import { t, type Locale } from "@/lib/i18n";
+import { getMessages, t, type Locale } from "@/lib/i18n";
 import { imageForEntry } from "@/lib/images";
 import { absoluteUrl, collectionBase, localePath } from "@/lib/paths";
 import { entryPath, hubLabelKey } from "@/lib/entry-route";
@@ -16,6 +16,11 @@ import Button from "./ui/Button";
 import Container from "./ui/Container";
 import Section from "./ui/Section";
 import SectionHeading from "./ui/SectionHeading";
+
+function serviceTypeFor(locale: Locale, slug: string): string | undefined {
+  const items = getMessages(locale).services.items as Record<string, { serviceType?: string }>;
+  return items[slug]?.serviceType;
+}
 
 export default function EntryPage({ locale, entry, collection }: { locale: Locale; entry: Entry; collection: Collection }) {
   const cta = ctaContent(entry.cta, locale);
@@ -112,7 +117,7 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
 
       <CtaBand locale={locale} kind={entry.cta} />
 
-      {collection === "services" ? <JsonLd data={serviceLd(entry, url)} /> : null}
+      {collection === "services" ? <JsonLd data={serviceLd(entry, url, serviceTypeFor(locale, entry.slug))} /> : null}
       {collection === "guides" || collection === "advisers" ? <JsonLd data={articleLd(entry, url)} /> : null}
     </article>
   );
