@@ -472,7 +472,7 @@ const RANGE_TAIL = new RegExp(String.raw`^(?:\s*(?:\/|–|-|to|or|and|,|bis|à|o
  * "ans"/"Jahre" must not turn them into a strict year value that the fact base lacks.
  */
 const AGE_BEFORE =
-  /(?:(?<![\p{L}])(?:âg[ée]e?s?|âge|aged?|enfants?|mineurs?|retraité\p{L}*|pensionné\p{L}*|alter|kinder\p{L}*|jugendlich\p{L}*|minderjährig\p{L}*|rentner\p{L}*|pensionier\p{L}*))(?![\p{L}])[^.;:!?\d]{0,30}$/iu;
+  /(?:(?<![\p{L}])(?:âg[ée]e?s?|âge|aged?|enfants?|mineurs?|retraité\p{L}*|pensionné\p{L}*|alter|kinder\p{L}*|jugendlich\p{L}*|minderjährig\p{L}*|rentner\p{L}*|pensionier\p{L}*|ruhestand|ruheständ\p{L}*|personen|personnes?|seniors?|senior\p{L}*))(?![\p{L}])[^.;:!?\d]{0,30}$/iu;
 const AGE_AFTER = /^\s*(?:ans?|jahre?n?)\s+(?:et plus|ou plus|révolus|alt|oder älter|und älter)(?![\p{L}])/iu;
 
 function unitAfter(after) {
@@ -780,6 +780,10 @@ const GUARANTEE_NEG_BEFORE =
 const GUARANTEE_NOT_ONLY = /(?<![\p{L}])(?:not only|non seulement|nicht nur)(?![\p{L}])[^.:;!?|]{0,24}$/iu;
 /** A negation right after it: "ne garantit pas", "garantiert nicht", "guarantees nothing". */
 const GUARANTEE_NEG_AFTER = /^[\s,-]*(?:-(?:il|elle|t-il|t-elle)\s+)?(?:pas|aucun\p{L}*|rien|nicht|kein\p{L}*|nichts|nothing|no(?![\p{L}]))/iu;
+/** FR/DE place the negation after the object: "garantiert Drittstaatsangehörigen keine Bewilligung", "ne garantit à personne aucun permis". */
+const GUARANTEE_NEG_LATER = /(?<![\p{L}])(?:pas|aucun\p{L}*|nullement|nicht|kein\p{L}*|keineswegs)(?![\p{L}])/iu;
+/** The clause right after the verb: stops at punctuation and at words that start another clause or invert a negation. */
+const clauseAfter = (after) => after.split(/[.,:;!?|]|(?<![\p{L}])(?:et|und|oder|ou|sans|ohne|dass|que|qui|mais|aber|sondern)(?![\p{L}])/iu)[0].slice(0, 50);
 
 /**
  * True when a sentence promises a guarantee. Legitimate uses pass: questions ("Does company
@@ -798,9 +802,10 @@ export function isGuaranteePromise(sentence) {
   if (isQuestion) return false;
   return matches.some((m) => {
     const before = s.slice(Math.max(0, m.index - 40), m.index);
-    const after = s.slice(m.index + m[0].length, m.index + m[0].length + 20);
+    const after = s.slice(m.index + m[0].length, m.index + m[0].length + 60);
     const negBefore = GUARANTEE_NEG_BEFORE.test(before) && !GUARANTEE_NOT_ONLY.test(before);
-    return !negBefore && !GUARANTEE_NEG_AFTER.test(after);
+    const verb = /^garanti(?:t|ssent|ert|eren)$/iu.test(m[0]);
+    return !negBefore && !GUARANTEE_NEG_AFTER.test(after) && !(verb && GUARANTEE_NEG_LATER.test(clauseAfter(after)));
   });
 }
 

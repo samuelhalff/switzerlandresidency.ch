@@ -189,6 +189,9 @@ describe("content rules", () => {
     ["Do we guarantee approval?", "guarantee"],
     ["The canton decides, and the result is guaranteed.", "guarantee"],
     ["It is not only fast but guaranteed.", "guarantee"],
+    ["Die Gründung garantiert, dass Sie keine Wartezeit haben.", "guarantee"],
+    ["Wir garantieren Ihnen keine Wartezeit.", "guarantee"],
+    ["La société garantit un permis rapide et sans aucune attente.", "guarantee"],
     ["This figure is UNVERIFIED.", "unverified"],
     ["You become tax-resident after 183 days in Switzerland.", "183-days"],
     ["The base is at least 5× the annual rent.", "five-times-rent"],
@@ -226,6 +229,9 @@ describe("content rules", () => {
     "Die Gründung garantiert nicht, dass der Kanton zustimmt.",
     "Es gibt keine Garantie für eine Bewilligung.",
     "Die Bewilligung ist nicht garantiert.",
+    "Eine Firmengründung in der Schweiz garantiert Drittstaatsangehörigen keine Aufenthaltsbewilligung.",
+    "La création d'une société ne garantit à elle seule aucun permis.",
+    "Une société garantit aux fondateurs étrangers aucun droit au permis.",
     "Transfer tax is 3% of the price in some cantons.",
   ])("accepts: %s", (sentence) => {
     expect(checkContentRules(sentence)).toEqual([]);

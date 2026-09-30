@@ -49,6 +49,8 @@ describe("fact grounding: ages are not durations", () => {
     ["fr", "Les retraités âgés de 55 ans ou plus peuvent demander un permis."],
     ["de", "Rentnerinnen und Rentner ab 55 Jahren können eine Bewilligung beantragen."],
     ["fr", "Il faut avoir 55 ans ou plus."],
+    ["de", "Für Personen ab 55 Jahren gilt die Rentnerregel."],
+    ["fr", "Les personnes de plus de 55 ans peuvent demander un permis."],
   ])("grounds the age in %s: %s", (locale, s) => {
     expect(ungrounded(s, locale)).toEqual([]);
   });
