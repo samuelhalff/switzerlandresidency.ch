@@ -86,15 +86,24 @@ jobs:
           SLUG: ${{ steps.gen.outputs.slug }}
           TITLE: ${{ steps.gen.outputs.title }}
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "content/en/guides/$SLUG.md" "content/fr/guides/$SLUG.md" "content/de/guides/$SLUG.md" content/backlog.json
           git commit -m "content(guides): $TITLE (EN/FR/DE)"
           for i in 1 2 3; do
             git fetch origin main
+            before=$(git rev-parse HEAD)
             git rebase origin/main || { git rebase --abort; exit 1; }
-            # main may have moved since the checks: re-run the guardrails (incl. validate-content)
-            node scripts/validate-new-article.mjs --slug "$SLUG"
+            # main may have moved since the checks: re-run everything on the rebased tree before
+            # pushing — guardrails (incl. validate-content; URLs were checked minutes ago), the
+            # full test suite and the production build. Any failure aborts without pushing.
+            if ! git diff --quiet "$before" HEAD -- package.json package-lock.json; then
+              npm ci --no-audit --no-fund
+            fi
+            node scripts/validate-new-article.mjs --slug "$SLUG" --skip-url-check
+            npm test
+            npm run build
             if git push origin HEAD:main; then echo "pushed=true" >> "$GITHUB_OUTPUT"; exit 0; fi
             sleep $((i * 15))
           done

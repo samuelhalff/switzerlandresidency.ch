@@ -162,9 +162,13 @@ How a run works (`scripts/ai-article.mjs`):
 2. **Keywords and trends** (best effort, never fails the run) — Google autocomplete for the backlog
    keywords and question forms in en-GB/US/AE/SG, fr-CH/FR/BE, de-CH/DE/AT, plus Google "trending
    now" for CH/GB/FR/DE/AE. Candidates become a primary and 5–10 secondary keywords per language.
+   All of this third-party text is sanitised (control characters and markup stripped, length
+   capped) and fenced in an "untrusted data" block the model is told never to take instructions from.
 3. **Facts** — `research/legal-facts.md` (read whole at run time) plus the verified sections of
    every `research/audit-*.md`, with every UNVERIFIED sentence removed. If a research model is
-   configured, its facts are kept only when the official page it cites confirms them when fetched.
+   configured, a fact is kept only when its verbatim evidence quote is found on the fetched official
+   page (whitespace/typography normalised) and contains the fact's key terms and numbers; only
+   those quotes enter the prompt and the grounding corpus. Nothing is written to `legal-facts.md`.
 4. **Writing** — Azure OpenAI chat completions: outline → EN draft (following
    `docs/CONTENT-GUIDE.md`, with the internal-link list generated from the content files) → FR and
    DE in one pass each (following `docs/TRANSLATION-GUIDE.md`). Each step is repaired up to
@@ -176,13 +180,21 @@ How a run works (`scripts/ai-article.mjs`):
    ≥ 2 official, all on the allowed-domain list (`scripts/lib/source-policy.mjs`); no pricing
    language, email addresses, guarantee/garanti/garantiert or UNVERIFIED; the legal-audit phrases
    ("183 days" as the Swiss test, "5× rent", "residency by investment", "minimum tax of CHF 435,000",
-   unqualified "no inheritance/wealth tax"); every CHF/€/% figure found in the fact base; no
-   figure that exists only as UNVERIFIED; the same numbers in EN, FR and DE (thousands `,` `'`
-   space, decimal comma normalised); and the full `node scripts/validate-content.mjs`. Any failure
-   deletes the three files, so nothing is committed, and the job fails with the reasons.
+   unqualified "no inheritance/wealth tax"); no testimonials, client counts, years of experience or
+   star ratings; no price assertions (multilingual cost/fee/price lexicon near an amount, "from
+   CHF …", "per hour"; statutory amounts from the fact base stay allowed); links parsed from the
+   Markdown AST (inline, reference-style, autolinks, raw `<a href>`); every number in every locale
+   found in the fact base with the same unit (citation numbers such as art./para./SR and dates of
+   cited acts excepted), legal thresholds written as digits; no figure that exists only as
+   UNVERIFIED; the same numbers — small ones included — in EN, FR and DE (thousands `,` `'` space,
+   decimal comma normalised); the full `node scripts/validate-content.mjs`; and every cited source
+   and external link reachable (non-2xx/3xx, timeouts and DNS failures fail after 2 retries; only
+   known bot-blocking official sites may answer 403, extend with `LINK_CHECK_403_OK_DOMAINS`). Any
+   failure deletes the three files, so nothing is committed, and the job fails with the reasons.
 6. **Publish** — `npm test` and `npm run build`, then commit
    `content(guides): <title> (EN/FR/DE)` (the three files + `content/backlog.json`, item marked
-   `done`) and push to `main`. With `PAT_TOKEN` the push starts "Build and deploy"; without it the
+   `done`) and push to `main`. After every rebase onto a moved `main` the guardrails, `npm test`
+   and `npm run build` run again before the push. With `PAT_TOKEN` the push starts "Build and deploy"; without it the
    job starts `deploy.yml` itself. Only when the repository variable `NEXT_PUBLIC_NOINDEX` is not
    `true` (unset counts as `true`), the job waits for the page to go live, pings the sitemap and
    submits the EN/FR/DE URLs to IndexNow.

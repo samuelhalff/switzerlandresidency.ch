@@ -164,8 +164,8 @@ describe("number normalisation and parity", () => {
     expect(checkNumberParity({ en, fr: bad }).join("\n")).toMatch(/fr/);
   });
 
-  it("ignores small spelled-out-able integers", () => {
-    expect([...extractNumbers("3 months, 7 cantons, 14 days", "en")]).toEqual(["14"]);
+  it("keeps small integers (they are legal thresholds too)", () => {
+    expect([...extractNumbers("3 months, 7 cantons, 14 days", "en")]).toEqual(["3", "7", "14"]);
   });
 
   it("extracts money and percentages", () => {
