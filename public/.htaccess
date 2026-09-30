@@ -29,6 +29,16 @@ AddType image/webp .webp
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # Force HTTPS (certificat Let's Encrypt installé le 30.09.2026, renouvelé automatiquement par acme.sh)
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  # Canonical host: www → apex (one URL per page for search engines); ACME challenges untouched.
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/
+  RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
   RewriteCond %{HTTP:Accept-Language} ^\s*fr [NC]
   RewriteRule ^$ /fr/ [R=302,L]
 
@@ -53,8 +63,9 @@ AddType image/webp .webp
   Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()"
   Header always set X-Frame-Options "DENY"
 
-  # HSTS: enable ONLY once HTTPS works on every host name (AutoSSL or Cloudflare), then uncomment.
-  # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  # HSTS: HTTPS works on the apex and www (Let's Encrypt, acme.sh auto-renewal, 30.09.2026).
+  # No includeSubDomains: other subdomains on this hosting are not covered by the certificate.
+  Header always set Strict-Transport-Security "max-age=31536000" "expr=%{HTTPS} == 'on'"
 
   # Caching: hashed build assets are immutable; HTML must revalidate so deploys show up at once.
   # (_buildManifest.js/_ssgManifest.js keep a fixed URL because next.config.mjs pins the build id,

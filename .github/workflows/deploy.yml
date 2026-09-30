@@ -68,19 +68,25 @@ jobs:
           # 2) Real deploy.
           python3 scripts/deploy-ftp.py
 
-      - name: Smoke test (HTTP until HTTPS is live)
+      - name: Smoke test (HTTPS, redirects, protected paths)
         run: |
           set -u
-          base="http://switzerlandresidency.ch"
+          base="https://switzerlandresidency.ch"
           fail=0
           check() {
-            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$base$1")
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$1")
             if [ "$code" = "$2" ]; then echo "OK   $1 → $code"; else echo "FAIL $1 → $code (expected $2)"; fail=1; fi
           }
+          redirect() {
+            got=$(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' --max-time 20 "$1")
+            if [ "$got" = "301 $2" ]; then echo "OK   $1 → 301 $2"; else echo "FAIL $1 → $got (expected 301 $2)"; fail=1; fi
+          }
           sleep 5
-          check /en/ 200
-          check /fr/ 200
-          check /de/ 200
-          check /_archive-2026-09-30/index.php 403
-          check /.deploy-manifest.json 403
+          check "$base/en/" 200
+          check "$base/fr/" 200
+          check "$base/de/" 200
+          check "$base/_archive-2026-09-30/index.php" 403
+          check "$base/.deploy-manifest.json" 403
+          redirect "http://switzerlandresidency.ch/en/" "https://switzerlandresidency.ch/en/"
+          redirect "https://www.switzerlandresidency.ch/en/" "https://switzerlandresidency.ch/en/"
           exit $fail
