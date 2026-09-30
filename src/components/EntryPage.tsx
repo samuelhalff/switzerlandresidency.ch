@@ -5,6 +5,7 @@ import { imageForEntry } from "@/lib/images";
 import { absoluteUrl, collectionBase, localePath } from "@/lib/paths";
 import { entryPath, hubLabelKey } from "@/lib/entry-route";
 import { articleLd, serviceLd } from "@/lib/jsonld";
+import { ctaContent } from "@/lib/cta";
 import PageHeader from "./PageHeader";
 import Markdown from "./Markdown";
 import Faq from "./Faq";
@@ -17,6 +18,7 @@ import Section from "./ui/Section";
 import SectionHeading from "./ui/SectionHeading";
 
 export default function EntryPage({ locale, entry, collection }: { locale: Locale; entry: Entry; collection: Collection }) {
+  const cta = ctaContent(entry.cta, locale);
   const url = absoluteUrl(localePath(locale, entryPath(collection, entry.slug)));
   const related =
     collection === "guides"
@@ -82,14 +84,14 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
 
         <aside className="lg:sticky lg:top-28 lg:self-start">
           <div className="border-t border-ink pt-6">
-            <h2 className="text-[1.6rem] leading-snug">{t(locale, "article.ctaTitle")}</h2>
-            <p className="mt-3 text-[0.95rem] text-muted">{t(locale, "article.ctaText")}</p>
-            <Button href={localePath(locale, "/contact/")} className="mt-6">
-              {t(locale, "common.ctaConversation")}
+            <h2 className="text-[1.6rem] leading-snug">{cta.aside.title}</h2>
+            <p className="mt-3 text-[0.95rem] text-muted">{cta.aside.text}</p>
+            <Button href={cta.primary.href} className="mt-6">
+              {cta.primary.label}
             </Button>
             <div className="mt-5">
-              <Button href={localePath(locale, "/eligibility-check/")} variant="link" arrow>
-                {t(locale, "common.ctaRoute")}
+              <Button href={cta.secondary.href} variant="link" arrow>
+                {cta.secondary.label}
               </Button>
             </div>
             <p className="mt-6 text-xs text-muted">{t(locale, "common.indicative")}</p>
@@ -108,7 +110,7 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
         </Section>
       ) : null}
 
-      <CtaBand locale={locale} />
+      <CtaBand locale={locale} kind={entry.cta} />
 
       {collection === "services" ? <JsonLd data={serviceLd(entry, url)} /> : null}
       {collection === "guides" || collection === "advisers" ? <JsonLd data={articleLd(entry, url)} /> : null}

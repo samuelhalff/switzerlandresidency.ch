@@ -325,7 +325,10 @@
     "sources": "Sources officielles",
     "ctaTitle": "Qu'est-ce que cela signifie dans votre cas ?",
     "ctaText": "Notre court test d'éligibilité vous indique un parcours possible en deux minutes environ. Ou écrivez-nous, tout simplement.",
-    "related": "D'autres guides"
+    "related": "D'autres guides",
+    "contactTitle": "Envie d'en parler ?",
+    "contactText": "Chaque situation est différente. Parlez-nous de la vôtre : nous vous répondons personnellement, en toute confidentialité.",
+    "ctaWrite": "Ou écrivez-nous directement"
   },
   "about": {
     "title": "À propos",
@@ -830,7 +833,8 @@
     "cta": {
       "title": "Vous présentez un client ?",
       "text": "Décrivez-nous le profil, de façon anonyme si vous préférez. Nous gérons le volet suisse et vous tenons informé.",
-      "secondary": "Ou voir comment se passe une mise en relation"
+      "secondary": "Ou voir le parcours indicatif d'un client en deux minutes",
+      "accent": "client"
     },
     "contactNote": "Vous êtes conseiller et présentez un client ?",
     "contactNoteLink": "Utilisez le formulaire conseillers"
@@ -849,5 +853,10 @@
     "cantonsPlaceholder": "p. ex. Vaud, Zoug, ou ouvert",
     "introducedBy": "Recommandé par un conseiller ? Nom de la société",
     "introducedByPlaceholder": "p. ex. votre banque ou votre étude"
+  },
+  "checkBand": {
+    "title": "Quel parcours vous correspond ?",
+    "accent": "parcours",
+    "text": "Répondez à quelques questions et découvrez un parcours indicatif en deux minutes environ. Rien n'est envoyé, sauf si vous choisissez de nous écrire."
   }
 }

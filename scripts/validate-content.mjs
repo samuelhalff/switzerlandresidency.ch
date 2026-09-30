@@ -149,6 +149,8 @@ for (const locale of LOCALES) {
         if (!Array.isArray(kw?.secondary) || kw.secondary.some((k) => typeof k !== "string" || !k.trim()))
           fail(`content: ${rel} keywords.secondary must be an array of non-empty strings`);
       }
+      if (data.cta !== undefined && !["check", "contact", "adviser"].includes(data.cta))
+        fail(`content: ${rel} "cta" must be one of: check, contact, adviser`);
       if (data.faq !== undefined) {
         if (!Array.isArray(data.faq)) fail(`content: ${rel} "faq" must be an array of {q, a}`);
         else data.faq.forEach((q, i) => (!q?.q || !q?.a) && fail(`content: ${rel} faq[${i}] needs q and a`));

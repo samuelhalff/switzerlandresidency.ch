@@ -325,7 +325,10 @@
     "sources": "Offizielle Quellen",
     "ctaTitle": "Möchten Sie wissen, was das für Sie bedeutet?",
     "ctaText": "Unser kurzer Check zeigt Ihnen in rund zwei Minuten einen möglichen Weg. Oder schreiben Sie uns einfach.",
-    "related": "Weitere Ratgeber"
+    "related": "Weitere Ratgeber",
+    "contactTitle": "Möchten Sie es besprechen?",
+    "contactText": "Jede Situation ist anders. Erzählen Sie uns von Ihrer: Wir antworten persönlich und vertraulich.",
+    "ctaWrite": "Oder schreiben Sie uns direkt"
   },
   "about": {
     "title": "Über uns",
@@ -830,7 +833,8 @@
     "cta": {
       "title": "Möchten Sie Mandanten vorstellen?",
       "text": "Beschreiben Sie uns das Profil, gerne anonym. Wir übernehmen die Schweizer Seite und halten Sie auf dem Laufenden.",
-      "secondary": "Oder sehen, wie eine Vorstellung abläuft"
+      "secondary": "Oder den möglichen Weg für Mandanten in zwei Minuten prüfen",
+      "accent": "Mandanten"
     },
     "contactNote": "Sie sind Berater und möchten Mandanten vorstellen?",
     "contactNoteLink": "Zum Formular für Berater"
@@ -849,5 +853,10 @@
     "cantonsPlaceholder": "z. B. Waadt, Zug oder offen",
     "introducedBy": "Von einem Berater empfohlen? Name der Firma",
     "introducedByPlaceholder": "z. B. Ihre Bank oder Kanzlei"
+  },
+  "checkBand": {
+    "title": "Welcher Weg passt zu Ihnen?",
+    "accent": "Weg",
+    "text": "Beantworten Sie ein paar Fragen und sehen Sie in rund zwei Minuten einen möglichen Weg. Es wird nichts gesendet, ausser Sie schreiben uns."
   }
 }

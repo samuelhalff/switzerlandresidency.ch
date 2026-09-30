@@ -13,6 +13,7 @@ const entry: Entry = {
   category: "tax-and-wealth",
   draft: false,
   faq: [],
+  cta: "check",
   sources: [{ label: "Fedlex", url: "https://www.fedlex.admin.ch/" }],
   body: "",
 };

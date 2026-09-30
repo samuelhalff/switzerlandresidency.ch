@@ -3,6 +3,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { locales, type Locale } from "./i18n";
 import { typeset } from "./typography";
+import { defaultCta, isCtaKind, type CtaKind } from "./cta";
 
 /**
  * Markdown content lives in content/<locale>/<collection>/<slug>.md.
@@ -32,6 +33,8 @@ export type Entry = {
   faq: FaqItem[];
   sources: Source[];
   keywords?: Keywords;
+  /** Call to action for this page (frontmatter `cta`, else the collection default). */
+  cta: CtaKind;
   body: string;
 };
 
@@ -79,6 +82,7 @@ function readCollection(locale: Locale, collection: Collection): Entry[] {
         : [],
       sources: Array.isArray(data.sources) ? (data.sources as Source[]) : [],
       keywords: toKeywords(data.keywords),
+      cta: isCtaKind(data.cta) ? data.cta : defaultCta[collection],
       body: typeset(locale, content),
     };
   });

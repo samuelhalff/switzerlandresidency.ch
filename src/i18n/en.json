@@ -325,7 +325,10 @@
     "sources": "Official sources",
     "ctaTitle": "Want to know how this applies to you?",
     "ctaText": "Our short eligibility check gives you an indicative route in about two minutes. Or simply write to us.",
-    "related": "More guides"
+    "related": "More guides",
+    "contactTitle": "Want to talk it through?",
+    "contactText": "Every situation is different. Tell us about yours and we will reply personally, in confidence.",
+    "ctaWrite": "Or write to us directly"
   },
   "about": {
     "title": "About us",
@@ -830,7 +833,8 @@
     "cta": {
       "title": "Introducing a client?",
       "text": "Tell us the profile, anonymously if you prefer. We handle the Swiss side and keep you informed.",
-      "secondary": "Or see how an introduction works"
+      "secondary": "Or check a client's indicative route in two minutes",
+      "accent": "client"
     },
     "contactNote": "Introducing a client as an adviser?",
     "contactNoteLink": "Use the adviser form"
@@ -849,5 +853,10 @@
     "cantonsPlaceholder": "e.g. Vaud, Zug, or open",
     "introducedBy": "Introduced by an adviser? Firm name",
     "introducedByPlaceholder": "e.g. your bank or law firm"
+  },
+  "checkBand": {
+    "title": "Not sure which route fits you?",
+    "accent": "route",
+    "text": "Answer a few questions and see an indicative route in about two minutes. Nothing is sent unless you choose to write to us."
   }
 }

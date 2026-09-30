@@ -46,11 +46,13 @@ title: "…"                # ≤ 60 chars ideally, includes main keyword
 description: "…"          # 140–155 chars, answers the query, no clickbait
 slug: "…"                 # from the list below, identical across locales
 translationKey: "…"       # same as slug
-collection: guides        # guides | services | cantons | origins
+collection: guides        # guides | services | cantons | origins | advisers
 category: "…"             # guides only: lump-sum-taxation | residence-permits | moving-from |
                           # property | where-to-live | settling-in | tax-and-wealth
 updated: "2026-09-30"
 draft: false
+cta: check                # optional: check | contact | adviser. Default by collection:
+                          # guides → check, services/cantons/origins → contact, advisers → adviser
 keywords:                 # optional; written by the article pipeline (scripts/ai-article.mjs)
   primary: "…"            # main search phrase in this language (used in title, description, opening)
   secondary: ["…", "…"]   # 5–10 related/question searches; emitted in Article JSON-LD, never shown
@@ -62,11 +64,13 @@ sources:
     url: "https://…"
 ---
 ```
-File path: `content/en/<collection>/<slug>.md` (EN). FR/DE later at `content/fr/…`, `content/de/…`
+File path: `content/en/<collection>/<slug>.md` (EN). Adviser briefings: `content/<locale>/advisers/<slug>.md`
+(no `category`; all three locales required; served at `/<locale>/for-advisers/<slug>/`). FR/DE later at `content/fr/…`, `content/de/…`
 with the **same slug**; internal links then use `/fr/…` or `/de/…`.
 
 ## Allowed internal URLs (EN; swap /en/ for /fr/ or /de/ in translations)
-- `/en/` · `/en/how-it-works/` · `/en/eligibility-check/` · `/en/contact/` · `/en/about/`
+- `/en/` · `/en/how-it-works/` · `/en/eligibility-check/` · `/en/contact/` · `/en/about/` ·
+  `/en/for-advisers/` (+ `/en/for-advisers/<slug>/` once published) · `/en/contact/?type=adviser`
 - `/en/services/` + `/en/services/<slug>/` for: residence-permit, lump-sum-taxation, tax-ruling,
   property-search-purchase, settling-in, ongoing-tax-wealth
 - `/en/moving-from/` + `/en/moving-from/<slug>/` for: united-kingdom, european-union, gulf,
