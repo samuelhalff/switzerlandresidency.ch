@@ -116,6 +116,16 @@ describe("title/description fitting", () => {
     expect(res.remaining).toEqual([]);
   });
 
+  it("takes the first fitting candidate of several", async () => {
+    const call = vi.fn(async (prompt) => {
+      expect(prompt).toMatch(/each an array of 3 strings/);
+      return { title: ["Setting up a business in Switzerland as a non-EU founder today", "Self-employed permit in Switzerland for non-EU nationals", "Self-employed permit for non-EU"] };
+    });
+    const res = await fitMetaFields({ data: { title: longTitle, description: goodDesc }, locale: "en", primary, call });
+    expect(call).toHaveBeenCalledTimes(1);
+    expect(res.data.title).toBe("Self-employed permit in Switzerland for non-EU nationals");
+  });
+
   it("gives up after 3 rounds and keeps the original value", async () => {
     const call = vi.fn(async () => ({ description: "Too short." }));
     const desc = `${goodDesc} Extra words that push it over.`;

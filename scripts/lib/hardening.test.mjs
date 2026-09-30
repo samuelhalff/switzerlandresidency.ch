@@ -41,6 +41,24 @@ const ungrounded = (s, l = "en") => ungroundedNumbers(s, l, INDEX, { asOf: ASOF 
 // 1. Grounding of every compliance-critical number
 // ---------------------------------------------------------------------------
 
+describe("fact grounding: ages are not durations", () => {
+  it.each([
+    ["en", "Spouses and unmarried children under 18 may join a B permit holder."],
+    ["fr", "Le conjoint et les enfants célibataires de moins de 18 ans peuvent rejoindre le titulaire."],
+    ["de", "Ehegatten und ledige Kinder unter 18 Jahren können nachgezogen werden."],
+    ["fr", "Les retraités âgés de 55 ans ou plus peuvent demander un permis."],
+    ["de", "Rentnerinnen und Rentner ab 55 Jahren können eine Bewilligung beantragen."],
+    ["fr", "Il faut avoir 55 ans ou plus."],
+  ])("grounds the age in %s: %s", (locale, s) => {
+    expect(ungrounded(s, locale)).toEqual([]);
+  });
+
+  it("still treats a residence period as a strict duration", () => {
+    expect(ungrounded("Après un séjour de 18 ans, le permis C est accordé.", "fr")).toEqual(["18:year"]);
+    expect(ungrounded("Nach 55 Jahren Aufenthalt gibt es die Niederlassung.", "de")).toEqual(["55:year"]);
+  });
+});
+
 describe("fact grounding (all numbers, value + unit)", () => {
   it.each([
     ["en", "The federal minimum base is CHF 435,000 for 2026 (art. 14 para. 3 lit. a DBG, SR 642.11)."],

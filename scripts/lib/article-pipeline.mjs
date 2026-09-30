@@ -462,6 +462,15 @@ const UNIT_AFTER = [
 const CURRENCY_BEFORE = /(?:CHF|SFr\.?|Fr\.|EUR|€|USD|US\$|\$|£|GBP|AED)\s?$/u;
 const RANGE_TAIL = new RegExp(String.raw`^(?:\s*(?:\/|–|-|to|or|and|,|bis|à|ou|oder|und|et)\s*\d[\d.,'’   ]*)*`, "iu");
 
+/**
+ * Ages ("enfants de moins de 18 ans", "retraités âgés de 55 ans", "Kinder unter 18 Jahren", "55 Jahre
+ * alt") are not durations: EN writes "children under 18" / "aged 55" without a unit, so FR/DE
+ * "ans"/"Jahre" must not turn them into a strict year value that the fact base lacks.
+ */
+const AGE_BEFORE =
+  /(?:(?<![\p{L}])(?:âg[ée]e?s?|âge|aged?|enfants?|mineurs?|retraité\p{L}*|pensionné\p{L}*|alter|kinder\p{L}*|jugendlich\p{L}*|minderjährig\p{L}*|rentner\p{L}*|pensionier\p{L}*))(?![\p{L}])[^.;:!?\d]{0,30}$/iu;
+const AGE_AFTER = /^\s*(?:ans?|jahre?n?)\s+(?:et plus|ou plus|révolus|alt|oder älter|und älter)(?![\p{L}])/iu;
+
 function unitAfter(after) {
   let rest = after.replace(RANGE_TAIL, "");
   rest = rest.replace(new RegExp(`^${MULTIPLIER}`, "iu"), "").replace(/^\s*-?\s*/, "");
@@ -478,7 +487,7 @@ function unitAfter(after) {
 /**
  * Every number in a text, classified: dates ("24 July 2018", "1er janvier", "September 2026"),
  * citation numbers ("art. 14", "para. 3", "SR 642.11") and plain numbers with their unit
- * (money, percent, times, day, week, month, year, hour, or num).
+ * (money, percent, times, day, week, month, year, hour, age, or num).
  * @returns {{ kind: "date"|"citation"|"number", value: string, unit?: string, raw: string, index: number, before: string, after: string }[]}
  */
 export function numberMentions(text, locale) {
@@ -508,7 +517,8 @@ export function numberMentions(text, locale) {
       out.push({ kind: "citation", value, raw: m[0], index: a, before, after });
       continue;
     }
-    const unit = CURRENCY_BEFORE.test(before) ? "money" : unitAfter(after);
+    let unit = CURRENCY_BEFORE.test(before) ? "money" : unitAfter(after);
+    if (unit === "year" && (AGE_BEFORE.test(before) || AGE_AFTER.test(after))) unit = "age";
     out.push({ kind: "number", value, unit, raw: m[0], index: a, before, after });
   }
   return out.sort((x, y) => x.index - y.index);
@@ -539,6 +549,7 @@ export function buildFactIndex(corpusText) {
   return { values, pairs, dates };
 }
 
+// "age" is deliberately not strict: an age only has to appear as a value in the fact base.
 const STRICT_UNITS = new Set(["money", "percent", "times", "day", "week", "month", "year", "hour"]);
 
 /**

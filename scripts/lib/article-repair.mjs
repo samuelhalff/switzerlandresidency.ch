@@ -165,11 +165,12 @@ export function buildShortenPrompt({ locale, fields, primary, context = "" }) {
     `Rewrite the following ${LANGUAGE[locale] ?? locale} metadata fields of a Swiss residence guide so that each fits its character limit.`,
     "Keep the meaning, the language and the calm, factual tone. Keep every number exactly; do not add facts or figures. No prices, no promises, no guarantees. Start with a capital letter.",
     "Count characters including spaces; aim a few characters inside the limit (title ≤ 57, description 145–152).",
+    "Give 3 different candidates per field, shortest last; each must fit on its own.",
     "",
     ...lines,
     context ? `\nArticle context (opening paragraph): ${context}` : "",
     "",
-    `Output STRICT JSON with exactly these keys: ${JSON.stringify(Object.fromEntries(fields.map((f) => [f.field, ""])))}`,
+    `Output STRICT JSON with exactly these keys, each an array of 3 strings: ${JSON.stringify(Object.fromEntries(fields.map((f) => [f.field, ["", "", ""]])))}`,
   ]
     .filter((l) => l !== "")
     .join("\n");
@@ -196,14 +197,20 @@ export async function fitMetaFields({ data, locale, primary, call, rounds = 3, c
       break;
     }
     for (const f of bad) {
-      const v = typeof out?.[f.field] === "string" ? out[f.field].trim() : "";
-      const reason = fieldMisfit(f.field, v, { primary, original: f.value, allowedNumbers, factIndex, locale });
-      if (!reason) {
-        current = { ...current, [f.field]: v };
+      const raw = out?.[f.field];
+      const candidates = (Array.isArray(raw) ? raw : [raw]).filter((v) => typeof v === "string").map((v) => v.trim());
+      if (!candidates.length) candidates.push("");
+      const accepted = candidates.find((v) => {
+        const reason = fieldMisfit(f.field, v, { primary, original: f.value, allowedNumbers, factIndex, locale });
+        if (reason) {
+          (rejected[f.field] ??= []).push({ value: v, reason });
+          log(`[fit-${locale}] ${f.field} candidate rejected (${reason}): ${JSON.stringify(v)}`);
+        }
+        return !reason;
+      });
+      if (accepted !== undefined) {
+        current = { ...current, [f.field]: accepted };
         fixed.push(f.field);
-      } else {
-        (rejected[f.field] ??= []).push({ value: v, reason });
-        log(`[fit-${locale}] ${f.field} candidate rejected (${reason}): ${JSON.stringify(v)}`);
       }
     }
   }
