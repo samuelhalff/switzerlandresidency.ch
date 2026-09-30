@@ -23,12 +23,13 @@ No prices shown. Leads = contact form + WhatsApp + an interactive eligibility & 
   (shared `translationKey` frontmatter links language versions for hreflang).
   Build-time validator: UI key parity across locales + every article has all 3 locales
   (or is explicitly flagged) + no internal link to a non-existent route.
-- **Design — "Lakeside warmth":** cream `#F7F1E8`, sand `#EFE4D3`, ink `#2B2A27`,
-  terracotta accent (`#9C4F2E` for text/buttons to pass WCAG AA, lighter `#C06A45` decorative),
-  lake blue `#2F5D6B` secondary. Headings: Fraunces (soft serif); body: Inter.
-  Rounded (12–16px) cards, generous whitespace, large Swiss lake/mountain photography
-  (royalty-free, self-hosted, optimized webp), warm dark mode (`#1C1916`).
-  Tokens as CSS variables on :root, dark via prefers-color-scheme + data-theme.
+- **Design — quiet, photo-led, warm (revised 2026-09-30):** ivory `#F5F0E8`, warm charcoal `#2A2622`,
+  ONE accent: deep umber `#7A4A2E` (clay `#D9A27E` in dark); warm espresso dark mode `#1A1714`.
+  Light/dark/system toggle (localStorage `sr-theme`, `[data-theme]` on <html>, inline head script
+  against flash). Light Fraunces headlines with one italic accent word, Inter 17px body.
+  Full-bleed photography with plain captions, hairline rows, photo-led tiles, small radii
+  (pill only for buttons), one primary button per view with ark-fid.ch's wave hover.
+  Components in `src/components/ui/`; home photo slots in `homeImages` (`src/lib/images.ts`).
 - **Pages:** Home · How it works · Services (Residence permit & lump-sum taxation ·
   Tax rulings · Home search & purchase · Settling in · Ongoing tax & wealth) ·
   Cantons hub + canton pages (lump-sum cantons first; all 26 listed incl. abolished ones) ·

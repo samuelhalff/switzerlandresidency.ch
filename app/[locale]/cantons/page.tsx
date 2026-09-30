@@ -33,7 +33,7 @@ export default async function CantonsPage({ params }: { params: LocaleParams }) 
         {guides.length ? (
           <ul className="mt-12 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
             {guides.map((g, i) => (
-              <EntryCard key={g.slug} entry={g} locale={locale} index={i % 3} aspect="aspect-[4/3]" />
+              <EntryCard key={g.slug} entry={g} locale={locale} index={i % 3} aspect="aspect-[4/3]" compactOnMobile />
             ))}
           </ul>
         ) : (

@@ -393,7 +393,7 @@ function Result({
 
       <dl className="mt-8 space-y-6">
         <div className="border-l-2 border-accent pl-5">
-          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.route}</dt>
+          <dt className="text-[0.95rem] font-medium text-muted">{L.result.route}</dt>
           <dd className="mt-2">
             <p className="font-serif text-2xl">{L.routes[primary].label}</p>
             <p className="mt-2 text-muted">{L.routes[primary].text}</p>
@@ -411,7 +411,7 @@ function Result({
         </div>
 
         <div>
-          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.lumpSum}</dt>
+          <dt className="text-[0.95rem] font-medium text-muted">{L.result.lumpSum}</dt>
           <dd className="mt-2">
             <p className="font-serif text-xl">{lump.label}</p>
             <p className="mt-1 text-muted">{lump.text}</p>
@@ -421,7 +421,7 @@ function Result({
         </div>
 
         <div>
-          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.cantons}</dt>
+          <dt className="text-[0.95rem] font-medium text-muted">{L.result.cantons}</dt>
           <dd className="mt-2">
             <ul className="flex flex-wrap gap-2">
               {cantons.map((c) => (
@@ -435,7 +435,7 @@ function Result({
         </div>
 
         <div>
-          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.flags}</dt>
+          <dt className="text-[0.95rem] font-medium text-muted">{L.result.flags}</dt>
           <dd className="mt-2">
             {result.flags.length ? (
               <ul className="list-disc space-y-2 pl-5">
@@ -450,7 +450,7 @@ function Result({
         </div>
 
         <div>
-          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.needs}</dt>
+          <dt className="text-[0.95rem] font-medium text-muted">{L.result.needs}</dt>
           <dd className="mt-2">
             <ul className="list-disc space-y-1 pl-5 text-muted">
               {L.needs.map((n) => (

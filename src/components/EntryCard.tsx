@@ -19,12 +19,14 @@ export default function EntryCard({
   index,
   aspect,
   showDate = false,
+  compactOnMobile = false,
 }: {
   entry: Entry;
   locale: Locale;
   index?: number;
   aspect?: string;
   showDate?: boolean;
+  compactOnMobile?: boolean;
 }) {
   return (
     <Tile
@@ -35,6 +37,7 @@ export default function EntryCard({
       meta={showDate && entry.updated ? `${t(locale, "common.updated")} ${formatDate(entry.updated, locale)}` : undefined}
       aspect={aspect}
       index={index}
+      compactOnMobile={compactOnMobile}
     />
   );
 }

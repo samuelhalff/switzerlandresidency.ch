@@ -13,6 +13,7 @@ export default function Tile({
   aspect = "aspect-[4/5]",
   as: Tag = "li",
   index,
+  compactOnMobile = false,
   className,
 }: {
   href?: string;
@@ -24,9 +25,20 @@ export default function Tile({
   as?: "li" | "div";
   /** Position in a grid, staggers the fade-up. */
   index?: number;
+  /** Phones: small square thumbnail beside the text (editorial list); 4:3 photo from sm up. */
+  compactOnMobile?: boolean;
   className?: string;
 }) {
-  const body = (
+  const body = compactOnMobile ? (
+    <div className="grid grid-cols-[6.5rem_minmax(0,1fr)] items-start gap-4 sm:block">
+      <Photo name={image} aspect="aspect-square sm:aspect-[4/3]" zoom={!!href} />
+      <div>
+        <h3 className="text-[1.15rem] leading-snug transition-colors group-hover:text-accent sm:mt-5 sm:text-[1.5rem]">{title}</h3>
+        {text ? <p className="mt-2 line-clamp-2 hidden text-[0.98rem] text-muted sm:block">{text}</p> : null}
+        {meta ? <p className="mt-2 text-sm text-muted sm:mt-3">{meta}</p> : null}
+      </div>
+    </div>
+  ) : (
     <>
       <Photo name={image} aspect={aspect} zoom={!!href} />
       <h3 className="mt-5 text-[1.4rem] leading-snug transition-colors group-hover:text-accent sm:text-[1.5rem]">{title}</h3>

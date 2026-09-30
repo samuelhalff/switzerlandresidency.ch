@@ -44,7 +44,7 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
         ) : null}
       </PageHeader>
 
-      <Container className="grid gap-14 pb-24 pt-10 sm:pt-14 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-20">
+      <Container className="grid gap-14 pb-24 pt-10 sm:pt-14 lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-16">
         <div className="min-w-0">
           {entry.draft ? (
             <p className="mb-8 border-l-2 border-accent pl-4 text-sm">
@@ -100,7 +100,7 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
           <SectionHeading title={t(locale, "article.related")} />
           <ul className="mt-12 grid gap-x-8 gap-y-12 sm:grid-cols-3">
             {related.map((r, i) => (
-              <EntryCard key={r.slug} entry={r} locale={locale} index={i} aspect="aspect-[4/3]" />
+              <EntryCard key={r.slug} entry={r} locale={locale} index={i} aspect="aspect-[4/3]" compactOnMobile />
             ))}
           </ul>
         </Section>
