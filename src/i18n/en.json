@@ -48,7 +48,8 @@
     "contact": "Contact",
     "eligibility": "Eligibility check",
     "privacy": "Privacy",
-    "legalNotice": "Legal notice"
+    "legalNotice": "Legal notice",
+    "advisers": "For advisers"
   },
   "footer": {
     "blurb": "We help international families and private individuals settle in Switzerland, from the first question about permits to the day the removal van arrives, and well beyond.",
@@ -717,5 +718,136 @@
     "homeArrival": "Moving in",
     "heroPeople": "Engadin, Graubünden",
     "eveningWindows": "Bergün, Graubünden"
+  },
+  "advisers": {
+    "title": "For advisers: relocating a client to Switzerland",
+    "accent": "advisers",
+    "metaTitle": "For advisers: relocating a client to Switzerland",
+    "description": "For private bankers, wealth managers, lawyers and tax advisers: we handle the Swiss side of a client's move while the relationship stays with you.",
+    "intro": "When a client decides to move to Switzerland, you remain their adviser. We take care of the Swiss side of the move, from the permit and the tax ruling to the first year in a new home, and keep you informed along the way.",
+    "ctaIntroduce": "Introduce a client",
+    "steps": {
+      "title": "How an introduction works",
+      "accent": "introduction",
+      "items": [
+        {
+          "title": "A first, anonymous conversation",
+          "text": "Tell us the profile: where the client lives today, the timing and the cantons considered. No name is needed to see whether a Swiss move is realistic."
+        },
+        {
+          "title": "A written scope",
+          "text": "Before any work starts, we set out what we will handle and what stays with you and the client's other advisers."
+        },
+        {
+          "title": "Meeting the client, with you if you wish",
+          "text": "We contact your client only once you agree, and in the way you prefer."
+        },
+        {
+          "title": "Updates to you along the way",
+          "text": "You hear from us at the steps that matter: file submitted, ruling received, arrival."
+        }
+      ]
+    },
+    "scope": {
+      "title": "Who does what",
+      "oursTitle": "What we handle in Switzerland",
+      "ours": [
+        "The residence permit file and contact with the cantonal authorities",
+        "Lump-sum or ordinary taxation, and the tax ruling request",
+        "The choice of canton and commune",
+        "Home search, and Lex Koller checks for a purchase",
+        "Arrival: registration, health insurance, schools and banking introductions",
+        "Swiss tax returns after the move, if the client wishes"
+      ],
+      "yoursTitle": "What stays with you",
+      "yours": [
+        "The client relationship",
+        "Banking, investment and wealth management mandates",
+        "Tax and legal advice in the client's current country, including exit planning",
+        "Structures, trusts and estate planning outside Switzerland"
+      ]
+    },
+    "discretion": {
+      "title": "Discretion, in practice",
+      "items": [
+        {
+          "title": "Your client, your relationship",
+          "text": "We never contact your client without your agreement, and we do not market to them."
+        },
+        {
+          "title": "Anonymous first",
+          "text": "A profile is enough for a first view. Names come later, when you and your client are ready."
+        },
+        {
+          "title": "One Swiss point of contact",
+          "text": "A single person coordinates the Swiss side and keeps you informed."
+        }
+      ]
+    },
+    "briefings": {
+      "title": "Briefings for advisers",
+      "lead": "Short, sourced notes on the questions clients raise most often. Written to be forwarded."
+    },
+    "form": {
+      "title": "Introduce a client",
+      "accent": "client",
+      "lead": "No client name is needed at this stage. We reply personally, usually within one working day.",
+      "adviserName": "Your name",
+      "firm": "Firm",
+      "role": "Your role",
+      "rolePlaceholder": "Please choose",
+      "roles": {
+        "private-banker": "Private banker",
+        "wealth-manager": "Wealth manager",
+        "lawyer": "Lawyer",
+        "tax-adviser": "Tax adviser",
+        "family-office": "Family office",
+        "relocation-estate-agent": "Relocation or estate agent",
+        "other": "Other"
+      },
+      "email": "Work email",
+      "phone": "Phone",
+      "clientOrigin": "Client's current country of residence",
+      "clientOriginPlaceholder": "e.g. United Kingdom",
+      "timing": "Client's timing",
+      "cantons": "Cantons of interest",
+      "cantonsPlaceholder": "e.g. Geneva, Vaud, or open",
+      "scope": "What might the client need?",
+      "scopes": {
+        "permit": "Residence permit",
+        "lump-sum-ruling": "Lump-sum taxation or tax ruling",
+        "property": "Property",
+        "settling-in": "Relocation and settling in",
+        "ongoing-tax-wealth": "Ongoing tax and wealth"
+      },
+      "anonymous": "This is an anonymous pre-screen: I am not sharing my client's name yet",
+      "message": "Anything else we should know?",
+      "messagePlaceholder": "Family situation, work plans, questions from the client. No names needed.",
+      "submit": "Send introduction",
+      "successTitle": "Thank you, we have your introduction.",
+      "successText": "We will come back to you personally, usually within one working day. We will not contact your client without your agreement."
+    },
+    "cta": {
+      "title": "Introducing a client?",
+      "text": "Tell us the profile, anonymously if you prefer. We handle the Swiss side and keep you informed.",
+      "secondary": "Or see how an introduction works"
+    },
+    "contactNote": "Introducing a client as an adviser?",
+    "contactNoteLink": "Use the adviser form"
+  },
+  "contactExtra": {
+    "details": "A few details (optional)",
+    "timing": "When are you thinking of moving?",
+    "timingPlaceholder": "Please choose",
+    "timingOptions": {
+      "within-6-months": "Within 6 months",
+      "6-12-months": "In 6 to 12 months",
+      "over-12-months": "In more than 12 months",
+      "exploring": "Still exploring"
+    },
+    "cantons": "Cantons of interest",
+    "cantonsPlaceholder": "e.g. Vaud, Zug, or open",
+    "introducedBy": "Introduced by an adviser? Firm name",
+    "introducedByPlaceholder": "e.g. your bank or law firm"
   }
 }

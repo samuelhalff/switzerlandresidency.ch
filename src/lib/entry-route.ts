@@ -11,6 +11,7 @@ export const hubLabelKey: Record<Collection, TKey> = {
   cantons: "nav.cantons",
   origins: "nav.movingFrom",
   guides: "nav.guides",
+  advisers: "nav.advisers",
 };
 
 export function entryPath(collection: Collection, slug: string): string {
@@ -50,7 +51,7 @@ export function entryMetadata(collection: Collection) {
       description: entry.description,
       noindex: entry.draft,
       alternates,
-      type: collection === "guides" ? "article" : "website",
+      type: collection === "guides" || collection === "advisers" ? "article" : "website",
       publishedTime: entry.published || entry.updated,
       modifiedTime: entry.updated,
     });

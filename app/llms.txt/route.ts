@@ -4,7 +4,7 @@ import { absoluteUrl, collectionBase, localePath } from "@/lib/paths";
 
 export const dynamic = "force-static";
 
-const sectionTitle = { services: "Services", cantons: "Cantons", origins: "Moving from", guides: "Guides" } as const;
+const sectionTitle = { services: "Services", cantons: "Cantons", origins: "Moving from", guides: "Guides", advisers: "For advisers" } as const;
 
 export function GET() {
   const en = "en" as const;
@@ -26,6 +26,7 @@ export function GET() {
     link("/cantons/", t(en, "cantons.title"), t(en, "cantons.description")),
     link("/moving-from/", t(en, "origins.title"), t(en, "origins.description")),
     link("/guides/", t(en, "guides.title"), t(en, "guides.description")),
+    link("/for-advisers/", t(en, "advisers.title"), t(en, "advisers.description")),
     link("/about/", t(en, "about.title"), t(en, "about.description")),
     link("/contact/", t(en, "contact.title"), t(en, "contact.description")),
   ];

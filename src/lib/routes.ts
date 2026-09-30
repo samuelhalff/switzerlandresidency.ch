@@ -10,6 +10,7 @@ export const STATIC_PATHS = [
   "/cantons/",
   "/moving-from/",
   "/guides/",
+  "/for-advisers/",
   "/eligibility-check/",
   "/about/",
   "/contact/",

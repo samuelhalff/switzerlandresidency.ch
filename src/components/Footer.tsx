@@ -18,6 +18,7 @@ export default function Footer({ locale }: { locale: Locale }) {
   ];
   const company = [
     { href: "/eligibility-check/", label: t(locale, "nav.eligibility") },
+    { href: "/for-advisers/", label: t(locale, "nav.advisers") },
     { href: "/about/", label: t(locale, "nav.about") },
     { href: "/contact/", label: t(locale, "nav.contact") },
   ];

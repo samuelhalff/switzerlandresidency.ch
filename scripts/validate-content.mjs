@@ -20,9 +20,9 @@ import { anchorIds } from "./lib/heading-id.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LOCALES = ["en", "fr", "de"];
-const COLLECTIONS = ["guides", "services", "cantons", "origins"];
+const COLLECTIONS = ["guides", "services", "cantons", "origins", "advisers"];
 /** app/[locale]/<dir>/[slug] → content collection */
-const DIR_TO_COLLECTION = { guides: "guides", services: "services", cantons: "cantons", "moving-from": "origins" };
+const DIR_TO_COLLECTION = { guides: "guides", services: "services", cantons: "cantons", "moving-from": "origins", "for-advisers": "advisers" };
 
 const errors = [];
 const warnings = [];
@@ -169,6 +169,8 @@ for (const c of content.filter((x) => !x.draft)) {
 for (const [k, locs] of byKey) {
   const missing = LOCALES.filter((l) => !locs.has(l));
   const single = content.some((c) => `${c.collection}:${c.data.translationKey}` === k && c.data.singleLocale === true);
+  // adviser briefings are forwarded across language borders: always all three locales
+  if (single && k.startsWith("advisers:")) fail(`content: ${k} cannot use singleLocale (advisers pages need en, fr and de)`);
   if (missing.length && !single) fail(`content: ${k} has no published version in: ${missing.join(", ")}`);
 }
 // duplicate translationKey within one locale

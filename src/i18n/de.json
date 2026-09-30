@@ -48,7 +48,8 @@
     "contact": "Kontakt",
     "eligibility": "Möglichkeiten prüfen",
     "privacy": "Datenschutz",
-    "legalNotice": "Impressum"
+    "legalNotice": "Impressum",
+    "advisers": "Für Berater"
   },
   "footer": {
     "blurb": "Wir begleiten internationale Familien und Privatpersonen auf ihrem Weg in die Schweiz – von der ersten Frage zur Bewilligung bis zu dem Tag, an dem der Umzugswagen vorfährt, und weit darüber hinaus.",
@@ -717,5 +718,136 @@
     "homeArrival": "Der Einzug",
     "heroPeople": "Engadin, Graubünden",
     "eveningWindows": "Bergün, Graubünden"
+  },
+  "advisers": {
+    "title": "Für Berater: Mandanten beim Umzug in die Schweiz begleiten",
+    "accent": "Berater",
+    "metaTitle": "Für Berater: Mandanten beim Umzug in die Schweiz",
+    "description": "Für Private Banker, Vermögensverwalter, Anwälte und Steuerberater: Wir übernehmen die Schweizer Seite des Umzugs, die Mandantenbeziehung bleibt bei Ihnen.",
+    "intro": "Wenn Ihre Mandantin oder Ihr Mandant in die Schweiz zieht, bleiben Sie die Beraterin oder der Berater. Wir kümmern uns um die Schweizer Seite, von der Bewilligung und dem Steuerruling bis zum ersten Jahr im neuen Zuhause, und halten Sie dabei auf dem Laufenden.",
+    "ctaIntroduce": "Mandanten vorstellen",
+    "steps": {
+      "title": "So läuft eine Vorstellung ab",
+      "accent": "Vorstellung",
+      "items": [
+        {
+          "title": "Ein erstes, anonymes Gespräch",
+          "text": "Beschreiben Sie uns das Profil: heutiger Wohnsitz, Zeitplan, Kantone in der engeren Wahl. Für eine erste Einschätzung braucht es keinen Namen."
+        },
+        {
+          "title": "Ein schriftlicher Auftragsumfang",
+          "text": "Bevor die Arbeit beginnt, halten wir fest, was wir übernehmen und was bei Ihnen und den übrigen Beratern bleibt."
+        },
+        {
+          "title": "Das Treffen mit dem Mandanten, auf Wunsch mit Ihnen",
+          "text": "Wir kontaktieren Ihre Mandanten erst mit Ihrem Einverständnis und so, wie Sie es wünschen."
+        },
+        {
+          "title": "Updates für Sie unterwegs",
+          "text": "Sie hören von uns bei den wichtigen Schritten: Gesuch eingereicht, Ruling erhalten, Ankunft."
+        }
+      ]
+    },
+    "scope": {
+      "title": "Wer macht was",
+      "oursTitle": "Was wir in der Schweiz übernehmen",
+      "ours": [
+        "Das Bewilligungsgesuch und den Kontakt mit den kantonalen Behörden",
+        "Pauschal- oder ordentliche Besteuerung und das Gesuch um ein Steuerruling",
+        "Die Wahl von Kanton und Gemeinde",
+        "Die Wohnungs- oder Haussuche und bei einem Kauf die Lex-Koller-Prüfung",
+        "Die Ankunft: Anmeldung, Krankenversicherung, Schulen, Kontakte zu Banken",
+        "Schweizer Steuererklärungen nach dem Umzug, wenn gewünscht"
+      ],
+      "yoursTitle": "Was bei Ihnen bleibt",
+      "yours": [
+        "Die Mandantenbeziehung",
+        "Bank-, Anlage- und Vermögensverwaltungsmandate",
+        "Steuer- und Rechtsberatung im bisherigen Wohnsitzstaat, einschliesslich Wegzug",
+        "Strukturen, Trusts und Nachlassplanung ausserhalb der Schweiz"
+      ]
+    },
+    "discretion": {
+      "title": "Diskretion, konkret",
+      "items": [
+        {
+          "title": "Ihre Mandanten, Ihre Beziehung",
+          "text": "Wir kontaktieren Ihre Mandanten nie ohne Ihr Einverständnis und betreiben keine Werbung bei ihnen."
+        },
+        {
+          "title": "Zuerst anonym",
+          "text": "Für eine erste Einschätzung genügt ein Profil. Namen folgen später, wenn Sie und Ihre Mandanten so weit sind."
+        },
+        {
+          "title": "Eine Ansprechperson in der Schweiz",
+          "text": "Eine Person koordiniert die Schweizer Seite und hält Sie auf dem Laufenden."
+        }
+      ]
+    },
+    "briefings": {
+      "title": "Briefings für Berater",
+      "lead": "Kurze, belegte Notizen zu den Fragen, die Mandanten am häufigsten stellen. Zum Weiterleiten gedacht."
+    },
+    "form": {
+      "title": "Mandanten vorstellen",
+      "accent": "vorstellen",
+      "lead": "Den Namen Ihrer Mandanten brauchen wir noch nicht. Wir antworten persönlich, in der Regel innerhalb eines Arbeitstags.",
+      "adviserName": "Ihr Name",
+      "firm": "Firma",
+      "role": "Ihre Funktion",
+      "rolePlaceholder": "Bitte wählen",
+      "roles": {
+        "private-banker": "Private Banker",
+        "wealth-manager": "Vermögensverwalter",
+        "lawyer": "Anwalt",
+        "tax-adviser": "Steuerberater",
+        "family-office": "Family Office",
+        "relocation-estate-agent": "Relocation- oder Immobilienagentur",
+        "other": "Andere"
+      },
+      "email": "Geschäftliche E-Mail",
+      "phone": "Telefon",
+      "clientOrigin": "Heutiger Wohnsitzstaat der Mandanten",
+      "clientOriginPlaceholder": "z. B. Deutschland",
+      "timing": "Zeitplan der Mandanten",
+      "cantons": "Kantone in der engeren Wahl",
+      "cantonsPlaceholder": "z. B. Zug, Schwyz oder offen",
+      "scope": "Was könnten Ihre Mandanten brauchen?",
+      "scopes": {
+        "permit": "Aufenthaltsbewilligung",
+        "lump-sum-ruling": "Pauschalbesteuerung oder Steuerruling",
+        "property": "Immobilien",
+        "settling-in": "Relocation und Ankommen",
+        "ongoing-tax-wealth": "Laufende Steuer- und Vermögensbetreuung"
+      },
+      "anonymous": "Dies ist eine anonyme Vorabklärung: Den Namen meiner Mandanten nenne ich noch nicht",
+      "message": "Was sollten wir sonst noch wissen?",
+      "messagePlaceholder": "Familiensituation, berufliche Pläne, Fragen der Mandanten. Ohne Namen.",
+      "submit": "Vorstellung senden",
+      "successTitle": "Vielen Dank, Ihre Nachricht ist bei uns.",
+      "successText": "Wir melden uns persönlich, in der Regel innerhalb eines Arbeitstags. Ihre Mandanten kontaktieren wir nicht ohne Ihr Einverständnis."
+    },
+    "cta": {
+      "title": "Möchten Sie Mandanten vorstellen?",
+      "text": "Beschreiben Sie uns das Profil, gerne anonym. Wir übernehmen die Schweizer Seite und halten Sie auf dem Laufenden.",
+      "secondary": "Oder sehen, wie eine Vorstellung abläuft"
+    },
+    "contactNote": "Sie sind Berater und möchten Mandanten vorstellen?",
+    "contactNoteLink": "Zum Formular für Berater"
+  },
+  "contactExtra": {
+    "details": "Ein paar Angaben (freiwillig)",
+    "timing": "Wann möchten Sie umziehen?",
+    "timingPlaceholder": "Bitte wählen",
+    "timingOptions": {
+      "within-6-months": "Innerhalb von 6 Monaten",
+      "6-12-months": "In 6 bis 12 Monaten",
+      "over-12-months": "In mehr als 12 Monaten",
+      "exploring": "Wir informieren uns erst"
+    },
+    "cantons": "Kantone in der engeren Wahl",
+    "cantonsPlaceholder": "z. B. Waadt, Zug oder offen",
+    "introducedBy": "Von einem Berater empfohlen? Name der Firma",
+    "introducedByPlaceholder": "z. B. Ihre Bank oder Kanzlei"
   }
 }

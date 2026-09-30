@@ -48,7 +48,8 @@
     "contact": "Contact",
     "eligibility": "Test d'éligibilité",
     "privacy": "Confidentialité",
-    "legalNotice": "Mentions légales"
+    "legalNotice": "Mentions légales",
+    "advisers": "Conseillers"
   },
   "footer": {
     "blurb": "Nous aidons les familles internationales et les particuliers à s'installer en Suisse, de la première question sur les permis jusqu'au jour du déménagement, et bien au-delà.",
@@ -717,5 +718,136 @@
     "homeArrival": "L'emménagement",
     "heroPeople": "Engadine, Grisons",
     "eveningWindows": "Bergün, Grisons"
+  },
+  "advisers": {
+    "title": "Conseillers : accompagner un client qui s'installe en Suisse",
+    "accent": "Conseillers",
+    "metaTitle": "Conseillers : l'installation de votre client en Suisse",
+    "description": "Banquiers privés, gérants de fortune, avocats, fiscalistes : nous prenons en charge le volet suisse de l'installation, la relation client reste la vôtre.",
+    "intro": "Lorsqu'un client décide de s'installer en Suisse, vous restez son conseiller. Nous nous occupons du volet suisse, du permis et du ruling fiscal jusqu'à la première année dans son nouveau foyer, et vous tenons informé à chaque étape.",
+    "ctaIntroduce": "Présenter un client",
+    "steps": {
+      "title": "Comment se passe une mise en relation",
+      "accent": "mise en relation",
+      "items": [
+        {
+          "title": "Un premier échange, anonyme",
+          "text": "Décrivez-nous le profil : pays de résidence actuel, calendrier, cantons envisagés. Aucun nom n'est nécessaire pour savoir si une installation en Suisse est réaliste."
+        },
+        {
+          "title": "Un périmètre écrit",
+          "text": "Avant tout travail, nous précisons ce que nous prenons en charge et ce qui reste chez vous et chez les autres conseillers du client."
+        },
+        {
+          "title": "La rencontre avec le client, avec vous si vous le souhaitez",
+          "text": "Nous ne contactons votre client qu'avec votre accord, et de la manière que vous préférez."
+        },
+        {
+          "title": "Des nouvelles à chaque étape",
+          "text": "Vous êtes informé aux moments clés : dossier déposé, ruling obtenu, arrivée."
+        }
+      ]
+    },
+    "scope": {
+      "title": "Qui fait quoi",
+      "oursTitle": "Ce que nous prenons en charge en Suisse",
+      "ours": [
+        "Le dossier de permis de séjour et les échanges avec les autorités cantonales",
+        "Le forfait fiscal ou l'imposition ordinaire, et la demande de ruling",
+        "Le choix du canton et de la commune",
+        "La recherche du logement et, en cas d'achat, les vérifications Lex Koller",
+        "L'arrivée : inscription, assurance maladie, écoles, mises en relation bancaires",
+        "Les déclarations d'impôt en Suisse après l'installation, si le client le souhaite"
+      ],
+      "yoursTitle": "Ce qui reste chez vous",
+      "yours": [
+        "La relation client",
+        "Les mandats bancaires, de gestion et de conseil patrimonial",
+        "Le conseil fiscal et juridique dans le pays actuel du client, y compris la sortie",
+        "Les structures, trusts et la planification successorale hors de Suisse"
+      ]
+    },
+    "discretion": {
+      "title": "La discrétion, concrètement",
+      "items": [
+        {
+          "title": "Votre client, votre relation",
+          "text": "Nous ne contactons jamais votre client sans votre accord et ne lui adressons aucune sollicitation commerciale."
+        },
+        {
+          "title": "D'abord de façon anonyme",
+          "text": "Un profil suffit pour un premier avis. Les noms viennent ensuite, lorsque vous et votre client êtes prêts."
+        },
+        {
+          "title": "Un seul interlocuteur en Suisse",
+          "text": "Une seule personne coordonne le volet suisse et vous tient informé."
+        }
+      ]
+    },
+    "briefings": {
+      "title": "Notes pour les conseillers",
+      "lead": "Des notes courtes et sourcées sur les questions que posent le plus souvent les clients. Pensées pour être transmises."
+    },
+    "form": {
+      "title": "Présenter un client",
+      "accent": "client",
+      "lead": "Le nom du client n'est pas nécessaire à ce stade. Nous répondons personnellement, en général sous un jour ouvrable.",
+      "adviserName": "Votre nom",
+      "firm": "Société",
+      "role": "Votre fonction",
+      "rolePlaceholder": "Veuillez choisir",
+      "roles": {
+        "private-banker": "Banquier privé",
+        "wealth-manager": "Gérant de fortune",
+        "lawyer": "Avocat",
+        "tax-adviser": "Conseiller fiscal",
+        "family-office": "Family office",
+        "relocation-estate-agent": "Agent de relocation ou immobilier",
+        "other": "Autre"
+      },
+      "email": "E-mail professionnel",
+      "phone": "Téléphone",
+      "clientOrigin": "Pays de résidence actuel du client",
+      "clientOriginPlaceholder": "p. ex. France",
+      "timing": "Calendrier du client",
+      "cantons": "Cantons envisagés",
+      "cantonsPlaceholder": "p. ex. Genève, Vaud, ou ouvert",
+      "scope": "De quoi le client pourrait-il avoir besoin ?",
+      "scopes": {
+        "permit": "Permis de séjour",
+        "lump-sum-ruling": "Forfait fiscal ou ruling fiscal",
+        "property": "Immobilier",
+        "settling-in": "Relocation et installation",
+        "ongoing-tax-wealth": "Suivi fiscal et patrimonial"
+      },
+      "anonymous": "Il s'agit d'une première évaluation anonyme : je ne communique pas encore le nom de mon client",
+      "message": "Autre chose à nous dire ?",
+      "messagePlaceholder": "Situation familiale, projets professionnels, questions du client. Sans nom.",
+      "submit": "Envoyer la mise en relation",
+      "successTitle": "Merci, nous avons bien reçu votre message.",
+      "successText": "Nous revenons vers vous personnellement, en général sous un jour ouvrable. Nous ne contacterons pas votre client sans votre accord."
+    },
+    "cta": {
+      "title": "Vous présentez un client ?",
+      "text": "Décrivez-nous le profil, de façon anonyme si vous préférez. Nous gérons le volet suisse et vous tenons informé.",
+      "secondary": "Ou voir comment se passe une mise en relation"
+    },
+    "contactNote": "Vous êtes conseiller et présentez un client ?",
+    "contactNoteLink": "Utilisez le formulaire conseillers"
+  },
+  "contactExtra": {
+    "details": "Quelques précisions (facultatif)",
+    "timing": "Quand pensez-vous vous installer ?",
+    "timingPlaceholder": "Veuillez choisir",
+    "timingOptions": {
+      "within-6-months": "Dans les 6 mois",
+      "6-12-months": "Dans 6 à 12 mois",
+      "over-12-months": "Dans plus de 12 mois",
+      "exploring": "Simple réflexion pour l'instant"
+    },
+    "cantons": "Cantons envisagés",
+    "cantonsPlaceholder": "p. ex. Vaud, Zoug, ou ouvert",
+    "introducedBy": "Recommandé par un conseiller ? Nom de la société",
+    "introducedByPlaceholder": "p. ex. votre banque ou votre étude"
   }
 }

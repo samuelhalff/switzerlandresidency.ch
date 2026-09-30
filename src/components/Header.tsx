@@ -25,6 +25,7 @@ export default function Header({ locale }: { locale: Locale }) {
     { href: localePath(locale, "/cantons/"), label: t(locale, "nav.cantons") },
     { href: localePath(locale, "/moving-from/"), label: t(locale, "nav.movingFrom") },
     { href: localePath(locale, "/guides/"), label: t(locale, "nav.guides") },
+    { href: localePath(locale, "/for-advisers/"), label: t(locale, "nav.advisers") },
     { href: localePath(locale, "/about/"), label: t(locale, "nav.about") },
   ];
   const contact = { href: localePath(locale, "/contact/"), label: t(locale, "common.ctaConversation") };

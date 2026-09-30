@@ -39,7 +39,7 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
       >
         {/* Guides show when they were last checked against official sources; evergreen pages
             (services, cantons, origins) show no date. JSON-LD keeps the real publication date. */}
-        {collection === "guides" && entry.updated ? (
+        {(collection === "guides" || collection === "advisers") && entry.updated ? (
           <p className="mt-6 text-sm text-muted">
             {t(locale, "article.reviewed")} <time dateTime={entry.updated}>{formatDate(entry.updated, locale)}</time>
           </p>
@@ -111,7 +111,7 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
       <CtaBand locale={locale} />
 
       {collection === "services" ? <JsonLd data={serviceLd(entry, url)} /> : null}
-      {collection === "guides" ? <JsonLd data={articleLd(entry, url)} /> : null}
+      {collection === "guides" || collection === "advisers" ? <JsonLd data={articleLd(entry, url)} /> : null}
     </article>
   );
 }

@@ -134,6 +134,7 @@ const byCollection: Record<string, ImageName> = {
   services: "homeLakeside",
   cantons: "mountainMatterhorn",
   origins: "familyLife",
+  advisers: "terraceLake",
 };
 
 export function imageForEntry(entry: { collection: string; slug: string; category?: string }): ImageName {

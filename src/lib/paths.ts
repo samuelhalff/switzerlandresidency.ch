@@ -17,4 +17,5 @@ export const collectionBase = {
   cantons: "cantons",
   origins: "moving-from",
   guides: "guides",
+  advisers: "for-advisers",
 } as const;

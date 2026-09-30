@@ -3,15 +3,18 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { trackEvent } from "@/lib/analytics";
 import { CHECK_STORAGE_KEY, type StoredCheck } from "@/lib/eligibility";
+import { fieldValue, submitToFormspark } from "@/lib/formspark";
 import type { Messages } from "@/lib/i18n";
 import Button from "./ui/Button";
 import Panel from "./ui/Panel";
+import { Consent, FallbackPanel, Field, FormAlerts, Honeypot, Select, SuccessPanel, type FormLabels } from "./form/FormParts";
 
-type Labels = Messages["contact"]["form"];
 type Status = "idle" | "sending" | "success" | "error";
 
-type Props = {
-  labels: Labels;
+export type ContactFormProps = {
+  labels: FormLabels;
+  /** Optional qualification fields (timing, cantons, introducing adviser). */
+  extra: Messages["contactExtra"];
   locale: string;
   formsparkId: string;
   /** wa.me link when NEXT_PUBLIC_WHATSAPP is set, else "". */
@@ -37,7 +40,7 @@ function clearStoredCheck() {
   }
 }
 
-export default function ContactForm({ labels, locale, formsparkId, whatsappHref, privacyHref, languages }: Props) {
+export default function ContactForm({ labels, extra, locale, formsparkId, whatsappHref, privacyHref, languages }: ContactFormProps) {
   const [status, setStatus] = useState<Status>("idle");
   const [check, setCheck] = useState<StoredCheck | null>(null);
   const [missing, setMissing] = useState(false);
@@ -46,33 +49,14 @@ export default function ContactForm({ labels, locale, formsparkId, whatsappHref,
     setCheck(readStoredCheck());
   }, []);
 
-  if (!formsparkId) {
-    return (
-      <Panel padding="lg">
-        <p>{labels.fallbackText}</p>
-        {whatsappHref ? (
-          <Button href={whatsappHref} target="_blank" rel="noopener noreferrer" className="mt-6">
-            {labels.whatsappLink}
-          </Button>
-        ) : null}
-      </Panel>
-    );
-  }
-
-  if (status === "success") {
-    return (
-      <Panel padding="lg" role="status" aria-live="polite">
-        <h2 className="text-[1.75rem]">{labels.successTitle}</h2>
-        <p className="mt-3 text-muted">{labels.successText}</p>
-      </Panel>
-    );
-  }
+  if (!formsparkId) return <FallbackPanel labels={labels} whatsappHref={whatsappHref} />;
+  if (status === "success") return <SuccessPanel title={labels.successTitle} text={labels.successText} />;
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
     const data = new FormData(form);
-    const value = (k: string) => String(data.get(k) ?? "").trim();
+    const value = (k: string) => fieldValue(data, k);
 
     if (!value("name") || !value("email") || !value("message") || data.get("consent") !== "on" || !form.checkValidity()) {
       setMissing(true);
@@ -89,11 +73,15 @@ export default function ContactForm({ labels, locale, formsparkId, whatsappHref,
 
     setStatus("sending");
     const payload: Record<string, string | boolean> = {
+      form_type: "contact",
       name: value("name"),
       email: value("email"),
       phone: value("phone"),
       preferred_language: value("language"),
       message: value("message"),
+      timing: value("timing"),
+      cantons: value("cantons"),
+      introduced_by: value("introduced_by"),
       consent: true,
       site_locale: locale,
       page: window.location.pathname,
@@ -105,12 +93,7 @@ export default function ContactForm({ labels, locale, formsparkId, whatsappHref,
     }
 
     try {
-      const res = await fetch(`https://submit-form.com/${encodeURIComponent(formsparkId)}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify(payload),
-      });
-      if (!res.ok) throw new Error(String(res.status));
+      await submitToFormspark(formsparkId, payload);
       trackEvent("generate_lead", { method: check ? "check" : "form" });
       clearStoredCheck();
       setStatus("success");
@@ -119,119 +102,85 @@ export default function ContactForm({ labels, locale, formsparkId, whatsappHref,
     }
   }
 
-  const label = "block text-sm font-medium";
   return (
     <Panel padding="lg">
-    <form onSubmit={onSubmit} noValidate className="space-y-5">
-      {check ? (
-        <div className="border-l-2 border-accent pl-4 text-sm">
-          <p className="font-medium">{labels.checkAttached}</p>
-          <ul className="mt-2 list-disc space-y-1 pl-5 text-muted">
-            {check.summary.map((line) => (
-              <li key={line}>{line}</li>
+      <form onSubmit={onSubmit} noValidate className="space-y-5">
+        {check ? (
+          <div className="border-l-2 border-accent pl-4 text-sm">
+            <p className="font-medium">{labels.checkAttached}</p>
+            <ul className="mt-2 list-disc space-y-1 pl-5 text-muted">
+              {check.summary.map((line) => (
+                <li key={line}>{line}</li>
+              ))}
+            </ul>
+            <button
+              type="button"
+              className="link mt-3 text-sm"
+              onClick={() => {
+                clearStoredCheck();
+                setCheck(null);
+              }}
+            >
+              {labels.checkRemove}
+            </button>
+          </div>
+        ) : null}
+
+        <Field id="cf-name" label={labels.name}>
+          <input id="cf-name" name="name" type="text" autoComplete="name" required className="field" />
+        </Field>
+        <div className="grid gap-5 sm:grid-cols-2">
+          <Field id="cf-email" label={labels.email}>
+            <input id="cf-email" name="email" type="email" autoComplete="email" required className="field" />
+          </Field>
+          <Field id="cf-phone" label={labels.phone} optional optionalLabel={labels.optional}>
+            <input id="cf-phone" name="phone" type="tel" autoComplete="tel" className="field" />
+          </Field>
+        </div>
+        <Field id="cf-language" label={labels.language}>
+          <select id="cf-language" name="language" defaultValue={locale} className="field">
+            {languages.map((l) => (
+              <option key={l.code} value={l.code}>
+                {l.name}
+              </option>
             ))}
-          </ul>
-          <button
-            type="button"
-            className="link mt-3 text-sm"
-            onClick={() => {
-              clearStoredCheck();
-              setCheck(null);
-            }}
-          >
-            {labels.checkRemove}
-          </button>
-        </div>
-      ) : null}
+          </select>
+        </Field>
+        <Field id="cf-message" label={labels.message}>
+          <textarea id="cf-message" name="message" rows={5} required placeholder={labels.messagePlaceholder} className="field" />
+        </Field>
 
-      <div>
-        <label htmlFor="cf-name" className={label}>
-          {labels.name}
-        </label>
-        <input id="cf-name" name="name" type="text" autoComplete="name" required className="field mt-1.5" />
-      </div>
-      <div className="grid gap-5 sm:grid-cols-2">
-        <div>
-          <label htmlFor="cf-email" className={label}>
-            {labels.email}
-          </label>
-          <input id="cf-email" name="email" type="email" autoComplete="email" required className="field mt-1.5" />
-        </div>
-        <div>
-          <label htmlFor="cf-phone" className={label}>
-            {labels.phone} <span className="font-normal text-muted">({labels.optional})</span>
-          </label>
-          <input id="cf-phone" name="phone" type="tel" autoComplete="tel" className="field mt-1.5" />
-        </div>
-      </div>
-      <div>
-        <label htmlFor="cf-language" className={label}>
-          {labels.language}
-        </label>
-        <select id="cf-language" name="language" defaultValue={locale} className="field mt-1.5">
-          {languages.map((l) => (
-            <option key={l.code} value={l.code}>
-              {l.name}
-            </option>
-          ))}
-        </select>
-      </div>
-      <div>
-        <label htmlFor="cf-message" className={label}>
-          {labels.message}
-        </label>
-        <textarea
-          id="cf-message"
-          name="message"
-          rows={5}
-          required
-          placeholder={labels.messagePlaceholder}
-          className="field mt-1.5"
-        />
-      </div>
+        {/* Optional qualification, folded away so the form stays light. */}
+        <details className="group border-t border-line pt-4">
+          <summary className="cursor-pointer list-none text-sm font-medium text-ink [&::-webkit-details-marker]:hidden">
+            <span className="inline-flex items-center gap-2">
+              <span aria-hidden="true" className="inline-block transition-transform group-open:rotate-45">+</span>
+              {extra.details}
+            </span>
+          </summary>
+          <div className="mt-5 space-y-5">
+            <div className="grid gap-5 sm:grid-cols-2">
+              <Field id="cf-timing" label={extra.timing}>
+                <Select id="cf-timing" name="timing" options={extra.timingOptions} placeholder={extra.timingPlaceholder} />
+              </Field>
+              <Field id="cf-cantons" label={extra.cantons}>
+                <input id="cf-cantons" name="cantons" type="text" placeholder={extra.cantonsPlaceholder} className="field" />
+              </Field>
+            </div>
+            <Field id="cf-introduced" label={extra.introducedBy}>
+              <input id="cf-introduced" name="introduced_by" type="text" autoComplete="organization" placeholder={extra.introducedByPlaceholder} className="field" />
+            </Field>
+          </div>
+        </details>
 
-      {/* Honeypot: hidden from people and assistive tech */}
-      <div aria-hidden="true" className="absolute -left-[9999px] h-px w-px overflow-hidden">
-        <label htmlFor="cf-hp">{labels.honeypot}</label>
-        <input id="cf-hp" name="_honeypot" type="text" tabIndex={-1} autoComplete="off" />
-      </div>
+        <Honeypot id="cf-hp" label={labels.honeypot} />
+        <Consent id="cf-consent" labels={labels} privacyHref={privacyHref} />
+        <FormAlerts labels={labels} missing={missing} error={status === "error"} whatsappHref={whatsappHref} />
 
-      <div className="flex items-start gap-3">
-        <input id="cf-consent" name="consent" type="checkbox" required className="mt-1 h-5 w-5 shrink-0 accent-[rgb(var(--accent))]" />
-        <label htmlFor="cf-consent" className="text-sm">
-          {labels.consentBefore}{" "}
-          <a href={privacyHref} className="link" target="_blank" rel="noopener">
-            {labels.consentLink}
-          </a>
-          {labels.consentAfter}
-        </label>
-      </div>
-
-      {missing ? (
-        <p role="alert" className="text-sm font-medium text-accent">
-          {labels.required}
-        </p>
-      ) : null}
-      {status === "error" ? (
-        <p role="alert" className="text-sm font-medium text-accent">
-          {labels.error}
-          {whatsappHref ? (
-            <>
-              {" "}
-              {labels.errorWhatsappBefore}{" "}
-              <a href={whatsappHref} className="link" target="_blank" rel="noopener noreferrer">
-                {labels.whatsappLink}
-              </a>
-              {labels.errorWhatsappAfter}
-            </>
-          ) : null}
-        </p>
-      ) : null}
-
-      <Button type="submit" size="lg" disabled={status === "sending"}>
-        {status === "sending" ? labels.sending : labels.submit}
-      </Button>
-    </form>
+        <Button type="submit" size="lg" disabled={status === "sending"}>
+          {status === "sending" ? labels.sending : labels.submit}
+        </Button>
+      </form>
     </Panel>
   );
 }

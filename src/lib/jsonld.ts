@@ -74,6 +74,25 @@ export function serviceLd(entry: Entry, url: string) {
   };
 }
 
+/** The /for-advisers/ hub: the relocation service as offered to introducers. */
+export function adviserServiceLd(name: string, description: string, url: string, locale: Locale) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name,
+    description,
+    url,
+    inLanguage: locale,
+    serviceType: "Relocation services for private clients introduced by advisers",
+    provider: { "@id": ORG_ID },
+    areaServed: { "@type": "Country", name: "Switzerland" },
+    audience: {
+      "@type": "BusinessAudience",
+      audienceType: "Private bankers, wealth managers, lawyers, tax advisers, family offices and relocation partners",
+    },
+  };
+}
+
 export function articleLd(entry: Entry, url: string) {
   return {
     "@context": "https://schema.org",

@@ -8,7 +8,7 @@ import { typeset } from "./typography";
  * Markdown content lives in content/<locale>/<collection>/<slug>.md.
  * Adding a file is all that is needed: routes, listings, sitemap and hreflang pick it up at build time.
  */
-export const collections = ["guides", "services", "cantons", "origins"] as const;
+export const collections = ["guides", "services", "cantons", "origins", "advisers"] as const;
 export type Collection = (typeof collections)[number];
 
 export type FaqItem = { q: string; a: string };
