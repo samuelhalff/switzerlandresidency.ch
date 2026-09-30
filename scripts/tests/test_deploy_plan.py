@@ -56,7 +56,8 @@ def test_changed_new_and_removed_files():
 
 def test_asset_classification():
     assert deploy.is_asset("_next/static/chunks/a.js")
-    assert deploy.is_asset("images/photo.webp")
+    # images are not content-hashed, so they go through the atomic tmp+rename swap
+    assert not deploy.is_asset("images/photo.webp")
     assert deploy.is_asset("fonts/x.woff2")
     assert deploy.is_asset("some/dir/font.woff2")
     for rel in ("index.html", "en/index.txt", "sitemap.xml", ".htaccess", "favicon.ico", "apple-icon.png", "icon.svg"):
