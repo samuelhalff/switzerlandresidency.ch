@@ -11,6 +11,7 @@ import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkGfm from "remark-gfm";
 import { classifySource } from "./source-policy.mjs";
+import { startsWithLowercase } from "./title-case.mjs";
 
 export const LOCALES = ["en", "fr", "de"];
 const PRIORITY_DEFAULT = 9;
@@ -876,7 +877,10 @@ export function checkArticle(article, ctx) {
   if (data.draft !== false) e(`draft must be false`);
   const faq = Array.isArray(data.faq) ? data.faq : [];
   if (faq.length < 4 || faq.length > 6) e(`faq must have 4–6 items (has ${faq.length})`);
-  faq.forEach((f, i) => (!f?.q || !f?.a) && e(`faq[${i}] needs q and a`));
+  faq.forEach((f, i) => {
+    if (!f?.q || !f?.a) e(`faq[${i}] needs q and a`);
+    else if (startsWithLowercase(f.q)) e(`faq[${i}].q starts with a lowercase letter: "${f.q}"`);
+  });
   const kw = data.keywords;
   if (!kw || typeof kw.primary !== "string" || !kw.primary.trim()) e(`keywords.primary missing`);
   if (!Array.isArray(kw?.secondary) || kw.secondary.length < 5 || kw.secondary.length > 10 || kw.secondary.some((s) => typeof s !== "string" || !s.trim()))
@@ -887,6 +891,8 @@ export function checkArticle(article, ctx) {
   const desc = String(data.description ?? "");
   if (title.length > 60) e(`title is ${title.length} chars (max 60)`);
   if (desc.length < 140 || desc.length > 155) e(`description is ${desc.length} chars (140–155)`);
+  if (startsWithLowercase(title)) e(`title starts with a lowercase letter: "${title}"`);
+  if (startsWithLowercase(desc)) e(`description starts with a lowercase letter: "${desc}"`);
 
   // Length
   const words = countWords(body);
@@ -899,6 +905,9 @@ export function checkArticle(article, ctx) {
   if (kfIdx < 0 || kfIdx > body.length * 0.3) e(`"Key facts" box missing near the top`);
   const questionH2 = (body.match(/^##\s+[^\n]*\?\s*$/gm) ?? []).length;
   if (questionH2 < 2) e(`needs at least 2 question-style H2s (has ${questionH2})`);
+  for (const m of body.matchAll(/^##(?!#)\s+(.*)$/gm)) {
+    if (startsWithLowercase(m[1])) e(`H2 heading starts with a lowercase letter: "${m[1]}"`);
+  }
   if (!PATTERNS.howWeHelp[locale].test(body)) e(`"How we help" section missing`);
   const lastLine = body.trim().split("\n").filter((l) => l.trim()).pop() ?? "";
   if (!PATTERNS.disclaimer[locale].test(lastLine)) e(`must end with the "general information" disclaimer line`);

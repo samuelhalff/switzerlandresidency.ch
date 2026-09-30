@@ -48,6 +48,7 @@ import {
   unverifiedOnlyNumbers,
   validateBacklog,
 } from "./lib/article-pipeline.mjs";
+import { normalizeArticleCasing } from "./lib/title-case.mjs";
 import { researchKeywords } from "./lib/keyword-research.mjs";
 import { chatJson, configFromEnv, hasConfig } from "./lib/azure-openai.mjs";
 import { OFFICIAL_DOMAINS, INSTITUTIONAL_DOMAINS, classifySource } from "./lib/source-policy.mjs";
@@ -278,7 +279,7 @@ ${ARTICLE_JSON}`;
       ? `${base}\n\nYOUR PREVIOUS DRAFT FAILED THESE CHECKS — fix every one and return the full corrected JSON:\n${errors.map((e) => `- ${e}`).join("\n")}\n\nPREVIOUS DRAFT:\n${JSON.stringify(previous)}`
       : base;
     const out = await chatJson(cfg, { system, user, maxTokens: MAX_TOKENS, label: `draft-en#${attempt}` });
-    const article = assemble("en", item, out);
+    const article = normalizeArticleCasing(assemble("en", item, out));
     errors = [
       ...checkArticle(article, ctx.checkCtx("en")),
       ...checkArticleSet({ en: article }, { factIndex: ctx.factIndex, unverifiedNumbers: ctx.unverifiedNumbers }).filter((e) => e.startsWith("en:")),
@@ -323,7 +324,7 @@ ${ARTICLE_JSON}`;
       ? `${base}\n\nYOUR PREVIOUS TRANSLATION FAILED THESE CHECKS — fix every one and return the full corrected JSON:\n${errors.map((e) => `- ${e}`).join("\n")}\n\nPREVIOUS TRANSLATION:\n${JSON.stringify(previous)}`
       : base;
     const out = await chatJson(tcfg, { system, user, maxTokens: MAX_TOKENS, label: `translate-${locale}#${attempt}` });
-    const article = assemble(locale, item, out);
+    const article = normalizeArticleCasing(assemble(locale, item, out));
     const enUrls = en.data.sources.map((s) => s.url).join("|");
     errors = [
       ...checkArticle(article, ctx.checkCtx(locale)),
