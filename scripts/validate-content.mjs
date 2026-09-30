@@ -6,7 +6,8 @@
  *  - UI key parity: every key in en/fr/de JSON exists in the others (arrays compared by index), no empty strings
  *  - every t(locale, "key") literal in app/ and src/ resolves to a string in all locales
  *  - content frontmatter: required fields present and well-formed; guides use a known category
- *  - internal markdown links point to existing routes
+ *  - internal markdown links point to existing routes, and "#anchor" fragments to an existing
+ *    heading/table-row id on the target page (id rule: scripts/lib/heading-id.mjs)
  *  - no "TODO" / "lorem" in non-draft content
  * WARN:
  *  - a non-draft item is missing in a locale (matched by translationKey)
@@ -15,6 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
+import { anchorIds } from "./lib/heading-id.mjs";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LOCALES = ["en", "fr", "de"];
@@ -222,10 +224,22 @@ collectRoutes(localeDir, []);
 for (const extra of ["/sitemap.xml", "/robots.txt", "/llms.txt"]) routes.add(extra);
 
 const linkRe = /\]\(\s*<?([^)\s>]+)>?(?:\s+"[^"]*")?\s*\)/g;
+const baseOf = Object.fromEntries(Object.entries(DIR_TO_COLLECTION).map(([dir, coll]) => [coll, dir]));
+const pageAnchors = new Map(); // "/en/guides/x/" → Set of ids (computed lazily)
+const bodyByPath = new Map(content.map((c) => [`/${c.locale}/${baseOf[c.collection]}/${c.slug}/`, c.body]));
+function anchorsFor(p) {
+  if (!pageAnchors.has(p)) pageAnchors.set(p, bodyByPath.has(p) ? anchorIds(bodyByPath.get(p)) : null);
+  return pageAnchors.get(p);
+}
 for (const c of content) {
+  const selfPath = `/${c.locale}/${baseOf[c.collection]}/${c.slug}/`;
   for (const m of c.body.matchAll(linkRe)) {
     const href = m[1];
-    if (/^(https?:|mailto:|tel:|#)/.test(href)) continue;
+    if (href.startsWith("#")) {
+      if (!anchorsFor(selfPath)?.has(href.slice(1))) fail(`links: ${c.file} links to "${href}", which is not a heading or table-row id on this page`);
+      continue;
+    }
+    if (/^(https?:|mailto:|tel:)/.test(href)) continue;
     if (!href.startsWith("/")) {
       fail(`links: ${c.file} uses relative link "${href}" — use an absolute path like /${c.locale}/guides/…/`);
       continue;
@@ -236,7 +250,13 @@ for (const c of content) {
       if (!fs.existsSync(path.join(ROOT, "public", p))) fail(`links: ${c.file} links to missing file ${href}`);
       continue;
     }
-    if (!routes.has(p)) fail(`links: ${c.file} links to "${href}", which is not a route`);
+    if (!routes.has(p)) {
+      fail(`links: ${c.file} links to "${href}", which is not a route`);
+      continue;
+    }
+    const frag = href.split("#")[1];
+    const ids = frag ? anchorsFor(p) : null;
+    if (frag && ids && !ids.has(frag)) fail(`links: ${c.file} links to "${href}", but that page has no heading or table-row id "${frag}"`);
   }
 }
 

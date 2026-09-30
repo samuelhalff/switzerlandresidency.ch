@@ -485,6 +485,13 @@ html.reveal-ready [data-reveal].is-visible {
   font-size: 1.4rem;
   margin-top: 1.8em;
 }
+/* Deep-link targets (ids from src/lib/rehype-anchors.ts) clear the sticky header. */
+.prose [id] {
+  scroll-margin-top: 6.5rem;
+}
+.prose tr:target td {
+  background: rgb(var(--accent) / 0.08);
+}
 .prose a {
   color: rgb(var(--em));
   text-decoration: underline;

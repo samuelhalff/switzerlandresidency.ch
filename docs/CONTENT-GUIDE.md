@@ -82,6 +82,13 @@ with the **same slug**; internal links then use `/fr/…` or `/de/…`.
   moving-from-asia, buying-property-lex-koller, lex-koller-reform-2026, holiday-homes-alps,
   best-cantons-wealthy-families, geneva-or-vaud, international-schools-switzerland,
   health-insurance-new-residents, first-90-days-checklist, inheritance-gift-tax
+- Deep links: `/en/guides/<slug>/#<id>` (or `#<id>` on the same page). H2/H3 headings get an id
+  from their text; table body rows get an id from their first cell, up to any "(". Id rule: lower
+  case, accents removed, apostrophes dropped, other runs of punctuation/spaces → "-", repeats get
+  "-2", "-3". Examples: "## How we help" → `#how-we-help`; row "Geneva (GE)" → `#geneva`
+  (FR "Genève (GE)" → `#geneve`, DE "Genf (GE)" → `#genf`). The validator fails on a fragment that
+  does not exist, so renaming a heading breaks links to it: search for the old id first.
+  Implementation: `scripts/lib/heading-id.mjs` (shared by the renderer and the validator).
 - External: official sources freely. No links to ark-fid.ch in content (footer/about handle it).
 
 ## Page templates
