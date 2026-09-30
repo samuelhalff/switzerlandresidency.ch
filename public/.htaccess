@@ -65,7 +65,7 @@ AddType image/webp .webp
 
   # HSTS: HTTPS works on the apex and www (Let's Encrypt, acme.sh auto-renewal, 30.09.2026).
   # No includeSubDomains: other subdomains on this hosting are not covered by the certificate.
-  Header always set Strict-Transport-Security "max-age=31536000" "expr=%{HTTPS} == 'on'"
+  Header always set Strict-Transport-Security "max-age=31536000"
 
   # Caching: hashed build assets are immutable; HTML must revalidate so deploys show up at once.
   # (_buildManifest.js/_ssgManifest.js keep a fixed URL because next.config.mjs pins the build id,
