@@ -19,7 +19,7 @@ export default async function EligibilityCheckPage({ params }: { params: LocaleP
         title={t(locale, "check.title")}
         crumbs={[{ label: t(locale, "nav.eligibility"), path: "/eligibility-check/" }]}
       />
-      <Section spacing="sm" container="narrow" className="pb-24 sm:pb-28">
+      <Section spacing="sm" container="narrow" className="pb-24">
         <EligibilityCheck labels={m.check} cantonNames={m.cantonNames} contactHref={localePath(locale, "/contact/")} />
       </Section>
       <JsonLd

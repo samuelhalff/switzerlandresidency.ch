@@ -5,7 +5,7 @@ import { getMessages, locales } from "@/lib/i18n";
 import { themeInitScript } from "@/lib/theme";
 import Logo from "@/components/Logo";
 import Button from "@/components/ui/Button";
-import Card from "@/components/ui/Card";
+import Panel from "@/components/ui/Panel";
 import Container from "@/components/ui/Container";
 import Eyebrow from "@/components/ui/Eyebrow";
 
@@ -22,7 +22,7 @@ export default function GlobalNotFound() {
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body className="flex min-h-screen flex-col">
-        <header className="shadow-[0_1px_0_rgb(var(--line)/0.7)]">
+        <header className="border-b border-line">
           <Container className="flex h-[72px] items-center">
             <a href="/en/" aria-label="Switzerland Residency" className="rounded-full">
               <Logo />
@@ -33,11 +33,11 @@ export default function GlobalNotFound() {
           <Container>
             <Eyebrow>404</Eyebrow>
             <div className="mt-6 grid gap-6 md:grid-cols-3">
-              {locales.map((loc, i) => {
+              {locales.map((loc) => {
                 const m = getMessages(loc).notFound;
                 const Heading = loc === "en" ? "h1" : "h2";
                 return (
-                  <Card key={loc} as="section" tone={(["plain", "sand", "sage"] as const)[i]} padding="lg">
+                  <Panel key={loc} as="section" padding="lg">
                     <div lang={loc}>
                       <Heading className="text-3xl">{m.title}</Heading>
                       <p className="mt-3 text-muted">{m.text}</p>
@@ -45,7 +45,7 @@ export default function GlobalNotFound() {
                         {m.home}
                       </Button>
                     </div>
-                  </Card>
+                  </Panel>
                 );
               })}
             </div>

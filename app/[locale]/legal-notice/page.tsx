@@ -15,7 +15,7 @@ export default async function LegalNoticePage({ params }: { params: LocaleParams
         title={t(locale, "legal.title")}
         crumbs={[{ label: t(locale, "nav.legalNotice"), path: "/legal-notice/" }]}
       />
-      <Section spacing="sm" container="narrow" className="pb-24 sm:pb-28">
+      <Section spacing="sm" container="narrow" className="pb-24">
         <LegalText sections={getMessages(locale).legal.sections} />
       </Section>
     </>

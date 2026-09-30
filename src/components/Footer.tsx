@@ -6,7 +6,6 @@ import Logo from "./Logo";
 import CookieSettingsButton from "./CookieSettingsButton";
 import ContactChannels from "./ContactChannels";
 import Container from "./ui/Container";
-import WaveDivider from "./ui/WaveDivider";
 
 export default function Footer({ locale }: { locale: Locale }) {
   const year = new Date().getFullYear();
@@ -29,7 +28,7 @@ export default function Footer({ locale }: { locale: Locale }) {
 
   const Column = ({ title, items }: { title: string; items: { href: string; label: string }[] }) => (
     <div>
-      <h2 className="font-sans text-[0.8rem] font-semibold uppercase tracking-[0.16em] text-muted">{title}</h2>
+      <h2 className="font-sans text-[0.95rem] font-medium text-muted">{title}</h2>
       <ul className="mt-4 space-y-2.5">
         {items.map((i) => (
           <li key={i.href}>
@@ -43,9 +42,11 @@ export default function Footer({ locale }: { locale: Locale }) {
   );
 
   return (
-    <footer className="relative mt-auto bg-sand">
-      <WaveDivider className="pointer-events-none absolute inset-x-0 bottom-full -mb-px text-sand" />
-      <Container className="grid grid-cols-2 gap-x-6 gap-y-10 pb-14 pt-10 sm:pt-12 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+    <footer className="relative mt-auto">
+      <Container>
+        <div className="h-px bg-line" />
+      </Container>
+      <Container className="grid grid-cols-2 gap-x-6 gap-y-10 pb-14 pt-14 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div className="col-span-2 md:col-span-1">
           <Logo />
           <p className="mt-5 max-w-sm text-[0.95rem] text-muted">{t(locale, "footer.blurb")}</p>
@@ -64,8 +65,9 @@ export default function Footer({ locale }: { locale: Locale }) {
           ) : null}
         </div>
       </Container>
-      <div className="shadow-[0_-1px_0_rgb(var(--line)/0.8)]">
-        <Container className="flex flex-col gap-2 py-6 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <Container>
+          <div className="flex flex-col gap-2 border-t border-line py-6 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>
             {t(locale, "footer.arkBefore")}{" "}
             <a href={ARK_URL} rel="noopener" className="underline underline-offset-4 hover:text-ink">
@@ -75,6 +77,7 @@ export default function Footer({ locale }: { locale: Locale }) {
           <p>
             © {year} Switzerland Residency. {t(locale, "footer.rights")}
           </p>
+          </div>
         </Container>
       </div>
     </footer>

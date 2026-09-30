@@ -4,7 +4,10 @@ import Button from "./ui/Button";
 import Section from "./ui/Section";
 import SectionHeading from "./ui/SectionHeading";
 
-/** Deep "evening" green closing band with the two main calls to action. */
+/**
+ * Closing call to action: a quiet centred statement on the page ground (no coloured box),
+ * one primary button (private conversation) and the eligibility check as a text link.
+ */
 export default function CtaBand({
   locale,
   eyebrow,
@@ -19,24 +22,22 @@ export default function CtaBand({
   text?: string;
 }) {
   return (
-    <Section tone="evening" spacing="lg" divider="top" className="overflow-x-clip pb-28 sm:pb-36">
-      <div aria-hidden="true" className="pointer-events-none absolute left-1/2 top-0 h-[36rem] w-[60rem] max-w-full -translate-x-1/2 bg-[radial-gradient(closest-side,rgb(240_165_126/0.10),transparent)]" />
-      <div className="relative">
-        <SectionHeading
-          align="center"
-          eyebrow={eyebrow}
-          title={title ?? t(locale, "home.finalCta.title")}
-          accent={title ? accent : (accent ?? t(locale, "home.finalCta.accent"))}
-          lead={text ?? t(locale, "home.finalCta.text")}
-        />
-        <div className="mt-10 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center" data-reveal="">
-          <Button href={localePath(locale, "/eligibility-check/")} size="lg">
-            {t(locale, "home.finalCta.primary")}
-          </Button>
-          <Button href={localePath(locale, "/contact/")} variant="secondary" size="lg">
-            {t(locale, "home.finalCta.secondary")}
-          </Button>
-        </div>
+    <Section spacing="lg" hairline>
+      <SectionHeading
+        align="center"
+        size="lg"
+        eyebrow={eyebrow}
+        title={title ?? t(locale, "home.finalCta.title")}
+        accent={title ? accent : (accent ?? t(locale, "home.finalCta.accent"))}
+        lead={text ?? t(locale, "home.finalCta.text")}
+      />
+      <div className="mt-10 flex flex-col items-center gap-6" data-reveal="">
+        <Button href={localePath(locale, "/contact/")} size="lg">
+          {t(locale, "common.ctaConversation")}
+        </Button>
+        <Button href={localePath(locale, "/eligibility-check/")} variant="link" arrow>
+          {t(locale, "common.ctaRoute")}
+        </Button>
       </div>
     </Section>
   );

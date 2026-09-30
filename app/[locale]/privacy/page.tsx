@@ -24,7 +24,7 @@ export default async function PrivacyPage({ params }: { params: LocaleParams }) 
           {t(locale, "privacy.updatedLabel")}: <time dateTime={UPDATED}>{UPDATED}</time>
         </p>
       </PageHeader>
-      <Section spacing="sm" container="narrow" className="pb-24 sm:pb-28">
+      <Section spacing="sm" container="narrow" className="pb-24">
         <LegalText sections={getMessages(locale).privacy.sections} />
         {GA_ID ? (
           <div className="mt-8">

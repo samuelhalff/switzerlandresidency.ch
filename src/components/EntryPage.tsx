@@ -1,6 +1,7 @@
 import type { Collection, Entry } from "@/lib/content";
 import { getPublishedEntries } from "@/lib/content";
 import { t, type Locale } from "@/lib/i18n";
+import { imageForEntry } from "@/lib/images";
 import { absoluteUrl, collectionBase, localePath } from "@/lib/paths";
 import { entryPath, hubLabelKey } from "@/lib/entry-route";
 import { articleLd, serviceLd } from "@/lib/jsonld";
@@ -10,11 +11,8 @@ import Faq from "./Faq";
 import JsonLd from "./JsonLd";
 import CtaBand from "./CtaBand";
 import EntryCard, { formatDate } from "./EntryCard";
-import { imageForEntry } from "@/lib/images";
 import Button from "./ui/Button";
-import Card from "./ui/Card";
 import Container from "./ui/Container";
-import IconBadge from "./ui/IconBadge";
 import Section from "./ui/Section";
 import SectionHeading from "./ui/SectionHeading";
 
@@ -41,16 +39,15 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
       >
         {entry.updated ? (
           <p className="mt-6 text-sm text-muted">
-            {t(locale, "article.updated")}{" "}
-            <time dateTime={entry.updated}>{formatDate(entry.updated, locale)}</time>
+            {t(locale, "article.updated")} <time dateTime={entry.updated}>{formatDate(entry.updated, locale)}</time>
           </p>
         ) : null}
       </PageHeader>
 
-      <Container className="grid gap-12 pb-20 pt-4 sm:pt-8 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <Container className="grid gap-14 pb-24 pt-10 sm:pt-14 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-20">
         <div className="min-w-0">
           {entry.draft ? (
-            <p className="mb-8 rounded-tile bg-blush px-5 py-4 text-sm">
+            <p className="mb-8 border-l-2 border-accent pl-4 text-sm">
               <strong className="mr-2 font-semibold">{t(locale, "common.draftBadge")}.</strong>
               {t(locale, "common.draftNotice")}
             </p>
@@ -58,8 +55,8 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
           <Markdown source={entry.body} />
 
           {entry.sources.length ? (
-            <section className="mt-12 max-w-prose" aria-labelledby="sources-title">
-              <h2 id="sources-title" className="text-[1.75rem]">
+            <section className="mt-14 max-w-prose border-t border-line pt-8" aria-labelledby="sources-title">
+              <h2 id="sources-title" className="text-[1.6rem]">
                 {t(locale, "article.sources")}
               </h2>
               <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm text-muted">
@@ -75,34 +72,35 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
           ) : null}
 
           {entry.faq.length ? (
-            <div className="mt-14 max-w-prose">
+            <div className="mt-16 max-w-prose">
               <Faq title={t(locale, "common.faqTitle")} items={entry.faq} compact />
             </div>
           ) : null}
         </div>
 
         <aside className="lg:sticky lg:top-28 lg:self-start">
-          <Card tone="blush" padding="md">
-            <IconBadge icon="compass" tone="surface" />
-            <h2 className="mt-5 text-2xl">{t(locale, "article.ctaTitle")}</h2>
+          <div className="border-t border-ink pt-6">
+            <h2 className="text-[1.6rem] leading-snug">{t(locale, "article.ctaTitle")}</h2>
             <p className="mt-3 text-[0.95rem] text-muted">{t(locale, "article.ctaText")}</p>
-            <Button href={localePath(locale, "/eligibility-check/")} fullWidth className="mt-6">
-              {t(locale, "common.ctaCheck")}
+            <Button href={localePath(locale, "/contact/")} className="mt-6">
+              {t(locale, "common.ctaConversation")}
             </Button>
-            <Button href={localePath(locale, "/contact/")} variant="secondary" fullWidth className="mt-3">
-              {t(locale, "common.ctaTalk")}
-            </Button>
-            <p className="mt-5 text-xs text-muted">{t(locale, "common.indicative")}</p>
-          </Card>
+            <div className="mt-5">
+              <Button href={localePath(locale, "/eligibility-check/")} variant="link" arrow>
+                {t(locale, "common.ctaRoute")}
+              </Button>
+            </div>
+            <p className="mt-6 text-xs text-muted">{t(locale, "common.indicative")}</p>
+          </div>
         </aside>
       </Container>
 
       {related.length ? (
-        <Section tone="sage" divider="top" className="pb-24 sm:pb-28">
+        <Section hairline>
           <SectionHeading title={t(locale, "article.related")} />
-          <ul className="mt-10 grid gap-6 md:grid-cols-3">
+          <ul className="mt-12 grid gap-x-8 gap-y-12 sm:grid-cols-3">
             {related.map((r, i) => (
-              <EntryCard key={r.slug} entry={r} locale={locale} as="li" index={i} />
+              <EntryCard key={r.slug} entry={r} locale={locale} index={i} aspect="aspect-[4/3]" />
             ))}
           </ul>
         </Section>

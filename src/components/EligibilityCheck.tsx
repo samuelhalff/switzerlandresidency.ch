@@ -21,9 +21,8 @@ import {
 } from "@/lib/eligibility";
 import { format, type Messages } from "@/lib/i18n";
 import Button from "./ui/Button";
-import Card from "./ui/Card";
+import Panel from "./ui/Panel";
 import Chip from "./ui/Chip";
-import IconBadge from "./ui/IconBadge";
 
 type Props = {
   labels: Messages["check"];
@@ -56,10 +55,10 @@ function Choice({
 }) {
   return (
     <label
-      className={`flex min-h-[54px] cursor-pointer items-center gap-3 rounded-2xl px-4 py-3 transition-[background-color,box-shadow] duration-200 has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-[var(--focus)] ${
+      className={`flex min-h-[54px] cursor-pointer items-center gap-3 rounded-soft px-4 py-3 transition-[background-color,box-shadow] duration-200 has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-[var(--focus)] ${
         checked
-          ? "bg-blush shadow-[inset_0_0_0_2px_rgb(var(--accent))]"
-          : "bg-bg shadow-[inset_0_0_0_1px_rgb(var(--line))] hover:bg-sand"
+          ? "bg-accent/[0.07] shadow-[inset_0_0_0_1.5px_rgb(var(--accent))]"
+          : "shadow-[inset_0_0_0_1px_rgb(var(--line))] hover:shadow-[inset_0_0_0_1px_rgb(var(--muted))]"
       }`}
     >
       <input
@@ -176,16 +175,15 @@ export default function EligibilityCheck({ labels: L, cantonNames, contactHref }
 
   if (step === 0) {
     return (
-      <Card padding="lg">
-        <IconBadge icon="compass" tone="blush" size="lg" />
-        <p className="mt-6 text-lg leading-relaxed text-muted sm:text-xl">{L.intro}</p>
+      <Panel padding="lg">
+        <p className="text-lg leading-relaxed text-muted sm:text-xl">{L.intro}</p>
         <div className="mt-8">
           <Button size="lg" onClick={start}>
             {L.start}
           </Button>
         </div>
         <p className="mt-8 text-sm text-muted">{L.result.disclaimer}</p>
-      </Card>
+      </Panel>
     );
   }
 
@@ -197,12 +195,12 @@ export default function EligibilityCheck({ labels: L, cantonNames, contactHref }
   const titles = [L.q1.title, L.q2.title, L.q3.title, L.q4.title, L.q5.title, L.q6.title];
 
   return (
-    <Card padding="lg">
+    <Panel padding="lg">
       <div className="flex items-center justify-between gap-4 text-sm text-muted">
         <span>{format(L.stepOf, { current: step, total: TOTAL })}</span>
       </div>
       <div
-        className="mt-3 h-2.5 overflow-hidden rounded-full bg-sand"
+        className="mt-3 h-1 overflow-hidden rounded-full bg-subtle"
         role="progressbar"
         aria-valuemin={1}
         aria-valuemax={TOTAL}
@@ -341,7 +339,7 @@ export default function EligibilityCheck({ labels: L, cantonNames, contactHref }
           <Button type="submit">{step === TOTAL ? L.seeResult : L.next}</Button>
         </div>
       </form>
-    </Card>
+    </Panel>
   );
 }
 
@@ -388,13 +386,13 @@ function Result({
   };
 
   return (
-    <Card padding="lg" aria-live="polite">
+    <Panel padding="lg" aria-live="polite">
       <h2 ref={headingRef} tabIndex={-1} className="text-3xl focus:outline-none">
         {L.result.title}
       </h2>
 
       <dl className="mt-8 space-y-6">
-        <div className="rounded-tile bg-blush p-5 sm:p-6">
+        <div className="border-l-2 border-accent pl-5">
           <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.route}</dt>
           <dd className="mt-2">
             <p className="font-serif text-2xl">{L.routes[primary].label}</p>
@@ -428,9 +426,7 @@ function Result({
             <ul className="flex flex-wrap gap-2">
               {cantons.map((c) => (
                 <li key={c}>
-                  <Chip icon="pin" className="bg-bg">
-                    {c}
-                  </Chip>
+                  <Chip>{c}</Chip>
                 </li>
               ))}
             </ul>
@@ -465,18 +461,18 @@ function Result({
         </div>
       </dl>
 
-      <Card tone="evening" padding="md" className="mt-10">
-        <h3 className="text-2xl">{L.result.nextTitle}</h3>
+      <div className="mt-10 border-t border-ink pt-8">
+        <h3 className="text-[1.6rem]">{L.result.nextTitle}</h3>
         <p className="mt-2 text-muted">{L.result.nextText}</p>
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+        <div className="mt-6 flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:gap-8">
           <Button onClick={send}>{L.result.send}</Button>
-          <Button variant="secondary" onClick={onRestart}>
+          <Button variant="link" onClick={onRestart}>
             {L.restart}
           </Button>
         </div>
-      </Card>
+      </div>
 
       <p className="mt-6 text-sm text-muted">{L.result.disclaimer}</p>
-    </Card>
+    </Panel>
   );
 }

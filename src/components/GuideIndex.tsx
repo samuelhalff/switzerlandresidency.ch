@@ -32,9 +32,9 @@ export default function GuideIndex({ locale, category }: { locale: Locale; categ
         </ul>
       </nav>
       {guides.length ? (
-        <ul className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-14 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
           {guides.map((g, i) => (
-            <EntryCard key={g.slug} entry={g} locale={locale} as="li" index={i % 3} />
+            <EntryCard key={g.slug} entry={g} locale={locale} index={i % 3} aspect="aspect-[4/3]" showDate />
           ))}
         </ul>
       ) : (

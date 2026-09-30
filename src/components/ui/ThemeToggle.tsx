@@ -82,7 +82,7 @@ export default function ThemeToggle({
     <div
       role="radiogroup"
       aria-label={labels.label}
-      className={cn("inline-flex items-center gap-0.5 rounded-full bg-surface p-1 shadow-soft", full && "w-full", className)}
+      className={cn("inline-flex items-center gap-0.5 rounded-full p-1 shadow-[inset_0_0_0_1px_rgb(var(--line))]", full && "w-full", className)}
     >
       {options.map((o) => {
         const checked = pref === o.value;
@@ -93,8 +93,8 @@ export default function ThemeToggle({
             className={cn(
               "relative inline-flex cursor-pointer items-center justify-center gap-2 rounded-full text-sm font-medium transition-colors duration-200",
               "has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-[var(--focus)]",
-              full ? "h-11 flex-1 px-3" : "h-9 w-9",
-              checked ? "bg-ink text-bg" : "text-muted hover:text-ink",
+              full ? "h-10 flex-1 px-3" : "h-8 w-8",
+              checked ? "bg-ink text-bg" : "text-ink/65 hover:text-ink",
             )}
           >
             <input

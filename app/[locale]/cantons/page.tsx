@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getPublishedEntries, isPublished } from "@/lib/content";
 import { getMessages, t } from "@/lib/i18n";
 import { localePath } from "@/lib/paths";
@@ -7,7 +8,6 @@ import { getLocale, staticMetadata, type LocaleParams } from "@/lib/page";
 import PageHeader from "@/components/PageHeader";
 import EntryCard from "@/components/EntryCard";
 import CtaBand from "@/components/CtaBand";
-import Chip from "@/components/ui/Chip";
 import Section from "@/components/ui/Section";
 import SectionHeading from "@/components/ui/SectionHeading";
 
@@ -28,30 +28,34 @@ export default async function CantonsPage({ params }: { params: LocaleParams }) 
         image="lakeGeneva"
         crumbs={[{ label: t(locale, "nav.cantons"), path: "/cantons/" }]}
       />
-      <Section spacing="md" className="pb-24 sm:pb-28">
+      <Section spacing="sm">
         <SectionHeading title={t(locale, "cantons.guidesTitle")} />
         {guides.length ? (
-          <ul className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-12 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
             {guides.map((g, i) => (
-              <EntryCard key={g.slug} entry={g} locale={locale} as="li" index={i % 3} />
+              <EntryCard key={g.slug} entry={g} locale={locale} index={i % 3} aspect="aspect-[4/3]" />
             ))}
           </ul>
         ) : (
           <p className="mt-4 max-w-2xl text-lg text-muted">{t(locale, "common.comingSoon")}</p>
         )}
       </Section>
-      <Section tone="sand" divider="top" spacing="md" className="pb-24 sm:pb-28">
+      <Section hairline spacing="md">
         <SectionHeading title={t(locale, "cantons.allTitle")} lead={t(locale, "cantons.allIntro")} />
-        <ul className="mt-10 flex flex-wrap gap-2.5" data-reveal="">
+        <ul className="mt-10 grid border-t border-line sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-3" data-reveal="">
           {all.map(([code, name]) => {
             const slug = cantonSlugs[code as CantonCode];
             const linked = slug && isPublished(locale, "cantons", slug);
             return (
-              <li key={code}>
-                <Chip href={linked ? localePath(locale, `/cantons/${slug}/`) : undefined} icon={linked ? "pin" : undefined}>
-                  <span className="mr-1.5 text-xs font-semibold tracking-wider text-muted">{code}</span>
-                  {name}
-                </Chip>
+              <li key={code} className="flex items-baseline gap-4 border-b border-line py-3.5">
+                <span className="w-7 shrink-0 text-xs font-medium tracking-wider text-muted">{code}</span>
+                {linked ? (
+                  <Link href={localePath(locale, `/cantons/${slug}/`)} className="link">
+                    {name}
+                  </Link>
+                ) : (
+                  <span>{name}</span>
+                )}
               </li>
             );
           })}

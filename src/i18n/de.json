@@ -27,7 +27,9 @@
     "whatsapp": "Per WhatsApp schreiben",
     "email": "E-Mail schreiben",
     "allTopics": "Alle Themen",
-    "indicative": "Unverbindliche Einschätzung, keine Rechts- oder Steuerberatung."
+    "indicative": "Unverbindliche Einschätzung, keine Rechts- oder Steuerberatung.",
+    "ctaConversation": "Ein persönliches Gespräch vereinbaren",
+    "ctaRoute": "Oder sehen Sie Ihren möglichen Weg in zwei Minuten"
   },
   "languages": {
     "en": "English",
@@ -64,8 +66,10 @@
       "subtitle": "Bewilligungen, Pauschalbesteuerung, der passende Kanton, ein Haus am See oder in den Bergen. Wir begleiten Sie und Ihre Familie bei jedem Schritt – diskret und in Ihrer Sprache.",
       "primary": "Ihre Möglichkeiten prüfen",
       "secondary": "Sprechen Sie mit uns",
-      "accent": "Zuhause",
-      "reassurance": "Vertraulich, unverbindlich, auf Deutsch, Englisch oder Französisch."
+      "headline": "Machen Sie die Schweiz zu Ihrem Zuhause.",
+      "headlineAccent": "Zuhause",
+      "lead": "Aufenthalt, Steuern, ein Zuhause und Schulen – diskret organisiert und in Ihrer Sprache.",
+      "credibility": "Teil der Ark-Gruppe, Genf"
     },
     "steps": {
       "title": "So funktioniert es",
@@ -85,26 +89,22 @@
         }
       ],
       "cta": "Den ganzen Ablauf ansehen",
-      "accent": "funktioniert",
-      "eyebrow": "Schritt für Schritt"
+      "accent": "funktioniert"
     },
     "services": {
       "title": "Worum wir uns kümmern",
       "intro": "Ein abgestimmtes Team für den ganzen Umzug – Sie müssen Ihre Geschichte nie zweimal erzählen.",
-      "accent": "kümmern",
-      "eyebrow": "Unsere Leistungen"
+      "accent": "kümmern"
     },
     "origins": {
       "title": "Umzug aus …",
-      "intro": "Jeder Wegzug hat seine eigenen Regeln. Wir kennen die Fragen, auf die es für Ihr heutiges Wohnsitzland ankommt.",
-      "eyebrow": "Wo auch immer Sie heute leben"
+      "intro": "Jeder Wegzug hat seine eigenen Regeln. Wir kennen die Fragen, auf die es für Ihr heutiges Wohnsitzland ankommt."
     },
     "cantons": {
       "title": "Den richtigen Kanton finden",
       "intro": "In der Schweiz prägt der Kanton fast alles: Ihre Steuern, die Bewilligungspraxis, die Schulen und die Sprache. Ob Genferseeregion, Alpen, Zug oder Tessin – jede Region steht für eine andere Lebensart.",
       "cta": "Die Kantone entdecken",
-      "accent": "Kanton",
-      "eyebrow": "Wo leben"
+      "accent": "Kanton"
     },
     "approach": {
       "title": "Unsere Haltung",
@@ -127,15 +127,13 @@
           "text": "Wir arbeiten auf Deutsch, Englisch und Französisch und erklären Ihnen das Schweizer System gerne so oft wie nötig."
         }
       ],
-      "accent": "Haltung",
-      "eyebrow": "Willkommen"
+      "accent": "Haltung"
     },
     "guides": {
       "title": "Neueste Ratgeber",
       "intro": "Klare, belegte Antworten auf die Fragen, die uns Familien am häufigsten stellen.",
       "cta": "Alle Ratgeber",
-      "accent": "Ratgeber",
-      "eyebrow": "Lesen und vorbereiten"
+      "accent": "Ratgeber"
     },
     "faq": {
       "title": "Fragen, die wir oft hören",
@@ -161,8 +159,7 @@
           "a": "Ja. Ihre Antworten bleiben in Ihrem Browser. Wir erhalten nichts, ausser Sie entscheiden sich, Ihr Ergebnis über das Kontaktformular mit uns zu teilen."
         }
       ],
-      "accent": "oft",
-      "eyebrow": "Gut zu wissen"
+      "accent": "oft"
     },
     "finalCta": {
       "title": "Möchten Sie über Ihren Umzug sprechen?",
@@ -173,7 +170,6 @@
     },
     "heroAltFallback": "See und Berge in der Schweiz",
     "evening": {
-      "eyebrow": "Persönlich von Anfang an",
       "title": "Ihr erstes Gespräch führen Sie mit einem Menschen, nicht mit einem Formular.",
       "accent": "Menschen",
       "text": "Erzählen Sie uns kurz, wo Sie heute leben und was Sie vorhaben. Eine Beraterin oder ein Berater antwortet Ihnen persönlich – auf Deutsch, Englisch oder Französisch."
@@ -669,12 +665,45 @@
     "homeChalet": "Ein traditionelles Schweizer Chalet auf einer Alpwiese",
     "homeLakeside": "Ein Haus am Hang mit Blick auf den Luganersee",
     "school": "Ein modernes Schulgebäude in Zürich",
-    "vineyards": "Die Weinbergterrassen des Lavaux über dem Genfersee"
+    "vineyards": "Die Weinbergterrassen des Lavaux über dem Genfersee",
+    "terraceLake": "Ein gedeckter Balkontisch für zwei mit Blick auf den Genfersee und die Berge",
+    "lakesideWalk": "Zwei Menschen spazieren bei Sonnenuntergang an der Zuger Seepromenade",
+    "villageLane": "Ein Mensch geht durch eine Pflastergasse in der Zürcher Altstadt",
+    "chaletInterior": "Gemütliches Chalet-Wohnzimmer mit brennendem Holzofen und Lampenlicht",
+    "homeArrival": "Eine Hand hält Hausschlüssel vor einer Haustür",
+    "heroPeople": "Ein Paar im Gegenlicht Hand in Hand an einem Bergsee im Engadin",
+    "eveningWindows": "Ein Chalet mit warm erleuchteten Fenstern unter einem Sternenhimmel"
   },
   "theme": {
     "label": "Farbschema",
     "light": "Hell",
     "dark": "Dunkel",
     "system": "System"
+  },
+  "imageCaption": {
+    "hero": "Vierwaldstättersee, Zentralschweiz",
+    "lakeGeneva": "Seeufer in Genf",
+    "lakeLucerne": "Vierwaldstättersee",
+    "lakeLugano": "Lugano, Tessin",
+    "mountainAlps": "Matterhorn, Zermatt",
+    "mountainMatterhorn": "Matterhorn, Zermatt",
+    "mountainEngadin": "St. Moritz, Engadin",
+    "mountainVillage": "Verbier, Wallis",
+    "cityGeneva": "Jet d'Eau, Genf",
+    "cityZurich": "Zürcher Altstadt",
+    "cityZug": "Zug, am See",
+    "cityLausanne": "Lausanne, Waadt",
+    "familyLife": "Seepromenade, Zug",
+    "homeChalet": "Iseltwald, Berner Oberland",
+    "homeLakeside": "Über dem Luganersee, Tessin",
+    "school": "Zürich",
+    "vineyards": "Lavaux, Waadt",
+    "terraceLake": "Genfersee",
+    "lakesideWalk": "Zuger Seepromenade",
+    "villageLane": "Zürcher Altstadt",
+    "chaletInterior": "Ein Chalet-Wohnzimmer",
+    "homeArrival": "Der Einzug",
+    "heroPeople": "Engadin, Graubünden",
+    "eveningWindows": "Bergün, Graubünden"
   }
 }

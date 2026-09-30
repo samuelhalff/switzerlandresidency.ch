@@ -18,7 +18,7 @@ export default async function GuidesPage({ params }: { params: LocaleParams }) {
         image="vineyards"
         crumbs={[{ label: t(locale, "nav.guides"), path: "/guides/" }]}
       />
-      <Section spacing="md" className="pb-24 sm:pb-28">
+      <Section spacing="sm" className="pb-24">
         <GuideIndex locale={locale} />
       </Section>
       <CtaBand locale={locale} />

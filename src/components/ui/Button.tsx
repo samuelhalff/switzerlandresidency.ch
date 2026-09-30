@@ -5,7 +5,7 @@ import TrackedLink from "../TrackedLink";
 import Icon from "./Icon";
 import { cn } from "./cn";
 
-export type ButtonVariant = "primary" | "secondary" | "ghost" | "link-arrow";
+export type ButtonVariant = "primary" | "secondary" | "ghost" | "link";
 export type ButtonSize = "sm" | "md" | "lg";
 
 type Common = {
@@ -14,6 +14,8 @@ type Common = {
   /** Stretch to the container width (on mobile only with "mobile"). */
   fullWidth?: boolean | "mobile";
   className?: string;
+  /** link variant only: trailing arrow that nudges on hover. */
+  arrow?: boolean;
   children: ReactNode;
 };
 
@@ -42,7 +44,7 @@ export function buttonClasses({
   fullWidth,
   className,
 }: Pick<Common, "variant" | "size" | "fullWidth" | "className">): string {
-  if (variant === "link-arrow") return cn("btn-link-arrow", className);
+  if (variant === "link") return cn("btn-link", className);
   return cn(
     "btn",
     variantClass[variant],
@@ -53,12 +55,12 @@ export function buttonClasses({
   );
 }
 
-function Inner({ variant, children }: { variant: ButtonVariant; children: ReactNode }) {
-  if (variant === "link-arrow") {
+function Inner({ variant, arrow, children }: { variant: ButtonVariant; arrow?: boolean; children: ReactNode }) {
+  if (variant === "link") {
     return (
       <>
         <span>{children}</span>
-        <Icon name="arrow" size={18} className="btn-arrow shrink-0" />
+        {arrow ? <Icon name="arrow" size={17} className="btn-arrow shrink-0" /> : null}
       </>
     );
   }
@@ -67,16 +69,21 @@ function Inner({ variant, children }: { variant: ButtonVariant; children: ReactN
 
 /**
  * The one button of the site. Renders <a> when `href` is given, <button> otherwise.
- * primary / secondary / ghost share ark-fid.ch's rising-wave hover; link-arrow is a text link with an arrow.
+ * primary / secondary / ghost share ark-fid.ch's rising-wave hover. Use ONE primary per view;
+ * secondary actions are `variant="link"` (underlined text, optional arrow).
  */
 export default function Button(props: ButtonProps) {
-  const { variant = "primary", size = "md", fullWidth, className, children } = props;
+  const { variant = "primary", size = "md", fullWidth, className, arrow, children } = props;
   const classes = buttonClasses({ variant, size, fullWidth, className });
 
   if (props.href !== undefined) {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const { variant: _v, size: _s, fullWidth: _f, className: _c, children: _ch, native, track, href, ...rest } = props;
-    const inner = <Inner variant={variant}>{children}</Inner>;
+    const { variant: _v, size: _s, fullWidth: _f, className: _c, arrow: _a, children: _ch, native, track, href, ...rest } = props;
+    const inner = (
+      <Inner variant={variant} arrow={arrow}>
+        {children}
+      </Inner>
+    );
     if (track) {
       return (
         <TrackedLink href={href} className={classes} event={track.event} params={track.params} {...rest}>
@@ -97,10 +104,12 @@ export default function Button(props: ButtonProps) {
   }
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const { variant: _v, size: _s, fullWidth: _f, className: _c, children: _ch, href: _h, type = "button", ...rest } = props;
+  const { variant: _v, size: _s, fullWidth: _f, className: _c, arrow: _a, children: _ch, href: _h, type = "button", ...rest } = props;
   return (
     <button type={type} className={classes} {...rest}>
-      <Inner variant={variant}>{children}</Inner>
+      <Inner variant={variant} arrow={arrow}>
+        {children}
+      </Inner>
     </button>
   );
 }

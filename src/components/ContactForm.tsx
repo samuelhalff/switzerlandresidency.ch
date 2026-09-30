@@ -5,8 +5,7 @@ import { trackEvent } from "@/lib/analytics";
 import { CHECK_STORAGE_KEY, type StoredCheck } from "@/lib/eligibility";
 import type { Messages } from "@/lib/i18n";
 import Button from "./ui/Button";
-import Card from "./ui/Card";
-import IconBadge from "./ui/IconBadge";
+import Panel from "./ui/Panel";
 
 type Labels = Messages["contact"]["form"];
 type Status = "idle" | "sending" | "success" | "error";
@@ -48,22 +47,21 @@ export default function ContactForm({ labels, locale, formsparkId, email, privac
 
   if (!formsparkId) {
     return (
-      <Card padding="lg">
+      <Panel padding="lg">
         <p>{labels.fallbackText}</p>
-        <Button href={`mailto:${email}`} className="mt-6 self-start">
+        <Button href={`mailto:${email}`} className="mt-6">
           {email}
         </Button>
-      </Card>
+      </Panel>
     );
   }
 
   if (status === "success") {
     return (
-      <Card tone="sage" padding="lg" role="status" aria-live="polite">
-        <IconBadge icon="check" tone="surface" />
-        <h2 className="mt-5 text-2xl">{labels.successTitle}</h2>
+      <Panel padding="lg" role="status" aria-live="polite">
+        <h2 className="text-[1.75rem]">{labels.successTitle}</h2>
         <p className="mt-3 text-muted">{labels.successText}</p>
-      </Card>
+      </Panel>
     );
   }
 
@@ -120,10 +118,10 @@ export default function ContactForm({ labels, locale, formsparkId, email, privac
 
   const label = "block text-sm font-medium";
   return (
-    <Card padding="lg">
+    <Panel padding="lg">
     <form onSubmit={onSubmit} noValidate className="space-y-5">
       {check ? (
-        <div className="rounded-tile bg-blush p-5 text-sm">
+        <div className="border-l-2 border-accent pl-4 text-sm">
           <p className="font-medium">{labels.checkAttached}</p>
           <ul className="mt-2 list-disc space-y-1 pl-5 text-muted">
             {check.summary.map((line) => (
@@ -220,10 +218,10 @@ export default function ContactForm({ labels, locale, formsparkId, email, privac
         </p>
       ) : null}
 
-      <Button type="submit" size="lg" fullWidth="mobile" disabled={status === "sending"}>
+      <Button type="submit" size="lg" disabled={status === "sending"}>
         {status === "sending" ? labels.sending : labels.submit}
       </Button>
     </form>
-    </Card>
+    </Panel>
   );
 }

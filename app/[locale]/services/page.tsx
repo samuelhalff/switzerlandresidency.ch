@@ -18,7 +18,7 @@ export default async function ServicesPage({ params }: { params: LocaleParams })
         image="homeLakeside"
         crumbs={[{ label: t(locale, "nav.services"), path: "/services/" }]}
       />
-      <Section spacing="md" className="pb-24 sm:pb-28">
+      <Section spacing="sm" className="pb-24">
         <ServiceGrid locale={locale} />
       </Section>
       <CtaBand locale={locale} />

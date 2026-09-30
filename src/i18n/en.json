@@ -27,7 +27,9 @@
     "whatsapp": "Chat on WhatsApp",
     "email": "Email us",
     "allTopics": "All topics",
-    "indicative": "Indicative only, not legal or tax advice."
+    "indicative": "Indicative only, not legal or tax advice.",
+    "ctaConversation": "Arrange a private conversation",
+    "ctaRoute": "Or see your indicative route in two minutes"
   },
   "languages": {
     "en": "English",
@@ -64,8 +66,10 @@
       "subtitle": "Permits, lump-sum taxation, the right canton, a house near the lake or the mountains. We guide you and your family through every step, discreetly and in your language.",
       "primary": "Check your eligibility",
       "secondary": "Talk to us",
-      "accent": "home",
-      "reassurance": "Confidential, no obligation, in English, French or German."
+      "headline": "Make Switzerland home.",
+      "headlineAccent": "home",
+      "lead": "Residence, tax, a house and schools, arranged discreetly and in your language.",
+      "credibility": "Part of the Ark group, Geneva"
     },
     "steps": {
       "title": "How it works",
@@ -85,26 +89,22 @@
         }
       ],
       "cta": "See the full process",
-      "accent": "works",
-      "eyebrow": "Step by step"
+      "accent": "works"
     },
     "services": {
       "title": "What we take care of",
       "intro": "One coordinated team for the whole move, so you never have to repeat your story.",
-      "accent": "care",
-      "eyebrow": "Our services"
+      "accent": "care"
     },
     "origins": {
       "title": "Moving from…",
-      "intro": "Every departure has its own rules. We know the questions that matter for where you live today.",
-      "eyebrow": "Wherever you live today"
+      "intro": "Every departure has its own rules. We know the questions that matter for where you live today."
     },
     "cantons": {
       "title": "Finding the right canton",
       "intro": "In Switzerland, the canton shapes almost everything: your tax, your permit practice, your schools and your language. Lake Geneva, the Alps, Zug or Ticino each offer a different way of life.",
       "cta": "Explore the cantons",
-      "accent": "canton",
-      "eyebrow": "Where to live"
+      "accent": "canton"
     },
     "approach": {
       "title": "Our approach",
@@ -127,15 +127,13 @@
           "text": "We work in English, French and German, and we are glad to explain the Swiss system as often as you need."
         }
       ],
-      "accent": "approach",
-      "eyebrow": "Welcome"
+      "accent": "approach"
     },
     "guides": {
       "title": "Latest guides",
       "intro": "Clear, sourced answers to the questions families ask us most.",
       "cta": "All guides",
-      "accent": "guides",
-      "eyebrow": "Read and prepare"
+      "accent": "guides"
     },
     "faq": {
       "title": "Questions we often hear",
@@ -161,8 +159,7 @@
           "a": "Yes. Your answers stay in your browser. Nothing is sent to us unless you choose to share your result through the contact form."
         }
       ],
-      "accent": "often",
-      "eyebrow": "Good to know"
+      "accent": "often"
     },
     "finalCta": {
       "title": "Ready to talk about your move?",
@@ -173,7 +170,6 @@
     },
     "heroAltFallback": "Lake and mountains in Switzerland",
     "evening": {
-      "eyebrow": "A personal welcome",
       "title": "Your first conversation is with a person, not a form.",
       "accent": "person",
       "text": "Tell us a little about where you live today and what you have in mind. An adviser replies to you personally, in English, French or German."
@@ -669,12 +665,45 @@
     "homeChalet": "A traditional Swiss chalet in an alpine meadow",
     "homeLakeside": "A house on a hillside overlooking Lake Lugano",
     "school": "A modern school building in Zurich",
-    "vineyards": "The Lavaux vineyard terraces above Lake Geneva"
+    "vineyards": "The Lavaux vineyard terraces above Lake Geneva",
+    "terraceLake": "Balcony table set for two overlooking Lake Geneva and the mountains",
+    "lakesideWalk": "Two people walking along the Lake Zug promenade at sunset",
+    "villageLane": "A person walking down a cobblestone lane in Zurich's old town",
+    "chaletInterior": "Warm chalet living room with a lit wood stove and lamp light",
+    "homeArrival": "A hand holding house keys in front of a front door",
+    "heroPeople": "Silhouetted couple holding hands by an alpine lake at golden hour in the Engadin",
+    "eveningWindows": "Chalet with warmly lit windows at night beneath a starry Alpine sky"
   },
   "theme": {
     "label": "Colour theme",
     "light": "Light",
     "dark": "Dark",
     "system": "System"
+  },
+  "imageCaption": {
+    "hero": "Lake Lucerne, Central Switzerland",
+    "lakeGeneva": "Geneva waterfront",
+    "lakeLucerne": "Lake Lucerne",
+    "lakeLugano": "Lugano, Ticino",
+    "mountainAlps": "Matterhorn, Zermatt",
+    "mountainMatterhorn": "Matterhorn, Zermatt",
+    "mountainEngadin": "St. Moritz, Engadin",
+    "mountainVillage": "Verbier, Valais",
+    "cityGeneva": "Jet d'Eau, Geneva",
+    "cityZurich": "Zurich old town",
+    "cityZug": "Zug, lakeside",
+    "cityLausanne": "Lausanne, Vaud",
+    "familyLife": "Lakeside promenade, Zug",
+    "homeChalet": "Iseltwald, Bernese Oberland",
+    "homeLakeside": "Above Lake Lugano, Ticino",
+    "school": "Zurich",
+    "vineyards": "Lavaux, Vaud",
+    "terraceLake": "Lake Geneva",
+    "lakesideWalk": "Lake Zug promenade",
+    "villageLane": "Zurich old town",
+    "chaletInterior": "A chalet living room",
+    "homeArrival": "Moving in",
+    "heroPeople": "Engadin, Graubünden",
+    "eveningWindows": "Bergün, Graubünden"
   }
 }

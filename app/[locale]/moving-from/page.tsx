@@ -15,10 +15,10 @@ export default async function MovingFromPage({ params }: { params: LocaleParams 
         locale={locale}
         title={t(locale, "origins.title")}
         intro={t(locale, "origins.intro")}
-        image="familyLife"
+        image="villageLane"
         crumbs={[{ label: t(locale, "nav.movingFrom"), path: "/moving-from/" }]}
       />
-      <Section spacing="md" className="pb-24 sm:pb-28">
+      <Section spacing="sm" className="pb-24">
         <OriginGrid locale={locale} />
       </Section>
       <CtaBand locale={locale} />

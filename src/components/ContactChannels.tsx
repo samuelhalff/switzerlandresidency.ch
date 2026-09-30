@@ -5,14 +5,12 @@ import Icon from "./ui/Icon";
 
 /** WhatsApp (only if NEXT_PUBLIC_WHATSAPP is set) + email. */
 export default function ContactChannels({ locale, compact = false }: { locale: Locale; compact?: boolean }) {
-  const size = compact ? "sm" : "md";
   return (
-    <div className="flex flex-wrap gap-3">
+    <div className={compact ? "flex flex-wrap gap-x-6 gap-y-3" : "flex flex-col items-start gap-4"}>
       {whatsappUrl ? (
         <Button
           href={whatsappUrl}
-          variant="secondary"
-          size={size}
+          variant="link"
           target="_blank"
           rel="noopener noreferrer"
           track={{ event: "contact_channel_click", params: { channel: "whatsapp" } }}
@@ -25,8 +23,7 @@ export default function ContactChannels({ locale, compact = false }: { locale: L
       ) : null}
       <Button
         href={`mailto:${CONTACT_EMAIL}`}
-        variant="secondary"
-        size={size}
+        variant="link"
         track={{ event: "contact_channel_click", params: { channel: "email" } }}
       >
         <Icon name="mail" size={18} />

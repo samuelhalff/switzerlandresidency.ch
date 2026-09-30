@@ -3,46 +3,35 @@
 @tailwind utilities;
 
 /* ------------------------------------------------------------------------------------------------
-   "Welcome home" design tokens (Lakeside warmth + tints). Colours are RGB channels so Tailwind
-   opacity modifiers work. Light = cream / sand / sage / blush / caramel, deep "evening" green for
-   contrast bands. Dark = "espresso" with a candlelit terracotta accent.
+   Design tokens — quiet, photo-led, warm. Ivory ground, warm charcoal text, ONE muted earth accent
+   (deep umber). Dark = warm espresso. Colours are RGB channels so Tailwind opacity modifiers work.
    Theme: [data-theme="light|dark"] on <html> (set before paint by the inline script in the layout);
    no attribute = follow the system preference.
    ------------------------------------------------------------------------------------------------ */
 :root {
-  --bg: 247 241 232;            /* cream #F7F1E8 */
-  --surface: 255 251 245;       /* card #FFFBF5 */
-  --sand: 239 228 211;          /* #EFE4D3 */
-  --sage: 221 227 211;          /* #DDE3D3 */
-  --blush: 243 221 211;         /* #F3DDD3 */
-  --caramel: 230 204 170;       /* #E6CCAA */
-  --evening: 31 58 51;          /* #1F3A33 */
-  --on-evening: 247 240 229;
-  --ink: 49 40 33;              /* warm espresso ink #312821 */
-  --muted: 104 91 80;           /* #685B50, AA on cream, sand, sage and blush */
-  --line: 226 211 190;
-  --accent: 156 79 46;          /* terracotta #9C4F2E, AA on cream and with white text */
-  --accent-strong: 127 63 36;
-  --accent-soft: 192 106 69;    /* decorative only */
-  --accent-on-dark: 240 165 126;/* #F0A57E on evening green / photos */
-  --lake: 47 93 107;
-  --shadow: 74 52 34;
-  --ring: 74 52 34;
-  --ring-alpha: 0.05;
-  --focus: #2f5d6b;
-  --hero-fallback: linear-gradient(135deg, #2f5d6b 0%, #6f98a2 45%, #e9c9a5 80%, #c06a45 100%);
+  --bg: 245 240 232;            /* ivory #F5F0E8 */
+  --surface: 250 247 241;       /* panel #FAF7F1 */
+  --subtle: 236 229 218;        /* fields, table heads #ECE5DA */
+  --ink: 42 38 34;              /* warm charcoal #2A2622 */
+  --muted: 107 97 88;           /* #6B6158, AA on ivory */
+  --line: 218 208 194;          /* hairlines #DAD0C2 */
+  --accent: 122 74 46;          /* deep umber #7A4A2E, 7:1 on ivory, white text 7.9:1 */
+  --accent-strong: 98 58 35;
+  --on-image: 250 245 236;
+  --shadow: 60 44 30;
+  --focus: #7a4a2e;
+  --hero-fallback: linear-gradient(160deg, #6e5a48 0%, #a88467 55%, #d8b793 100%);
 
   /* Buttons */
   --btn-primary-bg: var(--ink);
-  --btn-primary-fg: 255 250 243;
+  --btn-primary-fg: 250 245 236;
   --btn-primary-wave: var(--accent);
   --btn-primary-fg-hover: 255 255 255;
   --btn-secondary-bg: var(--surface);
   --btn-secondary-fg: var(--ink);
   --btn-secondary-wave: var(--ink);
   --btn-secondary-fg-hover: var(--bg);
-  --btn-secondary-ring: 49 40 33 / 0.14;
-  --btn-ghost-wave: var(--sand);
+  --btn-secondary-ring: 42 38 34 / 0.18;
   --em: var(--accent);
 
   color-scheme: light;
@@ -50,85 +39,60 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: 28 25 22;             /* espresso #1C1916 */
-    --surface: 38 33 29;        /* #26211D */
-    --sand: 49 42 36;
-    --sage: 36 44 38;
-    --blush: 54 40 35;
-    --caramel: 66 52 40;
-    --evening: 22 43 37;        /* #162B25 */
-    --on-evening: 245 237 225;
-    --ink: 243 234 221;         /* warm off-white #F3EADD */
-    --muted: 198 185 169;
+    --bg: 26 23 20;             /* espresso #1A1714 */
+    --surface: 34 30 26;        /* #221E1A */
+    --subtle: 44 39 34;
+    --ink: 237 230 219;         /* #EDE6DB */
+    --muted: 184 172 157;       /* #B8AC9D */
     --line: 62 55 48;
-    --accent: 232 149 106;      /* candlelit terracotta #E8956A, 7:1 on espresso */
-    --accent-strong: 242 172 133;
-    --accent-soft: 217 137 95;
-    --accent-on-dark: 240 165 126;
-    --lake: 143 188 200;
+    --accent: 217 162 126;      /* warm clay #D9A27E, 8:1 on espresso */
+    --accent-strong: 230 184 152;
     --shadow: 0 0 0;
-    --ring: 255 244 230;
-    --ring-alpha: 0.06;
-    --focus: #f0b48f;
-    --hero-fallback: linear-gradient(135deg, #16262c 0%, #2f5d6b 50%, #6b3a24 100%);
-
-    --btn-primary-bg: var(--ink);
-    --btn-primary-fg: 28 25 22;
-    --btn-primary-wave: var(--accent);
-    --btn-primary-fg-hover: 28 25 22;
-    --btn-secondary-ring: 255 244 230 / 0.12;
+    --focus: #d9a27e;
+    --hero-fallback: linear-gradient(160deg, #2b231d 0%, #4a3a2e 60%, #6b5240 100%);
+    --btn-primary-fg: 26 23 20;
+    --btn-primary-fg-hover: 26 23 20;
+    --btn-secondary-ring: 237 230 219 / 0.2;
     color-scheme: dark;
   }
 }
 
 :root[data-theme="dark"] {
-  --bg: 28 25 22;
-  --surface: 38 33 29;
-  --sand: 49 42 36;
-  --sage: 36 44 38;
-  --blush: 54 40 35;
-  --caramel: 66 52 40;
-  --evening: 22 43 37;
-  --on-evening: 245 237 225;
-  --ink: 243 234 221;
-  --muted: 198 185 169;
+  --bg: 26 23 20;
+  --surface: 34 30 26;
+  --subtle: 44 39 34;
+  --ink: 237 230 219;
+  --muted: 184 172 157;
   --line: 62 55 48;
-  --accent: 232 149 106;
-  --accent-strong: 242 172 133;
-  --accent-soft: 217 137 95;
-  --accent-on-dark: 240 165 126;
-  --lake: 143 188 200;
+  --accent: 217 162 126;
+  --accent-strong: 230 184 152;
   --shadow: 0 0 0;
-  --ring: 255 244 230;
-  --ring-alpha: 0.06;
-  --focus: #f0b48f;
-  --hero-fallback: linear-gradient(135deg, #16262c 0%, #2f5d6b 50%, #6b3a24 100%);
-
-  --btn-primary-bg: var(--ink);
-  --btn-primary-fg: 28 25 22;
-  --btn-primary-wave: var(--accent);
-  --btn-primary-fg-hover: 28 25 22;
-  --btn-secondary-ring: 255 244 230 / 0.12;
+  --focus: #d9a27e;
+  --hero-fallback: linear-gradient(160deg, #2b231d 0%, #4a3a2e 60%, #6b5240 100%);
+  --btn-primary-fg: 26 23 20;
+  --btn-primary-fg-hover: 26 23 20;
+  --btn-secondary-ring: 237 230 219 / 0.2;
   color-scheme: dark;
 }
 
-/* Dark surfaces in both themes (evening band, text over photos): light buttons, light accent. */
-.on-dark {
-  --ink: var(--on-evening);
-  --muted: 222 214 200;
-  --em: var(--accent-on-dark);
-  --focus: #f0b48f;
-  --btn-primary-bg: var(--on-evening);
-  --btn-primary-fg: 31 40 34;
-  --btn-primary-wave: 156 79 46;
+/* Text set on photographs (hero, transparent header over the hero) in both themes. */
+.on-dark,
+body:has([data-hero-overlay]) .site-header:not([data-solid]):not([data-menu-open]) {
+  --ink: var(--on-image);
+  --muted: 232 224 212;
+  --line: 196 186 172;
+  --em: 240 206 172;
+  --focus: #f0ceac;
+  --btn-primary-bg: var(--on-image);
+  --btn-primary-fg: 42 38 34;
+  --btn-primary-wave: 122 74 46;
   --btn-primary-fg-hover: 255 255 255;
   --btn-secondary-bg: 255 255 255 / 0.08;
-  --btn-secondary-fg: var(--on-evening);
-  --btn-secondary-wave: var(--on-evening);
-  --btn-secondary-fg-hover: 31 40 34;
-  --btn-secondary-ring: 255 250 240 / 0.55;
-  --btn-ghost-wave: 255 255 255 / 0.12;
-  color: rgb(var(--on-evening));
+  --btn-secondary-fg: var(--on-image);
+  --btn-secondary-wave: var(--on-image);
+  --btn-secondary-fg-hover: 42 38 34;
+  --btn-secondary-ring: 250 245 236 / 0.6;
+  color: rgb(var(--on-image));
 }
 
 html {
@@ -164,19 +128,25 @@ h3,
 h4,
 .font-display {
   font-family: var(--font-fraunces), Georgia, serif;
-  font-variation-settings: "SOFT" 100, "WONK" 0;
-  font-weight: 400;
-  line-height: 1.18;
-  letter-spacing: -0.012em;
+  font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 72;
+  font-weight: 350;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
   text-wrap: balance;
 }
+.font-light-display {
+  font-family: var(--font-fraunces), Georgia, serif;
+  /* A lower optical size keeps hairlines sturdy at display sizes. */
+  font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 40;
+  font-weight: 300;
+  letter-spacing: -0.025em;
+}
 
-/* The one emphasised word in a headline: Fraunces italic, terracotta, a touch of WONK. */
+/* The one emphasised word in a headline: Fraunces italic in the accent colour. */
 .accent-em {
   font-style: italic;
-  font-variation-settings: "SOFT" 100, "WONK" 1;
+  font-variation-settings: "SOFT" 100, "WONK" 0, "opsz" 48;
   color: rgb(var(--em));
-  letter-spacing: -0.005em;
 }
 
 :focus-visible {
@@ -186,7 +156,7 @@ h4,
 }
 
 ::selection {
-  background: rgb(var(--blush));
+  background: rgb(var(--accent) / 0.2);
   color: rgb(var(--ink));
 }
 
@@ -319,33 +289,42 @@ h4,
   }
 
   .btn-ghost {
-    --btn-wave-fill: rgb(var(--btn-ghost-wave));
+    --btn-wave-fill: rgb(var(--subtle));
     background-color: transparent;
     color: rgb(var(--ink));
     transition: color 0.2s ease 0.18s;
   }
 
-  .btn-link-arrow {
+  /* Secondary actions: an underlined text link, optionally with an arrow. */
+  .btn-link {
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
-    font-weight: 600;
-    color: rgb(var(--em));
+    font-weight: 500;
+    color: rgb(var(--ink));
     text-decoration: underline;
-    text-decoration-color: rgb(var(--em) / 0.35);
-    text-decoration-thickness: 1.5px;
+    text-decoration-color: rgb(var(--ink) / 0.35);
+    text-decoration-thickness: 1px;
     text-underline-offset: 6px;
-    transition: text-decoration-color 0.2s ease;
+    transition:
+      text-decoration-color 0.2s ease,
+      color 0.2s ease;
   }
-  .btn-link-arrow:hover,
-  .btn-link-arrow:focus-visible {
+  .btn-link > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .btn-link:hover,
+  .btn-link:focus-visible {
+    color: rgb(var(--em));
     text-decoration-color: currentColor;
   }
-  .btn-link-arrow .btn-arrow {
+  .btn-arrow {
     transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .btn-link-arrow:hover .btn-arrow,
-  .btn-link-arrow:focus-visible .btn-arrow,
+  .btn-link:hover .btn-arrow,
+  .btn-link:focus-visible .btn-arrow,
   .group:hover .btn-arrow {
     transform: translateX(4px);
   }
@@ -375,42 +354,71 @@ h4,
 
   /* ---------- Form fields ---------- */
   .field {
-    @apply block w-full rounded-2xl bg-bg px-4 py-3 text-base text-ink;
+    @apply block w-full rounded-[4px] bg-surface px-4 py-3 text-base text-ink;
     box-shadow: inset 0 0 0 1px rgb(var(--line));
     transition: box-shadow 0.2s ease;
   }
   .field::placeholder {
-    color: rgb(var(--muted) / 0.75);
+    color: rgb(var(--muted) / 0.8);
   }
   .field:hover {
-    box-shadow: inset 0 0 0 1px rgb(var(--muted) / 0.6);
+    box-shadow: inset 0 0 0 1px rgb(var(--muted) / 0.7);
   }
   .field:focus-visible {
     outline-offset: 1px;
-    border-radius: 1rem;
+    border-radius: 4px;
   }
 
   /* ---------- Photo slot (CSS background over a warm gradient fallback) ---------- */
   .img-slot {
-    background-color: rgb(var(--lake));
+    background-color: rgb(var(--subtle));
     background-image: var(--img), var(--hero-fallback);
     background-size: cover;
     background-position: var(--img-pos, center);
   }
-  :root[data-theme="dark"] .img-slot {
-    filter: brightness(0.9) saturate(0.95);
+  /* One warm grade for all photography. */
+  .img-graded {
+    filter: saturate(0.92) sepia(0.08) contrast(1.02);
+  }
+  :root[data-theme="dark"] .img-graded {
+    filter: saturate(0.88) sepia(0.1) brightness(0.88);
   }
   @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) .img-slot {
-      filter: brightness(0.9) saturate(0.95);
+    :root:not([data-theme="light"]) .img-graded {
+      filter: saturate(0.88) sepia(0.1) brightness(0.88);
     }
   }
   .zoom-media {
-    transition: transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+    transition: transform 1.1s cubic-bezier(0.2, 0.7, 0.2, 1);
   }
   .group:hover .zoom-media {
-    transform: scale(1.05);
+    transform: scale(1.04);
   }
+}
+
+/* ---------- Header: transparent over a full-bleed hero, solid ivory once scrolled ----------
+   The background + blur live on ::before: backdrop-filter on the header itself would become the
+   containing block of the fixed mobile menu panel. */
+.site-header {
+  isolation: isolate;
+  transition: color 0.35s ease;
+}
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: rgb(var(--bg) / 0.9);
+  box-shadow: 0 1px 0 rgb(var(--line));
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  transition: opacity 0.35s ease;
+}
+body:has([data-hero-overlay]) .site-header:not([data-solid]):not([data-menu-open])::before {
+  opacity: 0;
+}
+body:has([data-hero-overlay]) .site-header:not([data-solid]):not([data-menu-open]) [role="radiogroup"] {
+  background-color: rgb(255 255 255 / 0.1);
 }
 
 /* ---------- Fade-up on scroll (armed by RevealObserver after on-screen elements are shown) ---------- */
@@ -438,6 +446,7 @@ html.reveal-ready [data-reveal].is-visible {
   display: none;
 }
 .faq-item .faq-icon {
+  display: inline-flex;
   transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .faq-item[open] .faq-icon {
@@ -475,15 +484,16 @@ html.reveal-ready [data-reveal].is-visible {
   padding-left: 1.4em;
 }
 .prose li::marker {
-  color: rgb(var(--accent-soft));
+  color: rgb(var(--muted));
 }
 .prose li + li {
   margin-top: 0.4em;
 }
 .prose blockquote {
-  background: rgb(var(--blush));
-  padding: 1.1rem 1.4rem;
-  border-radius: 20px;
+  border-left: 2px solid rgb(var(--accent));
+  padding: 0.2rem 0 0.2rem 1.25rem;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.2rem;
 }
 .prose strong {
   font-weight: 600;
@@ -493,7 +503,7 @@ html.reveal-ready [data-reveal].is-visible {
   margin: 2.5em 0;
 }
 .prose code {
-  background: rgb(var(--sand));
+  background: rgb(var(--subtle));
   padding: 0.1em 0.35em;
   border-radius: 6px;
   font-size: 0.92em;
@@ -501,14 +511,12 @@ html.reveal-ready [data-reveal].is-visible {
 .prose .table-wrap {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  border-radius: 20px;
-  background: rgb(var(--surface));
-  box-shadow: 0 1px 2px rgb(var(--shadow) / 0.05), 0 14px 34px -18px rgb(var(--shadow) / 0.2),
-    inset 0 0 0 1px rgb(var(--ring) / var(--ring-alpha));
+  border-radius: 4px;
+  border: 1px solid rgb(var(--line));
 }
 .prose table {
   width: 100%;
-  min-width: 32rem;
+  min-width: 38rem;
   border-collapse: collapse;
   font-size: 0.95rem;
 }
@@ -520,7 +528,7 @@ html.reveal-ready [data-reveal].is-visible {
   border-bottom: 1px solid rgb(var(--line) / 0.7);
 }
 .prose thead th {
-  background: rgb(var(--sand));
+  background: rgb(var(--subtle));
   font-weight: 600;
 }
 .prose tbody tr:last-child td {

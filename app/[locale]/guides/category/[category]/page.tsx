@@ -51,7 +51,7 @@ export default async function GuideCategoryPage({ params }: { params: Params }) 
           { label: cat.label, path: `/guides/category/${cat.key}/` },
         ]}
       />
-      <Section spacing="md" className="pb-24 sm:pb-28">
+      <Section spacing="sm" className="pb-24">
         <GuideIndex locale={locale} category={cat.key} />
       </Section>
       <CtaBand locale={locale} />

@@ -5,9 +5,8 @@ import { getLocale, staticMetadata, type LocaleParams } from "@/lib/page";
 import PageHeader from "@/components/PageHeader";
 import ContactForm from "@/components/ContactForm";
 import ContactChannels from "@/components/ContactChannels";
-import ArchImage from "@/components/ui/ArchImage";
-import Card from "@/components/ui/Card";
-import IconBadge from "@/components/ui/IconBadge";
+import Photo from "@/components/ui/Photo";
+import { imageCaption } from "@/lib/images";
 import Section from "@/components/ui/Section";
 
 export const generateMetadata = staticMetadata("/contact/", "contact.title", "contact.description");
@@ -23,7 +22,7 @@ export default async function ContactPage({ params }: { params: LocaleParams }) 
         intro={t(locale, "contact.intro")}
         crumbs={[{ label: t(locale, "nav.contact"), path: "/contact/" }]}
       />
-      <Section spacing="sm" className="pb-24 sm:pb-28">
+      <Section spacing="sm" className="pb-24">
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] lg:gap-14">
           <div id="form" className="scroll-mt-28">
             <ContactForm
@@ -36,14 +35,16 @@ export default async function ContactPage({ params }: { params: LocaleParams }) 
             />
           </div>
           <aside className="space-y-10">
-            <Card tone="sage">
-              <IconBadge icon="chat" tone="surface" />
-              <h2 className="mt-5 text-2xl">{t(locale, "contact.channelsTitle")}</h2>
+            <div className="border-t border-ink pt-6">
+              <h2 className="text-[1.6rem]">{t(locale, "contact.channelsTitle")}</h2>
               <div className="mt-5">
                 <ContactChannels locale={locale} />
               </div>
-            </Card>
-            <ArchImage name="cityGeneva" locale={locale} aspect="5/6" frame="blush" className="mx-auto hidden w-full max-w-[360px] lg:block" />
+            </div>
+            <figure className="hidden lg:block">
+              <Photo name="terraceLake" locale={locale} aspect="aspect-[4/5]" />
+              <figcaption className="mt-3 text-sm text-muted">{imageCaption("terraceLake", locale)}</figcaption>
+            </figure>
           </aside>
         </div>
       </Section>

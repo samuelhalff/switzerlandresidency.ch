@@ -4,15 +4,15 @@ import Eyebrow from "./Eyebrow";
 import { cn } from "./cn";
 
 const titleSizes = {
-  display: "text-[2.6rem] leading-[1.06] sm:text-6xl lg:text-[4.5rem]",
-  xl: "text-[2.35rem] leading-[1.1] sm:text-5xl lg:text-[3.5rem]",
-  lg: "text-[2rem] leading-[1.15] sm:text-[2.6rem]",
-  md: "text-2xl sm:text-[1.75rem]",
+  display: "font-light-display text-[2.6rem] leading-[1.04] sm:text-6xl lg:text-[4.5rem]",
+  xl: "font-light-display text-[2.4rem] leading-[1.06] sm:text-5xl lg:text-[3.75rem]",
+  lg: "text-[2rem] leading-[1.1] sm:text-[2.75rem]",
+  md: "text-[1.6rem] sm:text-[2rem]",
 } as const;
 
 export type HeadingSize = keyof typeof titleSizes;
 
-/** Eyebrow + headline (with one accent word) + lead paragraph, left or centred. Optional action slot. */
+/** Optional eyebrow + light serif headline (one accent word) + quiet lead paragraph. */
 export default function SectionHeading({
   eyebrow,
   title,
@@ -35,7 +35,7 @@ export default function SectionHeading({
   align?: "left" | "center";
   id?: string;
   className?: string;
-  /** Extra content under the lead (e.g. a link-arrow button). */
+  /** Extra content under the lead (e.g. a text link). */
   children?: ReactNode;
   reveal?: boolean;
 }) {
@@ -47,7 +47,7 @@ export default function SectionHeading({
         <AccentText text={title} accent={accent} />
       </Tag>
       {lead ? (
-        <p className={cn("mt-5 text-lg leading-relaxed text-muted sm:text-xl", center ? "mx-auto max-w-2xl" : "max-w-2xl")}>{lead}</p>
+        <p className={cn("mt-5 text-lg leading-relaxed text-muted", center ? "mx-auto max-w-2xl" : "max-w-2xl")}>{lead}</p>
       ) : null}
       {children ? <div className="mt-6">{children}</div> : null}
     </div>

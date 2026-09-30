@@ -23,8 +23,8 @@ export default function LanguageSwitcher({ current, label, languages }: Props) {
               lang={l.code}
               aria-current={l.code === current ? "true" : undefined}
               title={l.name}
-              className={`inline-flex min-h-[36px] min-w-[36px] items-center justify-center rounded-full px-2 font-medium uppercase ${
-                l.code === current ? "bg-sand text-ink" : "text-muted hover:text-ink"
+              className={`inline-flex min-h-[36px] min-w-[32px] items-center justify-center px-1.5 text-[0.85rem] font-medium uppercase tracking-wide underline-offset-[6px] ${
+                l.code === current ? "text-ink underline decoration-1" : "text-ink/60 hover:text-ink"
               }`}
             >
               <span aria-hidden="true">{l.code}</span>

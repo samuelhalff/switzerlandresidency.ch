@@ -1,12 +1,10 @@
 import type { ReactNode } from "react";
 import type { Locale } from "@/lib/i18n";
-import type { ImageName } from "@/lib/images";
+import { imageCaption, type ImageName } from "@/lib/images";
 import Breadcrumbs, { type BreadcrumbItem } from "./Breadcrumbs";
-import ArchImage from "./ui/ArchImage";
 import Container from "./ui/Container";
+import Photo from "./ui/Photo";
 import SectionHeading from "./ui/SectionHeading";
-import WaveDivider from "./ui/WaveDivider";
-import { cn } from "./ui/cn";
 
 type Props = {
   locale: Locale;
@@ -14,32 +12,28 @@ type Props = {
   accent?: string;
   intro?: string;
   crumbs: BreadcrumbItem[];
-  /** Arch photo on the right (desktop). */
+  /** Wide photo under the title, with a plain caption. */
   image?: ImageName;
   children?: ReactNode;
 };
 
-/** Warm sand page header: breadcrumbs, h1 (optional accent word), intro, optional arch photo; ends in a hill line. */
+/** Editorial page header: breadcrumbs, light serif h1, quiet intro, optional wide photo. */
 export default function PageHeader({ locale, title, accent, intro, crumbs, image, children }: Props) {
   return (
-    <div className="relative overflow-hidden bg-sand">
-      <div aria-hidden="true" className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-blush/70 blur-3xl" />
-      <Container
-        className={cn(
-          "relative grid items-center gap-10 pb-20 pt-8 sm:pb-28 sm:pt-12",
-          image && "lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)]",
-        )}
-      >
-        <div>
-          <Breadcrumbs locale={locale} items={crumbs} />
-          <SectionHeading as="h1" size="xl" title={title} accent={accent} lead={intro} className="mt-6 max-w-4xl" reveal={false} />
-          {children}
-        </div>
-        {image ? (
-          <ArchImage name={image} locale={locale} aspect="5/6" frame="blush" reveal={false} className="hidden w-full max-w-[340px] justify-self-end lg:block" />
-        ) : null}
+    <div className="pb-6 pt-10 sm:pt-16">
+      <Container>
+        <Breadcrumbs locale={locale} items={crumbs} />
+        <SectionHeading as="h1" size="xl" title={title} accent={accent} lead={intro} className="mt-8 max-w-4xl" reveal={false} />
+        {children}
       </Container>
-      <WaveDivider className="pointer-events-none absolute inset-x-0 bottom-0 text-bg" />
+      {image ? (
+        <Container className="mt-12 sm:mt-16">
+          <figure>
+            <Photo name={image} locale={locale} aspect="aspect-[4/3] sm:aspect-[21/9]" />
+            <figcaption className="mt-3 text-sm text-muted">{imageCaption(image, locale)}</figcaption>
+          </figure>
+        </Container>
+      ) : null}
     </div>
   );
 }

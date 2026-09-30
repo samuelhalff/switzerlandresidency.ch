@@ -27,7 +27,9 @@
     "whatsapp": "Nous écrire sur WhatsApp",
     "email": "Nous écrire par e-mail",
     "allTopics": "Tous les thèmes",
-    "indicative": "À titre indicatif uniquement, sans valeur de conseil juridique ou fiscal."
+    "indicative": "À titre indicatif uniquement, sans valeur de conseil juridique ou fiscal.",
+    "ctaConversation": "Organiser un entretien privé",
+    "ctaRoute": "Ou découvrez votre parcours indicatif en deux minutes"
   },
   "languages": {
     "en": "English",
@@ -64,8 +66,10 @@
       "subtitle": "Permis de séjour, forfait fiscal, choix du canton, une maison près du lac ou à la montagne : nous vous accompagnons, vous et votre famille, à chaque étape, avec discrétion et dans votre langue.",
       "primary": "Vérifier votre éligibilité",
       "secondary": "Nous parler",
-      "accent": "votre chez-vous",
-      "reassurance": "Confidentiel, sans engagement, en français, en anglais ou en allemand."
+      "headline": "Faites de la Suisse votre chez-vous.",
+      "headlineAccent": "chez-vous",
+      "lead": "Permis, fiscalité, maison et écoles, organisés avec discrétion et dans votre langue.",
+      "credibility": "Membre du groupe Ark, Genève"
     },
     "steps": {
       "title": "Notre démarche",
@@ -85,26 +89,22 @@
         }
       ],
       "cta": "Voir la démarche complète",
-      "accent": "démarche",
-      "eyebrow": "Pas à pas"
+      "accent": "démarche"
     },
     "services": {
       "title": "Ce dont nous nous occupons",
       "intro": "Une seule équipe coordonnée pour tout votre déménagement : vous n'avez jamais à raconter votre histoire deux fois.",
-      "accent": "occupons",
-      "eyebrow": "Nos services"
+      "accent": "occupons"
     },
     "origins": {
       "title": "Vous venez de…",
-      "intro": "Chaque départ obéit à ses propres règles. Nous connaissons les questions qui comptent selon le pays où vous vivez aujourd'hui.",
-      "eyebrow": "Où que vous viviez aujourd'hui"
+      "intro": "Chaque départ obéit à ses propres règles. Nous connaissons les questions qui comptent selon le pays où vous vivez aujourd'hui."
     },
     "cantons": {
       "title": "Trouver le bon canton",
       "intro": "En Suisse, le canton détermine presque tout : vos impôts, la pratique en matière de permis, les écoles et la langue. Le bassin lémanique, les Alpes, Zoug ou le Tessin offrent chacun un art de vivre différent.",
       "cta": "Découvrir les cantons",
-      "accent": "canton",
-      "eyebrow": "Où s'installer"
+      "accent": "canton"
     },
     "approach": {
       "title": "Notre approche",
@@ -127,15 +127,13 @@
           "text": "Nous travaillons en français, en anglais et en allemand, et nous vous expliquons le système suisse aussi souvent que nécessaire."
         }
       ],
-      "accent": "approche",
-      "eyebrow": "Bienvenue"
+      "accent": "approche"
     },
     "guides": {
       "title": "Derniers guides",
       "intro": "Des réponses claires et sourcées aux questions que les familles nous posent le plus souvent.",
       "cta": "Tous les guides",
-      "accent": "guides",
-      "eyebrow": "Lire et se préparer"
+      "accent": "guides"
     },
     "faq": {
       "title": "Les questions que l'on nous pose souvent",
@@ -161,8 +159,7 @@
           "a": "Oui. Vos réponses restent dans votre navigateur. Rien ne nous est transmis, sauf si vous choisissez de partager votre résultat via le formulaire de contact."
         }
       ],
-      "accent": "souvent",
-      "eyebrow": "Bon à savoir"
+      "accent": "souvent"
     },
     "finalCta": {
       "title": "Prêts à parler de votre projet ?",
@@ -173,7 +170,6 @@
     },
     "heroAltFallback": "Lac et montagnes en Suisse",
     "evening": {
-      "eyebrow": "Un accueil personnel",
       "title": "Votre premier échange se fait avec une personne, pas avec un formulaire.",
       "accent": "personne",
       "text": "Dites-nous en quelques mots où vous vivez aujourd'hui et ce que vous envisagez. Un conseiller vous répond personnellement, en français, en anglais ou en allemand."
@@ -669,12 +665,45 @@
     "homeChalet": "Un chalet suisse traditionnel dans un alpage",
     "homeLakeside": "Une maison à flanc de colline surplombant le lac de Lugano",
     "school": "Un bâtiment scolaire moderne à Zurich",
-    "vineyards": "Les terrasses du vignoble de Lavaux au-dessus du Léman"
+    "vineyards": "Les terrasses du vignoble de Lavaux au-dessus du Léman",
+    "terraceLake": "Une table pour deux sur un balcon face au Léman et aux montagnes",
+    "lakesideWalk": "Deux personnes se promenant au bord du lac de Zoug au coucher du soleil",
+    "villageLane": "Une personne marchant dans une ruelle pavée de la vieille ville de Zurich",
+    "chaletInterior": "Un salon de chalet chaleureux, poêle à bois allumé et lumière de lampe",
+    "homeArrival": "Une main tenant des clés de maison devant une porte d'entrée",
+    "heroPeople": "Un couple en contre-jour se tenant la main au bord d'un lac alpin, en Engadine",
+    "eveningWindows": "Un chalet aux fenêtres éclairées sous un ciel alpin étoilé"
   },
   "theme": {
     "label": "Thème de couleur",
     "light": "Clair",
     "dark": "Sombre",
     "system": "Système"
+  },
+  "imageCaption": {
+    "hero": "Lac des Quatre-Cantons, Suisse centrale",
+    "lakeGeneva": "Les quais de Genève",
+    "lakeLucerne": "Lac des Quatre-Cantons",
+    "lakeLugano": "Lugano, Tessin",
+    "mountainAlps": "Cervin, Zermatt",
+    "mountainMatterhorn": "Cervin, Zermatt",
+    "mountainEngadin": "Saint-Moritz, Engadine",
+    "mountainVillage": "Verbier, Valais",
+    "cityGeneva": "Jet d'eau, Genève",
+    "cityZurich": "Vieille ville de Zurich",
+    "cityZug": "Zoug, au bord du lac",
+    "cityLausanne": "Lausanne, Vaud",
+    "familyLife": "Promenade au bord du lac, Zoug",
+    "homeChalet": "Iseltwald, Oberland bernois",
+    "homeLakeside": "Au-dessus du lac de Lugano, Tessin",
+    "school": "Zurich",
+    "vineyards": "Lavaux, Vaud",
+    "terraceLake": "Le Léman",
+    "lakesideWalk": "Promenade du lac de Zoug",
+    "villageLane": "Vieille ville de Zurich",
+    "chaletInterior": "Un salon de chalet",
+    "homeArrival": "L'emménagement",
+    "heroPeople": "Engadine, Grisons",
+    "eveningWindows": "Bergün, Grisons"
   }
 }
