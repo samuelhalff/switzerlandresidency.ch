@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "next dev -p 3100",
     "validate": "node scripts/validate-content.mjs",
+    "keywords:refresh": "node scripts/refresh-keywords.mjs",
     "prebuild": "node scripts/validate-content.mjs",
     "build": "next build",
     "serve": "npx serve out -l 4600",

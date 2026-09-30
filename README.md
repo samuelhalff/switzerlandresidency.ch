@@ -159,9 +159,15 @@ How a run works (`scripts/ai-article.mjs`):
    with `status: "todo"` whose slug is not yet in `content/en/guides/`. It never picks the same
    category as the previous generated guide (tracked in `history`) unless only that category is
    left. A `slug` input bypasses priority and diversity.
-2. **Keywords and trends** (best effort, never fails the run) — Google autocomplete for the backlog
+2. **Keywords and trends** (best effort, never fails the run) — autocomplete for the backlog
    keywords and question forms in en-GB/US/AE/SG, fr-CH/FR/BE, de-CH/DE/AT, plus Google "trending
    now" for CH/GB/FR/DE/AE. Candidates become a primary and 5–10 secondary keywords per language.
+   Google blocks datacenter IPs (GitHub Actions), so providers are tried in order Google → Bing →
+   DuckDuckGo; failed requests are logged per provider (status and markets). When live research
+   yields no candidates the item's `researchedKeywords` are used, else its seed keywords; the log
+   says which (`Keyword source: en=live:bing, fr=stored 2026-09-30, …`). Refresh the stored set from
+   a normal machine with `npm run keywords:refresh` (all todo items, ~1 request/300 ms, 20 min
+   cap; `-- --missing-only` resumes, `-- --slug <slug>` does one item) and commit the backlog.
    All of this third-party text is sanitised (control characters and markup stripped, length
    capped) and fenced in an "untrusted data" block the model is told never to take instructions from.
 3. **Facts** — `research/legal-facts.md` (read whole at run time) plus the verified sections of

@@ -6,8 +6,9 @@
  *   node scripts/ai-article.mjs --dry-run [--slug <slug>] [--offline]
  *   node scripts/ai-article.mjs --apply   [--slug <slug>] [--offline]
  *
- * Steps: pick a backlog topic (content/backlog.json) → keyword & trend research (Google
- * autocomplete per market, trending RSS; best effort) → legal-facts excerpts (read at run time,
+ * Steps: pick a backlog topic (content/backlog.json) → keyword & trend research (Google, else
+ * Bing/DuckDuckGo autocomplete per market, else the item's pre-researched keywords from
+ * scripts/refresh-keywords.mjs, else its seeds; trending RSS; best effort) → legal-facts excerpts (read at run time,
  * UNVERIFIED sentences removed) → optional research model for current developments (a fact is
  * kept only with a verbatim evidence quote found on the fetched official page; nothing is ever
  * written back to research/legal-facts.md) → outline → EN draft (repaired until the
@@ -400,6 +401,7 @@ async function main() {
 
   // Research inputs
   const keywords = await researchKeywords(item, { offline: OFFLINE, log });
+  log(`🔑 Keyword source: ${Object.entries(keywords.sources).map(([l, src]) => `${l}=${src}`).join(", ")}`);
   const trendItems = keywords.trends.slice(0, 8).map((t) => sanitizeUntrusted(`${t.geo}: ${t.title} (${t.traffic})`, 140));
   const trendBlock = untrustedBlock("trending searches (Google Trends RSS)", trendItems.length ? trendItems : ["no relevant trending searches today"], { maxItems: 8, maxLen: 140 });
   const legalFacts = loadFactSources(ROOT); // legal-facts.md + verified audit sections, read at run time

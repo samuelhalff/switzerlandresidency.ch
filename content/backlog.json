@@ -132,7 +132,56 @@
       "priority": 1,
       "status": "todo",
       "source": "legal audit 2026-09 / audit-2026-09-30 topic 4",
-      "notes": "Company formation does not by itself give residence: explain the self-employed permit route (art. 19 AIG, economic interest). Personal permit angle only; company formation belongs to ark-fid.ch. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §4."
+      "notes": "Company formation does not by itself give residence: explain the self-employed permit route (art. 19 AIG, economic interest). Personal permit angle only; company formation belongs to ark-fid.ch. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §4.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "self employed permit switzerland non eu",
+            "secondary": [
+              "start a business in switzerland as a foreigner residence permit",
+              "swiss residence permit through company",
+              "how to get a swiss work permit",
+              "work permit switzerland non eu",
+              "swiss work permit for non-eu",
+              "work permit switzerland for eu citizens",
+              "self employed in switzerland",
+              "c permit switzerland non eu"
+            ],
+            "questions": [
+              "how to get a swiss work permit"
+            ]
+          },
+          "fr": {
+            "primary": "permis indépendant suisse hors ue",
+            "secondary": [
+              "créer une entreprise en suisse permis de séjour étranger",
+              "liste des permis en suisse",
+              "permis am en suisse",
+              "permis suisse en france",
+              "permis l en suisse",
+              "type de permis en suisse",
+              "permis l suisse conditions",
+              "les différents permis en suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "aufenthaltsbewilligung selbständige erwerbstätigkeit drittstaat",
+            "secondary": [
+              "firma gründen schweiz aufenthaltsbewilligung",
+              "aufenthaltsbewilligung schweiz als deutscher",
+              "aufenthaltsbewilligung g schweiz formular",
+              "aufenthaltsbewilligung in der schweiz",
+              "aufenthaltsbewilligung schweiz als schweizer",
+              "aufenthaltsbewilligung b schweiz beantragen",
+              "aufenthaltsbewilligung l in der schweiz",
+              "aufenthaltsbewilligung c schweiz beantragen"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-permit-schengen-travel",
@@ -158,7 +207,56 @@
       "priority": 1,
       "status": "todo",
       "source": "legal audit 2026-09 / audit-2026-09-30 topic 5",
-      "notes": "Schengen travel vs EU residence rights (Schengen vs EU rights, ETIAS). ETIAS status must be cited from europa.eu with its as-of date. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §5. Do not state the ETIAS fee (pricing guardrail)."
+      "notes": "Schengen travel vs EU residence rights (Schengen vs EU rights, ETIAS). ETIAS status must be cited from europa.eu with its as-of date. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §5. Do not state the ETIAS fee (pricing guardrail).",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "swiss residence permit travel schengen",
+            "secondary": [
+              "can i live in the eu with a swiss permit",
+              "etias swiss residence permit",
+              "can i travel in schengen with swiss residence permit",
+              "can i travel in schengen with residence permit",
+              "can i travel to switzerland with italian residence permit",
+              "is swiss visa valid for schengen countries"
+            ],
+            "questions": [
+              "can i travel in schengen with swiss residence permit",
+              "can i travel in schengen with residence permit",
+              "can i travel to switzerland with italian residence permit",
+              "is swiss visa valid for schengen countries"
+            ]
+          },
+          "fr": {
+            "primary": "permis b suisse voyager schengen",
+            "secondary": [
+              "permis suisse droits dans l'ue",
+              "comment obtenir un permis b en suisse",
+              "permis b suisse voyage",
+              "permis de séjour suisse b",
+              "permis b en suisse",
+              "obtention permis b suisse",
+              "obtenir un permis b en suisse",
+              "demande de permis b en suisse"
+            ],
+            "questions": [
+              "comment obtenir un permis b en suisse"
+            ]
+          },
+          "de": {
+            "primary": "aufenthaltsbewilligung schweiz schengen reisen",
+            "secondary": [
+              "ausweis b schweiz eu wohnen",
+              "b ausweis in der schweiz",
+              "reisen mit b ausweis schweiz",
+              "ausweis b schweiz beantragen",
+              "ausweis l in der schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "no-golden-visa-switzerland-adviser-brief",
@@ -184,7 +282,56 @@
       "priority": 1,
       "status": "todo",
       "source": "legal audit 2026-09",
-      "notes": "Adviser brief. Must not duplicate switzerland-golden-visa (client guide): focus on screening a client, the fiscal-interest and 55+ routes and what to tell the client. Never describe the fiscal-interest route as residency by investment."
+      "notes": "Adviser brief. Must not duplicate switzerland-golden-visa (client guide): focus on screening a client, the fiscal-interest and 55+ routes and what to tell the client. Never describe the fiscal-interest route as residency by investment.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "switzerland golden visa",
+            "secondary": [
+              "swiss residence options for non eu clients",
+              "non eu client swiss residence",
+              "what is switzerland golden visa",
+              "is it easy to get switzerland visa",
+              "does switzerland have golden visa",
+              "switzerland golden visa cost",
+              "how to get switzerland golden visa",
+              "switzerland golden visa price"
+            ],
+            "questions": [
+              "what is switzerland golden visa",
+              "is it easy to get switzerland visa",
+              "does switzerland have golden visa",
+              "how to get switzerland golden visa",
+              "what is golden visa in europe",
+              "which european countries offer golden visa",
+              "can i travel to switzerland with german residence permit",
+              "what is the golden pass in switzerland",
+              "can i visit switzerland with german visa",
+              "does switzerland offer golden visa"
+            ]
+          },
+          "fr": {
+            "primary": "golden visa suisse",
+            "secondary": [
+              "résidence suisse clients hors ue",
+              "visa gold suisse",
+              "gold visa swiss",
+              "golden visa swiss",
+              "golden visa swiss syarat",
+              "golden visa swiss indonesia"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "goldenes visum schweiz",
+            "secondary": [
+              "wohnsitz schweiz drittstaatsangehörige mandanten"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "leaving-uk-residence-iht",
@@ -207,7 +354,20 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "demand-wave2 #11 / seo-topics C2"
+      "source": "demand-wave2 #11 / seo-topics C2",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "uk inheritance tax after leaving uk",
+            "secondary": [
+              "statutory residence test leaving uk",
+              "uk swiss double tax treaty iht"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "relocation-services-switzerland",
@@ -262,7 +422,46 @@
       "priority": 1,
       "status": "todo",
       "source": "codex review 2026-09-30",
-      "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices."
+      "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "destination services switzerland",
+            "secondary": [
+              "destination services vs relocation",
+              "relocation agency switzerland",
+              "travel agency for switzerland trip",
+              "best tour guide services for switzerland",
+              "travel agency in switzerland",
+              "tourist destination in switzerland",
+              "best travel agency for winter in switzerland",
+              "winter travel agency packages in switzerland"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "destination services suisse",
+            "secondary": [
+              "agence de relocation ou destination services",
+              "meilleur destination en suisse",
+              "agence de relocation lausanne"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "destination services schweiz",
+            "secondary": [
+              "relocation service schweiz vergleich",
+              "swiss relocation services gmbh",
+              "dertour destination services ag",
+              "relocation services geneva compare",
+              "what are destination services"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "orientation-visit-switzerland",
@@ -288,7 +487,37 @@
       "priority": 1,
       "status": "todo",
       "source": "codex review 2026-09-30",
-      "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices."
+      "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "orientation visit switzerland",
+            "secondary": [
+              "look-see visit switzerland relocation",
+              "visit before moving to switzerland",
+              "how to visit switzerland"
+            ],
+            "questions": [
+              "how to visit switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "voyage de reconnaissance suisse",
+            "secondary": [
+              "visite d'orientation avant déménagement en suisse",
+              "guide de voyage en suisse",
+              "voyage en suisse depuis la france",
+              "titre de voyage réfugié suisse",
+              "préparer son voyage en suisse",
+              "titre de voyage suisse",
+              "reconnaissance de diplôme étranger en suisse",
+              "acte de reconnaissance suisse"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-household-goods-and-pets-switzerland",
@@ -315,7 +544,48 @@
       "priority": 1,
       "status": "todo",
       "source": "codex review 2026-09-30",
-      "notes": "Customs: legal-facts §4 (relocation goods, 6-month use). Pets: cite blv.admin.ch / bazg.admin.ch only."
+      "notes": "Customs: legal-facts §4 (relocation goods, 6-month use). Pets: cite blv.admin.ch / bazg.admin.ch only.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving household goods switzerland customs",
+            "secondary": [
+              "moving to switzerland with pets",
+              "relocation goods switzerland duty free",
+              "moving to switzerland with a dog",
+              "moving to switzerland with cats"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "effets de déménagement suisse douane",
+            "secondary": [
+              "déménager en suisse avec un chien",
+              "effets de déménagement douane suisse",
+              "demenager en suisse avec son chien",
+              "vivre en suisse avec son chien"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "umzugsgut schweiz zoll",
+            "secondary": [
+              "mit hund in die schweiz",
+              "umzug in die schweiz",
+              "kann man mit hund in die schweiz reisen",
+              "mit hund in die schweiz urlaub",
+              "zollanmeldung umzugsgut schweiz",
+              "mit hund in die schweiz reisen",
+              "mit hund in die schweiz einreisen",
+              "mit hund in die schweiz auswandern"
+            ],
+            "questions": [
+              "kann man mit hund in die schweiz reisen"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "school-admissions-switzerland-timeline",
@@ -341,7 +611,53 @@
       "priority": 1,
       "status": "todo",
       "source": "codex review 2026-09-30",
-      "notes": "No fees or waiting-list figures. School list in legal-facts is UNVERIFIED for status: describe steps, not schools. Geneva schooling belongs to ridger.ch: keep it national."
+      "notes": "No fees or waiting-list figures. School list in legal-facts is UNVERIFIED for status: describe steps, not schools. Geneva schooling belongs to ridger.ch: keep it national.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "school admission switzerland timeline",
+            "secondary": [
+              "international school admission switzerland",
+              "when to apply to schools in switzerland",
+              "how many international schools in switzerland",
+              "international school fees switzerland",
+              "summer schools in switzerland for international students"
+            ],
+            "questions": [
+              "how many international schools in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "inscription école internationale suisse délai",
+            "secondary": [
+              "admission école suisse expatrié",
+              "ecole suisse internationale paris",
+              "école obligatoire en suisse",
+              "école internationale de lausanne",
+              "école internationale suisse dubai",
+              "ecole suisse internationale dijon",
+              "école privée en suisse",
+              "école primaire en suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "schulanmeldung schweiz zuzug",
+            "secondary": [
+              "internationale schule schweiz anmeldung",
+              "anmeldung gemeinde bei umzug schweiz",
+              "anmeldung zuzug ausland bern",
+              "anmeldung zuzug aus dem ausland",
+              "schule in der schweiz",
+              "ummeldung schule bei umzug",
+              "anmeldung in der schweiz",
+              "schweizer schule im ausland"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "executive-relocation-switzerland-hr",
@@ -367,7 +683,53 @@
       "priority": 1,
       "status": "todo",
       "source": "codex review 2026-09-30",
-      "notes": "Employed route via partners: permits for employees in general terms (quotas from the audit), what the employer handles and what a relocation partner coordinates. Work permits/ANOBAG belong to ark-fid.ch: no procedure detail. Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices."
+      "notes": "Employed route via partners: permits for employees in general terms (quotas from the audit), what the employer handles and what a relocation partner coordinates. Work permits/ANOBAG belong to ark-fid.ch: no procedure detail. Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "executive relocation switzerland",
+            "secondary": [
+              "corporate relocation switzerland",
+              "relocation services switzerland employees",
+              "what is a typical executive relocation package",
+              "corporate housing switzerland",
+              "executive relocation package examples",
+              "switzerland relocation company"
+            ],
+            "questions": [
+              "what is a typical executive relocation package"
+            ]
+          },
+          "fr": {
+            "primary": "relocation de cadres en suisse",
+            "secondary": [
+              "mobilité internationale suisse rh",
+              "association suisse des cadres",
+              "service de la mobilité lausanne",
+              "service de la mobilité valais",
+              "info mobilité genève ch",
+              "transport mobilité réduite lausanne",
+              "service de la mobilité genève",
+              "route et mobilité lausanne"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "relocation service schweiz mitarbeitende",
+            "secondary": [
+              "entsendung schweiz hr",
+              "swiss relocation services gmbh",
+              "zr zurich relocation ag",
+              "swiss moving service ag",
+              "relocation services geneva switzerland",
+              "relocation services geneva international",
+              "agence de relocation lausanne"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-to-geneva",
@@ -394,7 +756,59 @@
       "priority": 1,
       "status": "todo",
       "source": "codex review 2026-09-30",
-      "notes": "ridger.ch owns Geneva schooling and the Geneva work/residence permit guide: keep to arrival, lump-sum status (legal-facts §1.7), areas and daily life."
+      "notes": "ridger.ch owns Geneva schooling and the Geneva work/residence permit guide: keep to arrival, lump-sum status (legal-facts §1.7), areas and daily life.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to geneva",
+            "secondary": [
+              "relocating to geneva",
+              "relocation services geneva",
+              "how to move to geneva",
+              "what to know before moving to geneva",
+              "is geneva a good place to live",
+              "moving to geneva switzerland",
+              "un relocating to geneva",
+              "moving to geneva from uk"
+            ],
+            "questions": [
+              "how to move to geneva",
+              "what to know before moving to geneva",
+              "is geneva a good place to live"
+            ]
+          },
+          "fr": {
+            "primary": "s'installer à genève",
+            "secondary": [
+              "déménager à genève",
+              "agence de relocation genève",
+              "comment s'installer à genève",
+              "s installer à genève"
+            ],
+            "questions": [
+              "comment s'installer à genève"
+            ]
+          },
+          "de": {
+            "primary": "umzug nach genf",
+            "secondary": [
+              "wohnen in genf",
+              "wie viele menschen wohnen in genf",
+              "wie viele milliardäre wohnen in genf",
+              "günstig wohnen in genf",
+              "wie viele leute wohnen.in genf",
+              "wie viele millionäre wohnen in genf"
+            ],
+            "questions": [
+              "wie viele menschen wohnen in genf",
+              "wie viele milliardäre wohnen in genf",
+              "wie viele leute wohnen.in genf",
+              "wie viele millionäre wohnen in genf"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "switzerland-eu-package-bilaterals-iii",
@@ -419,7 +833,40 @@
       "priority": 2,
       "status": "todo",
       "source": "audit-2026-09-30 topic 7",
-      "notes": "Watch page. research/audit-2026-09-30.md, 'Missing topics worth a page' §7: not in force; label everything as proposals with dates."
+      "notes": "Watch page. research/audit-2026-09-30.md, 'Missing topics worth a page' §7: not in force; label everything as proposals with dates.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "switzerland eu bilaterals iii",
+            "secondary": [
+              "switzerland eu agreement 2026 free movement",
+              "does switzerland have free movement with eu",
+              "switzerland eu bilateral iii"
+            ],
+            "questions": [
+              "does switzerland have free movement with eu"
+            ]
+          },
+          "fr": {
+            "primary": "paquet suisse-ue bilatérales iii",
+            "secondary": [
+              "accords bilatéraux iii libre circulation",
+              "accords bilatéraux suisse ue",
+              "bilaterale iii schweiz eu",
+              "accords bilatéraux france suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "bilaterale iii schweiz eu",
+            "secondary": [
+              "paket schweiz eu personenfreizügigkeit"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "uk-pension-moving-to-switzerland",
@@ -442,7 +889,58 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "demand-wave2 #12"
+      "source": "demand-wave2 #12",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "uk pension moving to switzerland",
+            "secondary": [
+              "can i transfer my uk pension to switzerland",
+              "uk switzerland double tax treaty pensions",
+              "can i move my uk pension to switzerland",
+              "can i transfer my swiss pension to the uk",
+              "uk pension transfer to switzerland",
+              "moving uk pension to switzerland"
+            ],
+            "questions": [
+              "can i transfer my uk pension to switzerland",
+              "can i move my uk pension to switzerland",
+              "can i transfer my swiss pension to the uk"
+            ]
+          },
+          "fr": {
+            "primary": "retraite britannique en suisse imposition",
+            "secondary": [
+              "comment fonctionne la retraite en suisse",
+              "imposition retraite suisse en france",
+              "taux imposition retraite suisse en france",
+              "retraite en suisse quel revenu",
+              "retraite en suisse pour un français",
+              "retraite en france pour un suisse",
+              "retraite suisse imposable en france",
+              "montant retraite en suisse"
+            ],
+            "questions": [
+              "comment fonctionne la retraite en suisse"
+            ]
+          },
+          "de": {
+            "primary": "britische rente schweiz besteuerung",
+            "secondary": [
+              "rente schweiz besteuerung in deutschland",
+              "besteuerung deutsche rente in schweiz",
+              "besteuerung schweizer rente in deutschland",
+              "besteuerung rente aus der schweiz",
+              "rente aus schweiz versteuerung deutschland",
+              "besteuerung schweizer renten in deutschland",
+              "versteuerung schweizer rente in deutschland",
+              "rente aus der schweiz besteuerung"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "succession-gift-tax-france-switzerland",
@@ -467,7 +965,54 @@
       "priority": 2,
       "status": "todo",
       "source": "demand-wave2 #13 (FR-first)",
-      "notes": "Cross-border move angle only (ridger.ch owns Swiss-law succession planning). Write FR-search-first titles."
+      "notes": "Cross-border move angle only (ridger.ch owns Swiss-law succession planning). Write FR-search-first titles.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "france switzerland inheritance tax",
+            "secondary": [
+              "french gift tax living in switzerland",
+              "does france have inheritance tax",
+              "does switzerland have inheritance tax",
+              "how much is inheritance tax in france",
+              "inheritance tax in switzerland",
+              "inheritance tax in france",
+              "inheritance tax in france on property",
+              "summary of inheritance tax rules in france"
+            ],
+            "questions": [
+              "does france have inheritance tax",
+              "does switzerland have inheritance tax",
+              "how much is inheritance tax in france",
+              "is switzerland tax free",
+              "how much is the tax in switzerland",
+              "how much tax in switzerland",
+              "is there tax in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "succession france suisse double imposition",
+            "secondary": [
+              "donation france suisse",
+              "convention fiscale france suisse succession",
+              "convention donation france suisse",
+              "convention fiscale donation france suisse",
+              "donation france vers suisse",
+              "imposition donation france suisse",
+              "double imposition donation france suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "erbschaftssteuer frankreich schweiz",
+            "secondary": [
+              "erbschaftssteuer frankreich für schweizer"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "german-inheritance-tax-after-moving-to-switzerland",
@@ -491,7 +1036,52 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "demand-wave2 #14 (DE-first)"
+      "source": "demand-wave2 #14 (DE-first)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "german inheritance tax living in switzerland",
+            "secondary": [
+              "germany switzerland inheritance tax treaty",
+              "does switzerland have inheritance tax",
+              "is there inheritance tax in switzerland",
+              "does switzerland have a wealth tax",
+              "switzerland inheritance tax referendum",
+              "inheritance tax in switzerland",
+              "switzerland us estate tax treaty",
+              "switzerland germany double tax treaty"
+            ],
+            "questions": [
+              "does switzerland have inheritance tax",
+              "is there inheritance tax in switzerland",
+              "does switzerland have a wealth tax"
+            ]
+          },
+          "fr": {
+            "primary": "droits de succession allemagne suisse",
+            "secondary": [
+              "comment répudier une succession en suisse",
+              "droits de succession en suisse",
+              "droits de succession parents enfants suisse",
+              "droits de succession en allemagne",
+              "frais de succession en suisse",
+              "droit de succession parent enfant suisse"
+            ],
+            "questions": [
+              "comment répudier une succession en suisse"
+            ]
+          },
+          "de": {
+            "primary": "erbschaftsteuer deutschland wohnsitz schweiz",
+            "secondary": [
+              "dba erbschaftsteuer schweiz deutschland",
+              "erweiterte unbeschränkte steuerpflicht erbschaftsteuer"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-bank-account-new-resident",
@@ -517,7 +1107,59 @@
       "priority": 2,
       "status": "todo",
       "source": "demand-wave2 #17 / seo-topics F3",
-      "notes": "Onboarding for movers only; custodian-bank selection belongs to ridger.ch."
+      "notes": "Onboarding for movers only; custodian-bank selection belongs to ridger.ch.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "open swiss bank account new resident",
+            "secondary": [
+              "swiss bank account for us citizens",
+              "can a us citizen open a bank account in switzerland",
+              "can i open a swiss bank account from the us",
+              "open swiss bank account non resident",
+              "ubs swiss bank account for us citizens",
+              "best swiss bank account for us citizens",
+              "swiss bank account for eu citizens",
+              "swiss bank accounts for uk citizens"
+            ],
+            "questions": [
+              "can a us citizen open a bank account in switzerland",
+              "can i open a swiss bank account from the us"
+            ]
+          },
+          "fr": {
+            "primary": "ouvrir un compte en suisse résident",
+            "secondary": [
+              "ouvrir compte bancaire suisse nouvel arrivant",
+              "comment ouvrir un compte bancaire en suisse pour non résident",
+              "ouvrir un compte en suisse resident francais",
+              "ouvrir un compte en suisse non résident",
+              "ouvrir un compte en suisse pour non résident ubs",
+              "ouvrir un compte bancaire en suisse pour non résident",
+              "ouvrir un compte titre en suisse pour non résident",
+              "ouvrir un compte en ligne en suisse pour non résident"
+            ],
+            "questions": [
+              "comment ouvrir un compte bancaire en suisse pour non résident"
+            ]
+          },
+          "de": {
+            "primary": "schweizer bankkonto eröffnen zuzug",
+            "secondary": [
+              "bankkonto schweiz eröffnen als neuzuzüger",
+              "schweizer bankkonto eröffnen als deutscher",
+              "schweizer bankkonto eröffnen online",
+              "konto bei schweizer bank eröffnen",
+              "bankkonto in der schweiz eröffnen",
+              "konto in der schweiz eröffnen",
+              "bankkonto schweiz eröffnen online",
+              "bank schweiz konto eröffnen"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "family-reunification-switzerland",
@@ -570,7 +1212,51 @@
       "priority": 2,
       "status": "todo",
       "source": "demand-wave2 #19",
-      "notes": "Side-by-side table; no numeric UAE tax claims unless cited from tax.gov.ae / u.ae."
+      "notes": "Side-by-side table; no numeric UAE tax claims unless cited from tax.gov.ae / u.ae.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "switzerland vs dubai tax",
+            "secondary": [
+              "switzerland or dubai to live",
+              "dubai vs switzerland for families",
+              "is switzerland tax free country",
+              "switzerland tax rate vs us",
+              "tax rate switzerland vs uk",
+              "switzerland tax rate vs canada"
+            ],
+            "questions": [
+              "is switzerland tax free country"
+            ]
+          },
+          "fr": {
+            "primary": "suisse ou dubaï pour vivre",
+            "secondary": [
+              "suisse vs dubaï fiscalité",
+              "partir vivre à dubaï",
+              "vivre a dubai avis",
+              "vivre à dubaï témoignage",
+              "vivre a dubai en famille",
+              "vivre à dubaï avantages et inconvénients",
+              "arbeiten in dubai als schweizer",
+              "ou vivre en suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "schweiz oder dubai auswandern",
+            "secondary": [
+              "dubai vs schweiz steuern",
+              "einreise dubai für schweizer",
+              "uhrzeit dubai in der schweiz",
+              "arbeiten in dubai als schweizer",
+              "schweizer firmen in dubai"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "selling-business-then-moving-to-switzerland",
@@ -596,7 +1282,44 @@
       "priority": 2,
       "status": "todo",
       "source": "demand-wave2 #20",
-      "notes": "Personal sequencing only (exit, departure, arrival); corporate side belongs to ark-fid.ch."
+      "notes": "Personal sequencing only (exit, departure, arrival); corporate side belongs to ark-fid.ch.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "selling business and moving to switzerland",
+            "secondary": [
+              "entrepreneur moving to switzerland tax",
+              "exit tax before moving to switzerland",
+              "doing business in switzerland",
+              "cost of moving company out of switzerland",
+              "employment in switzerland tax",
+              "corporate tax in switzerland",
+              "tax in switzerland for foreigners",
+              "income tax in switzerland for foreigners"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "vendre son entreprise et partir en suisse",
+            "secondary": [
+              "exit tax avant départ en suisse",
+              "comment vendre son entreprise en suisse",
+              "vendre son entreprise en suisse"
+            ],
+            "questions": [
+              "comment vendre son entreprise en suisse"
+            ]
+          },
+          "de": {
+            "primary": "auswandern schweiz unternehmer",
+            "secondary": [
+              "firmenverkauf und wegzug in die schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "uk-private-client-advisers-swiss-lump-sum",
@@ -721,7 +1444,64 @@
       "priority": 2,
       "status": "todo",
       "source": "demand-wave2 #15",
-      "notes": "No US-person structuring advice; say what complicates things and to coordinate with a US adviser."
+      "notes": "No US-person structuring advice; say what complicates things and to coordinate with a US adviser.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "us citizen in switzerland taxes",
+            "secondary": [
+              "fatca switzerland",
+              "does switzerland have a tax treaty with the us",
+              "do swiss citizens pay taxes",
+              "can a us citizen retire to switzerland",
+              "taxes in switzerland for foreigners",
+              "us citizen living in switzerland taxes",
+              "us citizen working in switzerland taxes",
+              "switzerland fatca iga"
+            ],
+            "questions": [
+              "does switzerland have a tax treaty with the us",
+              "do swiss citizens pay taxes",
+              "can a us citizen retire to switzerland",
+              "do you have to pay taxes in switzerland",
+              "what are taxes like in switzerland",
+              "can i live in switzerland as a us citizen"
+            ]
+          },
+          "fr": {
+            "primary": "citoyen américain en suisse impôts",
+            "secondary": [
+              "comment déclarer ses impôts en suisse",
+              "comment devenir citoyen suisse",
+              "les impots en suisse",
+              "impôts en suisse par canton",
+              "impôts en suisse vs france",
+              "impôts en suisse pour les étrangers",
+              "impôts en suisse pour les frontaliers",
+              "droit entrée etats unis citoyen suisse"
+            ],
+            "questions": [
+              "comment déclarer ses impôts en suisse",
+              "comment devenir citoyen suisse"
+            ]
+          },
+          "de": {
+            "primary": "us-bürger schweiz steuern",
+            "secondary": [
+              "fatca schweiz",
+              "us bürger steuern schweiz",
+              "fatca schweiz usa",
+              "fatca abkommen schweiz usa",
+              "fatca abkommen schweiz",
+              "fatca qualifikationsgremium schweiz",
+              "fatca gesetz schweiz",
+              "fatca modellwechsel schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-tax-ruling-checklist-advisers",
@@ -745,7 +1525,35 @@
       "intent": "transactional",
       "priority": 2,
       "status": "todo",
-      "source": "extension (legal-facts §1.8, §6)"
+      "source": "extension (legal-facts §1.8, §6)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "swiss tax ruling lump sum documents",
+            "secondary": [
+              "swiss tax ruling checklist",
+              "swiss withholding tax reclaim",
+              "swiss lump sum taxation",
+              "lump sum taxation switzerland",
+              "tax ruling in switzerland",
+              "swiss withholding tax form",
+              "swiss withholding tax on interest",
+              "swiss federal tax administration"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "ruling fiscal forfait documents",
+            "secondary": [
+              "demande de forfait fiscal dossier",
+              "forfaitaire en arabe fiscal",
+              "taxes sur forfait cellulaire"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "cantons-that-abolished-lump-sum-taxation",
@@ -770,7 +1578,34 @@
       "priority": 2,
       "status": "todo",
       "source": "extension (legal-facts §1.6)",
-      "notes": "Dates for SH/AR/BL/BS are UNVERIFIED: name the cantons without dates for those."
+      "notes": "Dates for SH/AR/BL/BS are UNVERIFIED: name the cantons without dates for those.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "cantons abolished lump sum taxation",
+            "secondary": [
+              "zurich lump sum taxation abolished",
+              "lump sum taxation switzerland",
+              "swiss lump sum taxation"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "pauschalbesteuerung abgeschafft kantone",
+            "secondary": [
+              "pauschalbesteuerung zürich abgeschafft",
+              "warum gibt es die pauschalbesteuerung",
+              "was ist die pauschalbesteuerung",
+              "pauschalbesteuerung 25% durch arbeitgeber"
+            ],
+            "questions": [
+              "warum gibt es die pauschalbesteuerung",
+              "was ist die pauschalbesteuerung"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "lump-sum-taxation-and-working-in-switzerland",
@@ -794,7 +1629,35 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "extension (legal-facts §1.2)"
+      "source": "extension (legal-facts §1.2)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "lump sum taxation gainful activity switzerland",
+            "secondary": [
+              "can you work with swiss lump sum taxation",
+              "swiss lump sum taxation",
+              "lump sum taxation switzerland"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "forfait fiscal activité lucrative en suisse",
+            "secondary": [
+              "forfait fiscal peut-on travailler",
+              "travailler au forfait définition",
+              "travailler en forfait jour",
+              "activité lucrative définition suisse",
+              "travail en forfait jours",
+              "forfait pour la suisse",
+              "contrat de travail au forfait",
+              "forfait français en suisse"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "lump-sum-taxation-geneva",
@@ -818,7 +1681,34 @@
       "priority": 2,
       "status": "todo",
       "source": "extension (legal-facts §1.7)",
-      "notes": "Must add depth beyond the Geneva canton page and lump-sum-taxation-by-canton (procedure, wealth treatment, what the canton publishes)."
+      "notes": "Must add depth beyond the Geneva canton page and lump-sum-taxation-by-canton (procedure, wealth treatment, what the canton publishes).",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "lump sum taxation geneva",
+            "secondary": [
+              "geneva forfait fiscal",
+              "geneve forfait fiscal",
+              "geneva financial locations"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "forfait fiscal genève",
+            "secondary": [
+              "imposition d'après la dépense genève",
+              "formulaire imposition d'après la dépense genève"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "pauschalbesteuerung genf",
+            "secondary": [],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "lump-sum-taxation-vaud",
@@ -841,7 +1731,35 @@
       "intent": "commercial",
       "priority": 2,
       "status": "todo",
-      "source": "extension (legal-facts §1.7)"
+      "source": "extension (legal-facts §1.7)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "lump sum taxation vaud",
+            "secondary": [
+              "vaud forfait fiscal",
+              "canton vaud forfait fiscal",
+              "forfait fiscal vaud minimum",
+              "lump sum tax vaud"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "forfait fiscal vaud",
+            "secondary": [
+              "imposition d'après la dépense vaud",
+              "forfait fiscal vaud minimum"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "pauschalbesteuerung waadt",
+            "secondary": [],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "lump-sum-taxation-valais",
@@ -865,7 +1783,36 @@
       "priority": 3,
       "status": "todo",
       "source": "extension (legal-facts §1.7)",
-      "notes": "Valais third-country thresholds are UNVERIFIED: do not state figures from law-firm sites."
+      "notes": "Valais third-country thresholds are UNVERIFIED: do not state figures from law-firm sites.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "lump sum taxation valais",
+            "secondary": [
+              "valais forfait fiscal",
+              "lump sum taxation switzerland",
+              "swiss lump sum taxation",
+              "guide de taxation valais",
+              "guide taxation etat valais",
+              "taxation etat du valais"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "forfait fiscal valais",
+            "secondary": [
+              "forfait fiscal verbier crans-montana",
+              "administration fiscale du valais",
+              "service des finances valais",
+              "service des finances état du valais",
+              "canton du valais administration fiscale",
+              "etat du valais règlement de frais"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "lump-sum-taxation-ticino",
@@ -887,7 +1834,40 @@
       "intent": "commercial",
       "priority": 3,
       "status": "todo",
-      "source": "extension (legal-facts §1.7)"
+      "source": "extension (legal-facts §1.7)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "lump sum taxation ticino",
+            "secondary": [
+              "ticino forfait tax",
+              "swiss lump sum taxation",
+              "lump sum taxation switzerland"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "forfait fiscal tessin",
+            "secondary": [
+              "canton du tessin site officiel",
+              "le tessin suisse carte",
+              "canton du tessin suisse",
+              "que faire dans le tessin",
+              "activité à faire au tessin",
+              "visiter le tessin en 3 jours",
+              "fläche des kantons tessin",
+              "chef lieu de tessin"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "pauschalbesteuerung tessin",
+            "secondary": [],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "lump-sum-taxation-graubunden",
@@ -910,7 +1890,29 @@
       "intent": "commercial",
       "priority": 3,
       "status": "todo",
-      "source": "extension (legal-facts §1.7)"
+      "source": "extension (legal-facts §1.7)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "lump sum taxation graubunden",
+            "secondary": [
+              "st moritz lump sum tax",
+              "lump sum taxation switzerland",
+              "swiss lump sum taxation"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "forfait fiscal grisons",
+            "secondary": [
+              "parfait à la viande des grisons",
+              "que faire dans les grisons"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "lump-sum-tax-married-couples",
@@ -935,7 +1937,44 @@
       "priority": 3,
       "status": "todo",
       "source": "seo-topics A6",
-      "notes": "The individual-taxation reform is not in legal-facts: only mention it if an official source is cited, and label proposals as proposals."
+      "notes": "The individual-taxation reform is not in legal-facts: only mention it if an official source is cited, and label proposals as proposals.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "lump sum tax switzerland married couple",
+            "secondary": [
+              "lump sum taxation spouse swiss national",
+              "how to get married in switzerland",
+              "do you pay income tax in switzerland",
+              "how much is swiss tax",
+              "lump sum taxation switzerland",
+              "swiss lump sum taxation",
+              "switzerland interest withholding tax",
+              "income tax in switzerland for foreigners"
+            ],
+            "questions": [
+              "how to get married in switzerland",
+              "do you pay income tax in switzerland",
+              "how much is swiss tax"
+            ]
+          },
+          "fr": {
+            "primary": "forfait fiscal couple marié",
+            "secondary": [
+              "forfait fiscal conjoint suisse",
+              "forfait pour la suisse",
+              "forfait français en suisse",
+              "régime du forfait suisse",
+              "forfait france et suisse",
+              "forfait fiscal suisse 2026",
+              "forfait mariage tout inclus",
+              "forfait incluant la suisse"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-c-permit-by-nationality",
@@ -961,7 +2000,55 @@
       "priority": 1,
       "status": "todo",
       "source": "extension (legal-facts §2.6) / audit-2026-09-30 topic 6",
-      "notes": "Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §6 (5 vs 10 years by nationality, early C: B1 oral / A1 written). Must add depth beyond swiss-permits-explained."
+      "notes": "Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §6 (5 vs 10 years by nationality, early C: B1 oral / A1 written). Must add depth beyond swiss-permits-explained.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "swiss c permit requirements",
+            "secondary": [
+              "permanent residence switzerland",
+              "c permit switzerland non eu",
+              "what is a swiss c permit",
+              "swiss c permit requirements for non eu",
+              "language requirements for swiss c permit",
+              "permanent residence permit switzerland",
+              "eu permanent residence switzerland"
+            ],
+            "questions": [
+              "what is a swiss c permit"
+            ]
+          },
+          "fr": {
+            "primary": "permis c suisse conditions",
+            "secondary": [
+              "permis d'établissement suisse",
+              "permis c suisse conditions vaud",
+              "permis c suisse conditions valais",
+              "permis c suisse conditions zurich",
+              "permis c suisse conditions neuchatel",
+              "permis c suisse conditions fribourg",
+              "permis d établissement suisse b",
+              "permis d établissement suisse c"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "niederlassungsbewilligung c voraussetzungen",
+            "secondary": [
+              "ausweis c schweiz",
+              "niederlassungsbewilligung c voraussetzungen st gallen",
+              "ausweis c schweiz beantragen",
+              "niederlassungsbewilligung c voraussetzungen aargau",
+              "ausweis c schweiz nummer",
+              "niederlassungsbewilligung c voraussetzungen zürich",
+              "niederlassungsbewilligung c schweiz voraussetzungen",
+              "ausweis c schweiz aargau"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "uk-citizens-swiss-residence-after-brexit",
@@ -985,7 +2072,28 @@
       "priority": 2,
       "status": "todo",
       "source": "extension (legal-facts §2.2)",
-      "notes": "Permit angle; tax angle lives in moving-from-uk-after-non-dom."
+      "notes": "Permit angle; tax angle lives in moving-from-uk-after-non-dom.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "uk citizens move to switzerland after brexit",
+            "secondary": [
+              "swiss residence permit uk citizen",
+              "can brits retire in switzerland",
+              "can swiss citizens live in the uk",
+              "how long can a swiss citizen stay in the uk",
+              "what is a swiss residence permit",
+              "swiss residence permit for uk citizens"
+            ],
+            "questions": [
+              "can swiss citizens live in the uk",
+              "how long can a swiss citizen stay in the uk",
+              "what is a swiss residence permit"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "registering-with-your-swiss-commune",
@@ -1009,7 +2117,57 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "extension (legal-facts §2.8)"
+      "source": "extension (legal-facts §2.8)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "register with commune switzerland",
+            "secondary": [
+              "registration after moving to switzerland 14 days",
+              "what is a commune in switzerland",
+              "register of commerce switzerland",
+              "company commercial register switzerland",
+              "register a company in switzerland",
+              "switzerland register of companies",
+              "register company in switzerland",
+              "swiss register of commerce"
+            ],
+            "questions": [
+              "what is a commune in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "annonce arrivée commune suisse",
+            "secondary": [
+              "s'inscrire à la commune suisse",
+              "combien de commune en suisse",
+              "annonce arrivée commune de lausanne",
+              "nombre de commune en suisse",
+              "numéro de commune suisse",
+              "annonce gratuite en suisse",
+              "annonce arrivée à genève"
+            ],
+            "questions": [
+              "combien de commune en suisse"
+            ]
+          },
+          "de": {
+            "primary": "anmeldung gemeinde schweiz zuzug",
+            "secondary": [
+              "anmeldung einwohnerkontrolle 14 tage",
+              "anmeldung gemeinde bei umzug schweiz",
+              "anmeldung gemeinde bei umzug",
+              "anmeldung zuzug ausland bern",
+              "anmeldung in der schweiz",
+              "anmeldung zuzug aus dem ausland",
+              "anmeldung familienzulagen kanton zug",
+              "iv anmeldung kanton zug"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "ahv-contributions-non-employed",
@@ -1034,7 +2192,53 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "extension (legal-facts §4)"
+      "source": "extension (legal-facts §4)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "ahv contributions non employed",
+            "secondary": [
+              "avs contributions retirees switzerland",
+              "social security switzerland without working",
+              "what is ahv contribution in switzerland",
+              "what is avs in switzerland",
+              "what is avs number in switzerland",
+              "avs retraite suisse adresse"
+            ],
+            "questions": [
+              "what is ahv contribution in switzerland",
+              "what is avs in switzerland",
+              "what is avs number in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "cotisations avs sans activité lucrative",
+            "secondary": [
+              "avs rentier suisse cotisation",
+              "cotisation avs sans activité lucrative vaud",
+              "cotisation avs sans activité lucrative valais",
+              "cotisation avs sans activité lucrative genève",
+              "tableau cotisation avs sans activité lucrative",
+              "cotisation avs sans activité lucrative calcul"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "ahv beiträge nichterwerbstätige",
+            "secondary": [
+              "ahv nichterwerbstätige vermögen",
+              "ahv beiträge nichterwerbstätige vermögen",
+              "ahv beiträge nichterwerbstätige tabelle",
+              "ahv beiträge nichterwerbstätige steuern abziehen",
+              "ahv beiträge nichterwerbstätige formular",
+              "ahv beiträge nichterwerbstätige anmeldung",
+              "ahv beiträge nichterwerbstätige thurgau"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "importing-car-to-switzerland",
@@ -1059,7 +2263,53 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "seo-topics F4"
+      "source": "seo-topics F4",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "import car to switzerland",
+            "secondary": [
+              "bring car to switzerland when moving",
+              "automobile tax relocation switzerland",
+              "can i import my car to switzerland",
+              "how to import car to switzerland",
+              "how to import car from germany to switzerland",
+              "import car to switzerland from eu",
+              "import car to switzerland from us",
+              "import car to switzerland cost"
+            ],
+            "questions": [
+              "can i import my car to switzerland",
+              "how to import car to switzerland",
+              "how to import car from germany to switzerland",
+              "how much does it cost to import a car to switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "importer voiture en suisse déménagement",
+            "secondary": [
+              "dédouaner voiture suisse",
+              "importation voiture en suisse déménagement",
+              "dédouaner voiture suisse france",
+              "importer voiture suisse en france déménagement",
+              "dedouaner voiture suisse france demenagement",
+              "dedouaner voiture suisse belgique",
+              "dédouaner voiture suisse france prix",
+              "importation voiture suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "auto in die schweiz einführen umzug",
+            "secondary": [
+              "auto verzollen schweiz umzug",
+              "auto schweiz einführen umzugsgut"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-property-taxes-for-owners",
@@ -1083,7 +2333,45 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "extension (legal-facts §3.3)"
+      "source": "extension (legal-facts §3.3)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "property transfer tax switzerland",
+            "secondary": [
+              "swiss property taxes for foreigners",
+              "do you pay land transfer tax on gifted property",
+              "what is property transfer tax",
+              "property transfer tax in spain"
+            ],
+            "questions": [
+              "do you pay land transfer tax on gifted property",
+              "what is property transfer tax"
+            ]
+          },
+          "fr": {
+            "primary": "droits de mutation suisse",
+            "secondary": [
+              "impôts propriétaire suisse",
+              "impot propriétaire suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "handänderungssteuer schweiz",
+            "secondary": [
+              "liegenschaftssteuer schweiz",
+              "handänderungssteuer kantone schweiz",
+              "liegenschaftssteuer schweiz abstimmung",
+              "liegenschaftssteuer schweiz definition",
+              "übersicht handänderungssteuer schweiz",
+              "sp schweiz liegenschaftssteuer"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "imputed-rental-value-abolition-2029",
@@ -1108,7 +2396,33 @@
       "priority": 2,
       "status": "todo",
       "source": "extension (legal-facts §1.9)",
-      "notes": "The effect on the lump-sum 7x rental value test is UNVERIFIED: say it is not yet settled."
+      "notes": "The effect on the lump-sum 7x rental value test is UNVERIFIED: say it is not yet settled.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "fr": {
+            "primary": "suppression valeur locative 2029",
+            "secondary": [
+              "valeur locative suisse abolition",
+              "suppression valeur locative suisse",
+              "abolition valeur locative suisse",
+              "suppression de la valeur locative suisse",
+              "valeur locative en suisse",
+              "fin de la valeur locative suisse",
+              "votation sur la valeur locative en suisse",
+              "calcul valeur locative suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "eigenmietwert abschaffung 2029",
+            "secondary": [
+              "eigenmietwert abgeschafft"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-mortgage-for-foreigners",
@@ -1133,7 +2447,55 @@
       "priority": 2,
       "status": "todo",
       "source": "extension (legal-facts §3.4)",
-      "notes": "Equity and affordability rules of thumb are UNVERIFIED bank practice: no percentages unless officially cited."
+      "notes": "Equity and affordability rules of thumb are UNVERIFIED bank practice: no percentages unless officially cited.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "swiss mortgage for foreigners",
+            "secondary": [
+              "mortgage switzerland b permit",
+              "can foreigners buy property in switzerland",
+              "mortgage finance for foreigners",
+              "swiss banks for foreigners",
+              "mortgage in usa for foreigners",
+              "mortgage loans in usa for foreigners",
+              "swiss bank account for foreigners",
+              "swiss mortgage for foreign property"
+            ],
+            "questions": [
+              "can foreigners buy property in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "hypothèque suisse étranger",
+            "secondary": [
+              "prêt hypothécaire permis b",
+              "quel est le taux hypothécaire en suisse",
+              "évolution taux hypothèque suisse",
+              "taux hypothécaire actuel en suisse",
+              "taux hypothécaire du jour suisse",
+              "taux hypothécaire suisse actuel",
+              "taux hypothécaire en suisse",
+              "taux hypothécaire suisse actuelle"
+            ],
+            "questions": [
+              "quel est le taux hypothécaire en suisse"
+            ]
+          },
+          "de": {
+            "primary": "hypothek schweiz ausländer",
+            "secondary": [
+              "hypothek mit ausweis b",
+              "10 jährige hypothek schweiz",
+              "hypothek 10 jahre schweiz",
+              "10 jahre hypothek schweiz",
+              "hypothek abzahlen oder nicht schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "rent-or-buy-switzerland",
@@ -1155,7 +2517,68 @@
       "intent": "commercial",
       "priority": 2,
       "status": "todo",
-      "source": "seo-topics D3"
+      "source": "seo-topics D3",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "rent or buy switzerland expat",
+            "secondary": [
+              "should i buy a house in switzerland",
+              "how much is rent in switzerland",
+              "can foreigners buy property in switzerland",
+              "how to buy property in switzerland",
+              "places to rent in switzerland",
+              "buy a property in switzerland",
+              "switzerland property for rent",
+              "property to rent in switzerland"
+            ],
+            "questions": [
+              "how much is rent in switzerland",
+              "can foreigners buy property in switzerland",
+              "how to buy property in switzerland",
+              "can a foreigner buy property in switzerland",
+              "can i buy a house in switzerland",
+              "can us citizens buy property in switzerland",
+              "can you buy land in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "louer ou acheter en suisse",
+            "secondary": [
+              "comment louer un appartement en suisse",
+              "appartement à louer en suisse",
+              "acheter un appartement en suisse",
+              "louer un appartement en suisse",
+              "acheter un logement en suisse",
+              "recherche appartement à louer suisse",
+              "local à louer suisse",
+              "acheter louer suisse"
+            ],
+            "questions": [
+              "comment louer un appartement en suisse"
+            ]
+          },
+          "de": {
+            "primary": "mieten oder kaufen schweiz",
+            "secondary": [
+              "lohnt sich kaufen oder mieten",
+              "was ist besser mieten oder kaufen",
+              "wo kann man das kaufen schweiz",
+              "haus mieten schweiz günstig",
+              "haus mieten in der schweiz",
+              "auto mieten statt kaufen schweiz",
+              "mieten in der schweiz",
+              "wohnung mieten schweiz günstig"
+            ],
+            "questions": [
+              "lohnt sich kaufen oder mieten",
+              "was ist besser mieten oder kaufen",
+              "wo kann man das kaufen schweiz"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "buying-property-geneva-foreigner",
@@ -1178,7 +2601,62 @@
       "intent": "commercial",
       "priority": 3,
       "status": "todo",
-      "source": "extension (legal-facts §3)"
+      "source": "extension (legal-facts §3)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "buy property geneva foreigner",
+            "secondary": [
+              "buying a house in geneva",
+              "can a foreigner buy property in switzerland",
+              "can foreigners buy property in switzerland",
+              "every property you can buy in geneva",
+              "buying property in switzerland as a foreigner",
+              "property for sale in geneva switzerland",
+              "geneva property for sale",
+              "property in switzerland for foreigners"
+            ],
+            "questions": [
+              "can a foreigner buy property in switzerland",
+              "can foreigners buy property in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "acheter un bien à genève étranger",
+            "secondary": [
+              "acheter maison genève permis b",
+              "comment aller à genève",
+              "combien d'habitant à genève",
+              "comment se rendre à genève",
+              "bien vivre à genève",
+              "acheter une maison à genève",
+              "acheter un appartement à genève",
+              "service des étrangers genève"
+            ],
+            "questions": [
+              "comment aller à genève",
+              "combien d'habitant à genève",
+              "comment se rendre à genève"
+            ]
+          },
+          "de": {
+            "primary": "immobilie genf kaufen ausländer",
+            "secondary": [
+              "wo liegt genf in der schweiz",
+              "immobilien schweiz kaufen ausländer",
+              "in welchem land ist genf",
+              "ausgleichskasse genf für ausländer",
+              "in welchem land liegt genf",
+              "iv stelle für versicherte im ausland genf",
+              "wohnung in genf mieten"
+            ],
+            "questions": [
+              "wo liegt genf in der schweiz"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "lex-koller-briefing-estate-agents",
@@ -1201,7 +2679,50 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "demand-wave2 #16 (partner angle)"
+      "source": "demand-wave2 #16 (partner angle)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "lex koller estate agent",
+            "secondary": [
+              "foreign buyer switzerland lex koller authorisation",
+              "lex koller lex friedrich",
+              "was ist lex koller",
+              "lex koller basel stadt",
+              "lex koller oder lex friedrich"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "lex koller agent immobilier acheteur étranger",
+            "secondary": [
+              "lex koller lex friedrich",
+              "was ist lex koller",
+              "lex koller kanton zürich",
+              "lex koller basel stadt",
+              "lex koller oder lex friedrich"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "lex koller makler ausländischer käufer",
+            "secondary": [
+              "bewilligungspflicht lex koller",
+              "was ist lex koller",
+              "lex koller oder lex friedrich",
+              "lex koller erklärung zürich",
+              "lex koller kanton zürich",
+              "lex koller basel stadt",
+              "lex koller lex friedrich",
+              "lex koller erklärung aargau"
+            ],
+            "questions": [
+              "was ist lex koller"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "moving-to-zug",
@@ -1227,7 +2748,53 @@
       "intent": "informational",
       "priority": 1,
       "status": "todo",
-      "source": "seo-topics E3 / codex review (city intent)"
+      "source": "seo-topics E3 / codex review (city intent)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to zug",
+            "secondary": [
+              "living in zug",
+              "zug tax for new residents",
+              "is zug a good place to live",
+              "how to move to zug",
+              "is zug worth visiting",
+              "cost of living zug",
+              "moving to zug switzerland",
+              "living in zug switzerland"
+            ],
+            "questions": [
+              "is zug a good place to live",
+              "how to move to zug",
+              "is zug worth visiting",
+              "is zug expensive"
+            ]
+          },
+          "fr": {
+            "primary": "s'installer à zoug",
+            "secondary": [
+              "vivre à zoug"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "umzug nach zug",
+            "secondary": [
+              "wohnen in zug",
+              "zuzug kanton zug steuern",
+              "wie viele millionäre wohnen in zug",
+              "sgs umzug nach zug",
+              "wohnen in zug schweiz",
+              "betreutes wohnen in zug",
+              "günstig wohnen in zug"
+            ],
+            "questions": [
+              "wie viele millionäre wohnen in zug"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "alpine-living-gstaad-verbier-st-moritz",
@@ -1252,7 +2819,62 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "seo-topics E4"
+      "source": "seo-topics E4",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "living in gstaad",
+            "secondary": [
+              "living in verbier",
+              "moving to st moritz",
+              "what to do in gstaad switzerland",
+              "how to get to gstaad",
+              "do you know where gstaad switzerland is",
+              "where to stay in gstaad",
+              "gstaad switzerland in summer",
+              "things to do in gstaad switzerland"
+            ],
+            "questions": [
+              "what to do in gstaad switzerland",
+              "how to get to gstaad",
+              "do you know where gstaad switzerland is"
+            ]
+          },
+          "fr": {
+            "primary": "vivre à verbier",
+            "secondary": [
+              "vivre à crans-montana",
+              "que faire à verbier",
+              "les guides de verbier",
+              "les amis de verbier",
+              "hotel les touristes verbier",
+              "appartement à louer à verbier",
+              "appartements à vendre à verbier",
+              "office de la population verbier"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "wohnen in st. moritz",
+            "secondary": [
+              "wohnen in gstaad",
+              "wie viele einwohner hat st moritz",
+              "wie hoch liegt st moritz",
+              "wo wohnen max und moritz",
+              "st moritz wohnung kaufen",
+              "wohnung mieten st moritz",
+              "wohnung in gstaad mieten",
+              "wohnung in gstaad"
+            ],
+            "questions": [
+              "wie viele einwohner hat st moritz",
+              "wie hoch liegt st moritz",
+              "wo wohnen max und moritz"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "moving-to-zurich",
@@ -1278,7 +2900,54 @@
       "priority": 1,
       "status": "todo",
       "source": "extension (legal-facts §1.6) / codex review (city intent)",
-      "notes": "Zurich abolished lump-sum taxation (legal-facts §1.6): explain ordinary taxation plainly."
+      "notes": "Zurich abolished lump-sum taxation (legal-facts §1.6): explain ordinary taxation plainly.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to zurich",
+            "secondary": [
+              "relocating to zurich",
+              "zurich tax for new residents",
+              "how much does it cost to live in zurich",
+              "what to know before moving to zurich",
+              "how to transfer zurich warranty",
+              "benefits of moving to switzerland",
+              "moving to zurich from us",
+              "moving to zurich switzerland"
+            ],
+            "questions": [
+              "how much does it cost to live in zurich",
+              "what to know before moving to zurich",
+              "how to transfer zurich warranty",
+              "is zurich expensive to live",
+              "is zurich a good place to live",
+              "how to move to zurich"
+            ]
+          },
+          "fr": {
+            "primary": "s'installer à zurich",
+            "secondary": [
+              "déménager à zurich",
+              "s installer à zurich"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "umzug nach zürich",
+            "secondary": [
+              "zuzug zürich steuern",
+              "umzug nach zürich was beachten",
+              "umzug nach zürich melden",
+              "umzug zürich nach berlin",
+              "umzug zürich nach münchen",
+              "umzug von zürich nach bern",
+              "umzug von zürich nach basel"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-to-lugano",
@@ -1303,7 +2972,51 @@
       "intent": "informational",
       "priority": 1,
       "status": "todo",
-      "source": "seo-topics E5 / codex review (city intent)"
+      "source": "seo-topics E5 / codex review (city intent)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to lugano",
+            "secondary": [
+              "moving to ticino",
+              "living in lugano",
+              "is lugano a good place to live",
+              "is lugano worth visiting",
+              "can i move to lugano switzerland",
+              "cost of living lugano",
+              "how to move lugano switzerland",
+              "is lugano expensive"
+            ],
+            "questions": [
+              "is lugano a good place to live",
+              "is lugano worth visiting",
+              "can i move to lugano switzerland",
+              "how to move lugano switzerland",
+              "is lugano expensive",
+              "how to move to lugano",
+              "is lugano safe",
+              "can foreigners buy property in lugano switzerland",
+              "can i move to lugano"
+            ]
+          },
+          "fr": {
+            "primary": "s'installer à lugano",
+            "secondary": [
+              "vivre au tessin"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "umzug nach lugano",
+            "secondary": [
+              "auswandern tessin",
+              "auswandern schweiz tessin"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-to-lausanne-lake-geneva",
@@ -1329,7 +3042,51 @@
       "intent": "informational",
       "priority": 1,
       "status": "todo",
-      "source": "extension (seo-topics E2 follow-up) / codex review (city intent)"
+      "source": "extension (seo-topics E2 follow-up) / codex review (city intent)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to lausanne",
+            "secondary": [
+              "living on the lake geneva riviera",
+              "moving to montreux",
+              "is lausanne a good place to live",
+              "is lausanne expensive",
+              "how to move to lausanne",
+              "cost of living lausanne",
+              "where to live in lausanne",
+              "moving to lausanne switzerland"
+            ],
+            "questions": [
+              "is lausanne a good place to live",
+              "is lausanne expensive",
+              "how to move to lausanne"
+            ]
+          },
+          "fr": {
+            "primary": "s'installer à lausanne",
+            "secondary": [
+              "vivre sur la riviera vaudoise",
+              "déménager à lausanne",
+              "s installer à lausanne"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "umzug nach lausanne",
+            "secondary": [
+              "wohnen am genfersee",
+              "welche prominenten wohnen am genfersee",
+              "welche stars wohnen am genfersee"
+            ],
+            "questions": [
+              "welche prominenten wohnen am genfersee",
+              "welche stars wohnen am genfersee"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "living-in-lucerne",
@@ -1352,7 +3109,65 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "extension"
+      "source": "extension",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "living in lucerne",
+            "secondary": [
+              "moving to lucerne switzerland",
+              "is lucerne worth visiting",
+              "what to do in lucerne",
+              "how to get to lucerne switzerland",
+              "living in lucerne switzerland",
+              "cost of living in lucerne switzerland",
+              "top 10 things to do in lucerne",
+              "travel to lucerne switzerland"
+            ],
+            "questions": [
+              "is lucerne worth visiting",
+              "what to do in lucerne",
+              "how to get to lucerne switzerland",
+              "how to get to lucerne",
+              "how to travel from zurich to lucerne",
+              "how long to spend in lucerne",
+              "what to do in lucerne switzerland",
+              "how to get to lucerne from zurich",
+              "how to go from zurich to lucerne",
+              "what is in lucerne"
+            ]
+          },
+          "fr": {
+            "primary": "vivre à lucerne",
+            "secondary": [
+              "que visiter à lucerne",
+              "à voir à lucerne",
+              "quoi faire à lucerne",
+              "visiter lucerne en 1 jour",
+              "visiter lucerne en 2 jours",
+              "que voir à lucerne suisse",
+              "que faire à lucerne suisse",
+              "activités à faire à lucerne"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "wohnen in luzern",
+            "secondary": [
+              "zuzug luzern pauschalbesteuerung",
+              "wohnungen in luzern stadt",
+              "wohnen im alter luzern",
+              "wohnungen in kanton luzern",
+              "freie wohnungen in luzern",
+              "günstige wohnungen kanton luzern",
+              "wohnung in luzern ab sofort",
+              "bauen wohnen luzern"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "living-in-bern-and-fribourg",
@@ -1376,7 +3191,64 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "extension"
+      "source": "extension",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "living in bern",
+            "secondary": [
+              "living in fribourg",
+              "what is it like living in new bern nc",
+              "is bern worth visiting",
+              "how long to spend in bern",
+              "living in bern switzerland",
+              "cost of living bern",
+              "cost of living in bern switzerland",
+              "new bern cost of living"
+            ],
+            "questions": [
+              "what is it like living in new bern nc",
+              "is bern worth visiting",
+              "how long to spend in bern",
+              "how many people live in bern switzerland",
+              "is bern in switzerland",
+              "what is bern like"
+            ]
+          },
+          "fr": {
+            "primary": "vivre à fribourg",
+            "secondary": [
+              "vivre à berne",
+              "vivre a fribourg",
+              "bien vivre à fribourg",
+              "que visiter à fribourg suisse",
+              "vivre à bernay",
+              "que faire à fribourg suisse",
+              "que voir à fribourg suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "wohnen in bern",
+            "secondary": [
+              "wohnen in freiburg schweiz",
+              "wie viele leute wohnen in bern",
+              "wie viele menschen wohnen in bern",
+              "wer sucht eine wohnung in bern",
+              "wohnungen in bern stadt",
+              "wohnung suchen in bern",
+              "wohnen in bernau",
+              "günstige wohnungen in bern"
+            ],
+            "questions": [
+              "wie viele leute wohnen in bern",
+              "wie viele menschen wohnen in bern",
+              "wer sucht eine wohnung in bern"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "living-in-thurgau",
@@ -1400,7 +3272,30 @@
       "intent": "commercial",
       "priority": 3,
       "status": "todo",
-      "source": "demand-wave2 #25 (as a guide)"
+      "source": "demand-wave2 #25 (as a guide)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to thurgau",
+            "secondary": [
+              "thurgau lump sum tax",
+              "thurgau travel last minute",
+              "lump sum taxation switzerland",
+              "swiss lump sum taxation"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "pauschalbesteuerung thurgau",
+            "secondary": [
+              "wohnen im thurgau",
+              "wohnung im thurgau mieten"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-canada",
@@ -1424,7 +3319,64 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "demand-wave2 #21 / seo-topics C6"
+      "source": "demand-wave2 #21 / seo-topics C6",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to switzerland from canada",
+            "secondary": [
+              "retiring in switzerland as a canadian",
+              "swiss residency for canadians",
+              "how to migrate to switzerland from canada",
+              "how to immigrate to switzerland from canada",
+              "how to immigrate to canada from switzerland",
+              "immigrating to switzerland from canada",
+              "moving to switzerland from australia",
+              "immigration to switzerland from canada"
+            ],
+            "questions": [
+              "how to migrate to switzerland from canada",
+              "how to immigrate to switzerland from canada",
+              "how to immigrate to canada from switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "s'installer en suisse depuis le canada",
+            "secondary": [
+              "québécois en suisse",
+              "comment s'installer en suisse",
+              "comment appeler en suisse depuis le canada",
+              "s'installer en france pour un suisse",
+              "conditions pour s'installer en suisse",
+              "s'installer en suisse démarches",
+              "s'installer en suisse pour travailler",
+              "installer google suisse en français"
+            ],
+            "questions": [
+              "comment s'installer en suisse",
+              "comment appeler en suisse depuis le canada"
+            ]
+          },
+          "de": {
+            "primary": "auswandern schweiz aus kanada",
+            "secondary": [
+              "kann ich in die schweiz auswandern",
+              "wie kann ich in die schweiz auswandern",
+              "in die schweiz auswandern",
+              "aus der schweiz auswandern",
+              "auswandern von deutschland in die schweiz",
+              "auswandern in die schweiz",
+              "auswandern aus der schweiz",
+              "in der schweiz auswandern"
+            ],
+            "questions": [
+              "kann ich in die schweiz auswandern",
+              "wie kann ich in die schweiz auswandern"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "swiss-residence-for-indian-families",
@@ -1447,7 +3399,47 @@
       "intent": "commercial",
       "priority": 3,
       "status": "todo",
-      "source": "demand-wave2 #22 / seo-topics C8"
+      "source": "demand-wave2 #22 / seo-topics C8",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "switzerland residency for indians",
+            "secondary": [
+              "switzerland golden visa for indian",
+              "can indian get pr in switzerland",
+              "how to get residency in switzerland",
+              "how many indians live in switzerland",
+              "how many indians in switzerland",
+              "switzerland visa for indians",
+              "switzerland citizenship for indian",
+              "switzerland tourist visa for indians"
+            ],
+            "questions": [
+              "how to get residency in switzerland",
+              "how many indians live in switzerland",
+              "how many indians in switzerland",
+              "do indians need visa for switzerland",
+              "do indians need transit visa for switzerland",
+              "how to get switzerland visa from india"
+            ]
+          },
+          "de": {
+            "primary": "aufenthaltsbewilligung schweiz für inder",
+            "secondary": [
+              "aufenthaltsbewilligung schweiz als deutscher",
+              "aufenthaltsbewilligung in der schweiz",
+              "aufenthaltsbewilligung schweiz als schweizer",
+              "aufenthaltsbewilligung b schweiz beantragen",
+              "aufenthaltsbewilligung l in der schweiz",
+              "aufenthaltsbewilligung c schweiz beantragen",
+              "aufenthaltsbewilligung schweiz eu bürger",
+              "aufenthaltsgenehmigung schweiz für deutsche"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-italy-benelux",
@@ -1473,7 +3465,65 @@
       "priority": 3,
       "status": "todo",
       "source": "demand-wave2 #23 / seo-topics C9",
-      "notes": "Italy and Belgium are on the modified lump-sum treaty list (legal-facts §1.5)."
+      "notes": "Italy and Belgium are on the modified lump-sum treaty list (legal-facts §1.5).",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to switzerland from italy",
+            "secondary": [
+              "moving to switzerland from belgium",
+              "moving to switzerland from the netherlands",
+              "how to go from switzerland to italy",
+              "how to travel from italy to switzerland",
+              "how to travel from switzerland to italy",
+              "moving to switzerland from uk",
+              "planning a trip to switzerland and italy",
+              "traveling from switzerland to italy"
+            ],
+            "questions": [
+              "how to go from switzerland to italy",
+              "how to travel from italy to switzerland",
+              "how to travel from switzerland to italy",
+              "can you drive from italy to switzerland",
+              "what to know before moving to switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "s'installer en suisse pour un belge",
+            "secondary": [
+              "belge en suisse fiscalité",
+              "comment s'installer en suisse",
+              "s'installer en france pour un suisse",
+              "s'installer en france pour un belge",
+              "conditions pour s'installer en suisse",
+              "vivre en suisse pour un belge",
+              "s'installer en suisse démarches",
+              "travailler en suisse en tant que belge"
+            ],
+            "questions": [
+              "comment s'installer en suisse"
+            ]
+          },
+          "de": {
+            "primary": "auswandern schweiz aus italien",
+            "secondary": [
+              "von den niederlanden in die schweiz",
+              "kann ich in die schweiz auswandern",
+              "wie kann ich in die schweiz auswandern",
+              "wanderung von schweiz nach italien",
+              "auswandern aus der schweiz nach italien",
+              "von der schweiz nach italien",
+              "auswandern aus der schweiz",
+              "auswandern in die schweiz als deutscher"
+            ],
+            "questions": [
+              "kann ich in die schweiz auswandern",
+              "wie kann ich in die schweiz auswandern"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-austria",
@@ -1496,7 +3546,60 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "extension (legal-facts §1.5, de-AT market)"
+      "source": "extension (legal-facts §1.5, de-AT market)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to switzerland from austria",
+            "secondary": [
+              "is austria next to switzerland",
+              "moving to switzerland from australia",
+              "travel from austria to switzerland",
+              "trip to switzerland and austria",
+              "moving to switzerland from south africa",
+              "moving to austria from canada",
+              "moving to switzerland from uk",
+              "moving to switzerland from ireland"
+            ],
+            "questions": [
+              "is austria next to switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "s'installer en suisse depuis l'autriche",
+            "secondary": [
+              "pays entre la suisse et l'autriche",
+              "pays entre autriche et suisse",
+              "carte suisse et autriche",
+              "road trip suisse autriche",
+              "s'installer en france pour un suisse",
+              "road trip suisse allemagne autriche",
+              "s'installer en suisse démarches",
+              "voyage allemagne suisse autriche"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "auswandern von österreich in die schweiz",
+            "secondary": [
+              "pauschalbesteuerung schweiz österreicher",
+              "wohnsitz schweiz österreich steuern",
+              "wie kann man nach österreich auswandern",
+              "kann man in die schweiz auswandern",
+              "wie kann man in die schweiz auswandern",
+              "auswandern in die schweiz",
+              "auswandern in die schweiz aktuell",
+              "auswandern von deutschland in die schweiz"
+            ],
+            "questions": [
+              "wie kann man nach österreich auswandern",
+              "kann man in die schweiz auswandern",
+              "wie kann man in die schweiz auswandern"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-scandinavia",
@@ -1519,7 +3622,57 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "extension (Norway on the modified lump-sum list, legal-facts §1.5)"
+      "source": "extension (Norway on the modified lump-sum list, legal-facts §1.5)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to switzerland from norway",
+            "secondary": [
+              "norwegian wealth tax move to switzerland",
+              "moving to switzerland from sweden",
+              "is norway close to switzerland",
+              "how to move to switzerland",
+              "is norway in switzerland",
+              "moving to norway from us",
+              "moving to norway from canada",
+              "moving to norway from usa"
+            ],
+            "questions": [
+              "is norway close to switzerland",
+              "how to move to switzerland",
+              "is norway in switzerland",
+              "is it easy to move to switzerland",
+              "how does the swiss wealth tax work",
+              "does switzerland have a wealth tax",
+              "can i just move to switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "norvégiens en suisse fiscalité",
+            "secondary": [
+              "fiscalité en suisse pour un français",
+              "fiscalité vente or en suisse",
+              "fiscalité de l'or en suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "norweger auswandern schweiz",
+            "secondary": [
+              "auswandern in die schweiz",
+              "auswandern aus der schweiz nach schweden",
+              "auswandern in die schweiz als österreicher",
+              "auswandern nach schweden als schweizer",
+              "auswandern schweiz oder österreich",
+              "nach der schweiz auswandern",
+              "auswandern nach schweiz als deutscher",
+              "auswandern in der schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-spain-portugal",
@@ -1697,7 +3850,63 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "seo-topics C5 keyword"
+      "source": "seo-topics C5 keyword",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "german pension living in switzerland tax",
+            "secondary": [
+              "how much is the swiss state pension",
+              "is swiss pension taxable in canada",
+              "swiss pension taxable in us",
+              "swiss state pension taxable in uk",
+              "pension system in switzerland",
+              "pension age in switzerland",
+              "swiss pension when leaving switzerland",
+              "switzerland personal income tax rate"
+            ],
+            "questions": [
+              "how much is the swiss state pension",
+              "is swiss pension taxable in canada"
+            ]
+          },
+          "fr": {
+            "primary": "retraite allemande en suisse",
+            "secondary": [
+              "comment fonctionne la retraite en suisse",
+              "comment calculer sa retraite en suisse",
+              "retraite allemande en france",
+              "retraite suisse en france",
+              "retraite en france pour un suisse",
+              "retraite allemande imposable en france",
+              "imposition retraite allemande en france",
+              "la retraite en suisse"
+            ],
+            "questions": [
+              "comment fonctionne la retraite en suisse",
+              "comment calculer sa retraite en suisse"
+            ]
+          },
+          "de": {
+            "primary": "wohnsitz schweiz rente aus deutschland",
+            "secondary": [
+              "deutsche rente in der schweiz versteuern",
+              "muss man rente versteuern in der schweiz",
+              "wie hoch ist die schweizer rente",
+              "rente aus der schweiz in deutschland",
+              "wohnsitz im ausland rente aus deutschland",
+              "rente aus deutschland wohnsitz österreich",
+              "rente aus der schweiz für deutsche",
+              "rente aus deutschland wohnsitz schweiz"
+            ],
+            "questions": [
+              "muss man rente versteuern in der schweiz",
+              "wie hoch ist die schweizer rente"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "french-pension-living-in-switzerland",
@@ -1719,7 +3928,64 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "extension (FR market, demand-wave2 §1.1)"
+      "source": "extension (FR market, demand-wave2 §1.1)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "french pension living in switzerland",
+            "secondary": [
+              "how much is the swiss state pension",
+              "how does swiss pension work",
+              "swiss pension when leaving switzerland",
+              "pension system in switzerland",
+              "swiss pension system for foreigners",
+              "pension age in switzerland",
+              "swiss life pension services",
+              "living expenses in switzerland"
+            ],
+            "questions": [
+              "how much is the swiss state pension",
+              "how does swiss pension work"
+            ]
+          },
+          "fr": {
+            "primary": "retraite française en suisse imposition",
+            "secondary": [
+              "retraité français en suisse fiscalité",
+              "comment fonctionne la retraite en suisse",
+              "comment demander sa retraite suisse en france",
+              "comment déclarer sa retraite suisse en france",
+              "retraite en suisse pour un français",
+              "retraite en suisse quel revenu",
+              "retraite française en suisse",
+              "retraite suisse en france"
+            ],
+            "questions": [
+              "comment fonctionne la retraite en suisse",
+              "comment demander sa retraite suisse en france",
+              "comment déclarer sa retraite suisse en france",
+              "comment demander sa retraite en suisse"
+            ]
+          },
+          "de": {
+            "primary": "französische rente in der schweiz",
+            "secondary": [
+              "wie ist die rente in der schweiz",
+              "rente aus der schweiz in deutschland",
+              "deutsche rente in der schweiz",
+              "französische rente in deutschland versteuern",
+              "rente in der schweiz",
+              "rente aus der schweiz für deutsche",
+              "rente in der schweiz für ausländer",
+              "besteuerung französische rente in deutschland"
+            ],
+            "questions": [
+              "wie ist die rente in der schweiz"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "french-exit-tax-moving-to-switzerland",
@@ -1791,7 +4057,59 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "extension (legal-facts §5.1)"
+      "source": "extension (legal-facts §5.1)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "swiss withholding tax refund",
+            "secondary": [
+              "35 withholding tax switzerland residents",
+              "what is withholding tax in switzerland",
+              "what percent of income tax in switzerland",
+              "do you pay tax in switzerland",
+              "swiss withholding tax on interest",
+              "swiss withholding tax form",
+              "swiss withholding tax for uk residents",
+              "withholding tax in switzerland"
+            ],
+            "questions": [
+              "what is withholding tax in switzerland",
+              "what percent of income tax in switzerland",
+              "do you pay tax in switzerland",
+              "does switzerland pay tax",
+              "how much is swiss tax"
+            ]
+          },
+          "fr": {
+            "primary": "impôt anticipé remboursement",
+            "secondary": [
+              "impôt anticipé suisse résident",
+              "comment récupérer l'impôt anticipé suisse",
+              "remboursement anticipé impôt québec",
+              "formulaire remboursement impôt anticipé",
+              "demande remboursement impôt anticipé",
+              "formulaire 25 remboursement impôt anticipé",
+              "demande en remboursement de l'impôt anticipé",
+              "remboursement impôt anticipé suisse"
+            ],
+            "questions": [
+              "comment récupérer l'impôt anticipé suisse"
+            ]
+          },
+          "de": {
+            "primary": "verrechnungssteuer rückerstattung",
+            "secondary": [
+              "verrechnungssteuer schweiz zuzüger",
+              "verrechnungssteuer rückerstattung schweiz",
+              "verrechnungssteuer rückerstattung betrag",
+              "verrechnungssteuer rückerstattung deutschland",
+              "verrechnungssteuer rückerstattung formular 25"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-capital-gains-private-investors",
@@ -1814,7 +4132,52 @@
       "intent": "informational",
       "priority": 2,
       "status": "todo",
-      "source": "extension (legal-facts §5.1)"
+      "source": "extension (legal-facts §5.1)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "capital gains tax switzerland private investor",
+            "secondary": [
+              "is there capital gains tax in switzerland",
+              "does switzerland have capital gains tax",
+              "does switzerland tax capital gains",
+              "switzerland capital gains tax",
+              "capital gains tax rate switzerland",
+              "is there tax in switzerland",
+              "capital gain tax switzerland",
+              "tax rates in switzerland"
+            ],
+            "questions": [
+              "is there capital gains tax in switzerland",
+              "does switzerland have capital gains tax",
+              "does switzerland tax capital gains",
+              "is there tax in switzerland",
+              "what is the income tax in switzerland",
+              "does switzerland have sales tax"
+            ]
+          },
+          "fr": {
+            "primary": "gains en capital privés suisse impôt",
+            "secondary": [
+              "impot sur le capital suisse",
+              "impôt sur la propriété en suisse",
+              "taux d'impôt en suisse",
+              "impôt sur les gains immobiliers genève",
+              "taux impôt société suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "kapitalgewinnsteuer schweiz privatanleger",
+            "secondary": [
+              "private kapitalgewinne steuerfrei schweiz",
+              "steuerfrei in die schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "first-swiss-tax-return",
@@ -1933,7 +4296,59 @@
       "priority": 1,
       "status": "todo",
       "source": "seo-topics F5",
-      "notes": "No invented budgets: only cite official statistics (bfs.admin.ch) or describe cost categories without figures."
+      "notes": "No invented budgets: only cite official statistics (bfs.admin.ch) or describe cost categories without figures.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "cost of living switzerland family",
+            "secondary": [
+              "how expensive is switzerland to live",
+              "how expensive is switzerland to live in us dollars",
+              "how expensive is it to live in geneva switzerland",
+              "cost of living switzerland family of 4",
+              "cost of living in switzerland for family",
+              "cost of living in switzerland family of 3",
+              "cost of living in switzerland for indian family",
+              "cost of living in switzerland for family of 5"
+            ],
+            "questions": [
+              "how expensive is switzerland to live",
+              "how expensive is switzerland to live in us dollars",
+              "how expensive is it to live in geneva switzerland",
+              "how much is switzerland to live",
+              "how expensive is it to live in zurich switzerland",
+              "how expensive is it to live in bern switzerland",
+              "how expensive is it to live in grindelwald switzerland",
+              "how expensive is it to live in lausanne switzerland",
+              "how expensive is it to live in basel switzerland",
+              "how expensive is it to live in lucerne switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "coût de la vie suisse famille",
+            "secondary": [
+              "suisse coût de la vie",
+              "cout de la vie en suisse",
+              "la suisse en famille",
+              "prix de la vie en suisse",
+              "coût de la vie à genève",
+              "accompagnement fin de vie en suisse",
+              "la vie en suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "lebenshaltungskosten schweiz familie",
+            "secondary": [
+              "lebenshaltungskosten schweiz vierköpfige familie",
+              "lebenshaltungskosten 3 köpfige familie schweiz",
+              "lebenshaltungskosten 5 köpfige familie schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-to-switzerland-with-pets",
@@ -2053,7 +4468,43 @@
       "priority": 1,
       "status": "todo",
       "source": "seo-topics F6",
-      "notes": "National angle (contracts, social insurance, permits in general terms); ridger.ch owns Geneva household staff, so no Geneva-specific staff guide. Cite admin.ch / ahv-iv.ch / seco only."
+      "notes": "National angle (contracts, social insurance, permits in general terms); ridger.ch owns Geneva household staff, so no Geneva-specific staff guide. Cite admin.ch / ahv-iv.ch / seco only.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "hire housekeeper switzerland",
+            "secondary": [
+              "household staff switzerland",
+              "employing a nanny in switzerland",
+              "household staff agency switzerland",
+              "private household staff switzerland"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "employer du personnel de maison suisse",
+            "secondary": [
+              "engager une nounou en suisse",
+              "personnel de maison suisse",
+              "employé de maison suisse",
+              "contrat de travail employé de maison suisse",
+              "nounou synonyme professionnel suisse",
+              "couple employé de maison suisse",
+              "travailler depuis la maison suisse",
+              "employé de maison genève"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "hausangestellte schweiz anstellen",
+            "secondary": [
+              "nanny anstellen schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "referring-a-client-to-switzerland",
@@ -2099,7 +4550,56 @@
       "priority": 2,
       "status": "todo",
       "source": "demand-wave2 #16",
-      "notes": "Adviser-oriented guide (the /for-advisers/ hub itself is built by hand). Relocation scope only: no family-office coordination (ridger.ch)."
+      "notes": "Adviser-oriented guide (the /for-advisers/ hub itself is built by hand). Relocation scope only: no family-office coordination (ridger.ch).",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "relocation agent switzerland",
+            "secondary": [
+              "relocation services switzerland partner",
+              "what is a relocation agent",
+              "relocation services geneva switzerland",
+              "relocation services geneva international",
+              "relocation services geneva guide",
+              "relocation services geneva reviews",
+              "relocation services geneva compare",
+              "relocation services geneva tips"
+            ],
+            "questions": [
+              "what is a relocation agent"
+            ]
+          },
+          "fr": {
+            "primary": "agence relocation genève",
+            "secondary": [
+              "agence de relocation lausanne",
+              "agence immobilière genève location",
+              "agence de relocation geneve",
+              "agence de placement à genève",
+              "agence de recrutement genève",
+              "voiture de location genève",
+              "agence de placement temporaire genève",
+              "agence de relocation genève"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "relocation service schweiz",
+            "secondary": [
+              "swiss relocation services gmbh",
+              "relocation service in berlin",
+              "swiss moving service ag",
+              "zr zurich relocation ag",
+              "car relocation service europe",
+              "relocation services geneva switzerland",
+              "car relocation service nz",
+              "agence de relocation lausanne"
+            ],
+            "questions": []
+          }
+        }
+      }
     }
   ]
 }

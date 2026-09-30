@@ -5,7 +5,21 @@ import { fileURLToPath } from "node:url";
 import { afterAll, describe, expect, it } from "vitest";
 import { classifySource, isAllowedSource } from "./source-policy.mjs";
 import { buildChatBody, buildChatUrl, extractJson, isReasoningDeployment } from "./azure-openai.mjs";
-import { deriveKeywords, fetchSuggestions, researchKeywords } from "./keyword-research.mjs";
+import {
+  MARKETS,
+  PROVIDER_ORDER,
+  bingMarket,
+  collectSuggestions,
+  ddgRegion,
+  deriveKeywords,
+  fetchProviderSuggestions,
+  fetchSuggestions,
+  hasStaleYear,
+  parseDuckDuckGo,
+  parseOpenSearch,
+  researchKeywords,
+} from "./keyword-research.mjs";
+import { applyResearch } from "../refresh-keywords.mjs";
 import { serializeGuide } from "./article-pipeline.mjs";
 import { fixtureArticle } from "./test-fixture.mjs";
 import { discardArticle, validateNewArticle } from "../validate-new-article.mjs";
@@ -135,5 +149,107 @@ describe("indexnow", () => {
     expect(key).toMatch(/^[a-f0-9]{32}$/);
     expect(findKey(ROOT, { INDEXNOW_KEY: "abc123abc" })).toBe("abc123abc");
     expect(guideUrls("https://switzerlandresidency.ch", "x")).toContain("https://switzerlandresidency.ch/de/guides/x/");
+  });
+});
+
+describe("keyword providers, fallback and stored keywords", () => {
+  const json = (body, status = 200) => new Response(typeof body === "string" ? body : JSON.stringify(body), { status });
+  /** Fake fetch keyed by host; records URLs. */
+  const fakeFetch = (byHost) => {
+    const calls = [];
+    const impl = async (url) => {
+      calls.push(String(url));
+      const h = byHost[new URL(url).host];
+      return h ? h(new URL(url)) : json("", 404);
+    };
+    return { impl, calls };
+  };
+  const G = "suggestqueries.google.com";
+  const B = "api.bing.com";
+  const D = "duckduckgo.com";
+
+  it("parses bing (osjson) and duckduckgo responses and maps markets", () => {
+    expect(parseOpenSearch(JSON.stringify(["q", ["swiss c permit", " "]]))).toEqual(["swiss c permit"]);
+    expect(parseDuckDuckGo(JSON.stringify([{ phrase: "permis c suisse" }, {}]))).toEqual(["permis c suisse"]);
+    expect(() => parseOpenSearch("<html>consent</html>")).toThrow();
+    expect(PROVIDER_ORDER).toEqual(["google", "bing", "duckduckgo"]);
+    const all = Object.values(MARKETS).flat();
+    expect(all.map(bingMarket)).toEqual(["en-GB", "en-US", "en-AE", "en-SG", "fr-CH", "fr-FR", "fr-BE", "de-CH", "de-DE", "de-AT"]);
+    expect(all.map(ddgRegion)).toEqual(["uk-en", "us-en", "xa-en", "sg-en", "ch-fr", "fr-fr", "be-fr", "ch-de", "de-de", "at-de"]);
+  });
+
+  it("reports HTTP status / unparseable bodies instead of swallowing them", async () => {
+    const { impl } = fakeFetch({ [G]: () => json("", 429), [B]: () => json("<html>", 200) });
+    expect(await fetchProviderSuggestions("google", "q", { hl: "en", gl: "gb" }, { fetchImpl: impl })).toEqual({ suggestions: [], error: "HTTP 429" });
+    expect((await fetchProviderSuggestions("bing", "q", { hl: "en", gl: "gb" }, { fetchImpl: impl })).error).toBe("unparseable body");
+  });
+
+  it("falls back google → bing → duckduckgo, logs errors once, skips a blocked provider", async () => {
+    const { impl, calls } = fakeFetch({
+      [G]: () => json("", 403),
+      [B]: () => json(["q", []]),
+      [D]: (u) => json([{ phrase: `${u.searchParams.get("q")} geneva` }]),
+    });
+    const logs = [];
+    const state = { blocked: new Set() };
+    const r = await collectSuggestions("fr", ["permis c suisse"], { fetchImpl: impl, log: (m) => logs.push(m), state });
+    expect(r.provider).toBe("duckduckgo");
+    expect(r.attempts.map((a) => a.provider)).toEqual(["google", "bing", "duckduckgo"]);
+    expect(logs).toHaveLength(1);
+    expect(logs[0]).toMatch(/google 3\/3 requests failed — HTTP 403 ×3 \(fr-CH, fr-FR, fr-BE\)/);
+    expect(state.blocked.has("google")).toBe(true);
+    calls.length = 0;
+    await collectSuggestions("de", ["c bewilligung schweiz"], { fetchImpl: impl, state });
+    expect(calls.some((u) => u.includes(G))).toBe(false);
+  });
+
+  it("uses live results, else stored researchedKeywords, else seeds — and reports the source", async () => {
+    const item = {
+      title: "T",
+      keywords: { en: ["swiss c permit"], fr: ["permis c suisse"], de: ["niederlassungsbewilligung schweiz"] },
+      researchedKeywords: {
+        date: "2026-09-30",
+        perLocale: { fr: { primary: "permis c suisse", secondary: ["permis c suisse conditions"], questions: ["comment obtenir le permis c en suisse"] } },
+      },
+    };
+    const { impl } = fakeFetch({
+      [G]: (u) => (u.searchParams.get("hl") === "en" ? json(["q", ["swiss c permit requirements", "swiss c permit after 5 years"]]) : json("", 429)),
+      [B]: () => json("", 429),
+      [D]: () => json("", 429),
+    });
+    const logs = [];
+    const r = await researchKeywords(item, { fetchImpl: impl, trends: false, log: (m) => logs.push(m) });
+    expect(r.sources).toEqual({ en: "live:google", fr: "stored 2026-09-30", de: "seeds" });
+    expect(r.locales.en.secondary).toContain("swiss c permit requirements");
+    expect(r.locales.fr.secondary).toEqual(["permis c suisse conditions"]);
+    expect(r.locales.fr.questions).toEqual(["comment obtenir le permis c en suisse"]);
+    expect(r.locales.fr.candidates.map((c) => c.keyword)).toContain("comment obtenir le permis c en suisse");
+    expect(r.locales.de.primary).toBe("niederlassungsbewilligung schweiz");
+    expect(logs.some((m) => /source: stored 2026-09-30/.test(m))).toBe(true);
+    const noStore = await researchKeywords(item, { fetchImpl: impl, trends: false, useStored: false });
+    expect(noStore.sources.fr).toBe("seeds");
+  });
+
+  it("refresh-keywords stores only live results and keeps other locales", () => {
+    const item = { researchedKeywords: { date: "2026-01-01", perLocale: { de: { primary: "x", secondary: [], questions: [] } } } };
+    const research = {
+      locales: {
+        en: { primary: "swiss c permit", secondary: ["swiss c permit requirements"], questions: [], candidates: [{ keyword: "swiss c permit requirements" }] },
+        de: { primary: "y", secondary: [], questions: [], candidates: [] },
+      },
+      sources: { en: "live:bing", de: "seeds" },
+    };
+    expect(applyResearch(item, research, "2026-09-30")).toEqual(["en"]);
+    expect(item.researchedKeywords.date).toBe("2026-09-30");
+    expect(item.researchedKeywords.perLocale.de.primary).toBe("x");
+    expect(item.researchedKeywords.perLocale.en.secondary).toEqual(["swiss c permit requirements"]);
+  });
+
+  it("drops junk suggestions (calculator, driving licence, reddit)", () => {
+    const rows = [{ market: "fr-CH", suggestions: ["permis c suisse conditions", "permis de conduire suisse permis c", "permis c suisse calculateur", "permis c suisse reddit", "permis c suisse conditions 2024", "welche promis wohnen in genf"] }];
+    const k = deriveKeywords(rows, ["permis c suisse"], "fr");
+    expect(k.candidates.map((c) => c.keyword)).toEqual(["permis c suisse conditions"]);
+    expect(hasStaleYear("valeur locative abolition 2029", new Date("2026-09-30"))).toBe(false);
+    expect(hasStaleYear("guide fiscal valais 2024", new Date("2026-09-30"))).toBe(true);
   });
 });
