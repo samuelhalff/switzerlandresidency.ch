@@ -11,6 +11,8 @@ export function frenchTypography(text: string): string {
       // "mot :" → "mot :"  (only when the author already put a space before the sign)
       .replace(/([^\s|])[  ]+([:;?!»])/gu, `$1${NNBSP}$2`) // never after a table pipe
       .replace(/«[  ]+/g, `«${NNBSP}`)
+      // one apostrophe style: typographic ’ between letters (l'impôt → l’impôt)
+      .replace(/(\p{L})'(?=\p{L})/gu, "$1\u2019")
       // thousands groups: "435 000", "1 250 000"
       .replace(/(\d)[  ](?=\d{3}(?!\d))/g, `$1${NNBSP}`)
   );

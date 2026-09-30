@@ -14,6 +14,9 @@ describe("frenchTypography", () => {
     const s = "[AFC](https://www.estv.admin.ch/x?y=1)\n| :--- | ---: |";
     expect(frenchTypography(s)).toBe(s);
   });
+  it("uses the typographic apostrophe between letters", () => {
+    expect(frenchTypography("l'impôt d'après")).toBe("l\u2019impôt d\u2019après");
+  });
   it("does not touch other locales", () => {
     expect(typeset("de", "CHF 435 000 ?")).toBe("CHF 435 000 ?");
   });
