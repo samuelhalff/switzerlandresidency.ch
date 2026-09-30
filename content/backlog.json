@@ -3695,7 +3695,44 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "extension"
+      "source": "extension",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to switzerland from portugal",
+            "secondary": [
+              "leaving portugal nhr for switzerland",
+              "moving to switzerland from spain",
+              "why are people moving to portugal",
+              "train from portugal to switzerland",
+              "was portugal part of switzerland",
+              "flights from portugal to switzerland",
+              "moving to switzerland from uk",
+              "switzerland to portugal distance"
+            ],
+            "questions": [
+              "why are people moving to portugal"
+            ]
+          },
+          "fr": {
+            "primary": "quitter le portugal pour la suisse",
+            "secondary": [
+              "comment quitter la suisse",
+              "consulat du portugal en suisse",
+              "ambassade suisse au portugal",
+              "ambassade du portugal en suisse",
+              "quitter la suisse pour le portugal",
+              "quitter la suisse pour la france",
+              "ambassade portugal en suisse",
+              "décalage horaire suisse portugal"
+            ],
+            "questions": [
+              "comment quitter la suisse"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-latin-america",
@@ -3717,7 +3754,47 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "extension (demand-wave2 §1.4 LatAm introducers)"
+      "source": "extension (demand-wave2 §1.4 LatAm introducers)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to switzerland from brazil",
+            "secondary": [
+              "swiss residence for latin american families",
+              "can an american move to switzerland",
+              "moving to switzerland from south africa",
+              "moving to switzerland from usa",
+              "moving to switzerland from australia",
+              "moving from the us to switzerland",
+              "swiss re latin america",
+              "swiss residence group ag"
+            ],
+            "questions": [
+              "can an american move to switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "s'installer en suisse depuis le brésil",
+            "secondary": [
+              "comment s'installer en suisse",
+              "s'installer en france pour un suisse",
+              "ambassade de suisse au brésil",
+              "ambassade suisse au brésil"
+            ],
+            "questions": [
+              "comment s'installer en suisse"
+            ]
+          },
+          "de": {
+            "primary": "auswandern schweiz aus brasilien",
+            "secondary": [
+              "von der schweiz nach brasilien auswandern"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-south-africa",
@@ -3739,7 +3816,51 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "extension"
+      "source": "extension",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to switzerland from south africa",
+            "secondary": [
+              "south african emigrating to switzerland",
+              "immigrate to switzerland from south africa",
+              "switzerland to south africa",
+              "south africa to switzerland",
+              "moving to switzerland from australia",
+              "moving to switzerland from uk",
+              "work in switzerland for south africans",
+              "moving to the netherlands from south africa"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "sud-africains en suisse",
+            "secondary": [
+              "étudier en suisse pour les africains",
+              "ambassade suisse en afrique du sud"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "auswandern schweiz aus südafrika",
+            "secondary": [
+              "kann man in die schweiz auswandern",
+              "wie kann man in die schweiz auswandern",
+              "auswandern in die schweiz",
+              "südafrika einreisebestimmungen für schweizer",
+              "auswanderung aus der schweiz",
+              "auswandern schweiz oder österreich",
+              "auswandern in der schweiz",
+              "auswandern in die schweiz als deutscher"
+            ],
+            "questions": [
+              "kann man in die schweiz auswandern",
+              "wie kann man in die schweiz auswandern"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-australia",
@@ -3761,7 +3882,57 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "extension"
+      "source": "extension",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to switzerland from australia",
+            "secondary": [
+              "australians retiring in switzerland",
+              "can australians work in switzerland",
+              "travelling to switzerland from australia",
+              "australians travelling to switzerland",
+              "moving to switzerland from uk",
+              "moving to switzerland from canada",
+              "moving to switzerland from south africa",
+              "retiring in switzerland from usa"
+            ],
+            "questions": [
+              "can australians work in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "australiens en suisse",
+            "secondary": [
+              "comment vivent les australiens",
+              "quels sont les animaux australiens",
+              "où vivent la plupart des australiens"
+            ],
+            "questions": [
+              "comment vivent les australiens",
+              "quels sont les animaux australiens"
+            ]
+          },
+          "de": {
+            "primary": "auswandern schweiz aus australien",
+            "secondary": [
+              "wie kann man in die schweiz auswandern",
+              "kann man in die schweiz auswandern",
+              "auswandern aus der schweiz nach deutschland",
+              "auswandern schweiz oder österreich",
+              "auswandern in die schweiz",
+              "auswandern in die schweiz aktuell",
+              "auswandern in die schweiz als österreicher",
+              "aus der schweiz auswandern"
+            ],
+            "questions": [
+              "wie kann man in die schweiz auswandern",
+              "kann man in die schweiz auswandern"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-israel",
@@ -3783,7 +3954,55 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "extension"
+      "source": "extension",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving to switzerland from israel",
+            "secondary": [
+              "israeli residence permit switzerland",
+              "jews moving to israel",
+              "moving to switzerland from ireland",
+              "moving to switzerland from canada",
+              "moving from usa to switzerland",
+              "moving from the us to switzerland",
+              "residence permit for students in switzerland",
+              "residence permit b switzerland"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "israéliens s'installer en suisse",
+            "secondary": [
+              "comment s'installer en suisse",
+              "s'installer en france pour un suisse",
+              "conditions pour s'installer en suisse",
+              "s'installer en suisse pour travailler"
+            ],
+            "questions": [
+              "comment s'installer en suisse"
+            ]
+          },
+          "de": {
+            "primary": "auswandern schweiz aus israel",
+            "secondary": [
+              "kann ich in die schweiz auswandern",
+              "wie kann ich in die schweiz auswandern",
+              "auswandern aus der schweiz nach deutschland",
+              "von deutschland in die schweiz auswandern",
+              "auswandern aus der schweiz nach italien",
+              "einreise israel für schweizer",
+              "auswandern in die schweiz als deutscher",
+              "auswandern von deutschland in die schweiz"
+            ],
+            "questions": [
+              "kann ich in die schweiz auswandern",
+              "wie kann ich in die schweiz auswandern"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-monaco",
@@ -3806,7 +4025,72 @@
       "intent": "comparison",
       "priority": 3,
       "status": "todo",
-      "source": "extension (legal-facts §7)"
+      "source": "extension (legal-facts §7)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "monaco or switzerland",
+            "secondary": [
+              "moving from monaco to switzerland",
+              "can i move to monaco",
+              "is monaco in europe",
+              "how to travel to monaco",
+              "monaco to switzerland train",
+              "switzerland to monaco",
+              "switzerland vs monaco",
+              "switzerland and monaco midfielder"
+            ],
+            "questions": [
+              "can i move to monaco",
+              "is monaco in europe",
+              "how to travel to monaco",
+              "is monaco in italy or france",
+              "does monaco count as a country",
+              "is monaco part of france or italy",
+              "is monaco considered europe",
+              "is monaco in france",
+              "what country is monaco",
+              "what part of europe is monaco"
+            ]
+          },
+          "fr": {
+            "primary": "quitter monaco pour la suisse",
+            "secondary": [
+              "monaco ou suisse résidence",
+              "club suisse de monaco",
+              "boulevard de suisse monaco",
+              "20 boulevard de suisse monaco"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "von monaco in die schweiz",
+            "secondary": [
+              "wie heißen die bewohner von monaco",
+              "wo befindet sich monaco",
+              "wie nennt man die einwohner von monaco",
+              "in welchem land liegt monaco",
+              "in welchem land ist monaco",
+              "monaco in welchem land",
+              "die geschichte von monaco",
+              "zu welchem land gehört monaco"
+            ],
+            "questions": [
+              "wie heißen die bewohner von monaco",
+              "wo befindet sich monaco",
+              "wie nennt man die einwohner von monaco",
+              "wo liegt monaco in welchem land",
+              "wie viele einwohner hat monaco",
+              "wann wurde monaco gegründet",
+              "was kann man in monaco machen",
+              "ist monaco in italien",
+              "wie gross ist monaco",
+              "ist monaco in der eu"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "uae-clients-switzerland-adviser-notes",
@@ -3828,7 +4112,26 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "demand-wave2 §1.4"
+      "source": "demand-wave2 §1.4",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "moving from dubai to switzerland adviser",
+            "secondary": [
+              "gulf family relocation switzerland",
+              "switzerland visit visa from dubai",
+              "trip to switzerland package from dubai",
+              "dubai to switzerland visa",
+              "switzerland tourist visa from dubai",
+              "switzerland package from dubai",
+              "switzerland tour package from dubai",
+              "apply switzerland visa from dubai"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "german-pension-living-in-switzerland",
@@ -4009,7 +4312,44 @@
       "priority": 3,
       "status": "todo",
       "source": "extension (legal-facts §5.5)",
-      "notes": "Deep-dive; do not repeat moving-from-france. Automatic sursis for Switzerland is UNVERIFIED."
+      "notes": "Deep-dive; do not repeat moving-from-france. Automatic sursis for Switzerland is UNVERIFIED.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "french exit tax switzerland",
+            "secondary": [
+              "do you pay tax in switzerland",
+              "does switzerland pay tax",
+              "is switzerland tax free",
+              "tax ruling in switzerland",
+              "exit tax france suisse",
+              "switzerland federal tax administration",
+              "income tax in switzerland for foreigners",
+              "expat swiss tax return"
+            ],
+            "questions": [
+              "do you pay tax in switzerland",
+              "does switzerland pay tax",
+              "is switzerland tax free"
+            ]
+          },
+          "fr": {
+            "primary": "exit tax suisse sursis",
+            "secondary": [
+              "exit tax france suisse",
+              "article 167 bis cgi suisse",
+              "sursis de paiement exit tax",
+              "exit tax sursis de paiement bofip",
+              "sursis automatique exit tax",
+              "exit suisse romande contact",
+              "exit suisse romande inscription",
+              "exit in der schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "german-exit-tax-moving-to-switzerland",
@@ -4033,7 +4373,59 @@
       "priority": 3,
       "status": "todo",
       "source": "extension (legal-facts §5.4)",
-      "notes": "Deep-dive; do not repeat moving-from-germany."
+      "notes": "Deep-dive; do not repeat moving-from-germany.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "german exit tax switzerland",
+            "secondary": [
+              "does switzerland tax capital gains",
+              "does switzerland pay tax",
+              "do you pay tax in switzerland",
+              "tax ruling in switzerland",
+              "switzerland federal tax administration",
+              "withholding tax in switzerland",
+              "switzerland interest withholding tax",
+              "switzerland capital gains tax"
+            ],
+            "questions": [
+              "does switzerland tax capital gains",
+              "does switzerland pay tax",
+              "do you pay tax in switzerland",
+              "is switzerland tax free",
+              "do you pay income tax in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "exit tax allemagne suisse",
+            "secondary": [
+              "exit tax france suisse",
+              "exit suisse romande contact",
+              "exit suisse romande inscription",
+              "exit in der schweiz"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "wegzugsbesteuerung schweiz",
+            "secondary": [
+              "wegzugsbesteuerung § 6 astg schweiz",
+              "wegzugsbesteuerung stundung",
+              "was ist die wegzugsbesteuerung",
+              "wie hoch ist die wegzugsbesteuerung",
+              "wegzugsbesteuerung aus der schweiz",
+              "wegzugsbesteuerung schweiz deutschland",
+              "wegzugsbesteuerung § 4 estg",
+              "wegzugsbesteuerung gmbh & co. kg"
+            ],
+            "questions": [
+              "was ist die wegzugsbesteuerung",
+              "wie hoch ist die wegzugsbesteuerung"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "swiss-withholding-tax-new-residents",
@@ -4200,7 +4592,56 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "extension"
+      "source": "extension",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "first tax return switzerland after moving",
+            "secondary": [
+              "swiss tax return year of arrival",
+              "what is the swiss tax year",
+              "switzerland tax return due date",
+              "switzerland corporate tax return due date",
+              "swiss tax return filing deadline",
+              "income tax in switzerland for foreigners",
+              "swiss tax return form",
+              "switzerland tax refund for tourist"
+            ],
+            "questions": [
+              "what is the swiss tax year"
+            ]
+          },
+          "fr": {
+            "primary": "première déclaration d'impôt suisse arrivée",
+            "secondary": [
+              "déclaration d'impôt sur le revenu en suisse",
+              "déclaration impôt suisse frontalier",
+              "taux suisse déclaration des impôts",
+              "déclaration impôts frontalier suisse",
+              "aide déclaration impôt frontalier suisse",
+              "déclaration revenus suisse en france",
+              "taux change franc suisse déclaration impôt",
+              "formulaire déclaration revenus suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "erste steuererklärung schweiz zuzug",
+            "secondary": [
+              "steuererklärung zuzugsjahr schweiz",
+              "steuererklärung in der schweiz",
+              "abzüge steuererklärung kanton zürich",
+              "auszug für die steuererklärung",
+              "umzug in die schweiz steuererklärung",
+              "steuererklärung kanton zug jp",
+              "steuererklärung kanton zug online",
+              "steuererklärung kanton zug download"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-double-tax-treaties-new-residents",
@@ -4225,7 +4666,54 @@
       "priority": 3,
       "status": "todo",
       "source": "extension",
-      "notes": "Number of Swiss DTAs is UNVERIFIED: do not state a count."
+      "notes": "Number of Swiss DTAs is UNVERIFIED: do not state a count.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "switzerland double tax treaty",
+            "secondary": [
+              "swiss tax treaty residency certificate",
+              "switzerland france double tax treaty",
+              "switzerland germany double tax treaty",
+              "double tax treaty switzerland",
+              "uk switzerland double tax treaty",
+              "us switzerland double tax treaty",
+              "switzerland uk double tax treaty",
+              "switzerland double tax treaty uk"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "convention de double imposition suisse",
+            "secondary": [
+              "certificat de résidence fiscale suisse",
+              "convention de double imposition suisse italie",
+              "convention de double imposition suisse chine",
+              "convention double imposition suisse allemagne",
+              "convention de double imposition",
+              "convention de double imposition suisse france",
+              "convention de double imposition suisse usa",
+              "convention de double imposition suisse maroc"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "doppelbesteuerungsabkommen schweiz",
+            "secondary": [
+              "ansässigkeitsbescheinigung schweiz",
+              "ansässigkeitsbescheinigung schweiz antrag",
+              "doppelbesteuerungsabkommen schweiz österreich",
+              "doppelbesteuerungsabkommen schweiz usa",
+              "ansässigkeitsbescheinigung schweiz download",
+              "ansässigkeitsbescheinigung schweiz formular",
+              "doppelbesteuerungsabkommen schweiz italien",
+              "ansässigkeitsbescheinigung schweiz finanzamt"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-citizenship-naturalisation",
@@ -4273,7 +4761,57 @@
       "intent": "informational",
       "priority": 3,
       "status": "todo",
-      "source": "demand-wave2 #24 (as a guide)"
+      "source": "demand-wave2 #24 (as a guide)",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "questions before moving to switzerland",
+            "secondary": [
+              "swiss relocation client intake",
+              "what to know before moving to switzerland",
+              "things to know before moving to switzerland",
+              "relocation services geneva switzerland",
+              "swiss relocation services gmbh",
+              "moving to switzerland as eu citizen"
+            ],
+            "questions": [
+              "what to know before moving to switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "questions avant de s'installer en suisse",
+            "secondary": [
+              "comment s'installer en suisse",
+              "s'installer en france pour un suisse",
+              "conditions pour s'installer en suisse",
+              "s'installer en suisse démarches",
+              "s'installer en suisse pour travailler",
+              "questions sur la suisse"
+            ],
+            "questions": [
+              "comment s'installer en suisse"
+            ]
+          },
+          "de": {
+            "primary": "fragen vor dem umzug in die schweiz",
+            "secondary": [
+              "was kostet ein umzug in der schweiz",
+              "wann ist der umzug",
+              "umzug in die schweiz",
+              "umzug von deutschland in die schweiz",
+              "umzug aus der schweiz nach deutschland",
+              "umzug in die schweiz voraussetzungen",
+              "umzug in die schweiz zoll",
+              "umzug in die schweiz checkliste"
+            ],
+            "questions": [
+              "was kostet ein umzug in der schweiz",
+              "wann ist der umzug"
+            ]
+          }
+        }
+      }
     },
     {
       "slug": "cost-of-living-switzerland-family",
@@ -4398,7 +4936,39 @@
       "priority": 3,
       "status": "todo",
       "source": "extension",
-      "notes": "Cite ch.ch / astra.admin.ch / cantonal road-traffic offices only."
+      "notes": "Cite ch.ch / astra.admin.ch / cantonal road-traffic offices only.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "exchange driving licence switzerland",
+            "secondary": [
+              "swiss driving licence foreigner 12 months",
+              "what is the driving age in switzerland",
+              "driving in switzerland with us license",
+              "driving in switzerland as a tourist",
+              "international driving permit switzerland",
+              "driving in switzerland requirements",
+              "driving rules in switzerland",
+              "driving a car in switzerland"
+            ],
+            "questions": [
+              "what is the driving age in switzerland"
+            ]
+          },
+          "fr": {
+            "primary": "échange permis de conduire suisse",
+            "secondary": [
+              "permis de conduire étranger suisse délai",
+              "conduire en france avec un permis suisse",
+              "permis suisse de conduire",
+              "changement de permis suisse",
+              "conduire en suisse avec un permis français"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "swiss-public-schools-international-families",
@@ -4423,7 +4993,48 @@
       "priority": 3,
       "status": "todo",
       "source": "extension (seo-topics F1 follow-up)",
-      "notes": "Geneva schooling is owned by ridger.ch: keep the angle national."
+      "notes": "Geneva schooling is owned by ridger.ch: keep the angle national.",
+      "researchedKeywords": {
+        "date": "2026-09-30",
+        "perLocale": {
+          "en": {
+            "primary": "swiss public school for expats",
+            "secondary": [
+              "public or international school switzerland",
+              "school life in switzerland",
+              "private school in switzerland",
+              "switzerland for international students",
+              "swiss international school germany",
+              "boarding school in switzerland",
+              "international school in switzerland",
+              "international boarding schools in switzerland"
+            ],
+            "questions": []
+          },
+          "fr": {
+            "primary": "école publique suisse pour expatriés",
+            "secondary": [
+              "école publique ou internationale suisse",
+              "école privée en suisse",
+              "expatriés français en suisse",
+              "école supérieure en suisse",
+              "école obligatoire en suisse",
+              "ecole suisse internationale paris",
+              "ecole suisse à l'étranger",
+              "école primaire en suisse"
+            ],
+            "questions": []
+          },
+          "de": {
+            "primary": "öffentliche schule schweiz für expats",
+            "secondary": [
+              "volksschule schweiz zuzug",
+              "schule in der schweiz"
+            ],
+            "questions": []
+          }
+        }
+      }
     },
     {
       "slug": "moving-from-singapore-hong-kong",
