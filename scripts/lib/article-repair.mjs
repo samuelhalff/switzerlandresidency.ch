@@ -159,7 +159,7 @@ export function buildShortenPrompt({ locale, fields, primary, context = "" }) {
     const verb = f.length > f.max ? `shorten to AT MOST ${f.max} characters` : `lengthen to AT LEAST ${f.min} characters`;
     const range = f.min > 1 ? `allowed range ${f.min}–${f.max} characters` : `maximum ${f.max} characters`;
     const rejected = (f.rejected ?? []).map((r) => `\n  Rejected earlier: ${JSON.stringify(r.value)} — ${r.reason}`).join("");
-    return `- ${f.field} (currently ${f.length} characters): ${verb} — ${range}; keep the primary keyword "${primary}" (its words may be reordered or inflected, not dropped).\n  Current: ${JSON.stringify(f.value)}${rejected}`;
+    return `- ${f.field} (currently ${f.length} characters): ${verb} — ${range}; ${primary.length > f.max - 15 ? `the primary keyword "${primary}" is too long to fit whole — keep its main words (at least half of them, reordered or inflected as natural)` : `keep the primary keyword "${primary}" (its words may be reordered or inflected, not dropped)`}.\n  Current: ${JSON.stringify(f.value)}${rejected}`;
   });
   return [
     `Rewrite the following ${LANGUAGE[locale] ?? locale} metadata fields of a Swiss residence guide so that each fits its character limit.`,

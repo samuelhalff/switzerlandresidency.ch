@@ -135,6 +135,13 @@ describe("title/description fitting", () => {
     expect(res.remaining.map((r) => r.field)).toEqual(["description"]);
   });
 
+  it("lets a too-long keyword be shortened to its main words", () => {
+    const p = buildShortenPrompt({ locale: "de", primary: "aufenthaltsbewilligung selbständige erwerbstätigkeit drittstaat", fields: [{ field: "title", length: 63, min: 1, max: 60, value: "x" }] });
+    expect(p).toMatch(/too long to fit whole — keep its main words/);
+    const o = { primary: "aufenthaltsbewilligung selbständige erwerbstätigkeit drittstaat", original: "Aufenthaltsbewilligung für selbständige Erwerbstätigkeit aus Drittstaaten", locale: "de" };
+    expect(fieldMisfit("title", "Selbständige Erwerbstätigkeit: Bewilligung für Drittstaaten", o)).toBeNull();
+  });
+
   it("asks to lengthen a short description", () => {
     expect(buildShortenPrompt({ locale: "fr", primary: "permis", fields: [{ field: "description", length: 120, min: 140, max: 155, value: "x" }] })).toMatch(
       /lengthen to AT LEAST 140 characters — allowed range 140–155/,

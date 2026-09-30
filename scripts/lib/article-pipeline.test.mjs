@@ -232,6 +232,14 @@ describe("content rules", () => {
   });
 });
 
+describe("allowed internal links", () => {
+  it("leaves out scheduled guides until their publishAt date", () => {
+    const urls = (today) => new Set(buildAllowedLinks(ROOT, "en", { today }).map((x) => x.url));
+    expect(urls("2026-09-30").has("/en/guides/family-reunification-switzerland/")).toBe(false);
+    expect(urls("2026-10-16").has("/en/guides/family-reunification-switzerland/")).toBe(true);
+  });
+});
+
 describe("article guardrails", () => {
   const links = Object.fromEntries(["en", "fr", "de"].map((l) => [l, new Set(buildAllowedLinks(ROOT, l).map((x) => x.url))]));
   const ctx = (locale) => ({ locale, slug: "swiss-tax-residency", category: "tax-and-wealth", categories, allowedLinks: links[locale] });

@@ -138,9 +138,10 @@ export function staticPagePaths(root) {
 
 /**
  * Allowed internal URLs for one locale, generated from the content files (never a static list).
+ * Drafts and scheduled pages (publishAt after `today`) are not routes yet and are left out.
  * @returns {{ url: string, title: string, kind: string }[]}
  */
-export function buildAllowedLinks(root, locale, { excludeSlug = null } = {}) {
+export function buildAllowedLinks(root, locale, { excludeSlug = null, today = new Date().toISOString().slice(0, 10) } = {}) {
   const links = staticPagePaths(root).map((p) => ({
     url: p ? `/${locale}/${p}/` : `/${locale}/`,
     title: p || "home",
@@ -152,6 +153,9 @@ export function buildAllowedLinks(root, locale, { excludeSlug = null } = {}) {
     for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".md")).sort()) {
       const { data } = matter(fs.readFileSync(path.join(dir, f), "utf8"));
       if (data.draft === true) continue;
+      // Scheduled pages (publishAt in the future) are not built yet (src/lib/content.ts, validate-content.mjs).
+      const publishAt = data.publishAt instanceof Date ? data.publishAt.toISOString().slice(0, 10) : data.publishAt;
+      if (publishAt && String(publishAt) > today) continue;
       const slug = data.slug || f.replace(/\.md$/, "");
       if (collection === "guides" && slug === excludeSlug) continue;
       links.push({ url: `/${locale}/${route}/${slug}/`, title: String(data.title ?? slug), kind: collection });
