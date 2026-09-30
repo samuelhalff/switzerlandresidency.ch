@@ -130,7 +130,7 @@
       },
       "intent": "informational",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "legal audit 2026-09 / audit-2026-09-30 topic 4",
       "notes": "Company formation does not by itself give residence: explain the self-employed permit route (art. 19 AIG, economic interest). Personal permit angle only; company formation belongs to ark-fid.ch. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §4.",
       "researchedKeywords": {
@@ -181,7 +181,8 @@
             "questions": []
           }
         }
-      }
+      },
+      "doneAt": "2026-09-30"
     },
     {
       "slug": "swiss-permit-schengen-travel",
@@ -5211,6 +5212,14 @@
           }
         }
       }
+    }
+  ],
+  "history": [
+    {
+      "slug": "self-employed-permit-non-eu",
+      "category": "residence-permits",
+      "date": "2026-09-30",
+      "title": "Self employed permit Switzerland non EU: self-employed route"
     }
   ]
 }
