@@ -28,7 +28,7 @@
       "notes": "Official processing times are UNVERIFIED: describe phases and their order (ruling, cantonal file, SEM approval, arrival, registration) without durations."
     },
     {
-      "slug": "swiss-tax-residency",
+      "slug": "swiss-tax-residence-rules",
       "title": "Swiss tax residency: the 30/90-day rule, domicile and treaty tie-breakers",
       "audience": "client",
       "category": "tax-and-wealth",
@@ -50,8 +50,8 @@
       "intent": "informational",
       "priority": 1,
       "status": "todo",
-      "source": "demand-wave2 #8 / seo-topics G1 / legal audit 2026-09",
-      "notes": "Legal content audit: the Swiss test is domicile or stay (30 days with gainful activity / 90 days without), not 183 days. Explain treaty tie-breakers. Never present 183 days as the Swiss test."
+      "source": "demand-wave2 #8 / seo-topics G1 / legal audit 2026-09 / audit-2026-09-30 topic 1",
+      "notes": "Legal content audit: the Swiss test is domicile or stay (30 days with gainful activity / 90 days without), not 183 days. Explain treaty tie-breakers. Never present 183 days as the Swiss test. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §1."
     },
     {
       "slug": "how-much-wealth-to-move-to-switzerland",
@@ -105,7 +105,7 @@
       "source": "demand-wave2 #10 / seo-topics G2"
     },
     {
-      "slug": "non-eu-founder-self-employed-permit",
+      "slug": "self-employed-permit-non-eu",
       "title": "Setting up a business as a non-EU founder: the self-employed permit route",
       "audience": "client",
       "category": "residence-permits",
@@ -127,11 +127,11 @@
       "intent": "informational",
       "priority": 1,
       "status": "todo",
-      "source": "legal audit 2026-09",
-      "notes": "Company formation does not by itself give residence: explain the self-employed permit route (art. 19 AIG, economic interest). Personal permit angle only; company formation belongs to ark-fid.ch."
+      "source": "legal audit 2026-09 / audit-2026-09-30 topic 4",
+      "notes": "Company formation does not by itself give residence: explain the self-employed permit route (art. 19 AIG, economic interest). Personal permit angle only; company formation belongs to ark-fid.ch. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §4."
     },
     {
-      "slug": "swiss-permit-schengen-eu-rights",
+      "slug": "swiss-permit-schengen-travel",
       "title": "What a Swiss residence permit does and doesn't give you in Europe",
       "audience": "client",
       "category": "residence-permits",
@@ -153,8 +153,8 @@
       "intent": "informational",
       "priority": 1,
       "status": "todo",
-      "source": "legal audit 2026-09",
-      "notes": "Schengen travel vs EU residence rights (Schengen vs EU rights, ETIAS). ETIAS status must be cited from europa.eu with its as-of date."
+      "source": "legal audit 2026-09 / audit-2026-09-30 topic 5",
+      "notes": "Schengen travel vs EU residence rights (Schengen vs EU rights, ETIAS). ETIAS status must be cited from europa.eu with its as-of date. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §5. Do not state the ETIAS fee (pricing guardrail)."
     },
     {
       "slug": "no-golden-visa-switzerland-adviser-brief",
@@ -204,6 +204,217 @@
       "priority": 2,
       "status": "todo",
       "source": "demand-wave2 #11 / seo-topics C2"
+    },
+    {
+      "slug": "relocation-services-switzerland",
+      "title": "Relocation services in Switzerland: what a relocation agent does (and what we coordinate)",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "relocation services switzerland",
+          "relocation agency switzerland",
+          "relocation agent switzerland"
+        ],
+        "fr": [
+          "services de relocation suisse",
+          "agence de relocation suisse",
+          "agence relocation genève"
+        ],
+        "de": [
+          "relocation service schweiz",
+          "relocation agentur schweiz",
+          "umzug in die schweiz hilfe"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 1,
+      "status": "todo",
+      "source": "codex review 2026-09-30",
+      "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices."
+    },
+    {
+      "slug": "destination-services-vs-relocation-agency",
+      "title": "Destination services vs relocation agency: choosing support for a family move",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "destination services switzerland",
+          "destination services vs relocation",
+          "relocation agency switzerland"
+        ],
+        "fr": [
+          "destination services suisse",
+          "agence de relocation ou destination services"
+        ],
+        "de": [
+          "destination services schweiz",
+          "relocation service schweiz vergleich"
+        ]
+      },
+      "intent": "comparison",
+      "priority": 1,
+      "status": "todo",
+      "source": "codex review 2026-09-30",
+      "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices."
+    },
+    {
+      "slug": "orientation-visit-switzerland",
+      "title": "Orientation visit before moving to Switzerland: how to plan it",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "orientation visit switzerland",
+          "look-see visit switzerland relocation",
+          "visit before moving to switzerland"
+        ],
+        "fr": [
+          "voyage de reconnaissance suisse",
+          "visite d'orientation avant déménagement en suisse"
+        ],
+        "de": [
+          "orientierungsbesuch schweiz",
+          "look and see trip schweiz umzug"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "codex review 2026-09-30",
+      "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices."
+    },
+    {
+      "slug": "moving-household-goods-and-pets-switzerland",
+      "title": "Moving household goods and pets to Switzerland",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "moving household goods switzerland customs",
+          "moving to switzerland with pets",
+          "relocation goods switzerland duty free"
+        ],
+        "fr": [
+          "effets de déménagement suisse douane",
+          "déménager en suisse avec un chien"
+        ],
+        "de": [
+          "umzugsgut schweiz zoll",
+          "mit hund in die schweiz",
+          "umzug in die schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "codex review 2026-09-30",
+      "notes": "Customs: legal-facts §4 (relocation goods, 6-month use). Pets: cite blv.admin.ch / bazg.admin.ch only."
+    },
+    {
+      "slug": "school-admissions-switzerland-timeline",
+      "title": "School admissions in Switzerland: a timeline for international families",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "school admission switzerland timeline",
+          "international school admission switzerland",
+          "when to apply to schools in switzerland"
+        ],
+        "fr": [
+          "inscription école internationale suisse délai",
+          "admission école suisse expatrié"
+        ],
+        "de": [
+          "schulanmeldung schweiz zuzug",
+          "internationale schule schweiz anmeldung"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "codex review 2026-09-30",
+      "notes": "No fees or waiting-list figures. School list in legal-facts is UNVERIFIED for status: describe steps, not schools. Geneva schooling belongs to ridger.ch: keep it national."
+    },
+    {
+      "slug": "executive-relocation-switzerland-hr",
+      "title": "Executive relocation to Switzerland: notes for HR and mobility teams",
+      "audience": "adviser",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "executive relocation switzerland",
+          "corporate relocation switzerland",
+          "relocation services switzerland employees"
+        ],
+        "fr": [
+          "relocation de cadres en suisse",
+          "mobilité internationale suisse rh"
+        ],
+        "de": [
+          "relocation service schweiz mitarbeitende",
+          "entsendung schweiz hr"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "codex review 2026-09-30",
+      "notes": "Employed route via partners: permits for employees in general terms (quotas from the audit), what the employer handles and what a relocation partner coordinates. Work permits/ANOBAG belong to ark-fid.ch: no procedure detail. Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices."
+    },
+    {
+      "slug": "moving-to-geneva",
+      "title": "Moving to Geneva: what international families should know",
+      "audience": "client",
+      "category": "where-to-live",
+      "keywords": {
+        "en": [
+          "moving to geneva",
+          "relocating to geneva",
+          "relocation services geneva"
+        ],
+        "fr": [
+          "s'installer à genève",
+          "déménager à genève",
+          "agence de relocation genève"
+        ],
+        "de": [
+          "umzug nach genf",
+          "wohnen in genf"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "codex review 2026-09-30",
+      "notes": "ridger.ch owns Geneva schooling and the Geneva work/residence permit guide: keep to arrival, lump-sum status (legal-facts §1.7), areas and daily life."
+    },
+    {
+      "slug": "switzerland-eu-package-bilaterals-iii",
+      "title": "The Switzerland–EU package (Bilaterals III): what it could change for new residents",
+      "audience": "client",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "switzerland eu bilaterals iii",
+          "switzerland eu agreement 2026 free movement"
+        ],
+        "fr": [
+          "paquet suisse-ue bilatérales iii",
+          "accords bilatéraux III libre circulation"
+        ],
+        "de": [
+          "bilaterale iii schweiz eu",
+          "paket schweiz eu personenfreizügigkeit"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "audit-2026-09-30 topic 7",
+      "notes": "Watch page. research/audit-2026-09-30.md, 'Missing topics worth a page' §7: not in force; label everything as proposals with dates."
     },
     {
       "slug": "uk-pension-moving-to-switzerland",
@@ -304,7 +515,7 @@
       "notes": "Onboarding for movers only; custodian-bank selection belongs to ridger.ch."
     },
     {
-      "slug": "family-members-swiss-permit",
+      "slug": "family-reunification-switzerland",
       "title": "Family reunification in Switzerland: EU/EFTA vs non-EU rules",
       "audience": "client",
       "category": "residence-permits",
@@ -326,7 +537,8 @@
       "intent": "informational",
       "priority": 1,
       "status": "todo",
-      "source": "demand-wave2 #18 / legal audit 2026-09"
+      "source": "demand-wave2 #18 / legal audit 2026-09 / audit-2026-09-30 topic 3",
+      "notes": "Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §3."
     },
     {
       "slug": "switzerland-vs-dubai",
@@ -716,8 +928,8 @@
       "notes": "The individual-taxation reform is not in legal-facts: only mention it if an official source is cited, and label proposals as proposals."
     },
     {
-      "slug": "swiss-c-permit-settlement",
-      "title": "The Swiss C permit: when new residents can settle permanently",
+      "slug": "swiss-c-permit-by-nationality",
+      "title": "The Swiss C permit: when you can settle, by nationality",
       "audience": "client",
       "category": "residence-permits",
       "keywords": {
@@ -736,9 +948,10 @@
         ]
       },
       "intent": "informational",
-      "priority": 2,
+      "priority": 1,
       "status": "todo",
-      "source": "extension (legal-facts §2.6)"
+      "source": "extension (legal-facts §2.6) / audit-2026-09-30 topic 6",
+      "notes": "Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §6 (5 vs 10 years by nationality, early C: B1 oral / A1 written). Must add depth beyond swiss-permits-explained."
     },
     {
       "slug": "uk-citizens-swiss-residence-after-brexit",
@@ -814,23 +1027,23 @@
       "source": "extension (legal-facts §4)"
     },
     {
-      "slug": "importing-car-household-goods-switzerland",
-      "title": "Importing your car and household goods to Switzerland duty-free",
+      "slug": "importing-car-to-switzerland",
+      "title": "Importing your car to Switzerland when you move",
       "audience": "client",
       "category": "settling-in",
       "keywords": {
         "en": [
           "import car to switzerland",
-          "moving household goods switzerland customs",
-          "relocation goods switzerland duty free"
+          "bring car to switzerland when moving",
+          "automobile tax relocation switzerland"
         ],
         "fr": [
-          "effets de déménagement suisse douane",
-          "importer voiture en suisse déménagement"
+          "importer voiture en suisse déménagement",
+          "dédouaner voiture suisse"
         ],
         "de": [
-          "umzugsgut schweiz zoll",
-          "auto in die schweiz einführen umzug"
+          "auto in die schweiz einführen umzug",
+          "auto verzollen schweiz umzug"
         ]
       },
       "intent": "informational",
@@ -981,29 +1194,30 @@
       "source": "demand-wave2 #16 (partner angle)"
     },
     {
-      "slug": "living-in-zug-and-schwyz",
-      "title": "Zug, Schwyz and central Switzerland for international families",
+      "slug": "moving-to-zug",
+      "title": "Moving to Zug: tax, schools and life in central Switzerland",
       "audience": "client",
       "category": "where-to-live",
       "keywords": {
         "en": [
+          "moving to zug",
           "living in zug",
-          "moving to zug switzerland",
-          "schwyz tax"
+          "zug tax for new residents"
         ],
         "fr": [
-          "vivre à zoug",
-          "s'installer à zoug"
+          "s'installer à zoug",
+          "vivre à zoug"
         ],
         "de": [
+          "umzug nach zug",
           "wohnen in zug",
-          "wohnen in schwyz steuern"
+          "zuzug kanton zug steuern"
         ]
       },
       "intent": "informational",
-      "priority": 2,
+      "priority": 1,
       "status": "todo",
-      "source": "seo-topics E3"
+      "source": "seo-topics E3 / codex review (city intent)"
     },
     {
       "slug": "alpine-living-gstaad-verbier-st-moritz",
@@ -1031,75 +1245,81 @@
       "source": "seo-topics E4"
     },
     {
-      "slug": "living-in-zurich-without-lump-sum",
-      "title": "Living in Zurich without lump-sum taxation",
+      "slug": "moving-to-zurich",
+      "title": "Moving to Zurich: what new residents should know",
       "audience": "client",
       "category": "where-to-live",
       "keywords": {
         "en": [
-          "moving to zurich wealthy",
+          "moving to zurich",
+          "relocating to zurich",
           "zurich tax for new residents"
         ],
         "fr": [
-          "s'installer à zurich fiscalité"
+          "s'installer à zurich",
+          "déménager à zurich"
         ],
         "de": [
-          "wohnsitz zürich steuern zuzug",
-          "zürich ordentliche besteuerung vermögende"
+          "umzug nach zürich",
+          "zuzug zürich steuern"
         ]
       },
       "intent": "informational",
-      "priority": 2,
+      "priority": 1,
       "status": "todo",
-      "source": "extension (legal-facts §1.6)"
+      "source": "extension (legal-facts §1.6) / codex review (city intent)",
+      "notes": "Zurich abolished lump-sum taxation (legal-facts §1.6): explain ordinary taxation plainly."
     },
     {
-      "slug": "moving-to-ticino",
-      "title": "Moving to Ticino: Lugano, Locarno and the lakes",
+      "slug": "moving-to-lugano",
+      "title": "Moving to Lugano and Ticino",
       "audience": "client",
       "category": "where-to-live",
       "keywords": {
         "en": [
+          "moving to lugano",
           "moving to ticino",
           "living in lugano"
         ],
         "fr": [
-          "vivre au tessin",
-          "s'installer à lugano"
+          "s'installer à lugano",
+          "vivre au tessin"
         ],
         "de": [
-          "auswandern tessin",
-          "wohnen in lugano"
+          "umzug nach lugano",
+          "auswandern tessin"
         ]
       },
       "intent": "informational",
-      "priority": 3,
+      "priority": 1,
       "status": "todo",
-      "source": "seo-topics E5"
+      "source": "seo-topics E5 / codex review (city intent)"
     },
     {
-      "slug": "living-in-lausanne-and-montreux",
-      "title": "Lausanne, Montreux and the Vaud Riviera for new residents",
+      "slug": "moving-to-lausanne-lake-geneva",
+      "title": "Moving to Lausanne and the Lake Geneva Riviera",
       "audience": "client",
       "category": "where-to-live",
       "keywords": {
         "en": [
-          "living in lausanne",
-          "living in montreux"
+          "moving to lausanne",
+          "living on the lake geneva riviera",
+          "moving to montreux"
         ],
         "fr": [
-          "vivre à lausanne",
-          "s'installer sur la riviera vaudoise"
+          "s'installer à lausanne",
+          "vivre sur la riviera vaudoise",
+          "déménager à lausanne"
         ],
         "de": [
-          "wohnen in lausanne",
-          "wohnen in montreux"
+          "umzug nach lausanne",
+          "wohnen am genfersee"
         ]
       },
       "intent": "informational",
-      "priority": 3,
+      "priority": 1,
       "status": "todo",
-      "source": "extension (seo-topics E2 follow-up)"
+      "source": "extension (seo-topics E2 follow-up) / codex review (city intent)"
     },
     {
       "slug": "living-in-lucerne",
@@ -1635,7 +1855,7 @@
       "notes": "Number of Swiss DTAs is UNVERIFIED: do not state a count."
     },
     {
-      "slug": "swiss-citizenship-after-residence",
+      "slug": "swiss-citizenship-naturalisation",
       "title": "Swiss citizenship for new residents: 10 years, C permit, language B1/A2",
       "audience": "client",
       "category": "residence-permits",
@@ -1656,8 +1876,8 @@
       "intent": "informational",
       "priority": 1,
       "status": "todo",
-      "source": "seo-topics B7 / legal audit 2026-09",
-      "notes": "Legal content audit: naturalisation needs a C permit and 10 years of residence; language B1 oral / A2 written. Cite fedlex (BüG/BüV) and sem.admin.ch only."
+      "source": "seo-topics B7 / legal audit 2026-09 / audit-2026-09-30 topic 2",
+      "notes": "Legal content audit: naturalisation needs a C permit and 10 years of residence; language B1 oral / A2 written. Cite fedlex (BüG/BüV) and sem.admin.ch only. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §2."
     },
     {
       "slug": "client-intake-questions-swiss-move",
@@ -1699,7 +1919,7 @@
         ]
       },
       "intent": "informational",
-      "priority": 3,
+      "priority": 1,
       "status": "todo",
       "source": "seo-topics F5",
       "notes": "No invented budgets: only cite official statistics (bfs.admin.ch) or describe cost categories without figures."
@@ -1725,9 +1945,9 @@
       },
       "intent": "informational",
       "priority": 3,
-      "status": "todo",
+      "status": "skipped",
       "source": "seo-topics F7",
-      "notes": "Cite blv.admin.ch / bazg.admin.ch only."
+      "notes": "Merged into moving-household-goods-and-pets-switzerland."
     },
     {
       "slug": "swiss-driving-licence-exchange",
@@ -1800,25 +2020,29 @@
     },
     {
       "slug": "hiring-household-staff-switzerland",
-      "title": "Hiring household staff in Switzerland",
+      "title": "Hiring household staff after the move",
       "audience": "client",
       "category": "settling-in",
       "keywords": {
         "en": [
-          "hire housekeeper switzerland"
+          "hire housekeeper switzerland",
+          "household staff switzerland",
+          "employing a nanny in switzerland"
         ],
         "fr": [
-          "employer du personnel de maison suisse"
+          "employer du personnel de maison suisse",
+          "engager une nounou en suisse"
         ],
         "de": [
-          "hausangestellte schweiz anstellen"
+          "hausangestellte schweiz anstellen",
+          "nanny anstellen schweiz"
         ]
       },
       "intent": "informational",
-      "priority": 3,
-      "status": "skipped",
+      "priority": 1,
+      "status": "todo",
       "source": "seo-topics F6",
-      "notes": "ridger.ch owns household staff (demand-wave2 §5)."
+      "notes": "National angle (contracts, social insurance, permits in general terms); ridger.ch owns Geneva household staff, so no Geneva-specific staff guide. Cite admin.ch / ahv-iv.ch / seco only."
     },
     {
       "slug": "referring-a-client-to-switzerland",
@@ -1838,18 +2062,19 @@
       },
       "intent": "commercial",
       "priority": 1,
-      "status": "skipped",
+      "status": "todo",
       "source": "demand-wave2 #2",
-      "notes": "Commercial /for-advisers/ landing page with a partner form: build by hand, not as a guide."
+      "notes": "Adviser-oriented guide (the /for-advisers/ hub itself is built by hand). Relocation scope only: no family-office coordination (ridger.ch)."
     },
     {
-      "slug": "relocation-partners",
-      "title": "For relocation, destination-services and estate-agent partners",
+      "slug": "relocation-partners-switzerland",
+      "title": "Working with relocation, destination-services and estate-agent partners",
       "audience": "adviser",
       "category": "settling-in",
       "keywords": {
         "en": [
-          "relocation agent switzerland"
+          "relocation agent switzerland",
+          "relocation services switzerland partner"
         ],
         "fr": [
           "agence relocation genève"
@@ -1860,9 +2085,9 @@
       },
       "intent": "commercial",
       "priority": 2,
-      "status": "skipped",
+      "status": "todo",
       "source": "demand-wave2 #16",
-      "notes": "Partner landing page with a form: build by hand under /for-advisers/."
+      "notes": "Adviser-oriented guide (the /for-advisers/ hub itself is built by hand). Relocation scope only: no family-office coordination (ridger.ch)."
     }
   ]
 }

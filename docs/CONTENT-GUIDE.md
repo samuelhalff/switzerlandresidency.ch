@@ -51,6 +51,9 @@ category: "…"             # guides only: lump-sum-taxation | residence-permits
                           # property | where-to-live | settling-in | tax-and-wealth
 updated: "2026-09-30"
 draft: false
+keywords:                 # optional; written by the article pipeline (scripts/ai-article.mjs)
+  primary: "…"            # main search phrase in this language (used in title, description, opening)
+  secondary: ["…", "…"]   # 5–10 related/question searches; emitted in Article JSON-LD, never shown
 faq:
   - q: "…"
     a: "…"

@@ -13,6 +13,8 @@ export type Collection = (typeof collections)[number];
 
 export type FaqItem = { q: string; a: string };
 export type Source = { label: string; url: string };
+/** SEO keywords chosen by keyword research (frontmatter `keywords`); emitted in Article JSON-LD only. */
+export type Keywords = { primary: string; secondary: string[] };
 
 export type Entry = {
   collection: Collection;
@@ -27,8 +29,17 @@ export type Entry = {
   draft: boolean;
   faq: FaqItem[];
   sources: Source[];
+  keywords?: Keywords;
   body: string;
 };
+
+function toKeywords(value: unknown): Keywords | undefined {
+  if (!value || typeof value !== "object") return undefined;
+  const v = value as { primary?: unknown; secondary?: unknown };
+  if (typeof v.primary !== "string" || !v.primary.trim()) return undefined;
+  const secondary = Array.isArray(v.secondary) ? v.secondary.filter((k): k is string => typeof k === "string" && k.trim() !== "") : [];
+  return { primary: v.primary.trim(), secondary: secondary.map((k) => k.trim()) };
+}
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const cache = new Map<string, Entry[]>();
@@ -63,6 +74,7 @@ function readCollection(locale: Locale, collection: Collection): Entry[] {
         ? (data.faq as FaqItem[]).map((f) => ({ q: typeset(locale, f.q), a: typeset(locale, f.a) }))
         : [],
       sources: Array.isArray(data.sources) ? (data.sources as Source[]) : [],
+      keywords: toKeywords(data.keywords),
       body: typeset(locale, content),
     };
   });

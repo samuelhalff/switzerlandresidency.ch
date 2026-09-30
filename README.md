@@ -146,3 +146,87 @@ Repository variables: `NEXT_PUBLIC_*` (see above), optional `FTP_DIR` (web root 
 
 When HTTPS is live: set `NEXT_PUBLIC_NOINDEX=false`, switch the smoke test to `https://`, and
 uncomment HSTS in `public/.htaccess`.
+
+## Automated guides
+
+`.github/workflows/ai-articles.yml` writes one new guide in EN, FR and DE every 3 days
+(`0 5 */3 * *`, 05:00 UTC) and can be run by hand (Actions → "AI guides" → Run workflow, with
+`dry_run` and an optional backlog `slug`). The pipeline is modelled on ark-fid.ch's ressources job.
+
+How a run works (`scripts/ai-article.mjs`):
+
+1. **Topic** — from `content/backlog.json`: the highest-priority (`1` first, then file order) item
+   with `status: "todo"` whose slug is not yet in `content/en/guides/`. It never picks the same
+   category as the previous generated guide (tracked in `history`) unless only that category is
+   left. A `slug` input bypasses priority and diversity.
+2. **Keywords and trends** (best effort, never fails the run) — Google autocomplete for the backlog
+   keywords and question forms in en-GB/US/AE/SG, fr-CH/FR/BE, de-CH/DE/AT, plus Google "trending
+   now" for CH/GB/FR/DE/AE. Candidates become a primary and 5–10 secondary keywords per language.
+3. **Facts** — `research/legal-facts.md` (read whole at run time) plus the verified sections of
+   every `research/audit-*.md`, with every UNVERIFIED sentence removed. If a research model is
+   configured, its facts are kept only when the official page it cites confirms them when fetched.
+4. **Writing** — Azure OpenAI chat completions: outline → EN draft (following
+   `docs/CONTENT-GUIDE.md`, with the internal-link list generated from the content files) → FR and
+   DE in one pass each (following `docs/TRANSLATION-GUIDE.md`). Each step is repaired up to
+   3 times with the failed checks fed back.
+5. **Guardrails** (`scripts/validate-new-article.mjs`, run again as its own workflow step) —
+   frontmatter complete incl. `keywords`; title ≤ 60 and description 140–155 characters; 1,100–2,000
+   words (EN; 950–2,400 for FR/DE); Key facts box, ≥ 2 question H2s, "How we help", disclaimer;
+   ≥ 3 internal links that all resolve plus a CTA to the eligibility check or contact; ≥ 3 sources,
+   ≥ 2 official, all on the allowed-domain list (`scripts/lib/source-policy.mjs`); no pricing
+   language, email addresses, guarantee/garanti/garantiert or UNVERIFIED; the legal-audit phrases
+   ("183 days" as the Swiss test, "5× rent", "residency by investment", "minimum tax of CHF 435,000",
+   unqualified "no inheritance/wealth tax"); every CHF/€/% figure found in the fact base; no
+   figure that exists only as UNVERIFIED; the same numbers in EN, FR and DE (thousands `,` `'`
+   space, decimal comma normalised); and the full `node scripts/validate-content.mjs`. Any failure
+   deletes the three files, so nothing is committed, and the job fails with the reasons.
+6. **Publish** — `npm test` and `npm run build`, then commit
+   `content(guides): <title> (EN/FR/DE)` (the three files + `content/backlog.json`, item marked
+   `done`) and push to `main`. With `PAT_TOKEN` the push starts "Build and deploy"; without it the
+   job starts `deploy.yml` itself. Only when the repository variable `NEXT_PUBLIC_NOINDEX` is not
+   `true` (unset counts as `true`), the job waits for the page to go live, pings the sitemap and
+   submits the EN/FR/DE URLs to IndexNow.
+
+Local runs: `node scripts/ai-article.mjs --dry-run` prints the topic, keywords and outline and
+writes nothing (with Azure credentials exported it asks the model for the outline; without, it
+prints a template outline). `--apply` generates and writes; `--offline` skips keyword research.
+`node scripts/validate-new-article.mjs --slug <slug>` re-checks a guide. Unit tests live in
+`scripts/lib/*.test.mjs` (part of `npm test`).
+
+**Secrets** (Settings → Secrets and variables → Actions):
+
+| Name | Kind | Needed |
+|---|---|---|
+| `AZURE_OPENAI_ENDPOINT` | secret | yes, e.g. `https://<resource>.openai.azure.com/` |
+| `AZURE_OPENAI_API_KEY` | secret | yes |
+| `AZURE_OPENAI_DEPLOYMENT` | secret | yes, e.g. `gpt-4.1` or `gpt-5.2` |
+| `AZURE_OPENAI_API_VERSION` | secret | yes, e.g. `2025-01-01-preview` |
+| `PAT_TOKEN` | secret | optional; fine-grained token with contents write on this repo, so the push itself triggers the deploy |
+| `INDEXNOW_KEY` | secret | optional; by default the committed key file `public/<key>.txt` is used. If you set it, deploy a matching `public/<key>.txt` too |
+| `AZURE_OPENAI_RESEARCH_ENDPOINT`, `AZURE_OPENAI_RESEARCH_API_KEY` | secret | optional research model (key defaults to the main one) |
+| `AZURE_OPENAI_RESEARCH_DEPLOYMENT`, `AZURE_OPENAI_RESEARCH_API_VERSION`, `AZURE_OPENAI_TRANSLATE_DEPLOYMENT` | variable | optional |
+
+**Adding topics:** append an item to `content/backlog.json`:
+
+```json
+{
+  "slug": "moving-to-basel",
+  "title": "Moving to Basel: what new residents should know",
+  "audience": "client",
+  "category": "where-to-live",
+  "keywords": { "en": ["moving to basel"], "fr": ["s'installer à bâle"], "de": ["umzug nach basel"] },
+  "intent": "informational",
+  "priority": 2,
+  "status": "todo",
+  "source": "why this topic",
+  "notes": "optional guidance for the writer (angle, facts to avoid)"
+}
+```
+
+`audience` is `client` or `adviser`; `category` is one of the 7 guide categories; `priority` is
+1–3; `status` is `todo`, `done` or `skipped`. Put the most important search phrase first in each
+`keywords` list and keep the slug keyword-led. `npm test` validates the backlog. Facts the guide
+needs must be in `research/legal-facts.md` (or a verified `research/audit-*.md` section) first.
+
+**Pausing:** Actions → "AI guides (every 3 days)" → ⋯ → Disable workflow (or
+`gh workflow disable ai-articles.yml`). To skip one topic, set its `status` to `skipped`.

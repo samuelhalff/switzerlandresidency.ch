@@ -135,6 +135,13 @@ for (const locale of LOCALES) {
         data.sources.forEach((s, i) => {
           if (!s?.label || !/^https?:\/\//.test(s?.url ?? "")) fail(`content: ${rel} sources[${i}] needs label and absolute url`);
         });
+      // optional SEO keywords (written by the article pipeline; emitted in Article JSON-LD)
+      if (data.keywords !== undefined) {
+        const kw = data.keywords;
+        if (!kw || typeof kw.primary !== "string" || !kw.primary.trim()) fail(`content: ${rel} keywords.primary must be a non-empty string`);
+        if (!Array.isArray(kw?.secondary) || kw.secondary.some((k) => typeof k !== "string" || !k.trim()))
+          fail(`content: ${rel} keywords.secondary must be an array of non-empty strings`);
+      }
       if (data.faq !== undefined) {
         if (!Array.isArray(data.faq)) fail(`content: ${rel} "faq" must be an array of {q, a}`);
         else data.faq.forEach((q, i) => (!q?.q || !q?.a) && fail(`content: ${rel} faq[${i}] needs q and a`));

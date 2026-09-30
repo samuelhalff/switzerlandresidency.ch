@@ -87,6 +87,12 @@ export function articleLd(entry: Entry, url: string) {
     author: { "@id": ORG_ID },
     publisher: { "@id": ORG_ID },
     ...(entry.sources.length ? { citation: entry.sources.map((s) => s.url) } : {}),
+    ...(entry.keywords
+      ? {
+          keywords: [entry.keywords.primary, ...entry.keywords.secondary].join(", "),
+          about: { "@type": "Thing", name: entry.keywords.primary },
+        }
+      : {}),
   };
 }
 
