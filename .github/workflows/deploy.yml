@@ -1,0 +1,92 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL || 'https://switzerlandresidency.ch' }}
+      # Keep "true" until HTTPS is live (noindex + robots Disallow).
+      NEXT_PUBLIC_NOINDEX: ${{ vars.NEXT_PUBLIC_NOINDEX || 'true' }}
+      NEXT_PUBLIC_GA_ID: ${{ vars.NEXT_PUBLIC_GA_ID }}
+      NEXT_PUBLIC_FORMSPARK_ID: ${{ vars.NEXT_PUBLIC_FORMSPARK_ID || secrets.NEXT_PUBLIC_FORMSPARK_ID }}
+      NEXT_PUBLIC_WHATSAPP: ${{ vars.NEXT_PUBLIC_WHATSAPP || secrets.NEXT_PUBLIC_WHATSAPP }}
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build # prebuild runs scripts/validate-content.mjs
+
+      - name: Check export
+        run: |
+          test -f out/en/index.html
+          test -f out/404.html
+          test -f out/.htaccess
+
+      - name: Install lftp
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      - name: Deploy over FTPS (explicit TLS)
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_PORT: ${{ secrets.FTP_PORT }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+          # Web root relative to the FTP login directory (repo variable; default: the login directory).
+          FTP_DIR: ${{ vars.FTP_DIR || './' }}
+        run: |
+          # The host's FTP certificate is broken, so verification is off; the channel is still encrypted.
+          # Protected paths on the server are never touched: the old site archive, quota file,
+          # ACME challenges, cgi-bin and .htaccess backups.
+          lftp -u "$FTP_USER","$FTP_PASS" -p "${FTP_PORT:-21}" "$FTP_HOST" <<LFTP
+          set ftp:ssl-force true
+          set ftp:ssl-protect-data true
+          set ssl:verify-certificate no
+          set net:max-retries 3
+          set net:timeout 30
+          mirror --reverse --delete --verbose --parallel=4 \
+            --exclude-glob _archive-* \
+            --exclude-glob .ftpquota \
+            --exclude-glob .well-known/ \
+            --exclude-glob cgi-bin/ \
+            --exclude-glob .htaccess.bak* \
+            out/ "$FTP_DIR"
+          bye
+          LFTP
+
+      - name: Smoke test (HTTP until HTTPS is live)
+        run: |
+          set -u
+          base="http://switzerlandresidency.ch"
+          fail=0
+          check() {
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$base$1")
+            if [ "$code" = "$2" ]; then echo "OK   $1 → $code"; else echo "FAIL $1 → $code (expected $2)"; fail=1; fi
+          }
+          sleep 5
+          check /en/ 200
+          check /fr/ 200
+          check /de/ 200
+          check /_archive-2026-09-30/index.php 403
+          exit $fail
