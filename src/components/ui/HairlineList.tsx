@@ -52,7 +52,9 @@ export function HairlineRow({
     </>
   );
   const row =
-    "flex items-start gap-6 py-7 transition-colors duration-500 sm:items-center sm:py-9 hover:bg-[linear-gradient(90deg,rgb(var(--accent)/0.06),transparent_70%)]";
+    // Negative margin + matching padding: text stays aligned with the section heading while the
+    // hover wash gets breathing room around it.
+    "-mx-4 flex items-start gap-6 px-4 py-7 transition-colors duration-500 sm:-mx-6 sm:items-center sm:rounded-sm sm:px-6 sm:py-9 hover:bg-[linear-gradient(90deg,rgb(var(--accent)/0.07),transparent_75%)]";
   return (
     <li className="border-b border-line" data-reveal="">
       {href ? (
