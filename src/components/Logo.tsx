@@ -17,7 +17,8 @@ export function LogoMark({ className = "" }: { className?: string }) {
       aria-hidden="true"
       focusable="false"
     >
-      <path d="M2 20 L12 9 L18 15 L25 6 L42 20" />
+      {/* Warm accent on the ridge (umber in light, clay in dark); lake line stays neutral. */}
+      <path d="M2 20 L12 9 L18 15 L25 6 L42 20" stroke="rgb(var(--logo-accent, var(--accent)))" />
       <path d="M2 25 H42" opacity="0.55" />
     </svg>
   );

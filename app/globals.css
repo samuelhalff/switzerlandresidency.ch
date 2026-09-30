@@ -79,6 +79,7 @@
 .on-dark,
 body:has([data-hero-overlay]) .site-header:not([data-solid]):not([data-menu-open]) {
   --ink: var(--on-image);
+  --logo-accent: var(--em); /* logo ridge stays visible on photos */
   --muted: 232 224 212;
   --line: 196 186 172;
   --em: 240 206 172;
