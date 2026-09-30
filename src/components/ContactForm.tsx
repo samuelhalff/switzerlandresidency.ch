@@ -4,6 +4,9 @@ import { useEffect, useState, type FormEvent } from "react";
 import { trackEvent } from "@/lib/analytics";
 import { CHECK_STORAGE_KEY, type StoredCheck } from "@/lib/eligibility";
 import type { Messages } from "@/lib/i18n";
+import Button from "./ui/Button";
+import Card from "./ui/Card";
+import IconBadge from "./ui/IconBadge";
 
 type Labels = Messages["contact"]["form"];
 type Status = "idle" | "sending" | "success" | "error";
@@ -45,21 +48,22 @@ export default function ContactForm({ labels, locale, formsparkId, email, privac
 
   if (!formsparkId) {
     return (
-      <div className="card">
+      <Card padding="lg">
         <p>{labels.fallbackText}</p>
-        <a href={`mailto:${email}`} className="btn btn-primary mt-5">
+        <Button href={`mailto:${email}`} className="mt-6 self-start">
           {email}
-        </a>
-      </div>
+        </Button>
+      </Card>
     );
   }
 
   if (status === "success") {
     return (
-      <div className="card" role="status" aria-live="polite">
-        <h2 className="text-2xl">{labels.successTitle}</h2>
+      <Card tone="sage" padding="lg" role="status" aria-live="polite">
+        <IconBadge icon="check" tone="surface" />
+        <h2 className="mt-5 text-2xl">{labels.successTitle}</h2>
         <p className="mt-3 text-muted">{labels.successText}</p>
-      </div>
+      </Card>
     );
   }
 
@@ -116,9 +120,10 @@ export default function ContactForm({ labels, locale, formsparkId, email, privac
 
   const label = "block text-sm font-medium";
   return (
-    <form onSubmit={onSubmit} noValidate className="card space-y-5">
+    <Card padding="lg">
+    <form onSubmit={onSubmit} noValidate className="space-y-5">
       {check ? (
-        <div className="rounded-xl border border-line bg-sand p-4 text-sm">
+        <div className="rounded-tile bg-blush p-5 text-sm">
           <p className="font-medium">{labels.checkAttached}</p>
           <ul className="mt-2 list-disc space-y-1 pl-5 text-muted">
             {check.summary.map((line) => (
@@ -215,9 +220,10 @@ export default function ContactForm({ labels, locale, formsparkId, email, privac
         </p>
       ) : null}
 
-      <button type="submit" className="btn btn-primary w-full sm:w-auto" disabled={status === "sending"}>
+      <Button type="submit" size="lg" fullWidth="mobile" disabled={status === "sending"}>
         {status === "sending" ? labels.sending : labels.submit}
-      </button>
+      </Button>
     </form>
+    </Card>
   );
 }

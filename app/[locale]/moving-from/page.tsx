@@ -3,6 +3,7 @@ import { getLocale, staticMetadata, type LocaleParams } from "@/lib/page";
 import PageHeader from "@/components/PageHeader";
 import { OriginGrid } from "@/components/Cards";
 import CtaBand from "@/components/CtaBand";
+import Section from "@/components/ui/Section";
 
 export const generateMetadata = staticMetadata("/moving-from/", "origins.title", "origins.description");
 
@@ -14,11 +15,12 @@ export default async function MovingFromPage({ params }: { params: LocaleParams 
         locale={locale}
         title={t(locale, "origins.title")}
         intro={t(locale, "origins.intro")}
+        image="familyLife"
         crumbs={[{ label: t(locale, "nav.movingFrom"), path: "/moving-from/" }]}
       />
-      <section className="container-page section">
+      <Section spacing="md" className="pb-24 sm:pb-28">
         <OriginGrid locale={locale} />
-      </section>
+      </Section>
       <CtaBand locale={locale} />
     </>
   );

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { CONSENT_EVENT, readConsent, writeConsent, type ConsentValue } from "@/lib/consent";
+import Button from "./ui/Button";
 
 type Props = {
   gaId: string;
@@ -61,7 +62,7 @@ export default function CookieBanner({ gaId, text, accept, decline, more, label,
     <div
       role="region"
       aria-label={label}
-      className="fixed inset-x-0 bottom-0 z-50 border-t border-line bg-surface/95 px-4 py-4 shadow-[0_-8px_30px_-20px_rgba(0,0,0,0.5)] backdrop-blur"
+      className="fixed inset-x-3 bottom-3 z-50 rounded-card bg-surface/95 px-5 py-4 shadow-lift backdrop-blur sm:inset-x-6 sm:bottom-6"
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-ink">
@@ -71,12 +72,12 @@ export default function CookieBanner({ gaId, text, accept, decline, more, label,
           </a>
         </p>
         <div className="flex shrink-0 gap-2">
-          <button type="button" className="btn btn-secondary py-2" onClick={() => choose("denied")}>
+          <Button variant="secondary" size="sm" onClick={() => choose("denied")}>
             {decline}
-          </button>
-          <button type="button" className="btn btn-primary py-2" onClick={() => choose("granted")}>
+          </Button>
+          <Button size="sm" onClick={() => choose("granted")}>
             {accept}
-          </button>
+          </Button>
         </div>
       </div>
     </div>

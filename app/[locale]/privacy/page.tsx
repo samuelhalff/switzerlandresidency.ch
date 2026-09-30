@@ -2,6 +2,7 @@ import { getMessages, t } from "@/lib/i18n";
 import { GA_ID } from "@/lib/site";
 import { getLocale, staticMetadata, type LocaleParams } from "@/lib/page";
 import PageHeader from "@/components/PageHeader";
+import Section from "@/components/ui/Section";
 import LegalText from "@/components/LegalText";
 import CookieSettingsButton from "@/components/CookieSettingsButton";
 
@@ -23,14 +24,14 @@ export default async function PrivacyPage({ params }: { params: LocaleParams }) 
           {t(locale, "privacy.updatedLabel")}: <time dateTime={UPDATED}>{UPDATED}</time>
         </p>
       </PageHeader>
-      <section className="container-page section">
+      <Section spacing="sm" container="narrow" className="pb-24 sm:pb-28">
         <LegalText sections={getMessages(locale).privacy.sections} />
         {GA_ID ? (
           <div className="mt-8">
-            <CookieSettingsButton className="btn btn-secondary" label={t(locale, "footer.cookieSettings")} />
+            <CookieSettingsButton variant="button" label={t(locale, "footer.cookieSettings")} />
           </div>
         ) : null}
-      </section>
+      </Section>
     </>
   );
 }

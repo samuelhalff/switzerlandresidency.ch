@@ -3,6 +3,7 @@ import { getLocale, staticMetadata, type LocaleParams } from "@/lib/page";
 import PageHeader from "@/components/PageHeader";
 import { ServiceGrid } from "@/components/Cards";
 import CtaBand from "@/components/CtaBand";
+import Section from "@/components/ui/Section";
 
 export const generateMetadata = staticMetadata("/services/", "services.title", "services.description");
 
@@ -14,11 +15,12 @@ export default async function ServicesPage({ params }: { params: LocaleParams })
         locale={locale}
         title={t(locale, "services.title")}
         intro={t(locale, "services.intro")}
+        image="homeLakeside"
         crumbs={[{ label: t(locale, "nav.services"), path: "/services/" }]}
       />
-      <section className="container-page section">
+      <Section spacing="md" className="pb-24 sm:pb-28">
         <ServiceGrid locale={locale} />
-      </section>
+      </Section>
       <CtaBand locale={locale} />
     </>
   );

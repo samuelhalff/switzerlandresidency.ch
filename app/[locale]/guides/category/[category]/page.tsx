@@ -6,6 +6,7 @@ import { pageMetadata } from "@/lib/seo";
 import PageHeader from "@/components/PageHeader";
 import GuideIndex, { guideCategories } from "@/components/GuideIndex";
 import CtaBand from "@/components/CtaBand";
+import Section from "@/components/ui/Section";
 
 type Params = Promise<{ locale: string; category: string }>;
 
@@ -44,14 +45,15 @@ export default async function GuideCategoryPage({ params }: { params: Params }) 
         locale={locale}
         title={cat.label}
         intro={t(locale, "guides.categoryIntro")}
+        image="vineyards"
         crumbs={[
           { label: t(locale, "nav.guides"), path: "/guides/" },
           { label: cat.label, path: `/guides/category/${cat.key}/` },
         ]}
       />
-      <section className="container-page section">
+      <Section spacing="md" className="pb-24 sm:pb-28">
         <GuideIndex locale={locale} category={cat.key} />
-      </section>
+      </Section>
       <CtaBand locale={locale} />
     </>
   );

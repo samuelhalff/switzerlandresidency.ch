@@ -20,6 +20,10 @@ import {
   type Timeline,
 } from "@/lib/eligibility";
 import { format, type Messages } from "@/lib/i18n";
+import Button from "./ui/Button";
+import Card from "./ui/Card";
+import Chip from "./ui/Chip";
+import IconBadge from "./ui/IconBadge";
 
 type Props = {
   labels: Messages["check"];
@@ -52,8 +56,10 @@ function Choice({
 }) {
   return (
     <label
-      className={`flex min-h-[52px] cursor-pointer items-center gap-3 rounded-xl border px-4 py-3 transition-colors has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-[var(--focus)] ${
-        checked ? "border-accent bg-sand" : "border-line bg-surface hover:border-ink/50"
+      className={`flex min-h-[54px] cursor-pointer items-center gap-3 rounded-2xl px-4 py-3 transition-[background-color,box-shadow] duration-200 has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-[var(--focus)] ${
+        checked
+          ? "bg-blush shadow-[inset_0_0_0_2px_rgb(var(--accent))]"
+          : "bg-bg shadow-[inset_0_0_0_1px_rgb(var(--line))] hover:bg-sand"
       }`}
     >
       <input
@@ -170,13 +176,16 @@ export default function EligibilityCheck({ labels: L, cantonNames, contactHref }
 
   if (step === 0) {
     return (
-      <div className="card p-6 sm:p-10">
-        <p className="lead">{L.intro}</p>
-        <button type="button" onClick={start} className="btn btn-primary mt-8">
-          {L.start}
-        </button>
-        <p className="mt-6 text-sm text-muted">{L.result.disclaimer}</p>
-      </div>
+      <Card padding="lg">
+        <IconBadge icon="compass" tone="blush" size="lg" />
+        <p className="mt-6 text-lg leading-relaxed text-muted sm:text-xl">{L.intro}</p>
+        <div className="mt-8">
+          <Button size="lg" onClick={start}>
+            {L.start}
+          </Button>
+        </div>
+        <p className="mt-8 text-sm text-muted">{L.result.disclaimer}</p>
+      </Card>
     );
   }
 
@@ -188,12 +197,12 @@ export default function EligibilityCheck({ labels: L, cantonNames, contactHref }
   const titles = [L.q1.title, L.q2.title, L.q3.title, L.q4.title, L.q5.title, L.q6.title];
 
   return (
-    <div className="card p-6 sm:p-10">
+    <Card padding="lg">
       <div className="flex items-center justify-between gap-4 text-sm text-muted">
         <span>{format(L.stepOf, { current: step, total: TOTAL })}</span>
       </div>
       <div
-        className="mt-2 h-2 overflow-hidden rounded-full bg-sand"
+        className="mt-3 h-2.5 overflow-hidden rounded-full bg-sand"
         role="progressbar"
         aria-valuemin={1}
         aria-valuemax={TOTAL}
@@ -326,15 +335,13 @@ export default function EligibilityCheck({ labels: L, cantonNames, contactHref }
         ) : null}
 
         <div className="mt-8 flex flex-col-reverse gap-3 sm:flex-row sm:justify-between">
-          <button type="button" onClick={back} className="btn btn-secondary">
+          <Button variant="secondary" onClick={back}>
             {L.back}
-          </button>
-          <button type="submit" className="btn btn-primary">
-            {step === TOTAL ? L.seeResult : L.next}
-          </button>
+          </Button>
+          <Button type="submit">{step === TOTAL ? L.seeResult : L.next}</Button>
         </div>
       </form>
-    </div>
+    </Card>
   );
 }
 
@@ -381,14 +388,14 @@ function Result({
   };
 
   return (
-    <div className="card p-6 sm:p-10" aria-live="polite">
+    <Card padding="lg" aria-live="polite">
       <h2 ref={headingRef} tabIndex={-1} className="text-3xl focus:outline-none">
         {L.result.title}
       </h2>
 
       <dl className="mt-8 space-y-6">
-        <div className="rounded-card border-l-4 border-accent bg-sand p-5">
-          <dt className="text-sm font-semibold uppercase tracking-wider text-muted">{L.result.route}</dt>
+        <div className="rounded-tile bg-blush p-5 sm:p-6">
+          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.route}</dt>
           <dd className="mt-2">
             <p className="font-serif text-2xl">{L.routes[primary].label}</p>
             <p className="mt-2 text-muted">{L.routes[primary].text}</p>
@@ -406,7 +413,7 @@ function Result({
         </div>
 
         <div>
-          <dt className="text-sm font-semibold uppercase tracking-wider text-muted">{L.result.lumpSum}</dt>
+          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.lumpSum}</dt>
           <dd className="mt-2">
             <p className="font-serif text-xl">{lump.label}</p>
             <p className="mt-1 text-muted">{lump.text}</p>
@@ -416,12 +423,14 @@ function Result({
         </div>
 
         <div>
-          <dt className="text-sm font-semibold uppercase tracking-wider text-muted">{L.result.cantons}</dt>
+          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.cantons}</dt>
           <dd className="mt-2">
             <ul className="flex flex-wrap gap-2">
               {cantons.map((c) => (
-                <li key={c} className="rounded-full border border-line bg-surface px-4 py-1.5">
-                  {c}
+                <li key={c}>
+                  <Chip icon="pin" className="bg-bg">
+                    {c}
+                  </Chip>
                 </li>
               ))}
             </ul>
@@ -430,7 +439,7 @@ function Result({
         </div>
 
         <div>
-          <dt className="text-sm font-semibold uppercase tracking-wider text-muted">{L.result.flags}</dt>
+          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.flags}</dt>
           <dd className="mt-2">
             {result.flags.length ? (
               <ul className="list-disc space-y-2 pl-5">
@@ -445,7 +454,7 @@ function Result({
         </div>
 
         <div>
-          <dt className="text-sm font-semibold uppercase tracking-wider text-muted">{L.result.needs}</dt>
+          <dt className="text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-muted">{L.result.needs}</dt>
           <dd className="mt-2">
             <ul className="list-disc space-y-1 pl-5 text-muted">
               {L.needs.map((n) => (
@@ -456,20 +465,18 @@ function Result({
         </div>
       </dl>
 
-      <div className="mt-10 rounded-card bg-band p-6 text-white">
+      <Card tone="evening" padding="md" className="mt-10">
         <h3 className="text-2xl">{L.result.nextTitle}</h3>
-        <p className="mt-2 text-white/85">{L.result.nextText}</p>
+        <p className="mt-2 text-muted">{L.result.nextText}</p>
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-          <button type="button" onClick={send} className="btn btn-primary">
-            {L.result.send}
-          </button>
-          <button type="button" onClick={onRestart} className="btn btn-on-image">
+          <Button onClick={send}>{L.result.send}</Button>
+          <Button variant="secondary" onClick={onRestart}>
             {L.restart}
-          </button>
+          </Button>
         </div>
-      </div>
+      </Card>
 
       <p className="mt-6 text-sm text-muted">{L.result.disclaimer}</p>
-    </div>
+    </Card>
   );
 }

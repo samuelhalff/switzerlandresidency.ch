@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { getPublishedEntries } from "@/lib/content";
 import { getMessages, t, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/paths";
 import EntryCard from "./EntryCard";
+import Chip from "./ui/Chip";
 
 export function guideCategories(locale: Locale): { key: string; label: string }[] {
   return Object.entries(getMessages(locale).guides.categories).map(([key, label]) => ({ key, label }));
@@ -12,41 +12,33 @@ export function guideCategories(locale: Locale): { key: string; label: string }[
 export default function GuideIndex({ locale, category }: { locale: Locale; category?: string }) {
   const guides = getPublishedEntries(locale, "guides").filter((g) => !category || g.category === category);
   const cats = guideCategories(locale);
-  const pill = (active: boolean) =>
-    `inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm ${
-      active ? "border-accent bg-accent text-white" : "border-line bg-surface hover:border-ink"
-    }`;
 
   return (
     <>
       <nav aria-label={t(locale, "guides.filterLabel")}>
-        <ul className="flex flex-wrap gap-2">
+        <ul className="flex flex-wrap gap-2.5">
           <li>
-            <Link href={localePath(locale, "/guides/")} className={pill(!category)} aria-current={!category ? "page" : undefined}>
+            <Chip href={localePath(locale, "/guides/")} active={!category}>
               {t(locale, "common.allTopics")}
-            </Link>
+            </Chip>
           </li>
           {cats.map((c) => (
             <li key={c.key}>
-              <Link
-                href={localePath(locale, `/guides/category/${c.key}/`)}
-                className={pill(category === c.key)}
-                aria-current={category === c.key ? "page" : undefined}
-              >
+              <Chip href={localePath(locale, `/guides/category/${c.key}/`)} active={category === c.key}>
                 {c.label}
-              </Link>
+              </Chip>
             </li>
           ))}
         </ul>
       </nav>
       {guides.length ? (
-        <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {guides.map((g) => (
-            <EntryCard key={g.slug} entry={g} locale={locale} />
+        <ul className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {guides.map((g, i) => (
+            <EntryCard key={g.slug} entry={g} locale={locale} as="li" index={i % 3} />
           ))}
-        </div>
+        </ul>
       ) : (
-        <p className="lead mt-10 max-w-2xl">{t(locale, "guides.empty")}</p>
+        <p className="mt-10 max-w-2xl text-lg text-muted">{t(locale, "guides.empty")}</p>
       )}
     </>
   );

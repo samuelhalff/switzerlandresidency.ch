@@ -1,4 +1,3 @@
-import Link from "next/link";
 import type { Collection, Entry } from "@/lib/content";
 import { getPublishedEntries } from "@/lib/content";
 import { t, type Locale } from "@/lib/i18n";
@@ -11,6 +10,13 @@ import Faq from "./Faq";
 import JsonLd from "./JsonLd";
 import CtaBand from "./CtaBand";
 import EntryCard, { formatDate } from "./EntryCard";
+import { imageForEntry } from "@/lib/images";
+import Button from "./ui/Button";
+import Card from "./ui/Card";
+import Container from "./ui/Container";
+import IconBadge from "./ui/IconBadge";
+import Section from "./ui/Section";
+import SectionHeading from "./ui/SectionHeading";
 
 export default function EntryPage({ locale, entry, collection }: { locale: Locale; entry: Entry; collection: Collection }) {
   const url = absoluteUrl(localePath(locale, entryPath(collection, entry.slug)));
@@ -27,23 +33,24 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
         locale={locale}
         title={entry.title}
         intro={entry.description}
+        image={imageForEntry(entry)}
         crumbs={[
           { label: t(locale, hubLabelKey[collection]), path: `/${collectionBase[collection]}/` },
           { label: entry.title, path: entryPath(collection, entry.slug) },
         ]}
       >
         {entry.updated ? (
-          <p className="mt-5 text-sm text-muted">
+          <p className="mt-6 text-sm text-muted">
             {t(locale, "article.updated")}{" "}
             <time dateTime={entry.updated}>{formatDate(entry.updated, locale)}</time>
           </p>
         ) : null}
       </PageHeader>
 
-      <div className="container-page grid gap-12 py-12 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <Container className="grid gap-12 pb-20 pt-4 sm:pt-8 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="min-w-0">
           {entry.draft ? (
-            <p className="mb-8 rounded-card border border-accent-soft bg-sand px-5 py-4 text-sm">
+            <p className="mb-8 rounded-tile bg-blush px-5 py-4 text-sm">
               <strong className="mr-2 font-semibold">{t(locale, "common.draftBadge")}.</strong>
               {t(locale, "common.draftNotice")}
             </p>
@@ -52,7 +59,7 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
 
           {entry.sources.length ? (
             <section className="mt-12 max-w-prose" aria-labelledby="sources-title">
-              <h2 id="sources-title" className="text-2xl">
+              <h2 id="sources-title" className="text-[1.75rem]">
                 {t(locale, "article.sources")}
               </h2>
               <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm text-muted">
@@ -69,35 +76,36 @@ export default function EntryPage({ locale, entry, collection }: { locale: Local
 
           {entry.faq.length ? (
             <div className="mt-14 max-w-prose">
-              <Faq title={t(locale, "common.faqTitle")} items={entry.faq} />
+              <Faq title={t(locale, "common.faqTitle")} items={entry.faq} compact />
             </div>
           ) : null}
         </div>
 
         <aside className="lg:sticky lg:top-28 lg:self-start">
-          <div className="card bg-sand">
-            <h2 className="text-xl">{t(locale, "article.ctaTitle")}</h2>
-            <p className="mt-3 text-sm text-muted">{t(locale, "article.ctaText")}</p>
-            <Link href={localePath(locale, "/eligibility-check/")} className="btn btn-primary mt-5 w-full">
+          <Card tone="blush" padding="md">
+            <IconBadge icon="compass" tone="surface" />
+            <h2 className="mt-5 text-2xl">{t(locale, "article.ctaTitle")}</h2>
+            <p className="mt-3 text-[0.95rem] text-muted">{t(locale, "article.ctaText")}</p>
+            <Button href={localePath(locale, "/eligibility-check/")} fullWidth className="mt-6">
               {t(locale, "common.ctaCheck")}
-            </Link>
-            <Link href={localePath(locale, "/contact/")} className="btn btn-secondary mt-3 w-full">
+            </Button>
+            <Button href={localePath(locale, "/contact/")} variant="secondary" fullWidth className="mt-3">
               {t(locale, "common.ctaTalk")}
-            </Link>
-            <p className="mt-4 text-xs text-muted">{t(locale, "common.indicative")}</p>
-          </div>
+            </Button>
+            <p className="mt-5 text-xs text-muted">{t(locale, "common.indicative")}</p>
+          </Card>
         </aside>
-      </div>
+      </Container>
 
       {related.length ? (
-        <section className="container-page pb-6">
-          <h2 className="h2">{t(locale, "article.related")}</h2>
-          <div className="mt-6 grid gap-5 md:grid-cols-3">
-            {related.map((r) => (
-              <EntryCard key={r.slug} entry={r} locale={locale} />
+        <Section tone="sage" divider="top" className="pb-24 sm:pb-28">
+          <SectionHeading title={t(locale, "article.related")} />
+          <ul className="mt-10 grid gap-6 md:grid-cols-3">
+            {related.map((r, i) => (
+              <EntryCard key={r.slug} entry={r} locale={locale} as="li" index={i} />
             ))}
-          </div>
-        </section>
+          </ul>
+        </Section>
       ) : null}
 
       <CtaBand locale={locale} />

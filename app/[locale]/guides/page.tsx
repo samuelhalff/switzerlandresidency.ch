@@ -3,6 +3,7 @@ import { getLocale, staticMetadata, type LocaleParams } from "@/lib/page";
 import PageHeader from "@/components/PageHeader";
 import GuideIndex from "@/components/GuideIndex";
 import CtaBand from "@/components/CtaBand";
+import Section from "@/components/ui/Section";
 
 export const generateMetadata = staticMetadata("/guides/", "guides.title", "guides.description");
 
@@ -14,11 +15,12 @@ export default async function GuidesPage({ params }: { params: LocaleParams }) {
         locale={locale}
         title={t(locale, "guides.title")}
         intro={t(locale, "guides.intro")}
+        image="vineyards"
         crumbs={[{ label: t(locale, "nav.guides"), path: "/guides/" }]}
       />
-      <section className="container-page section">
+      <Section spacing="md" className="pb-24 sm:pb-28">
         <GuideIndex locale={locale} />
-      </section>
+      </Section>
       <CtaBand locale={locale} />
     </>
   );
