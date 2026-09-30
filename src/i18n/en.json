@@ -1,0 +1,641 @@
+{
+  "meta": {
+    "siteName": "Switzerland Residency",
+    "homeTitle": "Move to Switzerland: residence, lump-sum tax & relocation | Switzerland Residency",
+    "homeDescription": "Discreet support for families relocating to Switzerland: permits, lump-sum taxation, property and settling in. Check your route in 2 minutes.",
+    "ogLocale": "en_GB",
+    "tagline": "Calm, personal guidance for families settling in Switzerland."
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "ctaCheck": "Check your eligibility",
+    "ctaTalk": "Talk to us",
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "updated": "Updated",
+    "sources": "Sources",
+    "faqTitle": "Frequently asked questions",
+    "home": "Home",
+    "draftNotice": "This page is still being written. Please get in touch if you have a question in the meantime.",
+    "draftBadge": "In preparation",
+    "comingSoon": "We are preparing these pages now. In the meantime, we are happy to answer your questions directly.",
+    "language": "Language",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "mainNav": "Main navigation",
+    "breadcrumb": "Breadcrumb",
+    "whatsapp": "Chat on WhatsApp",
+    "email": "Email us",
+    "allTopics": "All topics",
+    "indicative": "Indicative only, not legal or tax advice."
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch"
+  },
+  "nav": {
+    "home": "Home",
+    "howItWorks": "How it works",
+    "services": "Services",
+    "cantons": "Cantons",
+    "movingFrom": "Moving from",
+    "guides": "Guides",
+    "about": "About",
+    "contact": "Contact",
+    "eligibility": "Eligibility check",
+    "privacy": "Privacy",
+    "legalNotice": "Legal notice"
+  },
+  "footer": {
+    "blurb": "We help international families and private individuals settle in Switzerland, from the first question about permits to the day the removal van arrives, and well beyond.",
+    "explore": "Explore",
+    "company": "Company",
+    "legal": "Legal",
+    "arkBefore": "Part of the Ark group, working with",
+    "arkName": "Ark Fiduciaire SA, Geneva",
+    "cookieSettings": "Cookie settings",
+    "rights": "All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Residence · Tax · Home · Family",
+      "title": "Make Switzerland your home, calmly and properly.",
+      "subtitle": "Permits, lump-sum taxation, the right canton, a house near the lake or the mountains. We guide you and your family through every step, discreetly and in your language.",
+      "primary": "Check your eligibility",
+      "secondary": "Talk to us"
+    },
+    "steps": {
+      "title": "How it works",
+      "intro": "Three simple stages, one team at your side.",
+      "items": [
+        {
+          "title": "Understand your route",
+          "text": "Start with our short eligibility check, then a confidential conversation to confirm which permit and tax options fit your situation."
+        },
+        {
+          "title": "Prepare and apply",
+          "text": "We choose the canton with you, prepare the file and speak with the authorities, so there are no surprises along the way."
+        },
+        {
+          "title": "Arrive and settle",
+          "text": "Home, schools, insurance, banking and your first tax return: we stay close while your family finds its feet."
+        }
+      ],
+      "cta": "See the full process"
+    },
+    "services": {
+      "title": "What we take care of",
+      "intro": "One coordinated team for the whole move, so you never have to repeat your story."
+    },
+    "origins": {
+      "title": "Moving from…",
+      "intro": "Every departure has its own rules. We know the questions that matter for where you live today."
+    },
+    "cantons": {
+      "title": "Finding the right canton",
+      "intro": "In Switzerland, the canton shapes almost everything: your tax, your permit practice, your schools and your language. Lake Geneva, the Alps, Zug or Ticino each offer a different way of life.",
+      "cta": "Explore the cantons"
+    },
+    "approach": {
+      "title": "Our approach",
+      "intro": "We keep things personal and straightforward.",
+      "items": [
+        {
+          "title": "Discreet by default",
+          "text": "Your situation stays between you and the people who need to know. No mailing lists, no pressure."
+        },
+        {
+          "title": "Honest from the start",
+          "text": "If a route does not suit you, we say so early. Permits and tax arrangements are decided by the authorities, and we never pretend otherwise."
+        },
+        {
+          "title": "Grounded in Swiss practice",
+          "text": "Our work is built on experienced Swiss fiduciary and tax advisers, with official sources behind every point we make."
+        },
+        {
+          "title": "In your language",
+          "text": "We work in English, French and German, and we are glad to explain the Swiss system as often as you need."
+        }
+      ]
+    },
+    "guides": {
+      "title": "Latest guides",
+      "intro": "Clear, sourced answers to the questions families ask us most.",
+      "cta": "All guides"
+    },
+    "faq": {
+      "title": "Questions we often hear",
+      "items": [
+        {
+          "q": "Is there a Swiss golden visa?",
+          "a": "Not in the sense of buying residence through an investment. Switzerland does offer routes for people who move without working here, for example as a financially independent person or a retiree, and these are assessed by the canton case by case."
+        },
+        {
+          "q": "Do I need to work in Switzerland to live here?",
+          "a": "No. Many of the families we help do not take up work in Switzerland. The right route depends mainly on your citizenship, your plans and your circumstances."
+        },
+        {
+          "q": "How long does the process take?",
+          "a": "It depends on your route and on the canton. After a first conversation we give you a realistic timeline, including what can be prepared before you move."
+        },
+        {
+          "q": "What does your support cost?",
+          "a": "Every family's situation is different, so we do not publish prices. After a first call we send you a clear written proposal, with no obligation."
+        },
+        {
+          "q": "Is the eligibility check confidential?",
+          "a": "Yes. Your answers stay in your browser. Nothing is sent to us unless you choose to share your result through the contact form."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Ready to talk about your move?",
+      "text": "Tell us a little about your plans. We will come back to you personally, usually within one working day.",
+      "primary": "Check your eligibility",
+      "secondary": "Contact us"
+    },
+    "heroAltFallback": "Lake and mountains in Switzerland"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "description": "From the first question to your first year in Switzerland: how we guide families through permits, tax, the choice of canton and settling in.",
+    "intro": "Moving country is a big decision. We break it into clear steps and stay with you throughout, so you always know what comes next.",
+    "steps": [
+      {
+        "title": "A first conversation",
+        "text": "We listen to your plans, your family situation and your timing. You leave the call with a clear picture of the possible routes and what each one involves."
+      },
+      {
+        "title": "Your route and your canton",
+        "text": "Together we compare permit options, taxation (ordinary or lump-sum where it applies) and the cantons that suit your way of life, schools and language."
+      },
+      {
+        "title": "Preparing the file",
+        "text": "We gather the documents, prepare the application and, where useful, discuss your situation with the cantonal authorities before anything is filed."
+      },
+      {
+        "title": "Finding your home",
+        "text": "We help you look for the right house or apartment to rent or buy, including the specific rules that apply to foreign buyers."
+      },
+      {
+        "title": "Arriving and settling in",
+        "text": "Registration, health insurance, schools, banking, cars and the rest of daily life. Then we look after your tax and wealth matters year after year."
+      }
+    ],
+    "note": "Each situation is different. Permits and tax arrangements are always decided by the Swiss authorities, and we will tell you honestly what is realistic."
+  },
+  "services": {
+    "title": "Services",
+    "description": "Residence permits, lump-sum taxation, tax rulings, property, settling in and ongoing tax and wealth support for families moving to Switzerland.",
+    "intro": "One coordinated team for every part of your move. Choose what you need, or let us look after the whole journey.",
+    "items": {
+      "residence-permit": {
+        "title": "Residence permit",
+        "summary": "The right permit for you and your family, whether you come from the EU or elsewhere, and whether you plan to work or not."
+      },
+      "lump-sum-taxation": {
+        "title": "Lump-sum taxation",
+        "summary": "Whether taxation based on your living expenses may apply to you, how it compares with ordinary taxation, and which cantons offer it."
+      },
+      "tax-ruling": {
+        "title": "Tax ruling",
+        "summary": "Clarity from the tax authorities before you move, so you can decide with confidence."
+      },
+      "property-search-purchase": {
+        "title": "Home search & purchase",
+        "summary": "Finding the right home to rent or buy, with the rules for foreign buyers handled properly."
+      },
+      "settling-in": {
+        "title": "Settling in",
+        "summary": "Schools, health insurance, banking, cars, staff and all the small things that make a new country feel like home."
+      },
+      "ongoing-tax-wealth": {
+        "title": "Ongoing tax & wealth",
+        "summary": "Tax returns, wealth structuring questions and a trusted local contact, year after year."
+      }
+    },
+    "detailCta": "Discuss this with us"
+  },
+  "cantons": {
+    "title": "Cantons",
+    "description": "How Swiss cantons differ for new residents: taxation, permits, schools, language and way of life, from Lake Geneva to the Alps and Ticino.",
+    "intro": "Switzerland has 26 cantons, and each sets much of its own tax and permit practice. Choosing well is one of the most important decisions of your move.",
+    "guidesTitle": "Canton guides",
+    "allTitle": "All 26 cantons",
+    "allIntro": "We are adding detailed pages step by step. If your canton is not covered yet, just ask us.",
+    "detailCta": "Check your route for this canton"
+  },
+  "cantonNames": {
+    "AG": "Aargau",
+    "AI": "Appenzell Innerrhoden",
+    "AR": "Appenzell Ausserrhoden",
+    "BE": "Bern",
+    "BL": "Basel-Landschaft",
+    "BS": "Basel-Stadt",
+    "FR": "Fribourg",
+    "GE": "Geneva",
+    "GL": "Glarus",
+    "GR": "Graubünden",
+    "JU": "Jura",
+    "LU": "Lucerne",
+    "NE": "Neuchâtel",
+    "NW": "Nidwalden",
+    "OW": "Obwalden",
+    "SG": "St. Gallen",
+    "SH": "Schaffhausen",
+    "SO": "Solothurn",
+    "SZ": "Schwyz",
+    "TG": "Thurgau",
+    "TI": "Ticino",
+    "UR": "Uri",
+    "VD": "Vaud",
+    "VS": "Valais",
+    "ZG": "Zug",
+    "ZH": "Zurich"
+  },
+  "origins": {
+    "title": "Moving from…",
+    "description": "Moving to Switzerland from the UK, the EU, the Gulf, the Americas or Asia: the exit rules and Swiss options that matter for where you live today.",
+    "intro": "Where you are leaving from matters as much as where you are going. Here are the points we look at for each part of the world.",
+    "items": {
+      "united-kingdom": {
+        "title": "United Kingdom",
+        "summary": "Leaving the UK after the end of the non-dom regime: residence tests, timing and Swiss options."
+      },
+      "european-union": {
+        "title": "European Union",
+        "summary": "Free movement makes the permit simpler, but exit taxes and treaty rules still need care."
+      },
+      "gulf": {
+        "title": "UAE & the Gulf",
+        "summary": "Moving from a low-tax base: residence routes for non-EU nationals and planning the change early."
+      },
+      "americas": {
+        "title": "United States & the Americas",
+        "summary": "US citizenship taxation, Canadian departure rules and Swiss permits for non-EU nationals."
+      },
+      "asia": {
+        "title": "Asia",
+        "summary": "From Singapore, Hong Kong or India: permit routes, banking documentation and timing."
+      }
+    },
+    "detailCta": "Check your route"
+  },
+  "guides": {
+    "title": "Guides",
+    "description": "Clear, sourced guides on Swiss residence permits, lump-sum taxation, property, cantons and settling in, updated regularly.",
+    "intro": "Practical answers written by people who do this every day, with official sources for every key fact.",
+    "empty": "The first guides are being written and checked now. Ask us anything in the meantime.",
+    "filterLabel": "Filter by topic",
+    "categories": {
+      "lump-sum-taxation": "Lump-sum taxation",
+      "residence-permits": "Residence permits",
+      "moving-from": "Moving from abroad",
+      "property": "Property",
+      "where-to-live": "Where to live",
+      "settling-in": "Settling in",
+      "tax-and-wealth": "Tax & wealth"
+    },
+    "categoryIntro": "Guides on this topic, most recently updated first."
+  },
+  "article": {
+    "updated": "Updated",
+    "sources": "Official sources",
+    "ctaTitle": "Want to know how this applies to you?",
+    "ctaText": "Our short eligibility check gives you an indicative route in about two minutes. Or simply write to us.",
+    "related": "More guides"
+  },
+  "about": {
+    "title": "About us",
+    "description": "Who we are: a small, experienced team helping international families settle in Switzerland, part of the Ark group in Geneva.",
+    "intro": "We are a small team of advisers who love helping families make Switzerland their home.",
+    "paragraphs": [
+      "Moving to Switzerland raises many questions at once: which permit, which canton, how tax will work, where the children will go to school. We bring those threads together and look after them with care.",
+      "Our work rests on years of Swiss fiduciary and tax practice. We prefer clear explanations to jargon, and honest answers to easy promises.",
+      "We work with families from the United Kingdom, the rest of Europe, the Gulf, the Americas and Asia, in English, French and German."
+    ],
+    "valuesTitle": "What you can expect",
+    "values": [
+      "A single point of contact who knows your file.",
+      "Straight answers, including when the answer is no.",
+      "Official sources behind every important fact.",
+      "Complete discretion."
+    ],
+    "arkBefore": "Switzerland Residency is part of the Ark group and works with",
+    "arkName": "Ark Fiduciaire SA",
+    "arkAfter": ", a fiduciary and tax advisory firm in Geneva."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Talk to us about your move to Switzerland. Confidential, personal replies in English, French or German.",
+    "intro": "Tell us a little about your plans. We reply personally, usually within one working day.",
+    "channelsTitle": "Prefer another way?",
+    "form": {
+      "name": "Your name",
+      "email": "Email",
+      "phone": "Phone or WhatsApp",
+      "optional": "optional",
+      "language": "Preferred language",
+      "message": "Your message",
+      "messagePlaceholder": "Where do you live today, and what are you considering?",
+      "consentBefore": "I agree that my details are used to answer my request, as described in the",
+      "consentLink": "privacy policy",
+      "consentAfter": ".",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "successTitle": "Thank you, your message is on its way.",
+      "successText": "We will get back to you personally, usually within one working day.",
+      "error": "Something went wrong while sending. Please try again, or email us directly.",
+      "required": "Please fill in the required fields.",
+      "checkAttached": "Your eligibility check result will be sent with this message:",
+      "checkRemove": "Don't include it",
+      "fallbackText": "Our online form is not available at the moment. Please write to us directly:",
+      "honeypot": "Leave this field empty"
+    }
+  },
+  "check": {
+    "title": "Eligibility check",
+    "description": "Answer six short questions to see your indicative route to Swiss residence and whether lump-sum taxation may be relevant. Private: your answers stay in your browser.",
+    "intro": "Six short questions, about two minutes. Your answers stay in your browser and nothing is sent unless you choose to.",
+    "start": "Start the check",
+    "next": "Continue",
+    "back": "Back",
+    "seeResult": "See my result",
+    "restart": "Start again",
+    "stepOf": "Step {current} of {total}",
+    "required": "Please choose an option to continue.",
+    "yes": "Yes",
+    "no": "No",
+    "q1": {
+      "title": "Which citizenship(s) do you hold?",
+      "hint": "Select all that apply.",
+      "options": {
+        "CH": "Swiss",
+        "EU": "EU / EFTA",
+        "UK": "United Kingdom",
+        "US": "United States",
+        "OTHER": "Other"
+      },
+      "otherLabel": "Which region?",
+      "otherOptions": {
+        "GULF": "Gulf",
+        "ASIA": "Asia",
+        "AMERICAS": "Americas",
+        "OTHER": "Other"
+      }
+    },
+    "q2": {
+      "title": "Where are you tax-resident today?",
+      "options": {
+        "UK": "United Kingdom",
+        "FR": "France",
+        "DE": "Germany",
+        "IT": "Italy",
+        "BE": "Belgium",
+        "AT": "Austria",
+        "EU_OTHER": "Other EU / EFTA country",
+        "GULF": "UAE / Gulf",
+        "US": "United States",
+        "CA": "Canada",
+        "SG_HK": "Singapore / Hong Kong",
+        "IN": "India",
+        "OTHER": "Other",
+        "CH": "Already in Switzerland"
+      }
+    },
+    "q3": {
+      "title": "What will you do in Switzerland?",
+      "options": {
+        "NONE": "No work in Switzerland, only managing my own wealth",
+        "ACTIVE": "Employed or running a business in Switzerland",
+        "UNSURE": "Not sure yet"
+      }
+    },
+    "q4": {
+      "title": "Your household",
+      "householdLabel": "Who is moving?",
+      "household": {
+        "SINGLE": "Just me",
+        "COUPLE": "A couple"
+      },
+      "childrenLabel": "Do you have school-age children?",
+      "ageLabel": "Age of the main applicant",
+      "age": {
+        "UNDER_55": "Under 55",
+        "55_PLUS": "55 or over"
+      },
+      "livedLabel": "Have you (or your spouse) lived in Switzerland in the last 10 years?"
+    },
+    "q5": {
+      "title": "Roughly how much does your household spend per year, worldwide?",
+      "hint": "Used only to indicate whether lump-sum taxation may be relevant.",
+      "options": {
+        "LT_300K": "Under CHF 300,000",
+        "300_600K": "CHF 300,000 – 600,000",
+        "600K_1M": "CHF 600,000 – 1 million",
+        "GT_1M": "Over CHF 1 million",
+        "NA": "Prefer not to say"
+      }
+    },
+    "q6": {
+      "title": "Where would you like to live, and when?",
+      "regionLabel": "Region",
+      "regions": {
+        "LAKE_GENEVA": "Lake Geneva (French-speaking)",
+        "ALPS": "The Alps and mountains",
+        "CENTRAL": "Zug and central Switzerland",
+        "TICINO": "Ticino (Italian-speaking)",
+        "ZURICH_BASEL": "Zurich or Basel",
+        "OPEN": "Open to advice"
+      },
+      "timelineLabel": "Timing",
+      "timelines": {
+        "LT_6M": "Within 6 months",
+        "6_12M": "In 6 to 12 months",
+        "GT_12M": "In more than 12 months",
+        "EXPLORING": "Just exploring"
+      }
+    },
+    "result": {
+      "title": "Your indicative result",
+      "route": "Your indicative route",
+      "alsoPossible": "Also worth discussing",
+      "lumpSum": "Lump-sum taxation",
+      "cantons": "Cantons that may fit",
+      "cantonNote": "Cantonal minimum bases and practice differ and change. We confirm with the canton before any application.",
+      "flags": "Points to look at before moving",
+      "noFlags": "Nothing specific stands out from where you live today. We will still review your situation in detail.",
+      "needs": "What we would need to know",
+      "nextTitle": "Next step",
+      "nextText": "A confidential call with an adviser to confirm your route. There is no obligation.",
+      "send": "Send me my result / talk to us",
+      "disclaimer": "This is a general indication based on your answers, not legal or tax advice. Permits and lump-sum taxation are decided by the cantonal authorities case by case."
+    },
+    "routes": {
+      "R0": {
+        "label": "Swiss citizen",
+        "text": "You do not need a permit. Lump-sum taxation is not available to Swiss nationals, so ordinary taxation applies."
+      },
+      "R1_NONE": {
+        "label": "EU/EFTA free movement, without work",
+        "text": "A B permit without gainful activity, provided you have sufficient means and Swiss health insurance."
+      },
+      "R1_ACTIVE": {
+        "label": "EU/EFTA free movement, with work",
+        "text": "A B permit based on employment or self-employment in Switzerland."
+      },
+      "R1_UNSURE": {
+        "label": "EU/EFTA free movement",
+        "text": "A B permit, either without gainful activity (with sufficient means and Swiss health insurance) or based on work in Switzerland. We will look at which fits your plans."
+      },
+      "R2": {
+        "label": "Non-EU, working in Switzerland",
+        "text": "A work permit subject to quotas. The UK has its own quota; other countries fall under the third-country quotas, which are restrictive. This route is driven by an employer or a business plan."
+      },
+      "R3": {
+        "label": "Non-EU, retiree",
+        "text": "Residence for people aged 55 or over who do not work in Switzerland (Art. 28 AIG). It requires sufficient means and, in most cantons, personal ties to Switzerland. It is often combined with the fiscal-interest route."
+      },
+      "R4": {
+        "label": "Non-EU, important fiscal interest",
+        "text": "Residence approved by the canton because of an important fiscal interest (Art. 30 para. 1 lit. b AIG). It usually goes with lump-sum taxation at a level the canton sets, often above the federal minimum."
+      }
+    },
+    "lumpSum": {
+      "MAY_BE_ELIGIBLE": {
+        "label": "May be eligible",
+        "text": "From your answers, lump-sum taxation (based on your living expenses) may be an option. Whether it is worthwhile depends on your income, your assets and the canton."
+      },
+      "UNLIKELY": {
+        "label": "Unlikely to be efficient",
+        "text": "Your spending level appears to be below the federal minimum base, so ordinary taxation is probably the better fit."
+      },
+      "NOT_AVAILABLE": {
+        "label": "Not available",
+        "text": "Lump-sum taxation is not open to Swiss nationals, to people who work in Switzerland, or to people who have lived in Switzerland in the last ten years. Ordinary taxation applies."
+      },
+      "TO_ASSESS": {
+        "label": "To be assessed",
+        "text": "We need a little more information to tell whether lump-sum taxation is relevant for you."
+      },
+      "coupleNote": "For married couples, under current law both spouses must meet the conditions. A reform of this rule has been adopted; we will check how and when it applies to you.",
+      "r4Flag": "For non-EU nationals not working in Switzerland, residence is usually linked to lump-sum taxation. We would need to discuss your situation."
+    },
+    "flags": {
+      "UK": "UK: the statutory residence test and split-year treatment; the four-year FIG and TRF transition; UK inheritance tax on worldwide assets for up to ten years after leaving (long-term residents); the UK permit quota if you plan to work.",
+      "FR": "France: under the France–Switzerland treaty, lump-sum taxpayers need the enhanced lump sum (forfait majoré) to be treaty-resident; French exit tax on unrealised gains.",
+      "DE": "Germany: exit taxation (§ 6 AStG) on holdings of 1% or more; extended limited tax liability; a modified lump sum for German-source income.",
+      "MODIFIED": "A modified lump sum is needed to claim treaty benefits on income from your current country.",
+      "US_CITIZEN": "US citizens remain taxable in the United States, so the benefit of a lump sum may be limited. Swiss banks also apply FATCA onboarding rules.",
+      "PLAN_EARLY": "Plan the change of tax residence and your bank and KYC documentation early. The non-EU permit route applies."
+    },
+    "needs": [
+      "Nationalities and passports of each family member",
+      "Current and previous tax residences (last 10 years)",
+      "Assets and income by type and source country",
+      "Any planned Swiss activity or board mandates",
+      "Property plans (rent or buy)",
+      "Schooling needs",
+      "Your target date"
+    ]
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "description": "How Switzerland Residency handles your personal data: contact form, eligibility check, analytics and your rights.",
+    "updatedLabel": "Last updated",
+    "sections": [
+      {
+        "h": "Who we are",
+        "p": [
+          "This website is operated by Ark Fiduciaire SA, Geneva, Switzerland, under the name Switzerland Residency. We are responsible for the processing of personal data described here, under the Swiss Federal Act on Data Protection (FADP) and, where it applies, the EU General Data Protection Regulation (GDPR).",
+          "For any question about your data, write to contact@switzerlandresidency.ch."
+        ]
+      },
+      {
+        "h": "Contact form and messages",
+        "p": [
+          "When you send us a message, we receive your name, email address, optional phone number, preferred language, your message and, if you choose to include it, your eligibility check result. We use this information only to answer your request and, if you wish, to prepare a proposal.",
+          "Form submissions are transmitted through Formspark, a form processing service. If you contact us by WhatsApp or email, the respective provider also processes your message."
+        ]
+      },
+      {
+        "h": "Eligibility check",
+        "p": [
+          "The eligibility check runs entirely in your browser. Your answers are not sent to us or to anyone else. If you choose to pass your result to the contact form, it is kept temporarily in your browser's session storage and deleted when you close the tab."
+        ]
+      },
+      {
+        "h": "Analytics and cookies",
+        "p": [
+          "With your consent, we use Google Analytics 4 to understand how the site is used, for example which pages are read and whether the eligibility check is completed. Without your consent, Google Analytics is not loaded and no analytics cookies are set.",
+          "We never send the content of your answers or messages to Google Analytics. You can change your choice at any time through the cookie settings link at the bottom of every page."
+        ]
+      },
+      {
+        "h": "Retention",
+        "p": [
+          "We keep your messages for as long as needed to answer you and, if we work together, for the periods required by Swiss law. Analytics data is kept for a limited period set in Google Analytics."
+        ]
+      },
+      {
+        "h": "Your rights",
+        "p": [
+          "You can ask to see, correct or delete your personal data, and object to its processing, by writing to contact@switzerlandresidency.ch. You may also contact the Swiss Federal Data Protection and Information Commissioner (FDPIC) or your local supervisory authority."
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "title": "Legal notice",
+    "description": "Legal notice for switzerlandresidency.ch: operator, contact and liability.",
+    "sections": [
+      {
+        "h": "Operator",
+        "p": [
+          "Switzerland Residency is operated by Ark Fiduciaire SA, Geneva, Switzerland.",
+          "Email: contact@switzerlandresidency.ch"
+        ]
+      },
+      {
+        "h": "No advice",
+        "p": [
+          "The information on this website is general in nature and does not constitute legal, tax or financial advice. Residence permits and tax arrangements are decided by the competent Swiss authorities case by case. Please contact us for advice on your own situation."
+        ]
+      },
+      {
+        "h": "Liability",
+        "p": [
+          "We take great care to keep the content of this website accurate and up to date, but we cannot guarantee that it is complete, correct or current at all times. We are not responsible for the content of external websites we link to."
+        ]
+      },
+      {
+        "h": "Copyright",
+        "p": [
+          "The texts, graphics and layout of this website are protected by copyright. Please ask us before reusing them."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "text": "We would like to use Google Analytics to understand how our site is used. It is only loaded if you agree.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "more": "Privacy policy",
+    "label": "Cookie consent"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has moved.",
+    "home": "Go to the homepage"
+  },
+  "imageAlt": {
+    "hero": "A calm Swiss lake at sunset with mountains behind",
+    "lakeGeneva": "Lake Geneva with vineyards and the Alps in the distance",
+    "lakeLucerne": "Lake Lucerne surrounded by green hills",
+    "mountainAlps": "Snow-covered Alpine peaks above a quiet valley",
+    "mountainVillage": "A mountain village with wooden chalets",
+    "cityGeneva": "The old town of Geneva by the lake",
+    "cityZurich": "Zurich old town along the river"
+  }
+}

@@ -1,0 +1,641 @@
+{
+  "meta": {
+    "siteName": "Switzerland Residency",
+    "homeTitle": "S'établir en Suisse : permis et forfait fiscal | Switzerland Residency",
+    "homeDescription": "Un accompagnement discret pour s'installer en Suisse en famille : permis, forfait fiscal, immobilier et arrivée. Votre parcours en 2 minutes.",
+    "ogLocale": "fr_CH",
+    "tagline": "Un accompagnement serein et personnel pour les familles qui s'installent en Suisse."
+  },
+  "common": {
+    "skipToContent": "Aller au contenu",
+    "ctaCheck": "Vérifier votre éligibilité",
+    "ctaTalk": "Nous parler",
+    "readMore": "Lire la suite",
+    "learnMore": "En savoir plus",
+    "updated": "Mis à jour",
+    "sources": "Sources",
+    "faqTitle": "Questions fréquentes",
+    "home": "Accueil",
+    "draftNotice": "Cette page est encore en cours de rédaction. D'ici là, n'hésitez pas à nous contacter si vous avez une question.",
+    "draftBadge": "En préparation",
+    "comingSoon": "Nous préparons actuellement ces pages. En attendant, nous répondons volontiers à vos questions directement.",
+    "language": "Langue",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "mainNav": "Navigation principale",
+    "breadcrumb": "Fil d'Ariane",
+    "whatsapp": "Nous écrire sur WhatsApp",
+    "email": "Nous écrire par e-mail",
+    "allTopics": "Tous les thèmes",
+    "indicative": "À titre indicatif uniquement, sans valeur de conseil juridique ou fiscal."
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch"
+  },
+  "nav": {
+    "home": "Accueil",
+    "howItWorks": "Notre démarche",
+    "services": "Prestations",
+    "cantons": "Cantons",
+    "movingFrom": "Vous venez de",
+    "guides": "Guides",
+    "about": "À propos",
+    "contact": "Contact",
+    "eligibility": "Test d'éligibilité",
+    "privacy": "Confidentialité",
+    "legalNotice": "Mentions légales"
+  },
+  "footer": {
+    "blurb": "Nous aidons les familles internationales et les particuliers à s'installer en Suisse, de la première question sur les permis jusqu'au jour du déménagement, et bien au-delà.",
+    "explore": "Découvrir",
+    "company": "Qui sommes-nous",
+    "legal": "Informations légales",
+    "arkBefore": "Membre du groupe Ark, en collaboration avec",
+    "arkName": "Ark Fiduciaire SA, Genève",
+    "cookieSettings": "Paramètres des cookies",
+    "rights": "Tous droits réservés."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Résidence · Fiscalité · Logement · Famille",
+      "title": "Faites de la Suisse votre chez-vous, sereinement et dans les règles.",
+      "subtitle": "Permis de séjour, forfait fiscal, choix du canton, une maison près du lac ou à la montagne : nous vous accompagnons, vous et votre famille, à chaque étape, avec discrétion et dans votre langue.",
+      "primary": "Vérifier votre éligibilité",
+      "secondary": "Nous parler"
+    },
+    "steps": {
+      "title": "Notre démarche",
+      "intro": "Trois étapes simples, une seule équipe à vos côtés.",
+      "items": [
+        {
+          "title": "Comprendre votre parcours",
+          "text": "Commencez par notre court test d'éligibilité, puis un entretien confidentiel pour confirmer le permis et les options fiscales adaptés à votre situation."
+        },
+        {
+          "title": "Préparer et déposer la demande",
+          "text": "Nous choisissons le canton avec vous, préparons le dossier et échangeons avec les autorités, pour éviter toute mauvaise surprise en chemin."
+        },
+        {
+          "title": "Arriver et s'installer",
+          "text": "Logement, écoles, assurances, banque et première déclaration d'impôt : nous restons présents le temps que votre famille trouve ses marques."
+        }
+      ],
+      "cta": "Voir la démarche complète"
+    },
+    "services": {
+      "title": "Ce dont nous nous occupons",
+      "intro": "Une seule équipe coordonnée pour tout votre déménagement : vous n'avez jamais à raconter votre histoire deux fois."
+    },
+    "origins": {
+      "title": "Vous venez de…",
+      "intro": "Chaque départ obéit à ses propres règles. Nous connaissons les questions qui comptent selon le pays où vous vivez aujourd'hui."
+    },
+    "cantons": {
+      "title": "Trouver le bon canton",
+      "intro": "En Suisse, le canton détermine presque tout : vos impôts, la pratique en matière de permis, les écoles et la langue. Le bassin lémanique, les Alpes, Zoug ou le Tessin offrent chacun un art de vivre différent.",
+      "cta": "Découvrir les cantons"
+    },
+    "approach": {
+      "title": "Notre approche",
+      "intro": "Nous privilégions une relation personnelle et simple.",
+      "items": [
+        {
+          "title": "La discrétion avant tout",
+          "text": "Votre situation reste entre vous et les personnes qui doivent la connaître. Pas de listes de diffusion, pas de pression."
+        },
+        {
+          "title": "L'honnêteté dès le départ",
+          "text": "Si une voie ne vous convient pas, nous vous le disons tôt. Les permis et les arrangements fiscaux relèvent des autorités, et nous ne prétendons jamais le contraire."
+        },
+        {
+          "title": "Ancrés dans la pratique suisse",
+          "text": "Notre travail s'appuie sur des fiduciaires et conseillers fiscaux suisses expérimentés, et chaque point important repose sur des sources officielles."
+        },
+        {
+          "title": "Dans votre langue",
+          "text": "Nous travaillons en français, en anglais et en allemand, et nous vous expliquons le système suisse aussi souvent que nécessaire."
+        }
+      ]
+    },
+    "guides": {
+      "title": "Derniers guides",
+      "intro": "Des réponses claires et sourcées aux questions que les familles nous posent le plus souvent.",
+      "cta": "Tous les guides"
+    },
+    "faq": {
+      "title": "Les questions que l'on nous pose souvent",
+      "items": [
+        {
+          "q": "Existe-t-il un « golden visa » suisse ?",
+          "a": "Pas au sens d'un droit de séjour obtenu en échange d'un investissement. La Suisse prévoit toutefois des voies pour les personnes qui s'y installent sans y travailler, par exemple en tant que personne financièrement indépendante ou retraitée. Le canton examine chaque dossier au cas par cas."
+        },
+        {
+          "q": "Faut-il travailler en Suisse pour y vivre ?",
+          "a": "Non. Beaucoup des familles que nous accompagnons n'exercent pas d'activité lucrative en Suisse. La bonne voie dépend surtout de votre nationalité, de vos projets et de votre situation."
+        },
+        {
+          "q": "Combien de temps faut-il compter ?",
+          "a": "Cela dépend de votre parcours et du canton. Après un premier entretien, nous vous donnons un calendrier réaliste, y compris ce qui peut être préparé avant votre arrivée."
+        },
+        {
+          "q": "Combien coûte votre accompagnement ?",
+          "a": "Chaque famille a une situation différente, c'est pourquoi nous ne publions pas de tarifs. Après un premier appel, nous vous adressons une proposition écrite claire, sans engagement."
+        },
+        {
+          "q": "Le test d'éligibilité est-il confidentiel ?",
+          "a": "Oui. Vos réponses restent dans votre navigateur. Rien ne nous est transmis, sauf si vous choisissez de partager votre résultat via le formulaire de contact."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêts à parler de votre projet ?",
+      "text": "Parlez-nous un peu de vos projets. Nous vous répondons personnellement, en général dans un délai d'un jour ouvrable.",
+      "primary": "Vérifier votre éligibilité",
+      "secondary": "Nous contacter"
+    },
+    "heroAltFallback": "Lac et montagnes en Suisse"
+  },
+  "howItWorks": {
+    "title": "Notre démarche",
+    "description": "De la première question à votre première année en Suisse : permis, fiscalité, choix du canton et installation, nous accompagnons votre famille.",
+    "intro": "Changer de pays est une décision importante. Nous la découpons en étapes claires et restons à vos côtés tout au long du parcours, pour que vous sachiez toujours ce qui vient ensuite.",
+    "steps": [
+      {
+        "title": "Un premier entretien",
+        "text": "Nous écoutons vos projets, votre situation familiale et votre calendrier. À l'issue de l'appel, vous avez une vision claire des voies possibles et de ce que chacune implique."
+      },
+      {
+        "title": "Votre parcours et votre canton",
+        "text": "Ensemble, nous comparons les options de permis, la fiscalité (ordinaire ou d'après la dépense lorsqu'elle s'applique) et les cantons qui correspondent à votre mode de vie, aux écoles et à la langue."
+      },
+      {
+        "title": "La préparation du dossier",
+        "text": "Nous rassemblons les documents, préparons la demande et, lorsque c'est utile, présentons votre situation aux autorités cantonales avant tout dépôt."
+      },
+      {
+        "title": "Trouver votre logement",
+        "text": "Nous vous aidons à trouver la maison ou l'appartement qui vous convient, à louer ou à acheter, en tenant compte des règles propres aux acquéreurs étrangers."
+      },
+      {
+        "title": "Arriver et s'installer",
+        "text": "Annonce à la commune, assurance maladie, écoles, banque, voitures et tout le reste du quotidien. Puis nous suivons vos questions fiscales et patrimoniales, année après année."
+      }
+    ],
+    "note": "Chaque situation est différente. Les permis et les arrangements fiscaux sont toujours décidés par les autorités suisses, et nous vous dirons honnêtement ce qui est réaliste."
+  },
+  "services": {
+    "title": "Prestations",
+    "description": "Permis de séjour, forfait fiscal, rulings, immobilier, installation et suivi fiscal et patrimonial pour les familles qui s'installent en Suisse.",
+    "intro": "Une seule équipe coordonnée pour chaque aspect de votre installation. Choisissez ce dont vous avez besoin, ou confiez-nous l'ensemble du parcours.",
+    "items": {
+      "residence-permit": {
+        "title": "Permis de séjour",
+        "summary": "Le bon permis pour vous et votre famille, que vous veniez de l'UE ou d'ailleurs, et que vous prévoyiez de travailler ou non."
+      },
+      "lump-sum-taxation": {
+        "title": "Forfait fiscal",
+        "summary": "L'imposition d'après la dépense peut-elle s'appliquer à vous, comment se compare-t-elle à l'imposition ordinaire, et quels cantons la proposent ?"
+      },
+      "tax-ruling": {
+        "title": "Ruling fiscal",
+        "summary": "Une position claire de l'administration fiscale avant votre arrivée, pour décider en toute confiance."
+      },
+      "property-search-purchase": {
+        "title": "Recherche et achat immobilier",
+        "summary": "Trouver le bon logement à louer ou à acheter, en respectant les règles applicables aux acquéreurs étrangers."
+      },
+      "settling-in": {
+        "title": "Installation",
+        "summary": "Écoles, assurance maladie, banque, voitures, personnel de maison et tous ces petits riens qui font d'un nouveau pays un vrai chez-soi."
+      },
+      "ongoing-tax-wealth": {
+        "title": "Suivi fiscal et patrimonial",
+        "summary": "Déclarations d'impôt, questions de structuration patrimoniale et un interlocuteur de confiance sur place, année après année."
+      }
+    },
+    "detailCta": "En parler avec nous"
+  },
+  "cantons": {
+    "title": "Cantons",
+    "description": "Ce qui distingue les cantons suisses pour les nouveaux résidents : fiscalité, permis, écoles, langue et art de vivre, du Léman aux Alpes et au Tessin.",
+    "intro": "La Suisse compte 26 cantons, et chacun fixe une grande partie de sa pratique en matière fiscale et de permis. Bien choisir est l'une des décisions les plus importantes de votre installation.",
+    "guidesTitle": "Guides par canton",
+    "allTitle": "Les 26 cantons",
+    "allIntro": "Nous ajoutons des pages détaillées au fur et à mesure. Si votre canton n'est pas encore traité, il suffit de nous le demander.",
+    "detailCta": "Vérifier votre parcours pour ce canton"
+  },
+  "cantonNames": {
+    "AG": "Argovie",
+    "AI": "Appenzell Rhodes-Intérieures",
+    "AR": "Appenzell Rhodes-Extérieures",
+    "BE": "Berne",
+    "BL": "Bâle-Campagne",
+    "BS": "Bâle-Ville",
+    "FR": "Fribourg",
+    "GE": "Genève",
+    "GL": "Glaris",
+    "GR": "Grisons",
+    "JU": "Jura",
+    "LU": "Lucerne",
+    "NE": "Neuchâtel",
+    "NW": "Nidwald",
+    "OW": "Obwald",
+    "SG": "Saint-Gall",
+    "SH": "Schaffhouse",
+    "SO": "Soleure",
+    "SZ": "Schwyz",
+    "TG": "Thurgovie",
+    "TI": "Tessin",
+    "UR": "Uri",
+    "VD": "Vaud",
+    "VS": "Valais",
+    "ZG": "Zoug",
+    "ZH": "Zurich"
+  },
+  "origins": {
+    "title": "Vous venez de…",
+    "description": "S'installer en Suisse depuis le Royaume-Uni, l'UE, le Golfe, les Amériques ou l'Asie : règles de départ et options suisses selon votre pays actuel.",
+    "intro": "Le pays que vous quittez compte autant que celui où vous allez. Voici les points que nous examinons pour chaque région du monde.",
+    "items": {
+      "united-kingdom": {
+        "title": "Royaume-Uni",
+        "summary": "Quitter le Royaume-Uni après la fin du régime non-dom : critères de résidence, calendrier et options en Suisse."
+      },
+      "european-union": {
+        "title": "Union européenne",
+        "summary": "La libre circulation simplifie le permis, mais l'exit tax et les règles conventionnelles demandent toujours de l'attention."
+      },
+      "gulf": {
+        "title": "Émirats et Golfe",
+        "summary": "Partir d'un pays à faible fiscalité : voies de séjour pour les ressortissants hors UE et changement à anticiper."
+      },
+      "americas": {
+        "title": "États-Unis et Amériques",
+        "summary": "Imposition américaine fondée sur la nationalité, règles de départ canadiennes et permis suisses pour les ressortissants hors UE."
+      },
+      "asia": {
+        "title": "Asie",
+        "summary": "Depuis Singapour, Hong Kong ou l'Inde : voies d'obtention du permis, documentation bancaire et calendrier."
+      }
+    },
+    "detailCta": "Vérifier votre parcours"
+  },
+  "guides": {
+    "title": "Guides",
+    "description": "Des guides clairs et sourcés sur les permis de séjour, le forfait fiscal, l'immobilier, les cantons et l'installation en Suisse, mis à jour régulièrement.",
+    "intro": "Des réponses concrètes, rédigées par des personnes dont c'est le quotidien, avec des sources officielles pour chaque point clé.",
+    "empty": "Les premiers guides sont en cours de rédaction et de vérification. D'ici là, posez-nous vos questions.",
+    "filterLabel": "Filtrer par thème",
+    "categories": {
+      "lump-sum-taxation": "Forfait fiscal",
+      "residence-permits": "Permis de séjour",
+      "moving-from": "Arriver de l'étranger",
+      "property": "Immobilier",
+      "where-to-live": "Où s'installer",
+      "settling-in": "Installation",
+      "tax-and-wealth": "Fiscalité et patrimoine"
+    },
+    "categoryIntro": "Les guides sur ce thème, du plus récent au plus ancien."
+  },
+  "article": {
+    "updated": "Mis à jour",
+    "sources": "Sources officielles",
+    "ctaTitle": "Qu'est-ce que cela signifie dans votre cas ?",
+    "ctaText": "Notre court test d'éligibilité vous indique un parcours possible en deux minutes environ. Ou écrivez-nous, tout simplement.",
+    "related": "D'autres guides"
+  },
+  "about": {
+    "title": "À propos",
+    "description": "Qui nous sommes : une petite équipe expérimentée qui aide les familles internationales à s'installer en Suisse, membre du groupe Ark à Genève.",
+    "intro": "Nous sommes une petite équipe de conseillers qui aime aider les familles à faire de la Suisse leur chez-soi.",
+    "paragraphs": [
+      "S'installer en Suisse soulève beaucoup de questions à la fois : quel permis, quel canton, comment fonctionnera la fiscalité, dans quelle école iront les enfants. Nous rassemblons tous ces fils et nous en occupons avec soin.",
+      "Notre travail repose sur des années de pratique fiduciaire et fiscale en Suisse. Nous préférons les explications claires au jargon, et les réponses honnêtes aux promesses faciles.",
+      "Nous accompagnons des familles venues du Royaume-Uni, du reste de l'Europe, du Golfe, des Amériques et d'Asie, en français, en anglais et en allemand."
+    ],
+    "valuesTitle": "Ce que vous pouvez attendre de nous",
+    "values": [
+      "Un interlocuteur unique qui connaît votre dossier.",
+      "Des réponses franches, y compris quand la réponse est non.",
+      "Des sources officielles derrière chaque fait important.",
+      "Une discrétion totale."
+    ],
+    "arkBefore": "Switzerland Residency fait partie du groupe Ark et travaille avec",
+    "arkName": "Ark Fiduciaire SA",
+    "arkAfter": ", fiduciaire et cabinet de conseil fiscal à Genève."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Parlez-nous de votre projet d'installation en Suisse. Réponses confidentielles et personnelles, en français, en anglais ou en allemand.",
+    "intro": "Parlez-nous un peu de vos projets. Nous vous répondons personnellement, en général dans un délai d'un jour ouvrable.",
+    "channelsTitle": "Vous préférez un autre moyen ?",
+    "form": {
+      "name": "Votre nom",
+      "email": "E-mail",
+      "phone": "Téléphone ou WhatsApp",
+      "optional": "facultatif",
+      "language": "Langue souhaitée",
+      "message": "Votre message",
+      "messagePlaceholder": "Où vivez-vous aujourd'hui, et qu'envisagez-vous ?",
+      "consentBefore": "J'accepte que mes données soient utilisées pour répondre à ma demande, comme décrit dans la",
+      "consentLink": "politique de confidentialité",
+      "consentAfter": ".",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours…",
+      "successTitle": "Merci, votre message est bien parti.",
+      "successText": "Nous vous répondrons personnellement, en général dans un délai d'un jour ouvrable.",
+      "error": "Un problème est survenu lors de l'envoi. Veuillez réessayer ou nous écrire directement par e-mail.",
+      "required": "Veuillez remplir les champs obligatoires.",
+      "checkAttached": "Le résultat de votre test d'éligibilité sera joint à ce message :",
+      "checkRemove": "Ne pas le joindre",
+      "fallbackText": "Notre formulaire en ligne est momentanément indisponible. Écrivez-nous directement :",
+      "honeypot": "Laissez ce champ vide"
+    }
+  },
+  "check": {
+    "title": "Test d'éligibilité",
+    "description": "Six questions pour connaître votre parcours indicatif vers la résidence en Suisse et savoir si le forfait fiscal peut vous concerner. Réponses privées.",
+    "intro": "Six questions courtes, environ deux minutes. Vos réponses restent dans votre navigateur et rien n'est envoyé sans votre accord.",
+    "start": "Commencer le test",
+    "next": "Continuer",
+    "back": "Retour",
+    "seeResult": "Voir mon résultat",
+    "restart": "Recommencer",
+    "stepOf": "Étape {current} sur {total}",
+    "required": "Veuillez choisir une option pour continuer.",
+    "yes": "Oui",
+    "no": "Non",
+    "q1": {
+      "title": "Quelle(s) nationalité(s) avez-vous ?",
+      "hint": "Sélectionnez toutes les réponses qui s'appliquent.",
+      "options": {
+        "CH": "Suisse",
+        "EU": "UE / AELE",
+        "UK": "Royaume-Uni",
+        "US": "États-Unis",
+        "OTHER": "Autre"
+      },
+      "otherLabel": "Quelle région ?",
+      "otherOptions": {
+        "GULF": "Golfe",
+        "ASIA": "Asie",
+        "AMERICAS": "Amériques",
+        "OTHER": "Autre"
+      }
+    },
+    "q2": {
+      "title": "Où êtes-vous résident fiscal aujourd'hui ?",
+      "options": {
+        "UK": "Royaume-Uni",
+        "FR": "France",
+        "DE": "Allemagne",
+        "IT": "Italie",
+        "BE": "Belgique",
+        "AT": "Autriche",
+        "EU_OTHER": "Autre pays UE / AELE",
+        "GULF": "Émirats / Golfe",
+        "US": "États-Unis",
+        "CA": "Canada",
+        "SG_HK": "Singapour / Hong Kong",
+        "IN": "Inde",
+        "OTHER": "Autre",
+        "CH": "Déjà en Suisse"
+      }
+    },
+    "q3": {
+      "title": "Quelle sera votre activité en Suisse ?",
+      "options": {
+        "NONE": "Aucune activité lucrative en Suisse, seulement la gestion de mon patrimoine",
+        "ACTIVE": "Salarié ou à la tête d'une entreprise en Suisse",
+        "UNSURE": "Je ne sais pas encore"
+      }
+    },
+    "q4": {
+      "title": "Votre foyer",
+      "householdLabel": "Qui s'installe ?",
+      "household": {
+        "SINGLE": "Moi seul(e)",
+        "COUPLE": "Un couple"
+      },
+      "childrenLabel": "Avez-vous des enfants en âge scolaire ?",
+      "ageLabel": "Âge du requérant principal",
+      "age": {
+        "UNDER_55": "Moins de 55 ans",
+        "55_PLUS": "55 ans ou plus"
+      },
+      "livedLabel": "Avez-vous (vous ou votre conjoint) vécu en Suisse au cours des 10 dernières années ?"
+    },
+    "q5": {
+      "title": "Combien votre foyer dépense-t-il environ par an, dans le monde entier ?",
+      "hint": "Sert uniquement à indiquer si le forfait fiscal peut être pertinent.",
+      "options": {
+        "LT_300K": "Moins de CHF 300 000",
+        "300_600K": "CHF 300 000 – 600 000",
+        "600K_1M": "CHF 600 000 – 1 million",
+        "GT_1M": "Plus de CHF 1 million",
+        "NA": "Je préfère ne pas répondre"
+      }
+    },
+    "q6": {
+      "title": "Où aimeriez-vous vivre, et à quel horizon ?",
+      "regionLabel": "Région",
+      "regions": {
+        "LAKE_GENEVA": "Bassin lémanique (francophone)",
+        "ALPS": "Les Alpes et la montagne",
+        "CENTRAL": "Zoug et la Suisse centrale",
+        "TICINO": "Tessin (italophone)",
+        "ZURICH_BASEL": "Zurich ou Bâle",
+        "OPEN": "Ouvert à vos conseils"
+      },
+      "timelineLabel": "Calendrier",
+      "timelines": {
+        "LT_6M": "D'ici 6 mois",
+        "6_12M": "Dans 6 à 12 mois",
+        "GT_12M": "Dans plus de 12 mois",
+        "EXPLORING": "Je me renseigne"
+      }
+    },
+    "result": {
+      "title": "Votre résultat indicatif",
+      "route": "Votre parcours indicatif",
+      "alsoPossible": "À examiner également",
+      "lumpSum": "Forfait fiscal",
+      "cantons": "Cantons qui pourraient convenir",
+      "cantonNote": "Les bases minimales et la pratique varient d'un canton à l'autre et évoluent. Nous vérifions auprès du canton avant tout dépôt de demande.",
+      "flags": "Points à examiner avant votre départ",
+      "noFlags": "Rien de particulier ne ressort de votre pays de résidence actuel. Nous examinerons néanmoins votre situation en détail.",
+      "needs": "Ce que nous aurions besoin de savoir",
+      "nextTitle": "Prochaine étape",
+      "nextText": "Un entretien confidentiel avec un conseiller pour confirmer votre parcours, sans engagement.",
+      "send": "Recevoir mon résultat / nous parler",
+      "disclaimer": "Il s'agit d'une indication générale fondée sur vos réponses, et non d'un conseil juridique ou fiscal. Les permis et l'imposition d'après la dépense sont décidés au cas par cas par les autorités cantonales."
+    },
+    "routes": {
+      "R0": {
+        "label": "Citoyen suisse",
+        "text": "Vous n'avez pas besoin de permis. L'imposition d'après la dépense n'est pas ouverte aux ressortissants suisses : c'est l'imposition ordinaire qui s'applique."
+      },
+      "R1_NONE": {
+        "label": "Libre circulation UE/AELE, sans activité lucrative",
+        "text": "Un permis B sans activité lucrative, à condition de disposer de moyens financiers suffisants et d'une assurance maladie suisse."
+      },
+      "R1_ACTIVE": {
+        "label": "Libre circulation UE/AELE, avec activité lucrative",
+        "text": "Un permis B fondé sur une activité salariée ou indépendante en Suisse."
+      },
+      "R1_UNSURE": {
+        "label": "Libre circulation UE/AELE",
+        "text": "Un permis B, soit sans activité lucrative (avec des moyens suffisants et une assurance maladie suisse), soit fondé sur une activité en Suisse. Nous verrons ensemble ce qui correspond à vos projets."
+      },
+      "R2": {
+        "label": "Hors UE, avec activité en Suisse",
+        "text": "Un permis de travail soumis à contingents. Le Royaume-Uni dispose de son propre contingent ; les autres pays relèvent des contingents pour États tiers, qui sont restrictifs. Cette voie passe par un employeur ou un projet d'entreprise."
+      },
+      "R3": {
+        "label": "Hors UE, retraité",
+        "text": "Séjour pour les personnes de 55 ans ou plus qui n'exercent pas d'activité lucrative en Suisse (art. 28 LEI). Il faut des moyens financiers suffisants et, dans la plupart des cantons, des liens personnels avec la Suisse. Cette voie est souvent combinée avec celle de l'intérêt fiscal."
+      },
+      "R4": {
+        "label": "Hors UE, intérêt fiscal important",
+        "text": "Séjour autorisé par le canton en raison d'un intérêt fiscal important (art. 30, al. 1, let. b LEI). Il va généralement de pair avec une imposition d'après la dépense à un niveau fixé par le canton, souvent supérieur au minimum fédéral."
+      }
+    },
+    "lumpSum": {
+      "MAY_BE_ELIGIBLE": {
+        "label": "Éligibilité possible",
+        "text": "D'après vos réponses, l'imposition d'après la dépense (fondée sur votre train de vie) pourrait être une option. Son intérêt dépend de vos revenus, de votre fortune et du canton."
+      },
+      "UNLIKELY": {
+        "label": "Probablement peu avantageux",
+        "text": "Votre niveau de dépenses semble inférieur à la base minimale fédérale : l'imposition ordinaire est donc sans doute plus adaptée."
+      },
+      "NOT_AVAILABLE": {
+        "label": "Non disponible",
+        "text": "Le forfait fiscal n'est pas ouvert aux ressortissants suisses, aux personnes qui travaillent en Suisse ni à celles qui y ont vécu au cours des dix dernières années. C'est l'imposition ordinaire qui s'applique."
+      },
+      "TO_ASSESS": {
+        "label": "À évaluer",
+        "text": "Il nous faut un peu plus d'informations pour savoir si le forfait fiscal est pertinent dans votre cas."
+      },
+      "coupleNote": "Pour les couples mariés, le droit actuel exige que les deux conjoints remplissent les conditions. Une réforme de cette règle a été adoptée ; nous vérifierons si et quand elle s'applique à vous.",
+      "r4Flag": "Pour les ressortissants hors UE qui ne travaillent pas en Suisse, le séjour est généralement lié au forfait fiscal. Nous devrions en parler ensemble."
+    },
+    "flags": {
+      "UK": "Royaume-Uni : statutory residence test et split-year treatment ; transition de quatre ans du régime FIG et du TRF ; impôt britannique sur les successions sur le patrimoine mondial jusqu'à dix ans après le départ (résidents de longue durée) ; contingent britannique si vous prévoyez de travailler.",
+      "FR": "France : selon la convention franco-suisse, les contribuables au forfait doivent opter pour le forfait majoré pour être considérés comme résidents au sens de la convention ; exit tax française sur les plus-values latentes.",
+      "DE": "Allemagne : imposition à la sortie (§ 6 AStG) sur les participations de 1 % ou plus ; assujettissement limité élargi ; forfait modifié pour les revenus de source allemande.",
+      "MODIFIED": "Un forfait modifié est nécessaire pour bénéficier des avantages conventionnels sur les revenus provenant de votre pays actuel.",
+      "US_CITIZEN": "Les citoyens américains restent imposables aux États-Unis, si bien que l'avantage du forfait peut être limité. Les banques suisses appliquent en outre les règles FATCA à l'ouverture de compte.",
+      "PLAN_EARLY": "Anticipez le changement de résidence fiscale ainsi que la documentation bancaire et KYC. C'est la voie du permis pour ressortissants hors UE qui s'applique."
+    },
+    "needs": [
+      "Nationalités et passeports de chaque membre de la famille",
+      "Résidences fiscales actuelle et précédentes (10 dernières années)",
+      "Fortune et revenus par type et par pays de source",
+      "Toute activité ou tout mandat d'administrateur prévu en Suisse",
+      "Projets immobiliers (location ou achat)",
+      "Besoins en matière de scolarité",
+      "La date d'arrivée souhaitée"
+    ]
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "description": "Comment Switzerland Residency traite vos données personnelles : formulaire de contact, test d'éligibilité, mesure d'audience et vos droits.",
+    "updatedLabel": "Dernière mise à jour",
+    "sections": [
+      {
+        "h": "Qui sommes-nous",
+        "p": [
+          "Ce site est exploité par Ark Fiduciaire SA, Genève, Suisse, sous le nom Switzerland Residency. Nous sommes responsables du traitement des données personnelles décrit ici, conformément à la loi fédérale sur la protection des données (LPD) et, lorsqu'il s'applique, au règlement général sur la protection des données de l'UE (RGPD).",
+          "Pour toute question concernant vos données, écrivez à contact@switzerlandresidency.ch."
+        ]
+      },
+      {
+        "h": "Formulaire de contact et messages",
+        "p": [
+          "Lorsque vous nous envoyez un message, nous recevons votre nom, votre adresse e-mail, votre numéro de téléphone (facultatif), votre langue préférée, votre message et, si vous choisissez de le joindre, le résultat de votre test d'éligibilité. Nous utilisons ces informations uniquement pour répondre à votre demande et, si vous le souhaitez, pour préparer une proposition.",
+          "Les envois du formulaire transitent par Formspark, un service de traitement de formulaires. Si vous nous contactez par WhatsApp ou par e-mail, le fournisseur concerné traite également votre message."
+        ]
+      },
+      {
+        "h": "Test d'éligibilité",
+        "p": [
+          "Le test d'éligibilité fonctionne entièrement dans votre navigateur. Vos réponses ne sont transmises ni à nous ni à qui que ce soit. Si vous choisissez de joindre votre résultat au formulaire de contact, il est conservé temporairement dans le stockage de session de votre navigateur et supprimé à la fermeture de l'onglet."
+        ]
+      },
+      {
+        "h": "Mesure d'audience et cookies",
+        "p": [
+          "Avec votre consentement, nous utilisons Google Analytics 4 pour comprendre comment le site est utilisé, par exemple quelles pages sont lues et si le test d'éligibilité est mené à terme. Sans votre consentement, Google Analytics n'est pas chargé et aucun cookie de mesure d'audience n'est déposé.",
+          "Nous n'envoyons jamais le contenu de vos réponses ou de vos messages à Google Analytics. Vous pouvez modifier votre choix à tout moment via le lien « Paramètres des cookies » en bas de chaque page."
+        ]
+      },
+      {
+        "h": "Durée de conservation",
+        "p": [
+          "Nous conservons vos messages aussi longtemps que nécessaire pour vous répondre et, si nous travaillons ensemble, pendant les durées prévues par le droit suisse. Les données de mesure d'audience sont conservées pendant une durée limitée, définie dans Google Analytics."
+        ]
+      },
+      {
+        "h": "Vos droits",
+        "p": [
+          "Vous pouvez demander à consulter, rectifier ou supprimer vos données personnelles, et vous opposer à leur traitement, en écrivant à contact@switzerlandresidency.ch. Vous pouvez également vous adresser au Préposé fédéral à la protection des données et à la transparence (PFPDT) ou à votre autorité de contrôle locale."
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "description": "Mentions légales de switzerlandresidency.ch : exploitant, contact et responsabilité.",
+    "sections": [
+      {
+        "h": "Exploitant",
+        "p": [
+          "Switzerland Residency est exploité par Ark Fiduciaire SA, Genève, Suisse.",
+          "E-mail : contact@switzerlandresidency.ch"
+        ]
+      },
+      {
+        "h": "Absence de conseil",
+        "p": [
+          "Les informations publiées sur ce site sont de nature générale et ne constituent pas un conseil juridique, fiscal ou financier. Les permis de séjour et les arrangements fiscaux sont décidés au cas par cas par les autorités suisses compétentes. Contactez-nous pour un conseil adapté à votre situation."
+        ]
+      },
+      {
+        "h": "Responsabilité",
+        "p": [
+          "Nous veillons avec soin à ce que le contenu de ce site soit exact et à jour, mais nous ne pouvons pas garantir qu'il soit complet, correct ou actuel en tout temps. Nous ne sommes pas responsables du contenu des sites externes vers lesquels nous renvoyons."
+        ]
+      },
+      {
+        "h": "Droit d'auteur",
+        "p": [
+          "Les textes, graphismes et la mise en page de ce site sont protégés par le droit d'auteur. Merci de nous demander l'autorisation avant de les réutiliser."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "text": "Nous aimerions utiliser Google Analytics pour comprendre comment notre site est utilisé. Il n'est chargé qu'avec votre accord.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "more": "Politique de confidentialité",
+    "label": "Consentement aux cookies"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "home": "Retour à l'accueil"
+  },
+  "imageAlt": {
+    "hero": "Un lac suisse paisible au coucher du soleil, avec des montagnes en arrière-plan",
+    "lakeGeneva": "Le Léman, ses vignobles et les Alpes au loin",
+    "lakeLucerne": "Le lac des Quatre-Cantons entouré de collines verdoyantes",
+    "mountainAlps": "Des sommets alpins enneigés au-dessus d'une vallée tranquille",
+    "mountainVillage": "Un village de montagne aux chalets en bois",
+    "cityGeneva": "La vieille ville de Genève au bord du lac",
+    "cityZurich": "La vieille ville de Zurich le long de la rivière"
+  }
+}
