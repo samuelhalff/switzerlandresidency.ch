@@ -25,7 +25,7 @@
     "mainNav": "Hauptnavigation",
     "breadcrumb": "Brotkrümelnavigation",
     "whatsapp": "Per WhatsApp schreiben",
-    "email": "E-Mail schreiben",
+    "contactForm": "Über das Formular schreiben",
     "allTopics": "Alle Themen",
     "indicative": "Unverbindliche Einschätzung, keine Rechts- oder Steuerberatung.",
     "ctaConversation": "Ein persönliches Gespräch vereinbaren",
@@ -365,11 +365,14 @@
       "sending": "Wird gesendet …",
       "successTitle": "Vielen Dank, Ihre Nachricht ist unterwegs.",
       "successText": "Wir melden uns persönlich bei Ihnen, in der Regel innerhalb eines Arbeitstags.",
-      "error": "Beim Senden ist etwas schiefgelaufen. Bitte versuchen Sie es noch einmal oder schreiben Sie uns direkt eine E-Mail.",
+      "error": "Beim Senden ist etwas schiefgelaufen. Bitte versuchen Sie es in einem Moment noch einmal.",
+      "errorWhatsappBefore": "Sie können uns auch",
+      "whatsappLink": "per WhatsApp schreiben",
+      "errorWhatsappAfter": ".",
       "required": "Bitte füllen Sie die Pflichtfelder aus.",
       "checkAttached": "Das Ergebnis Ihres Checks wird mit dieser Nachricht gesendet:",
       "checkRemove": "Nicht mitsenden",
-      "fallbackText": "Unser Online-Formular ist im Moment nicht verfügbar. Bitte schreiben Sie uns direkt:",
+      "fallbackText": "Unser Online-Formular ist im Moment nicht verfügbar. Bitte versuchen Sie es in einem Moment noch einmal.",
       "honeypot": "Dieses Feld bitte leer lassen"
     }
   },
@@ -568,14 +571,14 @@
         "h": "Wer wir sind",
         "p": [
           "Diese Website wird von der Ark Fiduciaire SA, Genf, Schweiz, unter dem Namen Switzerland Residency betrieben. Wir sind verantwortlich für die hier beschriebene Bearbeitung von Personendaten nach dem Schweizer Bundesgesetz über den Datenschutz (DSG) und, soweit anwendbar, der EU-Datenschutz-Grundverordnung (DSGVO).",
-          "Bei Fragen zu Ihren Daten schreiben Sie uns an contact@switzerlandresidency.ch."
+          "Bei Fragen zu Ihren Daten schreiben Sie uns über das [Kontaktformular](/de/contact/) dieser Website."
         ]
       },
       {
         "h": "Kontaktformular und Nachrichten",
         "p": [
           "Wenn Sie uns eine Nachricht senden, erhalten wir Ihren Namen, Ihre E-Mail-Adresse, optional Ihre Telefonnummer, Ihre bevorzugte Sprache, Ihre Nachricht und, falls Sie es beifügen möchten, das Ergebnis Ihres Checks. Wir verwenden diese Angaben nur, um Ihre Anfrage zu beantworten und, wenn Sie es wünschen, ein Angebot vorzubereiten.",
-          "Formulareingaben werden über Formspark, einen Dienst zur Formularverarbeitung, übermittelt. Wenn Sie uns per WhatsApp oder E-Mail kontaktieren, bearbeitet auch der jeweilige Anbieter Ihre Nachricht."
+          "Formulareingaben werden über Formspark, einen Dienst zur Formularverarbeitung, übermittelt. Wenn Sie uns per WhatsApp kontaktieren, bearbeitet auch WhatsApp Ihre Nachricht."
         ]
       },
       {
@@ -600,7 +603,7 @@
       {
         "h": "Ihre Rechte",
         "p": [
-          "Sie können Auskunft über Ihre Personendaten verlangen, sie berichtigen oder löschen lassen und der Bearbeitung widersprechen, indem Sie an contact@switzerlandresidency.ch schreiben. Sie können sich auch an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder an Ihre lokale Aufsichtsbehörde wenden."
+          "Sie können Auskunft über Ihre Personendaten verlangen, sie berichtigen oder löschen lassen und der Bearbeitung widersprechen, indem Sie uns über das [Kontaktformular](/de/contact/) dieser Website schreiben. Sie können sich auch an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder an Ihre lokale Aufsichtsbehörde wenden."
         ]
       }
     ]
@@ -614,7 +617,7 @@
         "p": [
           "Switzerland Residency wird von der Ark Fiduciaire SA, Genf, Schweiz, betrieben.",
           "Adresse: Ark Fiduciaire SA, Boulevard Georges-Favon 26, 1204 Genf, Schweiz",
-          "E-Mail: contact@switzerlandresidency.ch"
+          "Kontakt: über das [Kontaktformular](/de/contact/) dieser Website"
         ]
       },
       {

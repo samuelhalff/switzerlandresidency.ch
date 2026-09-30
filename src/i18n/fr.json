@@ -25,7 +25,7 @@
     "mainNav": "Navigation principale",
     "breadcrumb": "Fil d'Ariane",
     "whatsapp": "Nous écrire sur WhatsApp",
-    "email": "Nous écrire par e-mail",
+    "contactForm": "Nous écrire via le formulaire",
     "allTopics": "Tous les thèmes",
     "indicative": "À titre indicatif uniquement, sans valeur de conseil juridique ou fiscal.",
     "ctaConversation": "Organiser un entretien privé",
@@ -365,11 +365,14 @@
       "sending": "Envoi en cours…",
       "successTitle": "Merci, votre message est bien parti.",
       "successText": "Nous vous répondrons personnellement, en général dans un délai d'un jour ouvrable.",
-      "error": "Un problème est survenu lors de l'envoi. Veuillez réessayer ou nous écrire directement par e-mail.",
+      "error": "Un problème est survenu lors de l'envoi. Veuillez réessayer dans un instant.",
+      "errorWhatsappBefore": "Vous pouvez aussi",
+      "whatsappLink": "nous écrire sur WhatsApp",
+      "errorWhatsappAfter": ".",
       "required": "Veuillez remplir les champs obligatoires.",
       "checkAttached": "Le résultat de votre test d'éligibilité sera joint à ce message :",
       "checkRemove": "Ne pas le joindre",
-      "fallbackText": "Notre formulaire en ligne est momentanément indisponible. Écrivez-nous directement :",
+      "fallbackText": "Notre formulaire en ligne est momentanément indisponible. Veuillez réessayer dans un instant.",
       "honeypot": "Laissez ce champ vide"
     }
   },
@@ -568,14 +571,14 @@
         "h": "Qui sommes-nous",
         "p": [
           "Ce site est exploité par Ark Fiduciaire SA, Genève, Suisse, sous le nom Switzerland Residency. Nous sommes responsables du traitement des données personnelles décrit ici, conformément à la loi fédérale sur la protection des données (LPD) et, lorsqu'il s'applique, au règlement général sur la protection des données de l'UE (RGPD).",
-          "Pour toute question concernant vos données, écrivez à contact@switzerlandresidency.ch."
+          "Pour toute question concernant vos données, écrivez-nous via le [formulaire de contact](/fr/contact/) de ce site."
         ]
       },
       {
         "h": "Formulaire de contact et messages",
         "p": [
           "Lorsque vous nous envoyez un message, nous recevons votre nom, votre adresse e-mail, votre numéro de téléphone (facultatif), votre langue préférée, votre message et, si vous choisissez de le joindre, le résultat de votre test d'éligibilité. Nous utilisons ces informations uniquement pour répondre à votre demande et, si vous le souhaitez, pour préparer une proposition.",
-          "Les envois du formulaire transitent par Formspark, un service de traitement de formulaires. Si vous nous contactez par WhatsApp ou par e-mail, le fournisseur concerné traite également votre message."
+          "Les envois du formulaire transitent par Formspark, un service de traitement de formulaires. Si vous nous contactez par WhatsApp, WhatsApp traite également votre message."
         ]
       },
       {
@@ -600,7 +603,7 @@
       {
         "h": "Vos droits",
         "p": [
-          "Vous pouvez demander à consulter, rectifier ou supprimer vos données personnelles, et vous opposer à leur traitement, en écrivant à contact@switzerlandresidency.ch. Vous pouvez également vous adresser au Préposé fédéral à la protection des données et à la transparence (PFPDT) ou à votre autorité de contrôle locale."
+          "Vous pouvez demander à consulter, rectifier ou supprimer vos données personnelles, et vous opposer à leur traitement, en nous écrivant via le [formulaire de contact](/fr/contact/) de ce site. Vous pouvez également vous adresser au Préposé fédéral à la protection des données et à la transparence (PFPDT) ou à votre autorité de contrôle locale."
         ]
       }
     ]
@@ -614,7 +617,7 @@
         "p": [
           "Switzerland Residency est exploité par Ark Fiduciaire SA, Genève, Suisse.",
           "Adresse : Ark Fiduciaire SA, Boulevard Georges-Favon 26, 1204 Genève, Suisse",
-          "E-mail : contact@switzerlandresidency.ch"
+          "Contact : via le [formulaire de contact](/fr/contact/) de ce site"
         ]
       },
       {

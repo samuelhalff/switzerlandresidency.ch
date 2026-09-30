@@ -14,7 +14,8 @@ type Props = {
   labels: Labels;
   locale: string;
   formsparkId: string;
-  email: string;
+  /** wa.me link when NEXT_PUBLIC_WHATSAPP is set, else "". */
+  whatsappHref: string;
   privacyHref: string;
   languages: { code: string; name: string }[];
 };
@@ -36,7 +37,7 @@ function clearStoredCheck() {
   }
 }
 
-export default function ContactForm({ labels, locale, formsparkId, email, privacyHref, languages }: Props) {
+export default function ContactForm({ labels, locale, formsparkId, whatsappHref, privacyHref, languages }: Props) {
   const [status, setStatus] = useState<Status>("idle");
   const [check, setCheck] = useState<StoredCheck | null>(null);
   const [missing, setMissing] = useState(false);
@@ -49,9 +50,11 @@ export default function ContactForm({ labels, locale, formsparkId, email, privac
     return (
       <Panel padding="lg">
         <p>{labels.fallbackText}</p>
-        <Button href={`mailto:${email}`} className="mt-6">
-          {email}
-        </Button>
+        {whatsappHref ? (
+          <Button href={whatsappHref} target="_blank" rel="noopener noreferrer" className="mt-6">
+            {labels.whatsappLink}
+          </Button>
+        ) : null}
       </Panel>
     );
   }
@@ -211,10 +214,17 @@ export default function ContactForm({ labels, locale, formsparkId, email, privac
       ) : null}
       {status === "error" ? (
         <p role="alert" className="text-sm font-medium text-accent">
-          {labels.error}{" "}
-          <a href={`mailto:${email}`} className="link">
-            {email}
-          </a>
+          {labels.error}
+          {whatsappHref ? (
+            <>
+              {" "}
+              {labels.errorWhatsappBefore}{" "}
+              <a href={whatsappHref} className="link" target="_blank" rel="noopener noreferrer">
+                {labels.whatsappLink}
+              </a>
+              {labels.errorWhatsappAfter}
+            </>
+          ) : null}
         </p>
       ) : null}
 

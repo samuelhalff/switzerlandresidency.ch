@@ -40,8 +40,8 @@ No prices shown. Leads = contact form + WhatsApp + an interactive eligibility & 
   family/schools; property). Output = indicative route + next steps + pre-filled contact form.
   Conservative wording, no prices, "indicative, not advice". No data leaves the browser
   unless the user submits the form.
-- **Forms:** Formspark (`NEXT_PUBLIC_FORMSPARK_ID`), honeypot + Botpoison-free; mailto fallback
-  to contact@switzerlandresidency.ch if ID absent. WhatsApp link (same number as Ark? → user).
+- **Forms:** Formspark (`NEXT_PUBLIC_FORMSPARK_ID`), honeypot + Botpoison-free; no public email
+  address (owner decision 2026-09-30: everything goes through Formspark). WhatsApp link (same number as Ark? → user).
 - **Analytics/ads:** GA4 (`NEXT_PUBLIC_GA_ID`) consent-gated via cookie banner (Consent Mode v2),
   events: check_start, check_complete, generate_lead (method=form|check), contact_channel_click.
 - **SEO/GEO:** per-page metadata, canonical, hreflang (en/fr/de/x-default), static sitemap.xml,
@@ -69,7 +69,7 @@ No prices shown. Leads = contact form + WhatsApp + an interactive eligibility & 
 
 ## User actions (blockers)
 - Enable HTTPS (GoDaddy AutoSSL) or approve Cloudflare in front.
-- Formspark form ID + mailbox contact@switzerlandresidency.ch; WhatsApp number.
+- Formspark form ID; WhatsApp number.
 - GA4 property + GSC property; rotate FTP/cPanel password (shared in chat, account was hacked);
   drop the old WordPress database in cPanel.
 

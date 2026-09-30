@@ -31,7 +31,7 @@ Copy `.env.example` to `.env.local`. In CI these come from repository variables/
 | `NEXT_PUBLIC_SITE_URL` | `https://switzerlandresidency.ch` | Canonical/hreflang/sitemap base |
 | `NEXT_PUBLIC_NOINDEX` | – | `true` → `noindex, nofollow` on every page and `Disallow: /` in robots.txt. Keep `true` until HTTPS works |
 | `NEXT_PUBLIC_GA_ID` | – | GA4 ID. Loaded only after cookie consent (Consent Mode v2, denied by default). No ID → no banner, no analytics |
-| `NEXT_PUBLIC_FORMSPARK_ID` | – | Formspark form ID. Missing → the contact page shows a mailto link instead |
+| `NEXT_PUBLIC_FORMSPARK_ID` | – | Formspark form ID. All written enquiries go through Formspark — the site publishes no email address (the build validator rejects one in UI strings) |
 | `NEXT_PUBLIC_WHATSAPP` | – | WhatsApp number, digits only (`41791234567`). Empty → WhatsApp buttons are hidden |
 
 ## Structure

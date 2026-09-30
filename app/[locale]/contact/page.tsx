@@ -1,6 +1,6 @@
 import { getMessages, locales, t } from "@/lib/i18n";
 import { localePath } from "@/lib/paths";
-import { CONTACT_EMAIL, FORMSPARK_ID } from "@/lib/site";
+import { FORMSPARK_ID, whatsappUrl } from "@/lib/site";
 import { getLocale, staticMetadata, type LocaleParams } from "@/lib/page";
 import PageHeader from "@/components/PageHeader";
 import ContactForm from "@/components/ContactForm";
@@ -29,18 +29,21 @@ export default async function ContactPage({ params }: { params: LocaleParams }) 
               labels={m.contact.form}
               locale={locale}
               formsparkId={FORMSPARK_ID}
-              email={CONTACT_EMAIL}
+              whatsappHref={whatsappUrl}
               privacyHref={localePath(locale, "/privacy/")}
               languages={locales.map((code) => ({ code, name: m.languages[code] }))}
             />
           </div>
           <aside className="space-y-10">
-            <div className="border-t border-ink pt-6">
-              <h2 className="text-[1.6rem]">{t(locale, "contact.channelsTitle")}</h2>
-              <div className="mt-5">
-                <ContactChannels locale={locale} />
+            {/* The form is the only written channel; show alternatives only when WhatsApp is configured. */}
+            {whatsappUrl ? (
+              <div className="border-t border-ink pt-6">
+                <h2 className="text-[1.6rem]">{t(locale, "contact.channelsTitle")}</h2>
+                <div className="mt-5">
+                  <ContactChannels locale={locale} includeForm={false} />
+                </div>
               </div>
-            </div>
+            ) : null}
             <figure className="hidden lg:block">
               <Photo name="terraceLake" locale={locale} aspect="aspect-[4/5]" />
               <figcaption className="mt-3 text-sm text-muted">{imageCaption("terraceLake", locale)}</figcaption>

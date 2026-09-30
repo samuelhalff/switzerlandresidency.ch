@@ -25,7 +25,7 @@
     "mainNav": "Main navigation",
     "breadcrumb": "Breadcrumb",
     "whatsapp": "Chat on WhatsApp",
-    "email": "Email us",
+    "contactForm": "Write to us via the form",
     "allTopics": "All topics",
     "indicative": "Indicative only, not legal or tax advice.",
     "ctaConversation": "Arrange a private conversation",
@@ -365,11 +365,14 @@
       "sending": "Sending…",
       "successTitle": "Thank you, your message is on its way.",
       "successText": "We will get back to you personally, usually within one working day.",
-      "error": "Something went wrong while sending. Please try again, or email us directly.",
+      "error": "Something went wrong while sending. Please try again in a moment.",
+      "errorWhatsappBefore": "You can also",
+      "whatsappLink": "message us on WhatsApp",
+      "errorWhatsappAfter": ".",
       "required": "Please fill in the required fields.",
       "checkAttached": "Your eligibility check result will be sent with this message:",
       "checkRemove": "Don't include it",
-      "fallbackText": "Our online form is not available at the moment. Please write to us directly:",
+      "fallbackText": "Our online form is not available at the moment. Please try again in a moment.",
       "honeypot": "Leave this field empty"
     }
   },
@@ -568,14 +571,14 @@
         "h": "Who we are",
         "p": [
           "This website is operated by Ark Fiduciaire SA, Geneva, Switzerland, under the name Switzerland Residency. We are responsible for the processing of personal data described here, under the Swiss Federal Act on Data Protection (FADP) and, where it applies, the EU General Data Protection Regulation (GDPR).",
-          "For any question about your data, write to contact@switzerlandresidency.ch."
+          "For any question about your data, write to us via the [contact form](/en/contact/) on this website."
         ]
       },
       {
         "h": "Contact form and messages",
         "p": [
           "When you send us a message, we receive your name, email address, optional phone number, preferred language, your message and, if you choose to include it, your eligibility check result. We use this information only to answer your request and, if you wish, to prepare a proposal.",
-          "Form submissions are transmitted through Formspark, a form processing service. If you contact us by WhatsApp or email, the respective provider also processes your message."
+          "Form submissions are transmitted through Formspark, a form processing service. If you contact us by WhatsApp, WhatsApp also processes your message."
         ]
       },
       {
@@ -600,7 +603,7 @@
       {
         "h": "Your rights",
         "p": [
-          "You can ask to see, correct or delete your personal data, and object to its processing, by writing to contact@switzerlandresidency.ch. You may also contact the Swiss Federal Data Protection and Information Commissioner (FDPIC) or your local supervisory authority."
+          "You can ask to see, correct or delete your personal data, and object to its processing, by writing to us via the [contact form](/en/contact/) on this website. You may also contact the Swiss Federal Data Protection and Information Commissioner (FDPIC) or your local supervisory authority."
         ]
       }
     ]
@@ -614,7 +617,7 @@
         "p": [
           "Switzerland Residency is operated by Ark Fiduciaire SA, Geneva, Switzerland.",
           "Address: Ark Fiduciaire SA, 26 Boulevard Georges-Favon, 1204 Geneva, Switzerland",
-          "Email: contact@switzerlandresidency.ch"
+          "Contact: via the [contact form](/en/contact/) on this website"
         ]
       },
       {

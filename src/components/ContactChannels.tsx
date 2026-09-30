@@ -1,10 +1,19 @@
 import { t, type Locale } from "@/lib/i18n";
-import { CONTACT_EMAIL, whatsappUrl } from "@/lib/site";
+import { localePath } from "@/lib/paths";
+import { whatsappUrl } from "@/lib/site";
 import Button from "./ui/Button";
 import Icon from "./ui/Icon";
 
-/** WhatsApp (only if NEXT_PUBLIC_WHATSAPP is set) + email. */
-export default function ContactChannels({ locale, compact = false }: { locale: Locale; compact?: boolean }) {
+/** WhatsApp (only if NEXT_PUBLIC_WHATSAPP is set) + a link to the contact form. No email address: every written enquiry goes through Formspark. */
+export default function ContactChannels({
+  locale,
+  compact = false,
+  includeForm = true,
+}: {
+  locale: Locale;
+  compact?: boolean;
+  includeForm?: boolean;
+}) {
   return (
     <div className={compact ? "flex flex-wrap gap-x-6 gap-y-3" : "flex flex-col items-start gap-4"}>
       {whatsappUrl ? (
@@ -28,14 +37,16 @@ export default function ContactChannels({ locale, compact = false }: { locale: L
           {t(locale, "common.whatsapp")}
         </Button>
       ) : null}
-      <Button
-        href={`mailto:${CONTACT_EMAIL}`}
-        variant="link"
-        track={{ event: "contact_channel_click", params: { channel: "email" } }}
-      >
-        <Icon name="mail" size={18} className="mr-2 inline-block align-[-3px]" />
-        {t(locale, "common.email")}
-      </Button>
+      {includeForm ? (
+        <Button
+          href={`${localePath(locale, "/contact/")}#form`}
+          variant="link"
+          track={{ event: "contact_channel_click", params: { channel: "form" } }}
+        >
+          <Icon name="mail" size={18} className="mr-2 inline-block align-[-3px]" />
+          {t(locale, "common.contactForm")}
+        </Button>
+      ) : null}
     </div>
   );
 }

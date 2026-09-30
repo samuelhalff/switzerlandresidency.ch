@@ -228,6 +228,21 @@ for (const c of content) {
   }
 }
 
+// UI strings: internal "[label](/path/)" links (legal/privacy text) must resolve, and no email
+// addresses anywhere — every written enquiry goes through the contact form (Formspark).
+for (const l of LOCALES) {
+  for (const [key, value] of flat[l]) {
+    if (typeof value !== "string") continue;
+    if (/[\w.+-]+@[\w-]+\.[\w.]+|mailto:/i.test(value)) fail(`i18n: "${key}" in ${l}.json contains an email address — use the contact form`);
+    for (const m of value.matchAll(linkRe)) {
+      let p = m[1].split(/[?#]/)[0];
+      if (!p.startsWith("/")) continue;
+      if (!/\.[a-z0-9]+$/i.test(p) && !p.endsWith("/")) p += "/";
+      if (!routes.has(p)) fail(`links: "${key}" in ${l}.json links to "${m[1]}", which is not a route`);
+    }
+  }
+}
+
 // ---------- report ----------
 for (const w of warnings) console.warn(`⚠️  ${w}`);
 if (errors.length) {
