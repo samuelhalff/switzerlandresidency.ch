@@ -35,7 +35,7 @@ sources:
     url: "https://www.ge.ch/imposition-apres-depense/comment-beneficier-imposition-apres-depense"
   - label: "Kanton Uri: Merkblatt Aufwandbesteuerung (1. Januar 2026)"
     url: "https://www.ur.ch/_docn/439772/14_Merkblatt_Aufwandbesteuerung_01.01.2026_1.pdf"
-  - label: "SEM: Weisungen AIG (Ausländerbereich), Ziff. 5.5"
+  - label: "SEM: Weisungen AIG (Ausländerbereich), Ziff. 5.3 und 5.5"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
 ---
 
@@ -103,7 +103,7 @@ Das Steuermodell und das Recht, in der Schweiz zu wohnen, sind zwei getrennte Fr
 
 **Staatsangehörige aus EU- und EFTA-Staaten**, die nicht erwerbstätig sind, erhalten in der Regel eine Aufenthaltsbewilligung, wenn sie über ausreichende finanzielle Mittel sowie eine umfassende Kranken- und Unfallversicherung verfügen. Die Pauschalbesteuerung lässt sich mit dieser Bewilligung kombinieren, wie das Merkblatt des Kantons Uri festhält.
 
-Für **Drittstaatsangehörige** (einschliesslich Britinnen und Briten, die seit 2021 zuziehen) sind die Wege enger. Am häufigsten nutzen pauschal besteuerte Personen die Bewilligung aus wichtigen öffentlichen Interessen – in der Praxis erhebliche kantonale fiskalische Interessen – gemäss Art. 30 AIG und Art. 32 VZAE. Der Kanton hat dabei einen grossen Ermessensspielraum, und das Staatssekretariat für Migration (SEM) muss jedem Fall zustimmen. Genf nennt dafür eine Zahl: Das «erhebliche fiskalische Interesse» entspricht bei Drittstaatsangehörigen einer Aufwandbemessung von CHF 750'000. Die Waadt verlangt im Bewilligungsdossier eine Kopie der Pauschalsteuervereinbarung mit der kantonalen Steuerverwaltung. Personen ab 55 Jahren mit engen Beziehungen zur Schweiz können zudem den Weg für Rentnerinnen und Rentner nutzen. Unser Ratgeber zum [Aufenthalt für finanziell unabhängige Drittstaatsangehörige](/de/guides/residence-non-eu-financially-independent/) beschreibt diese Wege im Detail.
+Für **Drittstaatsangehörige** (einschliesslich Britinnen und Briten, die seit 2021 zuziehen) sind die Wege enger. Am häufigsten nutzen pauschal besteuerte Personen die Bewilligung aus wichtigen öffentlichen Interessen – in der Praxis erhebliche kantonale fiskalische Interessen – gemäss Art. 30 AIG und Art. 32 VZAE. Der Kanton hat dabei einen grossen Ermessensspielraum, und das Staatssekretariat für Migration (SEM) muss jedem Fall zustimmen. Genf nennt dafür eine Zahl: Das «erhebliche fiskalische Interesse» entspricht bei Drittstaatsangehörigen einer Aufwandbemessung von CHF 750'000. Die Waadt verlangt im Bewilligungsdossier eine Kopie der Pauschalsteuervereinbarung mit der kantonalen Steuerverwaltung. Personen ab 55 Jahren mit besonderen persönlichen Beziehungen zur Schweiz (Grundeigentum allein genügt nicht) und ausreichenden finanziellen Mitteln können zudem den Weg für Rentnerinnen und Rentner nutzen – ebenfalls nach Ermessen des Kantons und mit Zustimmung des SEM. Unser Ratgeber zum [Aufenthalt für finanziell unabhängige Drittstaatsangehörige](/de/guides/residence-non-eu-financially-independent/) beschreibt diese Wege im Detail.
 
 ## Wie stellen Sie den Antrag?
 

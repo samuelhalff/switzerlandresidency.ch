@@ -21,7 +21,7 @@ faq:
   - q: "Are UK nationals treated as non-EU?"
     a: "Since 1 January 2021, UK nationals not covered by the Citizens' Rights Agreement fall under the ordinary third-country (AIG) rules."
 sources:
-  - label: "SEM — Weisungen AIG (Stand 15 June 2026), §1.3.1, §5.3, §5.5"
+  - label: "SEM — Weisungen AIG (Stand 15 June 2026), §0.2.1.3, §1.3.1, §5.3, §5.5"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "Fedlex — ZV-EJPD (SEM approval), art. 2 and 5"
     url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
@@ -124,7 +124,7 @@ Your spouse and minor children can usually come with you. Under art. 44 AIG, a B
 
 Once the permit is approved and you enter, you register with your commune within 14 days (art. 10 VZAE). Health insurance and the other first administrative steps follow in the weeks after.
 
-A non-EU national can apply for a settlement permit (C) after 10 years in total on a short-term or residence permit, including the last five years continuously on a B, provided they are integrated (art. 34 AIG). An early C is possible after five years of continuous B residence for people who are well integrated and communicate well in the local national language. The difference between the permit types is explained in [Swiss permits B, C and L](/en/guides/swiss-permits-explained/).
+A non-EU national can apply for a settlement permit (C) after 10 years in total on a short-term or residence permit, including the last five years continuously on a B, provided they are integrated (art. 34 AIG). US, Canadian and UK nationals can be considered after five years, at the canton's discretion and subject to the integration criteria. For others, an early C is possible after five years of continuous B residence for people who are well integrated and communicate well in the local national language. The difference between the permit types is explained in [Swiss permits B, C and L](/en/guides/swiss-permits-explained/).
 
 ## How long it takes
 

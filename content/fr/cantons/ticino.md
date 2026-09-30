@@ -8,7 +8,7 @@ updated: "2026-09-30"
 draft: false
 faq:
   - q: "Le Tessin propose-t-il encore l’imposition d’après la dépense ?"
-    a: "Oui. La base minimale cantonale est de CHF 434 700 (indexée, valable dès 2025). L’impôt fédéral direct est calculé séparément, sur au moins CHF 435 000 pour 2026."
+    a: "Oui. La base minimale cantonale est de CHF 434 700 (fiche cantonale de l’AFC, février 2026). L’impôt fédéral direct est calculé séparément, sur au moins CHF 435 000 pour 2026."
   - q: "Les contribuables au forfait paient-ils l’impôt sur la fortune au Tessin ?"
     a: "Oui. Depuis 2021, les contribuables au forfait tessinois sont assujettis à l’impôt cantonal et communal sur la fortune, la fortune étant fixée à cinq fois la base."
   - q: "Combien de personnes bénéficient du forfait fiscal au Tessin ?"
@@ -38,14 +38,14 @@ sources:
     url: "https://www.ticino.ch/"
 ---
 
-Le Tessin propose l’imposition d’après la dépense (forfait fiscal) avec une base minimale cantonale de CHF 434 700 (indexée, valable dès 2025). Depuis 2021, les contribuables au forfait y paient aussi l’impôt cantonal et communal sur la fortune, calculé sur cinq fois la base. C’est le canton italophone de la Suisse, au sud des Alpes.
+Le Tessin propose l’imposition d’après la dépense (forfait fiscal) avec une base minimale cantonale de CHF 434 700 (fiche cantonale de l’AFC, février 2026). Depuis 2021, les contribuables au forfait y paient aussi l’impôt cantonal et communal sur la fortune, calculé sur cinq fois la base. C’est le canton italophone de la Suisse, au sud des Alpes.
 
 ## Points clés
 
 | | Tessin (état septembre 2026) |
 |---|---|
 | Forfait fiscal | Possible |
-| Base minimale cantonale | CHF 434 700 (indexée, dès 2025) |
+| Base minimale cantonale | CHF 434 700 (fiche cantonale de l’AFC, février 2026) |
 | Fortune au forfait | 5 × la base (impôt sur la fortune depuis 2021) |
 | Base minimale fédérale | CHF 435 000 pour 2026 |
 | Contribuables au forfait (2022) | 767, pour CHF 183,5 millions d’impôts au total |
@@ -63,7 +63,7 @@ La vie quotidienne se déroule en italien. Pour beaucoup de familles, l’attrai
 
 Les conditions fédérales s’appliquent : pas de nationalité suisse, première prise de domicile fiscal en Suisse ou retour après dix ans d’absence, et aucune activité lucrative en Suisse pour l’un ou l’autre des conjoints.
 
-Pour les impôts cantonaux et communaux, la base est d’au moins CHF 434 700. Depuis 2021, le Tessin impose aussi la fortune des contribuables au forfait, sur cinq fois la base. Le critère de sept fois le loyer et le calcul de contrôle sur les revenus de source suisse et les revenus bénéficiant d’un allègement conventionnel s’appliquent comme partout. L’impôt fédéral direct est calculé séparément, sur au moins CHF 435 000 pour 2026.
+Pour les impôts cantonaux et communaux, la base est d’au moins CHF 434 700, montant de la fiche cantonale de l’AFC de février 2026 ; une éventuelle indexation pour 2026 n’est pas confirmée et doit être vérifiée auprès du canton. Depuis 2021, le Tessin impose aussi la fortune des contribuables au forfait, sur cinq fois la base. Le critère de sept fois le loyer et le calcul de contrôle sur les revenus de source suisse et les revenus bénéficiant d’un allègement conventionnel s’appliquent comme partout. L’impôt fédéral direct est calculé séparément, sur au moins CHF 435 000 pour 2026.
 
 Le régime est bien utilisé ici : selon le canton, 767 contribuables au forfait ont payé au total CHF 183,5 millions d’impôts en 2022. Consultez [le forfait fiscal par canton](/fr/guides/lump-sum-taxation-by-canton/) pour comparer les minimums.
 
@@ -71,7 +71,7 @@ Le régime est bien utilisé ici : selon le canton, 767 contribuables au forfait
 
 ## Permis de séjour
 
-Les ressortissants de l’UE/AELE sans activité lucrative peuvent s’établir s’ils disposent de moyens suffisants et d’une assurance maladie. Les ressortissants hors UE peuvent demander un permis en tant que rentiers (55 ans ou plus, avec des liens personnels particuliers avec la Suisse) ou pour intérêts fiscaux importants, ce qui requiert l’approbation du SEM. Nous n’avons pas trouvé de seuil officiel publié pour le Tessin ; les chiffres cités en ligne ne sont pas confirmés par le canton, et le montant doit donc d’abord être convenu dans un ruling.
+Les ressortissants de l’UE/AELE sans activité lucrative peuvent s’établir s’ils disposent de moyens suffisants et d’une assurance maladie. Les ressortissants hors UE sans activité lucrative peuvent demander un permis en tant que rentiers (55 ans ou plus, avec des liens personnels particuliers avec la Suisse et des moyens suffisants) ou pour intérêts fiscaux importants. Dans les deux cas, le canton décide librement et l’approbation du SEM est requise. Nous n’avons pas trouvé de seuil officiel publié pour le Tessin ; les chiffres cités en ligne ne sont pas confirmés par le canton, et le montant doit donc d’abord être convenu dans un ruling.
 
 ## Impôt sur les successions et donations
 

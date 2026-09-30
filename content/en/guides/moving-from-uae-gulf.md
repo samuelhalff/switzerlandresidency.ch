@@ -101,7 +101,7 @@ Two points often surprise people coming from the Gulf:
 - **Living costs are counted worldwide.** Staff, schooling abroad, travel, cars, boats and aircraft all count, as do taxes paid.
 - **The amount is agreed, then checked yearly.** You propose a figure, the canton agrees it, and it checks each year that the conditions are still met.
 
-Capital gains on private movable assets are tax-free in Switzerland, and spouses are exempt from inheritance tax in every canton.
+Capital gains on private movable assets are tax-free in Switzerland, and spouses are exempt from inheritance tax in every canton. One exception matters here: in Geneva, the spouse and descendant exemptions do not apply if the deceased or donor was taxed on a lump sum in one of the last three final assessments.
 
 ## Keeping a business in the Gulf
 

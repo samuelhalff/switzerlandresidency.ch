@@ -72,7 +72,7 @@ Bern's tax administration publishes guidance on binding advance rulings, which i
 
 ## Residence permits
 
-EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals apply as retirees (55 or over, with special ties to Switzerland) or on grounds of important fiscal interest, which needs SEM approval. We have not found an official published threshold for Bern; the canton decides case by case.
+EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals who will not work can apply as retirees (55 or over, with special ties to Switzerland and sufficient means) or on grounds of important fiscal interest. Both routes are discretionary and need SEM approval. We have not found an official published threshold for Bern; the canton decides case by case.
 
 ## Inheritance and gift tax
 

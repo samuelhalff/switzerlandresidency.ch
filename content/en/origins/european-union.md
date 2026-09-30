@@ -14,12 +14,14 @@ faq:
   - q: "Can an EU citizen use Swiss lump-sum taxation?"
     a: "Yes. The lump sum can be combined with an EU/EFTA permit, provided the tax conditions are met: not Swiss, first arrival or return after 10 years, and no gainful activity in Switzerland. Nationals of Belgium, Germany, Italy, Norway, Canada, Austria and the USA should check the modified lump sum under their treaty."
   - q: "When can EU citizens get a Swiss C permit?"
-    a: "Nationals covered by settlement agreements can usually get a C permit after 5 years. For Bulgaria, Croatia, Cyprus, Czechia, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Romania, Slovakia and Slovenia there is no treaty right, and the C permit is normally granted after 10 years."
+    a: "Nationals of Belgium, Denmark, France, Germany, Greece, Italy, the Netherlands, Austria, Portugal, Spain and Liechtenstein have a right to a C permit after 5 years under settlement agreements. For Finland, Ireland, Luxembourg, Sweden, Iceland and Norway, a C permit after 5 years is possible at the canton's discretion if integration criteria are met. For Bulgaria, Croatia, Cyprus, Czechia, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Romania, Slovakia and Slovenia there is no treaty right, and the C permit is normally granted after 10 years."
   - q: "Can EU citizens buy property in Switzerland?"
     a: "EU/EFTA nationals who are actually and lawfully resident in Switzerland (B or C permit) are not subject to the Lex Koller restrictions, so they can buy like Swiss residents. Those living abroad need a permit for most residential purchases."
 sources:
   - label: "SEM — Directives on the free movement of persons (VFP), January 2026"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
+  - label: "SEM — Directives on foreign nationals (AIG), status 15 June 2026 (C permit by nationality)"
+    url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf.download.pdf/weisungen-aig-d.pdf"
   - label: "Fedlex — art. 14 DBG (lump-sum taxation)"
     url: "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/de#art_14"
   - label: "ESTV — Circular 44 (lump-sum taxation)"
@@ -52,7 +54,7 @@ EU citizens have a much simpler route into Switzerland than non-EU nationals: un
 >
 > - Non-employed EU/EFTA nationals need **sufficient financial means** and **comprehensive health and accident insurance**. **No quotas.**
 > - The B EU/EFTA permit for non-employed people is normally valid **5 years**.
-> - **C permit after 5 years** for most EU nationals; normally **10 years** for 13 more recent member states.
+> - **C permit after 5 years** as of right for 10 EU states and Liechtenstein, or at the canton's discretion for 6 others; normally **10 years** for 13 more recent member states.
 > - Lump-sum taxation can be **combined with an EU permit**; federal minimum base **CHF 435,000 for 2026**.
 > - Treaties with **Belgium, Germany, Italy, Norway, Canada, Austria and the USA** require the **modified lump sum** to claim treaty benefits.
 > - EU nationals living in Switzerland are **not subject to Lex Koller**.
@@ -76,7 +78,8 @@ The B permit is normally issued for 5 years. It can be withdrawn if your means o
 
 | Nationality | C permit |
 |---|---|
-| Most EU/EFTA states covered by settlement agreements | After 5 years |
+| Belgium, Denmark, France, Germany, Greece, Italy, Netherlands, Austria, Portugal, Spain, Liechtenstein | After 5 years (legal right under settlement agreements) |
+| Finland, Ireland, Luxembourg, Sweden, Iceland, Norway | Possible after 5 years at the canton's discretion, if integration criteria (including language) are met |
 | Bulgaria, Croatia, Cyprus, Czechia, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Romania, Slovakia, Slovenia | Normally after 10 years (no treaty right) |
 
 The C EU/EFTA card is checked every 5 years.

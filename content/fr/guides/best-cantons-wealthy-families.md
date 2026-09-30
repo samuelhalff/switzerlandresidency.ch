@@ -35,6 +35,8 @@ sources:
     url: "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/fr#art_14"
   - label: "Canton de Zurich : directive de l'Office des migrations (19 novembre 2021), ch. 8.1"
     url: "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Erwerbslose%20Wohnsitznahme.pdf"
+  - label: "Fedlex : art. 5 de l'ordonnance du DFJP (approbation du SEM)"
+    url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
   - label: "École internationale de Genève (Ecolint)"
     url: "https://www.ecolint.ch"
   - label: "Zurich International School"
@@ -63,7 +65,7 @@ Il n'existe pas un meilleur canton pour une famille aisée en Suisse, mais celui
 
 | | |
 |---|---|
-| Minimum fédéral du forfait 2026 | CHF 435 000, identique dans tous les cantons pour l'impôt fédéral |
+| Base minimale fédérale du forfait 2026 | CHF 435 000, identique dans tous les cantons pour l'impôt fédéral |
 | Pas de forfait fiscal | Zurich, Schaffhouse, Appenzell Rhodes-Extérieures, Bâle-Ville ; Bâle-Campagne seulement pour l'année d'arrivée |
 | Base minimale cantonale la plus élevée | Lucerne, CHF 647 100 pour 2026 |
 | Pas d'impôt sur les successions ni sur les donations | Schwytz et Obwald |
@@ -83,14 +85,14 @@ Quand des familles nous demandent quel canton est le meilleur, nous retournons e
 
 ## Le tableau comparatif
 
-Le tableau ci-dessous couvre dix cantons sur lesquels les familles internationales nous interrogent le plus souvent. Tous les chiffres fiscaux proviennent des fiches cantonales de l'Administration fédérale des contributions (février 2026) et de son aperçu des impôts en vigueur (état au 1er janvier 2026). Les montants du forfait sont des minimums cantonaux ; le minimum fédéral de CHF 435 000 s'applique partout en plus, de même que le critère du loyer et le calcul de contrôle.
+Le tableau ci-dessous couvre dix cantons sur lesquels les familles internationales nous interrogent le plus souvent. Tous les chiffres fiscaux proviennent des fiches cantonales de l'Administration fédérale des contributions (février 2026) et de son aperçu des impôts en vigueur (état au 1er janvier 2026). Les montants du forfait sont des minimums cantonaux ; pour l'impôt fédéral, la base minimale fédérale de CHF 435 000 s'applique partout, de même que le critère du loyer et le calcul de contrôle.
 
 | Canton | Langue principale | Minimum cantonal du forfait (2026) | Impôt sur la fortune au forfait | Successions en faveur des enfants | Véritables droits de mutation |
 |---|---|---|---|---|---|
 | Genève | Français | CHF 426 357 | Supplément de 10 % sur la base | En général exonérées, mais **pas** si le défunt était imposé au forfait lors de l'une des trois dernières taxations | Oui |
 | Vaud | Français | CHF 415 000 (dont un supplément de 15 % pour la fortune) | Compris dans la base | CHF 1 mio exonéré, puis une déduction dégressive jusqu'à CHF 2 mio | Oui |
 | Valais | Français et allemand | CHF 250 000 | Fortune d'au moins 4× la base | Exonérées | Oui |
-| Tessin | Italien | CHF 434 700 (indexé, valable dès 2025) | Fortune de 5× la base | Exonérées | Non |
+| Tessin | Italien | CHF 434 700 (fiche AFC, février 2026) | Fortune de 5× la base | Exonérées | Non |
 | Grisons | Allemand, romanche, italien | CHF 435 000 | Selon la pratique cantonale | Exonérées | Oui |
 | Zoug | Allemand | CHF 500 000 | Fortune d'au moins 20× la base | Exonérées | Non |
 | Schwytz | Allemand | CHF 600 000 | Fortune d'au moins 20× la base | Pas d'impôt sur les successions ni sur les donations | Non |
@@ -106,7 +108,7 @@ Deux remarques pour lire ce tableau. D'abord, un minimum plus bas ne signifie pa
 
 L'imposition d'après la dépense n'est ouverte qu'aux personnes qui n'ont pas la nationalité suisse, qui s'installent en Suisse pour la première fois ou après au moins dix ans d'absence, et qui n'y exercent pas d'activité lucrative. Si les deux conjoints remplissent ces conditions, le choix du canton compte : les minimums, le traitement de la fortune et même le critère du loyer diffèrent. Vaud, par exemple, retient sept fois le loyer plus 10 %.
 
-Pour les ressortissants hors UE qui passent par la voie du permis fondée sur l'intérêt fiscal, certains cantons publient leurs propres attentes. Genève indique que l'intérêt fiscal majeur correspond à une base de dépense de **CHF 750 000**. Zurich, qui ne connaît pas le forfait, considère l'intérêt fiscal suffisant à partir d'un impôt annuel d'**environ CHF 1 million**, confirmé par l'administration fiscale, avec des liens étroits avec le canton et l'installation de toute la famille.
+Pour les ressortissants hors UE qui passent par la voie du permis fondée sur l'intérêt fiscal, certains cantons publient leurs propres attentes. Genève indique que l'intérêt fiscal majeur correspond à une base de dépense de **CHF 750 000**. Zurich, qui ne connaît pas le forfait, considère l'intérêt fiscal suffisant à partir d'un impôt annuel d'**environ CHF 1 million**, confirmé par l'administration fiscale, avec des liens étroits avec le canton et l'installation de toute la famille. Il s'agit d'attentes, non de droits : le permis reste à l'appréciation du canton et requiert l'approbation du Secrétariat d'État aux migrations (SEM).
 
 ### Si vous êtes imposé selon le régime ordinaire
 

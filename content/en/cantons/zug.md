@@ -63,7 +63,7 @@ Some families find that ordinary taxation works well in Zug too; our guide on [l
 
 ## Residence permits
 
-EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals apply as retirees (55 or over, with special ties to Switzerland) or on grounds of important fiscal interest, which needs SEM approval. We have not found an official published threshold for Zug, so the amount should be confirmed with the canton in advance.
+EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals who will not work can apply as retirees (55 or over, with special ties to Switzerland and sufficient means) or on grounds of important fiscal interest. Both routes are discretionary and need SEM approval. We have not found an official published threshold for Zug, so the amount should be confirmed with the canton in advance.
 
 ## Inheritance and gift tax
 

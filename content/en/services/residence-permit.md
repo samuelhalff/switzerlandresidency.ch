@@ -20,7 +20,7 @@ faq:
 sources:
   - label: "SEM — Directives on the Agreement on the Free Movement of Persons (Jan 2026)"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
-  - label: "SEM — Directives on the Foreign Nationals and Integration Act (as of 15 Jun 2026)"
+  - label: "SEM — Directives on the Foreign Nationals and Integration Act (as of 15 Jun 2026), §0.2.1.3"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "Fedlex — Ordinance of the FDJP on approval procedures (ZV-EJPD), art. 2 and 5"
     url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_2"
@@ -84,7 +84,7 @@ We cannot promise a permit or a timeline. The canton decides, and for non-EU app
 - "We want to keep a board seat abroad. Is that compatible with the fiscal-interest route?"
 - "Can our children join us, and what does the canton look for?" For B permit holders under the AIG, the spouse and unmarried children under 18 may join if the family lives together in suitable housing and does not rely on social assistance.
 - "If we buy a house, does that help?" Owning Swiss property gives no right to a residence permit.
-- "When could we apply for a C permit?" For non-EU nationals the general rule is ten years, with an early C possible after five years of continuous B residence for people who are well integrated and speak the local language well.
+- "When could we apply for a C permit?" For non-EU nationals the general rule is ten years, with an early C possible after five years of continuous B residence for people who are well integrated and speak the local language well. UK, US and Canadian nationals can be considered after five years, at the canton's discretion.
 
 ## Related reading
 

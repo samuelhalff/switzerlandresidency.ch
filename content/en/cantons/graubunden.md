@@ -69,7 +69,7 @@ Published minimums are a floor; the actual figure is agreed with the canton. Com
 
 ## Residence permits
 
-EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals apply as retirees (55 or over, with special ties to Switzerland) or on grounds of important fiscal interest, which needs SEM approval. We have not found an official published threshold for Graubünden, so confirm the amount with the canton.
+EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals who will not work can apply as retirees (55 or over, with special ties to Switzerland and sufficient means) or on grounds of important fiscal interest. Both routes are discretionary and need SEM approval. We have not found an official published threshold for Graubünden, so confirm the amount with the canton.
 
 ## Inheritance and gift tax
 

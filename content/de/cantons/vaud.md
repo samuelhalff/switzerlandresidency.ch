@@ -38,7 +38,7 @@ sources:
     url: "https://www.region-du-leman.ch/"
 ---
 
-Die Waadt bietet die Pauschalbesteuerung an, und ihr Minimum ist leicht zu lesen: 2026 beträgt die kantonale Bemessungsgrundlage mindestens CHF 415'000, und darin ist ein Zuschlag für die Vermögenssteuer bereits enthalten. Nicht-EU-Bürger müssen mit dem Kanton eine Pauschalvereinbarung unterzeichnen, bevor die Aufenthaltsbewilligung bearbeitet werden kann.
+Die Waadt bietet die Pauschalbesteuerung an, und ihr Minimum ist leicht zu lesen: 2026 beträgt die kantonale Bemessungsgrundlage mindestens CHF 415'000, und darin ist ein Zuschlag für die Vermögenssteuer bereits enthalten. Für Nicht-EU-Bürger, die eine Bewilligung aus fiskalischen Interessen beantragen, gehört die unterzeichnete Pauschalvereinbarung ins Dossier; die Bewilligung bleibt ein Ermessensentscheid und braucht die Zustimmung des SEM.
 
 ## Eckdaten
 
@@ -48,7 +48,7 @@ Die Waadt bietet die Pauschalbesteuerung an, und ihr Minimum ist leicht zu lesen
 | Kantonales Minimum | CHF 415'000, inklusive 15 % Zuschlag für die Vermögenssteuer |
 | Mietwert-Test | 7× jährlicher Mietzins oder Eigenmietwert, plus 10 % |
 | Bundesminimum | CHF 435'000 für 2026 |
-| Bewilligung Nicht-EU | Unterzeichnete Pauschalvereinbarung erforderlich; Zustimmung des SEM |
+| Bewilligung Nicht-EU (fiskalisches Interesse) | Unterzeichnete Pauschalvereinbarung im Dossier erforderlich; Ermessensentscheid, Zustimmung des SEM |
 | Erbschaft (Nachkommen) | CHF 1 Mio. steuerfrei, danach abnehmender Abzug bis CHF 2 Mio. |
 | Sprache | Französisch |
 | Wichtigste Orte | Lausanne, Montreux, Vevey, Nyon, Morges, Yverdon-les-Bains |
@@ -71,7 +71,7 @@ Einen direkten Vergleich mit anderen Kantonen finden Sie unter [Pauschalbesteuer
 
 Für Personen ausserhalb der EU/EFTA, die ein Gesuch aus wichtigen öffentlichen (fiskalischen) Interessen stellen, führt die Waadt die nötigen Unterlagen auf: eine formelle Verpflichtung, weder in der Schweiz noch im Ausland erwerbstätig zu sein (ausser in der Verwaltung des eigenen Vermögens), eine Kopie der Pauschalvereinbarung mit der kantonalen Steuerverwaltung (ACI) und bei einem Kauf die Urkunde oder einen Grundbuchauszug. Anschliessend geht das Dossier zur Zustimmung an das SEM. Einen Mindestbetrag veröffentlicht die Waadt nicht.
 
-Wer 55 Jahre oder älter ist und enge Beziehungen zur Schweiz hat, kann auch als Rentnerin oder Rentner ein Gesuch stellen. EU/EFTA-Bürger ohne Erwerbstätigkeit folgen dem einfacheren Weg über die Personenfreizügigkeit.
+Wer 55 Jahre oder älter ist und enge Beziehungen zur Schweiz hat, kann auch als Rentnerin oder Rentner ein Gesuch stellen, sofern ausreichende Mittel vorhanden sind und keine Erwerbstätigkeit ausgeübt wird; auch dieser Weg liegt im Ermessen der Behörden und braucht die Zustimmung des SEM. EU/EFTA-Bürger ohne Erwerbstätigkeit folgen dem einfacheren Weg über die Personenfreizügigkeit.
 
 ## Erbschafts- und Schenkungssteuer
 

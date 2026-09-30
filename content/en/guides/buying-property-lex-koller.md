@@ -78,7 +78,7 @@ In practice, that gives a fairly simple picture.
 | EU/EFTA national living in Switzerland (B or C) | No | Buy freely | Buy freely (second-home rules still apply) |
 | Non-EU national with a C permit, living here | No | Buy freely | Buy freely (second-home rules still apply) |
 | Non-EU national with a B permit, living here | Yes | No permit needed at your actual domicile (current law) | Permit and quota needed |
-| Anyone living abroad | Yes | Not applicable | Permit and quota needed, where allowed |
+| Foreign national living abroad | Yes | Not applicable | Permit and quota needed, where allowed |
 
 UK nationals who arrived after 1 January 2021 and are not covered by the Citizens' Rights Agreement are treated as non-EU nationals. If that is you, the B-permit row applies.
 

@@ -15,8 +15,8 @@ faq:
     a: "Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt haben sie abgeschafft. Basel-Landschaft gewährt sie nur bis zum Ende der Steuerperiode, in der Sie zuziehen."
   - q: "Kann ich nach einem Wechsel zur ordentlichen Besteuerung wieder zur Pauschalbesteuerung zurück?"
     a: "In der Regel nicht. Gemäss Kreisschreiben Nr. 44 der ESTV ist eine Rückkehr zur Besteuerung nach dem Aufwand grundsätzlich nicht mehr möglich, wenn Sie einmal zur ordentlichen Besteuerung gewechselt haben."
-  - q: "Spielt meine Staatsangehörigkeit bei der Pauschalbesteuerung eine Rolle?"
-    a: "Das kann sie. Nach den Doppelbesteuerungsabkommen mit Belgien, Deutschland, Italien, Norwegen, Kanada, Österreich und den USA setzen die Abkommensvorteile eine modifizierte Pauschalbesteuerung voraus, bei der sämtliche Einkünfte aus dem betreffenden Staat in der Schweiz besteuert werden."
+  - q: "Spielt die Herkunft meiner Einkünfte bei der Pauschalbesteuerung eine Rolle?"
+    a: "Das kann sie. Beanspruchen Sie Entlastungen nach den Doppelbesteuerungsabkommen mit Belgien, Deutschland, Italien, Norwegen, Kanada, Österreich oder den USA, gilt die modifizierte Pauschalbesteuerung, bei der sämtliche Einkünfte aus dem betreffenden Staat in der Schweiz besteuert werden. Massgebend ist die Quelle der Einkünfte, nicht Ihre Staatsangehörigkeit."
 sources:
   - label: "Fedlex — Bundesgesetz über die direkte Bundessteuer (DBG), Art. 14"
     url: "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/de#art_14"
@@ -93,7 +93,7 @@ Wir arbeiten mit der Ark Fiduciaire SA in Genf zusammen, die die Steuererklärun
 
 - «Kann ich im Verwaltungsrat unseres Familienunternehmens im Ausland bleiben?»
 - «Wir möchten kaufen statt mieten. Wie gilt der Mietzins-Test bei einer eigenen Liegenschaft?»
-- «Meine Frau ist Deutsche, ich nicht. Gilt für uns die modifizierte Pauschalbesteuerung?»
+- «Ein Teil unserer Einkünfte stammt aus Deutschland. Gilt für uns die modifizierte Pauschalbesteuerung?»
 - «Lohnt sich die Pauschalbesteuerung noch, wenn der Grossteil unseres Einkommens aus Schweizer Anlagen stammt?» Dann kann die Kontrollrechnung die Untergrenze bestimmen.
 - «Was passiert, wenn eines unserer Kinder Schweizer wird?»
 

@@ -82,7 +82,7 @@ Die USA haben kein Freizügigkeitsabkommen mit der Schweiz. Amerikaner nutzen da
 
 Bei beiden Wegen hat der Kanton einen grossen Ermessensspielraum, und die **Zustimmung des SEM ist zwingend**. Ehegatten und ledige Kinder unter 18 Jahren können nachgezogen werden.
 
-Nach zehn Jahren, davon die letzten fünf ununterbrochen mit Ausweis B, können Sie den Ausweis C beantragen. Eine vorzeitige Erteilung nach fünf Jahren ist möglich, wenn Sie gut integriert sind und sich gut in der Landessprache am Wohnort verständigen.
+US-Staatsangehörige können den Ausweis C nach fünf Jahren erhalten, nach Ermessen des Kantons (ohne Rechtsanspruch) und wenn die Integrationskriterien, einschliesslich Sprache, erfüllt sind. Sonst gilt die allgemeine Regel von zehn Jahren, davon die letzten fünf ununterbrochen mit Ausweis B.
 
 ## Die modifizierte Pauschalbesteuerung für Amerikaner
 
@@ -96,7 +96,7 @@ Bei vielen Amerikanern stammt der grösste Teil der Kapitalerträge aus US-Quell
 
 - Die **Vermögenssteuer** ist rein kantonal; eine Vermögenssteuer des Bundes gibt es nicht.
 - **Kapitalgewinne** auf privatem beweglichem Vermögen sind in der Schweiz steuerfrei. Wie die USA dieselben Gewinne behandeln, ist eine andere Frage.
-- **Erbschafts- und Schenkungssteuern** sind kantonal. Ehegatten sind überall befreit, Kinder in den meisten Kantonen; Schwyz und Obwalden erheben keine der beiden Steuern.
+- **Erbschafts- und Schenkungssteuern** sind kantonal. Ehegatten sind überall befreit, Kinder in den meisten Kantonen; Schwyz und Obwalden erheben keine der beiden Steuern. In Genf gelten diese Befreiungen nicht, wenn die verstorbene oder schenkende Person in einer der letzten drei rechtskräftigen Veranlagungen nach dem Aufwand besteuert wurde.
 
 ## Häufige Fehler
 

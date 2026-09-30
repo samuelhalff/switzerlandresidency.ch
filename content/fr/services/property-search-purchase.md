@@ -10,7 +10,7 @@ faq:
   - q: "Un étranger peut-il acheter une maison en Suisse ?"
     a: "Cela dépend de la nationalité et du domicile. Les ressortissants UE/AELE domiciliés en Suisse et les ressortissants hors UE titulaires d’un permis C ne sont pas soumis à la Lex Koller. Les ressortissants hors UE titulaires d’un permis B peuvent acheter une résidence principale au lieu de leur domicile effectif sans autorisation. Les autres ont besoin d’une autorisation, accordée de manière limitée."
   - q: "Peut-on acheter un chalet de vacances en Suisse sans y habiter ?"
-    a: "Seulement là où le droit cantonal autorise les logements de vacances pour les personnes à l’étranger, et dans la limite d’un contingent national annuel de 1500 unités réparti entre les cantons. Des limites de surface et des conditions d’utilisation s’appliquent."
+    a: "Seulement là où le droit cantonal autorise les logements de vacances pour les personnes à l’étranger, et dans la limite d’un contingent national annuel de 1 500 unités réparti entre les cantons. Des limites de surface et des conditions d’utilisation s’appliquent."
   - q: "Acheter un bien immobilier donne-t-il droit à un permis de séjour en Suisse ?"
     a: "Non. Être propriétaire d’un bien immobilier en Suisse ne confère aucun droit à une autorisation de séjour."
   - q: "La Lex Koller change-t-elle en 2026 ?"
@@ -51,7 +51,7 @@ Trouver le bon logement, c’est souvent ce qui rend une installation en Suisse 
 
 **Nouveaux résidents qui achètent leur résidence principale.** Les ressortissants UE et AELE domiciliés en Suisse, ainsi que les ressortissants hors UE titulaires d’un permis C, ne sont pas soumis à la Lex Koller. Les ressortissants hors UE titulaires d’un permis B y sont soumis, mais peuvent acheter une **résidence principale au lieu de leur domicile légal et effectif** sans autorisation. Ce domicile effectif doit être réel : un permis et une annonce à la commune ne suffisent pas. Les autorités examinent des indices tels que le ménage familial, l’immatriculation des véhicules, l’assujettissement fiscal illimité et les attaches locales.
 
-**Acheteurs d’un logement de vacances.** Les personnes à l’étranger ne peuvent acheter un logement de vacances que là où le droit cantonal le prévoit, en général dans les régions touristiques, et dans la limite d’un contingent national annuel de **1500 unités** réparti entre les cantons. La surface habitable nette est normalement limitée à **200 m²** et la surface du terrain à **1000 m²**. Une seule résidence de vacances ou secondaire est admise par famille, et un logement de vacances ne peut pas être loué toute l’année.
+**Acheteurs d’un logement de vacances.** Les personnes à l’étranger ne peuvent acheter un logement de vacances que là où le droit cantonal le prévoit, en général dans les régions touristiques, et dans la limite d’un contingent national annuel de **1 500 unités** réparti entre les cantons. La surface habitable nette est normalement limitée à **200 m²** et la surface du terrain à **1 000 m²**. Une seule résidence de vacances ou secondaire est admise par famille, et un logement de vacances ne peut pas être loué toute l’année.
 
 **Familles qui hésitent encore entre louer et acheter.** Nous conseillons volontiers de louer d’abord. Cela vous laisse le temps de découvrir une région et ne vous engage pas avant que votre permis et votre situation fiscale soient réglés.
 

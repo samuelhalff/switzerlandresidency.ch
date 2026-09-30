@@ -11,7 +11,7 @@ faq:
   - q: "Quelle est la différence entre un permis B et un permis C en Suisse ?"
     a: "Le permis B est l'autorisation de séjour, le permis habituel des personnes qui s'installent en Suisse. Le permis C est l'autorisation d'établissement, accessible après cinq ou dix ans selon la nationalité et l'intégration. Avec un permis C, les ressortissants d'États tiers ne sont plus des « personnes à l'étranger » pour l'achat immobilier."
   - q: "Combien de temps faut-il pour obtenir un permis C ?"
-    a: "Ressortissants d'États tiers : dix ans au total avec une autorisation de courte durée ou de séjour, dont les cinq dernières années sans interruption avec un permis B, ou cinq ans pour les personnes bien intégrées qui communiquent bien dans la langue locale. Ressortissants UE/AELE couverts par une convention d'établissement : cinq ans ; ressortissants de 13 États membres plus récents : en principe dix ans."
+    a: "Ressortissants d'États tiers : dix ans au total avec une autorisation de courte durée ou de séjour, dont les cinq dernières années sans interruption avec un permis B, ou cinq ans pour les personnes bien intégrées qui communiquent bien dans la langue locale. Les ressortissants britanniques, américains et canadiens peuvent l'obtenir après cinq ans, à l'appréciation du canton. Ressortissants UE/AELE couverts par une convention d'établissement : cinq ans ; ressortissants de 13 États membres plus récents : en principe dix ans."
   - q: "Qu'est-ce qu'un permis L ?"
     a: "Le permis L est l'autorisation de courte durée. Le temps passé avec ce permis compte pour les dix ans nécessaires au permis C d'un ressortissant hors UE. Les personnes qui s'installent en Suisse pour vivre de leurs propres moyens reçoivent généralement un permis B."
   - q: "Faut-il un permis pour les courts séjours ?"
@@ -19,7 +19,7 @@ faq:
   - q: "Le permis C met-il fin au forfait fiscal ?"
     a: "Non. Le forfait fiscal prend fin lorsque vous devenez suisse, pas lorsque vous obtenez un permis C. La naturalisation y met fin pour toute la période fiscale concernée."
 sources:
-  - label: "SEM : directives LEI (état au 15 juin 2026)"
+  - label: "SEM : directives LEI (état au 15 juin 2026), ch. 0.2.1.3"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "SEM : directives OLCP (janvier 2026)"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
@@ -47,7 +47,7 @@ La plupart des personnes qui s'installent en Suisse pour vivre de leurs propres 
 
 > **Points clés (septembre 2026)**
 > - **Permis B** = autorisation de séjour. Pour les ressortissants UE/AELE sans activité lucrative, il est en principe valable **5 ans**.
-> - **Permis C** = autorisation d'établissement. Hors UE : après **10 ans** (dont les 5 derniers sans interruption avec un permis B), ou **5 ans** en cas de bonne intégration (art. 34 LEI).
+> - **Permis C** = autorisation d'établissement. Hors UE : après **10 ans** (dont les 5 derniers sans interruption avec un permis B), ou **5 ans** en cas de bonne intégration (art. 34 LEI) ; possible après **5 ans** pour les ressortissants britanniques, américains et canadiens.
 > - Permis C UE/AELE : après **5 ans** pour la plupart ; en principe **10 ans** pour 13 États membres plus récents. Le titre C est contrôlé tous les 5 ans.
 > - **Permis L** = autorisation de courte durée ; le temps passé avec ce permis compte pour le permis C hors UE.
 > - Les séjours jusqu'à **90 jours sur 180** ne nécessitent aucune annonce ; sinon, annonce dans les **14 jours** suivant l'arrivée.
@@ -72,8 +72,10 @@ Pour les ressortissants d'États tiers, le permis C compte particulièrement, ca
 
 | Nationalité | Délai ordinaire | Permis C anticipé |
 |---|---|---|
-| États tiers (y compris Royaume-Uni depuis 2021, États-Unis, Golfe, Asie) | 10 ans au total avec une autorisation de courte durée ou de séjour, dont les 5 dernières années sans interruption avec un permis B, plus l'intégration | Après 5 ans de permis B sans interruption en cas de bonne intégration et de bonne maîtrise de la langue nationale parlée sur place. Un octroi anticipé pour « raisons majeures » requiert l'approbation du SEM |
-| UE/AELE couverts par une convention d'établissement | 5 ans | — |
+| États tiers (par exemple Golfe, Asie) | 10 ans au total avec une autorisation de courte durée ou de séjour, dont les 5 dernières années sans interruption avec un permis B, plus l'intégration | Après 5 ans de permis B sans interruption en cas de bonne intégration et de bonne maîtrise de la langue nationale parlée sur place. Un octroi anticipé pour « raisons majeures » requiert l'approbation du SEM |
+| Royaume-Uni (arrivée depuis 2021), États-Unis, Canada | Possible après 5 ans, sans droit, à l'appréciation du canton ; les critères d'intégration, langue comprise, s'appliquent | — |
+| UE/AELE couverts par une convention d'établissement (par exemple DE, FR, IT, AT, ES, PT) | 5 ans | — |
+| Autres UE/AELE sans convention d'établissement (par exemple FI, IE, LU, SE, NO, IS) | Possible après 5 ans, sans droit | — |
 | BG, EE, HR, LV, LT, MT, PL, RO, SK, SI, CZ, HU, CY | Pas de droit conventionnel ; en principe 10 ans | — |
 
 L'exigence linguistique du permis C anticipé porte sur la langue nationale parlée sur place : le français à Genève ou dans le canton de Vaud, l'allemand à Zurich ou à Zoug, l'italien au Tessin. Si un permis C anticipé compte pour vous, tenez-en compte dans le choix du canton et commencez tôt les cours de langue.
@@ -125,7 +127,7 @@ Les séjours jusqu'à 90 jours sur toute période de 180 jours ne nécessitent a
 ## Les malentendus fréquents
 
 - **« Acheter un logement me donne un permis B. »** Non. Être propriétaire ne donne aucun droit à une autorisation de séjour.
-- **« Le permis C est automatique après cinq ans. »** Pour les ressortissants d'États tiers, cinq ans correspond à la voie anticipée, qui dépend de l'intégration et de la langue. Le délai ordinaire est de dix ans.
+- **« Le permis C est automatique après cinq ans. »** Pour la plupart des ressortissants d'États tiers, cinq ans correspond à la voie anticipée, qui dépend de l'intégration et de la langue, et le délai ordinaire est de dix ans. Même lorsque cinq ans est la règle (Royaume-Uni, États-Unis, Canada), le permis C reste à l'appréciation du canton.
 - **« Un permis B, une fois accordé, est acquis à vie. »** Il est renouvelé ou réexaminé, et peut être révoqué si les conditions (par exemple les moyens, l'assurance ou le centre de vie) ne sont plus remplies.
 
 ## Comment nous vous aidons

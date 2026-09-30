@@ -55,7 +55,7 @@ Zug ist einer der kleinsten Kantone, gelegen am Zugersee und am Ägerisee, mit d
 
 ## Pauschalbesteuerung in Zug
 
-Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren, und keine Erwerbstätigkeit in der Schweiz für beide Ehegatten. Gerade wegen des Wirtschaftsprofils von Zug verdient der letzte Punkt Beachtung: Jedes Verwaltungsratsmandat und jede Tätigkeit, die in der Schweiz ausgeübt wird, kann die Pauschalbesteuerung ausschliessen, selbst wenn die Vergütung aus dem Ausland kommt.
+Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren, und keine Erwerbstätigkeit in der Schweiz, weder bei Ihnen noch bei Ihrem Ehegatten. Gerade wegen des Wirtschaftsprofils von Zug verdient der letzte Punkt Beachtung: Jedes Verwaltungsratsmandat und jede Tätigkeit, die in der Schweiz ausgeübt wird, kann die Pauschalbesteuerung ausschliessen, selbst wenn die Vergütung aus dem Ausland kommt.
 
 Die kantonale Bemessungsgrundlage beträgt mindestens CHF 500'000. Für die Vermögenssteuer wird das steuerbare Vermögen mindestens auf das 20-Fache der Grundlage festgesetzt. Der Test mit dem Siebenfachen des Mietzinses und die Kontrollrechnung auf Einkünften aus schweizerischen Quellen und DBA-entlasteten Einkünften gelten wie überall, und die direkte Bundessteuer wird separat auf mindestens CHF 435'000 berechnet.
 
@@ -63,7 +63,7 @@ Für manche Familien ist auch die ordentliche Besteuerung in Zug eine gute Lösu
 
 ## Aufenthaltsbewilligung
 
-EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger stellen ihr Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz) oder aus wichtigen fiskalischen Interessen, was die Zustimmung des SEM erfordert. Für Zug haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; der Betrag sollte deshalb vorab mit dem Kanton bestätigt werden.
+EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger ohne Erwerbstätigkeit können ein Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz und ausreichenden Mitteln) oder aus wichtigen fiskalischen Interessen stellen. In beiden Fällen entscheidet der Kanton nach Ermessen, und das SEM muss zustimmen. Für Zug haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; der Betrag sollte deshalb vorab mit dem Kanton bestätigt werden.
 
 ## Erbschafts- und Schenkungssteuer
 

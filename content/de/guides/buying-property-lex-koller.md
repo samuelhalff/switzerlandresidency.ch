@@ -78,7 +78,7 @@ In der Praxis ergibt sich daraus ein recht klares Bild.
 | EU/EFTA-Staatsangehörige mit Wohnsitz in der Schweiz (B oder C) | Nein | Freier Kauf | Freier Kauf (Zweitwohnungsregeln gelten weiterhin) |
 | Drittstaatsangehörige mit Ausweis C und Wohnsitz hier | Nein | Freier Kauf | Freier Kauf (Zweitwohnungsregeln gelten weiterhin) |
 | Drittstaatsangehörige mit Ausweis B und Wohnsitz hier | Ja | Keine Bewilligung am tatsächlichen Wohnsitz nötig (geltendes Recht) | Bewilligung und Kontingent nötig |
-| Alle Personen mit Wohnsitz im Ausland | Ja | Nicht anwendbar | Bewilligung und Kontingent nötig, wo zulässig |
+| Ausländische Staatsangehörige mit Wohnsitz im Ausland | Ja | Nicht anwendbar | Bewilligung und Kontingent nötig, wo zulässig |
 
 Britische Staatsangehörige, die nach dem 1. Januar 2021 eingereist sind und nicht unter das Abkommen über die Rechte der Bürgerinnen und Bürger fallen, werden wie Drittstaatsangehörige behandelt. Trifft das auf Sie zu, gilt die Zeile für den Ausweis B.
 

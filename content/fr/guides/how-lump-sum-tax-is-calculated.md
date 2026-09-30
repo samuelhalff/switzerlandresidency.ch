@@ -79,7 +79,7 @@ Si vous vivez à l'hôtel, dans une pension ou un logement similaire, la base do
 
 ### Le calcul de contrôle
 
-C'est la partie la moins intuitive. Le calcul de contrôle ne fixe pas une base, mais un **impôt** minimal. Votre impôt forfaitaire doit être au moins égal à l'impôt ordinaire qui serait dû sur le montant **brut** :
+C'est la partie la moins intuitive. Contrairement aux autres seuils, le calcul de contrôle ne regarde pas votre train de vie, mais certains revenus : selon l'art. 14 al. 3 let. d LIFD, la base doit atteindre au moins leur total **brut**. En pratique, votre impôt forfaitaire est donc au moins égal à l'impôt ordinaire qui serait dû sur le montant **brut** :
 
 - des immeubles situés en Suisse et de leurs revenus ;
 - des biens mobiliers situés en Suisse et de leurs revenus ;

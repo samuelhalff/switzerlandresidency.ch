@@ -101,7 +101,7 @@ Deux points surprennent souvent les personnes qui arrivent du Golfe :
 - **Le train de vie est pris en compte à l’échelle mondiale.** Personnel de maison, scolarité à l’étranger, voyages, voitures, bateaux et avions entrent tous dans le calcul, de même que les impôts payés.
 - **Le montant est convenu, puis contrôlé chaque année.** Vous proposez un chiffre, le canton l’accepte, puis vérifie chaque année que les conditions restent remplies.
 
-Les gains en capital sur la fortune mobilière privée sont exonérés en Suisse, et le conjoint est exonéré de l’impôt sur les successions dans tous les cantons.
+Les gains en capital sur la fortune mobilière privée sont exonérés en Suisse, et le conjoint est exonéré de l’impôt sur les successions dans tous les cantons. Une exception compte ici : à Genève, les exonérations du conjoint et des descendants ne s’appliquent pas si le défunt ou le donateur a été imposé au forfait lors de l’une des trois dernières taxations définitives.
 
 ## Garder une entreprise dans le Golfe
 

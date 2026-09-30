@@ -19,6 +19,10 @@ faq:
   - q: "Do EU citizens need a golden visa?"
     a: "No. EU/EFTA nationals who do not work can live in Switzerland if they have sufficient means and full health and accident insurance, under the free movement agreement."
 sources:
+  - label: "SEM — Weisungen AIG, chapter 4 (Stand 30 June 2026), §4.7.2 (self-employment)"
+    url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-kap4-d.pdf.download.pdf/weisungen-aig-kap4-d.pdf"
+  - label: "Fedlex — art. 19 AIG (self-employment)"
+    url: "https://www.fedlex.admin.ch/eli/cc/2007/758/de#art_19"
   - label: "SEM — Weisungen AIG (Stand 15 June 2026), §5.3 and §5.5"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "SEM — Weisungen VFP (January 2026), §6.2"
@@ -61,7 +65,7 @@ Switzerland does not have a golden visa. There is no programme that grants a res
 
 Several European countries have made "golden visa" a familiar phrase, and Switzerland is often listed alongside them on relocation sites. Some advisers market a "Swiss residence programme" with a price tag attached. That framing is understandable, but it is misleading. In Switzerland you are not buying a permit. You are asking a canton to accept you as a resident, and the canton has real discretion to say no.
 
-The good news is that the underlying routes are written into federal law and the SEM directives, and they are used: at the end of 2018, for example, 4,557 people in Switzerland were taxed on a lump sum, according to the Federal Department of Finance. The routes simply work differently from an investment visa.
+The good news is that the underlying routes are written into federal law and the SEM directives. Lump-sum taxation, which often goes with the fiscal-interest route, is well established too: at the end of 2018, for example, 4,557 people in Switzerland were taxed on a lump sum, according to the Federal Department of Finance. The routes simply work differently from an investment visa.
 
 ## What actually exists
 
@@ -70,7 +74,7 @@ The good news is that the underlying routes are written into federal law and the
 | EU/EFTA national, not working | Free movement (art. 24 Annex I FZA) | Sufficient financial means and comprehensive health and accident insurance; no quotas |
 | Non-EU national, 55 or over, retired | Retiree route (art. 28 AIG) | Special personal ties to Switzerland; means above the supplementary-benefits level for life; no work anywhere |
 | Non-EU national, any age, wealthy | Important fiscal interests (art. 30 para. 1 let. b AIG, art. 32 VZAE) | Move your centre of life here; work only abroad; a tax contribution the canton regards as significant |
-| Anyone taking a job or starting a business | Employment or self-employment routes | Outside the scope of this site |
+| Anyone taking a job or starting a business | Employment or self-employment routes (art. 19 AIG for non-EU self-employed) | Non-EU: quotas, overall economic interest and a business plan, SEM approval; no fixed minimum investment, and setting up a company gives no right to a permit |
 
 The two non-EU routes are explained in detail, with cantonal figures, in our guide on [Swiss residence for financially independent non-EU nationals](/en/guides/residence-non-eu-financially-independent/). EU and EFTA citizens can read [the B permit without gainful activity](/en/guides/eu-citizens-b-permit-without-work/).
 

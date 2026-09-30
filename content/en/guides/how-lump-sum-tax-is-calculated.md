@@ -79,7 +79,7 @@ If you live in a hotel, a pension or similar accommodation, the base must be at 
 
 ### The control calculation
 
-This is the least intuitive part. The control calculation does not set a base; it sets a minimum **tax**. Your lump-sum tax must be at least as high as the ordinary tax would be on the **gross** amount of:
+This is the least intuitive part. Unlike the other floors, the control calculation does not look at your lifestyle but at certain income items: under art. 14 para. 3 lit. d DBG, the base must be at least their **gross** total, so in effect your lump-sum tax is at least as high as the ordinary tax would be on the **gross** amount of:
 
 - Swiss real estate and its income;
 - movable property located in Switzerland and its income;

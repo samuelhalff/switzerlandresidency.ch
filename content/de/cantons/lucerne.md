@@ -60,7 +60,7 @@ Die Stadt Luzern liegt dort, wo die Reuss den Vierwaldstättersee verlässt, mit
 
 ## Pauschalbesteuerung in Luzern
 
-Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren Abwesenheit, und keine Erwerbstätigkeit in der Schweiz für beide Ehegatten.
+Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren Abwesenheit, und keine Erwerbstätigkeit in der Schweiz, weder bei Ihnen noch bei Ihrem Ehegatten.
 
 Luzern gehört zu den Kantonen, die die Pauschalbesteuerung beibehalten, aber strenger ausgestaltet haben. Die kantonale Bemessungsgrundlage beträgt 2026 mindestens CHF 647'100, und das steuerbare Vermögen wird mindestens auf das 20-Fache der Grundlage festgesetzt und zum proportionalen Satz des Kantons besteuert. Der Test mit dem Siebenfachen des Mietzinses und die Kontrollrechnung auf Einkünften aus schweizerischen Quellen und DBA-entlasteten Einkünften gelten wie überall. Die direkte Bundessteuer wird separat auf mindestens CHF 435'000 berechnet.
 
@@ -72,7 +72,7 @@ Ehegatten und eingetragene Partner sind wie in allen Kantonen befreit. Der Kanto
 
 ## Aufenthaltsbewilligung
 
-EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger stellen ihr Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz) oder aus wichtigen fiskalischen Interessen, was die Zustimmung des SEM erfordert. Für Luzern haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; der Kanton entscheidet im Einzelfall.
+EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger ohne Erwerbstätigkeit können ein Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz und ausreichenden Mitteln) oder aus wichtigen fiskalischen Interessen stellen. In beiden Fällen entscheidet der Kanton nach Ermessen, und das SEM muss zustimmen. Für Luzern haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; der Kanton entscheidet im Einzelfall.
 
 ## Immobilien
 

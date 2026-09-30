@@ -8,7 +8,7 @@ updated: "2026-09-30"
 draft: false
 faq:
   - q: "Does Ticino still offer lump-sum taxation?"
-    a: "Yes. The cantonal minimum base is CHF 434,700 (indexed, valid from 2025). Federal tax is calculated separately on at least CHF 435,000 for 2026."
+    a: "Yes. The cantonal minimum base is CHF 434,700 (ESTV fact sheet, Feb 2026). Federal tax is calculated separately on at least CHF 435,000 for 2026."
   - q: "Do lump-sum taxpayers pay wealth tax in Ticino?"
     a: "Yes. Since 2021 lump-sum taxpayers in Ticino are liable to cantonal and communal wealth tax, with wealth set at five times the base."
   - q: "How many people use the lump sum in Ticino?"
@@ -38,14 +38,14 @@ sources:
     url: "https://www.ticino.ch/"
 ---
 
-Ticino offers lump-sum taxation with a cantonal minimum base of CHF 434,700 (indexed, valid from 2025). Since 2021 lump-sum taxpayers here also pay cantonal and communal wealth tax, with wealth set at five times the base. It is Switzerland's Italian-speaking canton, south of the Alps.
+Ticino offers lump-sum taxation with a cantonal minimum base of CHF 434,700 (ESTV fact sheet, Feb 2026). Since 2021 lump-sum taxpayers here also pay cantonal and communal wealth tax, with wealth set at five times the base. It is Switzerland's Italian-speaking canton, south of the Alps.
 
 ## Key facts
 
 | | Ticino (as of September 2026) |
 |---|---|
 | Lump-sum taxation | Available |
-| Cantonal minimum base | CHF 434,700 (indexed, from 2025) |
+| Cantonal minimum base | CHF 434,700 (ESTV fact sheet, Feb 2026) |
 | Wealth on the lump sum | 5× the base (wealth tax applies since 2021) |
 | Federal minimum base | CHF 435,000 for 2026 |
 | Lump-sum cases (2022) | 767, paying CHF 183.5 m in total tax |
@@ -63,7 +63,7 @@ Daily life is in Italian. For many families the appeal is simple: Swiss institut
 
 The federal conditions apply: no Swiss nationality, first-time Swiss tax residence or a return after ten years away, and no work in Switzerland for either spouse.
 
-For cantonal and communal tax the base is at least CHF 434,700. Since 2021 Ticino also taxes the wealth of lump-sum taxpayers, on five times the base. The seven-times-rent test and the control calculation on Swiss-source and treaty-relieved income apply as everywhere. Federal tax is calculated separately on at least CHF 435,000 for 2026.
+For cantonal and communal tax the base is at least CHF 434,700, the figure in the federal tax administration's February 2026 fact sheet; whether Ticino has indexed it for 2026 is not confirmed, so check it with the canton. Since 2021 Ticino also taxes the wealth of lump-sum taxpayers, on five times the base. The seven-times-rent test and the control calculation on Swiss-source and treaty-relieved income apply as everywhere. Federal tax is calculated separately on at least CHF 435,000 for 2026.
 
 The regime is well used here: according to the canton, 767 lump-sum cases paid CHF 183.5 million in total tax in 2022. See [lump-sum taxation by canton](/en/guides/lump-sum-taxation-by-canton/) to compare minimums.
 
@@ -71,7 +71,7 @@ The regime is well used here: according to the canton, 767 lump-sum cases paid C
 
 ## Residence permits
 
-EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals apply as retirees (55 or over, with special ties to Switzerland) or on grounds of important fiscal interest, which needs SEM approval. We have not found an official published threshold for Ticino; figures quoted online are not confirmed by the canton, so the amount should be agreed in a ruling first.
+EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals who will not work can apply as retirees (55 or over, with special ties to Switzerland and sufficient means) or on grounds of important fiscal interest. Both routes are discretionary and need SEM approval. We have not found an official published threshold for Ticino; figures quoted online are not confirmed by the canton, so the amount should be agreed in a ruling first.
 
 ## Inheritance and gift tax
 

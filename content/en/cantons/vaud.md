@@ -38,7 +38,7 @@ sources:
     url: "https://www.region-du-leman.ch/"
 ---
 
-Vaud offers lump-sum taxation, and its minimum is simple to read: as of 2026 the cantonal base is at least CHF 415,000, and that figure already includes a surcharge covering wealth tax. Non-EU applicants must sign a lump-sum agreement with the canton before the residence permit can be processed.
+Vaud offers lump-sum taxation, and its minimum is simple to read: as of 2026 the cantonal base is at least CHF 415,000, and that figure already includes a surcharge covering wealth tax. Non-EU applicants on the fiscal-interest route need a signed lump-sum agreement in their permit file; the permit itself remains discretionary and needs SEM approval.
 
 ## Key facts
 
@@ -48,7 +48,7 @@ Vaud offers lump-sum taxation, and its minimum is simple to read: as of 2026 the
 | Cantonal minimum base | CHF 415,000, including a 15% surcharge for wealth tax |
 | Rent test | 7× annual rent or rental value, plus 10% |
 | Federal minimum base | CHF 435,000 for 2026 |
-| Non-EU permit | Signed lump-sum agreement required; SEM approval |
+| Non-EU fiscal-interest permit | Signed lump-sum agreement required in the file; discretionary, SEM approval |
 | Inheritance (descendants) | CHF 1 m exempt, then a decreasing deduction up to CHF 2 m |
 | Language | French |
 | Main towns | Lausanne, Montreux, Vevey, Nyon, Morges, Yverdon-les-Bains |
@@ -71,7 +71,7 @@ For a side-by-side view with other cantons, see [lump-sum taxation by canton](/e
 
 For people from outside the EU/EFTA applying on grounds of important public (fiscal) interest, Vaud lists the documents it needs: a formal commitment not to work in Switzerland or abroad (other than managing your own wealth), a copy of the lump-sum agreement with the cantonal tax administration (ACI), and the deed or land-register extract if you are buying. The file then goes to SEM for approval. Vaud does not publish a minimum amount.
 
-Applicants aged 55 or over with strong ties to Switzerland can also apply as retirees. EU/EFTA nationals who do not work follow the simpler free-movement route.
+Applicants aged 55 or over with strong ties to Switzerland can also apply as retirees, provided they have sufficient means and do not work; that route is also discretionary and needs SEM approval. EU/EFTA nationals who do not work follow the simpler free-movement route.
 
 ## Inheritance and gift tax
 

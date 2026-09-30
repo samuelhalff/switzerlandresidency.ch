@@ -35,7 +35,7 @@ sources:
     url: "https://www.ge.ch/imposition-apres-depense/comment-beneficier-imposition-apres-depense"
   - label: "Canton of Uri: lump-sum taxation leaflet (1 Jan 2026)"
     url: "https://www.ur.ch/_docn/439772/14_Merkblatt_Aufwandbesteuerung_01.01.2026_1.pdf"
-  - label: "SEM: directives on foreign nationals (AIG), §5.5"
+  - label: "SEM: directives on foreign nationals (AIG), §5.3 and §5.5"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
 ---
 
@@ -103,7 +103,7 @@ The tax regime and the right to live in Switzerland are two separate questions, 
 
 **EU and EFTA nationals** who do not work can usually obtain a residence permit if they have sufficient financial means and full health and accident insurance. The lump sum can be combined with that permit, as Uri's leaflet notes.
 
-**Non-EU nationals** (including UK nationals arriving since 2021) have narrower routes. The most common for people using the lump sum is a permit for important public interests, in practice significant cantonal fiscal interests, under art. 30 AIG and art. 32 VZAE. The canton has wide discretion and the State Secretariat for Migration (SEM) must approve each case. Geneva publishes a figure for this: its "major fiscal interest" corresponds to an expenditure base of CHF 750,000 for third-country nationals. Vaud asks for a copy of the lump-sum agreement with its tax administration as part of the permit file. Applicants aged 55 or over with close ties to Switzerland may also use the retiree route. Our guide to [residence for financially independent non-EU nationals](/en/guides/residence-non-eu-financially-independent/) covers these routes in detail.
+**Non-EU nationals** (including UK nationals arriving since 2021) have narrower routes. The most common for people using the lump sum is a permit for important public interests, in practice significant cantonal fiscal interests, under art. 30 AIG and art. 32 VZAE. The canton has wide discretion and the State Secretariat for Migration (SEM) must approve each case. Geneva publishes a figure for this: its "major fiscal interest" corresponds to an expenditure base of CHF 750,000 for third-country nationals. Vaud asks for a copy of the lump-sum agreement with its tax administration as part of the permit file. Applicants aged 55 or over who have special personal ties to Switzerland (owning property is not enough) and sufficient means may also use the retiree route, again at the canton's discretion and with SEM approval. Our guide to [residence for financially independent non-EU nationals](/en/guides/residence-non-eu-financially-independent/) covers these routes in detail.
 
 ## How do you apply?
 

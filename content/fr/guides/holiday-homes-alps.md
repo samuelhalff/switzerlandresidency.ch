@@ -68,7 +68,7 @@ Il faut que la réponse soit « oui » aux deux.
 
 Si vous êtes ressortissant UE/AELE avec un domicile légal et effectif en Suisse, ou ressortissant hors UE titulaire d'un permis C et vivant ici, vous n'êtes pas soumis à la Lex Koller. Vous pouvez acheter un logement de vacances comme un résident suisse, sous réserve de la Lex Weber.
 
-Toutes les autres personnes sont des « personnes à l'étranger » au sens de l'art. 5 LFAIE. Cela comprend les personnes vivant hors de Suisse, quelle que soit leur nationalité, ainsi que les ressortissants hors UE vivant ici avec un permis B. Pour elles, un logement de vacances nécessite une autorisation, qui est imputée sur le contingent du canton. L'exception pour la résidence principale, qui permet à un titulaire d'un permis B hors UE d'acheter son propre logement, ne s'étend pas à un second bien.
+Les autres ressortissants étrangers sont des « personnes à l'étranger » au sens de l'art. 5 LFAIE. Cela comprend ceux qui vivent hors de Suisse, quelle que soit leur nationalité, ainsi que les ressortissants hors UE vivant ici avec un permis B. Pour elles, un logement de vacances nécessite une autorisation, qui est imputée sur le contingent du canton. L'exception pour la résidence principale, qui permet à un titulaire d'un permis B hors UE d'acheter son propre logement, ne s'étend pas à un second bien.
 
 Notre guide principal sur l'[achat d'un bien immobilier en tant qu'étranger](/fr/guides/buying-property-lex-koller/) détaille ces catégories.
 

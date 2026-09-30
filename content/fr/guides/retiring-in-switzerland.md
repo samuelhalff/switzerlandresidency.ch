@@ -9,7 +9,7 @@ updated: "2026-09-30"
 draft: false
 faq:
   - q: "Un retraité hors UE peut-il s'installer en Suisse ?"
-    a: "Oui, s'il a au moins 55 ans, des attaches personnelles particulières avec la Suisse, des moyens suffisants à vie au-dessus du niveau des prestations complémentaires et s'il ne travaille plus nulle part (art. 28 LEI). Le canton décide et le SEM doit donner son approbation."
+    a: "C'est possible s'il a au moins 55 ans, des attaches personnelles particulières avec la Suisse, des moyens suffisants à vie au-dessus du niveau des prestations complémentaires et s'il ne travaille plus nulle part (art. 28 LEI). Ce n'est pas un visa de retraite général : le canton décide selon son pouvoir d'appréciation et le SEM doit donner son approbation."
   - q: "Les Britanniques peuvent-ils prendre leur retraite en Suisse après le Brexit ?"
     a: "Oui, mais depuis le 1er janvier 2021, les ressortissants britanniques non couverts par l'accord sur les droits des citoyens relèvent des règles applicables aux États tiers : c'est donc la voie des retraités de 55 ans et plus ou celle des intérêts fiscaux qui s'applique."
   - q: "Les retraités doivent-ils s'assurer auprès d'une caisse maladie suisse ?"
@@ -45,7 +45,7 @@ sources:
     url: "https://www.fedlex.admin.ch/eli/cc/1976/2423_2423_2423/fr#art_42"
 ---
 
-Vous pouvez prendre votre retraite en Suisse quelle que soit votre nationalité, mais la voie dépend de votre passeport. Les citoyens de l'UE et de l'AELE doivent disposer de moyens suffisants et d'une couverture maladie complète. Les ressortissants d'États tiers, y compris les Britanniques arrivés depuis 2021, passent par l'autorisation pour retraités de 55 ans et plus ayant des attaches particulières avec la Suisse, ou par une autorisation fondée sur des intérêts fiscaux importants du canton. Une fois installés, tous les retraités doivent s'assurer auprès d'une caisse maladie suisse, cotiser à l'AVS jusqu'à 65 ans et choisir entre l'imposition ordinaire et, s'ils y ont droit, le forfait fiscal.
+Prendre sa retraite en Suisse est possible quelle que soit votre nationalité, mais la voie dépend de votre passeport, et pour les ressortissants d'États tiers rien n'est automatique. Les citoyens de l'UE et de l'AELE doivent disposer de moyens suffisants et d'une couverture maladie complète. Les ressortissants d'États tiers, y compris les Britanniques arrivés depuis 2021, passent par l'autorisation pour retraités de 55 ans et plus ayant des attaches particulières avec la Suisse, ou par une autorisation fondée sur des intérêts fiscaux importants du canton. Une fois installés, tous les retraités doivent s'assurer auprès d'une caisse maladie suisse, cotiser à l'AVS jusqu'à 65 ans et choisir entre l'imposition ordinaire et, s'ils y ont droit, le forfait fiscal.
 
 > **Points clés (septembre 2026)**
 > - Voie des retraités hors UE (art. 28 LEI) : **55 ans et plus**, attaches personnelles particulières avec la Suisse, moyens suffisants à vie au-dessus du niveau des **prestations complémentaires**, **aucune activité lucrative** en Suisse ni à l'étranger. **Approbation du SEM** requise.

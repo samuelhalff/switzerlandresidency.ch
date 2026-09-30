@@ -8,7 +8,7 @@ updated: "2026-09-30"
 draft: false
 faq:
   - q: "Bietet das Tessin die Pauschalbesteuerung noch an?"
-    a: "Ja. Das kantonale Minimum beträgt CHF 434'700 (indexiert, gültig ab 2025). Die direkte Bundessteuer wird separat auf mindestens CHF 435'000 für 2026 berechnet."
+    a: "Ja. Das kantonale Minimum beträgt CHF 434'700 (Kantonsblatt der ESTV, Februar 2026). Die direkte Bundessteuer wird separat auf mindestens CHF 435'000 für 2026 berechnet."
   - q: "Zahlen pauschal besteuerte Personen im Tessin Vermögenssteuer?"
     a: "Ja. Seit 2021 unterliegen pauschal besteuerte Personen im Tessin der kantonalen und kommunalen Vermögenssteuer; das Vermögen wird auf das Fünffache der Bemessungsgrundlage festgesetzt."
   - q: "Wie viele Personen werden im Tessin pauschal besteuert?"
@@ -38,14 +38,14 @@ sources:
     url: "https://www.ticino.ch/"
 ---
 
-Das Tessin bietet die Pauschalbesteuerung mit einem kantonalen Minimum von CHF 434'700 an (indexiert, gültig ab 2025). Seit 2021 bezahlen pauschal besteuerte Personen hier zusätzlich die kantonale und kommunale Vermögenssteuer, wobei das Vermögen auf das Fünffache der Bemessungsgrundlage festgesetzt wird. Es ist der italienischsprachige Kanton der Schweiz, südlich der Alpen.
+Das Tessin bietet die Pauschalbesteuerung mit einem kantonalen Minimum von CHF 434'700 an (Kantonsblatt der ESTV, Februar 2026). Seit 2021 bezahlen pauschal besteuerte Personen hier zusätzlich die kantonale und kommunale Vermögenssteuer, wobei das Vermögen auf das Fünffache der Bemessungsgrundlage festgesetzt wird. Es ist der italienischsprachige Kanton der Schweiz, südlich der Alpen.
 
 ## Eckdaten
 
 | | Tessin (Stand September 2026) |
 |---|---|
 | Pauschalbesteuerung | Möglich |
-| Kantonales Minimum | CHF 434'700 (indexiert, ab 2025) |
+| Kantonales Minimum | CHF 434'700 (Kantonsblatt der ESTV, Februar 2026) |
 | Vermögen bei Pauschalbesteuerung | 5× die Bemessungsgrundlage (Vermögenssteuer seit 2021) |
 | Bundesminimum | CHF 435'000 für 2026 |
 | Fälle der Pauschalbesteuerung (2022) | 767, mit insgesamt CHF 183,5 Mio. Steuern |
@@ -61,9 +61,9 @@ Der Alltag spielt sich auf Italienisch ab. Für viele Familien ist der Reiz schn
 
 ## Pauschalbesteuerung im Tessin
 
-Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren Abwesenheit, und keine Erwerbstätigkeit in der Schweiz für beide Ehegatten.
+Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren Abwesenheit, und keine Erwerbstätigkeit in der Schweiz, weder bei Ihnen noch bei Ihrem Ehegatten.
 
-Für die Kantons- und Gemeindesteuer beträgt die Bemessungsgrundlage mindestens CHF 434'700. Seit 2021 besteuert das Tessin zudem das Vermögen pauschal besteuerter Personen, und zwar auf dem Fünffachen der Bemessungsgrundlage. Der Test mit dem Siebenfachen des Mietzinses und die Kontrollrechnung auf Einkünften aus schweizerischen Quellen und DBA-entlasteten Einkünften gelten wie überall. Die direkte Bundessteuer wird separat auf mindestens CHF 435'000 für 2026 berechnet.
+Für die Kantons- und Gemeindesteuer beträgt die Bemessungsgrundlage mindestens CHF 434'700, gemäss Kantonsblatt der ESTV vom Februar 2026; ob das Tessin den Betrag für 2026 indexiert hat, ist nicht bestätigt und sollte beim Kanton geklärt werden. Seit 2021 besteuert das Tessin zudem das Vermögen pauschal besteuerter Personen, und zwar auf dem Fünffachen der Bemessungsgrundlage. Der Test mit dem Siebenfachen des Mietzinses und die Kontrollrechnung auf Einkünften aus schweizerischen Quellen und DBA-entlasteten Einkünften gelten wie überall. Die direkte Bundessteuer wird separat auf mindestens CHF 435'000 für 2026 berechnet.
 
 Das Modell ist hier gut etabliert: Laut Kanton bezahlten 767 pauschal besteuerte Personen 2022 insgesamt CHF 183,5 Mio. Steuern. Die Minimalwerte im Vergleich finden Sie unter [Pauschalbesteuerung nach Kanton](/de/guides/lump-sum-taxation-by-canton/).
 
@@ -71,7 +71,7 @@ Das Modell ist hier gut etabliert: Laut Kanton bezahlten 767 pauschal besteuerte
 
 ## Aufenthaltsbewilligung
 
-EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger stellen ihr Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz) oder aus wichtigen fiskalischen Interessen, was die Zustimmung des SEM erfordert. Für das Tessin haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; online genannte Zahlen sind vom Kanton nicht bestätigt. Der Betrag sollte deshalb zuerst in einem Ruling vereinbart werden.
+EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger ohne Erwerbstätigkeit können ein Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz und ausreichenden Mitteln) oder aus wichtigen fiskalischen Interessen stellen. In beiden Fällen entscheidet der Kanton nach Ermessen, und das SEM muss zustimmen. Für das Tessin haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; online genannte Zahlen sind vom Kanton nicht bestätigt. Der Betrag sollte deshalb zuerst in einem Ruling vereinbart werden.
 
 ## Erbschafts- und Schenkungssteuer
 

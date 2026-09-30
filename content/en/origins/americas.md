@@ -57,7 +57,7 @@ Americans, Canadians and Latin Americans can settle in Switzerland without worki
 > - The Swiss treaties with the **USA and Canada** require the **modified lump sum** to claim treaty benefits.
 > - Swiss lump-sum taxation: federal minimum base **CHF 435,000 for 2026**.
 > - **FBAR** if foreign accounts exceed **USD 10,000** at any time; **Form 8938** from **USD 200,000/300,000** for single filers abroad.
-> - C permit for non-EU nationals: after **10 years**, or **5 years** if well integrated.
+> - C permit: US and Canadian nationals may receive it after **5 years** at the canton's discretion if integration criteria are met; otherwise after **10 years**, or **5 years** early if well integrated.
 
 ## Why people from the Americas choose Switzerland
 
@@ -101,7 +101,7 @@ No Latin American treaty is on the modified lump-sum list. The standard lump sum
 - **Health insurance:** Swiss basic health insurance must be taken out within 3 months of registering.
 - **Driving licence:** a Swiss licence is required once you have lived here for 12 months without a break of more than three months abroad.
 - **Property:** as a non-EU B-permit holder you may buy a main residence at your actual Swiss domicile without a Lex Koller permit; holiday homes remain subject to Lex Koller authorisation and quota rules. A 2026 reform proposal would require a permit even for a main residence; it is not law yet.
-- **Long-term status:** the C permit is available after 10 years, including 5 continuous years on a B permit, or after 5 years if you are well integrated and speak the local language well.
+- **Long-term status:** US and Canadian nationals may be granted a C permit after 5 years at the canton's discretion (no legal right) if integration criteria, including language, are met. For other nationalities the rule is 10 years, including 5 continuous years on a B permit, or 5 years early if you are well integrated and speak the local language well.
 
 ## Common pitfalls
 

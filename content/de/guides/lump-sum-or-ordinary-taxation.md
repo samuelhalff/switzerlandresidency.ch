@@ -31,6 +31,8 @@ sources:
     url: "https://www.efd.admin.ch/en/lump-sum-taxation"
   - label: "Kanton Zürich: Weisung des Migrationsamts vom 19. November 2021"
     url: "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Erwerbslose%20Wohnsitznahme.pdf"
+  - label: "Fedlex: ZV-EJPD (Zustimmungsverordnung), Art. 5"
+    url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
   - label: "Fedlex: Art. 7 KVV (Verordnung über die Krankenversicherung)"
     url: "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de#art_7"
   - label: "AHV/IV: Merkblatt 2.03 über die Beiträge der Nichterwerbstätigen (1. Januar 2026)"
@@ -61,7 +63,7 @@ Die **Besteuerung nach dem Aufwand** ersetzt die Einkommensberechnung durch eine
 
 ### Ihr tatsächliches Einkommen ist im Vergleich zum Mindestbetrag bescheiden
 
-Die Pauschalbesteuerung beginnt bei einer hohen Untergrenze. Liegt Ihr tatsächliches weltweites Einkommen deutlich unter dem Betrag, auf dem Sie pauschal besteuert würden, führt die ordentliche Besteuerung schlicht zu einer tieferen Rechnung. Das betrifft oft Personen, die hauptsächlich von einer moderaten Rente oder vom Verzehr ihres Kapitals leben.
+Die Pauschalbesteuerung beginnt bei einer hohen Untergrenze. Liegt Ihr tatsächliches weltweites Einkommen deutlich unter dem Betrag, auf dem Sie pauschal besteuert würden, kann die ordentliche Besteuerung schlicht zu einer tieferen Rechnung führen. Das betrifft oft Personen, die hauptsächlich von einer moderaten Rente oder vom Verzehr ihres Kapitals leben.
 
 ### Der Grossteil Ihrer Einkünfte stammt ohnehin aus der Schweiz
 
@@ -85,7 +87,7 @@ Die Erbschafts- und Schenkungssteuer ist kantonal geregelt. Ehegatten sind in al
 
 ### Sie möchten in Zürich oder Basel leben
 
-Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt haben die Pauschalbesteuerung abgeschafft, und Basel-Landschaft lässt sie nur noch für das Zuzugsjahr zu. Möchte Ihre Familie in einem dieser Kantone leben, gilt die ordentliche Besteuerung. Zürich erteilt Nicht-EU-Staatsangehörigen zwar Aufenthaltsbewilligungen aus fiskalischen Gründen, doch seine Weisung setzt die Hürde bei rund CHF 1 Million Steuern pro Jahr an, bestätigt durch die Steuerbehörde. Siehe unsere [Seite zum Kanton Zürich](/de/cantons/zurich/).
+Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt haben die Pauschalbesteuerung abgeschafft, und Basel-Landschaft lässt sie nur noch für das Zuzugsjahr zu. Möchte Ihre Familie in einem dieser Kantone leben, gilt die ordentliche Besteuerung. Zürich erteilt Nicht-EU-Staatsangehörigen zwar Aufenthaltsbewilligungen aus fiskalischen Gründen, doch seine Weisung setzt die Hürde bei rund CHF 1 Million Steuern pro Jahr an, bestätigt durch die Steuerbehörde, und verlangt zudem enge Beziehungen zum Kanton sowie den Zuzug der ganzen Familie. Siehe unsere [Seite zum Kanton Zürich](/de/cantons/zurich/).
 
 ## Wann die Pauschalbesteuerung meist passt
 
@@ -97,7 +99,7 @@ Die Pauschalbesteuerung eignet sich in der Regel für Familien, die:
 - Wert auf einen **im Voraus mit dem Kanton vereinbarten, planbaren Betrag** legen;
 - sich für einen Kanton interessieren, der sie anbietet.
 
-Für Nicht-EU-Staatsangehörige ist die Pauschalbesteuerung zudem eng mit der Bewilligung aus fiskalischen Gründen verknüpft, die manche Kantone direkt an die Steuervereinbarung koppeln.
+Für Nicht-EU-Staatsangehörige ist die Pauschalbesteuerung zudem eng mit der Bewilligung aus fiskalischen Gründen verknüpft, die manche Kantone direkt an die Steuervereinbarung koppeln. Die Steuervereinbarung selbst ist keine Bewilligung: Der Kanton entscheidet nach Ermessen, und das SEM muss zustimmen.
 
 ## Was sich mit dem Regime nicht ändert
 

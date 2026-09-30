@@ -15,7 +15,7 @@ faq:
   - q: "When does French exit tax apply?"
     a: "Under article 167 bis CGI it applies if you were tax-domiciled in France for 6 of the last 10 years and hold at least 50% of a company's profits or holdings worth over €800,000. The tax is cancelled if you keep the shares for 2 years after leaving, or 5 years above €2.57 million."
   - q: "How long before a French national gets a Swiss C permit?"
-    a: "Nationals covered by a settlement agreement, which excludes a list of mainly central and eastern European states but not France, can normally obtain a C permit after 5 years."
+    a: "France has a settlement agreement with Switzerland, so French nationals have a right to a C permit after 5 years. Nationals of states without such an agreement normally wait 10 years or depend on the canton's discretion."
   - q: "Do I need a Lex Koller permit to buy a home in Switzerland?"
     a: "Not once you live here. EU/EFTA nationals with a B or C permit and an actual Swiss domicile are not subject to Lex Koller and can buy like Swiss residents."
 sources:
@@ -66,7 +66,7 @@ As an EU citizen you do not need to show special ties to Switzerland, a minimum 
 - **Sufficient financial means.** In practice, your resources must be above the level at which a Swiss resident could claim social assistance. For retirees, they must exceed the threshold for Swiss supplementary benefits.
 - **Comprehensive health and accident insurance.**
 
-The residence permit (B EU/EFTA) for non-employed people is normally issued for **five years**. It can be withdrawn if your means or your insurance fall away. Because France is not among the countries excluded from the settlement agreements, French nationals can normally move to a **C permit after five years**.
+The residence permit (B EU/EFTA) for non-employed people is normally issued for **five years**. It can be withdrawn if your means or your insurance fall away. Because France has a settlement agreement with Switzerland, French nationals have a right to a **C permit after five years**.
 
 You register with your commune on arrival, like any resident. Our guide to the [EU B permit without work](/en/guides/eu-citizens-b-permit-without-work/) covers the file in more detail.
 
@@ -104,9 +104,10 @@ Whether a move to Switzerland benefits from the automatic deferral is something 
 
 ## Inheritance and wealth: what changes
 
-Switzerland has no federal inheritance tax. Cantons tax estates and gifts, but a surviving spouse is exempt everywhere and children are exempt in most cantons. Two French-speaking exceptions are worth knowing:
+Switzerland has no federal inheritance tax. Cantons tax estates and gifts, but a surviving spouse is exempt everywhere and children are exempt in most cantons. Three French-speaking exceptions are worth knowing:
 
 - **Vaud** taxes direct descendants above an exemption of CHF 1 million, with a decreasing deduction up to CHF 2 million.
+- **Neuchâtel** taxes direct descendants above a deduction of CHF 50,000.
 - **Geneva** removes the spouse and descendant exemptions if the deceased or donor was taxed on a lump sum in one of the last three final assessments.
 
 Wealth tax is cantonal only, and capital gains on private movable assets such as listed shares are tax-free in Switzerland. Our comparison of [Geneva or Vaud](/en/guides/geneva-or-vaud/) goes through these differences for the two cantons French families most often consider.

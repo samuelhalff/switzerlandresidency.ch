@@ -68,7 +68,7 @@ Schwytz ne perçoit ni impôt sur les successions ni impôt sur les donations, q
 
 ## Permis de séjour
 
-Les ressortissants de l’UE/AELE sans activité lucrative peuvent s’établir s’ils disposent de moyens suffisants et d’une assurance maladie. Les ressortissants hors UE peuvent demander un permis en tant que rentiers (55 ans ou plus, avec des liens personnels particuliers avec la Suisse) ou pour intérêts fiscaux importants, ce qui requiert l’approbation du SEM. Nous n’avons pas trouvé de seuil officiel publié pour Schwytz ; le canton décide au cas par cas.
+Les ressortissants de l’UE/AELE sans activité lucrative peuvent s’établir s’ils disposent de moyens suffisants et d’une assurance maladie. Les ressortissants hors UE sans activité lucrative peuvent demander un permis en tant que rentiers (55 ans ou plus, avec des liens personnels particuliers avec la Suisse et des moyens suffisants) ou pour intérêts fiscaux importants. Dans les deux cas, le canton décide librement et l’approbation du SEM est requise. Nous n’avons pas trouvé de seuil officiel publié pour Schwytz ; le canton décide au cas par cas.
 
 ## Immobilier
 

@@ -61,7 +61,7 @@ Deutsch ist am weitesten verbreitet, Rätoromanisch wird im Engadin und in mehre
 
 ## Pauschalbesteuerung in Graubünden
 
-Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren, und keine Erwerbstätigkeit in der Schweiz für beide Ehegatten.
+Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren, und keine Erwerbstätigkeit in der Schweiz, weder bei Ihnen noch bei Ihrem Ehegatten.
 
 Die kantonale Bemessungsgrundlage beträgt 2026 mindestens CHF 435'000. Für die Vermögenssteuer setzt Graubünden das steuerbare Vermögen den kapitalisierten Lebenshaltungskosten bzw. dem kapitalisierten Einkommen gleich, nach der Methode in seiner veröffentlichten Steuerpraxis. Der Test mit dem Siebenfachen des Mietzinses fällt in Ferienorten mit hohen Mietwerten ins Gewicht, und die Kontrollrechnung auf Einkünften aus schweizerischen Quellen und DBA-entlasteten Einkünften gilt wie überall.
 
@@ -69,7 +69,7 @@ Die veröffentlichten Minimalwerte sind eine Untergrenze; der tatsächliche Betr
 
 ## Aufenthaltsbewilligung
 
-EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger stellen ihr Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz) oder aus wichtigen fiskalischen Interessen, was die Zustimmung des SEM erfordert. Für Graubünden haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; bestätigen Sie den Betrag deshalb mit dem Kanton.
+EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger ohne Erwerbstätigkeit können ein Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz und ausreichenden Mitteln) oder aus wichtigen fiskalischen Interessen stellen. In beiden Fällen entscheidet der Kanton nach Ermessen, und das SEM muss zustimmen. Für Graubünden haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; bestätigen Sie den Betrag deshalb mit dem Kanton.
 
 ## Erbschafts- und Schenkungssteuer
 

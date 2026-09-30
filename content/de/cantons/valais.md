@@ -62,7 +62,7 @@ Das Tal ist für sein trockenes, sonniges Klima und seine Rebberge bekannt; vom 
 
 ## Pauschalbesteuerung im Wallis
 
-Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren, und keine Erwerbstätigkeit in der Schweiz für beide Ehegatten.
+Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren, und keine Erwerbstätigkeit in der Schweiz, weder bei Ihnen noch bei Ihrem Ehegatten.
 
 Für die Kantonssteuer beträgt die Bemessungsgrundlage mindestens CHF 250'000. Die Gemeindesteuer wird nach einem Durchschnittstarif berechnet. Für die Vermögenssteuer wird das steuerbare Vermögen mindestens auf das Vierfache der Bemessungsgrundlage festgesetzt. Wie überall muss die Grundlage zudem das Siebenfache des jährlichen Mietzinses oder Eigenmietwerts erreichen, und die Kontrollrechnung auf Einkünften aus schweizerischen Quellen und DBA-entlasteten Einkünften gilt. Die direkte Bundessteuer wird separat auf mindestens CHF 435'000 berechnet.
 
@@ -70,7 +70,7 @@ Dies sind die veröffentlichten Minimalwerte. Wo ein konkretes Dossier landet, h
 
 ## Aufenthaltsbewilligung
 
-EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger stellen ihr Gesuch entweder als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz) oder aus wichtigen fiskalischen Interessen, was die Zustimmung des SEM erfordert. Wir haben für das Wallis keinen offiziell veröffentlichten Schwellenwert gefunden. Ein Betrag sollte deshalb direkt mit dem Kanton bestätigt und nicht aus Sekundärquellen übernommen werden.
+EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger ohne Erwerbstätigkeit können ein Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz und ausreichenden Mitteln) oder aus wichtigen fiskalischen Interessen stellen. In beiden Fällen entscheidet der Kanton nach Ermessen, und das SEM muss zustimmen. Wir haben für das Wallis keinen offiziell veröffentlichten Schwellenwert gefunden. Ein Betrag sollte deshalb direkt mit dem Kanton bestätigt und nicht aus Sekundärquellen übernommen werden.
 
 ## Erbschafts- und Schenkungssteuer
 

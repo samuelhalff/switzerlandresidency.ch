@@ -56,7 +56,7 @@ Schwyz ist einer der Gründungskantone der Eidgenossenschaft und hat der Schweiz
 
 ## Pauschalbesteuerung in Schwyz
 
-Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren Abwesenheit, und keine Erwerbstätigkeit in der Schweiz für beide Ehegatten.
+Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren Abwesenheit, und keine Erwerbstätigkeit in der Schweiz, weder bei Ihnen noch bei Ihrem Ehegatten.
 
 Die kantonale Bemessungsgrundlage beträgt mindestens CHF 600'000. Für die Vermögenssteuer wird das steuerbare Vermögen mindestens auf das 20-Fache der Bemessungsgrundlage festgesetzt, und Schwyz wendet einen proportionalen Vermögenssteuersatz an. Der Test mit dem Siebenfachen des Mietzinses fällt am Zürichseeufer ins Gewicht, wo die Mietwerte hoch sein können. Die Kontrollrechnung auf Einkünften aus schweizerischen Quellen und DBA-entlasteten Einkünften gilt wie überall, und die direkte Bundessteuer wird separat auf mindestens CHF 435'000 berechnet.
 
@@ -68,7 +68,7 @@ Schwyz erhebt weder eine Erbschafts- noch eine Schenkungssteuer, unabhängig dav
 
 ## Aufenthaltsbewilligung
 
-EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger stellen ihr Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz) oder aus wichtigen fiskalischen Interessen, was die Zustimmung des SEM erfordert. Für Schwyz haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; der Kanton entscheidet im Einzelfall.
+EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger ohne Erwerbstätigkeit können ein Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz und ausreichenden Mitteln) oder aus wichtigen fiskalischen Interessen stellen. In beiden Fällen entscheidet der Kanton nach Ermessen, und das SEM muss zustimmen. Für Schwyz haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; der Kanton entscheidet im Einzelfall.
 
 ## Immobilien
 

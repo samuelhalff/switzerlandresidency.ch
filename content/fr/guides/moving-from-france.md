@@ -15,7 +15,7 @@ faq:
   - q: "Quand l’exit tax française s’applique-t-elle ?"
     a: "Selon l’article 167 bis du CGI, elle s’applique si vous avez été domicilié fiscalement en France pendant 6 des 10 dernières années et détenez au moins 50 % des bénéfices d’une société ou des participations de plus de 800 000 €. L’impôt est dégrevé si vous conservez les titres 2 ans après le départ, ou 5 ans au-delà de 2,57 millions d’euros."
   - q: "Au bout de combien de temps un Français obtient-il le permis C ?"
-    a: "Les ressortissants des États liés à la Suisse par un accord d’établissement, dont la France fait partie (la liste exclut surtout des États d’Europe centrale et orientale), peuvent normalement obtenir le permis C après 5 ans."
+    a: "La France est liée à la Suisse par une convention d’établissement : les Français ont donc droit au permis C après 5 ans. Les ressortissants d’États sans une telle convention attendent en principe 10 ans ou dépendent de l’appréciation du canton."
   - q: "Faut-il une autorisation Lex Koller pour acheter un logement en Suisse ?"
     a: "Pas une fois installé. Les ressortissants UE/AELE titulaires d’un permis B ou C et effectivement domiciliés en Suisse ne sont pas soumis à la Lex Koller et achètent aux mêmes conditions que les résidents suisses."
 sources:
@@ -66,7 +66,7 @@ En tant que citoyen de l’UE, vous n’avez à justifier ni d’attaches partic
 - **Des moyens financiers suffisants.** Concrètement, vos ressources doivent dépasser le niveau à partir duquel un résident suisse pourrait prétendre à l’aide sociale. Pour un retraité, elles doivent être supérieures au seuil des prestations complémentaires.
 - **Une assurance maladie et accidents couvrant tous les risques.**
 
-L’autorisation de séjour (permis B UE/AELE) des personnes sans activité lucrative est en principe délivrée pour **cinq ans**. Elle peut être révoquée si les moyens financiers ou l’assurance viennent à manquer. Comme la France ne figure pas parmi les pays exclus des accords d’établissement, les Français peuvent normalement obtenir le **permis C après cinq ans**.
+L’autorisation de séjour (permis B UE/AELE) des personnes sans activité lucrative est en principe délivrée pour **cinq ans**. Elle peut être révoquée si les moyens financiers ou l’assurance viennent à manquer. Comme la France est liée à la Suisse par une convention d’établissement, les Français ont droit au **permis C après cinq ans**.
 
 À l’arrivée, vous vous annoncez auprès de votre commune, comme tout résident. Notre guide du [permis B UE sans activité lucrative](/fr/guides/eu-citizens-b-permit-without-work/) détaille le dossier.
 
@@ -104,9 +104,10 @@ Nous n’avons pas confirmé sur une source officielle si un départ vers la Sui
 
 ## Successions et fortune : ce qui change
 
-La Suisse ne connaît pas d’impôt fédéral sur les successions. Les cantons imposent les successions et les donations, mais le conjoint survivant est exonéré partout et les enfants le sont dans la plupart des cantons. Deux exceptions romandes méritent d’être connues :
+La Suisse ne connaît pas d’impôt fédéral sur les successions. Les cantons imposent les successions et les donations, mais le conjoint survivant est exonéré partout et les enfants le sont dans la plupart des cantons. Trois exceptions romandes méritent d’être connues :
 
 - **Vaud** impose les descendants directs au-delà d’une franchise de CHF 1 million, avec une déduction dégressive jusqu’à CHF 2 millions.
+- **Neuchâtel** impose les descendants directs au-delà d’une déduction de CHF 50 000.
 - **Genève** supprime les exonérations du conjoint et des descendants si le défunt ou le donateur a été imposé au forfait lors de l’une des trois dernières taxations définitives.
 
 L’impôt sur la fortune est uniquement cantonal, et les gains en capital sur la fortune mobilière privée, comme les actions cotées, sont exonérés en Suisse. Notre comparatif [Genève ou Vaud](/fr/guides/geneva-or-vaud/) passe en revue ces différences pour les deux cantons que les familles françaises envisagent le plus souvent.

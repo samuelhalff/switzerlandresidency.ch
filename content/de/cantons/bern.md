@@ -64,7 +64,7 @@ Die Stadt Bern ist Sitz der Bundesregierung und per Bahn gut mit Zürich, Basel,
 
 ## Pauschalbesteuerung in Bern
 
-Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren, und keine Erwerbstätigkeit in der Schweiz für beide Ehegatten.
+Es gelten die bundesrechtlichen Voraussetzungen: keine Schweizer Staatsangehörigkeit, erstmalige Steuerpflicht in der Schweiz oder Rückkehr nach mindestens zehn Jahren, und keine Erwerbstätigkeit in der Schweiz, weder bei Ihnen noch bei Ihrem Ehegatten.
 
 Bern gehört zu den Kantonen, die die Pauschalbesteuerung beibehalten, aber verschärft haben. Die kantonale Bemessungsgrundlage beträgt mindestens CHF 400'000. Die Vermögenssteuer wird nur auf Liegenschaften im Kanton erhoben und nicht, wie in den meisten Kantonen, auf einem Vielfachen der Bemessungsgrundlage. Der Test mit dem Siebenfachen des Mietzinses fällt in Gstaad ins Gewicht, wo die Mietwerte hoch sein können, und die Kontrollrechnung auf Einkünften aus schweizerischen Quellen und DBA-entlasteten Einkünften gilt wie überall. Die direkte Bundessteuer wird separat auf mindestens CHF 435'000 berechnet.
 
@@ -72,7 +72,7 @@ Die Berner Steuerverwaltung veröffentlicht Hinweise zu verbindlichen Vorabausk�
 
 ## Aufenthaltsbewilligung
 
-EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger stellen ihr Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz) oder aus wichtigen fiskalischen Interessen, was die Zustimmung des SEM erfordert. Für Bern haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; der Kanton entscheidet im Einzelfall.
+EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Nicht-EU-Bürger ohne Erwerbstätigkeit können ein Gesuch als Rentner (ab 55 Jahren, mit besonderen Beziehungen zur Schweiz und ausreichenden Mitteln) oder aus wichtigen fiskalischen Interessen stellen. In beiden Fällen entscheidet der Kanton nach Ermessen, und das SEM muss zustimmen. Für Bern haben wir keinen offiziell veröffentlichten Schwellenwert gefunden; der Kanton entscheidet im Einzelfall.
 
 ## Erbschafts- und Schenkungssteuer
 

@@ -14,12 +14,14 @@ faq:
   - q: "Un citoyen de l’UE peut-il bénéficier du forfait fiscal suisse ?"
     a: "Oui. Le forfait peut être combiné avec une autorisation UE/AELE, à condition de remplir les conditions fiscales : ne pas être de nationalité suisse, s’installer pour la première fois ou revenir après 10 ans, et n’exercer aucune activité lucrative en Suisse. Les ressortissants de Belgique, d’Allemagne, d’Italie, de Norvège, du Canada, d’Autriche et des États-Unis doivent vérifier le forfait modifié prévu par leur convention."
   - q: "Quand un citoyen de l’UE peut-il obtenir un permis C ?"
-    a: "Les ressortissants couverts par une convention d’établissement obtiennent en général le permis C après 5 ans. Pour la Bulgarie, la Croatie, Chypre, la Tchéquie, l’Estonie, la Hongrie, la Lettonie, la Lituanie, Malte, la Pologne, la Roumanie, la Slovaquie et la Slovénie, il n’existe pas de droit conventionnel et le permis C est normalement accordé après 10 ans."
+    a: "Les ressortissants de Belgique, du Danemark, de France, d’Allemagne, de Grèce, d’Italie, des Pays-Bas, d’Autriche, du Portugal, d’Espagne et du Liechtenstein ont droit au permis C après 5 ans en vertu d’une convention d’établissement. Pour la Finlande, l’Irlande, le Luxembourg, la Suède, l’Islande et la Norvège, un permis C après 5 ans est possible à la discrétion du canton si les critères d’intégration sont remplis. Pour la Bulgarie, la Croatie, Chypre, la Tchéquie, l’Estonie, la Hongrie, la Lettonie, la Lituanie, Malte, la Pologne, la Roumanie, la Slovaquie et la Slovénie, il n’existe pas de droit conventionnel et le permis C est normalement accordé après 10 ans."
   - q: "Un citoyen de l’UE peut-il acheter un bien immobilier en Suisse ?"
     a: "Les ressortissants de l’UE/AELE qui résident effectivement et légalement en Suisse (permis B ou C) ne sont pas soumis aux restrictions de la Lex Koller et peuvent donc acheter comme des résidents suisses. Ceux qui vivent à l’étranger ont besoin d’une autorisation pour la plupart des achats d’habitations."
 sources:
   - label: "SEM — Directives concernant la libre circulation des personnes (Directives OLCP), janvier 2026"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
+  - label: "SEM — Directives LEI, état au 15 juin 2026 (permis C selon la nationalité)"
+    url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf.download.pdf/weisungen-aig-d.pdf"
   - label: "Fedlex — art. 14 LIFD (imposition d’après la dépense)"
     url: "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/fr#art_14"
   - label: "AFC — Circulaire 44 (imposition d’après la dépense)"
@@ -52,7 +54,7 @@ Les citoyens de l’UE disposent d’une voie bien plus simple que les ressortis
 >
 > - Les ressortissants de l’UE/AELE sans activité lucrative doivent disposer de **moyens financiers suffisants** et d’une **assurance maladie et accidents couvrant tous les risques**. **Pas de contingent.**
 > - Le permis B UE/AELE des personnes sans activité lucrative est normalement valable **5 ans**.
-> - **Permis C après 5 ans** pour la plupart des ressortissants de l’UE ; normalement **10 ans** pour 13 États membres plus récents.
+> - **Permis C après 5 ans** de plein droit pour 10 États de l’UE et le Liechtenstein, ou à la discrétion du canton pour 6 autres ; normalement **10 ans** pour 13 États membres plus récents.
 > - Le forfait fiscal peut être **combiné avec une autorisation UE** ; base minimale fédérale de **CHF 435 000 pour 2026**.
 > - Les conventions avec la **Belgique, l’Allemagne, l’Italie, la Norvège, le Canada, l’Autriche et les États-Unis** exigent le **forfait modifié** pour bénéficier des avantages conventionnels.
 > - Les ressortissants de l’UE domiciliés en Suisse **ne sont pas soumis à la Lex Koller**.
@@ -76,7 +78,8 @@ Le permis B est normalement délivré pour 5 ans. Il peut être retiré si vos m
 
 | Nationalité | Permis C |
 |---|---|
-| La plupart des États UE/AELE couverts par une convention d’établissement | Après 5 ans |
+| Belgique, Danemark, France, Allemagne, Grèce, Italie, Pays-Bas, Autriche, Portugal, Espagne, Liechtenstein | Après 5 ans (droit découlant d’une convention d’établissement) |
+| Finlande, Irlande, Luxembourg, Suède, Islande, Norvège | Possible après 5 ans à la discrétion du canton, si les critères d’intégration (langue comprise) sont remplis |
 | Bulgarie, Croatie, Chypre, Tchéquie, Estonie, Hongrie, Lettonie, Lituanie, Malte, Pologne, Roumanie, Slovaquie, Slovénie | Normalement après 10 ans (pas de droit conventionnel) |
 
 Le livret C UE/AELE est contrôlé tous les 5 ans.

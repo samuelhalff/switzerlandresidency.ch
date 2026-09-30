@@ -9,7 +9,7 @@ updated: "2026-09-30"
 draft: false
 faq:
   - q: "Kann ich als Nicht-EU-Bürger meinen Ruhestand in der Schweiz verbringen?"
-    a: "Ja, wenn Sie mindestens 55 Jahre alt sind, besondere persönliche Beziehungen zur Schweiz haben, lebenslang über ausreichende Mittel oberhalb des Niveaus der Ergänzungsleistungen verfügen und nirgends mehr erwerbstätig sind (Art. 28 AIG). Der Kanton entscheidet, und das SEM muss zustimmen."
+    a: "Das ist möglich, wenn Sie mindestens 55 Jahre alt sind, besondere persönliche Beziehungen zur Schweiz haben, lebenslang über ausreichende Mittel oberhalb des Niveaus der Ergänzungsleistungen verfügen und nirgends mehr erwerbstätig sind (Art. 28 AIG). Es ist kein allgemeines Rentnervisum: Der Kanton entscheidet nach Ermessen, und das SEM muss zustimmen."
   - q: "Können britische Staatsangehörige nach dem Brexit ihren Ruhestand in der Schweiz verbringen?"
     a: "Ja. Seit dem 1. Januar 2021 unterstehen britische Staatsangehörige, die nicht unter das Abkommen über die Rechte der Bürgerinnen und Bürger fallen, jedoch den Regeln für Nicht-EU-Bürger; es gilt also der Rentnerweg ab 55 oder der Weg über fiskalische Interessen."
   - q: "Brauchen Rentnerinnen und Rentner eine Schweizer Krankenversicherung?"
@@ -45,7 +45,7 @@ sources:
     url: "https://www.fedlex.admin.ch/eli/cc/1976/2423_2423_2423/de#art_42"
 ---
 
-Sie können Ihren Ruhestand in der Schweiz verbringen, unabhängig von Ihrer Staatsangehörigkeit, doch der Weg hängt von Ihrem Pass ab. EU- und EFTA-Bürger brauchen ausreichende Mittel und eine umfassende Krankenversicherung. Nicht-EU-Bürger, einschliesslich britischer Staatsangehöriger, die seit 2021 einreisen, nutzen die Rentnerbewilligung für Personen ab 55 Jahren mit besonderen Beziehungen zur Schweiz oder eine Bewilligung wegen wichtiger kantonaler fiskalischer Interessen. Einmal hier, brauchen alle eine Schweizer Krankenversicherung, bezahlen bis 65 AHV-Beiträge und wählen zwischen ordentlicher Besteuerung und, sofern die Voraussetzungen erfüllt sind, der Pauschalbesteuerung.
+Ein Ruhestand in der Schweiz ist unabhängig von Ihrer Staatsangehörigkeit möglich, doch der Weg hängt von Ihrem Pass ab, und für Nicht-EU-Bürger geschieht nichts automatisch. EU- und EFTA-Bürger brauchen ausreichende Mittel und eine umfassende Krankenversicherung. Nicht-EU-Bürger, einschliesslich britischer Staatsangehöriger, die seit 2021 einreisen, nutzen die Rentnerbewilligung für Personen ab 55 Jahren mit besonderen Beziehungen zur Schweiz oder eine Bewilligung wegen wichtiger kantonaler fiskalischer Interessen. Einmal hier, brauchen alle eine Schweizer Krankenversicherung, bezahlen bis 65 AHV-Beiträge und wählen zwischen ordentlicher Besteuerung und, sofern die Voraussetzungen erfüllt sind, der Pauschalbesteuerung.
 
 > **Das Wichtigste in Kürze (Stand September 2026)**
 > - Rentnerweg für Nicht-EU-Bürger (Art. 28 AIG): **ab 55 Jahren**, besondere persönliche Beziehungen zur Schweiz, lebenslang Mittel über dem Niveau der **Ergänzungsleistungen**, **keine Erwerbstätigkeit** in der Schweiz oder im Ausland. **Zustimmung des SEM** erforderlich.

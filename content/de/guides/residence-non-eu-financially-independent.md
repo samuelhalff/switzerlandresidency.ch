@@ -21,7 +21,7 @@ faq:
   - q: "Gelten britische Staatsangehörige als Nicht-EU-Bürger?"
     a: "Seit dem 1. Januar 2021 fallen britische Staatsangehörige, die nicht unter das Abkommen über die Rechte der Bürgerinnen und Bürger fallen, unter die ordentlichen Regeln für Drittstaatsangehörige (AIG)."
 sources:
-  - label: "SEM: Weisungen AIG (Stand 15. Juni 2026), Ziff. 1.3.1, 5.3, 5.5"
+  - label: "SEM: Weisungen AIG (Stand 15. Juni 2026), Ziff. 0.2.1.3, 1.3.1, 5.3, 5.5"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "Fedlex: ZV-EJPD (Zustimmung des SEM), Art. 2 und 5"
     url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
@@ -124,7 +124,7 @@ Ihr Ehepartner und Ihre minderjährigen Kinder können Sie in der Regel begleite
 
 Sobald die Bewilligung erteilt ist und Sie eingereist sind, melden Sie sich innert 14 Tagen bei Ihrer Gemeinde an (Art. 10 VZAE). Krankenversicherung und die weiteren ersten Formalitäten folgen in den Wochen danach.
 
-Nicht-EU-Bürger können eine Niederlassungsbewilligung (Ausweis C) beantragen, wenn sie sich insgesamt 10 Jahre mit einer Kurzaufenthalts- oder Aufenthaltsbewilligung in der Schweiz aufgehalten haben, davon die letzten fünf Jahre ununterbrochen mit Ausweis B, und integriert sind (Art. 34 AIG). Eine vorzeitige Erteilung des Ausweises C ist nach fünf Jahren ununterbrochenem Aufenthalt mit Ausweis B möglich, wenn die Person gut integriert ist und sich in der Landessprache am Wohnort gut verständigen kann. Die Unterschiede zwischen den Bewilligungsarten erklären wir im Leitfaden [Ausweis B, C und L in der Schweiz](/de/guides/swiss-permits-explained/).
+Nicht-EU-Bürger können eine Niederlassungsbewilligung (Ausweis C) beantragen, wenn sie sich insgesamt 10 Jahre mit einer Kurzaufenthalts- oder Aufenthaltsbewilligung in der Schweiz aufgehalten haben, davon die letzten fünf Jahre ununterbrochen mit Ausweis B, und integriert sind (Art. 34 AIG). Staatsangehörige der USA, Kanadas und des Vereinigten Königreichs können den Ausweis C nach Ermessen des Kantons bereits nach fünf Jahren erhalten, sofern die Integrationskriterien erfüllt sind. Für alle anderen ist eine vorzeitige Erteilung des Ausweises C ist nach fünf Jahren ununterbrochenem Aufenthalt mit Ausweis B möglich, wenn die Person gut integriert ist und sich in der Landessprache am Wohnort gut verständigen kann. Die Unterschiede zwischen den Bewilligungsarten erklären wir im Leitfaden [Ausweis B, C und L in der Schweiz](/de/guides/swiss-permits-explained/).
 
 ## Wie lange es dauert
 

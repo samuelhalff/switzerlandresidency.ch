@@ -78,7 +78,7 @@ En pratique, le tableau est assez simple.
 | Ressortissant UE/AELE vivant en Suisse (B ou C) | Non | Achat libre | Achat libre (les règles sur les résidences secondaires s'appliquent quand même) |
 | Ressortissant hors UE avec permis C, vivant ici | Non | Achat libre | Achat libre (les règles sur les résidences secondaires s'appliquent quand même) |
 | Ressortissant hors UE avec permis B, vivant ici | Oui | Pas d'autorisation au lieu du domicile effectif (droit actuel) | Autorisation et contingent nécessaires |
-| Toute personne vivant à l'étranger | Oui | Sans objet | Autorisation et contingent nécessaires, là où c'est permis |
+| Ressortissant étranger vivant à l'étranger | Oui | Sans objet | Autorisation et contingent nécessaires, là où c'est permis |
 
 Les ressortissants britanniques arrivés après le 1er janvier 2021 et non couverts par l'accord sur les droits des citoyens sont traités comme des ressortissants hors UE. Si c'est votre cas, c'est la ligne du permis B qui s'applique.
 

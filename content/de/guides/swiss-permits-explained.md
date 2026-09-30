@@ -11,7 +11,7 @@ faq:
   - q: "Was ist der Unterschied zwischen Ausweis B und Ausweis C in der Schweiz?"
     a: "Der Ausweis B ist die Aufenthaltsbewilligung, die übliche Bewilligung für Menschen, die sich hier niederlassen. Der Ausweis C ist die Niederlassungsbewilligung, die je nach Staatsangehörigkeit und Integration nach fünf oder zehn Jahren erhältlich ist. Mit einem Ausweis C gelten Nicht-EU-Bürger beim Immobilienkauf nicht mehr als «Personen im Ausland»."
   - q: "Wie lange dauert es bis zum Ausweis C?"
-    a: "Nicht-EU-Bürger: insgesamt zehn Jahre mit einer Kurzaufenthalts- oder Aufenthaltsbewilligung, davon die letzten fünf Jahre ununterbrochen mit Ausweis B, oder fünf Jahre bei guter Integration und guter Verständigung in der Landessprache am Wohnort. EU/EFTA-Staatsangehörige mit Niederlassungsvereinbarung: fünf Jahre; Staatsangehörige von 13 jüngeren EU-Staaten in der Regel zehn."
+    a: "Nicht-EU-Bürger: insgesamt zehn Jahre mit einer Kurzaufenthalts- oder Aufenthaltsbewilligung, davon die letzten fünf Jahre ununterbrochen mit Ausweis B, oder fünf Jahre bei guter Integration und guter Verständigung in der Landessprache am Wohnort. Staatsangehörige des Vereinigten Königreichs, der USA und Kanadas können ihn nach Ermessen des Kantons nach fünf Jahren erhalten. EU/EFTA-Staatsangehörige mit Niederlassungsvereinbarung: fünf Jahre; Staatsangehörige von 13 jüngeren EU-Staaten in der Regel zehn."
   - q: "Was ist ein Ausweis L?"
     a: "Der Ausweis L ist die Kurzaufenthaltsbewilligung. Die Zeit damit zählt an die zehn Jahre, die Nicht-EU-Bürger für den Ausweis C brauchen. Wer in die Schweiz zieht, um von den eigenen Mitteln zu leben, erhält in der Regel einen Ausweis B."
   - q: "Brauche ich für kurze Aufenthalte eine Bewilligung?"
@@ -19,7 +19,7 @@ faq:
   - q: "Endet die Pauschalbesteuerung mit dem Ausweis C?"
     a: "Nein. Die Pauschalbesteuerung endet mit dem Erwerb des Schweizer Bürgerrechts, nicht mit dem Ausweis C. Die Einbürgerung beendet sie für die gesamte Steuerperiode."
 sources:
-  - label: "SEM: Weisungen AIG (Stand 15. Juni 2026)"
+  - label: "SEM: Weisungen AIG (Stand 15. Juni 2026), Ziff. 0.2.1.3"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "SEM: Weisungen VFP (Januar 2026)"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
@@ -47,7 +47,7 @@ Die meisten Menschen, die in die Schweiz ziehen, um von ihren eigenen Mitteln zu
 
 > **Das Wichtigste in Kürze (Stand September 2026)**
 > - **B** = Aufenthaltsbewilligung. Für nicht erwerbstätige EU/EFTA-Staatsangehörige in der Regel **5 Jahre** gültig.
-> - **C** = Niederlassungsbewilligung. Nicht-EU: nach **10 Jahren** (die letzten 5 ununterbrochen mit Ausweis B) oder nach **5 Jahren** bei guter Integration (Art. 34 AIG).
+> - **C** = Niederlassungsbewilligung. Nicht-EU: nach **10 Jahren** (die letzten 5 ununterbrochen mit Ausweis B) oder nach **5 Jahren** bei guter Integration (Art. 34 AIG); für Staatsangehörige des Vereinigten Königreichs, der USA und Kanadas nach **5 Jahren** möglich.
 > - Ausweis C EU/EFTA: nach **5 Jahren** für die meisten; in der Regel **10 Jahre** für 13 jüngere Mitgliedstaaten. Der Ausweis C wird alle 5 Jahre kontrolliert.
 > - **L** = Kurzaufenthaltsbewilligung; die Zeit damit zählt für Nicht-EU-Bürger an den Ausweis C.
 > - Aufenthalte von bis zu **90 Tagen innerhalb von 180 Tagen** erfordern keine Anmeldung; sonst Anmeldung innert **14 Tagen** nach der Einreise.
@@ -72,8 +72,10 @@ Für Nicht-EU-Bürger ist der Ausweis C vor allem deshalb wichtig, weil sie dami
 
 | Staatsangehörigkeit | Regelfall | Früherer Ausweis C |
 |---|---|---|
-| Nicht-EU (inkl. Vereinigtes Königreich bei Einreise seit 2021, USA, Golfstaaten, Asien) | Insgesamt 10 Jahre mit einer Kurzaufenthalts- oder Aufenthaltsbewilligung, davon die letzten 5 Jahre ununterbrochen mit Ausweis B, dazu Integration | Nach 5 Jahren ununterbrochen mit Ausweis B bei guter Integration und guter Verständigung in der Landessprache am Wohnort. Eine vorzeitige Erteilung aus «wichtigen Gründen» braucht die Zustimmung des SEM |
-| EU/EFTA mit Niederlassungsvereinbarung | 5 Jahre | – |
+| Nicht-EU (etwa Golfstaaten, Asien) | Insgesamt 10 Jahre mit einer Kurzaufenthalts- oder Aufenthaltsbewilligung, davon die letzten 5 Jahre ununterbrochen mit Ausweis B, dazu Integration | Nach 5 Jahren ununterbrochen mit Ausweis B bei guter Integration und guter Verständigung in der Landessprache am Wohnort. Eine vorzeitige Erteilung aus «wichtigen Gründen» braucht die Zustimmung des SEM |
+| Vereinigtes Königreich (Einreise seit 2021), USA, Kanada | Ohne Anspruch nach 5 Jahren möglich, nach Ermessen des Kantons; die Integrationskriterien, einschliesslich Sprache, gelten | – |
+| EU/EFTA mit Niederlassungsvereinbarung (etwa DE, FR, IT, AT, ES, PT) | 5 Jahre | – |
+| Übrige EU/EFTA ohne Niederlassungsvereinbarung (etwa FI, IE, LU, SE, NO, IS) | Ohne Anspruch nach 5 Jahren möglich | – |
 | BG, EE, HR, LV, LT, MT, PL, RO, SK, SI, CZ, HU, CY | Kein staatsvertraglicher Anspruch; in der Regel 10 Jahre | – |
 
 Die Sprachanforderung für den vorzeitigen Ausweis C bezieht sich auf die Landessprache am Wohnort: Französisch in Genf oder in der Waadt, Deutsch in Zürich oder Zug, Italienisch im Tessin. Ist Ihnen ein früher Ausweis C wichtig, lohnt es sich, dies bei der Wahl des Kantons zu berücksichtigen und früh mit dem Sprachunterricht zu beginnen.
@@ -125,7 +127,7 @@ Aufenthalte von bis zu 90 Tagen innerhalb eines Zeitraums von 180 Tagen erforder
 ## Häufige Missverständnisse
 
 - **«Mit dem Kauf eines Hauses erhalte ich einen Ausweis B.»** Nein. Grundeigentum verschafft keinen Anspruch auf eine Aufenthaltsbewilligung.
-- **«Der Ausweis C kommt nach fünf Jahren automatisch.»** Für Nicht-EU-Bürger sind fünf Jahre der vorzeitige Weg; er hängt von Integration und Sprache ab. Der Regelfall sind zehn Jahre.
+- **«Der Ausweis C kommt nach fünf Jahren automatisch.»** Für die meisten Nicht-EU-Bürger sind fünf Jahre der vorzeitige Weg; er hängt von Integration und Sprache ab, und der Regelfall sind zehn Jahre. Auch wo fünf Jahre die Regel sind (Vereinigtes Königreich, USA, Kanada), liegt der Ausweis C im Ermessen des Kantons.
 - **«Ein Ausweis B gilt, einmal erteilt, auf Lebenszeit.»** Er wird verlängert oder überprüft und kann widerrufen werden, wenn die Voraussetzungen (zum Beispiel Mittel, Versicherung oder Lebensmittelpunkt) nicht mehr erfüllt sind.
 
 ## Wie wir Sie unterstützen

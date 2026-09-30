@@ -20,7 +20,7 @@ faq:
 sources:
   - label: "SEM — Directives relatives à l’accord sur la libre circulation des personnes (janv. 2026)"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
-  - label: "SEM — Directives LEI (état au 15 juin 2026)"
+  - label: "SEM — Directives LEI (état au 15 juin 2026), ch. 0.2.1.3"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "Fedlex — Ordonnance du DFJP relative aux procédures d’approbation (OA-DFJP), art. 2 et 5"
     url: "https://www.fedlex.admin.ch/eli/cc/2015/518/fr#art_2"
@@ -49,7 +49,7 @@ Nous prenons en charge le volet migratoire de votre installation, de la premièr
 
 Ce service est pensé pour les personnes qui souhaitent vivre en Suisse sans y exercer d’emploi. Cela recouvre généralement trois situations.
 
-**Ressortissants UE et AELE.** En vertu de l’accord sur la libre circulation des personnes (ALCP), les retraités, les rentiers et les autres personnes sans activité lucrative peuvent s’établir en Suisse avec leur famille s’ils disposent de moyens financiers suffisants et d’une assurance maladie et accidents couvrant tous les risques. Il n’y a pas de contingent. Le permis (permis B UE/AELE) est normalement valable cinq ans. Le permis C suit au bout de cinq ans pour les nationalités couvertes par un accord d’établissement ; les ressortissants de Bulgarie, Croatie, Chypre, Tchéquie, Estonie, Hongrie, Lettonie, Lituanie, Malte, Pologne, Roumanie, Slovaquie et Slovénie relèvent en principe d’un délai de dix ans.
+**Ressortissants UE et AELE.** En vertu de l’accord sur la libre circulation des personnes (ALCP), les retraités, les rentiers et les autres personnes sans activité lucrative peuvent séjourner en Suisse avec leur famille s’ils disposent de moyens financiers suffisants et d’une assurance maladie et accidents couvrant tous les risques. Il n’y a pas de contingent. Le permis (permis B UE/AELE) est normalement valable cinq ans. Le permis C suit au bout de cinq ans pour les nationalités couvertes par un accord d’établissement ; les ressortissants de Bulgarie, Croatie, Chypre, Tchéquie, Estonie, Hongrie, Lettonie, Lituanie, Malte, Pologne, Roumanie, Slovaquie et Slovénie relèvent en principe d’un délai de dix ans.
 
 **Ressortissants hors UE de 55 ans et plus.** La voie des rentiers (art. 28 LEI) exige un âge minimal de 55 ans, des attaches personnelles particulières avec la Suisse, des moyens suffisants et durablement disponibles, et l’absence de toute activité lucrative en Suisse comme à l’étranger, hormis la gestion de votre propre patrimoine. Les attaches doivent être réelles : séjours antérieurs longs ou répétés, proches parents en Suisse ou ascendance suisse. Être propriétaire d’un bien ou entretenir des liens d’affaires ne suffit pas à lui seul.
 
@@ -84,7 +84,7 @@ Nous ne pouvons promettre ni permis ni délai. Le canton décide et, pour les re
 - « Nous voulons garder un siège au conseil d’administration à l’étranger. Est-ce compatible avec la voie des intérêts fiscaux ? »
 - « Nos enfants peuvent-ils nous rejoindre, et qu’examine le canton ? » Pour les titulaires d’un permis B selon la LEI, le conjoint et les enfants célibataires de moins de 18 ans peuvent les rejoindre si la famille vit ensemble dans un logement approprié et ne dépend pas de l’aide sociale.
 - « Si nous achetons une maison, cela aide-t-il ? » Être propriétaire en Suisse ne confère aucun droit à une autorisation de séjour.
-- « Quand pourrons-nous demander un permis C ? » Pour les ressortissants hors UE, la règle générale est de dix ans, avec un permis C anticipé possible après cinq ans de séjour ininterrompu avec un permis B pour les personnes bien intégrées qui maîtrisent bien la langue locale.
+- « Quand pourrons-nous demander un permis C ? » Pour les ressortissants hors UE, la règle générale est de dix ans, avec un permis C anticipé possible après cinq ans de séjour ininterrompu avec un permis B pour les personnes bien intégrées qui maîtrisent bien la langue locale. Les ressortissants britanniques, américains et canadiens peuvent l’obtenir après cinq ans, à l’appréciation du canton.
 
 ## À lire aussi
 

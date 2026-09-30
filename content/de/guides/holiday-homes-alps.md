@@ -68,7 +68,7 @@ Beide Antworten müssen «ja» lauten.
 
 Sind Sie EU/EFTA-Staatsangehörige oder -Staatsangehöriger mit rechtmässigem und tatsächlichem Wohnsitz in der Schweiz oder leben Sie als Drittstaatsangehörige mit Ausweis C hier, unterstehen Sie der Lex Koller nicht. Sie können eine Ferienwohnung wie eine in der Schweiz wohnhafte Person kaufen, unter Vorbehalt der Lex Weber.
 
-Alle anderen gelten nach Art. 5 BewG als «Personen im Ausland». Dazu gehören Personen mit Wohnsitz ausserhalb der Schweiz, unabhängig von ihrer Staatsangehörigkeit, sowie Drittstaatsangehörige, die mit Ausweis B hier leben. Für sie braucht eine Ferienwohnung eine Bewilligung, und diese wird dem Kontingent des Kantons angerechnet. Die Ausnahme für den Hauptwohnsitz, die es Drittstaatsangehörigen mit Ausweis B erlaubt, ihr eigenes Zuhause zu kaufen, gilt nicht für eine zweite Liegenschaft.
+Alle anderen ausländischen Staatsangehörigen gelten nach Art. 5 BewG als «Personen im Ausland». Dazu gehören jene mit Wohnsitz ausserhalb der Schweiz, unabhängig von ihrer Staatsangehörigkeit, sowie Drittstaatsangehörige, die mit Ausweis B hier leben. Für sie braucht eine Ferienwohnung eine Bewilligung, und diese wird dem Kontingent des Kantons angerechnet. Die Ausnahme für den Hauptwohnsitz, die es Drittstaatsangehörigen mit Ausweis B erlaubt, ihr eigenes Zuhause zu kaufen, gilt nicht für eine zweite Liegenschaft.
 
 Unser Hauptratgeber zum [Immobilienkauf als Ausländer](/de/guides/buying-property-lex-koller/) erklärt diese Kategorien ausführlicher.
 

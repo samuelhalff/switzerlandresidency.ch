@@ -14,12 +14,14 @@ faq:
   - q: "Können EU-Bürger die Schweizer Pauschalbesteuerung nutzen?"
     a: "Ja. Die Pauschalbesteuerung lässt sich mit einer EU/EFTA-Bewilligung kombinieren, sofern die steuerlichen Voraussetzungen erfüllt sind: keine Schweizer Staatsangehörigkeit, erstmaliger Zuzug oder Rückkehr nach 10 Jahren und keine Erwerbstätigkeit in der Schweiz. Staatsangehörige von Belgien, Deutschland, Italien, Norwegen, Kanada, Österreich und den USA sollten die modifizierte Pauschalbesteuerung nach ihrem Abkommen prüfen."
   - q: "Wann erhalten EU-Bürger in der Schweiz den Ausweis C?"
-    a: "Staatsangehörige, für die Niederlassungsvereinbarungen gelten, erhalten den Ausweis C in der Regel nach 5 Jahren. Für Bulgarien, Kroatien, Zypern, Tschechien, Estland, Ungarn, Lettland, Litauen, Malta, Polen, Rumänien, die Slowakei und Slowenien besteht kein staatsvertraglicher Anspruch; der Ausweis C wird normalerweise nach 10 Jahren erteilt."
+    a: "Staatsangehörige von Belgien, Dänemark, Frankreich, Deutschland, Griechenland, Italien, den Niederlanden, Österreich, Portugal, Spanien und Liechtenstein haben gestützt auf Niederlassungsvereinbarungen nach 5 Jahren Anspruch auf den Ausweis C. Für Finnland, Irland, Luxemburg, Schweden, Island und Norwegen ist der Ausweis C nach 5 Jahren nach Ermessen des Kantons möglich, wenn die Integrationskriterien erfüllt sind. Für Bulgarien, Kroatien, Zypern, Tschechien, Estland, Ungarn, Lettland, Litauen, Malta, Polen, Rumänien, die Slowakei und Slowenien besteht kein staatsvertraglicher Anspruch; der Ausweis C wird normalerweise nach 10 Jahren erteilt."
   - q: "Dürfen EU-Bürger in der Schweiz Immobilien kaufen?"
     a: "EU/EFTA-Angehörige, die tatsächlich und rechtmässig in der Schweiz wohnen (Ausweis B oder C), unterstehen nicht den Beschränkungen der Lex Koller und können wie Personen mit Schweizer Wohnsitz kaufen. Wer im Ausland lebt, braucht für die meisten Wohnimmobilien eine Bewilligung."
 sources:
   - label: "SEM — Weisungen zur Personenfreizügigkeit (VFP), Januar 2026"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
+  - label: "SEM — Weisungen AIG, Stand 15. Juni 2026 (Ausweis C nach Staatsangehörigkeit)"
+    url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf.download.pdf/weisungen-aig-d.pdf"
   - label: "Fedlex — Art. 14 DBG (Besteuerung nach dem Aufwand)"
     url: "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/de#art_14"
   - label: "ESTV — Kreisschreiben Nr. 44 (Besteuerung nach dem Aufwand)"
@@ -52,7 +54,7 @@ EU-Bürgerinnen und -Bürger haben einen deutlich einfacheren Weg in die Schweiz
 >
 > - Nicht erwerbstätige EU/EFTA-Angehörige brauchen **ausreichende finanzielle Mittel** und eine **umfassende Kranken- und Unfallversicherung**. **Keine Kontingente.**
 > - Der Ausweis B EU/EFTA für Nichterwerbstätige gilt in der Regel **5 Jahre**.
-> - **Ausweis C nach 5 Jahren** für die meisten EU-Angehörigen; für 13 neuere Mitgliedstaaten normalerweise nach **10 Jahren**.
+> - **Ausweis C nach 5 Jahren** mit Rechtsanspruch für 10 EU-Staaten und Liechtenstein, nach Ermessen des Kantons für 6 weitere; für 13 neuere Mitgliedstaaten normalerweise nach **10 Jahren**.
 > - Die Pauschalbesteuerung lässt sich **mit einer EU-Bewilligung kombinieren**; bundesrechtliche Mindestbemessungsgrundlage **CHF 435'000 für 2026**.
 > - Die Abkommen mit **Belgien, Deutschland, Italien, Norwegen, Kanada, Österreich und den USA** verlangen für Abkommensvorteile die **modifizierte Pauschalbesteuerung**.
 > - In der Schweiz wohnhafte EU-Angehörige unterstehen **nicht der Lex Koller**.
@@ -76,7 +78,8 @@ Der Ausweis B wird in der Regel für 5 Jahre ausgestellt. Er kann widerrufen wer
 
 | Staatsangehörigkeit | Ausweis C |
 |---|---|
-| Die meisten EU/EFTA-Staaten mit Niederlassungsvereinbarung | Nach 5 Jahren |
+| Belgien, Dänemark, Frankreich, Deutschland, Griechenland, Italien, Niederlande, Österreich, Portugal, Spanien, Liechtenstein | Nach 5 Jahren (Anspruch aus Niederlassungsvereinbarung) |
+| Finnland, Irland, Luxemburg, Schweden, Island, Norwegen | Nach 5 Jahren möglich, nach Ermessen des Kantons, wenn die Integrationskriterien (inkl. Sprache) erfüllt sind |
 | Bulgarien, Kroatien, Zypern, Tschechien, Estland, Ungarn, Lettland, Litauen, Malta, Polen, Rumänien, Slowakei, Slowenien | Normalerweise nach 10 Jahren (kein staatsvertraglicher Anspruch) |
 
 Der Ausweis C EU/EFTA wird alle 5 Jahre kontrolliert.

@@ -82,7 +82,7 @@ The US has no free-movement agreement with Switzerland, so Americans use the sam
 
 For both routes the canton has wide discretion and **SEM approval is mandatory**. A spouse and unmarried children under 18 may join you.
 
-After ten years, including the last five continuously on a B permit, you can apply for a C permit. Early grant after five years is possible if you are well integrated and communicate well in the local language.
+US nationals may be granted a C permit after five years, at the canton's discretion (there is no legal right) and if integration criteria, including language, are met. Otherwise the general rule is ten years, including the last five continuously on a B permit.
 
 ## The modified lump sum for Americans
 
@@ -96,7 +96,7 @@ For many Americans, most of their investment income is US-source, so the modifie
 
 - **Wealth tax** is cantonal only; there is no federal wealth tax.
 - **Capital gains** on private movable assets are tax-free in Switzerland. How the US treats the same gains is a separate question.
-- **Inheritance and gift tax** are cantonal. Spouses are exempt everywhere and children in most cantons; Schwyz and Obwalden levy neither.
+- **Inheritance and gift tax** are cantonal. Spouses are exempt everywhere and children in most cantons; Schwyz and Obwalden levy neither. In Geneva, these exemptions do not apply if the deceased or donor was taxed on a lump sum in one of the last three final assessments.
 
 ## Common pitfalls
 

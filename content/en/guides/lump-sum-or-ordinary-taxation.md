@@ -31,6 +31,8 @@ sources:
     url: "https://www.efd.admin.ch/en/lump-sum-taxation"
   - label: "Canton of Zurich: Migration Office directive, 19 Nov 2021"
     url: "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Erwerbslose%20Wohnsitznahme.pdf"
+  - label: "Fedlex: ZV-EJPD (SEM approval ordinance), art. 5"
+    url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
   - label: "Fedlex: art. 7 KVV (health insurance ordinance)"
     url: "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de#art_7"
   - label: "AHV/IV: leaflet 2.03 on contributions of non-employed persons (1 Jan 2026)"
@@ -85,7 +87,7 @@ Inheritance and gift tax is cantonal. Spouses are exempt in all cantons and dire
 
 ### You want to live in Zurich or Basel
 
-Zurich, Schaffhausen, Appenzell Ausserrhoden and Basel-Stadt have abolished the lump sum, and Basel-Landschaft allows it only for the arrival year. If one of these is where your family wants to be, ordinary taxation is the regime. Zurich does grant non-EU nationals residence on fiscal grounds, but its directive sets the bar at around CHF 1 million of tax a year, confirmed by the tax authority. See our [Zurich canton page](/en/cantons/zurich/).
+Zurich, Schaffhausen, Appenzell Ausserrhoden and Basel-Stadt have abolished the lump sum, and Basel-Landschaft allows it only for the arrival year. If one of these is where your family wants to be, ordinary taxation is the regime. Zurich does grant non-EU nationals residence on fiscal grounds, but its directive sets the bar at around CHF 1 million of tax a year, confirmed by the tax authority, together with close ties to the canton and the move of the whole family. See our [Zurich canton page](/en/cantons/zurich/).
 
 ## When the lump sum tends to fit
 
@@ -97,7 +99,7 @@ The lump sum tends to suit families who:
 - value a **predictable figure agreed in advance** with the canton;
 - are drawn to a canton that offers it.
 
-For non-EU nationals, the lump sum is also closely tied to the permit route on fiscal grounds, which some cantons link directly to the tax agreement.
+For non-EU nationals, the lump sum is also closely tied to the permit route on fiscal grounds, which some cantons link directly to the tax agreement. The tax agreement itself is not a permit: the canton decides at its discretion and SEM must approve.
 
 ## Things that do not change with the regime
 

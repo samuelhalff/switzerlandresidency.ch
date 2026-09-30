@@ -20,7 +20,7 @@ faq:
 sources:
   - label: "SEM — Weisungen zum Freizügigkeitsabkommen (Januar 2026)"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
-  - label: "SEM — Weisungen zum Ausländer- und Integrationsgesetz (Stand 15. Juni 2026)"
+  - label: "SEM — Weisungen zum Ausländer- und Integrationsgesetz (Stand 15. Juni 2026), Ziff. 0.2.1.3"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "Fedlex — Verordnung des EJPD über die dem Zustimmungsverfahren unterliegenden ausländerrechtlichen Bewilligungen (ZV-EJPD), Art. 2 und 5"
     url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_2"
@@ -84,7 +84,7 @@ Eine Bewilligung oder einen Zeitrahmen können wir nicht versprechen. Der Kanton
 - «Wir möchten ein Verwaltungsratsmandat im Ausland behalten. Ist das mit dem Weg über das fiskalische Interesse vereinbar?»
 - «Können unsere Kinder mitkommen, und worauf achtet der Kanton?» Bei Inhaberinnen und Inhabern eines Ausweises B nach AIG können Ehegatten und ledige Kinder unter 18 Jahren nachziehen, wenn die Familie zusammenwohnt, eine angemessene Wohnung hat und nicht auf Sozialhilfe angewiesen ist.
 - «Hilft es, wenn wir ein Haus kaufen?» Grundeigentum in der Schweiz gibt keinen Anspruch auf eine Aufenthaltsbewilligung.
-- «Wann könnten wir den Ausweis C beantragen?» Für Drittstaatsangehörige gilt grundsätzlich eine Frist von zehn Jahren. Nach fünf Jahren ununterbrochenem Aufenthalt mit Ausweis B ist eine vorzeitige Erteilung möglich, wenn jemand gut integriert ist und die Landessprache am Wohnort gut beherrscht.
+- «Wann könnten wir den Ausweis C beantragen?» Für Drittstaatsangehörige gilt grundsätzlich eine Frist von zehn Jahren. Nach fünf Jahren ununterbrochenem Aufenthalt mit Ausweis B ist eine vorzeitige Erteilung möglich, wenn jemand gut integriert ist und die Landessprache am Wohnort gut beherrscht. Staatsangehörige des Vereinigten Königreichs, der USA und Kanadas können ihn nach Ermessen des Kantons nach fünf Jahren erhalten.
 
 ## Weiterlesen
 

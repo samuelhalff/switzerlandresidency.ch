@@ -15,8 +15,8 @@ faq:
     a: "Zurich, Schaffhouse, Appenzell Rhodes-Extérieures et Bâle-Ville l’ont aboli. Bâle-Campagne ne l’accorde que jusqu’à la fin de la période fiscale au cours de laquelle vous arrivez."
   - q: "Peut-on revenir au forfait après avoir opté pour l’imposition ordinaire ?"
     a: "En général, non. Selon la circulaire n° 44 de l’AFC, une personne qui renonce au forfait au profit de l’imposition ordinaire ne peut normalement plus y revenir."
-  - q: "Ma nationalité change-t-elle quelque chose au forfait ?"
-    a: "C’est possible. En vertu des conventions de double imposition avec la Belgique, l’Allemagne, l’Italie, la Norvège, le Canada, l’Autriche et les États-Unis, les avantages conventionnels supposent un forfait modifié, dans lequel tous les revenus provenant de cet État sont imposés en Suisse."
+  - q: "L’origine de mes revenus change-t-elle quelque chose au forfait ?"
+    a: "C’est possible. Si vous demandez un dégrèvement en vertu des conventions de double imposition avec la Belgique, l’Allemagne, l’Italie, la Norvège, le Canada, l’Autriche ou les États-Unis, un forfait modifié s’applique, dans lequel tous les revenus provenant de cet État sont imposés en Suisse. C’est la source des revenus qui compte, et non votre nationalité."
 sources:
   - label: "Fedlex — Loi fédérale sur l’impôt fédéral direct (LIFD), art. 14"
     url: "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/fr#art_14"
@@ -93,7 +93,7 @@ Nous travaillons aux côtés d’Ark Fiduciaire SA, à Genève, qui se charge de
 
 - « Puis-je rester au conseil d’administration de notre société familiale à l’étranger ? »
 - « Nous prévoyons d’acheter plutôt que de louer. Comment le critère du loyer s’applique-t-il à un bien dont nous sommes propriétaires ? »
-- « Mon épouse est allemande, pas moi. Le forfait modifié s’applique-t-il à nous ? »
+- « Une partie de nos revenus provient d’Allemagne. Le forfait modifié s’applique-t-il à nous ? »
 - « Le forfait vaut-il encore la peine si l’essentiel de nos revenus provient de placements suisses ? » C’est alors le calcul de contrôle qui peut fixer le plancher.
 - « Que se passe-t-il si l’un de nos enfants devient suisse ? »
 

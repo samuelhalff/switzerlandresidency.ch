@@ -68,7 +68,7 @@ Both answers need to be "yes".
 
 If you are an EU/EFTA national with lawful, actual domicile in Switzerland, or a non-EU national with a C permit living here, you are not subject to Lex Koller. You can buy a holiday home like a Swiss resident, subject to Lex Weber.
 
-Everyone else counts as a "person abroad" under art. 5 BewG. That includes people living outside Switzerland, whatever their nationality, and non-EU nationals living here with a B permit. For them, a holiday home needs a permit, and the permit draws on the canton's quota. The main-residence exception that lets a non-EU B-permit holder buy their own home does not extend to a second property.
+Other foreign nationals count as "persons abroad" under art. 5 BewG. That includes those living outside Switzerland, whatever their nationality, and non-EU nationals living here with a B permit. For them, a holiday home needs a permit, and the permit draws on the canton's quota. The main-residence exception that lets a non-EU B-permit holder buy their own home does not extend to a second property.
 
 Our main guide to [buying property as a foreigner](/en/guides/buying-property-lex-koller/) explains these categories in more detail.
 

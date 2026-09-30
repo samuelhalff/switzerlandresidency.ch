@@ -63,7 +63,7 @@ Certaines familles constatent que l’imposition ordinaire fonctionne bien aussi
 
 ## Permis de séjour
 
-Les ressortissants de l’UE/AELE sans activité lucrative peuvent s’établir s’ils disposent de moyens suffisants et d’une assurance maladie. Les ressortissants hors UE peuvent demander un permis en tant que rentiers (55 ans ou plus, avec des liens personnels particuliers avec la Suisse) ou pour intérêts fiscaux importants, ce qui requiert l’approbation du SEM. Nous n’avons pas trouvé de seuil officiel publié pour Zoug : le montant doit donc être confirmé à l’avance avec le canton.
+Les ressortissants de l’UE/AELE sans activité lucrative peuvent s’établir s’ils disposent de moyens suffisants et d’une assurance maladie. Les ressortissants hors UE sans activité lucrative peuvent demander un permis en tant que rentiers (55 ans ou plus, avec des liens personnels particuliers avec la Suisse et des moyens suffisants) ou pour intérêts fiscaux importants. Dans les deux cas, le canton décide librement et l’approbation du SEM est requise. Nous n’avons pas trouvé de seuil officiel publié pour Zoug : le montant doit donc être confirmé à l’avance avec le canton.
 
 ## Impôt sur les successions et donations
 

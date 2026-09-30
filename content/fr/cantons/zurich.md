@@ -73,7 +73,7 @@ L’administration fiscale zurichoise peut rendre un ruling écrit sur un état 
 
 ## Permis de séjour pour les ressortissants hors UE
 
-Les ressortissants de l’UE/AELE sans activité lucrative peuvent s’établir s’ils disposent de moyens suffisants et d’une assurance maladie. Pour les ressortissants hors UE, l’office des migrations zurichois considère l’intérêt fiscal comme suffisant à partir d’un **impôt annuel d’environ CHF 1 million**. L’autorité fiscale doit confirmer le montant attendu, et le requérant doit avoir des liens étroits avec le canton et y installer toute sa famille. L’approbation du SEM suit. Les personnes de 55 ans ou plus ayant des liens personnels particuliers avec la Suisse peuvent aussi demander un permis en tant que rentiers.
+Les ressortissants de l’UE/AELE sans activité lucrative peuvent s’établir s’ils disposent de moyens suffisants et d’une assurance maladie. Pour les ressortissants hors UE, l’office des migrations zurichois considère l’intérêt fiscal comme suffisant à partir d’un **impôt annuel d’environ CHF 1 million**. L’autorité fiscale doit confirmer le montant attendu, et le requérant doit avoir des liens étroits avec le canton et y installer toute sa famille. Le canton décide librement, et l’approbation du SEM est requise. Les personnes de 55 ans ou plus ayant des liens personnels particuliers avec la Suisse et des moyens suffisants, sans activité lucrative, peuvent aussi demander un permis en tant que rentiers ; cette voie est elle aussi discrétionnaire et soumise à l’approbation du SEM.
 
 ## Impôt sur les successions et donations
 

@@ -33,6 +33,10 @@ sources:
     url: "https://www.ur.ch/_docn/439772/14_Merkblatt_Aufwandbesteuerung_01.01.2026_1.pdf"
   - label: "Canton du Tessin : communiqué de presse du 4 mai 2023"
     url: "https://www4.ti.ch/tich/area-media/comunicati/dettaglio-comunicato?NEWS_ID=221229"
+  - label: "Canton de Zurich : directive de l'Office des migrations du 19 novembre 2021"
+    url: "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Erwerbslose%20Wohnsitznahme.pdf"
+  - label: "Fedlex : OA-DFJP (ordonnance sur l'approbation par le SEM), art. 5"
+    url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
 ---
 
 En 2026, 21 des 26 cantons suisses proposent le forfait fiscal. Zurich, Schaffhouse, Appenzell Rhodes-Extérieures et Bâle-Ville l'ont aboli, et Bâle-Campagne ne l'admet que pour l'année d'arrivée. Les bases minimales cantonales publiées vont de CHF 200 000 dans le Jura à CHF 647 100 à Lucerne, tandis que la base fédérale est de CHF 435 000 partout.
@@ -71,7 +75,7 @@ Le tableau ci-dessous recense les 26 cantons. La « base minimale » désigne la
 | Schaffhouse (SH) | Non, aboli | — | — | [DFF](https://www.efd.admin.ch/en/lump-sum-taxation) |
 | Schwytz (SZ) | Oui | CHF 600 000 | Fortune présumée d'au moins 20 fois la base | [AFC KB-SZ](https://www.estv2.admin.ch/stp/kb/sz-de.pdf) |
 | Soleure (SO) | Oui | CHF 400 000 dans la loi ; CHF 412 800 pour 2026 | Fortune présumée d'au moins 20 fois la base | [AFC KB-SO](https://www.estv2.admin.ch/stp/kb/so-de.pdf) |
-| Tessin (TI) | Oui | CHF 434 700 (indexé, en vigueur depuis 2025) | Fortune présumée de 5 fois la base | [AFC KB-TI](https://www.estv2.admin.ch/stp/kb/ti-it.pdf) |
+| Tessin (TI) | Oui | CHF 434 700 (fiche de l'AFC, février 2026 ; une éventuelle indexation pour 2026 n'est pas confirmée) | Fortune présumée de 5 fois la base | [AFC KB-TI](https://www.estv2.admin.ch/stp/kb/ti-it.pdf) |
 | Thurgovie (TG) | Oui | Pas de base chiffrée ; impôt cantonal et communal minimal de CHF 150 000 ; base d'au moins 10 fois le loyer ou 4 fois la pension | Compris dans le minimum de CHF 150 000 | [AFC KB-TG](https://www.estv2.admin.ch/stp/kb/tg-de.pdf) |
 | Uri (UR) | Oui | CHF 400 000 dans la loi ; CHF 435 000 pour 2026 | Fortune présumée d'au moins 20 fois la base | [AFC KB-UR](https://www.estv2.admin.ch/stp/kb/ur-de.pdf) |
 | Valais (VS) | Oui | CHF 250 000 (impôt communal selon un barème moyen) | Fortune présumée d'au moins 4 fois la base | [AFC KB-VS](https://www.estv2.admin.ch/stp/kb/vs-fr.pdf) |
@@ -89,7 +93,7 @@ Bâle-Campagne est un cas particulier. Sa loi fiscale contient encore une dispos
 
 D'autres cantons ont conservé le régime en le durcissant. Le Département fédéral des finances cite la Thurgovie, Saint-Gall, Lucerne et Berne.
 
-Si Zurich vous attire pour le travail, les écoles ou des raisons familiales, vous pouvez toujours y vivre sous le régime de l'imposition ordinaire. Zurich accorde aussi des autorisations de séjour à des ressortissants hors UE pour des motifs fiscaux, mais sa propre directive place la barre à un impôt annuel d'environ CHF 1 million, confirmé par l'administration fiscale.
+Si Zurich vous attire pour le travail, les écoles ou des raisons familiales, vous pouvez toujours y vivre sous le régime de l'imposition ordinaire. Zurich accorde aussi des autorisations de séjour à des ressortissants hors UE pour des motifs fiscaux, mais sa propre directive place la barre à un impôt annuel d'environ CHF 1 million, confirmé par l'administration fiscale, et exige aussi des liens étroits avec le canton et l'installation de toute la famille. Le SEM doit approuver l'autorisation.
 
 ## Comment lire les bases minimales
 

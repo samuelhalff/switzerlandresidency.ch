@@ -82,7 +82,7 @@ Les États-Unis n’ont pas d’accord de libre circulation avec la Suisse ; les
 
 Pour ces deux voies, le canton dispose d’une large marge d’appréciation et **l’approbation du SEM est obligatoire**. Le conjoint et les enfants célibataires de moins de 18 ans peuvent vous rejoindre.
 
-Après dix ans, dont les cinq derniers sans interruption avec un permis B, vous pouvez demander le permis C. Un octroi anticipé après cinq ans est possible si vous êtes bien intégré et maîtrisez la langue locale.
+Les ressortissants américains peuvent obtenir le permis C après cinq ans, à la discrétion du canton (sans droit légal) et si les critères d’intégration, y compris linguistiques, sont remplis. Sinon, la règle générale est de dix ans, dont les cinq derniers sans interruption avec un permis B.
 
 ## Le forfait modifié pour les Américains
 
@@ -96,7 +96,7 @@ Pour beaucoup d’Américains, l’essentiel des revenus de placement est de sou
 
 - **L’impôt sur la fortune** est uniquement cantonal ; il n’existe pas d’impôt fédéral sur la fortune.
 - **Les gains en capital** sur la fortune mobilière privée sont exonérés en Suisse. Le traitement de ces mêmes gains aux États-Unis est une autre question.
-- **Les impôts sur les successions et les donations** sont cantonaux. Le conjoint est exonéré partout, les enfants dans la plupart des cantons ; Schwytz et Obwald ne prélèvent ni l’un ni l’autre.
+- **Les impôts sur les successions et les donations** sont cantonaux. Le conjoint est exonéré partout, les enfants dans la plupart des cantons ; Schwytz et Obwald ne prélèvent ni l’un ni l’autre. À Genève, ces exonérations ne s’appliquent pas si le défunt ou le donateur a été imposé au forfait lors de l’une des trois dernières taxations définitives.
 
 ## Les pièges fréquents
 

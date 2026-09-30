@@ -13,9 +13,9 @@ faq:
   - q: "Können Franzosen die Schweizer Pauschalbesteuerung (forfait fiscal) nutzen?"
     a: "Ja, die Pauschalbesteuerung lässt sich mit einer EU-Bewilligung kombinieren. Die Eidgenössische Steuerverwaltung führt das Abkommen Frankreich–Schweiz unter jenen mit Sonderregeln auf. Wie das Abkommen Sie behandelt, sollte deshalb in einem Ruling mit dem Kanton bestätigt werden."
   - q: "Wann gilt die französische Wegzugssteuer (Exit Tax)?"
-    a: "Nach Artikel 167 bis CGI gilt sie, wenn Sie in den letzten 10 Jahren mindestens 6 Jahre in Frankreich steuerlich ansässig waren und mindestens 50 % der Gewinne einer Gesellschaft halten oder Beteiligungen im Wert von über EUR 800'000 besitzen. Die Steuer entfällt, wenn Sie die Anteile nach dem Wegzug noch 2 Jahre halten, bzw. 5 Jahre bei Beteiligungen über EUR 2,57 Mio.."
+    a: "Nach Artikel 167 bis CGI gilt sie, wenn Sie in den letzten 10 Jahren mindestens 6 Jahre in Frankreich steuerlich ansässig waren und mindestens 50 % der Gewinne einer Gesellschaft halten oder Beteiligungen im Wert von über EUR 800'000 besitzen. Die Steuer entfällt, wenn Sie die Anteile nach dem Wegzug noch 2 Jahre halten, bzw. 5 Jahre bei Beteiligungen über EUR 2,57 Mio."
   - q: "Wann erhalten französische Staatsangehörige den Ausweis C?"
-    a: "Staatsangehörige mit einer Niederlassungsvereinbarung, von der vor allem eine Reihe mittel- und osteuropäischer Staaten ausgenommen ist, nicht aber Frankreich, erhalten den Ausweis C in der Regel nach 5 Jahren."
+    a: "Frankreich hat mit der Schweiz eine Niederlassungsvereinbarung. Französische Staatsangehörige haben deshalb nach 5 Jahren Anspruch auf den Ausweis C. Staatsangehörige von Staaten ohne solche Vereinbarung warten in der Regel 10 Jahre oder sind auf das Ermessen des Kantons angewiesen."
   - q: "Brauche ich eine Bewilligung nach Lex Koller, um in der Schweiz ein Haus zu kaufen?"
     a: "Nicht, sobald Sie hier wohnen. EU/EFTA-Staatsangehörige mit Ausweis B oder C und tatsächlichem Wohnsitz in der Schweiz unterstehen nicht der Lex Koller und können wie Schweizer Einwohner kaufen."
 sources:
@@ -66,7 +66,7 @@ Als EU-Bürgerin oder EU-Bürger müssen Sie weder eine besondere Beziehung zur 
 - **Ausreichende finanzielle Mittel.** In der Praxis müssen Ihre Mittel über dem Betrag liegen, ab dem eine in der Schweiz wohnhafte Person Sozialhilfe beanspruchen könnte. Für Rentnerinnen und Rentner müssen sie die Schwelle für Ergänzungsleistungen übersteigen.
 - **Eine umfassende Kranken- und Unfallversicherung.**
 
-Die Aufenthaltsbewilligung EU/EFTA (Ausweis B) für Nichterwerbstätige wird in der Regel für **fünf Jahre** erteilt. Sie kann widerrufen werden, wenn die Mittel oder die Versicherung wegfallen. Da Frankreich nicht zu den Staaten gehört, die von den Niederlassungsvereinbarungen ausgenommen sind, erhalten französische Staatsangehörige in der Regel **nach fünf Jahren den Ausweis C**.
+Die Aufenthaltsbewilligung EU/EFTA (Ausweis B) für Nichterwerbstätige wird in der Regel für **fünf Jahre** erteilt. Sie kann widerrufen werden, wenn die Mittel oder die Versicherung wegfallen. Da Frankreich mit der Schweiz eine Niederlassungsvereinbarung hat, haben französische Staatsangehörige **nach fünf Jahren Anspruch auf den Ausweis C**.
 
 Bei der Ankunft melden Sie sich wie alle Einwohner bei Ihrer Gemeinde an. Unser Ratgeber zum [Ausweis B für EU-Bürger ohne Erwerbstätigkeit](/de/guides/eu-citizens-b-permit-without-work/) beschreibt das Dossier ausführlicher.
 
@@ -104,9 +104,10 @@ Ob ein Umzug in die Schweiz vom automatischen Aufschub profitiert, haben wir nic
 
 ## Erbschaft und Vermögen: was sich ändert
 
-Die Schweiz kennt keine Erbschaftssteuer des Bundes. Die Kantone besteuern Erbschaften und Schenkungen, doch überlebende Ehegatten sind überall befreit und Kinder in den meisten Kantonen. Zwei Ausnahmen in der Romandie sollten Sie kennen:
+Die Schweiz kennt keine Erbschaftssteuer des Bundes. Die Kantone besteuern Erbschaften und Schenkungen, doch überlebende Ehegatten sind überall befreit und Kinder in den meisten Kantonen. Drei Ausnahmen in der Romandie sollten Sie kennen:
 
 - **Waadt** besteuert direkte Nachkommen oberhalb eines Freibetrags von CHF 1 Mio., mit einem abnehmenden Abzug bis CHF 2 Mio.
+- **Neuenburg** besteuert direkte Nachkommen oberhalb eines Abzugs von CHF 50'000.
 - **Genf** hebt die Befreiung für Ehegatten und Nachkommen auf, wenn die verstorbene oder schenkende Person in einer der letzten drei rechtskräftigen Veranlagungen nach dem Aufwand besteuert wurde.
 
 Die Vermögenssteuer ist rein kantonal, und Kapitalgewinne auf privatem beweglichem Vermögen wie kotierten Aktien sind in der Schweiz steuerfrei. Unser Vergleich [Genf oder Waadt](/de/guides/geneva-or-vaud/) geht diese Unterschiede für die beiden Kantone durch, die französische Familien am häufigsten in Betracht ziehen.

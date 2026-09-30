@@ -101,7 +101,7 @@ Zwei Punkte überraschen Menschen aus der Golfregion oft:
 - **Der Lebensaufwand zählt weltweit.** Personal, Schulen im Ausland, Reisen, Autos, Boote und Flugzeuge zählen mit, ebenso bezahlte Steuern.
 - **Der Betrag wird vereinbart und dann jährlich überprüft.** Sie schlagen einen Betrag vor, der Kanton stimmt zu und prüft jedes Jahr, ob die Voraussetzungen noch erfüllt sind.
 
-Kapitalgewinne auf privatem beweglichem Vermögen sind in der Schweiz steuerfrei, und Ehegatten sind in allen Kantonen von der Erbschaftssteuer befreit.
+Kapitalgewinne auf privatem beweglichem Vermögen sind in der Schweiz steuerfrei, und Ehegatten sind in allen Kantonen von der Erbschaftssteuer befreit. Eine Ausnahme ist hier wichtig: In Genf gelten die Befreiungen für Ehegatten und Nachkommen nicht, wenn die verstorbene oder schenkende Person in einer der letzten drei rechtskräftigen Veranlagungen nach dem Aufwand besteuert wurde.
 
 ## Ein Unternehmen am Golf behalten
 

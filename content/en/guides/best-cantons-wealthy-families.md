@@ -35,6 +35,8 @@ sources:
     url: "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/de#art_14"
   - label: "Canton of Zurich: Migration Office directive (19 November 2021), §8.1"
     url: "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Erwerbslose%20Wohnsitznahme.pdf"
+  - label: "Fedlex: art. 5 ZV-EJPD (SEM approval)"
+    url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
   - label: "International School of Geneva (Ecolint)"
     url: "https://www.ecolint.ch"
   - label: "Zurich International School"
@@ -63,7 +65,7 @@ There is no single best canton for a wealthy family in Switzerland; there is the
 
 | | |
 |---|---|
-| Federal lump-sum minimum 2026 | CHF 435,000, the same in every canton for federal tax |
+| Federal lump-sum minimum base 2026 | CHF 435,000, the same in every canton for federal tax |
 | No lump sum | Zurich, Schaffhausen, Appenzell Ausserrhoden, Basel-Stadt; Basel-Landschaft for the arrival year only |
 | Highest cantonal minimum base | Lucerne, CHF 647,100 for 2026 |
 | No inheritance or gift tax | Schwyz and Obwalden |
@@ -83,14 +85,14 @@ When families ask us which canton is best, we usually turn the question around: 
 
 ## The comparison table
 
-The table below covers ten cantons that international families most often ask us about. All tax figures come from the Federal Tax Administration's cantonal fact sheets (February 2026) and its overview of taxes in force (legal status 1 January 2026). The lump-sum figures are cantonal minimums; the federal minimum of CHF 435,000 applies on top everywhere, as do the rent and control tests.
+The table below covers ten cantons that international families most often ask us about. All tax figures come from the Federal Tax Administration's cantonal fact sheets (February 2026) and its overview of taxes in force (legal status 1 January 2026). The lump-sum figures are cantonal minimums; for federal tax, the federal minimum base of CHF 435,000 applies everywhere, and the rent and control tests apply as well.
 
 | Canton | Main language | Lump-sum cantonal minimum (2026) | Wealth tax under lump sum | Inheritance to children | Real transfer tax |
 |---|---|---|---|---|---|
 | Geneva | French | CHF 426,357 | +10% surcharge on the base | Generally exempt, but **not** if the deceased was lump-sum taxed in one of the last three assessments | Yes |
 | Vaud | French | CHF 415,000 (includes a 15% wealth surcharge) | Included in the base | CHF 1 m exempt, then a degressive deduction up to CHF 2 m | Yes |
 | Valais | French and German | CHF 250,000 | Wealth at least 4× the base | Exempt | Yes |
-| Ticino | Italian | CHF 434,700 (indexed, valid from 2025) | Wealth 5× the base | Exempt | No |
+| Ticino | Italian | CHF 434,700 (ESTV fact sheet, Feb 2026) | Wealth 5× the base | Exempt | No |
 | Graubünden | German, Romansh, Italian | CHF 435,000 | Per cantonal practice | Exempt | Yes |
 | Zug | German | CHF 500,000 | Wealth at least 20× the base | Exempt | No |
 | Schwyz | German | CHF 600,000 | Wealth at least 20× the base | No inheritance or gift tax | No |
@@ -106,7 +108,7 @@ Two notes on reading this. First, a lower minimum does not mean a lower bill: yo
 
 Lump-sum taxation is available only to people who are not Swiss, who are coming to Switzerland for the first time or after at least ten years away, and who do not work here. If both spouses qualify, the canton choice matters: the minimums, the treatment of wealth and even the rent test differ. Vaud, for example, uses seven times rent plus 10%.
 
-For non-EU nationals using the fiscal-interest permit route, some cantons publish their own expectations. Geneva states that the major fiscal interest amounts to an expenditure base of **CHF 750,000**. Zurich, which has no lump sum, considers fiscal interest sufficient at an annual tax of **about CHF 1 million**, confirmed by the tax authority, with close ties to the canton and the whole family relocating.
+For non-EU nationals using the fiscal-interest permit route, some cantons publish their own expectations. Geneva states that the major fiscal interest amounts to an expenditure base of **CHF 750,000**. Zurich, which has no lump sum, considers fiscal interest sufficient at an annual tax of **about CHF 1 million**, confirmed by the tax authority, with close ties to the canton and the whole family relocating. These are expectations, not entitlements: the permit remains at the canton's discretion and needs approval from the State Secretariat for Migration (SEM).
 
 ### If you will be taxed ordinarily
 

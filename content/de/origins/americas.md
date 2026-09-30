@@ -57,7 +57,7 @@ Amerikanerinnen und Amerikaner, Kanadier und Lateinamerikaner können sich über
 > - Die Schweizer Abkommen mit den **USA und Kanada** verlangen für Abkommensvorteile die **modifizierte Pauschalbesteuerung**.
 > - Schweizer Pauschalbesteuerung: bundesrechtliche Mindestbemessungsgrundlage **CHF 435'000 für 2026**.
 > - **FBAR**, wenn ausländische Konten zu irgendeinem Zeitpunkt **USD 10'000** übersteigen; **Formular 8938** ab **USD 200'000/300'000** bei Einzelveranlagung im Ausland.
-> - Ausweis C für Nicht-EU-Angehörige: nach **10 Jahren** oder bei guter Integration nach **5 Jahren**.
+> - Ausweis C: US- und kanadische Staatsangehörige können ihn nach Ermessen des Kantons nach **5 Jahren** erhalten, wenn die Integrationskriterien erfüllt sind; sonst nach **10 Jahren** oder bei guter Integration vorzeitig nach **5 Jahren**.
 
 ## Warum Menschen aus Nord- und Südamerika die Schweiz wählen
 
@@ -101,7 +101,7 @@ Kein lateinamerikanisches Abkommen steht auf der Liste der modifizierten Pauscha
 - **Krankenversicherung:** Die obligatorische Krankenversicherung (KVG) muss innerhalb von 3 Monaten nach der Anmeldung abgeschlossen werden.
 - **Führerausweis:** Ein Schweizer Führerausweis ist nötig, sobald Sie 12 Monate hier gelebt haben, ohne mehr als drei Monate am Stück im Ausland gewesen zu sein.
 - **Immobilien:** Als Nicht-EU-Angehörige mit Ausweis B dürfen Sie einen Hauptwohnsitz am tatsächlichen Wohnsitz in der Schweiz ohne Bewilligung nach Lex Koller kaufen; Ferienwohnungen bleiben bewilligungs- und kontingentspflichtig nach Lex Koller. Ein Reformvorschlag von 2026 würde selbst für den Hauptwohnsitz eine Bewilligung verlangen; geltendes Recht ist das noch nicht.
-- **Langfristiger Status:** Der Ausweis C ist nach 10 Jahren erhältlich, davon 5 Jahre ununterbrochen mit Ausweis B, oder nach 5 Jahren, wenn Sie gut integriert sind und die Landessprache am Wohnort gut sprechen.
+- **Langfristiger Status:** US- und kanadische Staatsangehörige können den Ausweis C nach 5 Jahren nach Ermessen des Kantons (ohne Rechtsanspruch) erhalten, wenn die Integrationskriterien, einschliesslich Sprache, erfüllt sind. Für andere Staatsangehörige gilt: nach 10 Jahren, davon 5 Jahre ununterbrochen mit Ausweis B, oder nach 5 Jahren, wenn Sie gut integriert sind und die Landessprache am Wohnort gut sprechen.
 
 ## Häufige Fehler
 

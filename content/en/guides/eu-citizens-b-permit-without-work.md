@@ -15,7 +15,7 @@ faq:
   - q: "How long is the B permit valid?"
     a: "The EU/EFTA B permit for non-employed people is normally valid for five years. It can be withdrawn if the financial means or insurance fall away."
   - q: "When can I get a C permit?"
-    a: "Nationals covered by settlement agreements can get a C after five years. For nationals of Bulgaria, Estonia, Croatia, Latvia, Lithuania, Malta, Poland, Romania, Slovakia, Slovenia, the Czech Republic, Hungary and Cyprus there is no treaty right, and the C is normally granted after ten years."
+    a: "Nationals covered by settlement agreements can get a C after five years. For nationals of Bulgaria, Estonia, Croatia, Latvia, Lithuania, Malta, Poland, Romania, Slovakia, Slovenia, the Czech Republic, Hungary and Cyprus there is no treaty right, and the C is normally granted after ten years. Other nationals without a settlement agreement, such as Finns, Irish, Luxembourgers, Swedes, Norwegians and Icelanders, can be considered after five years at the canton's discretion."
   - q: "Can an EU citizen use lump-sum taxation?"
     a: "Yes, if the tax conditions are met: not Swiss, first arrival or return after ten years, and no gainful activity in Switzerland. Lump-sum taxation can be combined with an EU permit."
   - q: "Do UK citizens still qualify?"
@@ -23,7 +23,7 @@ faq:
 sources:
   - label: "SEM — Weisungen VFP (January 2026), §6.2 and ch. 9"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
-  - label: "SEM — Weisungen AIG (Stand 15 June 2026), §5.3"
+  - label: "SEM — Weisungen AIG (Stand 15 June 2026), §0.2.1.3 and §5.3"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "Fedlex — KVV art. 7 (health insurance deadline)"
     url: "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de#art_7"
@@ -48,7 +48,7 @@ If you are a citizen of an EU or EFTA country, you can live in Switzerland witho
 > - Two conditions: **sufficient financial means** and **comprehensive health and accident insurance**. **No quotas.**
 > - "Sufficient" = above the social-assistance level (SKOS, art. 16 VFP); for retirees, above the **supplementary-benefits** threshold.
 > - The B EU/EFTA permit for non-employed people is normally valid **5 years**.
-> - C permit after **5 years** for most nationals; **10 years** for 13 more recent member states.
+> - C permit after **5 years** for most nationals (a treaty right for some, at the canton's discretion for others); normally **10 years** for 13 more recent member states.
 > - Health insurance: sign up within **3 months** of registering with your commune.
 
 ## Who this route is for
@@ -88,7 +88,7 @@ Cantons handle the details, and document lists and forms vary. Your family membe
 | | B EU/EFTA (non-employed) | C EU/EFTA |
 |---|---|---|
 | Validity | Normally 5 years; can be withdrawn if means or insurance fall away | The card is checked every 5 years |
-| When you get it | On arrival | After 5 years for nationals covered by settlement agreements; normally after 10 years for BG, EE, HR, LV, LT, MT, PL, RO, SK, SI, CZ, HU, CY |
+| When you get it | On arrival | After 5 years for nationals covered by settlement agreements; possible after 5 years, without a legal right, for others such as FI, IE, LU, SE, NO, IS; normally after 10 years for BG, EE, HR, LV, LT, MT, PL, RO, SK, SI, CZ, HU, CY |
 
 For how the B, C and L permits relate to each other, see [Swiss permits B, C and L explained](/en/guides/swiss-permits-explained/).
 

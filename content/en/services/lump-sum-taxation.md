@@ -15,8 +15,8 @@ faq:
     a: "Zurich, Schaffhausen, Appenzell Ausserrhoden and Basel-Stadt abolished it. Basel-Landschaft only allows it until the end of the tax period in which you arrive."
   - q: "Can I switch back to the lump sum after choosing ordinary taxation?"
     a: "Generally not. According to ESTV Circular 44, once you give up the lump sum for ordinary taxation you cannot normally return to it."
-  - q: "Does my nationality affect how the lump sum works?"
-    a: "It can. Under the tax treaties with Belgium, Germany, Italy, Norway, Canada, Austria and the USA, treaty benefits require a modified lump sum, where all income from that state is taxed in Switzerland."
+  - q: "Does where my income comes from affect how the lump sum works?"
+    a: "It can. If you claim treaty relief under the tax treaties with Belgium, Germany, Italy, Norway, Canada, Austria or the USA, a modified lump sum applies, where all income from that state is taxed in Switzerland. What counts is the source of the income, not your nationality."
 sources:
   - label: "Fedlex — Federal Act on Direct Federal Tax (DBG), art. 14"
     url: "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/de#art_14"
@@ -93,7 +93,7 @@ We work alongside Ark Fiduciaire SA in Geneva, which handles the tax filings and
 
 - "Can I stay on the board of my family company abroad?"
 - "We plan to buy rather than rent. How does the rent test apply to a property we own?"
-- "My wife is German and I am not. Does the modified lump sum apply to us?"
+- "Part of our income comes from Germany. Does the modified lump sum apply to us?"
 - "Is the lump sum still worth it if most of our income is from Swiss investments?" The control calculation may then set the floor.
 - "What happens if one of our children becomes Swiss?"
 

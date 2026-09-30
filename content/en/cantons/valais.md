@@ -70,7 +70,7 @@ These are the published minimums. What a specific file settles at depends on you
 
 ## Residence permits
 
-EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals apply either as retirees (55 or over, with special ties to Switzerland) or on grounds of important fiscal interest, which needs SEM approval. We have not found an official published threshold for Valais, so any amount should be confirmed with the canton rather than taken from secondary sources.
+EU/EFTA nationals who do not work can settle with sufficient means and health insurance. Non-EU nationals who will not work can apply as retirees (55 or over, with special ties to Switzerland and sufficient means) or on grounds of important fiscal interest. Both routes are discretionary and need SEM approval. We have not found an official published threshold for Valais, so any amount should be confirmed with the canton rather than taken from secondary sources.
 
 ## Inheritance and gift tax
 

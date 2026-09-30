@@ -31,6 +31,8 @@ sources:
     url: "https://www.efd.admin.ch/en/lump-sum-taxation"
   - label: "Canton de Zurich : directive de l'Office des migrations, 19 novembre 2021"
     url: "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Erwerbslose%20Wohnsitznahme.pdf"
+  - label: "Fedlex : OA-DFJP (ordonnance sur l'approbation par le SEM), art. 5"
+    url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
   - label: "Fedlex : art. 7 OAMal (ordonnance sur l'assurance-maladie)"
     url: "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/fr#art_7"
   - label: "AVS/AI : mémento 2.03 sur les cotisations des personnes sans activité lucrative (1er janvier 2026)"
@@ -85,7 +87,7 @@ L'impôt sur les successions et donations est cantonal. Le conjoint est exonér�
 
 ### Vous souhaitez vivre à Zurich ou à Bâle
 
-Zurich, Schaffhouse, Appenzell Rhodes-Extérieures et Bâle-Ville ont aboli le forfait, et Bâle-Campagne ne l'accorde que pour l'année d'arrivée. Si votre famille souhaite s'installer dans l'un de ces cantons, c'est l'imposition ordinaire qui s'appliquera. Zurich accorde bien un titre de séjour pour motifs fiscaux aux ressortissants hors UE, mais sa directive place la barre à environ CHF 1 million d'impôt par an, confirmé par l'autorité fiscale. Voir notre [page sur le canton de Zurich](/fr/cantons/zurich/).
+Zurich, Schaffhouse, Appenzell Rhodes-Extérieures et Bâle-Ville ont aboli le forfait, et Bâle-Campagne ne l'accorde que pour l'année d'arrivée. Si votre famille souhaite s'installer dans l'un de ces cantons, c'est l'imposition ordinaire qui s'appliquera. Zurich accorde bien un titre de séjour pour motifs fiscaux aux ressortissants hors UE, mais sa directive place la barre à environ CHF 1 million d'impôt par an, confirmé par l'autorité fiscale, et exige aussi des liens étroits avec le canton et l'installation de toute la famille. Voir notre [page sur le canton de Zurich](/fr/cantons/zurich/).
 
 ## Quand le forfait est souvent adapté
 
@@ -97,7 +99,7 @@ Le forfait convient généralement aux familles qui :
 - apprécient un **montant prévisible, convenu à l'avance** avec le canton ;
 - sont attirées par un canton qui le propose.
 
-Pour les ressortissants hors UE, le forfait est aussi étroitement lié à l'autorisation de séjour pour motifs fiscaux, que certains cantons rattachent directement à l'accord fiscal.
+Pour les ressortissants hors UE, le forfait est aussi étroitement lié à l'autorisation de séjour pour motifs fiscaux, que certains cantons rattachent directement à l'accord fiscal. L'accord fiscal ne vaut pas autorisation de séjour : le canton décide selon sa libre appréciation et le SEM doit donner son approbation.
 
 ## Ce qui ne change pas selon le régime
 

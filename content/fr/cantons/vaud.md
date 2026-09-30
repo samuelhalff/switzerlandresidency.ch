@@ -38,7 +38,7 @@ sources:
     url: "https://www.region-du-leman.ch/"
 ---
 
-Le canton de Vaud propose l’imposition d’après la dépense (forfait fiscal), et son minimum est simple à lire : en 2026, la base cantonale est d’au moins CHF 415 000, et ce montant inclut déjà une majoration couvrant l’impôt sur la fortune. Les ressortissants hors UE doivent signer un accord forfaitaire avec le canton avant que leur demande de permis de séjour puisse être traitée.
+Le canton de Vaud propose l’imposition d’après la dépense (forfait fiscal), et son minimum est simple à lire : en 2026, la base cantonale est d’au moins CHF 415 000, et ce montant inclut déjà une majoration couvrant l’impôt sur la fortune. Pour les ressortissants hors UE qui demandent un permis pour intérêts fiscaux, l’accord forfaitaire signé fait partie du dossier ; le permis reste une décision discrétionnaire, soumise à l’approbation du SEM.
 
 ## Points clés
 
@@ -48,7 +48,7 @@ Le canton de Vaud propose l’imposition d’après la dépense (forfait fiscal)
 | Base minimale cantonale | CHF 415 000, majoration de 15 % pour l’impôt sur la fortune comprise |
 | Critère du loyer | 7 × le loyer annuel ou la valeur locative, plus 10 % |
 | Base minimale fédérale | CHF 435 000 pour 2026 |
-| Permis hors UE | Accord forfaitaire signé exigé ; approbation du SEM |
+| Permis hors UE pour intérêts fiscaux | Accord forfaitaire signé exigé dans le dossier ; décision discrétionnaire, approbation du SEM |
 | Successions (descendants) | CHF 1 million exonéré, puis déduction dégressive jusqu’à CHF 2 millions |
 | Langue | Français |
 | Principales localités | Lausanne, Montreux, Vevey, Nyon, Morges, Yverdon-les-Bains |
@@ -71,7 +71,7 @@ Pour une comparaison avec les autres cantons, consultez [le forfait fiscal par c
 
 Pour les personnes venant d’un pays hors UE/AELE qui déposent une demande pour intérêts publics (fiscaux) importants, le canton de Vaud publie la liste des documents requis : un engagement formel à n’exercer aucune activité lucrative en Suisse ni à l’étranger (hormis la gestion de votre propre fortune), une copie de l’accord forfaitaire conclu avec l’administration cantonale des impôts (ACI) et, si vous achetez un bien, l’acte ou l’extrait du registre foncier. Le dossier est ensuite transmis au SEM pour approbation. Vaud ne publie pas de montant minimum.
 
-Les personnes de 55 ans ou plus ayant des liens étroits avec la Suisse peuvent aussi demander un permis en tant que rentiers. Les ressortissants de l’UE/AELE sans activité lucrative suivent la voie plus simple de la libre circulation.
+Les personnes de 55 ans ou plus ayant des liens étroits avec la Suisse peuvent aussi demander un permis en tant que rentiers, à condition de disposer de moyens suffisants et de ne pas exercer d’activité lucrative ; cette voie est elle aussi discrétionnaire et soumise à l’approbation du SEM. Les ressortissants de l’UE/AELE sans activité lucrative suivent la voie plus simple de la libre circulation.
 
 ## Impôt sur les successions et donations
 

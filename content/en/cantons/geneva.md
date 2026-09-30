@@ -70,7 +70,7 @@ The base is your worldwide living costs, but at least the highest of the cantona
 
 Geneva does not levy a separate wealth tax on lump-sum taxpayers. Instead, it adds 10% to the base. Because taxes themselves count as living costs, the canton works with a gross-up calculation, and publishes worked examples.
 
-**Non-EU nationals.** For people from outside the EU/EFTA who need a permit on grounds of important fiscal interest, Geneva's official document states that the major fiscal interest in the canton is an expenditure base of CHF 750,000. For cantonal tax the 10% add-on applies to it; for federal tax the base is CHF 750,000. The permit still needs approval from the State Secretariat for Migration (SEM).
+**Non-EU nationals.** For people from outside the EU/EFTA who need a permit on grounds of important fiscal interest, Geneva's official document states that the major fiscal interest in the canton is an expenditure base of CHF 750,000. For cantonal tax the 10% add-on applies to it; for federal tax the base is CHF 750,000. The permit remains a discretionary decision and still needs approval from the State Secretariat for Migration (SEM).
 
 **How to apply.** You send a written request to the cantonal tax administration on arrival, alongside the migration procedure. It includes a letter describing your situation and confirming that you will not work in Switzerland, a proposed lump-sum amount, a copy of your lease or property valuation, and a lifestyle form. More detail is in our guide to [lump-sum taxation by canton](/en/guides/lump-sum-taxation-by-canton/).
 

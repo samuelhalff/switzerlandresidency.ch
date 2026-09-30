@@ -19,6 +19,10 @@ faq:
   - q: "Les citoyens de l'UE ont-ils besoin d'un golden visa ?"
     a: "Non. Les ressortissants UE/AELE sans activité lucrative peuvent vivre en Suisse s'ils disposent de moyens suffisants et d'une assurance maladie et accidents complète, en vertu de l'accord sur la libre circulation des personnes."
 sources:
+  - label: "SEM — Directives LEI, chapitre 4 (état au 30 juin 2026), ch. 4.7.2 (activité indépendante)"
+    url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-kap4-d.pdf.download.pdf/weisungen-aig-kap4-d.pdf"
+  - label: "Fedlex — art. 19 LEI (activité lucrative indépendante)"
+    url: "https://www.fedlex.admin.ch/eli/cc/2007/758/fr#art_19"
   - label: "SEM : directives LEI (état au 15 juin 2026), ch. 5.3 et 5.5"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "SEM : directives OLCP (janvier 2026), ch. 6.2"
@@ -61,7 +65,7 @@ La Suisse n'a pas de golden visa. Aucun programme n'accorde une autorisation de 
 
 Plusieurs pays européens ont rendu l'expression « golden visa » familière, et la Suisse figure souvent à leurs côtés sur les sites consacrés à l'expatriation. Certains intermédiaires proposent même un « programme de résidence suisse » assorti d'un prix. On comprend cette présentation, mais elle est trompeuse. En Suisse, on n'achète pas un permis. On demande à un canton de vous accepter comme résident, et le canton a une vraie liberté de dire non.
 
-La bonne nouvelle, c'est que les voies existantes sont inscrites dans le droit fédéral et les directives du SEM, et qu'elles sont utilisées : fin 2018, par exemple, 4 557 personnes étaient imposées d'après la dépense en Suisse, selon le Département fédéral des finances. Elles fonctionnent simplement autrement qu'un visa d'investisseur.
+La bonne nouvelle, c'est que les voies existantes sont inscrites dans le droit fédéral et les directives du SEM. L'imposition d'après la dépense, qui accompagne souvent la voie de l'intérêt fiscal, est elle aussi bien établie : fin 2018, par exemple, 4 557 personnes étaient imposées d'après la dépense en Suisse, selon le Département fédéral des finances. Ces voies fonctionnent simplement autrement qu'un visa d'investisseur.
 
 ## Ce qui existe réellement
 
@@ -70,7 +74,7 @@ La bonne nouvelle, c'est que les voies existantes sont inscrites dans le droit f
 | Ressortissant UE/AELE, sans activité lucrative | Libre circulation (art. 24 annexe I ALCP) | Moyens financiers suffisants et assurance maladie et accidents complète ; pas de contingents |
 | Ressortissant hors UE, 55 ans ou plus, retraité | Voie des rentiers (art. 28 LEI) | Attaches personnelles particulières avec la Suisse ; moyens supérieurs au niveau des prestations complémentaires, à vie ; aucune activité lucrative nulle part |
 | Ressortissant hors UE, tout âge, fortuné | Intérêts fiscaux importants (art. 30 al. 1 let. b LEI, art. 32 OASA) | Transférer ici le centre de vos intérêts ; travailler uniquement à l'étranger ; une contribution fiscale que le canton juge importante |
-| Toute personne qui prend un emploi ou crée une entreprise | Voies de l'activité salariée ou indépendante | Hors du champ de ce site |
+| Toute personne qui prend un emploi ou crée une entreprise | Voies de l'activité salariée ou indépendante (art. 19 LEI pour les indépendants hors UE) | Hors UE : contingents, intérêt économique du pays, business plan, approbation du SEM ; aucun investissement minimum fixé, et créer une société ne donne pas droit à un permis |
 
 Les deux voies hors UE sont détaillées, avec les chiffres cantonaux, dans notre guide sur [le séjour en Suisse sans activité lucrative pour les ressortissants hors UE](/fr/guides/residence-non-eu-financially-independent/). Les citoyens de l'UE et de l'AELE peuvent lire [le permis B sans activité lucrative](/fr/guides/eu-citizens-b-permit-without-work/).
 

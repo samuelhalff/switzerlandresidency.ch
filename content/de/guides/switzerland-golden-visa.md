@@ -19,6 +19,10 @@ faq:
   - q: "Brauchen EU-Bürger ein Golden Visa?"
     a: "Nein. Nicht erwerbstätige EU/EFTA-Staatsangehörige können nach dem Freizügigkeitsabkommen in der Schweiz leben, wenn sie über ausreichende finanzielle Mittel und eine umfassende Kranken- und Unfallversicherung verfügen."
 sources:
+  - label: "SEM — Weisungen AIG, Kapitel 4 (Stand 30. Juni 2026), Ziff. 4.7.2 (selbständige Erwerbstätigkeit)"
+    url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-kap4-d.pdf.download.pdf/weisungen-aig-kap4-d.pdf"
+  - label: "Fedlex — Art. 19 AIG (selbständige Erwerbstätigkeit)"
+    url: "https://www.fedlex.admin.ch/eli/cc/2007/758/de#art_19"
   - label: "SEM: Weisungen AIG (Stand 15. Juni 2026), Ziff. 5.3 und 5.5"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "SEM: Weisungen VFP (Januar 2026), Ziff. 6.2"
@@ -61,7 +65,7 @@ Die Schweiz hat kein Golden Visa. Es gibt kein Programm, das eine Aufenthaltsbew
 
 Mehrere europäische Länder haben den Begriff «Golden Visa» bekannt gemacht, und auf Umzugsportalen wird die Schweiz oft in einem Atemzug mit ihnen genannt. Manche Berater vermarkten ein «Schweizer Residenzprogramm» mit Preisschild. Diese Darstellung ist verständlich, aber irreführend. In der Schweiz kaufen Sie keine Bewilligung. Sie ersuchen einen Kanton, Sie als Einwohnerin oder Einwohner aufzunehmen, und der Kanton kann tatsächlich nein sagen.
 
-Die gute Nachricht: Die zugrunde liegenden Wege sind im Bundesrecht und in den Weisungen des SEM verankert, und sie werden genutzt. Ende 2018 etwa wurden in der Schweiz laut dem Eidgenössischen Finanzdepartement 4557 Personen nach dem Aufwand besteuert. Die Wege funktionieren einfach anders als ein Investorenvisum.
+Die gute Nachricht: Die zugrunde liegenden Wege sind im Bundesrecht und in den Weisungen des SEM verankert. Auch die Pauschalbesteuerung, die oft mit dem fiskalischen Weg einhergeht, ist gut etabliert: Ende 2018 etwa wurden in der Schweiz laut dem Eidgenössischen Finanzdepartement 4557 Personen nach dem Aufwand besteuert. Die Wege funktionieren einfach anders als ein Investorenvisum.
 
 ## Was es tatsächlich gibt
 
@@ -70,7 +74,7 @@ Die gute Nachricht: Die zugrunde liegenden Wege sind im Bundesrecht und in den W
 | EU/EFTA-Staatsangehörige, nicht erwerbstätig | Personenfreizügigkeit (Art. 24 Anhang I FZA) | Ausreichende finanzielle Mittel und umfassende Kranken- und Unfallversicherung; keine Kontingente |
 | Nicht-EU-Bürger ab 55, im Ruhestand | Rentnerweg (Art. 28 AIG) | Besondere persönliche Beziehungen zur Schweiz; lebenslang Mittel über dem Niveau der Ergänzungsleistungen; nirgends erwerbstätig |
 | Nicht-EU-Bürger jeden Alters, vermögend | Wichtige fiskalische Interessen (Art. 30 Abs. 1 Bst. b AIG, Art. 32 VZAE) | Lebensmittelpunkt in die Schweiz verlegen; Erwerbstätigkeit nur im Ausland; ein Steuerbeitrag, den der Kanton als erheblich betrachtet |
-| Alle, die eine Stelle antreten oder ein Unternehmen gründen | Wege für Erwerbstätige oder Selbständige | Nicht Thema dieser Website |
+| Alle, die eine Stelle antreten oder ein Unternehmen gründen | Wege für Erwerbstätige oder Selbständige (Art. 19 AIG für Selbständige aus Nicht-EU-Staaten) | Nicht-EU: Kontingente, gesamtwirtschaftliches Interesse, Businessplan, Zustimmung des SEM; keine feste Mindestinvestition, und eine Firmengründung gibt keinen Anspruch auf eine Bewilligung |
 
 Die beiden Wege für Nicht-EU-Bürger erklären wir ausführlich, mit kantonalen Zahlen, im Leitfaden zum [Wohnsitz in der Schweiz ohne Erwerbstätigkeit für Nicht-EU-Bürger](/de/guides/residence-non-eu-financially-independent/). EU- und EFTA-Bürger lesen am besten unseren Leitfaden zum [Ausweis B ohne Erwerbstätigkeit](/de/guides/eu-citizens-b-permit-without-work/).
 

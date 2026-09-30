@@ -73,7 +73,7 @@ Das Zürcher Steueramt kann einen schriftlichen Vorbescheid zu einem konkreten S
 
 ## Aufenthaltsbewilligung für Nicht-EU-Bürger
 
-EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Bei Nicht-EU-Bürgern erachtet das Zürcher Migrationsamt das fiskalische Interesse ab einer **jährlichen Steuerleistung von rund CHF 1 Mio.** als ausreichend. Die Steuerbehörde muss den erwarteten Betrag bestätigen, und die gesuchstellende Person braucht enge Beziehungen zum Kanton und muss mit der ganzen Familie zuziehen. Danach folgt die Zustimmung des SEM. Wer 55 Jahre oder älter ist und besondere Beziehungen zur Schweiz hat, kann auch als Rentnerin oder Rentner ein Gesuch stellen.
+EU/EFTA-Bürger ohne Erwerbstätigkeit können sich mit ausreichenden Mitteln und einer Krankenversicherung niederlassen. Bei Nicht-EU-Bürgern erachtet das Zürcher Migrationsamt das fiskalische Interesse ab einer **jährlichen Steuerleistung von rund CHF 1 Mio.** als ausreichend. Die Steuerbehörde muss den erwarteten Betrag bestätigen, und die gesuchstellende Person braucht enge Beziehungen zum Kanton und muss mit der ganzen Familie zuziehen. Der Kanton entscheidet nach Ermessen, und das SEM muss zustimmen. Wer 55 Jahre oder älter ist, besondere Beziehungen zur Schweiz und ausreichende Mittel hat und nicht erwerbstätig ist, kann auch als Rentnerin oder Rentner ein Gesuch stellen; auch dieser Weg liegt im Ermessen der Behörden und braucht die Zustimmung des SEM.
 
 ## Erbschafts- und Schenkungssteuer
 

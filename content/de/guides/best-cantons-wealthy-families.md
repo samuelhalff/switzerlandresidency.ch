@@ -35,6 +35,8 @@ sources:
     url: "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/de#art_14"
   - label: "Kanton Zürich: Weisung des Migrationsamts (19. November 2021), Ziff. 8.1"
     url: "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Erwerbslose%20Wohnsitznahme.pdf"
+  - label: "Fedlex: Art. 5 ZV-EJPD (Zustimmung des SEM)"
+    url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
   - label: "International School of Geneva (Ecolint)"
     url: "https://www.ecolint.ch"
   - label: "Zurich International School"
@@ -63,7 +65,7 @@ Den einen besten Kanton für eine vermögende Familie gibt es nicht, wohl aber d
 
 | | |
 |---|---|
-| Bundesminimum Pauschalbesteuerung 2026 | CHF 435'000, für die direkte Bundessteuer in allen Kantonen gleich |
+| Mindestbemessungsgrundlage Bund 2026 | CHF 435'000, für die direkte Bundessteuer in allen Kantonen gleich |
 | Keine Pauschalbesteuerung | Zürich, Schaffhausen, Appenzell Ausserrhoden, Basel-Stadt; Basel-Landschaft nur für das Zuzugsjahr |
 | Höchste kantonale Mindestbemessungsgrundlage | Luzern, CHF 647'100 für 2026 |
 | Keine Erbschafts- und Schenkungssteuer | Schwyz und Obwalden |
@@ -83,14 +85,14 @@ Wenn Familien uns fragen, welcher Kanton der beste sei, drehen wir die Frage mei
 
 ## Die Vergleichstabelle
 
-Die Tabelle zeigt zehn Kantone, nach denen internationale Familien uns am häufigsten fragen. Alle Steuerangaben stammen aus den Kantonsblättern der Eidgenössischen Steuerverwaltung (Februar 2026) und ihrer Übersicht über die geltenden Steuern (Rechtsstand 1. Januar 2026). Die Beträge zur Pauschalbesteuerung sind kantonale Mindestwerte; das Bundesminimum von CHF 435'000 gilt überall zusätzlich, ebenso die Mietzins- und die Kontrollrechnung.
+Die Tabelle zeigt zehn Kantone, nach denen internationale Familien uns am häufigsten fragen. Alle Steuerangaben stammen aus den Kantonsblättern der Eidgenössischen Steuerverwaltung (Februar 2026) und ihrer Übersicht über die geltenden Steuern (Rechtsstand 1. Januar 2026). Die Beträge zur Pauschalbesteuerung sind kantonale Mindestwerte; für die direkte Bundessteuer gilt überall die Mindestbemessungsgrundlage des Bundes von CHF 435'000, ebenso die Mietzins- und die Kontrollrechnung.
 
 | Kanton | Hauptsprache | Kantonales Minimum Pauschalbesteuerung (2026) | Vermögenssteuer bei Pauschalbesteuerung | Erbschaften an Kinder | Handänderungssteuer |
 |---|---|---|---|---|---|
 | Genf | Französisch | CHF 426'357 | Zuschlag von 10 % auf die Bemessungsgrundlage | Grundsätzlich befreit, aber **nicht**, wenn die verstorbene Person in einer der letzten drei Veranlagungen nach dem Aufwand besteuert wurde | Ja |
 | Waadt | Französisch | CHF 415'000 (inkl. 15 % Vermögenszuschlag) | In der Bemessungsgrundlage enthalten | CHF 1 Mio. befreit, danach degressiver Abzug bis CHF 2 Mio. | Ja |
 | Wallis | Französisch und Deutsch | CHF 250'000 | Vermögen mindestens das 4-Fache der Bemessungsgrundlage | Befreit | Ja |
-| Tessin | Italienisch | CHF 434'700 (indexiert, gültig ab 2025) | Vermögen das 5-Fache der Bemessungsgrundlage | Befreit | Nein |
+| Tessin | Italienisch | CHF 434'700 (Kantonsblatt ESTV, Februar 2026) | Vermögen das 5-Fache der Bemessungsgrundlage | Befreit | Nein |
 | Graubünden | Deutsch, Rätoromanisch, Italienisch | CHF 435'000 | Nach kantonaler Praxis | Befreit | Ja |
 | Zug | Deutsch | CHF 500'000 | Vermögen mindestens das 20-Fache der Bemessungsgrundlage | Befreit | Nein |
 | Schwyz | Deutsch | CHF 600'000 | Vermögen mindestens das 20-Fache der Bemessungsgrundlage | Keine Erbschafts- und Schenkungssteuer | Nein |
@@ -106,7 +108,7 @@ Zwei Hinweise zum Lesen der Tabelle. Erstens bedeutet ein tieferes Minimum nicht
 
 Die Besteuerung nach dem Aufwand (Pauschalbesteuerung) steht nur Personen offen, die nicht Schweizer sind, erstmals oder nach mindestens zehn Jahren Abwesenheit in die Schweiz ziehen und hier keiner Erwerbstätigkeit nachgehen. Erfüllen beide Ehegatten die Voraussetzungen, spielt die Wahl des Kantons eine Rolle: Die Mindestbeträge, die Behandlung des Vermögens und sogar der Mietzinstest unterscheiden sich. Die Waadt zum Beispiel rechnet mit dem Siebenfachen des Mietzinses plus 10 %.
 
-Für Drittstaatsangehörige, die den Weg über wichtige öffentliche (fiskalische) Interessen wählen, veröffentlichen einige Kantone eigene Erwartungen. Genf hält fest, dass das erhebliche fiskalische Interesse einer Aufwandbemessungsgrundlage von **CHF 750'000** entspricht. Zürich, das keine Pauschalbesteuerung kennt, betrachtet das fiskalische Interesse bei einer jährlichen Steuer von **rund CHF 1 Mio.** als ausreichend, bestätigt durch die Steuerbehörde, verbunden mit einer engen Beziehung zum Kanton und dem Zuzug der ganzen Familie.
+Für Drittstaatsangehörige, die den Weg über wichtige öffentliche (fiskalische) Interessen wählen, veröffentlichen einige Kantone eigene Erwartungen. Genf hält fest, dass das erhebliche fiskalische Interesse einer Aufwandbemessungsgrundlage von **CHF 750'000** entspricht. Zürich, das keine Pauschalbesteuerung kennt, betrachtet das fiskalische Interesse bei einer jährlichen Steuer von **rund CHF 1 Mio.** als ausreichend, bestätigt durch die Steuerbehörde, verbunden mit einer engen Beziehung zum Kanton und dem Zuzug der ganzen Familie. Das sind Erwartungen, keine Ansprüche: Die Bewilligung liegt im Ermessen des Kantons und bedarf der Zustimmung des Staatssekretariats für Migration (SEM).
 
 ### Wenn Sie ordentlich besteuert werden
 

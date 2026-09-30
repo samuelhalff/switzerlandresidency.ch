@@ -33,6 +33,10 @@ sources:
     url: "https://www.ur.ch/_docn/439772/14_Merkblatt_Aufwandbesteuerung_01.01.2026_1.pdf"
   - label: "Canton of Ticino: press release of 4 May 2023"
     url: "https://www4.ti.ch/tich/area-media/comunicati/dettaglio-comunicato?NEWS_ID=221229"
+  - label: "Canton of Zurich: Migration Office directive, 19 Nov 2021"
+    url: "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Erwerbslose%20Wohnsitznahme.pdf"
+  - label: "Fedlex: ZV-EJPD (SEM approval ordinance), art. 5"
+    url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
 ---
 
 In 2026, 21 of Switzerland's 26 cantons offer lump-sum taxation. Zurich, Schaffhausen, Appenzell Ausserrhoden and Basel-Stadt have abolished it, and Basel-Landschaft allows it only for the year of arrival. Published cantonal minimum bases range from CHF 200,000 in Jura to CHF 647,100 in Lucerne, while the federal base is CHF 435,000 everywhere.
@@ -72,7 +76,7 @@ The table below lists all 26 cantons. "Minimum base" means the lowest cantonal a
 | Solothurn (SO) | Yes | CHF 400,000 in law; CHF 412,800 for 2026 | Deemed wealth at least 20× the base | [ESTV KB-SO](https://www.estv2.admin.ch/stp/kb/so-de.pdf) |
 | St. Gallen (SG) | Yes | CHF 600,000 | Deemed wealth 20× the base | [ESTV KB-SG](https://www.estv2.admin.ch/stp/kb/sg-de.pdf) |
 | Thurgau (TG) | Yes | No base figure; minimum cantonal and communal tax of CHF 150,000; base at least 10× rent or 4× board | Included in the CHF 150,000 minimum | [ESTV KB-TG](https://www.estv2.admin.ch/stp/kb/tg-de.pdf) |
-| Ticino (TI) | Yes | CHF 434,700 (indexed, valid from 2025) | Deemed wealth 5× the base | [ESTV KB-TI](https://www.estv2.admin.ch/stp/kb/ti-it.pdf) |
+| Ticino (TI) | Yes | CHF 434,700 (ESTV fact sheet, February 2026; any 2026 indexation not confirmed) | Deemed wealth 5× the base | [ESTV KB-TI](https://www.estv2.admin.ch/stp/kb/ti-it.pdf) |
 | Uri (UR) | Yes | CHF 400,000 in law; CHF 435,000 for 2026 | Deemed wealth at least 20× the base | [ESTV KB-UR](https://www.estv2.admin.ch/stp/kb/ur-de.pdf) |
 | Valais (VS) | Yes | CHF 250,000 (communal tax on an average tariff) | Deemed wealth at least 4× the base | [ESTV KB-VS](https://www.estv2.admin.ch/stp/kb/vs-fr.pdf) |
 | Vaud (VD) | Yes | CHF 415,000, including a 15% surcharge for wealth tax; rent test is 7× rent plus 10% | Included in the base | [ESTV KB-VD](https://www.estv2.admin.ch/stp/kb/vd-fr.pdf) |
@@ -89,7 +93,7 @@ Basel-Landschaft is a special case. Its tax law still contains a lump-sum provis
 
 Other cantons kept the regime but made it stricter. The Federal Department of Finance names Thurgau, St. Gallen, Lucerne and Bern.
 
-If you are drawn to Zurich for work, schools or family reasons, you can still live there under ordinary taxation. Zurich also grants residence permits to non-EU nationals on fiscal grounds, but its own directive puts the bar at an annual tax of about CHF 1 million, confirmed by the tax authority.
+If you are drawn to Zurich for work, schools or family reasons, you can still live there under ordinary taxation. Zurich also grants residence permits to non-EU nationals on fiscal grounds, but its own directive puts the bar at an annual tax of about CHF 1 million, confirmed by the tax authority, and also requires close ties to the canton and the move of the whole family. SEM must approve the permit.
 
 ## How to read the minimum bases
 

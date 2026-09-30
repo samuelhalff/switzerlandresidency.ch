@@ -9,13 +9,13 @@ updated: "2026-09-30"
 draft: false
 faq:
   - q: "Un citoyen de l'UE peut-il vivre en Suisse sans travailler ?"
-    a: "Oui. Selon l'art. 24 de l'annexe I de l'accord sur la libre circulation des personnes, les retraités, les rentiers et les autres ressortissants UE/AELE sans activité lucrative peuvent s'établir en Suisse avec leur famille s'ils disposent de moyens financiers suffisants et d'une assurance maladie et accidents complète. Il n'y a pas de contingents."
+    a: "Oui. Selon l'art. 24 de l'annexe I de l'accord sur la libre circulation des personnes, les retraités, les rentiers et les autres ressortissants UE/AELE sans activité lucrative peuvent séjourner en Suisse avec leur famille s'ils disposent de moyens financiers suffisants et d'une assurance maladie et accidents complète. Il n'y a pas de contingents."
   - q: "À partir de quel montant les moyens sont-ils suffisants ?"
     a: "Les moyens doivent dépasser le niveau à partir duquel une personne suisse pourrait demander l'aide sociale (normes CSIAS, art. 16 OLCP). Pour les retraités, ils doivent dépasser le seuil des prestations complémentaires. Il n'existe pas de montant unique : tout dépend de votre ménage et du canton."
   - q: "Combien de temps le permis B est-il valable ?"
     a: "Le permis B UE/AELE pour personnes sans activité lucrative est en principe valable cinq ans. Il peut être révoqué si les moyens financiers ou l'assurance viennent à manquer."
   - q: "Quand puis-je obtenir un permis C ?"
-    a: "Les ressortissants couverts par une convention d'établissement peuvent obtenir le permis C après cinq ans. Pour les ressortissants de Bulgarie, d'Estonie, de Croatie, de Lettonie, de Lituanie, de Malte, de Pologne, de Roumanie, de Slovaquie, de Slovénie, de Tchéquie, de Hongrie et de Chypre, il n'y a pas de droit conventionnel, et le permis C est en principe octroyé après dix ans."
+    a: "Les ressortissants couverts par une convention d'établissement peuvent obtenir le permis C après cinq ans. Pour les ressortissants de Bulgarie, d'Estonie, de Croatie, de Lettonie, de Lituanie, de Malte, de Pologne, de Roumanie, de Slovaquie, de Slovénie, de Tchéquie, de Hongrie et de Chypre, il n'y a pas de droit conventionnel, et le permis C est en principe octroyé après dix ans. Les autres ressortissants sans convention d'établissement, par exemple finlandais, irlandais, luxembourgeois, suédois, norvégiens ou islandais, peuvent l'obtenir après cinq ans, à l'appréciation du canton."
   - q: "Un citoyen de l'UE peut-il bénéficier du forfait fiscal ?"
     a: "Oui, si les conditions fiscales sont remplies : ne pas être de nationalité suisse, arriver pour la première fois ou revenir après dix ans d'absence, et n'exercer aucune activité lucrative en Suisse. Le forfait fiscal peut se combiner avec un permis UE."
   - q: "Les ressortissants britanniques sont-ils encore concernés ?"
@@ -23,7 +23,7 @@ faq:
 sources:
   - label: "SEM : directives OLCP (janvier 2026), §6.2 et ch. 9"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
-  - label: "SEM : directives LEI (état au 15 juin 2026), §5.3"
+  - label: "SEM : directives LEI (état au 15 juin 2026), §0.2.1.3 et §5.3"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "Fedlex : art. 7 OAMal (délai d'affiliation à l'assurance maladie)"
     url: "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/fr#art_7"
@@ -48,7 +48,7 @@ Si vous êtes ressortissant d'un pays de l'UE ou de l'AELE, vous pouvez vivre en
 > - Deux conditions : des **moyens financiers suffisants** et une **assurance maladie et accidents complète**. **Pas de contingents.**
 > - « Suffisants » signifie au-dessus du niveau de l'aide sociale (CSIAS, art. 16 OLCP) ; pour les retraités, au-dessus du seuil des **prestations complémentaires**.
 > - Le permis B UE/AELE pour personnes sans activité lucrative est en principe valable **5 ans**.
-> - Permis C après **5 ans** pour la plupart des nationalités ; **10 ans** pour 13 États membres plus récents.
+> - Permis C après **5 ans** pour la plupart des nationalités (de droit pour certaines, à l'appréciation du canton pour d'autres) ; en principe **10 ans** pour 13 États membres plus récents.
 > - Assurance maladie : affiliation dans les **3 mois** suivant votre annonce à la commune.
 
 ## À qui s'adresse cette voie
@@ -88,7 +88,7 @@ Chaque canton règle les détails : les listes de documents et les formulaires v
 | | Permis B UE/AELE (sans activité lucrative) | Permis C UE/AELE |
 |---|---|---|
 | Validité | En principe 5 ans ; peut être révoqué si les moyens ou l'assurance viennent à manquer | Le titre est contrôlé tous les 5 ans |
-| Quand l'obtenir | À l'arrivée | Après 5 ans pour les ressortissants couverts par une convention d'établissement ; en principe après 10 ans pour BG, EE, HR, LV, LT, MT, PL, RO, SK, SI, CZ, HU, CY |
+| Quand l'obtenir | À l'arrivée | Après 5 ans pour les ressortissants couverts par une convention d'établissement ; possible après 5 ans, sans droit, pour d'autres comme FI, IE, LU, SE, NO, IS ; en principe après 10 ans pour BG, EE, HR, LV, LT, MT, PL, RO, SK, SI, CZ, HU, CY |
 
 Pour comprendre comment les permis B, C et L s'articulent, voir [les permis suisses B, C et L expliqués](/fr/guides/swiss-permits-explained/).
 

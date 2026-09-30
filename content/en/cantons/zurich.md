@@ -73,7 +73,7 @@ Zurich's tax office can give a written advance ruling on a concrete set of facts
 
 ## Residence permits for non-EU nationals
 
-EU/EFTA nationals who do not work can settle with sufficient means and health insurance. For non-EU nationals, Zurich's migration office considers the fiscal interest sufficient at an **annual tax of about CHF 1 million**. The tax authority must confirm the expected amount, and the applicant needs close ties to the canton and must relocate the whole family. SEM approval follows. Applicants aged 55 or over with special ties to Switzerland can also apply as retirees.
+EU/EFTA nationals who do not work can settle with sufficient means and health insurance. For non-EU nationals, Zurich's migration office considers the fiscal interest sufficient at an **annual tax of about CHF 1 million**. The tax authority must confirm the expected amount, and the applicant needs close ties to the canton and must relocate the whole family. The canton decides at its discretion, and SEM must approve. Applicants aged 55 or over with special ties to Switzerland and sufficient means, who do not work, can also apply as retirees; that route is also discretionary and needs SEM approval.
 
 ## Inheritance and gift tax
 

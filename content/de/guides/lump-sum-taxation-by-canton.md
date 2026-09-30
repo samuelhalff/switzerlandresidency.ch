@@ -33,6 +33,10 @@ sources:
     url: "https://www.ur.ch/_docn/439772/14_Merkblatt_Aufwandbesteuerung_01.01.2026_1.pdf"
   - label: "Kanton Tessin: Medienmitteilung vom 4. Mai 2023"
     url: "https://www4.ti.ch/tich/area-media/comunicati/dettaglio-comunicato?NEWS_ID=221229"
+  - label: "Kanton Zürich: Weisung des Migrationsamts vom 19. November 2021"
+    url: "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/migration-integration/einreise-aufenthalt/weisungen/Erwerbslose%20Wohnsitznahme.pdf"
+  - label: "Fedlex: ZV-EJPD (Zustimmungsverordnung), Art. 5"
+    url: "https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_5"
 ---
 
 2026 bieten 21 der 26 Schweizer Kantone die Pauschalbesteuerung an. Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt haben sie abgeschafft, und Basel-Landschaft lässt sie nur für das Zuzugsjahr zu. Die veröffentlichten kantonalen Mindestbemessungen reichen von CHF 200'000 im Jura bis CHF 647'100 in Luzern, während die Bundesbemessung überall CHF 435'000 beträgt.
@@ -72,7 +76,7 @@ Die Tabelle führt alle 26 Kantone auf. «Mindestbemessung» bedeutet die tiefst
 | Solothurn (SO) | Ja | CHF 400'000 im Gesetz; CHF 412'800 für 2026 | Fiktives Vermögen mindestens 20-mal die Bemessungsgrundlage | [ESTV KB-SO](https://www.estv2.admin.ch/stp/kb/so-de.pdf) |
 | St. Gallen (SG) | Ja | CHF 600'000 | Fiktives Vermögen 20-mal die Bemessungsgrundlage | [ESTV KB-SG](https://www.estv2.admin.ch/stp/kb/sg-de.pdf) |
 | Thurgau (TG) | Ja | Kein Betrag für die Bemessungsgrundlage; minimale Kantons- und Gemeindesteuer von CHF 150'000; Bemessungsgrundlage mindestens 10-facher Mietzins oder 4-facher Pensionspreis | In der Mindeststeuer von CHF 150'000 enthalten | [ESTV KB-TG](https://www.estv2.admin.ch/stp/kb/tg-de.pdf) |
-| Tessin (TI) | Ja | CHF 434'700 (indexiert, gültig ab 2025) | Fiktives Vermögen 5-mal die Bemessungsgrundlage | [ESTV KB-TI](https://www.estv2.admin.ch/stp/kb/ti-it.pdf) |
+| Tessin (TI) | Ja | CHF 434'700 (ESTV-Kantonsblatt, Februar 2026; eine allfällige Indexierung für 2026 ist nicht bestätigt) | Fiktives Vermögen 5-mal die Bemessungsgrundlage | [ESTV KB-TI](https://www.estv2.admin.ch/stp/kb/ti-it.pdf) |
 | Uri (UR) | Ja | CHF 400'000 im Gesetz; CHF 435'000 für 2026 | Fiktives Vermögen mindestens 20-mal die Bemessungsgrundlage | [ESTV KB-UR](https://www.estv2.admin.ch/stp/kb/ur-de.pdf) |
 | Wallis (VS) | Ja | CHF 250'000 (Gemeindesteuer nach einem Durchschnittstarif) | Fiktives Vermögen mindestens 4-mal die Bemessungsgrundlage | [ESTV KB-VS](https://www.estv2.admin.ch/stp/kb/vs-fr.pdf) |
 | Waadt (VD) | Ja | CHF 415'000, einschliesslich eines Zuschlags von 15 % für die Vermögenssteuer; Mietkriterium: 7-facher Mietzins plus 10 % | In der Bemessungsgrundlage enthalten | [ESTV KB-VD](https://www.estv2.admin.ch/stp/kb/vd-fr.pdf) |
@@ -89,7 +93,7 @@ Basel-Landschaft ist ein Sonderfall. Das Steuergesetz enthält zwar noch eine Be
 
 Andere Kantone haben das Modell beibehalten, aber verschärft. Das Eidgenössische Finanzdepartement nennt Thurgau, St. Gallen, Luzern und Bern.
 
-Zieht es Sie wegen Arbeit, Schulen oder Familie nach Zürich, können Sie dort weiterhin ordentlich besteuert wohnen. Zürich erteilt Drittstaatsangehörigen auch Aufenthaltsbewilligungen aus fiskalischen Gründen, setzt die Hürde in seiner eigenen Weisung aber bei einer jährlichen Steuer von rund CHF 1 Million an, bestätigt durch die Steuerbehörde.
+Zieht es Sie wegen Arbeit, Schulen oder Familie nach Zürich, können Sie dort weiterhin ordentlich besteuert wohnen. Zürich erteilt Drittstaatsangehörigen auch Aufenthaltsbewilligungen aus fiskalischen Gründen, setzt die Hürde in seiner eigenen Weisung aber bei einer jährlichen Steuer von rund CHF 1 Million an, bestätigt durch die Steuerbehörde, und verlangt zudem enge Beziehungen zum Kanton sowie den Zuzug der ganzen Familie. Das SEM muss der Bewilligung zustimmen.
 
 ## So lesen Sie die Mindestbemessungen
 
@@ -126,7 +130,7 @@ Die Mindestbemessung ist nur ein Teil der Entscheidung. In der Praxis wägen Fam
 
 - **den Bewilligungsweg**, besonders für Drittstaatsangehörige, bei denen das kantonale Ermessen und die Zustimmung des SEM zählen (Genf nennt zum Beispiel eine Aufwandbemessung von CHF 750'000 als Schwelle für das fiskalische Interesse bei Drittstaatsangehörigen);
 - **die Erbschafts- und Schenkungssteuer**, die kantonal ist (Schwyz und Obwalden erheben keine von beiden; Genf streicht die Befreiung für Ehegatten und Nachkommen, wenn die verstorbene Person in einer der letzten drei Veranlagungen pauschal besteuert wurde);
-- **die Immobilienregeln**, etwa Zweitwohnungsanteile und Handänderungssteuern;
+- **die Immobilienregeln**, etwa Kontingente für Ferienwohnungen und Handänderungssteuern;
 - **Sprache, Schulen, Flughäfen und Lebensstil**, die am Ende oft den Ausschlag geben.
 
 Unser Ratgeber zu den [besten Kantonen für vermögende Familien](/de/guides/best-cantons-wealthy-families/) und die einzelnen [Kantonsseiten](/de/cantons/) behandeln diese Punkte.

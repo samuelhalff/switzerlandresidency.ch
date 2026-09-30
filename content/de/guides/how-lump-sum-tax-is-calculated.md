@@ -79,7 +79,7 @@ Wohnen Sie im Hotel, in einer Pension oder einer ähnlichen Unterkunft, muss die
 
 ### Die Kontrollrechnung
 
-Das ist der am wenigsten intuitive Teil. Die Kontrollrechnung legt keine Bemessungsgrundlage fest, sondern eine Mindest**steuer**. Ihre Pauschalsteuer muss mindestens so hoch sein wie die ordentliche Steuer auf dem **Bruttobetrag** von:
+Das ist der am wenigsten intuitive Teil. Anders als die übrigen Untergrenzen knüpft die Kontrollrechnung nicht an Ihren Lebensstandard an, sondern an bestimmte Einkünfte: Nach Art. 14 Abs. 3 Bst. d DBG muss die Bemessungsgrundlage mindestens deren **Bruttosumme** erreichen. Im Ergebnis ist Ihre Pauschalsteuer damit mindestens so hoch wie die ordentliche Steuer auf dem **Bruttobetrag** von:
 
 - Grundstücken in der Schweiz und deren Erträgen;
 - beweglichem Vermögen in der Schweiz und dessen Erträgen;

@@ -9,7 +9,7 @@ updated: "2026-09-30"
 draft: false
 faq:
   - q: "Can I retire to Switzerland as a non-EU citizen?"
-    a: "Yes, if you are at least 55, have special personal ties to Switzerland, have sufficient means for life above the supplementary-benefits level and no longer work anywhere (art. 28 AIG). The canton decides and the SEM must approve."
+    a: "It is possible if you are at least 55, have special personal ties to Switzerland, have sufficient means for life above the supplementary-benefits level and no longer work anywhere (art. 28 AIG). It is not a general retirement visa: the canton decides at its discretion and the SEM must approve."
   - q: "Can UK citizens retire in Switzerland after Brexit?"
     a: "Yes, but since 1 January 2021 UK nationals not covered by the Citizens' Rights Agreement follow the non-EU rules, so the 55+ retiree route or the fiscal-interest route applies."
   - q: "Do retirees need Swiss health insurance?"
@@ -45,7 +45,7 @@ sources:
     url: "https://www.fedlex.admin.ch/eli/cc/1976/2423_2423_2423/de#art_42"
 ---
 
-You can retire to Switzerland whatever your nationality, but the route depends on your passport. EU and EFTA citizens need sufficient means and full health cover. Non-EU citizens, including UK nationals arriving since 2021, use a retiree permit for people aged 55 or over with special ties to Switzerland, or a permit based on important cantonal fiscal interests. Once here, all retirees need Swiss health insurance, pay AHV contributions until 65 and choose between ordinary and, where eligible, lump-sum taxation.
+Retiring to Switzerland is possible whatever your nationality, but the route depends on your passport, and for non-EU citizens nothing is automatic. EU and EFTA citizens need sufficient means and full health cover. Non-EU citizens, including UK nationals arriving since 2021, use a retiree permit for people aged 55 or over with special ties to Switzerland, or a permit based on important cantonal fiscal interests. Once here, all retirees need Swiss health insurance, pay AHV contributions until 65 and choose between ordinary and, where eligible, lump-sum taxation.
 
 > **Key facts (as of September 2026)**
 > - Non-EU retiree route (art. 28 AIG): **age 55+**, special personal ties to Switzerland, means for life above the **supplementary-benefits** level, **no work** in Switzerland or abroad. **SEM approval** required.

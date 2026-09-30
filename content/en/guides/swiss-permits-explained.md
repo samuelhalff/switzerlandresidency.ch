@@ -11,7 +11,7 @@ faq:
   - q: "What is the difference between a B and a C permit in Switzerland?"
     a: "The B is a residence permit, the usual permit for people who settle here. The C is the settlement permit, available after five or ten years depending on nationality and integration. With a C, non-EU nationals are no longer 'persons abroad' for property purchases."
   - q: "How long does it take to get a C permit?"
-    a: "Non-EU nationals: ten years in total with a short-term or residence permit, including the last five years continuously on a B, or five years for well-integrated people who communicate well in the local language. EU/EFTA nationals covered by settlement agreements: five years; nationals of 13 more recent EU states normally ten."
+    a: "Non-EU nationals: ten years in total with a short-term or residence permit, including the last five years continuously on a B, or five years for well-integrated people who communicate well in the local language. UK, US and Canadian nationals can be considered after five years at the canton's discretion. EU/EFTA nationals covered by settlement agreements: five years; nationals of 13 more recent EU states normally ten."
   - q: "What is an L permit?"
     a: "The L is the short-term permit. Time spent on it counts towards the ten years needed for a non-EU C permit. People who move to Switzerland to live on their own means usually receive a B."
   - q: "Do I need a permit for short stays?"
@@ -19,7 +19,7 @@ faq:
   - q: "Does a C permit end lump-sum taxation?"
     a: "No. Lump-sum taxation ends when you become Swiss, not when you get a C permit. Naturalisation ends it for the whole tax period."
 sources:
-  - label: "SEM — Weisungen AIG (Stand 15 June 2026)"
+  - label: "SEM — Weisungen AIG (Stand 15 June 2026), §0.2.1.3"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "SEM — Weisungen VFP (January 2026)"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
@@ -47,7 +47,7 @@ Most people who move to Switzerland to live on their own means receive a **B** r
 
 > **Key facts (as of September 2026)**
 > - **B** = residence permit. For non-employed EU/EFTA nationals it is normally valid **5 years**.
-> - **C** = settlement permit. Non-EU: after **10 years** (last 5 continuously on a B), or **5 years** if well integrated (art. 34 AIG).
+> - **C** = settlement permit. Non-EU: after **10 years** (last 5 continuously on a B), or **5 years** if well integrated (art. 34 AIG); UK, US and Canadian nationals can be considered after **5 years**.
 > - EU/EFTA C: after **5 years** for most; normally **10 years** for 13 more recent member states. The C card is checked every 5 years.
 > - **L** = short-term permit; time on it counts towards the non-EU C.
 > - Stays of up to **90 days in 180** need no registration; otherwise register within **14 days** of entry.
@@ -72,8 +72,10 @@ For non-EU nationals, the C matters in particular because it takes them outside 
 
 | Nationality | Standard | Earlier C |
 |---|---|---|
-| Non-EU (incl. UK arriving since 2021, US, Gulf, Asia) | 10 years in total with a short-term or residence permit, including the last 5 years continuously on a B, plus integration | After 5 years of continuous B if well integrated and able to communicate well in the local national language. An early grant for "important reasons" needs SEM approval |
-| EU/EFTA covered by settlement agreements | 5 years | — |
+| Non-EU (e.g. Gulf, Asia) | 10 years in total with a short-term or residence permit, including the last 5 years continuously on a B, plus integration | After 5 years of continuous B if well integrated and able to communicate well in the local national language. An early grant for "important reasons" needs SEM approval |
+| UK (arriving since 2021), US, Canada | Possible after 5 years, without a legal right, at the canton's discretion; integration criteria, including language, apply | — |
+| EU/EFTA covered by settlement agreements (e.g. DE, FR, IT, AT, ES, PT) | 5 years | — |
+| Other EU/EFTA without a settlement agreement (e.g. FI, IE, LU, SE, NO, IS) | Possible after 5 years, without a legal right | — |
 | BG, EE, HR, LV, LT, MT, PL, RO, SK, SI, CZ, HU, CY | No treaty right; normally 10 years | — |
 
 The language requirement for the early C refers to the local national language: French in Geneva or Vaud, German in Zurich or Zug, Italian in Ticino. If an early C matters to you, it is worth factoring into your choice of canton and starting lessons early.
@@ -125,7 +127,7 @@ Stays of up to 90 days within any 180-day period need no registration. If you co
 ## Common misunderstandings
 
 - **"Buying a home gives me a B."** It does not. Owning property gives no right to a residence permit.
-- **"The C is automatic after five years."** For non-EU nationals, five years is the early route and depends on integration and language. The standard is ten.
+- **"The C is automatic after five years."** For most non-EU nationals, five years is the early route and depends on integration and language, and the standard is ten. Even where five years is the norm (UK, US, Canada), the C is at the canton's discretion.
 - **"A B permit is for life once granted."** It is renewed or reviewed, and can be withdrawn if the conditions (for example means, insurance or centre of life) are no longer met.
 
 ## How we help

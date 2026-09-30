@@ -35,7 +35,7 @@ sources:
     url: "https://www.ge.ch/imposition-apres-depense/comment-beneficier-imposition-apres-depense"
   - label: "Canton d'Uri : notice sur l'imposition d'après la dépense (1er janvier 2026)"
     url: "https://www.ur.ch/_docn/439772/14_Merkblatt_Aufwandbesteuerung_01.01.2026_1.pdf"
-  - label: "SEM : directives domaine des étrangers (LEI), ch. 5.5"
+  - label: "SEM : directives domaine des étrangers (LEI), ch. 5.3 et 5.5"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
 ---
 
@@ -103,7 +103,7 @@ Le régime fiscal et le droit de vivre en Suisse sont deux questions distinctes,
 
 **Les ressortissants de l'UE et de l'AELE** sans activité lucrative peuvent en général obtenir une autorisation de séjour s'ils disposent de moyens financiers suffisants et d'une assurance maladie et accidents complète. Le forfait peut être combiné avec cette autorisation, comme le rappelle la notice d'Uri.
 
-**Les ressortissants de pays tiers** (y compris les Britanniques arrivés depuis 2021) disposent de voies plus étroites. La plus courante pour les personnes imposées au forfait est l'autorisation pour intérêts publics importants, en pratique des intérêts fiscaux importants pour le canton, au sens de l'art. 30 al. 1 let. b LEI et de l'art. 32 OASA. Le canton dispose d'une large marge d'appréciation et le Secrétariat d'État aux migrations (SEM) doit approuver chaque dossier. Genève publie un chiffre à ce sujet : son « intérêt fiscal majeur » correspond à une base de dépense de CHF 750 000 pour les ressortissants d'États tiers. Vaud demande une copie de l'accord de forfait conclu avec son administration fiscale dans le dossier de permis. Les personnes de 55 ans ou plus ayant des liens étroits avec la Suisse peuvent aussi passer par la voie des rentiers. Notre guide sur le [séjour des ressortissants hors UE financièrement indépendants](/fr/guides/residence-non-eu-financially-independent/) détaille ces voies.
+**Les ressortissants de pays tiers** (y compris les Britanniques arrivés depuis 2021) disposent de voies plus étroites. La plus courante pour les personnes imposées au forfait est l'autorisation pour intérêts publics importants, en pratique des intérêts fiscaux importants pour le canton, au sens de l'art. 30 al. 1 let. b LEI et de l'art. 32 OASA. Le canton dispose d'une large marge d'appréciation et le Secrétariat d'État aux migrations (SEM) doit approuver chaque dossier. Genève publie un chiffre à ce sujet : son « intérêt fiscal majeur » correspond à une base de dépense de CHF 750 000 pour les ressortissants d'États tiers. Vaud demande une copie de l'accord de forfait conclu avec son administration fiscale dans le dossier de permis. Les personnes de 55 ans ou plus qui ont des liens personnels particuliers avec la Suisse (être propriétaire ne suffit pas) et des moyens financiers suffisants peuvent aussi passer par la voie des rentiers, là encore à l'appréciation du canton et avec l'approbation du SEM. Notre guide sur le [séjour des ressortissants hors UE financièrement indépendants](/fr/guides/residence-non-eu-financially-independent/) détaille ces voies.
 
 ## Comment faire la demande ?
 

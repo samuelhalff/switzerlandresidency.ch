@@ -57,7 +57,7 @@ Américains, Canadiens et Latino-Américains peuvent s’installer en Suisse san
 > - Les conventions de la Suisse avec les **États-Unis et le Canada** exigent le **forfait modifié** pour bénéficier des avantages conventionnels.
 > - Imposition d’après la dépense (forfait fiscal) : base minimale fédérale de **CHF 435 000 pour 2026**.
 > - **FBAR** si les comptes à l’étranger dépassent **USD 10 000** à un moment quelconque ; **formulaire 8938** dès **USD 200 000 / 300 000** pour une personne seule vivant à l’étranger.
-> - Permis C pour les ressortissants d’États tiers : après **10 ans**, ou **5 ans** en cas de bonne intégration.
+> - Permis C : les ressortissants américains et canadiens peuvent l’obtenir après **5 ans** à la discrétion du canton si les critères d’intégration sont remplis ; sinon après **10 ans**, ou dès **5 ans** en cas de bonne intégration.
 
 ## Pourquoi les familles des Amériques choisissent la Suisse
 
@@ -101,7 +101,7 @@ Aucune convention avec un pays d’Amérique latine ne figure sur la liste du fo
 - **Assurance maladie :** l’assurance maladie obligatoire (LAMal) doit être conclue dans les 3 mois suivant l’annonce.
 - **Permis de conduire :** un permis suisse est requis après 12 mois de résidence sans séjour de plus de trois mois à l’étranger.
 - **Immobilier :** titulaire d’un permis B ressortissant d’un État tiers, vous pouvez acheter votre résidence principale au lieu de votre domicile effectif en Suisse sans autorisation Lex Koller ; les résidences de vacances restent soumises à autorisation et aux contingents de la Lex Koller. Un projet de réforme de 2026 exigerait une autorisation même pour la résidence principale ; il ne s’agit pas encore du droit en vigueur.
-- **Statut à long terme :** le permis C s’obtient après 10 ans, dont 5 ans ininterrompus avec un permis B, ou après 5 ans en cas de bonne intégration et de bonne maîtrise de la langue locale.
+- **Statut à long terme :** les ressortissants américains et canadiens peuvent obtenir le permis C après 5 ans, à la discrétion du canton (sans droit légal), si les critères d’intégration, langue comprise, sont remplis. Pour les autres nationalités, la règle est de 10 ans, dont 5 ans ininterrompus avec un permis B, ou de 5 ans en cas de bonne intégration et de bonne maîtrise de la langue locale.
 
 ## Les pièges fréquents
 

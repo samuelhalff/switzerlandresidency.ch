@@ -15,7 +15,7 @@ faq:
   - q: "Wie lange ist der Ausweis B gültig?"
     a: "Der Ausweis B EU/EFTA für Nichterwerbstätige ist in der Regel fünf Jahre gültig. Er kann widerrufen werden, wenn die finanziellen Mittel oder die Versicherung wegfallen."
   - q: "Wann erhalte ich den Ausweis C?"
-    a: "Staatsangehörige, für die eine Niederlassungsvereinbarung gilt, erhalten den Ausweis C nach fünf Jahren. Für Staatsangehörige von Bulgarien, Estland, Kroatien, Lettland, Litauen, Malta, Polen, Rumänien, der Slowakei, Slowenien, Tschechien, Ungarn und Zypern besteht kein staatsvertraglicher Anspruch; der Ausweis C wird in der Regel nach zehn Jahren erteilt."
+    a: "Staatsangehörige, für die eine Niederlassungsvereinbarung gilt, erhalten den Ausweis C nach fünf Jahren. Für Staatsangehörige von Bulgarien, Estland, Kroatien, Lettland, Litauen, Malta, Polen, Rumänien, der Slowakei, Slowenien, Tschechien, Ungarn und Zypern besteht kein staatsvertraglicher Anspruch; der Ausweis C wird in der Regel nach zehn Jahren erteilt. Andere Staatsangehörige ohne Niederlassungsvereinbarung, etwa aus Finnland, Irland, Luxemburg, Schweden, Norwegen oder Island, können ihn nach Ermessen des Kantons nach fünf Jahren erhalten."
   - q: "Können EU-Bürger die Pauschalbesteuerung nutzen?"
     a: "Ja, wenn die steuerlichen Voraussetzungen erfüllt sind: keine Schweizer Staatsangehörigkeit, erstmaliger Zuzug oder Rückkehr nach zehn Jahren und keine Erwerbstätigkeit in der Schweiz. Die Pauschalbesteuerung lässt sich mit einer EU-Bewilligung kombinieren."
   - q: "Gilt das auch noch für britische Staatsangehörige?"
@@ -23,7 +23,7 @@ faq:
 sources:
   - label: "SEM: Weisungen VFP (Januar 2026), Ziff. 6.2 und Kap. 9"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/fza/weisungen-fza-d.pdf.download.pdf/weisungen-fza-d.pdf"
-  - label: "SEM: Weisungen AIG (Stand 15. Juni 2026), Ziff. 5.3"
+  - label: "SEM: Weisungen AIG (Stand 15. Juni 2026), Ziff. 0.2.1.3 und 5.3"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "Fedlex: Art. 7 KVV (Frist für die Krankenversicherung)"
     url: "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de#art_7"
@@ -48,7 +48,7 @@ Als Bürgerin oder Bürger eines EU- oder EFTA-Staates können Sie in der Schwei
 > - Zwei Voraussetzungen: **ausreichende finanzielle Mittel** und **umfassende Kranken- und Unfallversicherung**. **Keine Kontingente.**
 > - «Ausreichend» heisst: über dem Sozialhilfeniveau (SKOS, Art. 16 VFP); bei Rentnerinnen und Rentnern über der Schwelle für **Ergänzungsleistungen**.
 > - Der Ausweis B EU/EFTA für Nichterwerbstätige ist in der Regel **5 Jahre** gültig.
-> - Ausweis C nach **5 Jahren** für die meisten Staatsangehörigen; **10 Jahre** für 13 jüngere Mitgliedstaaten.
+> - Ausweis C nach **5 Jahren** für die meisten Staatsangehörigen (teils mit staatsvertraglichem Anspruch, teils nach Ermessen des Kantons); in der Regel **10 Jahre** für 13 jüngere Mitgliedstaaten.
 > - Krankenversicherung: Abschluss innert **3 Monaten** nach der Anmeldung bei der Gemeinde.
 
 ## Für wen dieser Weg gedacht ist
@@ -88,7 +88,7 @@ Die Einzelheiten regeln die Kantone; Unterlagenlisten und Formulare unterscheide
 | | Ausweis B EU/EFTA (nicht erwerbstätig) | Ausweis C EU/EFTA |
 |---|---|---|
 | Gültigkeit | In der Regel 5 Jahre; kann widerrufen werden, wenn Mittel oder Versicherung wegfallen | Der Ausweis wird alle 5 Jahre kontrolliert |
-| Wann Sie ihn erhalten | Bei der Ankunft | Nach 5 Jahren für Staatsangehörige mit Niederlassungsvereinbarung; in der Regel nach 10 Jahren für BG, EE, HR, LV, LT, MT, PL, RO, SK, SI, CZ, HU, CY |
+| Wann Sie ihn erhalten | Bei der Ankunft | Nach 5 Jahren für Staatsangehörige mit Niederlassungsvereinbarung; ohne Anspruch möglich nach 5 Jahren für andere wie FI, IE, LU, SE, NO, IS; in der Regel nach 10 Jahren für BG, EE, HR, LV, LT, MT, PL, RO, SK, SI, CZ, HU, CY |
 
 Wie die Ausweise B, C und L zusammenhängen, erklären wir im Leitfaden [Ausweis B, C und L in der Schweiz](/de/guides/swiss-permits-explained/).
 

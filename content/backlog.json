@@ -1,0 +1,1868 @@
+{
+  "$comment": "Topic backlog for scripts/ai-article.mjs. The generator picks the highest-priority (1 = highest) item with status \"todo\" whose slug does not exist yet in content/en/guides, never the same category twice in a row, and marks it \"done\" after the article passes all guardrails. Seeded 2026-09-30 from research/demand-wave2.md (wave 2) and research/seo-topics.md (§4 clusters). Add items at the end; keep slugs kebab-case and keyword-led. See README \"Automated guides\".",
+  "items": [
+    {
+      "slug": "swiss-residence-timeline",
+      "title": "How long does it take to move to Switzerland? A realistic timeline",
+      "audience": "client",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "how long to get swiss residency",
+          "how long swiss residence permit",
+          "swiss residence permit processing time"
+        ],
+        "fr": [
+          "délai permis de séjour suisse",
+          "combien de temps pour obtenir un permis B"
+        ],
+        "de": [
+          "dauer aufenthaltsbewilligung schweiz",
+          "wie lange dauert aufenthaltsbewilligung schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "demand-wave2 #7 / seo-topics B6",
+      "notes": "Official processing times are UNVERIFIED: describe phases and their order (ruling, cantonal file, SEM approval, arrival, registration) without durations."
+    },
+    {
+      "slug": "swiss-tax-residency",
+      "title": "Swiss tax residency: the 30/90-day rule, domicile and treaty tie-breakers",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "switzerland tax residency rules",
+          "how to become a swiss tax resident",
+          "swiss tax domicile rules"
+        ],
+        "fr": [
+          "résidence fiscale suisse critères",
+          "résidence fiscale suisse ou france"
+        ],
+        "de": [
+          "steuerlicher wohnsitz schweiz",
+          "wohnsitz schweiz steuern"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "demand-wave2 #8 / seo-topics G1 / legal audit 2026-09",
+      "notes": "Legal content audit: the Swiss test is domicile or stay (30 days with gainful activity / 90 days without), not 183 days. Explain treaty tie-breakers. Never present 183 days as the Swiss test."
+    },
+    {
+      "slug": "how-much-wealth-to-move-to-switzerland",
+      "title": "How much wealth do you need to live in Switzerland?",
+      "audience": "client",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "how much money do you need to move to switzerland",
+          "how much to retire in switzerland",
+          "can i move to switzerland if i'm rich"
+        ],
+        "fr": [
+          "combien faut-il pour vivre en suisse",
+          "moyens financiers suffisants suisse permis"
+        ],
+        "de": [
+          "auswandern schweiz voraussetzungen vermögen",
+          "wie viel geld braucht man um in die schweiz auszuwandern"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "demand-wave2 #9",
+      "notes": "Explain by route (EU/EFTA, non-EU 55+, fiscal interest, lump sum). Figures only from legal-facts; no invented budgets."
+    },
+    {
+      "slug": "swiss-wealth-tax-by-canton",
+      "title": "Swiss wealth tax by canton: what new residents should know",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "swiss wealth tax by canton",
+          "swiss wealth tax rates",
+          "wealth tax switzerland"
+        ],
+        "fr": [
+          "impôt sur la fortune suisse par canton",
+          "impôt sur la fortune suisse à partir de combien"
+        ],
+        "de": [
+          "vermögenssteuer schweiz kantone",
+          "vermögenssteuer schweiz ab wann"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "demand-wave2 #10 / seo-topics G2"
+    },
+    {
+      "slug": "non-eu-founder-self-employed-permit",
+      "title": "Setting up a business as a non-EU founder: the self-employed permit route",
+      "audience": "client",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "self employed permit switzerland non eu",
+          "start a business in switzerland as a foreigner residence permit",
+          "swiss residence permit through company"
+        ],
+        "fr": [
+          "permis indépendant suisse hors ue",
+          "créer une entreprise en suisse permis de séjour étranger"
+        ],
+        "de": [
+          "aufenthaltsbewilligung selbständige erwerbstätigkeit drittstaat",
+          "firma gründen schweiz aufenthaltsbewilligung"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "legal audit 2026-09",
+      "notes": "Company formation does not by itself give residence: explain the self-employed permit route (art. 19 AIG, economic interest). Personal permit angle only; company formation belongs to ark-fid.ch."
+    },
+    {
+      "slug": "swiss-permit-schengen-eu-rights",
+      "title": "What a Swiss residence permit does and doesn't give you in Europe",
+      "audience": "client",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "swiss residence permit travel schengen",
+          "can i live in the eu with a swiss permit",
+          "etias swiss residence permit"
+        ],
+        "fr": [
+          "permis B suisse voyager schengen",
+          "permis suisse droits dans l'ue"
+        ],
+        "de": [
+          "aufenthaltsbewilligung schweiz schengen reisen",
+          "ausweis b schweiz eu wohnen"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "legal audit 2026-09",
+      "notes": "Schengen travel vs EU residence rights (Schengen vs EU rights, ETIAS). ETIAS status must be cited from europa.eu with its as-of date."
+    },
+    {
+      "slug": "no-golden-visa-switzerland-adviser-brief",
+      "title": "Switzerland for non-EU clients: why there is no golden visa",
+      "audience": "adviser",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "switzerland golden visa",
+          "swiss residence options for non eu clients",
+          "non eu client swiss residence"
+        ],
+        "fr": [
+          "golden visa suisse",
+          "résidence suisse clients hors ue"
+        ],
+        "de": [
+          "goldenes visum schweiz",
+          "wohnsitz schweiz drittstaatsangehörige mandanten"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "legal audit 2026-09",
+      "notes": "Adviser brief. Must not duplicate switzerland-golden-visa (client guide): focus on screening a client, the fiscal-interest and 55+ routes and what to tell the client. Never describe the fiscal-interest route as residency by investment."
+    },
+    {
+      "slug": "leaving-uk-residence-iht",
+      "title": "Leaving the UK for Switzerland: residence test, split year and the IHT tail",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "uk inheritance tax after leaving uk",
+          "statutory residence test leaving uk",
+          "uk swiss double tax treaty iht"
+        ],
+        "fr": [
+          "quitter le royaume-uni pour la suisse impôt succession"
+        ],
+        "de": [
+          "wegzug grossbritannien schweiz erbschaftssteuer"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #11 / seo-topics C2"
+    },
+    {
+      "slug": "uk-pension-moving-to-switzerland",
+      "title": "UK pensions when you move to Switzerland",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "uk pension moving to switzerland",
+          "can i transfer my uk pension to switzerland",
+          "uk switzerland double tax treaty pensions"
+        ],
+        "fr": [
+          "retraite britannique en suisse imposition"
+        ],
+        "de": [
+          "britische rente schweiz besteuerung"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #12"
+    },
+    {
+      "slug": "succession-gift-tax-france-switzerland",
+      "title": "French inheritance and gift tax after moving to Switzerland",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "france switzerland inheritance tax",
+          "french gift tax living in switzerland"
+        ],
+        "fr": [
+          "succession france suisse double imposition",
+          "donation france suisse",
+          "convention fiscale france suisse succession"
+        ],
+        "de": [
+          "erbschaftssteuer frankreich schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #13 (FR-first)",
+      "notes": "Cross-border move angle only (ridger.ch owns Swiss-law succession planning). Write FR-search-first titles."
+    },
+    {
+      "slug": "german-inheritance-tax-after-moving-to-switzerland",
+      "title": "German inheritance tax after moving to Switzerland",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "german inheritance tax living in switzerland",
+          "germany switzerland inheritance tax treaty"
+        ],
+        "fr": [
+          "droits de succession allemagne suisse"
+        ],
+        "de": [
+          "erbschaftsteuer deutschland wohnsitz schweiz",
+          "dba erbschaftsteuer schweiz deutschland",
+          "erweiterte unbeschränkte steuerpflicht erbschaftsteuer"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #14 (DE-first)"
+    },
+    {
+      "slug": "swiss-bank-account-new-resident",
+      "title": "Opening a Swiss bank account as a new resident (including US persons)",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "open swiss bank account new resident",
+          "swiss bank account for us citizens",
+          "can a us citizen open a bank account in switzerland"
+        ],
+        "fr": [
+          "ouvrir un compte en suisse résident",
+          "ouvrir compte bancaire suisse nouvel arrivant"
+        ],
+        "de": [
+          "schweizer bankkonto eröffnen zuzug",
+          "bankkonto schweiz eröffnen als neuzuzüger"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #17 / seo-topics F3",
+      "notes": "Onboarding for movers only; custodian-bank selection belongs to ridger.ch."
+    },
+    {
+      "slug": "family-members-swiss-permit",
+      "title": "Family reunification in Switzerland: EU/EFTA vs non-EU rules",
+      "audience": "client",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "family reunification switzerland",
+          "swiss residence permit for spouse",
+          "family reunification switzerland non eu"
+        ],
+        "fr": [
+          "permis b regroupement familial",
+          "s'installer en suisse avec des enfants"
+        ],
+        "de": [
+          "familiennachzug schweiz",
+          "aufenthaltsbewilligung ehepartner schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "demand-wave2 #18 / legal audit 2026-09"
+    },
+    {
+      "slug": "switzerland-vs-dubai",
+      "title": "Switzerland or Dubai? A comparison for wealthy families",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "switzerland vs dubai tax",
+          "switzerland or dubai to live",
+          "dubai vs switzerland for families"
+        ],
+        "fr": [
+          "suisse ou dubaï pour vivre",
+          "suisse vs dubaï fiscalité"
+        ],
+        "de": [
+          "schweiz oder dubai auswandern",
+          "dubai vs schweiz steuern"
+        ]
+      },
+      "intent": "comparison",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #19",
+      "notes": "Side-by-side table; no numeric UAE tax claims unless cited from tax.gov.ae / u.ae."
+    },
+    {
+      "slug": "selling-business-then-moving-to-switzerland",
+      "title": "Selling your business and moving to Switzerland: getting the sequence right",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "selling business and moving to switzerland",
+          "entrepreneur moving to switzerland tax",
+          "exit tax before moving to switzerland"
+        ],
+        "fr": [
+          "vendre son entreprise et partir en suisse",
+          "exit tax avant départ en suisse"
+        ],
+        "de": [
+          "auswandern schweiz unternehmer",
+          "firmenverkauf und wegzug in die schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #20",
+      "notes": "Personal sequencing only (exit, departure, arrival); corporate side belongs to ark-fid.ch."
+    },
+    {
+      "slug": "uk-private-client-advisers-swiss-lump-sum",
+      "title": "Swiss lump-sum taxation: a briefing for UK private-client advisers",
+      "audience": "adviser",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "non dom switzerland",
+          "swiss forfait for uk clients",
+          "temporary repatriation facility switzerland"
+        ],
+        "fr": [
+          "forfait fiscal suisse clients britanniques"
+        ],
+        "de": [
+          "pauschalbesteuerung schweiz britische mandanten"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #3",
+      "notes": "Adviser brief as a guide. Mark skipped if a /for-advisers/ page with this angle ships."
+    },
+    {
+      "slug": "non-eu-client-swiss-residence-checklist",
+      "title": "Swiss residence for non-EU clients: an adviser checklist",
+      "audience": "adviser",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "swiss residence permit for non eu citizens",
+          "residence by investment switzerland",
+          "swiss residence non eu checklist"
+        ],
+        "fr": [
+          "permis B état tiers sans activité",
+          "résidence suisse hors ue conditions"
+        ],
+        "de": [
+          "aufenthaltsbewilligung drittstaat ohne erwerbstätigkeit",
+          "wohnsitz schweiz nicht-eu"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #4"
+    },
+    {
+      "slug": "french-clients-swiss-lump-sum-advisers",
+      "title": "Swiss lump-sum taxation for French clients: notes for advisers",
+      "audience": "adviser",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "swiss lump sum tax for french residents"
+        ],
+        "fr": [
+          "forfait fiscal suisse pour français",
+          "convention fiscale france suisse forfait",
+          "conseiller en gestion de patrimoine suisse"
+        ],
+        "de": [
+          "pauschalbesteuerung schweiz französische staatsangehörige"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #5 (FR-first)",
+      "notes": "The exact CH-FR treaty rule for lump-sum taxpayers is UNVERIFIED: say it has special rules and needs checking."
+    },
+    {
+      "slug": "german-clients-swiss-lump-sum-advisers",
+      "title": "Swiss lump-sum taxation for German clients: notes for advisers",
+      "audience": "adviser",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "swiss lump sum tax germany treaty"
+        ],
+        "fr": [
+          "forfait fiscal suisse clients allemands"
+        ],
+        "de": [
+          "modifizierte pauschalbesteuerung",
+          "wegzugsbesteuerung schweiz stundung",
+          "steuerberater schweiz für deutsche"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #6 (DE-first)"
+    },
+    {
+      "slug": "us-clients-moving-to-switzerland-adviser-notes",
+      "title": "US-connected clients moving to Switzerland: notes for advisers",
+      "audience": "adviser",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "us citizen in switzerland taxes",
+          "fatca switzerland",
+          "does switzerland have a tax treaty with the us"
+        ],
+        "fr": [
+          "citoyen américain en suisse impôts"
+        ],
+        "de": [
+          "us-bürger schweiz steuern",
+          "fatca schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "demand-wave2 #15",
+      "notes": "No US-person structuring advice; say what complicates things and to coordinate with a US adviser."
+    },
+    {
+      "slug": "swiss-tax-ruling-checklist-advisers",
+      "title": "Preparing a Swiss lump-sum tax ruling: a checklist for advisers",
+      "audience": "adviser",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "swiss tax ruling lump sum documents",
+          "swiss tax ruling checklist"
+        ],
+        "fr": [
+          "ruling fiscal forfait documents",
+          "demande de forfait fiscal dossier"
+        ],
+        "de": [
+          "steuerruling pauschalbesteuerung unterlagen",
+          "gesuch pauschalbesteuerung"
+        ]
+      },
+      "intent": "transactional",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §1.8, §6)"
+    },
+    {
+      "slug": "cantons-that-abolished-lump-sum-taxation",
+      "title": "Which Swiss cantons abolished lump-sum taxation, and what remains",
+      "audience": "client",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "cantons abolished lump sum taxation",
+          "zurich lump sum taxation abolished"
+        ],
+        "fr": [
+          "cantons ayant aboli le forfait fiscal",
+          "forfait fiscal zurich aboli"
+        ],
+        "de": [
+          "pauschalbesteuerung abgeschafft kantone",
+          "pauschalbesteuerung zürich abgeschafft"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §1.6)",
+      "notes": "Dates for SH/AR/BL/BS are UNVERIFIED: name the cantons without dates for those."
+    },
+    {
+      "slug": "lump-sum-taxation-and-working-in-switzerland",
+      "title": "Can you work on Swiss lump-sum taxation? The gainful activity rule",
+      "audience": "client",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "lump sum taxation gainful activity switzerland",
+          "can you work with swiss lump sum taxation"
+        ],
+        "fr": [
+          "forfait fiscal activité lucrative en suisse",
+          "forfait fiscal peut-on travailler"
+        ],
+        "de": [
+          "pauschalbesteuerung erwerbstätigkeit schweiz",
+          "pauschalbesteuerung arbeiten erlaubt"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §1.2)"
+    },
+    {
+      "slug": "lump-sum-taxation-geneva",
+      "title": "Lump-sum taxation in Geneva: the forfait fiscal explained",
+      "audience": "client",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "lump sum taxation geneva",
+          "geneva forfait fiscal"
+        ],
+        "fr": [
+          "forfait fiscal genève",
+          "imposition d'après la dépense genève"
+        ],
+        "de": [
+          "pauschalbesteuerung genf"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §1.7)",
+      "notes": "Must add depth beyond the Geneva canton page and lump-sum-taxation-by-canton (procedure, wealth treatment, what the canton publishes)."
+    },
+    {
+      "slug": "lump-sum-taxation-vaud",
+      "title": "Lump-sum taxation in Vaud: rules, minimum base and practice",
+      "audience": "client",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "lump sum taxation vaud",
+          "vaud forfait fiscal"
+        ],
+        "fr": [
+          "forfait fiscal vaud",
+          "imposition d'après la dépense vaud"
+        ],
+        "de": [
+          "pauschalbesteuerung waadt"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §1.7)"
+    },
+    {
+      "slug": "lump-sum-taxation-valais",
+      "title": "Lump-sum taxation in Valais: what to know before moving",
+      "audience": "client",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "lump sum taxation valais",
+          "valais forfait fiscal"
+        ],
+        "fr": [
+          "forfait fiscal valais",
+          "forfait fiscal verbier crans-montana"
+        ],
+        "de": [
+          "pauschalbesteuerung wallis"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (legal-facts §1.7)",
+      "notes": "Valais third-country thresholds are UNVERIFIED: do not state figures from law-firm sites."
+    },
+    {
+      "slug": "lump-sum-taxation-ticino",
+      "title": "Lump-sum taxation in Ticino: residence with an Italian way of life",
+      "audience": "client",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "lump sum taxation ticino",
+          "ticino forfait tax"
+        ],
+        "fr": [
+          "forfait fiscal tessin"
+        ],
+        "de": [
+          "pauschalbesteuerung tessin"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (legal-facts §1.7)"
+    },
+    {
+      "slug": "lump-sum-taxation-graubunden",
+      "title": "Lump-sum taxation in Graubünden: St. Moritz, Davos and beyond",
+      "audience": "client",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "lump sum taxation graubunden",
+          "st moritz lump sum tax"
+        ],
+        "fr": [
+          "forfait fiscal grisons"
+        ],
+        "de": [
+          "pauschalbesteuerung graubünden",
+          "pauschalbesteuerung st. moritz"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (legal-facts §1.7)"
+    },
+    {
+      "slug": "lump-sum-tax-married-couples",
+      "title": "Married couples and Swiss lump-sum taxation",
+      "audience": "client",
+      "category": "lump-sum-taxation",
+      "keywords": {
+        "en": [
+          "lump sum tax switzerland married couple",
+          "lump sum taxation spouse swiss national"
+        ],
+        "fr": [
+          "forfait fiscal couple marié",
+          "forfait fiscal conjoint suisse"
+        ],
+        "de": [
+          "pauschalbesteuerung ehepaar",
+          "pauschalbesteuerung ehepartner schweizer"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "seo-topics A6",
+      "notes": "The individual-taxation reform is not in legal-facts: only mention it if an official source is cited, and label proposals as proposals."
+    },
+    {
+      "slug": "swiss-c-permit-settlement",
+      "title": "The Swiss C permit: when new residents can settle permanently",
+      "audience": "client",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "swiss c permit requirements",
+          "permanent residence switzerland",
+          "c permit switzerland non eu"
+        ],
+        "fr": [
+          "permis C suisse conditions",
+          "permis d'établissement suisse"
+        ],
+        "de": [
+          "niederlassungsbewilligung c voraussetzungen",
+          "ausweis c schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §2.6)"
+    },
+    {
+      "slug": "uk-citizens-swiss-residence-after-brexit",
+      "title": "Swiss residence for UK citizens after Brexit",
+      "audience": "client",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "uk citizens move to switzerland after brexit",
+          "swiss residence permit uk citizen",
+          "can brits retire in switzerland"
+        ],
+        "fr": [
+          "ressortissants britanniques permis suisse après brexit"
+        ],
+        "de": [
+          "briten aufenthaltsbewilligung schweiz nach brexit"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §2.2)",
+      "notes": "Permit angle; tax angle lives in moving-from-uk-after-non-dom."
+    },
+    {
+      "slug": "registering-with-your-swiss-commune",
+      "title": "Registering with your Swiss commune: what to bring and when",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "register with commune switzerland",
+          "registration after moving to switzerland 14 days"
+        ],
+        "fr": [
+          "annonce arrivée commune suisse",
+          "s'inscrire à la commune suisse"
+        ],
+        "de": [
+          "anmeldung gemeinde schweiz zuzug",
+          "anmeldung einwohnerkontrolle 14 tage"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §2.8)"
+    },
+    {
+      "slug": "ahv-contributions-non-employed",
+      "title": "AHV/AVS contributions for non-employed residents",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "ahv contributions non employed",
+          "avs contributions retirees switzerland",
+          "social security switzerland without working"
+        ],
+        "fr": [
+          "cotisations avs sans activité lucrative",
+          "avs rentier suisse cotisation"
+        ],
+        "de": [
+          "ahv beiträge nichterwerbstätige",
+          "ahv nichterwerbstätige vermögen"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §4)"
+    },
+    {
+      "slug": "importing-car-household-goods-switzerland",
+      "title": "Importing your car and household goods to Switzerland duty-free",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "import car to switzerland",
+          "moving household goods switzerland customs",
+          "relocation goods switzerland duty free"
+        ],
+        "fr": [
+          "effets de déménagement suisse douane",
+          "importer voiture en suisse déménagement"
+        ],
+        "de": [
+          "umzugsgut schweiz zoll",
+          "auto in die schweiz einführen umzug"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "seo-topics F4"
+    },
+    {
+      "slug": "swiss-property-taxes-for-owners",
+      "title": "Swiss property taxes for new owners: transfer tax, wealth tax and more",
+      "audience": "client",
+      "category": "property",
+      "keywords": {
+        "en": [
+          "property transfer tax switzerland",
+          "swiss property taxes for foreigners"
+        ],
+        "fr": [
+          "droits de mutation suisse",
+          "impôts propriétaire suisse"
+        ],
+        "de": [
+          "handänderungssteuer schweiz",
+          "liegenschaftssteuer schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §3.3)"
+    },
+    {
+      "slug": "imputed-rental-value-abolition-2029",
+      "title": "Imputed rental value abolished from 2029: what it means for homeowners",
+      "audience": "client",
+      "category": "property",
+      "keywords": {
+        "en": [
+          "imputed rental value abolished switzerland",
+          "eigenmietwert abolition 2029"
+        ],
+        "fr": [
+          "suppression valeur locative 2029",
+          "valeur locative suisse abolition"
+        ],
+        "de": [
+          "eigenmietwert abschaffung 2029",
+          "eigenmietwert abgeschafft"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §1.9)",
+      "notes": "The effect on the lump-sum 7x rental value test is UNVERIFIED: say it is not yet settled."
+    },
+    {
+      "slug": "swiss-mortgage-for-foreigners",
+      "title": "Getting a Swiss mortgage as a new resident",
+      "audience": "client",
+      "category": "property",
+      "keywords": {
+        "en": [
+          "swiss mortgage for foreigners",
+          "mortgage switzerland b permit"
+        ],
+        "fr": [
+          "hypothèque suisse étranger",
+          "prêt hypothécaire permis B"
+        ],
+        "de": [
+          "hypothek schweiz ausländer",
+          "hypothek mit ausweis b"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §3.4)",
+      "notes": "Equity and affordability rules of thumb are UNVERIFIED bank practice: no percentages unless officially cited."
+    },
+    {
+      "slug": "rent-or-buy-switzerland",
+      "title": "Rent or buy when you arrive in Switzerland?",
+      "audience": "client",
+      "category": "property",
+      "keywords": {
+        "en": [
+          "rent or buy switzerland expat",
+          "should i buy a house in switzerland"
+        ],
+        "fr": [
+          "louer ou acheter en suisse"
+        ],
+        "de": [
+          "mieten oder kaufen schweiz"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 2,
+      "status": "todo",
+      "source": "seo-topics D3"
+    },
+    {
+      "slug": "buying-property-geneva-foreigner",
+      "title": "Buying a home in Geneva as a foreigner",
+      "audience": "client",
+      "category": "property",
+      "keywords": {
+        "en": [
+          "buy property geneva foreigner",
+          "buying a house in geneva"
+        ],
+        "fr": [
+          "acheter un bien à genève étranger",
+          "acheter maison genève permis B"
+        ],
+        "de": [
+          "immobilie genf kaufen ausländer"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (legal-facts §3)"
+    },
+    {
+      "slug": "lex-koller-briefing-estate-agents",
+      "title": "Lex Koller for estate agents with foreign buyers: a briefing",
+      "audience": "adviser",
+      "category": "property",
+      "keywords": {
+        "en": [
+          "lex koller estate agent",
+          "foreign buyer switzerland lex koller authorisation"
+        ],
+        "fr": [
+          "lex koller agent immobilier acheteur étranger"
+        ],
+        "de": [
+          "lex koller makler ausländischer käufer",
+          "bewilligungspflicht lex koller"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "demand-wave2 #16 (partner angle)"
+    },
+    {
+      "slug": "living-in-zug-and-schwyz",
+      "title": "Zug, Schwyz and central Switzerland for international families",
+      "audience": "client",
+      "category": "where-to-live",
+      "keywords": {
+        "en": [
+          "living in zug",
+          "moving to zug switzerland",
+          "schwyz tax"
+        ],
+        "fr": [
+          "vivre à zoug",
+          "s'installer à zoug"
+        ],
+        "de": [
+          "wohnen in zug",
+          "wohnen in schwyz steuern"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "seo-topics E3"
+    },
+    {
+      "slug": "alpine-living-gstaad-verbier-st-moritz",
+      "title": "Alpine living: Gstaad, Verbier, Crans-Montana and St. Moritz",
+      "audience": "client",
+      "category": "where-to-live",
+      "keywords": {
+        "en": [
+          "living in gstaad",
+          "living in verbier",
+          "moving to st moritz"
+        ],
+        "fr": [
+          "vivre à verbier",
+          "vivre à crans-montana"
+        ],
+        "de": [
+          "wohnen in st. moritz",
+          "wohnen in gstaad"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "seo-topics E4"
+    },
+    {
+      "slug": "living-in-zurich-without-lump-sum",
+      "title": "Living in Zurich without lump-sum taxation",
+      "audience": "client",
+      "category": "where-to-live",
+      "keywords": {
+        "en": [
+          "moving to zurich wealthy",
+          "zurich tax for new residents"
+        ],
+        "fr": [
+          "s'installer à zurich fiscalité"
+        ],
+        "de": [
+          "wohnsitz zürich steuern zuzug",
+          "zürich ordentliche besteuerung vermögende"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §1.6)"
+    },
+    {
+      "slug": "moving-to-ticino",
+      "title": "Moving to Ticino: Lugano, Locarno and the lakes",
+      "audience": "client",
+      "category": "where-to-live",
+      "keywords": {
+        "en": [
+          "moving to ticino",
+          "living in lugano"
+        ],
+        "fr": [
+          "vivre au tessin",
+          "s'installer à lugano"
+        ],
+        "de": [
+          "auswandern tessin",
+          "wohnen in lugano"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "seo-topics E5"
+    },
+    {
+      "slug": "living-in-lausanne-and-montreux",
+      "title": "Lausanne, Montreux and the Vaud Riviera for new residents",
+      "audience": "client",
+      "category": "where-to-live",
+      "keywords": {
+        "en": [
+          "living in lausanne",
+          "living in montreux"
+        ],
+        "fr": [
+          "vivre à lausanne",
+          "s'installer sur la riviera vaudoise"
+        ],
+        "de": [
+          "wohnen in lausanne",
+          "wohnen in montreux"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (seo-topics E2 follow-up)"
+    },
+    {
+      "slug": "living-in-lucerne",
+      "title": "Living in Lucerne: lake, mountains and a central location",
+      "audience": "client",
+      "category": "where-to-live",
+      "keywords": {
+        "en": [
+          "living in lucerne",
+          "moving to lucerne switzerland"
+        ],
+        "fr": [
+          "vivre à lucerne"
+        ],
+        "de": [
+          "wohnen in luzern",
+          "zuzug luzern pauschalbesteuerung"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension"
+    },
+    {
+      "slug": "living-in-bern-and-fribourg",
+      "title": "Bern and Fribourg: calmer bilingual Switzerland",
+      "audience": "client",
+      "category": "where-to-live",
+      "keywords": {
+        "en": [
+          "living in bern",
+          "living in fribourg"
+        ],
+        "fr": [
+          "vivre à fribourg",
+          "vivre à berne"
+        ],
+        "de": [
+          "wohnen in bern",
+          "wohnen in freiburg schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension"
+    },
+    {
+      "slug": "living-in-thurgau",
+      "title": "Moving to Thurgau: residence and lump-sum tax",
+      "audience": "client",
+      "category": "where-to-live",
+      "keywords": {
+        "en": [
+          "moving to thurgau",
+          "thurgau lump sum tax"
+        ],
+        "fr": [
+          "s'installer en thurgovie",
+          "forfait fiscal thurgovie"
+        ],
+        "de": [
+          "pauschalbesteuerung thurgau",
+          "wohnen im thurgau"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 3,
+      "status": "todo",
+      "source": "demand-wave2 #25 (as a guide)"
+    },
+    {
+      "slug": "moving-from-canada",
+      "title": "Moving to Switzerland from Canada",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from canada",
+          "retiring in switzerland as a canadian",
+          "swiss residency for canadians"
+        ],
+        "fr": [
+          "s'installer en suisse depuis le canada",
+          "québécois en suisse"
+        ],
+        "de": [
+          "auswandern schweiz aus kanada"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "demand-wave2 #21 / seo-topics C6"
+    },
+    {
+      "slug": "swiss-residence-for-indian-families",
+      "title": "Swiss residence for Indian families",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "switzerland residency for indians",
+          "switzerland golden visa for indian",
+          "can indian get pr in switzerland"
+        ],
+        "fr": [
+          "résidence suisse pour indiens"
+        ],
+        "de": [
+          "aufenthaltsbewilligung schweiz für inder"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 3,
+      "status": "todo",
+      "source": "demand-wave2 #22 / seo-topics C8"
+    },
+    {
+      "slug": "moving-from-italy-benelux",
+      "title": "Moving to Switzerland from Italy, Belgium or the Netherlands",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from italy",
+          "moving to switzerland from belgium",
+          "moving to switzerland from the netherlands"
+        ],
+        "fr": [
+          "s'installer en suisse pour un belge",
+          "belge en suisse fiscalité"
+        ],
+        "de": [
+          "auswandern schweiz aus italien",
+          "von den niederlanden in die schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "demand-wave2 #23 / seo-topics C9",
+      "notes": "Italy and Belgium are on the modified lump-sum treaty list (legal-facts §1.5)."
+    },
+    {
+      "slug": "moving-from-austria",
+      "title": "Moving to Switzerland from Austria",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from austria"
+        ],
+        "fr": [
+          "s'installer en suisse depuis l'autriche"
+        ],
+        "de": [
+          "auswandern von österreich in die schweiz",
+          "pauschalbesteuerung schweiz österreicher",
+          "wohnsitz schweiz österreich steuern"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §1.5, de-AT market)"
+    },
+    {
+      "slug": "moving-from-scandinavia",
+      "title": "Moving to Switzerland from Norway, Sweden or Denmark",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from norway",
+          "norwegian wealth tax move to switzerland",
+          "moving to switzerland from sweden"
+        ],
+        "fr": [
+          "norvégiens en suisse fiscalité"
+        ],
+        "de": [
+          "norweger auswandern schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (Norway on the modified lump-sum list, legal-facts §1.5)"
+    },
+    {
+      "slug": "moving-from-spain-portugal",
+      "title": "Moving to Switzerland from Spain or Portugal",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from portugal",
+          "leaving portugal nhr for switzerland",
+          "moving to switzerland from spain"
+        ],
+        "fr": [
+          "quitter le portugal pour la suisse"
+        ],
+        "de": [
+          "von portugal in die schweiz ziehen"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension"
+    },
+    {
+      "slug": "moving-from-latin-america",
+      "title": "Moving to Switzerland from Brazil, Mexico or Argentina",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from brazil",
+          "swiss residence for latin american families"
+        ],
+        "fr": [
+          "s'installer en suisse depuis le brésil"
+        ],
+        "de": [
+          "auswandern schweiz aus brasilien"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (demand-wave2 §1.4 LatAm introducers)"
+    },
+    {
+      "slug": "moving-from-south-africa",
+      "title": "Moving to Switzerland from South Africa",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from south africa",
+          "south african emigrating to switzerland"
+        ],
+        "fr": [
+          "sud-africains en suisse"
+        ],
+        "de": [
+          "auswandern schweiz aus südafrika"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension"
+    },
+    {
+      "slug": "moving-from-australia",
+      "title": "Moving to Switzerland from Australia or New Zealand",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from australia",
+          "australians retiring in switzerland"
+        ],
+        "fr": [
+          "australiens en suisse"
+        ],
+        "de": [
+          "auswandern schweiz aus australien"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension"
+    },
+    {
+      "slug": "moving-from-israel",
+      "title": "Moving to Switzerland from Israel",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from israel",
+          "israeli residence permit switzerland"
+        ],
+        "fr": [
+          "israéliens s'installer en suisse"
+        ],
+        "de": [
+          "auswandern schweiz aus israel"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension"
+    },
+    {
+      "slug": "moving-from-monaco",
+      "title": "Moving from Monaco to Switzerland",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "monaco or switzerland",
+          "moving from monaco to switzerland"
+        ],
+        "fr": [
+          "quitter monaco pour la suisse",
+          "monaco ou suisse résidence"
+        ],
+        "de": [
+          "von monaco in die schweiz"
+        ]
+      },
+      "intent": "comparison",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (legal-facts §7)"
+    },
+    {
+      "slug": "uae-clients-switzerland-adviser-notes",
+      "title": "Gulf-based clients considering Switzerland: notes for advisers",
+      "audience": "adviser",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving from dubai to switzerland adviser",
+          "gulf family relocation switzerland"
+        ],
+        "fr": [
+          "clients du golfe résidence suisse"
+        ],
+        "de": [
+          "mandanten aus dubai wohnsitz schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "demand-wave2 §1.4"
+    },
+    {
+      "slug": "german-pension-living-in-switzerland",
+      "title": "German pensions when you live in Switzerland",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "german pension living in switzerland tax"
+        ],
+        "fr": [
+          "retraite allemande en suisse"
+        ],
+        "de": [
+          "wohnsitz schweiz rente aus deutschland",
+          "deutsche rente in der schweiz versteuern"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "seo-topics C5 keyword"
+    },
+    {
+      "slug": "french-pension-living-in-switzerland",
+      "title": "French pensions when you retire to Switzerland",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "french pension living in switzerland"
+        ],
+        "fr": [
+          "retraite française en suisse imposition",
+          "retraité français en suisse fiscalité"
+        ],
+        "de": [
+          "französische rente in der schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (FR market, demand-wave2 §1.1)"
+    },
+    {
+      "slug": "french-exit-tax-moving-to-switzerland",
+      "title": "French exit tax when you move to Switzerland",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "french exit tax switzerland"
+        ],
+        "fr": [
+          "exit tax suisse sursis",
+          "exit tax france suisse",
+          "article 167 bis cgi suisse"
+        ],
+        "de": [
+          "französische wegzugssteuer schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (legal-facts §5.5)",
+      "notes": "Deep-dive; do not repeat moving-from-france. Automatic sursis for Switzerland is UNVERIFIED."
+    },
+    {
+      "slug": "german-exit-tax-moving-to-switzerland",
+      "title": "German exit tax (§ 6 AStG) when you move to Switzerland",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "german exit tax switzerland"
+        ],
+        "fr": [
+          "exit tax allemagne suisse"
+        ],
+        "de": [
+          "wegzugsbesteuerung schweiz",
+          "wegzugsbesteuerung § 6 astg schweiz",
+          "wegzugsbesteuerung stundung"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (legal-facts §5.4)",
+      "notes": "Deep-dive; do not repeat moving-from-germany."
+    },
+    {
+      "slug": "swiss-withholding-tax-new-residents",
+      "title": "Swiss withholding tax for new residents: how refunds work",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "swiss withholding tax refund",
+          "35 withholding tax switzerland residents"
+        ],
+        "fr": [
+          "impôt anticipé remboursement",
+          "impôt anticipé suisse résident"
+        ],
+        "de": [
+          "verrechnungssteuer rückerstattung",
+          "verrechnungssteuer schweiz zuzüger"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §5.1)"
+    },
+    {
+      "slug": "swiss-capital-gains-private-investors",
+      "title": "Capital gains for private investors in Switzerland",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "capital gains tax switzerland private investor",
+          "is there capital gains tax in switzerland"
+        ],
+        "fr": [
+          "gains en capital privés suisse impôt"
+        ],
+        "de": [
+          "kapitalgewinnsteuer schweiz privatanleger",
+          "private kapitalgewinne steuerfrei schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "extension (legal-facts §5.1)"
+    },
+    {
+      "slug": "first-swiss-tax-return",
+      "title": "Your first Swiss tax return after moving",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "first tax return switzerland after moving",
+          "swiss tax return year of arrival"
+        ],
+        "fr": [
+          "première déclaration d'impôt suisse arrivée"
+        ],
+        "de": [
+          "erste steuererklärung schweiz zuzug",
+          "steuererklärung zuzugsjahr schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension"
+    },
+    {
+      "slug": "swiss-double-tax-treaties-new-residents",
+      "title": "Swiss double tax treaties: what new residents should check",
+      "audience": "client",
+      "category": "tax-and-wealth",
+      "keywords": {
+        "en": [
+          "switzerland double tax treaty",
+          "swiss tax treaty residency certificate"
+        ],
+        "fr": [
+          "convention de double imposition suisse",
+          "certificat de résidence fiscale suisse"
+        ],
+        "de": [
+          "doppelbesteuerungsabkommen schweiz",
+          "ansässigkeitsbescheinigung schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension",
+      "notes": "Number of Swiss DTAs is UNVERIFIED: do not state a count."
+    },
+    {
+      "slug": "swiss-citizenship-after-residence",
+      "title": "Swiss citizenship for new residents: 10 years, C permit, language B1/A2",
+      "audience": "client",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "swiss citizenship requirements",
+          "how to get swiss citizenship"
+        ],
+        "fr": [
+          "naturalisation suisse conditions",
+          "naturalisation ordinaire suisse"
+        ],
+        "de": [
+          "einbürgerung schweiz voraussetzungen",
+          "schweizer pass bekommen"
+        ]
+      },
+      "intent": "informational",
+      "priority": 1,
+      "status": "todo",
+      "source": "seo-topics B7 / legal audit 2026-09",
+      "notes": "Legal content audit: naturalisation needs a C permit and 10 years of residence; language B1 oral / A2 written. Cite fedlex (BüG/BüV) and sem.admin.ch only."
+    },
+    {
+      "slug": "client-intake-questions-swiss-move",
+      "title": "Questions to ask a client before a Swiss move",
+      "audience": "adviser",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "questions before moving to switzerland",
+          "swiss relocation client intake"
+        ],
+        "fr": [
+          "questions avant de s'installer en suisse"
+        ],
+        "de": [
+          "fragen vor dem umzug in die schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "demand-wave2 #24 (as a guide)"
+    },
+    {
+      "slug": "cost-of-living-switzerland-family",
+      "title": "Cost of living in Switzerland for a family: what to plan for",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "cost of living switzerland family",
+          "how expensive is switzerland to live"
+        ],
+        "fr": [
+          "coût de la vie suisse famille"
+        ],
+        "de": [
+          "lebenshaltungskosten schweiz familie"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "seo-topics F5",
+      "notes": "No invented budgets: only cite official statistics (bfs.admin.ch) or describe cost categories without figures."
+    },
+    {
+      "slug": "moving-to-switzerland-with-pets",
+      "title": "Moving to Switzerland with pets",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "moving to switzerland with dog",
+          "bringing pets to switzerland"
+        ],
+        "fr": [
+          "déménager en suisse avec un chien",
+          "importer animal de compagnie suisse"
+        ],
+        "de": [
+          "mit hund in die schweiz",
+          "haustier einreise schweiz"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "seo-topics F7",
+      "notes": "Cite blv.admin.ch / bazg.admin.ch only."
+    },
+    {
+      "slug": "swiss-driving-licence-exchange",
+      "title": "Exchanging your driving licence in Switzerland",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "exchange driving licence switzerland",
+          "swiss driving licence foreigner 12 months"
+        ],
+        "fr": [
+          "échange permis de conduire suisse",
+          "permis de conduire étranger suisse délai"
+        ],
+        "de": [
+          "führerschein umschreiben schweiz",
+          "ausländischer führerausweis schweiz umtauschen"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension",
+      "notes": "Cite ch.ch / astra.admin.ch / cantonal road-traffic offices only."
+    },
+    {
+      "slug": "swiss-public-schools-international-families",
+      "title": "Swiss public schools for international families",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "swiss public school for expats",
+          "public or international school switzerland"
+        ],
+        "fr": [
+          "école publique suisse pour expatriés",
+          "école publique ou internationale suisse"
+        ],
+        "de": [
+          "öffentliche schule schweiz für expats",
+          "volksschule schweiz zuzug"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "todo",
+      "source": "extension (seo-topics F1 follow-up)",
+      "notes": "Geneva schooling is owned by ridger.ch: keep the angle national."
+    },
+    {
+      "slug": "moving-from-singapore-hong-kong",
+      "title": "Moving to Switzerland from Singapore or Hong Kong",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from singapore",
+          "moving to switzerland from hong kong"
+        ],
+        "fr": [],
+        "de": []
+      },
+      "intent": "commercial",
+      "priority": 3,
+      "status": "skipped",
+      "source": "seo-topics C8",
+      "notes": "Covered by moving-from-asia (demand-wave2 recommends refocusing that page on SG/HK instead)."
+    },
+    {
+      "slug": "hiring-household-staff-switzerland",
+      "title": "Hiring household staff in Switzerland",
+      "audience": "client",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "hire housekeeper switzerland"
+        ],
+        "fr": [
+          "employer du personnel de maison suisse"
+        ],
+        "de": [
+          "hausangestellte schweiz anstellen"
+        ]
+      },
+      "intent": "informational",
+      "priority": 3,
+      "status": "skipped",
+      "source": "seo-topics F6",
+      "notes": "ridger.ch owns household staff (demand-wave2 §5)."
+    },
+    {
+      "slug": "referring-a-client-to-switzerland",
+      "title": "Referring a client to Switzerland: what we handle and what stays with you",
+      "audience": "adviser",
+      "category": "residence-permits",
+      "keywords": {
+        "en": [
+          "refer client switzerland relocation"
+        ],
+        "fr": [
+          "référer un client suisse relocation"
+        ],
+        "de": [
+          "mandanten in die schweiz begleiten"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 1,
+      "status": "skipped",
+      "source": "demand-wave2 #2",
+      "notes": "Commercial /for-advisers/ landing page with a partner form: build by hand, not as a guide."
+    },
+    {
+      "slug": "relocation-partners",
+      "title": "For relocation, destination-services and estate-agent partners",
+      "audience": "adviser",
+      "category": "settling-in",
+      "keywords": {
+        "en": [
+          "relocation agent switzerland"
+        ],
+        "fr": [
+          "agence relocation genève"
+        ],
+        "de": [
+          "relocation service schweiz"
+        ]
+      },
+      "intent": "commercial",
+      "priority": 2,
+      "status": "skipped",
+      "source": "demand-wave2 #16",
+      "notes": "Partner landing page with a form: build by hand under /for-advisers/."
+    }
+  ]
+}

@@ -21,7 +21,7 @@ faq:
   - q: "Les ressortissants britanniques sont-ils traités comme hors UE ?"
     a: "Depuis le 1er janvier 2021, les ressortissants britanniques qui ne sont pas couverts par l'accord sur les droits acquis des citoyens relèvent des règles ordinaires applicables aux États tiers (LEI)."
 sources:
-  - label: "SEM : directives LEI (état au 15 juin 2026), ch. 1.3.1, 5.3 et 5.5"
+  - label: "SEM : directives LEI (état au 15 juin 2026), ch. 0.2.1.3, 1.3.1, 5.3 et 5.5"
     url: "https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf"
   - label: "Fedlex : ordonnance du DFJP sur la procédure d'approbation (SEM), art. 2 et 5"
     url: "https://www.fedlex.admin.ch/eli/cc/2015/518/fr#art_5"
@@ -124,7 +124,7 @@ Votre conjoint et vos enfants mineurs peuvent en général vous accompagner. Sel
 
 Une fois l'autorisation approuvée et votre entrée en Suisse effectuée, vous vous annoncez auprès de votre commune dans les 14 jours (art. 10 OASA). L'assurance maladie et les autres premières démarches administratives suivent dans les semaines qui viennent.
 
-Un ressortissant hors UE peut demander une autorisation d'établissement (permis C) après 10 ans au total au bénéfice d'une autorisation de courte durée ou de séjour, dont les cinq dernières années sans interruption avec un permis B, à condition d'être intégré (art. 34 LEI). Un permis C anticipé est possible après cinq ans de séjour ininterrompu avec un permis B pour les personnes bien intégrées qui communiquent bien dans la langue nationale parlée sur place. Les différences entre les permis sont expliquées dans [les permis suisses B, C et L](/fr/guides/swiss-permits-explained/).
+Un ressortissant hors UE peut demander une autorisation d'établissement (permis C) après 10 ans au total au bénéfice d'une autorisation de courte durée ou de séjour, dont les cinq dernières années sans interruption avec un permis B, à condition d'être intégré (art. 34 LEI). Les ressortissants américains, canadiens et britanniques peuvent l'obtenir après cinq ans, à l'appréciation du canton et sous réserve des critères d'intégration. Pour les autres, un permis C anticipé est possible après cinq ans de séjour ininterrompu avec un permis B pour les personnes bien intégrées qui communiquent bien dans la langue nationale parlée sur place. Les différences entre les permis sont expliquées dans [les permis suisses B, C et L](/fr/guides/swiss-permits-explained/).
 
 ## Combien de temps cela prend
 
