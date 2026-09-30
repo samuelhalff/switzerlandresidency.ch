@@ -15,7 +15,7 @@ How it works
 1. Manifest: {relative_path: sha256} of every file in out/. The previous deploy's manifest is
    read from `.deploy-manifest.json` in the web root (web access denied by public/.htaccess).
    Only files whose hash changed (or that are new) are uploaded — no timestamp noise.
-2. Phase 1 (assets, additive): changed/new files under `_next/`, `images/`, `fonts/` and font
+2. Phase 1 (assets, additive): changed/new files under `_next/`, `fonts/` and font
    files are uploaded straight to their final path. Build assets are content-hashed, so a new
    one can never be referenced by a live page before phase 2.
 3. Phase 2 (swap): every other changed/new file (html, txt, xml, icons, .htaccess…) is uploaded
@@ -68,7 +68,7 @@ MANIFEST = ".deploy-manifest.json"
 JOURNAL = ".deploy-journal.json"
 TMP_SUFFIX = ".deploy-tmp"
 PROTECTED_TOP = (".ftpquota", ".well-known", "cgi-bin")
-ASSET_TOP = ("_next", "images", "fonts")
+ASSET_TOP = ("_next", "fonts")  # content-hashed or immutable; images/ are not hashed → swapped via tmp+rename
 ASSET_EXT = (".woff", ".woff2", ".ttf", ".otf")
 RETRIES = 4
 
