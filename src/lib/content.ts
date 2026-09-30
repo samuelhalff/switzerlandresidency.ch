@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { locales, type Locale } from "./i18n";
+import { typeset } from "./typography";
 
 /**
  * Markdown content lives in content/<locale>/<collection>/<slug>.md.
@@ -51,16 +52,18 @@ function readCollection(locale: Locale, collection: Collection): Entry[] {
       collection,
       locale,
       slug,
-      title: String(data.title ?? slug),
-      description: String(data.description ?? ""),
+      title: typeset(locale, String(data.title ?? slug)),
+      description: typeset(locale, String(data.description ?? "")),
       translationKey: String(data.translationKey ?? slug),
       updated: toIsoDate(data.updated),
       published: toIsoDate(data.published) || undefined,
       category: String(data.category ?? ""),
       draft: data.draft === true,
-      faq: Array.isArray(data.faq) ? (data.faq as FaqItem[]) : [],
+      faq: Array.isArray(data.faq)
+        ? (data.faq as FaqItem[]).map((f) => ({ q: typeset(locale, f.q), a: typeset(locale, f.a) }))
+        : [],
       sources: Array.isArray(data.sources) ? (data.sources as Source[]) : [],
-      body: content,
+      body: typeset(locale, content),
     };
   });
   entries.sort((a, b) => b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title));
