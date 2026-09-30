@@ -1,6 +1,6 @@
 ---
 title: "Relocation et installation en Suisse"
-description: "S’installer en Suisse après le permis : annonce à la commune, assurance maladie, écoles, banque, import de la voiture et du mobilier, et cotisations AVS."
+description: "Relocation et installation en Suisse : visites d’orientation, recherche de logement, déménagement, écoles, assurance maladie, banque et voiture."
 slug: "settling-in"
 translationKey: "settling-in"
 collection: services
@@ -38,19 +38,26 @@ Le permis rend l’installation possible. L’arrivée la rend réussie. Les pre
 
 Nous coordonnons le volet pratique de votre arrivée, de la semaine où vous posez vos valises jusqu’à la fin de votre première année :
 
+- **visites d’orientation** : du temps sur place pour découvrir communes, quartiers et écoles avant de décider, organisé avec des partenaires locaux de confiance
+- **coordination de la recherche de logement** : briefing des agences, organisation des visites et suivi de la présélection ; le choix, comme le bail ou l’achat, reste le vôtre
 - **annonce** à votre commune et retrait de votre titre de séjour
+- **déménagement et douane** : coordination de déménageurs agréés et des formalités douanières pour le mobilier, les voitures et les collections
+- **animaux** : les démarches vétérinaires et d’importation pour venir avec vos animaux
+- **écoles** : calendrier des admissions, présélection, visites et aide aux inscriptions ; la décision d’admission appartient à chaque école
 - **assurance maladie et accidents** pour chaque membre de la famille
-- **écoles** : présélection, visites et inscriptions
-- **banque** : mises en relation avec des banques habituées à accueillir de nouveaux résidents
-- **mobilier, voitures et collections** : formalités douanières de votre déménagement
-- **permis de conduire** et immatriculation des véhicules
+- **banque** : mises en relation avec des banques habituées à accueillir de nouveaux résidents ; l’ouverture du compte reste la décision de la banque
+- **voitures et permis de conduire** : immatriculation des véhicules et échange du permis
 - **assurances sociales** : affiliation à la caisse de compensation AVS en tant que personne sans activité lucrative
-- **personnel de maison** : les bonnes démarches si vous prévoyez d’employer du personnel à domicile
+- **personnel de maison** : l’engagement de votre personnel à domicile, avec des partenaires spécialisés en salaires et en droit du travail
 - **vie quotidienne** : électricité, télécoms, déchets, macarons de stationnement, et les habitudes locales que personne ne met par écrit
 
 ## À qui il s’adresse
 
 Aux familles et aux personnes qui ont obtenu, ou vont obtenir, un permis de séjour suisse et souhaitent confier l’organisation de leur arrivée à un seul interlocuteur. Il convient aux personnes qui viennent de loin, à celles qui arrivent avec des enfants en âge scolaire, et à quiconque fait passer une frontière à des voitures, des œuvres d’art, une cave à vin ou un ménage complet.
+
+## Pour les équipes RH et mobilité
+
+Notre métier, ce sont les clients privés qui s’installent sans employeur en Suisse. Lorsqu’il s’agit d’un transfert salarié, le permis de travail et les salaires sont gérés par des partenaires spécialisés en immigration et côté employeur ; nous pouvons prendre en charge, à leurs côtés, le volet privé de la famille : logement, écoles, assurances et installation.
 
 ## Notre méthode
 

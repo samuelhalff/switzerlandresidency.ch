@@ -1,6 +1,6 @@
 ---
 title: "Relocation und Ankommen in der Schweiz"
-description: "Praktische Hilfe nach der Bewilligung: Anmeldung in der Gemeinde, Krankenkasse, Schulen, Bank, Einfuhr von Auto und Umzugsgut sowie AHV-Beiträge."
+description: "Relocation und Ankommen in der Schweiz: Orientierungsbesuche, Wohnungssuche, Umzug, Schulen, Krankenkasse, Bank, Auto und Hauspersonal – koordiniert."
 slug: "settling-in"
 translationKey: "settling-in"
 collection: services
@@ -38,19 +38,26 @@ Die Bewilligung macht den Umzug möglich. Erst das Einleben lässt ihn gelingen.
 
 Wir koordinieren die praktische Seite Ihrer Ankunft, von der ersten Woche bis zum Ende Ihres ersten Jahres:
 
+- **Orientierungsbesuche**: Zeit vor Ort, um Gemeinden, Quartiere und Schulen kennenzulernen, bevor Sie sich entscheiden – organisiert mit vertrauten lokalen Partnern
+- **Koordination der Wohnungssuche**: Briefing der Makler, Organisation der Besichtigungen und Nachverfolgung der Auswahl; die Wahl sowie Miet- oder Kaufvertrag bleiben bei Ihnen
 - **Anmeldung** in Ihrer Gemeinde und Abholung Ihres Ausländerausweises
+- **Umzug und Zoll**: Koordination bewährter Umzugsfirmen und der Zollformalitäten für Hausrat, Autos und Sammlungen
+- **Haustiere**: die tierärztlichen Schritte und die Einfuhrformalitäten für Ihre Tiere
+- **Schulen**: Zeitplan für die Aufnahme, Vorauswahl, Besuche und Hilfe bei den Anmeldungen; über die Aufnahme entscheidet jede Schule selbst
 - **Kranken- und Unfallversicherung** für jedes Familienmitglied
-- **Schulen**: Vorauswahl, Besuche und Anmeldungen
-- **Bank**: Kontakte zu Banken, die mit der Aufnahme neuer Einwohner vertraut sind
-- **Hausrat, Autos und Sammlungen**: Zollformalitäten für Ihren Umzug
-- **Führerausweis** und Fahrzeugzulassung
+- **Bank**: Kontakte zu Banken, die mit der Aufnahme neuer Einwohner vertraut sind; über die Kontoeröffnung entscheidet die Bank
+- **Auto und Führerausweis**: Fahrzeugzulassung und Umtausch des Führerausweises
 - **Sozialversicherung**: Anmeldung bei der AHV-Ausgleichskasse als nichterwerbstätige Person
-- **Hauspersonal**: Hinweise auf die richtigen Formalitäten, wenn Sie Personal im Haushalt anstellen möchten
+- **Hauspersonal**: Anstellung von Personal im Haushalt, gemeinsam mit spezialisierten Partnern für Lohnadministration und Arbeitsrecht
 - **Alltag einrichten**: Strom und Wasser, Telefon und Internet, Kehricht, Parkbewilligungen und die ungeschriebenen lokalen Gepflogenheiten
 
 ## Für wen sie gedacht ist
 
 Für Familien und Einzelpersonen, die eine Schweizer Aufenthaltsbewilligung erhalten haben oder bald erhalten und ihre Ankunft von einer Person organisieren lassen möchten. Sie passt zu Menschen, die von weit her kommen, zu Familien mit schulpflichtigen Kindern und zu allen, die Autos, Kunst, Wein oder einen ganzen Haushalt über die Grenze bringen.
+
+## Für HR- und Mobility-Teams
+
+Unser Schwerpunkt sind Privatpersonen, die ohne Schweizer Arbeitgeber zuziehen. Bei einer Entsendung oder Anstellung übernehmen spezialisierte Partner auf Migrations- und Arbeitgeberseite die Arbeitsbewilligung und die Lohnadministration; wir kümmern uns auf Wunsch parallel um die private Seite der Familie: Wohnen, Schulen, Versicherungen und Ankommen.
 
 ## So arbeiten wir
 

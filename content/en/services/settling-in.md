@@ -1,6 +1,6 @@
 ---
 title: "Relocation and settling-in services in Switzerland"
-description: "Practical help after your permit: commune registration, health insurance, schools, banking, importing your car and household goods, and social security."
+description: "Relocation and settling-in support in Switzerland: orientation visits, home search, removals, schools, health insurance, banking, cars and household staff."
 slug: "settling-in"
 translationKey: "settling-in"
 collection: services
@@ -38,19 +38,26 @@ A permit makes the move possible. Settling in makes it work. The first months br
 
 We coordinate the practical side of your arrival, from the week you land to the end of your first year:
 
+- **orientation visits**: time on the ground to see communes, neighbourhoods and schools before you decide, coordinated with trusted local partners
+- **home search coordination**: briefing agents, organising viewings and keeping the shortlist moving; the choice, and any lease or purchase, stays yours
 - **registration** with your commune and collection of your permit card
+- **removals and customs**: coordinating licensed movers and the customs formalities for household goods, cars and collections
+- **pets**: the veterinary and import steps for bringing your animals with you
+- **schools**: an admissions timeline, shortlisting, visits and help with applications; admission decisions remain with each school
 - **health and accident insurance** for each family member
-- **schools**: shortlisting, visits and applications
-- **banking**: introductions to banks used to onboarding new residents
-- **household goods, cars and collections**: customs formalities for your move
-- **driving licences** and vehicle registration
+- **banking**: introductions to banks used to onboarding new residents; opening an account remains the bank's decision
+- **cars and driving licences**: vehicle registration and the licence exchange
 - **social security**: registering with the AHV/AVS compensation office as a non-employed resident
-- **household staff**: pointing you to the right formalities if you plan to employ people at home
+- **household staff**: onboarding domestic staff with specialist payroll and employment-law partners
 - **everyday set-up**: utilities, telecoms, waste and parking permits, and the local habits nobody writes down
 
 ## Who it is for
 
 Families and individuals who have secured, or are about to secure, a Swiss residence permit and want one person to organise their arrival. It suits people relocating from far away, those arriving with children of school age, and anyone moving cars, art, wine or a full household across a border.
+
+## For HR and mobility teams
+
+Our focus is private clients who move without a Swiss employer. When a move is an employed transfer, the work permit and payroll are handled by specialist immigration and employer-side partners, and we can look after the family's private side alongside them: home, schools, insurance and settling in.
 
 ## How we work
 
