@@ -6,9 +6,14 @@
 export type Citizenship = "CH" | "EU" | "UK" | "US" | "OTHER";
 export type OtherRegion = "GULF" | "ASIA" | "AMERICAS" | "OTHER";
 export type TaxResidence =
-  | "UK" | "FR" | "DE" | "IT" | "BE" | "AT" | "EU_OTHER"
+  | "UK" | "FR" | "DE" | "IT" | "BE" | "AT" | "NO" | "EU_OTHER"
   | "GULF" | "US" | "CA" | "SG_HK" | "IN" | "OTHER" | "CH";
 export type Activity = "NONE" | "ACTIVE" | "UNSURE";
+/**
+ * Unlimited Swiss tax liability (tax residence) in the last 10 years (art. 14 para. 1 DBG).
+ * Previous lump-sum taxpayers may use the regime again (KS 44 §2.3).
+ */
+export type ChTaxHistory = "NO" | "ORDINARY" | "LUMP_SUM";
 export type Household = "SINGLE" | "COUPLE";
 export type AgeBand = "UNDER_55" | "55_PLUS";
 export type Spending = "LT_300K" | "300_600K" | "600K_1M" | "GT_1M" | "NA";
@@ -23,7 +28,7 @@ export type Answers = {
   household: Household;
   children: boolean;
   age: AgeBand;
-  livedInChLast10y: boolean;
+  chTaxLast10y: ChTaxHistory;
   spending: Spending;
   region: Region;
   timeline: Timeline;
@@ -31,7 +36,12 @@ export type Answers = {
 
 export type RouteCode = "R0" | "R1_NONE" | "R1_ACTIVE" | "R1_UNSURE" | "R2" | "R3" | "R4";
 export type LumpSumCode = "MAY_BE_ELIGIBLE" | "UNLIKELY" | "NOT_AVAILABLE" | "TO_ASSESS";
-export type FlagCode = "UK" | "FR" | "DE" | "MODIFIED" | "US_CITIZEN" | "PLAN_EARLY";
+export type FlagCode =
+  | "UK" | "FR" | "DE" | "MODIFIED" | "US_CITIZEN"
+  /** Tax residence far from the EU: plan the move early (no permit-route statement). */
+  | "PLAN_EARLY"
+  /** Same, for applicants without Swiss or EU/EFTA citizenship: adds the non-EU route note. */
+  | "PLAN_EARLY_NON_EU";
 export type CantonCode =
   | "AG" | "AI" | "AR" | "BE" | "BL" | "BS" | "FR" | "GE" | "GL" | "GR" | "JU" | "LU" | "NE"
   | "NW" | "OW" | "SG" | "SH" | "SO" | "SZ" | "TG" | "TI" | "UR" | "VD" | "VS" | "ZG" | "ZH";
@@ -40,7 +50,7 @@ export type CheckResult = {
   /** First item is the primary route; further items are "also worth discussing". */
   routes: RouteCode[];
   lumpSum: LumpSumCode;
-  /** Married couple + may be eligible: both spouses must meet the conditions (reform pending). */
+  /** Married couple + may be eligible: both spouses must meet the conditions (art. 14 para. 2 DBG). */
   coupleNote: boolean;
   /** R4 without a lump-sum fit: residence is usually linked to lump-sum taxation. */
   r4Flag: boolean;
@@ -70,12 +80,18 @@ export function permitRoutes(a: Pick<Answers, "citizenships" | "activity" | "age
 }
 
 export function lumpSumStatus(
-  a: Pick<Answers, "citizenships" | "activity" | "livedInChLast10y" | "spending">,
+  a: Pick<Answers, "citizenships" | "activity" | "chTaxLast10y" | "spending">,
 ): LumpSumCode {
-  if (a.citizenships.includes("CH") || a.activity === "ACTIVE" || a.livedInChLast10y) return "NOT_AVAILABLE";
-  if (a.activity === "UNSURE" || a.spending === "NA") return "TO_ASSESS";
+  if (a.citizenships.includes("CH") || a.activity === "ACTIVE" || a.chTaxLast10y === "ORDINARY") return "NOT_AVAILABLE";
+  // Returning lump-sum taxpayers are not caught by the 10-year rule, but need a case review.
+  if (a.chTaxLast10y === "LUMP_SUM" || a.activity === "UNSURE" || a.spending === "NA") return "TO_ASSESS";
   if (a.spending === "LT_300K") return "UNLIKELY";
   return "MAY_BE_ELIGIBLE";
+}
+
+/** No Swiss and no EU/EFTA citizenship: the non-EU permit routes apply. */
+function isNonEu(citizenships: Citizenship[]): boolean {
+  return !citizenships.includes("CH") && !citizenships.includes("EU");
 }
 
 export function originFlags(a: Pick<Answers, "citizenships" | "taxResidence">): FlagCode[] {
@@ -93,6 +109,7 @@ export function originFlags(a: Pick<Answers, "citizenships" | "taxResidence">): 
     case "IT":
     case "BE":
     case "AT":
+    case "NO":
     case "CA":
     case "US":
       flags.push("MODIFIED");
@@ -100,7 +117,8 @@ export function originFlags(a: Pick<Answers, "citizenships" | "taxResidence">): 
     case "GULF":
     case "SG_HK":
     case "IN":
-      flags.push("PLAN_EARLY");
+      // Tax residence says nothing about the permit route; only citizenship does.
+      flags.push(isNonEu(a.citizenships) ? "PLAN_EARLY_NON_EU" : "PLAN_EARLY");
       break;
     default:
       break;
@@ -184,7 +202,7 @@ export function serializeAnswers(a: Answers): string {
     `household=${a.household}`,
     `children=${a.children ? "Y" : "N"}`,
     `age=${a.age}`,
-    `lived_ch_10y=${a.livedInChLast10y ? "Y" : "N"}`,
+    `ch_tax_10y=${a.chTaxLast10y}`,
     `spending=${a.spending}`,
     `region=${a.region}`,
     `timeline=${a.timeline}`,

@@ -416,6 +416,7 @@
         "IT": "Italien",
         "BE": "Belgien",
         "AT": "Österreich",
+        "NO": "Norwegen",
         "EU_OTHER": "Anderes EU-/EFTA-Land",
         "GULF": "VAE / Golfstaaten",
         "US": "USA",
@@ -447,7 +448,12 @@
         "UNDER_55": "Unter 55",
         "55_PLUS": "55 oder älter"
       },
-      "livedLabel": "Haben Sie (oder Ihr Ehepartner) in den letzten 10 Jahren in der Schweiz gelebt?"
+      "chTaxLabel": "Waren Sie (oder Ihr Ehepartner) in den letzten 10 Jahren in der Schweiz steuerlich ansässig?",
+      "chTax": {
+        "NO": "Nein",
+        "ORDINARY": "Ja, ordentlich besteuert",
+        "LUMP_SUM": "Ja, nach dem Aufwand besteuert"
+      }
     },
     "q5": {
       "title": "Wie viel gibt Ihr Haushalt ungefähr pro Jahr aus, weltweit?",
@@ -517,11 +523,11 @@
       },
       "R3": {
         "label": "Nicht-EU, im Ruhestand",
-        "text": "Aufenthalt für Personen ab 55 Jahren, die in der Schweiz nicht erwerbstätig sind (Art. 28 AIG). Voraussetzung sind ausreichende finanzielle Mittel und, in den meisten Kantonen, persönliche Beziehungen zur Schweiz. Oft wird dieser Weg mit dem Weg über das erhebliche fiskalische Interesse kombiniert."
+        "text": "Aufenthalt für Personen ab 55 Jahren, die weder in der Schweiz noch im Ausland erwerbstätig sind (Art. 28 AIG); die Verwaltung des eigenen Vermögens ist erlaubt. Voraussetzung sind besondere persönliche Beziehungen zur Schweiz (Grundeigentum allein genügt nicht) und dauerhaft ausreichende finanzielle Mittel. Der Kanton entscheidet nach Ermessen, und das SEM muss zustimmen. Oft wird dieser Weg mit dem Weg über das erhebliche fiskalische Interesse kombiniert."
       },
       "R4": {
         "label": "Nicht-EU, erhebliches fiskalisches Interesse",
-        "text": "Aufenthalt, den der Kanton wegen eines erheblichen fiskalischen Interesses bewilligt (Art. 30 Abs. 1 Bst. b AIG). In der Regel verbunden mit einer Pauschalbesteuerung in einer vom Kanton festgelegten Höhe, oft über dem Bundesminimum."
+        "text": "Eine Ermessensbewilligung wegen eines erheblichen fiskalischen Interesses (Art. 30 Abs. 1 Bst. b AIG): Der Kanton beantragt sie, und das SEM muss zustimmen. In der Regel ist sie mit einer Pauschalbesteuerung in einer vom Kanton festgelegten Höhe verbunden (Genf zum Beispiel publiziert für diesen Weg eine Aufwandbemessung von CHF 750'000). Eine Steuervereinbarung allein ist noch keine Aufenthaltsbewilligung."
       }
     },
     "lumpSum": {
@@ -535,22 +541,23 @@
       },
       "NOT_AVAILABLE": {
         "label": "Nicht möglich",
-        "text": "Die Pauschalbesteuerung steht weder Schweizer Staatsangehörigen noch Personen offen, die in der Schweiz erwerbstätig sind oder in den letzten zehn Jahren in der Schweiz gelebt haben. Es gilt die ordentliche Besteuerung."
+        "text": "Die Pauschalbesteuerung steht weder Schweizer Staatsangehörigen noch Personen offen, die in der Schweiz erwerbstätig sind oder in den letzten zehn Jahren in der Schweiz steuerlich ansässig waren (ausser sie wurden damals nach dem Aufwand besteuert). Es gilt die ordentliche Besteuerung."
       },
       "TO_ASSESS": {
         "label": "Noch zu klären",
-        "text": "Wir brauchen noch ein paar Angaben, um beurteilen zu können, ob die Pauschalbesteuerung für Sie relevant ist."
+        "text": "Wir brauchen noch ein paar Angaben, um beurteilen zu können, ob die Pauschalbesteuerung für Sie relevant ist. Wenn Sie in der Schweiz bereits nach dem Aufwand besteuert wurden, kann sie Ihnen unter Umständen erneut offenstehen."
       },
       "coupleNote": "Bei Ehepaaren müssen nach geltendem Recht beide Ehegatten die Voraussetzungen erfüllen. Wir klären die Situation Ihres Haushalts mit dem Kanton.",
       "r4Flag": "Bei Nicht-EU-Staatsangehörigen, die in der Schweiz nicht erwerbstätig sind, ist der Aufenthalt in der Regel an die Pauschalbesteuerung geknüpft. Das sollten wir gemeinsam besprechen."
     },
     "flags": {
-      "UK": "Grossbritannien: der Statutory Residence Test und die Split-Year-Regelung; die vierjährige FIG- und TRF-Übergangsregelung; britische Erbschaftssteuer auf das weltweite Vermögen bis zu zehn Jahre nach dem Wegzug (bei langjährig Ansässigen); das britische Kontingent, falls Sie arbeiten möchten.",
-      "FR": "Frankreich: Nach dem Doppelbesteuerungsabkommen Schweiz–Frankreich benötigen pauschal besteuerte Personen die erhöhte Pauschale (forfait majoré), um als abkommensberechtigt ansässig zu gelten; französische Wegzugssteuer auf nicht realisierte Gewinne.",
-      "DE": "Deutschland: Wegzugsbesteuerung (§ 6 AStG) auf Beteiligungen ab 1 %; erweiterte beschränkte Steuerpflicht; eine modifizierte Pauschalbesteuerung für Einkünfte aus deutschen Quellen.",
+      "UK": "Grossbritannien: Die Remittance Basis ist seit dem 6. April 2025 abgeschafft (vierjähriges FIG-Regime und Temporary Repatriation Facility für frühere ausländische Einkünfte und Gewinne); langjährig Ansässige (10 der letzten 20 Steuerjahre) können nach dem Wegzug noch 3 bis 10 Jahre der britischen Erbschaftssteuer auf das weltweite Vermögen unterliegen; für britische Staatsangehörige, die arbeiten möchten, das britische Kontingent.",
+      "FR": "Frankreich: Das Doppelbesteuerungsabkommen Schweiz–Frankreich enthält besondere Regeln für nach dem Aufwand besteuerte Personen; lassen Sie Ihre Situation vor dem Umzug mit einem Steuerruling bestätigen. Französische Wegzugssteuer auf nicht realisierte Gewinne (Art. 167 bis CGI).",
+      "DE": "Deutschland: Wegzugsbesteuerung (§ 6 AStG) auf Beteiligungen ab 1 %, wenn Sie mindestens 7 der letzten 12 Jahre in Deutschland unbeschränkt steuerpflichtig waren; eine modifizierte Pauschalbesteuerung für Einkünfte aus deutschen Quellen.",
       "MODIFIED": "Um Abkommensvorteile für Einkünfte aus Ihrem heutigen Land geltend zu machen, ist eine modifizierte Pauschalbesteuerung nötig.",
       "US_CITIZEN": "US-Staatsangehörige bleiben in den USA steuerpflichtig, der Vorteil einer Pauschalbesteuerung kann daher begrenzt sein. Schweizer Banken wenden zudem bei der Kontoeröffnung die FATCA-Regeln an.",
-      "PLAN_EARLY": "Planen Sie den Wechsel des steuerlichen Wohnsitzes sowie Ihre Bank- und KYC-Unterlagen frühzeitig. Es gilt der Bewilligungsweg für Nicht-EU-Staatsangehörige."
+      "PLAN_EARLY": "Planen Sie den Wechsel des steuerlichen Wohnsitzes sowie Ihre Bank- und KYC-Unterlagen frühzeitig. Auch Ihr heutiges Land kann eigene Wegzugs- oder Steuerregeln haben.",
+      "PLAN_EARLY_NON_EU": "Planen Sie den Wechsel des steuerlichen Wohnsitzes sowie Ihre Bank- und KYC-Unterlagen frühzeitig. Auch Ihr heutiges Land kann eigene Wegzugs- oder Steuerregeln haben. Ohne Schweizer oder EU-/EFTA-Staatsangehörigkeit gelten die Bewilligungswege für Nicht-EU-Staatsangehörige."
     },
     "needs": [
       "Staatsangehörigkeiten und Pässe aller Familienmitglieder",

@@ -17,7 +17,7 @@ const base: Answers = {
   household: "SINGLE",
   children: false,
   age: "UNDER_55",
-  livedInChLast10y: false,
+  chTaxLast10y: "NO",
   spending: "600K_1M",
   region: "LAKE_GENEVA",
   timeline: "6_12M",
@@ -54,12 +54,18 @@ describe("permitRoutes", () => {
 });
 
 describe("lumpSumStatus", () => {
-  it("not available for Swiss, active, or recent Swiss residence", () => {
+  it("not available for Swiss, active, or ordinary Swiss tax residence in the last 10 years", () => {
     expect(lumpSumStatus(a({ citizenships: ["CH"] }))).toBe("NOT_AVAILABLE");
     expect(lumpSumStatus(a({ activity: "ACTIVE" }))).toBe("NOT_AVAILABLE");
-    expect(lumpSumStatus(a({ livedInChLast10y: true }))).toBe("NOT_AVAILABLE");
+    expect(lumpSumStatus(a({ chTaxLast10y: "ORDINARY" }))).toBe("NOT_AVAILABLE");
     // not-available wins over "to be assessed"
-    expect(lumpSumStatus(a({ livedInChLast10y: true, activity: "UNSURE", spending: "NA" }))).toBe("NOT_AVAILABLE");
+    expect(lumpSumStatus(a({ chTaxLast10y: "ORDINARY", activity: "UNSURE", spending: "NA" }))).toBe("NOT_AVAILABLE");
+  });
+  it("returning lump-sum taxpayers → to be assessed (KS 44 §2.3), unless otherwise excluded", () => {
+    expect(lumpSumStatus(a({ chTaxLast10y: "LUMP_SUM" }))).toBe("TO_ASSESS");
+    expect(lumpSumStatus(a({ chTaxLast10y: "LUMP_SUM", spending: "LT_300K" }))).toBe("TO_ASSESS");
+    expect(lumpSumStatus(a({ chTaxLast10y: "LUMP_SUM", activity: "ACTIVE" }))).toBe("NOT_AVAILABLE");
+    expect(lumpSumStatus(a({ chTaxLast10y: "LUMP_SUM", citizenships: ["CH"] }))).toBe("NOT_AVAILABLE");
   });
   it("to be assessed when unsure or spending not given", () => {
     expect(lumpSumStatus(a({ activity: "UNSURE" }))).toBe("TO_ASSESS");
@@ -86,17 +92,31 @@ describe("originFlags", () => {
     ["IT", ["MODIFIED"]],
     ["BE", ["MODIFIED"]],
     ["AT", ["MODIFIED"]],
+    ["NO", ["MODIFIED"]],
     ["CA", ["MODIFIED"]],
     ["US", ["MODIFIED"]],
-    ["GULF", ["PLAN_EARLY"]],
-    ["SG_HK", ["PLAN_EARLY"]],
-    ["IN", ["PLAN_EARLY"]],
+    ["GULF", ["PLAN_EARLY_NON_EU"]],
+    ["SG_HK", ["PLAN_EARLY_NON_EU"]],
+    ["IN", ["PLAN_EARLY_NON_EU"]],
     ["EU_OTHER", []],
     ["OTHER", []],
     ["CH", []],
   ];
   it.each(cases)("tax residence %s", (taxResidence, expected) => {
     expect(originFlags({ citizenships: ["OTHER"], taxResidence })).toEqual(expected);
+  });
+  it("plan-early flag states the non-EU route only without Swiss or EU/EFTA citizenship", () => {
+    for (const taxResidence of ["GULF", "SG_HK", "IN"] as const) {
+      expect(originFlags({ citizenships: ["EU"], taxResidence })).toEqual(["PLAN_EARLY"]);
+      expect(originFlags({ citizenships: ["CH", "OTHER"], taxResidence })).toEqual(["PLAN_EARLY"]);
+      expect(originFlags({ citizenships: ["EU", "UK"], taxResidence })).toEqual(["PLAN_EARLY"]);
+      expect(originFlags({ citizenships: ["UK"], taxResidence })).toEqual(["PLAN_EARLY_NON_EU"]);
+      expect(originFlags({ citizenships: ["US", "OTHER"], taxResidence })).toEqual(["PLAN_EARLY_NON_EU", "US_CITIZEN"]);
+    }
+  });
+  it("residence-based flags do not depend on citizenship", () => {
+    expect(originFlags({ citizenships: ["EU"], taxResidence: "UK" })).toEqual(["UK"]);
+    expect(originFlags({ citizenships: ["EU"], taxResidence: "NO" })).toEqual(["MODIFIED"]);
   });
   it("adds the US citizen flag from citizenship", () => {
     expect(originFlags({ citizenships: ["US"], taxResidence: "US" })).toEqual(["MODIFIED", "US_CITIZEN"]);
@@ -149,6 +169,12 @@ describe("evaluate", () => {
       cantons: ["GE", "VD", "VS"],
     });
   });
+  it("returning lump-sum taxpayer keeps lump-sum cantons in play", () => {
+    const r = evaluate(a({ chTaxLast10y: "LUMP_SUM", region: "ZURICH_BASEL" }));
+    expect(r.lumpSum).toBe("TO_ASSESS");
+    expect(r.cantons).toEqual(["ZG", "SZ"]);
+    expect(r.coupleNote).toBe(false);
+  });
   it("couple note only when may be eligible and a couple", () => {
     expect(evaluate(a({ household: "COUPLE" })).coupleNote).toBe(true);
     expect(evaluate(a({ household: "COUPLE", spending: "LT_300K" })).coupleNote).toBe(false);
@@ -156,9 +182,10 @@ describe("evaluate", () => {
   });
   it("R4 flag when R4 leads without a lump-sum fit", () => {
     expect(evaluate(a({ spending: "LT_300K" })).r4Flag).toBe(true);
-    expect(evaluate(a({ livedInChLast10y: true })).r4Flag).toBe(true);
+    expect(evaluate(a({ chTaxLast10y: "ORDINARY" })).r4Flag).toBe(true);
+    expect(evaluate(a({ chTaxLast10y: "LUMP_SUM" })).r4Flag).toBe(true);
     expect(evaluate(a({ activity: "UNSURE" })).r4Flag).toBe(true);
-    expect(evaluate(a({ age: "55_PLUS", spending: "GT_1M", livedInChLast10y: true })).r4Flag).toBe(true);
+    expect(evaluate(a({ age: "55_PLUS", spending: "GT_1M", chTaxLast10y: "ORDINARY" })).r4Flag).toBe(true);
   });
   it("no R4 flag when R3 leads or R4 is absent", () => {
     expect(evaluate(a({ age: "55_PLUS", spending: "LT_300K" })).r4Flag).toBe(false);
@@ -177,7 +204,7 @@ describe("evaluate", () => {
 describe("serializeAnswers", () => {
   it("produces codes only", () => {
     expect(serializeAnswers(a({ citizenships: ["OTHER"], otherRegion: "GULF" }))).toBe(
-      "citizenship=OTHER(GULF); tax_residence=UK; activity=NONE; household=SINGLE; children=N; age=UNDER_55; lived_ch_10y=N; spending=600K_1M; region=LAKE_GENEVA; timeline=6_12M",
+      "citizenship=OTHER(GULF); tax_residence=UK; activity=NONE; household=SINGLE; children=N; age=UNDER_55; ch_tax_10y=NO; spending=600K_1M; region=LAKE_GENEVA; timeline=6_12M",
     );
   });
 });

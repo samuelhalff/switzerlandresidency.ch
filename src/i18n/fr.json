@@ -416,6 +416,7 @@
         "IT": "Italie",
         "BE": "Belgique",
         "AT": "Autriche",
+        "NO": "Norvège",
         "EU_OTHER": "Autre pays UE / AELE",
         "GULF": "Émirats / Golfe",
         "US": "États-Unis",
@@ -447,7 +448,12 @@
         "UNDER_55": "Moins de 55 ans",
         "55_PLUS": "55 ans ou plus"
       },
-      "livedLabel": "Avez-vous (vous ou votre conjoint) vécu en Suisse au cours des 10 dernières années ?"
+      "chTaxLabel": "Avez-vous (vous ou votre conjoint) été résident fiscal en Suisse au cours des 10 dernières années ?",
+      "chTax": {
+        "NO": "Non",
+        "ORDINARY": "Oui, avec une imposition ordinaire",
+        "LUMP_SUM": "Oui, imposé d'après la dépense"
+      }
     },
     "q5": {
       "title": "Combien votre foyer dépense-t-il environ par an, dans le monde entier ?",
@@ -517,11 +523,11 @@
       },
       "R3": {
         "label": "Hors UE, retraité",
-        "text": "Séjour pour les personnes de 55 ans ou plus qui n'exercent pas d'activité lucrative en Suisse (art. 28 LEI). Il faut des moyens financiers suffisants et, dans la plupart des cantons, des liens personnels avec la Suisse. Cette voie est souvent combinée avec celle de l'intérêt fiscal."
+        "text": "Séjour pour les personnes de 55 ans ou plus qui n'exercent plus d'activité lucrative, ni en Suisse ni à l'étranger (art. 28 LEI) ; la gestion de sa propre fortune reste possible. Il faut des liens personnels étroits avec la Suisse (être propriétaire ne suffit pas) et des moyens financiers suffisants et durables. Le canton décide selon son pouvoir d'appréciation et le SEM doit donner son approbation. Cette voie est souvent combinée avec celle des intérêts fiscaux importants."
       },
       "R4": {
         "label": "Hors UE, intérêt fiscal important",
-        "text": "Séjour autorisé par le canton en raison d'un intérêt fiscal important (art. 30, al. 1, let. b LEI). Il va généralement de pair avec une imposition d'après la dépense à un niveau fixé par le canton, souvent supérieur au minimum fédéral."
+        "text": "Autorisation discrétionnaire fondée sur des intérêts fiscaux importants (art. 30, al. 1, let. b LEI) : le canton la propose et le SEM doit l'approuver. Elle va généralement de pair avec une imposition d'après la dépense à un niveau fixé par le canton (Genève, par exemple, publie une base de dépenses de CHF 750 000 pour cette voie). Un accord fiscal ne vaut pas, à lui seul, autorisation de séjour."
       }
     },
     "lumpSum": {
@@ -535,22 +541,23 @@
       },
       "NOT_AVAILABLE": {
         "label": "Non disponible",
-        "text": "Le forfait fiscal n'est pas ouvert aux ressortissants suisses, aux personnes qui travaillent en Suisse ni à celles qui y ont vécu au cours des dix dernières années. C'est l'imposition ordinaire qui s'applique."
+        "text": "Le forfait fiscal n'est pas ouvert aux ressortissants suisses, aux personnes qui travaillent en Suisse ni à celles qui y ont été résidentes fiscales au cours des dix dernières années (sauf si elles étaient alors imposées d'après la dépense). C'est l'imposition ordinaire qui s'applique."
       },
       "TO_ASSESS": {
         "label": "À évaluer",
-        "text": "Il nous faut un peu plus d'informations pour savoir si le forfait fiscal est pertinent dans votre cas."
+        "text": "Il nous faut un peu plus d'informations pour savoir si le forfait fiscal est pertinent dans votre cas. Si vous avez déjà été imposé d'après la dépense en Suisse, vous pourriez y avoir de nouveau accès."
       },
       "coupleNote": "Pour les couples mariés, le droit actuel exige que les deux conjoints remplissent les conditions. Nous confirmons la situation de votre foyer auprès du canton.",
       "r4Flag": "Pour les ressortissants hors UE qui ne travaillent pas en Suisse, le séjour est généralement lié au forfait fiscal. Nous devrions en parler ensemble."
     },
     "flags": {
-      "UK": "Royaume-Uni : statutory residence test et split-year treatment ; transition de quatre ans du régime FIG et du TRF ; impôt britannique sur les successions sur le patrimoine mondial jusqu'à dix ans après le départ (résidents de longue durée) ; contingent britannique si vous prévoyez de travailler.",
-      "FR": "France : selon la convention franco-suisse, les contribuables au forfait doivent opter pour le forfait majoré pour être considérés comme résidents au sens de la convention ; exit tax française sur les plus-values latentes.",
-      "DE": "Allemagne : imposition à la sortie (§ 6 AStG) sur les participations de 1 % ou plus ; assujettissement limité élargi ; forfait modifié pour les revenus de source allemande.",
+      "UK": "Royaume-Uni : la remittance basis est supprimée depuis le 6 avril 2025 (régime FIG de quatre ans et Temporary Repatriation Facility pour les revenus et gains étrangers antérieurs) ; les résidents de longue durée (10 des 20 dernières années fiscales) peuvent rester soumis à l'impôt britannique sur les successions sur leur patrimoine mondial de 3 à 10 ans après leur départ ; pour les ressortissants britanniques qui prévoient de travailler, le contingent britannique.",
+      "FR": "France : la convention franco-suisse prévoit des règles particulières pour les contribuables imposés d'après la dépense ; faites confirmer votre situation par un ruling fiscal avant le départ. Exit tax française sur les plus-values latentes (art. 167 bis CGI).",
+      "DE": "Allemagne : imposition à la sortie (§ 6 AStG) sur les participations de 1 % ou plus si vous avez été assujetti de manière illimitée en Allemagne pendant au moins 7 des 12 dernières années ; forfait modifié pour les revenus de source allemande.",
       "MODIFIED": "Un forfait modifié est nécessaire pour bénéficier des avantages conventionnels sur les revenus provenant de votre pays actuel.",
       "US_CITIZEN": "Les citoyens américains restent imposables aux États-Unis, si bien que l'avantage du forfait peut être limité. Les banques suisses appliquent en outre les règles FATCA à l'ouverture de compte.",
-      "PLAN_EARLY": "Anticipez le changement de résidence fiscale ainsi que la documentation bancaire et KYC. C'est la voie du permis pour ressortissants hors UE qui s'applique."
+      "PLAN_EARLY": "Anticipez le changement de résidence fiscale ainsi que la documentation bancaire et KYC. Votre pays actuel peut aussi avoir ses propres règles fiscales de départ.",
+      "PLAN_EARLY_NON_EU": "Anticipez le changement de résidence fiscale ainsi que la documentation bancaire et KYC. Votre pays actuel peut aussi avoir ses propres règles fiscales de départ. Sans nationalité suisse ou d'un État UE/AELE, ce sont les voies d'autorisation pour ressortissants hors UE qui s'appliquent."
     },
     "needs": [
       "Nationalités et passeports de chaque membre de la famille",

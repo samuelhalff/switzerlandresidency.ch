@@ -416,6 +416,7 @@
         "IT": "Italy",
         "BE": "Belgium",
         "AT": "Austria",
+        "NO": "Norway",
         "EU_OTHER": "Other EU / EFTA country",
         "GULF": "UAE / Gulf",
         "US": "United States",
@@ -447,7 +448,12 @@
         "UNDER_55": "Under 55",
         "55_PLUS": "55 or over"
       },
-      "livedLabel": "Have you (or your spouse) lived in Switzerland in the last 10 years?"
+      "chTaxLabel": "Have you (or your spouse) been tax-resident in Switzerland in the last 10 years?",
+      "chTax": {
+        "NO": "No",
+        "ORDINARY": "Yes, under ordinary taxation",
+        "LUMP_SUM": "Yes, taxed on a lump sum"
+      }
     },
     "q5": {
       "title": "Roughly how much does your household spend per year, worldwide?",
@@ -517,11 +523,11 @@
       },
       "R3": {
         "label": "Non-EU, retiree",
-        "text": "Residence for people aged 55 or over who do not work in Switzerland (Art. 28 AIG). It requires sufficient means and, in most cantons, personal ties to Switzerland. It is often combined with the fiscal-interest route."
+        "text": "Residence for people aged 55 or over who no longer work, in Switzerland or abroad (Art. 28 AIG); managing your own assets is allowed. It requires special personal ties to Switzerland (owning property is not enough) and sufficient means for life. The canton decides at its discretion and the SEM must approve. It is often combined with the fiscal-interest route."
       },
       "R4": {
         "label": "Non-EU, important fiscal interest",
-        "text": "Residence approved by the canton because of an important fiscal interest (Art. 30 para. 1 lit. b AIG). It usually goes with lump-sum taxation at a level the canton sets, often above the federal minimum."
+        "text": "A discretionary permit for an important fiscal interest (Art. 30 para. 1 lit. b AIG): the canton proposes it and the SEM must approve. It usually goes with lump-sum taxation at a level the canton sets (Geneva, for example, publishes CHF 750,000 as its expenditure base for this route). A tax agreement alone is not a permit."
       }
     },
     "lumpSum": {
@@ -535,22 +541,23 @@
       },
       "NOT_AVAILABLE": {
         "label": "Not available",
-        "text": "Lump-sum taxation is not open to Swiss nationals, to people who work in Switzerland, or to people who have lived in Switzerland in the last ten years. Ordinary taxation applies."
+        "text": "Lump-sum taxation is not open to Swiss nationals, to people who work in Switzerland, or to people who were tax-resident in Switzerland in the last ten years (unless they were taxed on a lump sum then). Ordinary taxation applies."
       },
       "TO_ASSESS": {
         "label": "To be assessed",
-        "text": "We need a little more information to tell whether lump-sum taxation is relevant for you."
+        "text": "We need a little more information to tell whether lump-sum taxation is relevant for you. If you were taxed on a lump sum in Switzerland before, you may be able to use it again."
       },
       "coupleNote": "For married couples, under current law both spouses must meet the conditions. We confirm the position for your household with the canton.",
       "r4Flag": "For non-EU nationals not working in Switzerland, residence is usually linked to lump-sum taxation. We would need to discuss your situation."
     },
     "flags": {
-      "UK": "UK: the statutory residence test and split-year treatment; the four-year FIG and TRF transition; UK inheritance tax on worldwide assets for up to ten years after leaving (long-term residents); the UK permit quota if you plan to work.",
-      "FR": "France: under the France–Switzerland treaty, lump-sum taxpayers need the enhanced lump sum (forfait majoré) to be treaty-resident; French exit tax on unrealised gains.",
-      "DE": "Germany: exit taxation (§ 6 AStG) on holdings of 1% or more; extended limited tax liability; a modified lump sum for German-source income.",
+      "UK": "UK: the remittance basis was abolished from 6 April 2025 (four-year FIG regime, and a Temporary Repatriation Facility for earlier foreign income and gains); long-term UK residents (10 of the last 20 tax years) can remain liable to UK inheritance tax on worldwide assets for 3 to 10 years after leaving; for British nationals who plan to work, the UK permit quota.",
+      "FR": "France: the France–Switzerland treaty has special rules for lump-sum taxpayers; confirm your position in a tax ruling before moving. French exit tax on unrealised gains (art. 167 bis CGI).",
+      "DE": "Germany: exit taxation (§ 6 AStG) on holdings of 1% or more if you were fully taxable in Germany for at least 7 of the last 12 years; a modified lump sum for German-source income.",
       "MODIFIED": "A modified lump sum is needed to claim treaty benefits on income from your current country.",
       "US_CITIZEN": "US citizens remain taxable in the United States, so the benefit of a lump sum may be limited. Swiss banks also apply FATCA onboarding rules.",
-      "PLAN_EARLY": "Plan the change of tax residence and your bank and KYC documentation early. The non-EU permit route applies."
+      "PLAN_EARLY": "Plan the change of tax residence and your bank and KYC documentation early. Your current country may also have its own exit or tax rules.",
+      "PLAN_EARLY_NON_EU": "Plan the change of tax residence and your bank and KYC documentation early. Your current country may also have its own exit or tax rules. Without Swiss or EU/EFTA citizenship, the non-EU permit routes apply."
     },
     "needs": [
       "Nationalities and passports of each family member",

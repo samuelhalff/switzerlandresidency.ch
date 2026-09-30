@@ -10,6 +10,7 @@ import {
   type AgeBand,
   type Answers,
   type CheckResult,
+  type ChTaxHistory,
   type Citizenship,
   type Household,
   type OtherRegion,
@@ -135,7 +136,7 @@ export default function EligibilityCheck({ labels: L, cantonNames, contactHref }
       case 3:
         return !!a.activity;
       case 4:
-        return !!a.household && a.children !== undefined && !!a.age && a.livedInChLast10y !== undefined;
+        return !!a.household && a.children !== undefined && !!a.age && !!a.chTaxLast10y;
       case 5:
         return !!a.spending;
       case 6:
@@ -286,13 +287,12 @@ export default function EligibilityCheck({ labels: L, cantonNames, contactHref }
                 </Choice>
               ))}
             </Group>
-            <Group legend={L.q4.livedLabel} cols={2}>
-              <Choice type="radio" name="lived" value="yes" checked={a.livedInChLast10y === true} onChange={() => set("livedInChLast10y", true)}>
-                {L.yes}
-              </Choice>
-              <Choice type="radio" name="lived" value="no" checked={a.livedInChLast10y === false} onChange={() => set("livedInChLast10y", false)}>
-                {L.no}
-              </Choice>
+            <Group legend={L.q4.chTaxLabel}>
+              {keysOf(L.q4.chTax).map((v) => (
+                <Choice key={v} type="radio" name="chTax" value={v} checked={a.chTaxLast10y === v} onChange={() => set("chTaxLast10y", v as ChTaxHistory)}>
+                  {L.q4.chTax[v]}
+                </Choice>
+              ))}
             </Group>
           </>
         ) : null}
