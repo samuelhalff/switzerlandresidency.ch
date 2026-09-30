@@ -29,7 +29,8 @@
     "allTopics": "Alle Themen",
     "indicative": "Unverbindliche Einschätzung, keine Rechts- oder Steuerberatung.",
     "ctaConversation": "Ein persönliches Gespräch vereinbaren",
-    "ctaRoute": "Oder sehen Sie Ihren möglichen Weg in zwei Minuten"
+    "ctaRoute": "Oder sehen Sie Ihren möglichen Weg in zwei Minuten",
+    "ctaRouteShort": "Oder Ihren Weg in 2 Minuten prüfen"
   },
   "languages": {
     "en": "English",

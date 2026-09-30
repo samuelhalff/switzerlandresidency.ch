@@ -57,10 +57,12 @@ export function buttonClasses({
 
 function Inner({ variant, arrow, children }: { variant: ButtonVariant; arrow?: boolean; children: ReactNode }) {
   if (variant === "link") {
+    // No wrapping <span> and no flex layout: the arrow must flow inline right after the
+    // last word of the (possibly wrapped) text, not sit flex-centred at the far edge.
     return (
       <>
-        <span>{children}</span>
-        {arrow ? <Icon name="arrow" size={17} className="btn-arrow shrink-0" /> : null}
+        {children}
+        {arrow ? <Icon name="arrow" size={17} className="btn-arrow" /> : null}
       </>
     );
   }

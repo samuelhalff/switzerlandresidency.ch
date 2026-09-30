@@ -62,16 +62,17 @@ export default async function HomePage({ params }: { params: LocaleParams }) {
         <ImageSlot
           name={homeImages.hero}
           locale={locale}
-          position="center 58%"
           priority
-          className="img-graded absolute inset-0 -z-20"
+          className="img-graded absolute inset-0 -z-20 [--img-pos:82%_58%] sm:[--img-pos:center_58%]"
         />
+        {/* Warm scrim: smooth vertical gradient, darkest behind the text block at the bottom.
+            No "dip" back to a light band — that let the brightest sky show through the headline. */}
         <div
           aria-hidden="true"
-          className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgb(30_22_16/0.4)_0%,rgb(30_22_16/0.05)_20%,rgb(30_22_16/0.55)_55%,rgb(30_22_16/0.85)_100%)] sm:bg-[linear-gradient(180deg,rgb(30_22_16/0.35)_0%,rgb(30_22_16/0)_22%,rgb(30_22_16/0)_45%,rgb(30_22_16/0.72)_100%)]"
+          className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgb(30_22_16/0.45)_0%,rgb(30_22_16/0.5)_14%,rgb(30_22_16/0.62)_38%,rgb(30_22_16/0.8)_68%,rgb(30_22_16/0.92)_100%)] sm:bg-[linear-gradient(180deg,rgb(30_22_16/0.3)_0%,rgb(30_22_16/0.32)_16%,rgb(30_22_16/0.48)_42%,rgb(30_22_16/0.7)_70%,rgb(30_22_16/0.88)_100%)]"
         />
         <Container className="pb-14 pt-40 sm:pb-20">
-          <div className="max-w-3xl" data-reveal="">
+          <div className="max-w-3xl [text-shadow:0_1px_10px_rgb(20_14_10/0.55)]" data-reveal="">
             <h1 className="font-light-display text-[2.6rem] leading-[1.04] sm:text-6xl lg:text-[4.5rem]">
               <AccentText text={t(locale, "home.hero.headline")} accent={t(locale, "home.hero.headlineAccent")} />
             </h1>
@@ -81,7 +82,8 @@ export default async function HomePage({ params }: { params: LocaleParams }) {
                 {t(locale, "common.ctaConversation")}
               </Button>
               <Button href={localePath(locale, "/eligibility-check/")} variant="link" arrow>
-                {t(locale, "common.ctaRoute")}
+                <span className="sm:hidden">{t(locale, "common.ctaRouteShort")}</span>
+                <span className="hidden sm:inline">{t(locale, "common.ctaRoute")}</span>
               </Button>
             </div>
             <p className="mt-10 text-sm text-muted">{t(locale, "home.hero.credibility")}</p>

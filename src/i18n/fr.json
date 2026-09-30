@@ -29,7 +29,8 @@
     "allTopics": "Tous les thèmes",
     "indicative": "À titre indicatif uniquement, sans valeur de conseil juridique ou fiscal.",
     "ctaConversation": "Organiser un entretien privé",
-    "ctaRoute": "Ou découvrez votre parcours indicatif en deux minutes"
+    "ctaRoute": "Ou découvrez votre parcours indicatif en deux minutes",
+    "ctaRouteShort": "Ou testez votre parcours en 2 minutes"
   },
   "languages": {
     "en": "English",

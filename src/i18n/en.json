@@ -29,7 +29,8 @@
     "allTopics": "All topics",
     "indicative": "Indicative only, not legal or tax advice.",
     "ctaConversation": "Arrange a private conversation",
-    "ctaRoute": "Or see your indicative route in two minutes"
+    "ctaRoute": "Or see your indicative route in two minutes",
+    "ctaRouteShort": "Or check your route in 2 minutes"
   },
   "languages": {
     "en": "English",

@@ -295,11 +295,12 @@ h4,
     transition: color 0.2s ease 0.18s;
   }
 
-  /* Secondary actions: an underlined text link, optionally with an arrow. */
+  /* Secondary actions: an underlined text link, optionally with an arrow.
+     Normal inline flow (not flex) so the underline stays continuous across a wrapped
+     line and the arrow flows right after the last word instead of sitting flex-centred
+     at the far edge of the box. */
   .btn-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
+    display: inline;
     font-weight: 500;
     color: rgb(var(--ink));
     text-decoration: underline;
@@ -310,17 +311,15 @@ h4,
       text-decoration-color 0.2s ease,
       color 0.2s ease;
   }
-  .btn-link > span {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
   .btn-link:hover,
   .btn-link:focus-visible {
     color: rgb(var(--em));
     text-decoration-color: currentColor;
   }
   .btn-arrow {
+    display: inline-block;
+    vertical-align: -3px;
+    margin-left: 0.4rem;
     transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   }
   .btn-link:hover .btn-arrow,
