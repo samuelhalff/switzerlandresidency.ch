@@ -1,6 +1,6 @@
 ---
-title: "Immobilien in der Schweiz kaufen als Ausländer"
-description: "Wir helfen neuen Einwohnern beim Immobilienkauf in der Schweiz: Lex-Koller-Prüfung, Ferienwohnungsregeln, Kantonswahl und Folgen für die Pauschalsteuer."
+title: "Immobiliensuche und Begleitung bei der Lex-Koller-Bewilligung"
+description: "Wir suchen Ihr Zuhause in der Schweiz und begleiten den Kauf für Sie: Auswahl, Besichtigungen, Lex-Koller-Prüfung, Bewilligung wenn nötig und Notar."
 slug: "property-search-purchase"
 translationKey: "property-search-purchase"
 collection: services

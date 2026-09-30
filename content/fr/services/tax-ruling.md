@@ -1,6 +1,6 @@
 ---
-title: "Ruling fiscal en Suisse avant votre installation"
-description: "Nous préparons et négocions un ruling fiscal avec l’administration cantonale, pour que votre imposition en Suisse soit convenue par écrit avant le départ."
+title: "Service de ruling fiscal pour les nouveaux résidents"
+description: "Nous préparons votre dossier et négocions pour vous le ruling avec le canton, afin que votre imposition en Suisse soit fixée par écrit avant le départ."
 slug: "tax-ruling"
 translationKey: "tax-ruling"
 collection: services

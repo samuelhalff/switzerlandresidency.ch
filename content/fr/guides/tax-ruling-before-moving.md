@@ -1,6 +1,6 @@
 ---
-title: "Ruling fiscal avant de s'installer en Suisse : le forfait"
-description: "Pourquoi fixer son forfait fiscal suisse par un ruling écrit avant de s'installer : quand il lie le canton, quoi fournir, quel lien avec le permis."
+title: "Ruling fiscal (Steuerruling) avant de s’installer en Suisse"
+description: "Ruling fiscal : quand lie-t-il le canton, que fournir, quel lien avec le permis ? Le guide pour les familles qui envisagent le forfait fiscal suisse."
 slug: "tax-ruling-before-moving"
 translationKey: "tax-ruling-before-moving"
 collection: guides

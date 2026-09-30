@@ -1,6 +1,6 @@
 ---
-title: "Swiss tax ruling before you move"
-description: "We prepare and negotiate an advance tax ruling with the cantonal tax authority, so your Swiss tax position is agreed in writing before you relocate."
+title: "Tax ruling service for new Swiss residents"
+description: "We prepare your file and negotiate the tax ruling with the canton for you, so your Swiss tax position is agreed in writing before you move."
 slug: "tax-ruling"
 translationKey: "tax-ruling"
 collection: services

@@ -1,6 +1,6 @@
 ---
-title: "Buying property in Switzerland as a foreigner"
-description: "We help new residents find and buy a Swiss home: Lex Koller checks, holiday-home rules, canton choice and how the property affects your lump-sum base."
+title: "Property search and Lex Koller authorisation support"
+description: "We search for your Swiss home and see the purchase through for you: shortlists, viewings, Lex Koller checks, authorisation where needed and the notary."
 slug: "property-search-purchase"
 translationKey: "property-search-purchase"
 collection: services

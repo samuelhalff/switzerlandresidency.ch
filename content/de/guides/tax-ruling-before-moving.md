@@ -1,6 +1,6 @@
 ---
-title: "Steuerruling vor dem Zuzug: Pauschalbesteuerung"
-description: "Warum Familien die Pauschalbesteuerung vor dem Zuzug in einem Steuerruling festlegen: wann es bindet, was einzureichen ist und der Bezug zur Bewilligung."
+title: "Steuerruling (ruling fiscal) vor dem Zuzug in die Schweiz"
+description: "Steuerruling vor dem Zuzug: wann es den Kanton bindet, was einzureichen ist, wie es mit der Bewilligung zusammenhängt. Ratgeber zur Pauschalbesteuerung."
 slug: "tax-ruling-before-moving"
 translationKey: "tax-ruling-before-moving"
 collection: guides

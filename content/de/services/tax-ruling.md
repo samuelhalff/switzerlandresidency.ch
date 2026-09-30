@@ -1,6 +1,6 @@
 ---
-title: "Steuerruling Schweiz: Klarheit vor dem Umzug"
-description: "Wir bereiten Ihr Steuerruling vor und verhandeln es mit der kantonalen Steuerbehörde, damit Ihre Steuersituation in der Schweiz vor dem Umzug feststeht."
+title: "Steuerruling-Begleitung für neue Einwohner der Schweiz"
+description: "Wir bereiten Ihr Dossier vor und verhandeln das Steuerruling für Sie mit dem Kanton, damit Ihre Besteuerung vor dem Umzug schriftlich feststeht."
 slug: "tax-ruling"
 translationKey: "tax-ruling"
 collection: services

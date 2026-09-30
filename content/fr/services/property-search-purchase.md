@@ -1,6 +1,6 @@
 ---
-title: "Acheter un bien en Suisse quand on est étranger"
-description: "Nous aidons les nouveaux résidents à acheter un bien en Suisse : Lex Koller, résidences secondaires, choix du canton et effet sur le forfait fiscal."
+title: "Recherche immobilière et autorisation Lex Koller"
+description: "Nous cherchons votre logement en Suisse et menons l’achat pour vous : sélection, visites, contrôle Lex Koller, autorisation si nécessaire et notaire."
 slug: "property-search-purchase"
 translationKey: "property-search-purchase"
 collection: services

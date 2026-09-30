@@ -1,6 +1,6 @@
 ---
-title: "Swiss tax ruling before you move: lump sum"
-description: "Why families agree their Swiss lump-sum tax in a written ruling before moving, when a ruling binds the canton, what to submit and how it links to permits."
+title: "Swiss tax ruling (ruling fiscal, Steuerruling) before you move"
+description: "What a Swiss tax ruling is, when it binds the canton, what to submit and how it links to your permit: a plain guide for families planning a lump-sum move."
 slug: "tax-ruling-before-moving"
 translationKey: "tax-ruling-before-moving"
 collection: guides
