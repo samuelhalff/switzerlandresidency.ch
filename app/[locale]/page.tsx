@@ -59,7 +59,13 @@ export default async function HomePage({ params }: { params: LocaleParams }) {
         data-hero-overlay=""
         className="on-dark relative isolate -mt-[72px] flex min-h-[640px] items-end overflow-hidden bg-[#3a2e25] sm:min-h-[720px] lg:h-[100svh] lg:max-h-[960px]"
       >
-        <ImageSlot name={homeImages.hero} locale={locale} position="center 58%" className="img-graded absolute inset-0 -z-20" />
+        <ImageSlot
+          name={homeImages.hero}
+          locale={locale}
+          position="center 58%"
+          priority
+          className="img-graded absolute inset-0 -z-20"
+        />
         <div
           aria-hidden="true"
           className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgb(30_22_16/0.4)_0%,rgb(30_22_16/0.05)_20%,rgb(30_22_16/0.55)_55%,rgb(30_22_16/0.85)_100%)] sm:bg-[linear-gradient(180deg,rgb(30_22_16/0.35)_0%,rgb(30_22_16/0)_22%,rgb(30_22_16/0)_45%,rgb(30_22_16/0.72)_100%)]"

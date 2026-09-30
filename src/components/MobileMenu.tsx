@@ -26,10 +26,32 @@ export default function MobileMenu({ links, cta, openLabel, closeLabel, navLabel
     // Keep the header solid while the panel is open (it is transparent over the home hero).
     document.querySelector(".site-header")?.toggleAttribute("data-menu-open", open);
     if (!open) return;
+    const main = document.getElementById("main");
+    const footer = document.querySelector("footer");
+    main?.setAttribute("inert", "");
+    footer?.setAttribute("inert", "");
+    const getFocusable = () =>
+      Array.from(
+        panelRef.current?.querySelectorAll<HTMLElement>('a[href], button, input, [tabindex]:not([tabindex="-1"])') ?? [],
+      );
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         setOpen(false);
         buttonRef.current?.focus();
+        return;
+      }
+      if (e.key !== "Tab") return;
+      const focusable = getFocusable();
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      // Trap Tab/Shift+Tab inside the panel while the rest of the page is inert.
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
       }
     };
     document.addEventListener("keydown", onKey);
@@ -38,8 +60,23 @@ export default function MobileMenu({ links, cta, openLabel, closeLabel, navLabel
     return () => {
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = "";
+      main?.removeAttribute("inert");
+      footer?.removeAttribute("inert");
     };
   }, [open]);
+
+  useEffect(() => {
+    // Panel is mobile/tablet-only: if the viewport crosses to lg while open, close it.
+    const mq = window.matchMedia("(min-width: 1024px)");
+    const onChange = (e: MediaQueryListEvent) => {
+      if (e.matches) setOpen(false);
+    };
+    mq.addEventListener("change", onChange);
+    return () => {
+      mq.removeEventListener("change", onChange);
+      document.body.style.overflow = "";
+    };
+  }, []);
 
   return (
     <div className="lg:hidden">

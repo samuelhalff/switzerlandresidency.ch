@@ -369,12 +369,20 @@ h4,
     border-radius: 4px;
   }
 
-  /* ---------- Photo slot (CSS background over a warm gradient fallback) ---------- */
+  /* ---------- Photo slot: real <img>, object-fit: cover, over a warm gradient fallback ---------- */
   .img-slot {
+    position: relative;
+    overflow: hidden;
     background-color: rgb(var(--subtle));
-    background-image: var(--img), var(--hero-fallback);
-    background-size: cover;
-    background-position: var(--img-pos, center);
+    background-image: var(--hero-fallback);
+  }
+  .img-slot > img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: var(--img-pos, center);
   }
   /* One warm grade for all photography. */
   .img-graded {

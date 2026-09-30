@@ -11,6 +11,7 @@ export default function Photo({
   position,
   rounded = true,
   zoom = false,
+  priority = false,
   className,
 }: {
   name: ImageName;
@@ -19,15 +20,16 @@ export default function Photo({
   position?: string;
   rounded?: boolean;
   zoom?: boolean;
+  priority?: boolean;
   className?: string;
 }) {
   const cls = cn("img-graded absolute inset-0", zoom && "zoom-media");
   return (
     <div className={cn("relative overflow-hidden", aspect, rounded && "rounded-soft", className)}>
       {locale ? (
-        <ImageSlot name={name} locale={locale} position={position} className={cls} />
+        <ImageSlot name={name} locale={locale} position={position} priority={priority} className={cls} />
       ) : (
-        <ImageSlot name={name} decorative position={position} className={cls} />
+        <ImageSlot name={name} decorative position={position} priority={priority} className={cls} />
       )}
     </div>
   );

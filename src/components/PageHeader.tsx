@@ -29,7 +29,7 @@ export default function PageHeader({ locale, title, accent, intro, crumbs, image
       {image ? (
         <Container className="mt-12 sm:mt-16">
           <figure>
-            <Photo name={image} locale={locale} aspect="aspect-[4/3] sm:aspect-[21/9]" />
+            <Photo name={image} locale={locale} aspect="aspect-[4/3] sm:aspect-[21/9]" priority />
             <figcaption className="mt-3 text-sm text-muted">{imageCaption(image, locale)}</figcaption>
           </figure>
         </Container>

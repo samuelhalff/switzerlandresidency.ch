@@ -13,7 +13,7 @@ import JsonLd from "@/components/JsonLd";
 import AnalyticsBootstrap from "@/components/Analytics";
 import CookieBanner from "@/components/CookieBanner";
 import RevealObserver from "@/components/ui/RevealObserver";
-import { themeInitScript } from "@/lib/theme";
+import { THEME_COLORS, themeInitScript } from "@/lib/theme";
 
 export const dynamicParams = false;
 
@@ -29,10 +29,9 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f7f1e8" },
-    { media: "(prefers-color-scheme: dark)", color: "#1c1916" },
-  ],
+  // Single, unscoped meta: the inline no-flash script and ThemeToggle keep its content in
+  // sync with the effective theme, so a manual light/dark choice overrides the OS preference.
+  themeColor: THEME_COLORS.light,
 };
 
 export default async function LocaleLayout({

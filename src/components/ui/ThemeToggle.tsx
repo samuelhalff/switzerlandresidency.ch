@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Icon, { type IconName } from "./Icon";
 import { cn } from "./cn";
-import { THEME_STORAGE_KEY, type ThemePref } from "@/lib/theme";
+import { THEME_COLORS, THEME_STORAGE_KEY, type ThemePref } from "@/lib/theme";
 
 const SYNC_EVENT = "sr-theme-change";
 
@@ -22,10 +22,17 @@ function readPref(): ThemePref {
   }
 }
 
+/** Keeps <meta name="theme-color"> matching the effective theme (manual choice wins). */
+function syncThemeColorMeta(pref: ThemePref) {
+  const dark = pref === "dark" || (pref === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+  document.querySelector('meta[name="theme-color"]')?.setAttribute("content", dark ? THEME_COLORS.dark : THEME_COLORS.light);
+}
+
 function applyPref(pref: ThemePref) {
   const root = document.documentElement;
   if (pref === "system") root.removeAttribute("data-theme");
   else root.setAttribute("data-theme", pref);
+  syncThemeColorMeta(pref);
   try {
     if (pref === "system") window.localStorage.removeItem(THEME_STORAGE_KEY);
     else window.localStorage.setItem(THEME_STORAGE_KEY, pref);
