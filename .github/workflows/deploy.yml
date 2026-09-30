@@ -15,7 +15,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     env:
       NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL || 'https://switzerlandresidency.ch' }}
       # Keep "true" until HTTPS is live (noindex + robots Disallow).
@@ -56,10 +56,16 @@ jobs:
           # Web root relative to the FTP login directory (repo variable; default: the login directory).
           FTP_DIR: ${{ vars.FTP_DIR || './' }}
         run: |
-          # The host's FTP certificate is broken, so verification is off; the channel is still encrypted.
-          # Protected paths on the server are never touched: the old site archive, quota file,
-          # ACME challenges, cgi-bin and .htaccess backups.
-          lftp -u "$FTP_USER","$FTP_PASS" -p "${FTP_PORT:-21}" "$FTP_HOST" <<LFTP
+          # Protected server paths are never touched: the old-site archive, quota file, ACME
+          # challenges, cgi-bin and .htaccess backups. Regex excludes match files AND folders
+          # (a plain `--exclude-glob _archive-*` does not match the directory — on 2026-09-30 it
+          # let lftp start deleting the archive).
+          MIRROR="mirror --reverse --delete --verbose --parallel=4 \
+            --exclude '^_archive-' --exclude '^\.ftpquota$' --exclude '^\.well-known/' \
+            --exclude '^cgi-bin/' --exclude '^\.htaccess\.bak' \
+            out/ $FTP_DIR"
+          run_lftp() {
+            lftp -u "$FTP_USER","$FTP_PASS" -p "${FTP_PORT:-21}" "$FTP_HOST" <<LFTP
           set ftp:ssl-force true
           set ftp:ssl-protect-data true
           # GoDaddy presents a valid Starfield cert for *.prod.sxb1.secureserver.net, but no
@@ -68,15 +74,17 @@ jobs:
           set ssl:check-hostname no
           set net:max-retries 3
           set net:timeout 30
-          mirror --reverse --delete --verbose --parallel=4 \
-            --exclude-glob _archive-* \
-            --exclude-glob .ftpquota \
-            --exclude-glob .well-known/ \
-            --exclude-glob cgi-bin/ \
-            --exclude-glob .htaccess.bak* \
-            out/ "$FTP_DIR"
+          $1
           bye
           LFTP
+          }
+          # 1) Dry run: abort if the plan would remove anything protected.
+          run_lftp "$MIRROR --dry-run" | tee plan.txt
+          if grep -Eq "_archive-|\.ftpquota|\.well-known|cgi-bin" plan.txt; then
+            echo "::error::Deploy plan touches a protected path — aborting."; exit 1
+          fi
+          # 2) Real deploy.
+          run_lftp "$MIRROR"
 
       - name: Smoke test (HTTP until HTTPS is live)
         run: |
