@@ -91,7 +91,7 @@ Wohneigentum oder geschäftliche Verbindungen genügen nicht, um Beziehungen nac
 
 Die Pauschalbesteuerung (Besteuerung nach dem Aufwand, französisch forfait fiscal) besteuert Sie nach Ihrem weltweiten jährlichen Lebensaufwand statt nach Einkommen und Vermögen. Sie steht Personen ohne Schweizer Bürgerrecht offen, die erstmals oder nach zehn Jahren Abwesenheit in der Schweiz steuerpflichtig werden und hier nicht erwerbstätig sind. Beide Ehegatten müssen die Voraussetzungen erfüllen.
 
-Die Bemessungsgrundlage beträgt 2026 für die direkte Bundessteuer mindestens CHF 435'000, mindestens das Siebenfache des Mietzinses oder Mietwerts Ihrer Wohnung und mindestens das kantonale Minimum, das von CHF 200'000 im Jura bis CHF 647'100 in Luzern reicht. Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt haben sie abgeschafft. Alle Einkünfte, für die Sie Abkommensschutz beanspruchen, fliessen in eine Kontrollrechnung ein. Es hilft deshalb, früh zu wissen, aus welchen Ländern Ihre Einkünfte stammen.
+Die Bemessungsgrundlage beträgt 2026 für die direkte Bundessteuer mindestens CHF 435'000, mindestens das Siebenfache des Mietzinses oder Mietwerts Ihrer Wohnung und mindestens das kantonale Minimum, das von CHF 200'000 im Jura bis CHF 647'100 in Luzern reicht. Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt haben sie abgeschafft, und Basel-Landschaft lässt sie nur noch für das Zuzugssteuerjahr zu. Alle Einkünfte, für die Sie Abkommensschutz beanspruchen, fliessen in eine Kontrollrechnung ein. Es hilft deshalb, früh zu wissen, aus welchen Ländern Ihre Einkünfte stammen.
 
 ## Familiennachzug
 

@@ -88,7 +88,7 @@ Each country has its own rules on when tax residence ends and what happens to as
 - **Lump-sum taxation (forfait fiscal):** tax based on your worldwide living costs instead of income and wealth. The federal minimum base is CHF 435,000 for 2026, each canton sets its own minimum, and the base is at least seven times your annual rent or rental value.
 - **Conditions:** not Swiss, first Swiss residence or return after 10 years, no gainful activity in Switzerland, and both spouses must qualify.
 - **Treaties:** Singapore, Hong Kong, China and India are not on the list of treaties that require the modified lump sum. If you have income from the USA, Canada, Germany, Italy, Belgium, Austria or Norway and want treaty relief, the modified rules apply to that income.
-- **Where it is available:** not in Zurich, Schaffhausen, Appenzell Ausserrhoden or Basel-Stadt. In Zurich, the fiscal-interest permit relies on ordinary taxation instead.
+- **Where it is available:** not in Zurich, Schaffhausen, Appenzell Ausserrhoden or Basel-Stadt, and in Basel-Landschaft only for the arrival tax year. In Zurich, the fiscal-interest permit relies on ordinary taxation instead.
 
 Our guide on [moving to Switzerland from Asia](/en/guides/moving-from-asia/) sets out the sequence from first review to arrival.
 

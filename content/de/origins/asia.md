@@ -88,7 +88,7 @@ Jedes Land regelt selbst, wann die steuerliche Ansässigkeit endet und was beim 
 - **Besteuerung nach dem Aufwand (Pauschalbesteuerung, «forfait fiscal»):** Steuer auf Basis Ihrer weltweiten Lebenshaltungskosten statt auf Einkommen und Vermögen. Die bundesrechtliche Mindestbemessungsgrundlage beträgt CHF 435'000 für 2026, jeder Kanton legt sein eigenes Minimum fest, und die Bemessungsgrundlage beträgt mindestens das Siebenfache Ihres jährlichen Mietzinses oder Mietwerts.
 - **Voraussetzungen:** keine Schweizer Staatsangehörigkeit, erstmaliger Wohnsitz in der Schweiz oder Rückkehr nach 10 Jahren, keine Erwerbstätigkeit in der Schweiz, und beide Ehegatten müssen die Bedingungen erfüllen.
 - **Abkommen:** Singapur, Hongkong, China und Indien stehen nicht auf der Liste der Abkommen, die die modifizierte Pauschalbesteuerung verlangen. Haben Sie Einkünfte aus den USA, Kanada, Deutschland, Italien, Belgien, Österreich oder Norwegen und möchten Abkommensentlastung, gelten für diese Einkünfte die modifizierten Regeln.
-- **Wo sie verfügbar ist:** nicht in Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt. In Zürich stützt sich die Bewilligung aus fiskalischen Interessen stattdessen auf die ordentliche Besteuerung.
+- **Wo sie verfügbar ist:** nicht in Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt, und in Basel-Landschaft nur für das Zuzugssteuerjahr. In Zürich stützt sich die Bewilligung aus fiskalischen Interessen stattdessen auf die ordentliche Besteuerung.
 
 Unser Ratgeber zum [Umzug aus Asien in die Schweiz](/de/guides/moving-from-asia/) zeigt die Reihenfolge von der ersten Prüfung bis zur Ankunft.
 

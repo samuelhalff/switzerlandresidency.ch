@@ -23,9 +23,10 @@
       },
       "intent": "informational",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "demand-wave2 #7 / seo-topics B6",
-      "notes": "Official processing times are UNVERIFIED: describe phases and their order (ruling, cantonal file, SEM approval, arrival, registration) without durations."
+      "notes": "Official processing times are UNVERIFIED: describe phases and their order (ruling, cantonal file, SEM approval, arrival, registration) without durations.",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "swiss-tax-residence-rules",
@@ -49,9 +50,10 @@
       },
       "intent": "informational",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "demand-wave2 #8 / seo-topics G1 / legal audit 2026-09 / audit-2026-09-30 topic 1",
-      "notes": "Legal content audit: the Swiss test is domicile or stay (30 days with gainful activity / 90 days without), not 183 days. Explain treaty tie-breakers. Never present 183 days as the Swiss test. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §1."
+      "notes": "Legal content audit: the Swiss test is domicile or stay (30 days with gainful activity / 90 days without), not 183 days. Explain treaty tie-breakers. Never present 183 days as the Swiss test. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §1.",
+      "note": "covered by hand-written guide swiss-tax-residency (2026-09-30)"
     },
     {
       "slug": "how-much-wealth-to-move-to-switzerland",
@@ -75,9 +77,10 @@
       },
       "intent": "informational",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "demand-wave2 #9",
-      "notes": "Explain by route (EU/EFTA, non-EU 55+, fiscal interest, lump sum). Figures only from legal-facts; no invented budgets."
+      "notes": "Explain by route (EU/EFTA, non-EU 55+, fiscal interest, lump sum). Figures only from legal-facts; no invented budgets.",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "swiss-wealth-tax-by-canton",
@@ -101,8 +104,9 @@
       },
       "intent": "informational",
       "priority": 1,
-      "status": "todo",
-      "source": "demand-wave2 #10 / seo-topics G2"
+      "status": "done",
+      "source": "demand-wave2 #10 / seo-topics G2",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "self-employed-permit-non-eu",
@@ -229,9 +233,10 @@
       },
       "intent": "commercial",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "codex review 2026-09-30",
-      "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices."
+      "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices.",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "destination-services-vs-relocation-agency",
@@ -536,9 +541,10 @@
       },
       "intent": "informational",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "demand-wave2 #18 / legal audit 2026-09 / audit-2026-09-30 topic 3",
-      "notes": "Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §3."
+      "notes": "Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §3.",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "switzerland-vs-dubai",
@@ -612,9 +618,10 @@
       },
       "intent": "informational",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "source": "demand-wave2 #3",
-      "notes": "Adviser brief as a guide. Mark skipped if a /for-advisers/ page with this angle ships."
+      "notes": "Adviser brief as a guide. Mark skipped if a /for-advisers/ page with this angle ships.",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "non-eu-client-swiss-residence-checklist",
@@ -638,8 +645,9 @@
       },
       "intent": "commercial",
       "priority": 2,
-      "status": "todo",
-      "source": "demand-wave2 #4"
+      "status": "done",
+      "source": "demand-wave2 #4",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "french-clients-swiss-lump-sum-advisers",
@@ -661,9 +669,10 @@
       },
       "intent": "informational",
       "priority": 2,
-      "status": "todo",
+      "status": "done",
       "source": "demand-wave2 #5 (FR-first)",
-      "notes": "The exact CH-FR treaty rule for lump-sum taxpayers is UNVERIFIED: say it has special rules and needs checking."
+      "notes": "The exact CH-FR treaty rule for lump-sum taxpayers is UNVERIFIED: say it has special rules and needs checking.",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "german-clients-swiss-lump-sum-advisers",
@@ -685,8 +694,9 @@
       },
       "intent": "informational",
       "priority": 2,
-      "status": "todo",
-      "source": "demand-wave2 #6 (DE-first)"
+      "status": "done",
+      "source": "demand-wave2 #6 (DE-first)",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "us-clients-moving-to-switzerland-adviser-notes",
@@ -1875,9 +1885,10 @@
       },
       "intent": "informational",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "seo-topics B7 / legal audit 2026-09 / audit-2026-09-30 topic 2",
-      "notes": "Legal content audit: naturalisation needs a C permit and 10 years of residence; language B1 oral / A2 written. Cite fedlex (BüG/BüV) and sem.admin.ch only. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §2."
+      "notes": "Legal content audit: naturalisation needs a C permit and 10 years of residence; language B1 oral / A2 written. Cite fedlex (BüG/BüV) and sem.admin.ch only. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §2.",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "client-intake-questions-swiss-move",
@@ -2062,9 +2073,10 @@
       },
       "intent": "commercial",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "demand-wave2 #2",
-      "notes": "Adviser-oriented guide (the /for-advisers/ hub itself is built by hand). Relocation scope only: no family-office coordination (ridger.ch)."
+      "notes": "Adviser-oriented guide (the /for-advisers/ hub itself is built by hand). Relocation scope only: no family-office coordination (ridger.ch).",
+      "note": "written by hand 2026-09-30 (P1 wave)"
     },
     {
       "slug": "relocation-partners-switzerland",

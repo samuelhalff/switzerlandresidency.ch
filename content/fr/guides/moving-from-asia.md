@@ -91,7 +91,7 @@ Dès 55 ans, un ressortissant hors UE peut demander à vivre en Suisse en tant q
 
 Le forfait fiscal (imposition d’après la dépense, Pauschalbesteuerung en allemand) vous impose sur votre train de vie annuel mondial plutôt que sur vos revenus et votre fortune. Il est ouvert aux ressortissants étrangers qui prennent pour la première fois leur résidence fiscale en Suisse, ou après dix ans d’absence, et qui n’y exercent pas d’activité lucrative. Les deux conjoints doivent remplir les conditions.
 
-La base atteint au moins CHF 435 000 pour l’impôt fédéral en 2026, au moins sept fois le loyer ou la valeur locative de votre logement, et au moins le minimum cantonal, qui va de CHF 200 000 dans le Jura à CHF 647 100 à Lucerne. Zurich, Schaffhouse, Appenzell Rhodes-Extérieures et Bâle-Ville l’ont aboli. Tout revenu pour lequel vous demandez les avantages d’une convention entre dans un calcul de contrôle : mieux vaut donc savoir tôt de quels pays proviennent vos revenus.
+La base atteint au moins CHF 435 000 pour l’impôt fédéral en 2026, au moins sept fois le loyer ou la valeur locative de votre logement, et au moins le minimum cantonal, qui va de CHF 200 000 dans le Jura à CHF 647 100 à Lucerne. Zurich, Schaffhouse, Appenzell Rhodes-Extérieures et Bâle-Ville l’ont aboli, et Bâle-Campagne ne l’admet que pour l’année fiscale d’arrivée. Tout revenu pour lequel vous demandez les avantages d’une convention entre dans un calcul de contrôle : mieux vaut donc savoir tôt de quels pays proviennent vos revenus.
 
 ## Faire venir sa famille
 

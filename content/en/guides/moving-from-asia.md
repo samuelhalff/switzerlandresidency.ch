@@ -91,7 +91,7 @@ Owning property or having business links is not enough to show ties. For many fa
 
 Lump-sum taxation (taxation according to expenditure, forfait fiscal or Pauschalbesteuerung) taxes you on your worldwide annual living costs instead of your income and wealth. It is open to non-Swiss nationals taking up Swiss tax residence for the first time, or after ten years away, who do not work in Switzerland. Both spouses must meet the conditions.
 
-The base is at least CHF 435,000 for the federal tax in 2026, at least seven times the rent or rental value of your home, and at least the cantonal minimum, which ranges from CHF 200,000 in Jura to CHF 647,100 in Lucerne. Zurich, Schaffhausen, Appenzell Ausserrhoden and Basel-Stadt have abolished it. Any income on which you claim treaty relief enters a control calculation, so it helps to know early which countries your income comes from.
+The base is at least CHF 435,000 for the federal tax in 2026, at least seven times the rent or rental value of your home, and at least the cantonal minimum, which ranges from CHF 200,000 in Jura to CHF 647,100 in Lucerne. Zurich, Schaffhausen, Appenzell Ausserrhoden and Basel-Stadt have abolished it, and Basel-Landschaft allows it only for the arrival tax year. Any income on which you claim treaty relief enters a control calculation, so it helps to know early which countries your income comes from.
 
 ## Bringing the family
 

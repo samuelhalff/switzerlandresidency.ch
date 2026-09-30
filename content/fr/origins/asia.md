@@ -88,7 +88,7 @@ Chaque pays a ses propres règles sur la fin de la résidence fiscale et sur le 
 - **Imposition d’après la dépense (forfait fiscal) :** l’impôt est calculé sur vos dépenses de train de vie dans le monde plutôt que sur votre revenu et votre fortune. La base minimale fédérale est de CHF 435 000 pour 2026, chaque canton fixe son propre minimum, et la base atteint au moins sept fois votre loyer annuel ou la valeur locative.
 - **Conditions :** ne pas être de nationalité suisse, s’installer en Suisse pour la première fois ou y revenir après 10 ans d’absence, n’exercer aucune activité lucrative en Suisse, et les deux époux doivent remplir les conditions.
 - **Conventions :** Singapour, Hong Kong, la Chine et l’Inde ne figurent pas sur la liste des conventions qui exigent le forfait modifié. Si vous avez des revenus provenant des États-Unis, du Canada, d’Allemagne, d’Italie, de Belgique, d’Autriche ou de Norvège et souhaitez bénéficier des allègements conventionnels, les règles du forfait modifié s’appliquent à ces revenus.
-- **Où il existe :** pas à Zurich, Schaffhouse, Appenzell Rhodes-Extérieures ni Bâle-Ville. À Zurich, l’autorisation fondée sur les intérêts fiscaux repose sur l’imposition ordinaire.
+- **Où il existe :** pas à Zurich, Schaffhouse, Appenzell Rhodes-Extérieures ni Bâle-Ville, et à Bâle-Campagne seulement pour l'année fiscale d'arrivée. À Zurich, l’autorisation fondée sur les intérêts fiscaux repose sur l’imposition ordinaire.
 
 Notre guide [s’installer en Suisse depuis l’Asie](/fr/guides/moving-from-asia/) présente les étapes, du premier examen jusqu’à l’arrivée.
 
