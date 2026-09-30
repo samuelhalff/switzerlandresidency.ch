@@ -116,7 +116,10 @@ for (const locale of LOCALES) {
       const updated = data.updated instanceof Date ? data.updated.toISOString().slice(0, 10) : data.updated;
       const slug = data.slug || f.replace(/\.md$/, "");
 
-      for (const field of ["title", "description", "translationKey", "updated", "category"]) {
+      // category drives the guide filters; other collections don't use it
+      const required = ["title", "description", "translationKey", "updated"];
+      if (collection === "guides") required.push("category");
+      for (const field of required) {
         if (!data[field]) fail(`content: ${rel} is missing frontmatter "${field}"`);
       }
       if (updated && !ISO.test(String(updated))) fail(`content: ${rel} "updated" must be YYYY-MM-DD`);
