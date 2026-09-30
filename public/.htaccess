@@ -3,6 +3,19 @@
 # nothing below rewrites anything except the bare root "/".
 
 Options -Indexes
+
+# Deploy bookkeeping (scripts/deploy-ftp.py): manifest, journal and in-flight *.deploy-tmp files
+# live in the web root but must never be served.
+<FilesMatch "(^\.deploy-|\.deploy-tmp$)">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
 AddDefaultCharset utf-8
@@ -44,11 +57,13 @@ AddType image/webp .webp
   # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 
   # Caching: hashed build assets are immutable; HTML must revalidate so deploys show up at once.
-  <If "%{REQUEST_URI} =~ m#^/_next/static/#">
+  # (_buildManifest.js/_ssgManifest.js keep a fixed URL because next.config.mjs pins the build id,
+  # so they are excluded from "immutable" and fall through to no-cache below.)
+  <If "%{REQUEST_URI} =~ m#^/_next/static/# && %{REQUEST_URI} !~ m#/_(build|ssg)Manifest\.js$#">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </If>
   <Else>
-    <FilesMatch "\.(html|txt|xml)$">
+    <FilesMatch "(\.(html|txt|xml)|_(build|ssg)Manifest\.js)$">
       Header set Cache-Control "no-cache"
     </FilesMatch>
     <FilesMatch "\.(webp|avif|jpe?g|png|svg|ico|woff2?)$">

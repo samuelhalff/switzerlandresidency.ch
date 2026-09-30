@@ -36,6 +36,8 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
       - run: npm test
+      - name: Deploy script tests
+        run: for f in scripts/tests/test_*.py; do python3 "$f"; done
       - run: npm run build # prebuild runs scripts/validate-content.mjs
 
       - name: Check export
@@ -44,47 +46,23 @@ jobs:
           test -f out/404.html
           test -f out/.htaccess
 
-      - name: Install lftp
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
-
-      - name: Deploy over FTPS (explicit TLS)
+      - name: Deploy over FTPS (explicit TLS, incremental, per-file atomic swap)
         env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_PORT: ${{ secrets.FTP_PORT }}
-          FTP_USER: ${{ secrets.FTP_USER }}
-          FTP_PASS: ${{ secrets.FTP_PASS }}
+          DEPLOY_HOST: ${{ secrets.FTP_HOST }}
+          DEPLOY_PORT: ${{ secrets.FTP_PORT }}
+          DEPLOY_USER: ${{ secrets.FTP_USER }}
+          DEPLOY_PASS: ${{ secrets.FTP_PASS }}
           # Web root relative to the FTP login directory (repo variable; default: the login directory).
-          FTP_DIR: ${{ vars.FTP_DIR || './' }}
+          DEPLOY_DIR: ${{ vars.FTP_DIR || '.' }}
         run: |
-          # Protected server paths are never touched: the old-site archive, quota file, ACME
-          # challenges, cgi-bin and .htaccess backups. Regex excludes match files AND folders
-          # (a plain `--exclude-glob _archive-*` does not match the directory — on 2026-09-30 it
-          # let lftp start deleting the archive).
-          MIRROR="mirror --reverse --delete --verbose --parallel=4 \
-            --exclude '^_archive-' --exclude '^\.ftpquota$' --exclude '^\.well-known/' \
-            --exclude '^cgi-bin/' --exclude '^\.htaccess\.bak' \
-            out/ $FTP_DIR"
-          run_lftp() {
-            lftp -u "$FTP_USER","$FTP_PASS" -p "${FTP_PORT:-21}" "$FTP_HOST" <<LFTP
-          set ftp:ssl-force true
-          set ftp:ssl-protect-data true
-          # GoDaddy presents a valid Starfield cert for *.prod.sxb1.secureserver.net, but no
-          # name in that zone resolves to our host IP: verify the chain, skip the hostname match.
-          set ssl:verify-certificate yes
-          set ssl:check-hostname no
-          set net:max-retries 3
-          set net:timeout 30
-          $1
-          bye
-          LFTP
-          }
-          # 1) Dry run: abort if the plan would remove anything protected.
-          run_lftp "$MIRROR --dry-run" | tee plan.txt
-          if grep -Eq "_archive-|\.ftpquota|\.well-known|cgi-bin" plan.txt; then
-            echo "::error::Deploy plan touches a protected path — aborting."; exit 1
-          fi
+          # scripts/deploy-ftp.py uploads only files whose sha256 changed since the manifest on the
+          # server, swaps pages in via tmp + rename (never a missing page), and deletes only files
+          # listed in its previous manifest. Protected paths (_archive-*, .ftpquota, .well-known,
+          # cgi-bin) are asserted before every write and abort the run if ever hit.
+          # 1) Plan only (read-only: fetches the manifest), logged for the run record.
+          python3 scripts/deploy-ftp.py --dry-run
           # 2) Real deploy.
-          run_lftp "$MIRROR"
+          python3 scripts/deploy-ftp.py
 
       - name: Smoke test (HTTP until HTTPS is live)
         run: |
@@ -100,4 +78,5 @@ jobs:
           check /fr/ 200
           check /de/ 200
           check /_archive-2026-09-30/index.php 403
+          check /.deploy-manifest.json 403
           exit $fail

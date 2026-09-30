@@ -118,12 +118,31 @@ Put optimised `.webp` files in `public/images/` using the names in `src/lib/imag
 ## Deploy
 
 `.github/workflows/deploy.yml` runs on push to `main` (or manually): lint → typecheck → test →
-build → `lftp mirror --reverse --delete` of `out/` over explicit FTPS → smoke test
-(`/en/`, `/fr/`, `/de/` = 200, `/_archive-2026-09-30/index.php` = 403).
+deploy-script tests → build → `python3 scripts/deploy-ftp.py --dry-run` (logs the plan) →
+`python3 scripts/deploy-ftp.py` over explicit FTPS → smoke test (`/en/`, `/fr/`, `/de/` = 200,
+`/_archive-2026-09-30/index.php` = 403, `/.deploy-manifest.json` = 403).
 
-Repository secrets: `FTP_HOST`, `FTP_PORT`, `FTP_USER`, `FTP_PASS`.
+How `scripts/deploy-ftp.py` works (details in its docstring):
+
+- It hashes `out/` into a manifest and diffs it against `.deploy-manifest.json` from the previous
+  deploy, so only changed files are uploaded.
+- Phase 1 uploads changed build assets (`_next/`, `images/`, fonts) in place — they are new names,
+  so live pages are unaffected. Phase 2 uploads every other changed file to `<path>.deploy-tmp`
+  and renames it over the live file (atomic per file, no 404 window); `.htaccess` goes last.
+- It then writes the new manifest and deletes only files listed in the old manifest that are no
+  longer built, plus their emptied directories. It never lists or deletes anything else.
+- A `.deploy-journal.json` makes a crashed run recoverable: the next run cleans its tmp files and
+  orphans. `public/.htaccess` denies web access to all `.deploy-*` files.
+- Protected paths (`_archive-*`, `.ftpquota`, `.well-known/`, `cgi-bin/`) are asserted before every
+  upload, rename, delete and rmdir; a violation aborts the run.
+- **Bootstrap:** the first run finds no manifest on the server, so it uploads everything once and
+  deletes nothing. Files that only the old lftp mirror knew about are never cleaned up by the script.
+- Local use: `set -a; . ./.env.deploy; set +a; python3 scripts/deploy-ftp.py --dry-run`
+  (`--old-manifest none|FILE` plans offline without connecting). Tests:
+  `python3 -m pytest scripts/tests` or `python3 scripts/tests/test_deploy_plan.py`.
+
+Repository secrets: `FTP_HOST`, `FTP_PORT`, `FTP_USER`, `FTP_PASS` (passed as `DEPLOY_*`).
 Repository variables: `NEXT_PUBLIC_*` (see above), optional `FTP_DIR` (web root relative to the FTP login).
-The mirror never deletes `_archive-*`, `.ftpquota`, `.well-known/`, `cgi-bin/` or `.htaccess.bak*`.
 
 When HTTPS is live: set `NEXT_PUBLIC_NOINDEX=false`, switch the smoke test to `https://`, and
 uncomment HSTS in `public/.htaccess`.
