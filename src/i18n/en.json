@@ -385,7 +385,7 @@
       "whatsappLink": "message us on WhatsApp",
       "errorWhatsappAfter": ".",
       "requiredNote": "required field",
-      "errorSummaryOne": "1 field needs your attention. See the note next to it.",
+      "errorSummaryOne": "1 field needs your attention. See the note above.",
       "errorSummaryMany": "{count} fields need your attention. See the note under each one.",
       "errors": {
         "name": "Please enter your name.",

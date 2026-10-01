@@ -385,7 +385,7 @@
       "whatsappLink": "nous écrire sur WhatsApp",
       "errorWhatsappAfter": ".",
       "requiredNote": "champ obligatoire",
-      "errorSummaryOne": "1 champ est à compléter. Voir la remarque à côté.",
+      "errorSummaryOne": "1 champ est à compléter. Voir la remarque ci-dessus.",
       "errorSummaryMany": "{count} champs sont à compléter. Voir la remarque sous chacun.",
       "errors": {
         "name": "Veuillez indiquer votre nom.",
