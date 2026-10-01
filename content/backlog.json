@@ -421,7 +421,7 @@
       },
       "intent": "comparison",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "codex review 2026-09-30",
       "notes": "Use commercial terms naturally where relevant: relocation services / relocation agency / destination services (FR services de relocation, agence de relocation; DE Relocation Service, Umzug in die Schweiz). No prices.",
       "researchedKeywords": {
@@ -462,7 +462,8 @@
             "questions": []
           }
         }
-      }
+      },
+      "doneAt": "2026-10-01"
     },
     {
       "slug": "orientation-visit-switzerland",
@@ -5220,6 +5221,12 @@
       "category": "residence-permits",
       "date": "2026-09-30",
       "title": "Self employed permit Switzerland non EU: self-employed route"
+    },
+    {
+      "slug": "destination-services-vs-relocation-agency",
+      "category": "settling-in",
+      "date": "2026-10-01",
+      "title": "Family support and destination services Switzerland options"
     }
   ]
 }
