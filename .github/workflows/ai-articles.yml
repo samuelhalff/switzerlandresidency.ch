@@ -37,13 +37,13 @@ jobs:
       NEXT_TELEMETRY_DISABLED: "1"
       AI_ARTICLE_STATE: ${{ github.workspace }}/../ai-article-state.json
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           # A PAT push triggers deploy.yml by itself; GITHUB_TOKEN pushes do not (handled below).
           token: ${{ secrets.PAT_TOKEN || github.token }}
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 20
           cache: npm
