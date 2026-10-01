@@ -21,7 +21,7 @@ export function HairlineRow({
 }) {
   const inner = (
     <>
-      <div className="min-w-0 flex-1 sm:grid sm:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] sm:items-baseline sm:gap-10">
+      <div className="min-w-0 flex-1 transition-transform duration-500 ease-out group-hover:translate-x-3 motion-reduce:transform-none sm:grid sm:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] sm:items-baseline sm:gap-10 sm:group-hover:translate-x-4">
         <h3
           className={cn(
             "transition-colors group-hover:text-accent",
@@ -43,7 +43,7 @@ export function HairlineRow({
           strokeWidth="1.2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="mt-3 h-3.5 w-10 shrink-0 text-ink/70 transition-[transform,color] duration-500 ease-out group-hover:translate-x-2 group-hover:text-accent motion-reduce:transition-none sm:mt-0 sm:w-14"
+          className="mr-3 mt-3 h-3.5 w-10 shrink-0 text-ink/70 transition-[transform,color] duration-500 ease-out group-hover:translate-x-2 group-hover:text-accent motion-reduce:transition-none sm:mr-4 sm:mt-0 sm:w-14"
         >
           <path d="M1 7 H54" />
           <path d="M47 1 L54 7 L47 13" />
@@ -51,14 +51,15 @@ export function HairlineRow({
       ) : null}
     </>
   );
-  const row =
-    // Negative margin + matching padding: text stays aligned with the section heading while the
-    // hover wash gets breathing room around it.
-    "-mx-4 flex items-start gap-6 px-4 py-7 transition-colors duration-500 sm:-mx-6 sm:items-center sm:rounded-sm sm:px-6 sm:py-9 hover:bg-[linear-gradient(90deg,rgb(var(--accent)/0.07),transparent_75%)]";
+  // The hover wash sits exactly between the hairlines and starts where they start; the text
+  // slides in a little so it never touches the edge of the wash.
+  const row = "flex items-start gap-6 py-7 sm:items-center sm:py-9";
+  const wash =
+    "transition-colors duration-500 hover:bg-[linear-gradient(90deg,rgb(var(--accent)/0.08),transparent_80%)]";
   return (
     <li className="border-b border-line" data-reveal="">
       {href ? (
-        <Link href={href} className={cn("group", row)}>
+        <Link href={href} className={cn("group", row, wash)}>
           {inner}
         </Link>
       ) : (
