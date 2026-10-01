@@ -1,13 +1,25 @@
 import ReactMarkdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
-import rehypeAnchors from "@/lib/rehype-anchors";
+import rehypeAnchors, { tableColumnCount } from "@/lib/rehype-anchors";
+
+/** Tables up to this many columns are laid out to fit a phone screen without horizontal scrolling. */
+const FIT_MAX_COLUMNS = 3;
 
 const components: Components = {
-  table: ({ children }) => (
-    <div className="table-wrap" tabIndex={0}>
-      <table>{children}</table>
-    </div>
-  ),
+  // Up to three columns: the table fits the column and wraps (no sideways scroll on phones).
+  // Wider tables scroll horizontally inside a focusable wrapper.
+  table: ({ children, node }) => {
+    const fit = tableColumnCount(node) <= FIT_MAX_COLUMNS;
+    return fit ? (
+      <div className="table-wrap table-fit">
+        <table>{children}</table>
+      </div>
+    ) : (
+      <div className="table-wrap" tabIndex={0}>
+        <table>{children}</table>
+      </div>
+    );
+  },
   a: ({ href = "", children }) => {
     const external = /^https?:\/\//.test(href);
     return external ? (

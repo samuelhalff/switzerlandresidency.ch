@@ -15,6 +15,7 @@ const config: Config = {
         line: tone("line"),
         accent: tone("accent"),
         "accent-strong": tone("accent-strong"),
+        danger: tone("danger"),
       },
       fontFamily: {
         serif: ["var(--font-fraunces)", "Georgia", "serif"],

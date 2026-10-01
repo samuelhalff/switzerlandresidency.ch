@@ -1,34 +1,83 @@
-import type { ReactNode } from "react";
+"use client";
+
+import { useEffect, useRef, type ReactNode } from "react";
+import { errorSummary } from "@/lib/form-validation";
 import type { Messages } from "@/lib/i18n";
 import Button from "../ui/Button";
+import Icon from "../ui/Icon";
 import Panel from "../ui/Panel";
+import { cn } from "../ui/cn";
+import { focusAndReveal, type FormStatus } from "./useLeadForm";
 
 export type FormLabels = Messages["contact"]["form"];
 
-/** Label + control wrapper; `optional` adds the quiet "(optional)" suffix. */
+/** aria attributes for a control that may carry a validation error (message id = `${id}-error`). */
+export function invalidProps(id: string, error?: string) {
+  return error ? ({ "aria-invalid": true, "aria-describedby": `${id}-error` } as const) : {};
+}
+
+function RequiredMark() {
+  return (
+    <span aria-hidden="true" className="font-semibold text-danger">
+      {" "}
+      *
+    </span>
+  );
+}
+
+/** The specific message under an invalid field. */
+export function FieldError({ id, message }: { id: string; message?: string }) {
+  if (!message) return null;
+  return (
+    <p id={`${id}-error`} className="field-error">
+      <Icon name="alert" size={18} className="mt-[0.2em] shrink-0" />
+      <span>{message}</span>
+    </p>
+  );
+}
+
+/** Label + control wrapper; `required` adds the "*", `optional` the quiet "(optional)" suffix. */
 export function Field({
   id,
   label,
+  required,
   optional,
   optionalLabel,
+  error,
   children,
   className,
 }: {
   id: string;
   label: string;
+  required?: boolean;
   optional?: boolean;
   optionalLabel?: string;
+  error?: string;
   children: ReactNode;
   className?: string;
 }) {
   return (
-    <div className={className}>
+    <div className={className} data-field="">
       <label htmlFor={id} className="block text-sm font-medium">
         {label}
+        {required ? <RequiredMark /> : null}
         {optional ? <span className="font-normal text-muted"> ({optionalLabel})</span> : null}
       </label>
       <div className="mt-1.5">{children}</div>
+      <FieldError id={id} message={error} />
     </div>
+  );
+}
+
+/** "* required field" legend shown once at the top of a form. */
+export function RequiredNote({ labels }: { labels: FormLabels }) {
+  return (
+    <p className="text-sm text-muted">
+      <span aria-hidden="true" className="font-semibold text-danger">
+        *
+      </span>{" "}
+      {labels.requiredNote}
+    </p>
   );
 }
 
@@ -39,15 +88,17 @@ export function Select({
   options,
   placeholder,
   required,
+  error,
 }: {
   id: string;
   name: string;
   options: Record<string, string>;
   placeholder: string;
   required?: boolean;
+  error?: string;
 }) {
   return (
-    <select id={id} name={name} required={required} defaultValue="" className="field">
+    <select id={id} name={name} required={required} defaultValue="" className="field" {...invalidProps(id, error)}>
       <option value="" disabled={required}>
         {placeholder}
       </option>
@@ -63,7 +114,7 @@ export function Select({
 export function Checkbox({ id, name, value, label }: { id: string; name: string; value?: string; label: ReactNode }) {
   return (
     <div className="flex items-start gap-3">
-      <input id={id} name={name} value={value} type="checkbox" className="mt-1 h-5 w-5 shrink-0 accent-[rgb(var(--accent))]" />
+      <input id={id} name={name} value={value} type="checkbox" className="checkbox" />
       <label htmlFor={id} className="text-[0.95rem]">
         {label}
       </label>
@@ -81,42 +132,46 @@ export function Honeypot({ id, label }: { id: string; label: string }) {
   );
 }
 
-export function Consent({ id, labels, privacyHref }: { id: string; labels: FormLabels; privacyHref: string }) {
+export function Consent({ id, labels, privacyHref, error }: { id: string; labels: FormLabels; privacyHref: string; error?: string }) {
   return (
-    <div className="flex items-start gap-3">
-      <input id={id} name="consent" type="checkbox" required className="mt-1 h-5 w-5 shrink-0 accent-[rgb(var(--accent))]" />
-      <label htmlFor={id} className="text-sm">
-        {labels.consentBefore}{" "}
-        <a href={privacyHref} className="link" target="_blank" rel="noopener">
-          {labels.consentLink}
-        </a>
-        {labels.consentAfter}
-      </label>
+    <div data-field="" className={cn("consent", error && "consent-invalid")}>
+      <div className="flex items-start gap-3">
+        <input id={id} name="consent" type="checkbox" required className="checkbox" {...invalidProps(id, error)} />
+        <label htmlFor={id} className="text-[0.95rem] leading-relaxed">
+          {labels.consentBefore}{" "}
+          <a href={privacyHref} className="link" target="_blank" rel="noopener">
+            {labels.consentLink}
+          </a>
+          {labels.consentAfter}
+          <RequiredMark />
+        </label>
+      </div>
+      <FieldError id={id} message={error} />
     </div>
   );
 }
 
-/** "Please fill in…" and send-error messages. */
-export function FormAlerts({
-  labels,
-  missing,
-  error,
-  whatsappHref,
-}: {
-  labels: FormLabels;
-  missing: boolean;
-  error: boolean;
-  whatsappHref: string;
-}) {
+/** Shown right above the submit button after a failed validation: how many fields need attention. */
+export function ErrorSummary({ count, labels }: { count: number; labels: FormLabels }) {
+  if (count <= 0) return null;
   return (
-    <>
-      {missing ? (
-        <p role="alert" className="text-sm font-medium text-accent">
-          {labels.required}
-        </p>
-      ) : null}
-      {error ? (
-        <p role="alert" className="text-sm font-medium text-accent">
+    <div role="alert" className="form-alert">
+      <Icon name="alert" size={22} className="mt-[0.15em] shrink-0" />
+      <p>{errorSummary(count, { one: labels.errorSummaryOne, many: labels.errorSummaryMany })}</p>
+    </div>
+  );
+}
+
+/** Send failure (network, HTTP error, spam protection): what happened + a retry button. Values stay in the form. */
+function SendError({ labels, whatsappHref }: { labels: FormLabels; whatsappHref: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => focusAndReveal(ref.current), []);
+  return (
+    <div ref={ref} role="alert" tabIndex={-1} className="form-alert focus:outline-none" data-send-error="">
+      <Icon name="alert" size={22} className="mt-[0.15em] shrink-0" />
+      <div>
+        <p className="font-semibold">{labels.errorTitle}</p>
+        <p className="mt-1">
           {labels.error}
           {whatsappHref ? (
             <>
@@ -129,17 +184,56 @@ export function FormAlerts({
             </>
           ) : null}
         </p>
-      ) : null}
-    </>
+        <Button type="submit" className="mt-4">
+          {labels.retry}
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Bottom of a form: validation summary, then either the submit button (with its loading state)
+ * or, after a failed send, the error panel with a retry button.
+ */
+export function FormFooter({
+  labels,
+  status,
+  errorCount,
+  submitLabel,
+  whatsappHref,
+}: {
+  labels: FormLabels;
+  status: FormStatus;
+  errorCount: number;
+  submitLabel: string;
+  whatsappHref: string;
+}) {
+  if (status === "error") return <SendError labels={labels} whatsappHref={whatsappHref} />;
+  const sending = status === "sending";
+  return (
+    <div data-form-footer="" className="space-y-5">
+      <ErrorSummary count={errorCount} labels={labels} />
+      <Button type="submit" size="lg" fullWidth="mobile" disabled={sending} aria-busy={sending}>
+        {sending ? labels.sending : submitLabel}
+      </Button>
+    </div>
   );
 }
 
 export function SuccessPanel({ title, text }: { title: string; text: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => focusAndReveal(ref.current), []);
   return (
-    <Panel padding="lg" role="status" aria-live="polite">
-      <h2 className="text-[1.75rem]">{title}</h2>
-      <p className="mt-3 text-muted">{text}</p>
-    </Panel>
+    <div ref={ref} role="status" tabIndex={-1} className="form-success rounded-soft focus:outline-none" data-form-success="">
+      <Panel padding="lg">
+        <span className="form-success-icon" aria-hidden="true">
+          <Icon name="check" size={26} />
+        </span>
+        <h2 className="mt-5 text-[1.75rem]">{title}</h2>
+        <p className="mt-3 text-muted">{text}</p>
+      </Panel>
+    </div>
   );
 }
 

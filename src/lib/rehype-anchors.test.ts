@@ -39,3 +39,18 @@ describe("heading and row anchors", () => {
     expect([...anchorIds(md)]).toEqual(rendered);
   });
 });
+
+describe("table layout", () => {
+  it("lets tables of up to three columns fit the screen and keeps scrolling for wider ones", () => {
+    const narrow = renderToStaticMarkup(Markdown({ source: "| A | B |\n|---|---|\n| 1 | 2 |\n" }));
+    expect(narrow).toContain('class="table-wrap table-fit"');
+    expect(narrow).not.toContain("tabindex");
+
+    const three = renderToStaticMarkup(Markdown({ source: "| A | B | C |\n|---|---|---|\n| 1 | 2 | 3 |\n" }));
+    expect(three).toContain("table-fit");
+
+    const wide = renderToStaticMarkup(Markdown({ source: "| A | B | C | D |\n|---|---|---|---|\n| 1 | 2 | 3 | 4 |\n" }));
+    expect(wide).toContain('class="table-wrap"');
+    expect(wide).toContain('tabindex="0"');
+  });
+});

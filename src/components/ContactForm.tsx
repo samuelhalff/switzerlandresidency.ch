@@ -1,15 +1,14 @@
 "use client";
 
-import { useEffect, useState, type FormEvent } from "react";
+import { useEffect, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
 import { CHECK_STORAGE_KEY, type StoredCheck } from "@/lib/eligibility";
+import type { FieldRule } from "@/lib/form-validation";
 import { fieldValue, submitToFormspark } from "@/lib/formspark";
 import type { Messages } from "@/lib/i18n";
-import Button from "./ui/Button";
 import Panel from "./ui/Panel";
-import { Consent, FallbackPanel, Field, FormAlerts, Honeypot, Select, SuccessPanel, type FormLabels } from "./form/FormParts";
-
-type Status = "idle" | "sending" | "success" | "error";
+import { Consent, FallbackPanel, Field, FormFooter, Honeypot, RequiredNote, Select, SuccessPanel, invalidProps, type FormLabels } from "./form/FormParts";
+import { useLeadForm } from "./form/useLeadForm";
 
 export type ContactFormProps = {
   labels: FormLabels;
@@ -41,37 +40,22 @@ function clearStoredCheck() {
 }
 
 export default function ContactForm({ labels, extra, locale, formsparkId, whatsappHref, privacyHref, languages }: ContactFormProps) {
-  const [status, setStatus] = useState<Status>("idle");
   const [check, setCheck] = useState<StoredCheck | null>(null);
-  const [missing, setMissing] = useState(false);
 
   useEffect(() => {
     setCheck(readStoredCheck());
   }, []);
 
-  if (!formsparkId) return <FallbackPanel labels={labels} whatsappHref={whatsappHref} />;
-  if (status === "success") return <SuccessPanel title={labels.successTitle} text={labels.successText} />;
+  const e = labels.errors;
+  const rules: FieldRule[] = [
+    { name: "name", id: "cf-name", kind: "text", required: e.name },
+    { name: "email", id: "cf-email", kind: "email", required: e.email, invalid: e.emailFormat },
+    { name: "message", id: "cf-message", kind: "text", required: e.message },
+    { name: "consent", id: "cf-consent", kind: "checkbox", required: e.consent },
+  ];
 
-  async function onSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    const form = e.currentTarget;
-    const data = new FormData(form);
+  const { status, errors, errorCount, onSubmit, onChange } = useLeadForm(rules, async (data) => {
     const value = (k: string) => fieldValue(data, k);
-
-    if (!value("name") || !value("email") || !value("message") || data.get("consent") !== "on" || !form.checkValidity()) {
-      setMissing(true);
-      form.reportValidity();
-      return;
-    }
-    setMissing(false);
-
-    // Bots fill hidden fields: pretend success, send nothing.
-    if (value("_honeypot")) {
-      setStatus("success");
-      return;
-    }
-
-    setStatus("sending");
     const payload: Record<string, string | boolean> = {
       form_type: "contact",
       name: value("name"),
@@ -91,20 +75,17 @@ export default function ContactForm({ labels, extra, locale, formsparkId, whatsa
       payload.check_codes = `routes=${check.routes.join("+")}; lump_sum=${check.lumpSum}; cantons=${check.cantons.join("+")}; flags=${check.flags.join("+")}`;
       payload.check_answers = check.answers;
     }
+    await submitToFormspark(formsparkId, payload);
+    trackEvent("generate_lead", { method: check ? "check" : "form" });
+    clearStoredCheck();
+  });
 
-    try {
-      await submitToFormspark(formsparkId, payload);
-      trackEvent("generate_lead", { method: check ? "check" : "form" });
-      clearStoredCheck();
-      setStatus("success");
-    } catch {
-      setStatus("error");
-    }
-  }
+  if (!formsparkId) return <FallbackPanel labels={labels} whatsappHref={whatsappHref} />;
+  if (status === "success") return <SuccessPanel title={labels.successTitle} text={labels.successText} />;
 
   return (
     <Panel padding="lg">
-      <form onSubmit={onSubmit} noValidate className="space-y-5">
+      <form onSubmit={onSubmit} onChange={onChange} noValidate className="space-y-5">
         {check ? (
           <div className="border-l-2 border-accent pl-4 text-sm">
             <p className="font-medium">{labels.checkAttached}</p>
@@ -126,12 +107,13 @@ export default function ContactForm({ labels, extra, locale, formsparkId, whatsa
           </div>
         ) : null}
 
-        <Field id="cf-name" label={labels.name}>
-          <input id="cf-name" name="name" type="text" autoComplete="name" required className="field" />
+        <RequiredNote labels={labels} />
+        <Field id="cf-name" label={labels.name} required error={errors.name}>
+          <input id="cf-name" name="name" type="text" autoComplete="name" required className="field" {...invalidProps("cf-name", errors.name)} />
         </Field>
         <div className="grid gap-5 sm:grid-cols-2">
-          <Field id="cf-email" label={labels.email}>
-            <input id="cf-email" name="email" type="email" autoComplete="email" required className="field" />
+          <Field id="cf-email" label={labels.email} required error={errors.email}>
+            <input id="cf-email" name="email" type="email" inputMode="email" autoComplete="email" required className="field" {...invalidProps("cf-email", errors.email)} />
           </Field>
           <Field id="cf-phone" label={labels.phone} optional optionalLabel={labels.optional}>
             <input id="cf-phone" name="phone" type="tel" autoComplete="tel" className="field" />
@@ -146,8 +128,16 @@ export default function ContactForm({ labels, extra, locale, formsparkId, whatsa
             ))}
           </select>
         </Field>
-        <Field id="cf-message" label={labels.message}>
-          <textarea id="cf-message" name="message" rows={5} required placeholder={labels.messagePlaceholder} className="field" />
+        <Field id="cf-message" label={labels.message} required error={errors.message}>
+          <textarea
+            id="cf-message"
+            name="message"
+            rows={5}
+            required
+            placeholder={labels.messagePlaceholder}
+            className="field"
+            {...invalidProps("cf-message", errors.message)}
+          />
         </Field>
 
         {/* Optional qualification, folded away so the form stays light. */}
@@ -174,12 +164,8 @@ export default function ContactForm({ labels, extra, locale, formsparkId, whatsa
         </details>
 
         <Honeypot id="cf-hp" label={labels.honeypot} />
-        <Consent id="cf-consent" labels={labels} privacyHref={privacyHref} />
-        <FormAlerts labels={labels} missing={missing} error={status === "error"} whatsappHref={whatsappHref} />
-
-        <Button type="submit" size="lg" disabled={status === "sending"}>
-          {status === "sending" ? labels.sending : labels.submit}
-        </Button>
+        <Consent id="cf-consent" labels={labels} privacyHref={privacyHref} error={errors.consent} />
+        <FormFooter labels={labels} status={status} errorCount={errorCount} submitLabel={labels.submit} whatsappHref={whatsappHref} />
       </form>
     </Panel>
   );
