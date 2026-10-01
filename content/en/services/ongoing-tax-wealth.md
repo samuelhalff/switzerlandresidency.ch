@@ -57,8 +57,6 @@ New and established residents who want a single, steady adviser for their Swiss 
 6. **Property changes.** Imputed rental value will be abolished from **1 January 2029** for primary and secondary homes, and property maintenance deductions go with it. Cantons may introduce a special property tax on second homes. We review what this means for you before it takes effect.
 7. **Succession review.** We map how inheritance and gift tax would apply to your family, then work with your lawyers on any changes.
 
-Our tax work is carried out with Ark Fiduciaire SA in Geneva, which prepares and files the returns.
-
 ## Inheritance and gift tax, at a glance
 
 Switzerland has no federal inheritance tax. As of 1 January 2026, the key cantonal rules are:
@@ -102,3 +100,5 @@ We do not give advice on US tax structuring. If you are a US person, we coordina
 ## Keep your arrangement working
 
 If you already live in Switzerland, or are about to, and want a steady hand on your tax affairs, [contact us](/en/contact/) for a first conversation.
+
+Tax returns and accounting are prepared with [Ark Fiduciaire SA](https://ark-fid.ch/en/), Geneva.

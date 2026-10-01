@@ -120,7 +120,7 @@ Die meisten Relocation-Firmen beherrschen die praktische Arbeit. Die Unterschied
 
 ## Wie wir mit Partnern zusammenarbeiten
 
-Wir verbinden die Entscheide mit der praktischen Umsetzung. Wir kümmern uns um die Steuersituation und das Ruling, das Bewilligungsdossier und den Relocation-Plan und koordinieren bewährte lokale Partner für Wohnungssuche, Umzug, Schulen, Versicherungen und Personal. Die Wahl von Zuhause, Schule und Bank bleibt immer bei Ihnen. Steuererklärungen betreuen wir mit unserer Partnerfirma Ark Fiduciaire SA in Genf, und wir arbeiten an der Seite Ihrer Anwälte, Banken und Familienberater, nicht an ihrer Stelle. Die praktische Seite beschreibt unser [Relocation-Service](/de/services/settling-in/), die steuerliche und ausländerrechtliche Seite unsere Leistungen zur [Aufenthaltsbewilligung](/de/services/residence-permit/) und zum [Steuerruling](/de/services/tax-ruling/).
+Wir verbinden die Entscheide mit der praktischen Umsetzung. Wir kümmern uns um die Steuersituation und das Ruling, das Bewilligungsdossier und den Relocation-Plan und koordinieren bewährte lokale Partner für Wohnungssuche, Umzug, Schulen, Versicherungen und Personal. Die Wahl von Zuhause, Schule und Bank bleibt immer bei Ihnen. Steuererklärungen betreuen wir mit unseren Steuerpartnern, und wir arbeiten an der Seite Ihrer Anwälte, Banken und Familienberater, nicht an ihrer Stelle. Die praktische Seite beschreibt unser [Relocation-Service](/de/services/settling-in/), die steuerliche und ausländerrechtliche Seite unsere Leistungen zur [Aufenthaltsbewilligung](/de/services/residence-permit/) und zum [Steuerruling](/de/services/tax-ruling/).
 
 ## So unterstützen wir Sie
 

@@ -32,6 +32,8 @@ sources:
     url: "https://www.efd.admin.ch/en/lump-sum-taxation"
   - label: "Canton de Genève — Comment bénéficier de l’imposition d’après la dépense"
     url: "https://www.ge.ch/imposition-apres-depense/comment-beneficier-imposition-apres-depense"
+  - label: "Canton de Genève — Imposition d'après la dépense : calcul (minimum 2026, majoration de 10 %)"
+    url: "https://www.ge.ch/imposition-apres-depense/calcul-lie-imposition-apres-depense"
 ---
 
 L’imposition d’après la dépense (forfait fiscal, Pauschalbesteuerung en allemand) permet aux étrangers qui remplissent les conditions et ne travaillent pas en Suisse d’être imposés sur leurs dépenses de train de vie plutôt que sur leurs revenus et leur fortune mondiaux. C’est un régime légal et ancien, mais il est étroit, appliqué différemment dans chaque canton, et doit être préparé avec soin avant votre arrivée. Ce service vous aide à déterminer s’il vous convient, puis prépare la demande.
@@ -68,7 +70,7 @@ La base correspond à vos **dépenses annuelles de train de vie dans le monde en
 | Critère de la pension | 3 × le prix annuel de la pension (logement et nourriture), si vous vivez à l’hôtel ou en pension |
 | Calcul de contrôle | Impôt ordinaire sur les revenus et la fortune de source suisse, les rentes suisses et les revenus étrangers pour lesquels vous demandez un dégrèvement conventionnel |
 
-Chaque canton fixe son propre minimum pour les impôts cantonaux et communaux, et traite l’impôt sur la fortune à sa manière. À titre d’exemple, en février 2026, le minimum cantonal publié s’élève à CHF 250 000 en Valais et à Fribourg, à CHF 415 000 dans le canton de Vaud (supplément pour l’impôt sur la fortune compris), à CHF 500 000 à Zoug, à CHF 600 000 à Schwytz et à CHF 647 100 à Lucerne pour 2026. Zurich, Schaffhouse, Appenzell Rhodes-Extérieures et Bâle-Ville ont aboli le régime.
+Chaque canton fixe son propre minimum pour les impôts cantonaux et communaux, et traite l’impôt sur la fortune à sa manière. À titre d’exemple, en février 2026, le minimum cantonal publié s’élève à CHF 250 000 en Valais et à Fribourg, à CHF 415 000 dans le canton de Vaud (supplément pour l’impôt sur la fortune compris), à CHF 426 357 à Genève (avec une majoration de 10 % de la base en lieu et place de l’impôt sur la fortune), à CHF 500 000 à Zoug, à CHF 600 000 à Schwytz et à CHF 647 100 à Lucerne pour 2026. Zurich, Schaffhouse, Appenzell Rhodes-Extérieures et Bâle-Ville ont aboli le régime.
 
 ## Notre méthode
 
@@ -79,7 +81,7 @@ Chaque canton fixe son propre minimum pour les impôts cantonaux et communaux, e
 5. **Demande.** Chaque canton a sa propre procédure. À Genève, par exemple, vous écrivez à l’administration fiscale à votre arrivée, avec une lettre confirmant que vous n’exercerez aucune activité lucrative en Suisse, un montant proposé, votre bail ou l’estimation de votre bien et un formulaire de train de vie. C’est l’administration fiscale cantonale qui fixe le montant ; c’est pourquoi nous recommandons d’obtenir un ruling avant de vous engager dans le déménagement.
 6. **Première année et suivantes.** Chaque année, vous déposez une déclaration spéciale pour le forfait et annoncez spontanément tout changement de situation.
 
-Nous travaillons aux côtés d’Ark Fiduciaire SA, à Genève, qui se charge des déclarations fiscales et du suivi courant.
+Nous travaillons aux côtés de nos partenaires fiscaux, qui se chargent des déclarations fiscales et du suivi courant.
 
 ## Ce que vous obtenez
 

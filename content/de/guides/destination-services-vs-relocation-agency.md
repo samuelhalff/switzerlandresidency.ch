@@ -137,7 +137,7 @@ Manche Relocation-Agenturen und Destination Service Anbieter bieten fortlaufende
 
 ## Wie wir helfen
 
-Bei Switzerland Residency begleiten wir Familien in jeder Phase ihres Umzugs. Ob Sie praktische Destination Services, komplette Relocation-Projektleitung oder fortlaufende Unterstützung benötigen – wir passen unsere Beratung individuell an Ihre Bedürfnisse an. Unser Team arbeitet diskret mit Ark Fiduciaire SA und lokalen Partnern, damit Ihre Familie sich reibungslos einlebt und alle Schweizer Vorgaben erfüllt.
+Bei Switzerland Residency begleiten wir Familien in jeder Phase ihres Umzugs. Ob Sie praktische Destination Services, komplette Relocation-Projektleitung oder fortlaufende Unterstützung benötigen – wir passen unsere Beratung individuell an Ihre Bedürfnisse an. Unser Team arbeitet diskret mit bewährten lokalen Partnern, damit Ihre Familie sich reibungslos einlebt und alle Schweizer Vorgaben erfüllt.
 
 Um Ihre Situation zu besprechen und die passende Unterstützung zu finden, starten Sie mit unserem [Eignungscheck](/de/eligibility-check/).
 

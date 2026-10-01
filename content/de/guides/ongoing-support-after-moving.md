@@ -120,7 +120,7 @@ Familiendokumente gehören zu den sensibelsten Unterlagen eines Haushalts: Päss
 
 Wir kümmern uns um den Umzug selbst: die [Aufenthaltsbewilligung](/de/services/residence-permit/), das Steuerruling, die Wohnung, die Schulen und die ersten Monate beim [Ankommen](/de/services/settling-in/). Sobald Sie sich eingerichtet haben, sorgt unsere [laufende Steuer- und Vermögensbetreuung](/de/services/ongoing-tax-wealth/) dafür, dass Erklärungen und Fristen im Griff bleiben.
 
-Für Familien, die eine umfassendere, dauerhafte Family-Office-Betreuung wünschen, ist unsere Schwestergesellschaft [Ridger](https://ridger.ch/de/services/family-office-coordination/), das Multi-Family-Office der Ark-Gruppe in Genf, die zentrale Ansprechstelle, die Banken, Anwälte, Notare, Steuerberater und Versicherer koordiniert, bis hin zur Haushaltsführung. Ridger verwaltet kein Vermögen und erteilt keine Anlageberatung; Ausführung und Verwahrung bleiben bei den regulierten Banken und Verwaltern Ihrer Wahl.
+Für Familien, die eine umfassendere, dauerhafte Family-Office-Betreuung wünschen, ist unsere Schwestergesellschaft [Ridger](https://ridger.ch/de/services/family-office-coordination/), ein Genfer Multi-Family-Office, die zentrale Ansprechstelle, die Banken, Anwälte, Notare, Steuerberater und Versicherer koordiniert, bis hin zur Haushaltsführung. Ridger verwaltet kein Vermögen und erteilt keine Anlageberatung; Ausführung und Verwahrung bleiben bei den regulierten Banken und Verwaltern Ihrer Wahl.
 
 ## So helfen wir
 

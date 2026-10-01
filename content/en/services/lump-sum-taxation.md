@@ -32,6 +32,8 @@ sources:
     url: "https://www.efd.admin.ch/en/lump-sum-taxation"
   - label: "Canton of Geneva — How to apply for taxation based on expenditure"
     url: "https://www.ge.ch/imposition-apres-depense/comment-beneficier-imposition-apres-depense"
+  - label: "Canton of Geneva — Lump-sum taxation: calculation (2026 minimum, 10% surcharge)"
+    url: "https://www.ge.ch/imposition-apres-depense/calcul-lie-imposition-apres-depense"
 ---
 
 Lump-sum taxation (forfait fiscal, Pauschalbesteuerung, imposition d'après la dépense) lets eligible foreign nationals who do not work in Switzerland be taxed on their living costs rather than on their worldwide income and wealth. It is a long-standing, legal regime, but it is narrow, it is applied differently in each canton, and it has to be set up carefully before you arrive. This service helps you decide whether it suits you and then prepares the application.
@@ -68,7 +70,7 @@ The base is your **worldwide annual living costs** and those of your dependants,
 | Board test | 3× annual board-and-lodging price, if you live in a hotel or pension |
 | Control calculation | Ordinary tax on Swiss-source income and assets, Swiss pensions and foreign income for which treaty relief is claimed |
 
-Each canton sets its own minimum for cantonal and communal tax, and handles wealth tax in its own way. As of February 2026, for example, the published cantonal minimum is CHF 250,000 in Valais and Fribourg, CHF 415,000 in Vaud (which includes a surcharge for wealth tax), CHF 500,000 in Zug, CHF 600,000 in Schwyz and CHF 647,100 in Lucerne for 2026. Zurich, Schaffhausen, Appenzell Ausserrhoden and Basel-Stadt have abolished the regime.
+Each canton sets its own minimum for cantonal and communal tax, and handles wealth tax in its own way. As of February 2026, for example, the published cantonal minimum is CHF 250,000 in Valais and Fribourg, CHF 415,000 in Vaud (which includes a surcharge for wealth tax), CHF 426,357 in Geneva (with a 10% surcharge on the base in place of wealth tax), CHF 500,000 in Zug, CHF 600,000 in Schwyz and CHF 647,100 in Lucerne for 2026. Zurich, Schaffhausen, Appenzell Ausserrhoden and Basel-Stadt have abolished the regime.
 
 ## How we work
 
@@ -79,7 +81,7 @@ Each canton sets its own minimum for cantonal and communal tax, and handles weal
 5. **Application.** Each canton has its own procedure. In Geneva, for instance, you write to the tax administration on arrival with a letter confirming you will not work in Switzerland, a proposed amount, your lease or property valuation and a lifestyle form. The tax administration of the canton decides on the amount, which is why we recommend securing a ruling before you commit to the move.
 6. **First year and beyond.** Every year you file a special lump-sum return and report any change in your situation without being asked.
 
-We work alongside Ark Fiduciaire SA in Geneva, which handles the tax filings and ongoing compliance.
+We work alongside our tax partners, who handle the tax filings and ongoing compliance.
 
 ## What you get
 

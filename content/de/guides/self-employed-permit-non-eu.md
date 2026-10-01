@@ -188,7 +188,7 @@ Für Familien lohnt es sich, den Umzug als Gesamtprojekt zu sehen: Einwanderung 
 
 ## Wie wir helfen
 
-Wir unterstützen Gründer aus Drittstaaten beim Aufbau eines selbständigen Bewilligungsdossiers, das den Prüfungen von Kanton und SEM gemäss Art. 19 AIG entspricht: wirtschaftliches Interesse, Tragfähigkeit, Finanzierung und ein umsetzbarer Plan. Wir koordinieren auch die Relocation-Bausteine, die das Timing beeinflussen (Wohnung, Familienankunft, frühe Integrationsschritte), und arbeiten diskret mit Ark Fiduciaire SA in Genf, wo sinnvoll.
+Wir unterstützen Gründer aus Drittstaaten beim Aufbau eines selbständigen Bewilligungsdossiers, das den Prüfungen von Kanton und SEM gemäss Art. 19 AIG entspricht: wirtschaftliches Interesse, Tragfähigkeit, Finanzierung und ein umsetzbarer Plan. Wir koordinieren auch die Relocation-Bausteine, die das Timing beeinflussen (Wohnung, Familienankunft, frühe Integrationsschritte). In Rechts- und Bewilligungsfragen arbeiten wir mit einer Partnerkanzlei mit rund 40 Anwältinnen und Anwälten in Genf zusammen.
 
 Starten Sie mit unserem **[Eignungscheck für Schweizer Aufenthalt](/de/eligibility-check/)**.
 

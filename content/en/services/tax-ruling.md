@@ -69,7 +69,7 @@ This is why the quality of the request matters so much. A ruling protects you on
 5. **Signed outcome.** You receive the written answer or agreement, with a short note on what it covers, what it does not, and what would make it lapse.
 6. **Hand-over.** The ruling is passed to the team handling your permit and, after arrival, your annual returns.
 
-We work with Ark Fiduciaire SA in Geneva on the tax side, so the people who negotiate the ruling are also familiar with the returns that follow it.
+We work with a partner law firm of around 40 lawyers in Geneva on legal and permit matters, and with our tax partners on the returns that follow the ruling.
 
 ## What you get
 

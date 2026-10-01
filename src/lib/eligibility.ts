@@ -4,10 +4,10 @@
  */
 
 export type Citizenship = "CH" | "EU" | "UK" | "US" | "OTHER";
-export type OtherRegion = "GULF" | "ASIA" | "AMERICAS" | "OTHER";
+export type OtherRegion = "GULF" | "ASIA" | "AMERICAS" | "AFRICA" | "OTHER";
 export type TaxResidence =
   | "UK" | "FR" | "DE" | "IT" | "BE" | "AT" | "NO" | "EU_OTHER"
-  | "GULF" | "US" | "CA" | "SG_HK" | "IN" | "OTHER" | "CH";
+  | "GULF" | "US" | "CA" | "SG_HK" | "IN" | "AFRICA" | "OTHER" | "CH";
 export type Activity = "NONE" | "ACTIVE" | "UNSURE";
 /**
  * Unlimited Swiss tax liability (tax residence) in the last 10 years (art. 14 para. 1 DBG).

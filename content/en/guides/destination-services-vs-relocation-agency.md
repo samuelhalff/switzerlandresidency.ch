@@ -138,7 +138,7 @@ Some relocation agencies and destination service providers offer ongoing support
 
 ## How we help
 
-At Switzerland Residency, we support families through every stage of their move. Whether you need practical destination services, full relocation project management, or ongoing support, we tailor our approach to your needs. Our team works discreetly with Ark Fiduciaire SA and local partners to ensure your family settles in smoothly and meets all Swiss requirements.
+At Switzerland Residency, we support families through every stage of their move. Whether you need practical destination services, full relocation project management, or ongoing support, we tailor our approach to your needs. Our team works discreetly with trusted local partners to ensure your family settles in smoothly and meets all Swiss requirements.
 
 To discuss your situation and explore the right support for your move, start with our [eligibility check](/en/eligibility-check/).
 

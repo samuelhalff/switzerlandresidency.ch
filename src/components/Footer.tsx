@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { t, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/paths";
-import { ARK_URL, GA_ID } from "@/lib/site";
+import { GA_ID } from "@/lib/site";
 import Logo from "./Logo";
 import CookieSettingsButton from "./CookieSettingsButton";
 import ContactChannels from "./ContactChannels";
@@ -70,10 +70,7 @@ export default function Footer({ locale }: { locale: Locale }) {
         <Container>
           <div className="flex flex-col gap-2 border-t border-line py-6 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>
-            {t(locale, "footer.arkBefore")}{" "}
-            <a href={ARK_URL} rel="noopener" className="underline underline-offset-4 hover:text-ink">
-              {t(locale, "footer.arkName")}
-            </a>
+            {t(locale, "footer.partner")}
           </p>
           <p>
             © {year} Switzerland Residency. {t(locale, "footer.rights")}

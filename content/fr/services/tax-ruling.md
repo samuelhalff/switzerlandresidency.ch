@@ -69,7 +69,7 @@ C’est pourquoi la qualité de la demande compte autant. Un ruling ne vous prot
 5. **Résultat signé.** Vous recevez la réponse ou l’accord écrit, avec une courte note sur ce qu’il couvre, ce qu’il ne couvre pas et ce qui le rendrait caduc.
 6. **Transmission.** Le ruling est transmis à l’équipe qui suit votre permis puis, après votre arrivée, vos déclarations annuelles.
 
-Nous travaillons avec Ark Fiduciaire SA, à Genève, sur le volet fiscal : les personnes qui négocient le ruling connaissent donc aussi les déclarations qui suivront.
+Nous travaillons avec une étude partenaire d’une quarantaine d’avocats à Genève, sur les questions juridiques et de permis, et avec nos partenaires fiscaux pour les déclarations qui suivent le ruling.
 
 ## Ce que vous obtenez
 

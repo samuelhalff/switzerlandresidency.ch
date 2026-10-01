@@ -76,7 +76,7 @@ The good news is that the underlying routes are written into federal law and the
 | Non-EU national, any age, wealthy | Important fiscal interests (art. 30 para. 1 let. b AIG, art. 32 VZAE) | Move your centre of life here; work only abroad; a tax contribution the canton regards as significant |
 | Anyone taking a job or starting a business | Employment or self-employment routes (art. 19 AIG for non-EU self-employed) | Non-EU: quotas, overall economic interest and a business plan, SEM approval; no fixed minimum investment, and setting up a company gives no right to a permit |
 
-The two non-EU routes are explained in detail, with cantonal figures, in our guide on [Swiss residence for financially independent non-EU nationals](/en/guides/residence-non-eu-financially-independent/). EU and EFTA citizens can read [the B permit without gainful activity](/en/guides/eu-citizens-b-permit-without-work/).
+The two non-EU routes are explained in detail, with cantonal figures, in our guide on [Swiss residence for financially independent non-EU nationals](/en/guides/residence-non-eu-financially-independent/). EU and EFTA citizens can read [the B permit without gainful activity](/en/guides/eu-citizens-b-permit-without-work/). Families coming from Africa will find the visa and tax-treaty position by country in [moving to Switzerland from Africa](/en/guides/moving-from-africa/).
 
 ## How the fiscal-interest permit differs from a golden visa
 

@@ -133,7 +133,7 @@ Cumulative conditions: [SEM Weisungen AIG §5.3](https://www.sem.admin.ch/dam/se
 
 ### 2.5 US / Gulf / Asian nationals
 - Same AIG routes as any third-country national: retiree (art. 28 AIG, 55+) or fiscal interest (art. 30 para. 1 lit. b AIG + art. 32 VZAE), or employment/self-employment (outside scope). [SEM Weisungen AIG](https://www.sem.admin.ch/dam/sem/de/data/rechtsgrundlagen/weisungen/auslaender/weisungen-aug-d.pdf) (v. 2026-09-30)
-- Visa requirements by nationality — not researched (**UNVERIFIED**).
+- Visa requirements by nationality — not researched (**UNVERIFIED**). African nationals: now verified, see § Africa A.1 (v. 2026-10-01).
 
 ### 2.6 C permit for non-EU
 - C after **10 years** in total with a short-term or residence permit, including the last 5 years continuously on a B, plus integration. **Early C after 5 years** of continuous B if well integrated and able to communicate well in the local national language. Early grant for "important reasons" needs SEM approval. [art. 34 AIG](https://www.fedlex.admin.ch/eli/cc/2007/758/de#art_34); [ZV-EJPD art. 3 lit. d](https://www.fedlex.admin.ch/eli/cc/2015/518/de#art_3) (v. 2026-09-30)
@@ -318,3 +318,40 @@ An external AI "2026 benchmark" was checked claim by claim against official sour
 ### B.9 Corrections to earlier sections of this file
 - §2.7 "EU/EFTA family definition UNVERIFIED" → now VERIFIED (B.5).
 - §2.6 C permit for non-EU: completed with the 5-year nationality lists (B.4). No earlier fact was found contradicted by an official source.
+
+---
+
+## § Africa (verified 2026-10-01)
+
+Scope: nationals of African states moving to Switzerland (origin page `/moving-from/africa/`, guide `moving-from-africa`). All items read on the official source on 2026-10-01 (v. 2026-10-01). African nationals are third-country nationals: §2.3 (retirees, 55+), §2.4 (fiscal interest), §2.6 (C permit after 10 years; no African state is on the 5-year lists in B.4), §2.7 and B.5 (family reunification, art. 44 and 47 AIG) and B.2 (self-employment, art. 19 AIG) apply unchanged.
+
+### A.1 Entry and visa requirements by nationality
+Source: [SEM — Overview of ID and visa provisions according to nationality (Annex CH-1, List 1)](https://www.sem.admin.ch/sem/en/home/publiservice/weisungen-kreisschreiben/visa/liste1_staatsangehoerigkeit.html), version of 3 April 2026 ([PDF](https://www.sem.admin.ch/dam/sem/en/data/rechtsgrundlagen/weisungen/visa/bfm/bfm-anh01-liste1-e.pdf.download.pdf/bfm-anh01-liste1-e.pdf)); in case of dispute only the HTML version is valid.
+- **Visa required both for stays of up to 90 days and for stays of more than 90 days** (ordinary passports): Algeria, Angola, Cameroon, Côte d'Ivoire, Egypt, Ethiopia, Ghana, Kenya, Morocco, Namibia, Nigeria, Rwanda, Senegal, South Africa, Tanzania, Tunisia, Uganda, Zambia, Zimbabwe. Several of these states have exemptions for diplomatic, service or official passports only (codes "M:"/"F:" in the list).
+- **No visa for stays of up to 90 days, visa required for stays of more than 90 days**: Mauritius and Seychelles (code V1: a visa is still needed to work, apart from narrow exceptions).
+- Code V: third-country nationals who hold a valid residence permit issued by a Schengen state, or a valid type D visa, together with a recognised travel document are exempt from the visa requirement.
+- Note B of the list: short stays in the Schengen area are limited to 90 days in any 180-day period. Note C: for stays in Switzerland of more than 90 days a residence permit is required; in principle it has to be applied for at the cantonal migration office before entering Switzerland, also for nationals who need no visa.
+- Travel document for a short stay: recognised, issued within the last 10 years and valid for at least 3 months after the intended departure from the Schengen area (note A of the list).
+- Procedure: category D visas are issued for stays exceeding 90 days ("national visa"). The application is made at the Swiss representation abroad responsible for the applicant's place of residence, which forwards it to the cantonal migration office for examination. Swiss representations abroad issue and refuse visas. An application can be submitted 6 months before the intended trip and should ideally be submitted at least 2 months before travelling (SEM FAQ wording for visa applications in general; not used in content because the long-stay timing depends on the cantonal procedure). [SEM — FAQ on entry](https://www.sem.admin.ch/sem/en/home/themen/einreise/faq.html); [SEM — Entry with visa](https://www.sem.admin.ch/sem/en/home/themen/einreise/info-einreise/voraussetzungen-nach-staat/mit-visum.html) (v. 2026-10-01)
+
+### A.2 Double taxation agreements with African states
+Source: [SIF — Double taxation agreements](https://www.sif.admin.ch/en/double-taxation-agreements-dtas) and its list "Swiss double taxation agreements, status on 1 January 2026" ([PDF](https://www.sif.admin.ch/dam/en/sd-web/Rq53YeWNalWg/DBA-Liste%20EN-per%2001.01.2026.pdf)). FR page: https://www.sif.admin.ch/fr/conventions-doubles-impositions-cdi; DE page: https://www.sif.admin.ch/de/doppelbesteuerungsabkommen-dba.
+- **Comprehensive agreements (taxes on income; Algeria also on capital)** in the list, 9 African states in total: **Algeria** (signed 3 June 2006), **Côte d'Ivoire** (listed as Ivory Coast, 23 November 1987), **Egypt** (20 May 1987), **Ethiopia** (29 July 2021, in effect since 10 August 2023), **Ghana** (23 July 2008; protocol of 22 May 2014), **Morocco** (31 March 1993), **South Africa** (8 May 2007), **Tunisia** (10 February 1994), **Zambia** (29 August 2017, applicable since 1 January 2020).
+- **No comprehensive agreement in the list** for Nigeria, Kenya, Senegal, Mauritius, Cameroon, Rwanda, Tanzania, Uganda or Zimbabwe. Kenya has only an exchange of notes on airline income (1973). Angola: agreement signed 30 November 2023, "not yet in effect". Gambia and Malawi: old arrangements by exchange of notes extending the former United Kingdom agreement (listed "cf. United Kingdom").
+- Negotiations "have taken place or are still under way" with, among others, Angola, Cameroon, Kenya, Libya, Nigeria, Rwanda, Senegal, South Africa (protocol of amendment initialled) and Zimbabwe. No outcome or date is given.
+- None of the African treaty states is among the 7 treaties that require the modified lump sum (§1.5: Belgium, Germany, Italy, Norway, Canada, Austria, USA). Treaty relief claimed by a lump-sum taxpayer still has to be declared and enters the control calculation (§1.5, KS 44 §5.1).
+- Content rule: state only that an agreement exists (or does not) and that it must be read case by case; rates and article-by-article effects were not checked.
+
+### A.3 Swiss banks: identification and origin of assets
+- Financial intermediaries must verify the identity of the customer (art. 3 GwG), establish the beneficial owner (art. 4 GwG) and identify the nature and purpose of the business relationship; the amount of information to be collected depends on the risk the customer represents (art. 6 para. 1 GwG). They must clarify the background and purpose of a transaction or relationship that appears unusual or carries a higher risk (art. 6 para. 2 GwG). Relationships with **foreign politically exposed persons** and persons close to them always count as higher-risk (art. 6 para. 3, art. 2a GwG). [Fedlex — GwG/AMLA, SR 955.0](https://www.fedlex.admin.ch/eli/cc/1998/892_892_892/de#art_6) (consolidation of 1 March 2024, read via the OpenCaseLaw Fedlex mirror; v. 2026-10-01)
+- Practical consequence used in content: expect to document how the wealth was built (sale contracts, audited accounts, tax returns, inheritance papers) before funds are transferred. The list of documents is practice, not a legal list.
+
+### A.4 Home-country rules (only what was verified)
+- **South Africa (SARS):** an individual resident under the physical presence test ceases to be resident when physically outside South Africa for a continuous period of at least 330 full days; for the ordinarily-resident test it is a factual enquiry. When an individual breaks tax residence, a deemed disposal for capital gains tax takes place on worldwide assets, excluding immovable property situated in South Africa. SARS should be informed through the RAV01 form on eFiling. [SARS — Cease to be a resident](https://www.sars.gov.za/individuals/cease-to-be-a-resident/) (v. 2026-10-01)
+- **South Africa (SARS):** the "Approval International Transfer" (AIT) tax compliance status covers South African residents transferring funds abroad and taxpayers who have ceased tax residency. [SARS — Manage your tax compliance status](https://www.sars.gov.za/individuals/manage-your-tax-compliance-status/) (v. 2026-10-01)
+- The rand amount of the South African single discretionary allowance is changing in the course of the year (SARS Budget FAQ) and its effective date was not confirmed — **UNVERIFIED**; do not quote an amount.
+- Exchange-control and tax-exit rules of Nigeria, Kenya, Egypt, Morocco, Côte d'Ivoire, Senegal, Mauritius and other African states — **UNVERIFIED** (not researched on official sources). Content must say "check your central bank's rules" without specifics.
+
+### A.5 Not verified
+- Numbers of African nationals or families living in or moving to Switzerland — **UNVERIFIED**; no statistics in content.
+- Languages of instruction and current status of individual international schools — see §4 (**UNVERIFIED** list); content may only say that schools teaching in English, in French or in both exist and link to the schools guide.

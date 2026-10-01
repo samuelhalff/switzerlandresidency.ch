@@ -56,8 +56,7 @@
     "explore": "Découvrir",
     "company": "Qui sommes-nous",
     "legal": "Informations légales",
-    "arkBefore": "Membre du groupe Ark, en collaboration avec",
-    "arkName": "Ark Fiduciaire SA, Genève",
+    "partner": "En collaboration avec une étude partenaire d'une quarantaine d'avocats à Genève",
     "cookieSettings": "Paramètres des cookies",
     "rights": "Tous droits réservés."
   },
@@ -71,7 +70,7 @@
       "headline": "Faites de la Suisse votre chez-vous.",
       "headlineAccent": "chez-vous",
       "lead": "Permis, fiscalité, maison et écoles, organisés avec discrétion et dans votre langue.",
-      "credibility": "Membre du groupe Ark, Genève",
+      "credibility": "Genève, avec une étude partenaire de 40 avocats",
       "h1": "Services de relocation en Suisse pour clients privés et leur famille"
     },
     "steps": {
@@ -283,7 +282,7 @@
   },
   "origins": {
     "title": "Vous venez de…",
-    "description": "S'installer en Suisse depuis le Royaume-Uni, l'UE, le Golfe, les Amériques ou l'Asie : règles de départ et options suisses selon votre pays actuel.",
+    "description": "S'installer en Suisse depuis le Royaume-Uni, l'UE, le Golfe, les Amériques, l'Asie ou l'Afrique : règles de départ et options suisses selon votre pays actuel.",
     "intro": "Le pays que vous quittez compte autant que celui où vous allez. Voici les points que nous examinons pour chaque région du monde.",
     "items": {
       "united-kingdom": {
@@ -305,6 +304,10 @@
       "asia": {
         "title": "Asie",
         "summary": "Depuis Singapour, Hong Kong ou l'Inde : voies d'obtention du permis, documentation bancaire et calendrier."
+      },
+      "africa": {
+        "title": "Afrique",
+        "summary": "Depuis l'Afrique du Sud, le Nigeria, le Maroc ou l'Égypte : visas, voies pour les ressortissants hors UE et justificatifs d'origine des fonds."
       }
     },
     "detailCta": "Vérifier votre parcours"
@@ -339,12 +342,12 @@
   },
   "about": {
     "title": "À propos",
-    "description": "Qui nous sommes : une petite équipe expérimentée qui aide les familles internationales à s'installer en Suisse, membre du groupe Ark à Genève.",
+    "description": "Qui nous sommes : une petite équipe expérimentée qui aide les familles internationales à s'installer en Suisse, basée à Genève.",
     "intro": "Nous sommes une petite équipe de conseillers qui aime aider les familles à faire de la Suisse leur chez-soi.",
     "paragraphs": [
       "S'installer en Suisse soulève beaucoup de questions à la fois : quel permis, quel canton, comment fonctionnera la fiscalité, dans quelle école iront les enfants. Nous rassemblons tous ces fils et nous en occupons avec soin.",
       "Notre travail repose sur des années de pratique fiduciaire et fiscale en Suisse. Nous préférons les explications claires au jargon, et les réponses honnêtes aux promesses faciles.",
-      "Nous accompagnons des familles venues du Royaume-Uni, du reste de l'Europe, du Golfe, des Amériques et d'Asie, en français, en anglais et en allemand."
+      "Nous accompagnons des familles venues du Royaume-Uni, du reste de l'Europe, du Golfe, des Amériques, d'Asie et d'Afrique, en français, en anglais et en allemand."
     ],
     "valuesTitle": "Ce que vous pouvez attendre de nous",
     "values": [
@@ -353,9 +356,7 @@
       "Des sources officielles derrière chaque fait important.",
       "Une discrétion totale."
     ],
-    "arkBefore": "Switzerland Residency fait partie du groupe Ark et travaille avec",
-    "arkName": "Ark Fiduciaire SA",
-    "arkAfter": ", fiduciaire et cabinet de conseil fiscal à Genève."
+    "partner": "Switzerland Residency travaille depuis Genève avec une étude partenaire d'une quarantaine d'avocats pour les questions juridiques et de permis, et avec des partenaires fiduciaires pour les déclarations d'impôt et la comptabilité."
   },
   "contact": {
     "title": "Contact",
@@ -429,6 +430,7 @@
       "otherOptions": {
         "GULF": "Golfe",
         "ASIA": "Asie",
+        "AFRICA": "Afrique",
         "AMERICAS": "Amériques",
         "OTHER": "Autre"
       }
@@ -449,6 +451,7 @@
         "CA": "Canada",
         "SG_HK": "Singapour / Hong Kong",
         "IN": "Inde",
+        "AFRICA": "Afrique",
         "OTHER": "Autre",
         "CH": "Déjà en Suisse"
       }

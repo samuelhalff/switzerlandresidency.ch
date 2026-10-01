@@ -76,7 +76,7 @@ La bonne nouvelle, c'est que les voies existantes sont inscrites dans le droit f
 | Ressortissant hors UE, tout âge, fortuné | Intérêts fiscaux importants (art. 30 al. 1 let. b LEI, art. 32 OASA) | Transférer ici le centre de vos intérêts ; travailler uniquement à l'étranger ; une contribution fiscale que le canton juge importante |
 | Toute personne qui prend un emploi ou crée une entreprise | Voies de l'activité salariée ou indépendante (art. 19 LEI pour les indépendants hors UE) | Hors UE : contingents, intérêt économique du pays, business plan, approbation du SEM ; aucun investissement minimum fixé, et créer une société ne donne pas droit à un permis |
 
-Les deux voies hors UE sont détaillées, avec les chiffres cantonaux, dans notre guide sur [le séjour en Suisse sans activité lucrative pour les ressortissants hors UE](/fr/guides/residence-non-eu-financially-independent/). Les citoyens de l'UE et de l'AELE peuvent lire [le permis B sans activité lucrative](/fr/guides/eu-citizens-b-permit-without-work/).
+Les deux voies hors UE sont détaillées, avec les chiffres cantonaux, dans notre guide sur [le séjour en Suisse sans activité lucrative pour les ressortissants hors UE](/fr/guides/residence-non-eu-financially-independent/). Les citoyens de l'UE et de l'AELE peuvent lire [le permis B sans activité lucrative](/fr/guides/eu-citizens-b-permit-without-work/). Les familles venant d'Afrique trouveront la situation par pays, visas et conventions fiscales, dans [s'installer en Suisse depuis l'Afrique](/fr/guides/moving-from-africa/).
 
 ## En quoi l'autorisation pour intérêt fiscal diffère d'un golden visa
 

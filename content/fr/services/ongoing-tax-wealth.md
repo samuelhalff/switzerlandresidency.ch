@@ -57,8 +57,6 @@ Aux résidents, nouveaux ou installés de longue date, qui souhaitent un conseil
 6. **Changements immobiliers.** La valeur locative sera supprimée dès le **1er janvier 2029** pour les résidences principales et secondaires, en même temps que les déductions pour frais d’entretien. Les cantons pourront introduire un impôt immobilier spécial sur les résidences secondaires. Nous examinons ce que cela implique pour vous avant l’entrée en vigueur.
 7. **Revue successorale.** Nous établissons comment l’impôt sur les successions et les donations s’appliquerait à votre famille, puis travaillons avec vos avocats sur d’éventuels ajustements.
 
-Notre travail fiscal est réalisé avec Ark Fiduciaire SA, à Genève, qui prépare et dépose les déclarations.
-
 ## Successions et donations en un coup d’œil
 
 La Suisse ne connaît pas d’impôt fédéral sur les successions. Au 1er janvier 2026, les principales règles cantonales sont les suivantes :
@@ -102,3 +100,5 @@ Nous ne conseillons pas en matière de structuration fiscale américaine. Si vou
 ## Faites durer votre organisation
 
 Si vous vivez déjà en Suisse, ou allez bientôt vous y installer, et souhaitez un accompagnement constant pour vos affaires fiscales, [contactez-nous](/fr/contact/) pour un premier échange.
+
+Les déclarations fiscales et la comptabilité sont préparées avec [Ark Fiduciaire SA](https://ark-fid.ch/fr/), à Genève.

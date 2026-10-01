@@ -88,6 +88,6 @@ Les familles hésitent souvent entre les communes de la rive gauche (Cologny, Va
 
 ## Notre accompagnement
 
-Nous travaillons depuis Genève, aux côtés d’Ark Fiduciaire SA, et pouvons prendre en charge votre demande de forfait fiscal : préparation du dossier « train de vie », modélisation de la base et coordination des démarches fiscales et migratoires pour qu’elles avancent ensemble. Si Genève vous intéresse, commencez par notre [test d’éligibilité](/fr/eligibility-check/) ou découvrez notre [service d’imposition d’après la dépense](/fr/services/lump-sum-taxation/).
+Nous travaillons depuis Genève et pouvons prendre en charge votre demande de forfait fiscal : préparation du dossier « train de vie », modélisation de la base et coordination des démarches fiscales et migratoires pour qu’elles avancent ensemble. Pour les questions juridiques et de permis, nous travaillons avec une étude partenaire d’une quarantaine d’avocats à Genève. Si Genève vous intéresse, commencez par notre [test d’éligibilité](/fr/eligibility-check/) ou découvrez notre [service d’imposition d’après la dépense](/fr/services/lump-sum-taxation/).
 
 *Cette page constitue une information générale à jour au 30 septembre 2026 ; votre situation personnelle nécessite un ruling fiscal et un conseil individuel.*

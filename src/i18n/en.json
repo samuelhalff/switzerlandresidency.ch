@@ -56,8 +56,7 @@
     "explore": "Explore",
     "company": "Company",
     "legal": "Legal",
-    "arkBefore": "Part of the Ark group, working with",
-    "arkName": "Ark Fiduciaire SA, Geneva",
+    "partner": "Working with a partner law firm of around 40 lawyers in Geneva",
     "cookieSettings": "Cookie settings",
     "rights": "All rights reserved."
   },
@@ -71,7 +70,7 @@
       "headline": "Make Switzerland home.",
       "headlineAccent": "home",
       "lead": "Residence, tax, a house and schools, arranged discreetly and in your language.",
-      "credibility": "Part of the Ark group, Geneva",
+      "credibility": "Geneva, with a partner law firm of 40 lawyers",
       "h1": "Relocation services in Switzerland for private clients and their families"
     },
     "steps": {
@@ -283,7 +282,7 @@
   },
   "origins": {
     "title": "Moving from…",
-    "description": "Moving to Switzerland from the UK, the EU, the Gulf, the Americas or Asia: the exit rules and Swiss options that matter for where you live today.",
+    "description": "Moving to Switzerland from the UK, the EU, the Gulf, the Americas, Asia or Africa: the exit rules and Swiss options that matter for where you live today.",
     "intro": "Where you are leaving from matters as much as where you are going. Here are the points we look at for each part of the world.",
     "items": {
       "united-kingdom": {
@@ -305,6 +304,10 @@
       "asia": {
         "title": "Asia",
         "summary": "From Singapore, Hong Kong or India: permit routes, banking documentation and timing."
+      },
+      "africa": {
+        "title": "Africa",
+        "summary": "From South Africa, Nigeria, Morocco or Egypt: visas, routes for non-EU nationals and source-of-funds evidence."
       }
     },
     "detailCta": "Check your route"
@@ -339,12 +342,12 @@
   },
   "about": {
     "title": "About us",
-    "description": "Who we are: a small, experienced team helping international families settle in Switzerland, part of the Ark group in Geneva.",
+    "description": "Who we are: a small, experienced team helping international families settle in Switzerland, based in Geneva.",
     "intro": "We are a small team of advisers who love helping families make Switzerland their home.",
     "paragraphs": [
       "Moving to Switzerland raises many questions at once: which permit, which canton, how tax will work, where the children will go to school. We bring those threads together and look after them with care.",
       "Our work rests on years of Swiss fiduciary and tax practice. We prefer clear explanations to jargon, and honest answers to easy promises.",
-      "We work with families from the United Kingdom, the rest of Europe, the Gulf, the Americas and Asia, in English, French and German."
+      "We work with families from the United Kingdom, the rest of Europe, the Gulf, the Americas, Asia and Africa, in English, French and German."
     ],
     "valuesTitle": "What you can expect",
     "values": [
@@ -353,9 +356,7 @@
       "Official sources behind every important fact.",
       "Complete discretion."
     ],
-    "arkBefore": "Switzerland Residency is part of the Ark group and works with",
-    "arkName": "Ark Fiduciaire SA",
-    "arkAfter": ", a fiduciary and tax advisory firm in Geneva."
+    "partner": "Switzerland Residency works from Geneva with a partner law firm of around 40 lawyers on legal and permit matters, and with fiduciary partners on tax returns and accounting."
   },
   "contact": {
     "title": "Contact",
@@ -429,6 +430,7 @@
       "otherOptions": {
         "GULF": "Gulf",
         "ASIA": "Asia",
+        "AFRICA": "Africa",
         "AMERICAS": "Americas",
         "OTHER": "Other"
       }
@@ -449,6 +451,7 @@
         "CA": "Canada",
         "SG_HK": "Singapore / Hong Kong",
         "IN": "India",
+        "AFRICA": "Africa",
         "OTHER": "Other",
         "CH": "Already in Switzerland"
       }

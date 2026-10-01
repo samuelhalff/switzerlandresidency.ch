@@ -120,7 +120,7 @@ Les documents familiaux comptent parmi les plus sensibles d'un ménage : passepo
 
 Nous nous occupons du déménagement lui-même : le [permis de séjour](/fr/services/residence-permit/), le ruling fiscal, le logement, les écoles et les premiers mois d'[installation](/fr/services/settling-in/). Une fois que vous êtes établis, notre [service fiscal et patrimonial continu](/fr/services/ongoing-tax-wealth/) assure le suivi des déclarations et des échéances.
 
-Pour les familles qui souhaitent un accompagnement de family office plus large et durable, notre société sœur [Ridger](https://ridger.ch/fr/services/family-office-coordination/), le multi-family office du groupe Ark à Genève, agit comme interlocuteur unique et orchestre banquiers, avocats, notaires, conseillers fiscaux et assureurs, jusqu'à la gestion du ménage. Ridger ne gère pas d'avoirs et ne fournit pas de conseil en placement ; l'exécution et la garde restent auprès des banques et gérants réglementés de votre choix.
+Pour les familles qui souhaitent un accompagnement de family office plus large et durable, notre société sœur [Ridger](https://ridger.ch/fr/services/family-office-coordination/), un multi-family office genevois, agit comme interlocuteur unique et orchestre banquiers, avocats, notaires, conseillers fiscaux et assureurs, jusqu'à la gestion du ménage. Ridger ne gère pas d'avoirs et ne fournit pas de conseil en placement ; l'exécution et la garde restent auprès des banques et gérants réglementés de votre choix.
 
 ## Comment nous vous aidons
 

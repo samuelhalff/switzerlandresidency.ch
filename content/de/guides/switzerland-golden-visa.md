@@ -76,7 +76,7 @@ Die gute Nachricht: Die zugrunde liegenden Wege sind im Bundesrecht und in den W
 | Nicht-EU-Bürger jeden Alters, vermögend | Wichtige fiskalische Interessen (Art. 30 Abs. 1 Bst. b AIG, Art. 32 VZAE) | Lebensmittelpunkt in die Schweiz verlegen; Erwerbstätigkeit nur im Ausland; ein Steuerbeitrag, den der Kanton als erheblich betrachtet |
 | Alle, die eine Stelle antreten oder ein Unternehmen gründen | Wege für Erwerbstätige oder Selbständige (Art. 19 AIG für Selbständige aus Nicht-EU-Staaten) | Nicht-EU: Kontingente, gesamtwirtschaftliches Interesse, Businessplan, Zustimmung des SEM; keine feste Mindestinvestition, und eine Firmengründung gibt keinen Anspruch auf eine Bewilligung |
 
-Die beiden Wege für Nicht-EU-Bürger erklären wir ausführlich, mit kantonalen Zahlen, im Leitfaden zum [Wohnsitz in der Schweiz ohne Erwerbstätigkeit für Nicht-EU-Bürger](/de/guides/residence-non-eu-financially-independent/). EU- und EFTA-Bürger lesen am besten unseren Leitfaden zum [Ausweis B ohne Erwerbstätigkeit](/de/guides/eu-citizens-b-permit-without-work/).
+Die beiden Wege für Nicht-EU-Bürger erklären wir ausführlich, mit kantonalen Zahlen, im Leitfaden zum [Wohnsitz in der Schweiz ohne Erwerbstätigkeit für Nicht-EU-Bürger](/de/guides/residence-non-eu-financially-independent/). EU- und EFTA-Bürger lesen am besten unseren Leitfaden zum [Ausweis B ohne Erwerbstätigkeit](/de/guides/eu-citizens-b-permit-without-work/). Familien aus Afrika finden die Lage nach Land, Visum und Steuerabkommen, im Ratgeber [Aus Afrika in die Schweiz auswandern](/de/guides/moving-from-africa/).
 
 ## Wie sich die Bewilligung aus fiskalischen Interessen von einem Golden Visa unterscheidet
 

@@ -120,7 +120,7 @@ Most relocation companies are competent at the practical work. The differences s
 
 ## How we coordinate with partners
 
-We sit between the decisions and the practical work. We look after the tax position and the ruling, the permit file and the relocation plan, and we coordinate trusted local partners for home search, removals, schools, insurance and staff. The choice of home, school and bank always stays with you. Tax filings are handled with our partner firm Ark Fiduciaire SA in Geneva, and we work alongside your own lawyers, bankers and family advisers rather than in place of them. Details of the practical side are on our [settling-in service](/en/services/settling-in/) page, and the permit and tax side on our [residence permit](/en/services/residence-permit/) and [tax ruling](/en/services/tax-ruling/) services.
+We sit between the decisions and the practical work. We look after the tax position and the ruling, the permit file and the relocation plan, and we coordinate trusted local partners for home search, removals, schools, insurance and staff. The choice of home, school and bank always stays with you. Tax filings are handled with our tax partners, and we work alongside your own lawyers, bankers and family advisers rather than in place of them. Details of the practical side are on our [settling-in service](/en/services/settling-in/) page, and the permit and tax side on our [residence permit](/en/services/residence-permit/) and [tax ruling](/en/services/tax-ruling/) services.
 
 ## How we help
 

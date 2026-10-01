@@ -1,7 +1,7 @@
 import type { Entry } from "./content";
 import { type Locale } from "./i18n";
 import { absoluteUrl, localePath } from "./paths";
-import { ARK_URL, SITE_NAME, SITE_URL } from "./site";
+import { SITE_NAME, SITE_URL } from "./site";
 
 const ORG_ID = `${SITE_URL}/#org`;
 const SITE_ID = `${SITE_URL}/#website`;
@@ -26,12 +26,6 @@ export function organizationLd() {
     ],
     areaServed: "CH",
     knowsLanguage: ["en", "fr", "de"],
-    parentOrganization: {
-      "@type": "Organization",
-      name: "Ark Fiduciaire SA",
-      url: ARK_URL,
-      address: { "@type": "PostalAddress", addressLocality: "Geneva", addressCountry: "CH" },
-    },
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",

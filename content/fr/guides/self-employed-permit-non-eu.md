@@ -188,7 +188,7 @@ Pour les familles, il est utile de traiter votre installation comme un projet un
 
 ## Comment nous vous aidons
 
-Nous aidons les fondateurs hors UE à structurer un dossier de permis indépendant selon ce que le canton et le SEM examinent réellement sous l’art. 19 LEI : intérêt économique, viabilité, financement et plan réalisable. Nous coordonnons aussi les aspects de relocation qui influent sur le calendrier (logement, planification d’arrivée familiale, premiers pas d’installation), en collaboration discrète avec Ark Fiduciaire SA à Genève si pertinent.
+Nous aidons les fondateurs hors UE à structurer un dossier de permis indépendant selon ce que le canton et le SEM examinent réellement sous l’art. 19 LEI : intérêt économique, viabilité, financement et plan réalisable. Nous coordonnons aussi les aspects de relocation qui influent sur le calendrier (logement, planification d’arrivée familiale, premiers pas d’installation). Pour les questions juridiques et de permis, nous travaillons avec une étude partenaire d’une quarantaine d’avocats à Genève.
 
 Commencez par notre **[test d’éligibilité pour la résidence suisse](/fr/eligibility-check/)**.
 

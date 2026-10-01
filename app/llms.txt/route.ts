@@ -16,7 +16,7 @@ export function GET() {
     "",
     `> ${t(en, "meta.homeDescription")}`,
     "",
-    "Switzerland Residency helps international families and private individuals settle in Switzerland: residence permits, lump-sum taxation, tax rulings, the choice of canton, property and settling in. It is part of the Ark group and works with Ark Fiduciaire SA, Geneva (https://ark-fid.ch). Content is available in English (/en/), French (/fr/) and German (/de/). Information is general and not legal or tax advice; permits and lump-sum taxation are decided by the cantonal authorities.",
+    "Switzerland Residency helps international families and private individuals settle in Switzerland: residence permits, lump-sum taxation, tax rulings, the choice of canton, property and settling in. It is based in Geneva and works with a partner law firm of around 40 lawyers on legal and permit matters. Content is available in English (/en/), French (/fr/) and German (/de/). Information is general and not legal or tax advice; permits and lump-sum taxation are decided by the cantonal authorities.",
     "",
     "## Main pages",
     link("/", "Home"),

@@ -137,7 +137,7 @@ Certaines agences de relocation et prestataires de destination services proposen
 
 ## Comment nous vous aidons
 
-Chez Switzerland Residency, nous accompagnons les familles à chaque étape de leur installation. Que vous ayez besoin de destination services pratiques, d'une gestion complète du projet de relocation ou d'un suivi continu, nous adaptons notre approche à vos besoins. Notre équipe travaille discrètement avec Ark Fiduciaire SA et des partenaires locaux pour que votre famille s'installe sereinement et respecte toutes les exigences suisses.
+Chez Switzerland Residency, nous accompagnons les familles à chaque étape de leur installation. Que vous ayez besoin de destination services pratiques, d'une gestion complète du projet de relocation ou d'un suivi continu, nous adaptons notre approche à vos besoins. Notre équipe travaille discrètement avec des partenaires locaux de confiance pour que votre famille s'installe sereinement et respecte toutes les exigences suisses.
 
 Pour discuter de votre situation et explorer le soutien adapté à votre installation, commencez par notre [test d'éligibilité](/fr/eligibility-check/).
 

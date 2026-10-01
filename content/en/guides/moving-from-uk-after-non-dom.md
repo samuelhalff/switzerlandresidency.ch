@@ -153,6 +153,6 @@ No official processing time is published for the fiscal-interest route, and ever
 
 ## How we help
 
-We map your UK and Swiss positions side by side, help you choose a canton, prepare the lump-sum proposal and permit file, and stay with you through arrival. On the tax side we work with Ark Fiduciaire SA in Geneva. Read more on our [UK page](/en/moving-from/united-kingdom/), our [lump-sum taxation service](/en/services/lump-sum-taxation/) and why a [tax ruling before moving](/en/guides/tax-ruling-before-moving/) matters. If you are still weighing destinations, see [Switzerland vs Italy, the UAE and Monaco](/en/guides/uk-non-doms-switzerland-italy-uae-monaco/), or start with our [eligibility check](/en/eligibility-check/).
+We map your UK and Swiss positions side by side, help you choose a canton, prepare the lump-sum proposal and permit file, and stay with you through arrival. On the tax side we work with our tax partners. Read more on our [UK page](/en/moving-from/united-kingdom/), our [lump-sum taxation service](/en/services/lump-sum-taxation/) and why a [tax ruling before moving](/en/guides/tax-ruling-before-moving/) matters. If you are still weighing destinations, see [Switzerland vs Italy, the UAE and Monaco](/en/guides/uk-non-doms-switzerland-italy-uae-monaco/), or start with our [eligibility check](/en/eligibility-check/).
 
 This guide is general information as of 30 September 2026 and is not tax or legal advice; your own situation needs a cantonal ruling and professional advice in both countries.

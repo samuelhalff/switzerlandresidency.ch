@@ -32,6 +32,8 @@ sources:
     url: "https://www.efd.admin.ch/en/lump-sum-taxation"
   - label: "Kanton Genf — So beantragen Sie die Besteuerung nach dem Aufwand"
     url: "https://www.ge.ch/imposition-apres-depense/comment-beneficier-imposition-apres-depense"
+  - label: "Kanton Genf — Besteuerung nach dem Aufwand: Berechnung (Minimum 2026, Zuschlag von 10 %)"
+    url: "https://www.ge.ch/imposition-apres-depense/calcul-lie-imposition-apres-depense"
 ---
 
 Mit der Besteuerung nach dem Aufwand (Pauschalbesteuerung, forfait fiscal) werden berechtigte ausländische Staatsangehörige, die in der Schweiz nicht erwerbstätig sind, auf Grundlage ihrer Lebenshaltungskosten besteuert statt auf ihrem weltweiten Einkommen und Vermögen. Das System ist seit Langem etabliert und rechtlich klar geregelt, aber es ist eng gefasst, wird in jedem Kanton anders angewendet und muss vor dem Zuzug sorgfältig vorbereitet werden. Mit dieser Dienstleistung klären wir, ob es zu Ihnen passt, und bereiten anschliessend den Antrag vor.
@@ -68,7 +70,7 @@ Grundlage sind Ihre **weltweiten jährlichen Lebenshaltungskosten** und die Ihre
 | Pensionspreis-Test | 3× jährlicher Pensionspreis für Unterkunft und Verpflegung, wenn Sie im Hotel oder in einer Pension wohnen |
 | Kontrollrechnung | Ordentliche Steuer auf Einkünften und Vermögen aus Schweizer Quellen, Schweizer Renten und ausländischen Einkünften, für die Abkommensentlastung beansprucht wird |
 
-Jeder Kanton legt sein eigenes Minimum für die Kantons- und Gemeindesteuern fest und regelt die Vermögenssteuer auf seine Weise. Stand Februar 2026 liegt das veröffentlichte kantonale Minimum für 2026 zum Beispiel bei CHF 250'000 im Wallis und in Freiburg, bei CHF 415'000 in der Waadt (inklusive Zuschlag für die Vermögenssteuer), bei CHF 500'000 in Zug, bei CHF 600'000 in Schwyz und bei CHF 647'100 in Luzern. Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt haben das System abgeschafft.
+Jeder Kanton legt sein eigenes Minimum für die Kantons- und Gemeindesteuern fest und regelt die Vermögenssteuer auf seine Weise. Stand Februar 2026 liegt das veröffentlichte kantonale Minimum für 2026 zum Beispiel bei CHF 250'000 im Wallis und in Freiburg, bei CHF 415'000 in der Waadt (inklusive Zuschlag für die Vermögenssteuer), bei CHF 426'357 in Genf (mit einem Zuschlag von 10 % auf der Bemessungsgrundlage anstelle der Vermögenssteuer), bei CHF 500'000 in Zug, bei CHF 600'000 in Schwyz und bei CHF 647'100 in Luzern. Zürich, Schaffhausen, Appenzell Ausserrhoden und Basel-Stadt haben das System abgeschafft.
 
 ## So arbeiten wir
 
@@ -79,7 +81,7 @@ Jeder Kanton legt sein eigenes Minimum für die Kantons- und Gemeindesteuern fes
 5. **Antrag.** Jeder Kanton hat sein eigenes Verfahren. In Genf zum Beispiel schreiben Sie bei der Ankunft an die Steuerverwaltung, mit einem Schreiben, in dem Sie bestätigen, dass Sie in der Schweiz nicht arbeiten werden, einem vorgeschlagenen Betrag, Ihrem Mietvertrag oder der Schätzung Ihrer Liegenschaft und einem Formular zu Ihrem Lebensstil. Über den Betrag entscheidet die kantonale Steuerverwaltung. Deshalb empfehlen wir, vor dem definitiven Umzugsentscheid ein Steuerruling einzuholen.
 6. **Erstes Jahr und danach.** Jedes Jahr reichen Sie eine besondere Steuererklärung für Pauschalbesteuerte ein und melden jede Änderung Ihrer Situation unaufgefordert.
 
-Wir arbeiten mit der Ark Fiduciaire SA in Genf zusammen, die die Steuererklärungen und die laufende Compliance übernimmt.
+Wir arbeiten mit unseren Steuerpartnern zusammen, die die Steuererklärungen und die laufende Compliance übernehmen.
 
 ## Was Sie erhalten
 

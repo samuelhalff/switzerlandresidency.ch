@@ -88,6 +88,6 @@ Families usually weigh the lakeside communes on the left bank (Cologny, Vandœuv
 
 ## How we help
 
-We work from Geneva, alongside Ark Fiduciaire SA, and can take care of the lump-sum application here: preparing the lifestyle file, modelling the base and coordinating the tax and migration steps so they move together. If you are weighing Geneva, start with our [eligibility check](/en/eligibility-check/) or see our [lump-sum taxation service](/en/services/lump-sum-taxation/).
+We work from Geneva and can take care of the lump-sum application here: preparing the lifestyle file, modelling the base and coordinating the tax and migration steps so they move together. We work with a partner law firm of around 40 lawyers in Geneva on legal and permit matters. If you are weighing Geneva, start with our [eligibility check](/en/eligibility-check/) or see our [lump-sum taxation service](/en/services/lump-sum-taxation/).
 
 *This page is general information as of 30 September 2026; your own situation needs a tax ruling and individual advice.*

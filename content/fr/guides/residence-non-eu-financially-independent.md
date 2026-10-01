@@ -58,7 +58,7 @@ Un ressortissant hors UE qui ne compte pas travailler en Suisse dispose de deux 
 
 Les règles ci-dessous s'appliquent à toute personne qui n'a pas la nationalité d'un État de l'UE ou de l'AELE. Américains, ressortissants du Golfe, d'Asie ou d'ailleurs suivent tous les mêmes voies prévues par la loi fédérale sur les étrangers et l'intégration (LEI), quel que soit leur passeport. Depuis le 1er janvier 2021, les ressortissants britanniques qui ne sont pas couverts par l'accord sur les droits acquis des citoyens sont traités de la même manière, et la procédure d'approbation du SEM les considère comme ressortissants hors UE/AELE, sauf mention contraire. Les personnes admises avant cette date conservent leurs droits acquis.
 
-Si vous avez un passeport de l'UE ou de l'AELE, même comme seconde nationalité, votre situation est bien plus simple. Voir notre guide sur [le permis B UE/AELE sans activité lucrative](/fr/guides/eu-citizens-b-permit-without-work/).
+Si vous avez un passeport de l'UE ou de l'AELE, même comme seconde nationalité, votre situation est bien plus simple. Voir notre guide sur [le permis B UE/AELE sans activité lucrative](/fr/guides/eu-citizens-b-permit-without-work/). Les visas d'entrée et les conventions fiscales varient selon le pays d'origine ; pour les ressortissants africains, voir notre [page Afrique](/fr/moving-from/africa/) et le guide par étapes [s'installer en Suisse depuis l'Afrique](/fr/guides/moving-from-africa/).
 
 ## Voie 1 : les rentiers (art. 28 LEI)
 

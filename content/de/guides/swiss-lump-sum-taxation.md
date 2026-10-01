@@ -33,6 +33,8 @@ sources:
     url: "https://www.efd.admin.ch/en/lump-sum-taxation"
   - label: "Kanton Genf: Antrag auf Besteuerung nach dem Aufwand"
     url: "https://www.ge.ch/imposition-apres-depense/comment-beneficier-imposition-apres-depense"
+  - label: "Kanton Genf — Besteuerung nach dem Aufwand: Berechnung (Minimum 2026, Zuschlag von 10 %)"
+    url: "https://www.ge.ch/imposition-apres-depense/calcul-lie-imposition-apres-depense"
   - label: "Kanton Uri: Merkblatt Aufwandbesteuerung (1. Januar 2026)"
     url: "https://www.ur.ch/_docn/439772/14_Merkblatt_Aufwandbesteuerung_01.01.2026_1.pdf"
   - label: "SEM: Weisungen AIG (Ausländerbereich), Ziff. 5.3 und 5.5"
@@ -93,7 +95,7 @@ Auf die Bemessungsgrundlage werden anschliessend die ordentlichen Tarife der Bun
 
 Die Schweiz besteuert Einkommen auf drei Ebenen: Bund, Kanton und Gemeinde. Das Bundesminimum von CHF 435'000 gilt für die Bundessteuer überall dort, wo das Modell angewendet wird. Die Kantons- und Gemeindesteuern richten sich nach den kantonalen Regeln, mit eigenem Minimum und eigener Lösung für die Vermögenssteuer.
 
-Die veröffentlichten kantonalen Minima gehen weit auseinander. Gemäss den Merkblättern der ESTV (Stand Februar 2026) betragen sie für 2026 CHF 200'000 im Jura, CHF 250'000 im Wallis und in Freiburg, CHF 415'000 in der Waadt (einschliesslich eines Zuschlags für die Vermögenssteuer), CHF 500'000 in Zug und CHF 647'100 in Luzern. Der Thurgau kennt ein anderes System mit einer minimalen Kantons- und Gemeindesteuer von CHF 150'000. Die vollständige Liste mit Quellen finden Sie in unserer Übersicht [Pauschalbesteuerung nach Kanton](/de/guides/lump-sum-taxation-by-canton/).
+Die veröffentlichten kantonalen Minima gehen weit auseinander. Gemäss den Merkblättern der ESTV (Stand Februar 2026) betragen sie für 2026 CHF 200'000 im Jura, CHF 250'000 im Wallis und in Freiburg, CHF 415'000 in der Waadt (einschliesslich eines Zuschlags für die Vermögenssteuer), CHF 426'357 in Genf (mit einem Zuschlag von 10 % auf der Bemessungsgrundlage anstelle der Vermögenssteuer), CHF 500'000 in Zug und CHF 647'100 in Luzern. Der Thurgau kennt ein anderes System mit einer minimalen Kantons- und Gemeindesteuer von CHF 150'000. Die vollständige Liste mit Quellen finden Sie in unserer Übersicht [Pauschalbesteuerung nach Kanton](/de/guides/lump-sum-taxation-by-canton/).
 
 Fünf Kantone haben sich vom Modell verabschiedet. Das Eidgenössische Finanzdepartement nennt Zürich (per Volksabstimmung 2009 abgeschafft, wirksam ab 2010), Schaffhausen, Appenzell Ausserrhoden, Basel-Landschaft und Basel-Stadt. Basel-Landschaft kennt noch eine Bestimmung, die aber nur bis Ende des Zuzugsjahres gilt. Thurgau, St. Gallen, Luzern und Bern haben das Modell beibehalten, aber verschärft.
 

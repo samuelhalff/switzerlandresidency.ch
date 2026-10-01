@@ -3319,7 +3319,7 @@
         ]
       },
       "intent": "informational",
-      "priority": 3,
+      "priority": 2,
       "status": "todo",
       "source": "demand-wave2 #21 / seo-topics C6",
       "researchedKeywords": {
@@ -3754,7 +3754,7 @@
         ]
       },
       "intent": "informational",
-      "priority": 3,
+      "priority": 2,
       "status": "todo",
       "source": "extension (demand-wave2 §1.4 LatAm introducers)",
       "researchedKeywords": {
@@ -3816,7 +3816,7 @@
         ]
       },
       "intent": "informational",
-      "priority": 3,
+      "priority": 2,
       "status": "todo",
       "source": "extension",
       "researchedKeywords": {
@@ -3862,7 +3862,8 @@
             ]
           }
         }
-      }
+      },
+      "notes": "Facts: legal-facts § Africa (visa required for short and long stays; agreement of 2007 on the SIF list; SARS rules on ceasing residence and the deemed disposal are verified, the rand allowance amount is UNVERIFIED)."
     },
     {
       "slug": "moving-from-australia",
@@ -3882,7 +3883,7 @@
         ]
       },
       "intent": "informational",
-      "priority": 3,
+      "priority": 2,
       "status": "todo",
       "source": "extension",
       "researchedKeywords": {
@@ -3954,7 +3955,7 @@
         ]
       },
       "intent": "informational",
-      "priority": 3,
+      "priority": 2,
       "status": "todo",
       "source": "extension",
       "researchedKeywords": {
@@ -5213,6 +5214,137 @@
           }
         }
       }
+    },
+    {
+      "slug": "moving-from-turkey",
+      "title": "Moving to Switzerland from Türkiye",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from turkey",
+          "swiss residence permit for turkish citizens",
+          "switzerland turkey double taxation agreement"
+        ],
+        "fr": [
+          "s'installer en suisse depuis la turquie",
+          "permis de séjour suisse pour ressortissants turcs"
+        ],
+        "de": [
+          "auswandern schweiz aus der türkei",
+          "aufenthaltsbewilligung schweiz für türkische staatsangehörige"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "global coverage check 2026-10-01 (origins: UK, EU, Gulf, Americas, Asia, Africa)",
+      "notes": "Third-country routes (art. 28, art. 30 para. 1 lit. b, art. 19 AIG). Verify visa rules on the SEM list by nationality and the treaty on the SIF list before writing; home-country exit and exchange rules only from official Turkish sources, otherwise omit."
+    },
+    {
+      "slug": "moving-from-japan-south-korea",
+      "title": "Moving to Switzerland from Japan or South Korea",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from japan",
+          "moving to switzerland from south korea",
+          "swiss residence permit for japanese citizens"
+        ],
+        "fr": [
+          "s'installer en suisse depuis le japon",
+          "s'installer en suisse depuis la corée du sud"
+        ],
+        "de": [
+          "auswandern schweiz aus japan",
+          "auswandern schweiz aus südkorea"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "global coverage check 2026-10-01 (origins: UK, EU, Gulf, Americas, Asia, Africa)",
+      "notes": "Complements moving-from-asia (Singapore, Hong Kong, China, India). Verify visa rules on the SEM list by nationality and both treaties on the SIF list; Japanese and Korean exit-tax rules only from official sources, otherwise omit."
+    },
+    {
+      "slug": "moving-from-nigeria",
+      "title": "Moving to Switzerland from Nigeria",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from nigeria",
+          "swiss residence permit for nigerians",
+          "switzerland visa for nigerian citizens"
+        ],
+        "fr": [
+          "s'installer en suisse depuis le nigeria",
+          "permis de séjour suisse pour ressortissants nigérians"
+        ],
+        "de": [
+          "auswandern schweiz aus nigeria",
+          "aufenthaltsbewilligung schweiz für nigerianische staatsangehörige"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "global coverage check 2026-10-01 (origins: UK, EU, Gulf, Americas, Asia, Africa)",
+      "notes": "Facts: legal-facts § Africa (visa required for short and long stays; no double taxation agreement on the SIF list, negotiations listed). Central-bank and tax-exit rules are UNVERIFIED: verify on official Nigerian sources or say 'check your central bank's rules' without specifics."
+    },
+    {
+      "slug": "moving-from-morocco",
+      "title": "Moving to Switzerland from Morocco",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from morocco",
+          "swiss residence permit for moroccan citizens",
+          "switzerland morocco double taxation agreement"
+        ],
+        "fr": [
+          "s'installer en suisse depuis le maroc",
+          "permis de séjour suisse pour marocains",
+          "convention fiscale suisse maroc"
+        ],
+        "de": [
+          "auswandern schweiz aus marokko",
+          "aufenthaltsbewilligung schweiz für marokkanische staatsangehörige"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "global coverage check 2026-10-01 (origins: UK, EU, Gulf, Americas, Asia, Africa)",
+      "notes": "FR version matters most (francophone audience, Geneva and Vaud). Facts: legal-facts § Africa (visa required; agreement of 1993 on the SIF list). Exchange-control rules are UNVERIFIED: verify on official Moroccan sources or omit specifics."
+    },
+    {
+      "slug": "moving-from-egypt",
+      "title": "Moving to Switzerland from Egypt",
+      "audience": "client",
+      "category": "moving-from",
+      "keywords": {
+        "en": [
+          "moving to switzerland from egypt",
+          "swiss residence permit for egyptian citizens",
+          "switzerland egypt double taxation agreement"
+        ],
+        "fr": [
+          "s'installer en suisse depuis l'égypte",
+          "permis de séjour suisse pour ressortissants égyptiens"
+        ],
+        "de": [
+          "auswandern schweiz aus ägypten",
+          "aufenthaltsbewilligung schweiz für ägyptische staatsangehörige"
+        ]
+      },
+      "intent": "informational",
+      "priority": 2,
+      "status": "todo",
+      "source": "global coverage check 2026-10-01 (origins: UK, EU, Gulf, Americas, Asia, Africa)",
+      "notes": "Facts: legal-facts § Africa (visa required; agreement of 1987 on the SIF list). Central-bank and tax-exit rules are UNVERIFIED: verify on official Egyptian sources or omit specifics."
     }
   ],
   "history": [

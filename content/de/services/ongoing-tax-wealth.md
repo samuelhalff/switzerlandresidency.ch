@@ -57,8 +57,6 @@ Für neue und langjährige Einwohner, die für ihre Schweizer Steuerangelegenhei
 6. **Änderungen bei Liegenschaften.** Der Eigenmietwert wird per **1. Januar 2029** für Erst- und Zweitwohnungen abgeschafft, und mit ihm fällt der Abzug für Liegenschaftsunterhalt weg. Die Kantone können eine besondere Liegenschaftssteuer auf Zweitwohnungen einführen. Wir klären, was das für Sie bedeutet, bevor es in Kraft tritt.
 7. **Nachlassüberprüfung.** Wir zeigen auf, wie die Erbschafts- und Schenkungssteuer auf Ihre Familie anwendbar wäre, und arbeiten bei Anpassungen mit Ihren Anwälten zusammen.
 
-Unsere Steuerarbeit erbringen wir gemeinsam mit der Ark Fiduciaire SA in Genf, die die Steuererklärungen erstellt und einreicht.
-
 ## Erbschafts- und Schenkungssteuer im Überblick
 
 Die Schweiz kennt keine Erbschaftssteuer des Bundes. Per 1. Januar 2026 gelten auf kantonaler Ebene folgende wichtige Regeln:
@@ -102,3 +100,5 @@ Zur Strukturierung nach US-Steuerrecht beraten wir nicht. Sind Sie eine US-Perso
 ## Damit Ihre Lösung weiterhin trägt
 
 Wenn Sie bereits in der Schweiz leben oder bald zuziehen und eine verlässliche Begleitung in Steuerfragen suchen, [kontaktieren Sie uns](/de/contact/) für ein erstes Gespräch.
+
+Steuererklärungen und Buchhaltung werden gemeinsam mit der [Ark Fiduciaire SA](https://ark-fid.ch/de/), Genf, erstellt.

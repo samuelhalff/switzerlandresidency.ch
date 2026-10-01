@@ -1,5 +1,4 @@
 import { getMessages, t } from "@/lib/i18n";
-import { ARK_URL } from "@/lib/site";
 import { imageCaption } from "@/lib/images";
 import { getLocale, staticMetadata, type LocaleParams } from "@/lib/page";
 import PageHeader from "@/components/PageHeader";
@@ -38,11 +37,7 @@ export default async function AboutPage({ params }: { params: LocaleParams }) {
               ))}
             </ul>
             <p className="mt-10 text-base text-muted" data-reveal="">
-              {t(locale, "about.arkBefore")}{" "}
-              <a href={ARK_URL} rel="noopener" className="link">
-                {t(locale, "about.arkName")}
-              </a>
-              {t(locale, "about.arkAfter")}
+              {t(locale, "about.partner")}
             </p>
           </div>
           <figure className="lg:self-start" data-reveal="">

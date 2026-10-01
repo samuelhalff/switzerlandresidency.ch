@@ -58,7 +58,7 @@ A non-EU national who does not intend to work in Switzerland has two realistic r
 
 The rules below apply to anyone who is not a national of an EU or EFTA state. Americans, Gulf nationals, Asian nationals and others all follow the same routes under the Foreign Nationals and Integration Act (AIG), whatever their passport. Since 1 January 2021, UK nationals not covered by the Citizens' Rights Agreement are also treated this way, and the SEM approval procedure treats them as non-EU/EFTA unless stated otherwise. People admitted before that date keep their acquired rights.
 
-If you hold an EU or EFTA passport, even as a second nationality, your position is much simpler. See our guide on [the EU/EFTA B permit without gainful activity](/en/guides/eu-citizens-b-permit-without-work/).
+If you hold an EU or EFTA passport, even as a second nationality, your position is much simpler. See our guide on [the EU/EFTA B permit without gainful activity](/en/guides/eu-citizens-b-permit-without-work/). Entry visas and tax treaties differ by country of origin; for African nationals, see our [Africa page](/en/moving-from/africa/) and the step-by-step guide to [moving to Switzerland from Africa](/en/guides/moving-from-africa/).
 
 ## Route 1: the retiree route (art. 28 AIG)
 

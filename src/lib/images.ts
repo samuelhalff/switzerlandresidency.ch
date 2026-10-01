@@ -84,6 +84,7 @@ const bySlug: Record<string, ImageName> = {
   "swiss-lump-sum-taxation": "lakeLugano",
   "tax-ruling-before-moving": "lakeLucerne",
   "moving-from-asia": "cityZug",
+  "moving-from-africa": "lakeGeneva",
   "moving-from-france": "vineyards",
   "moving-from-germany": "cityZurich",
   "moving-from-uae-gulf": "lakeLugano",
@@ -110,6 +111,7 @@ const bySlug: Record<string, ImageName> = {
   gulf: "lakeLugano",
   americas: "mountainEngadin",
   asia: "cityZug",
+  africa: "cityGeneva",
 };
 
 /** Several photos per guide category; the slug picks one so neighbouring cards rarely repeat. */

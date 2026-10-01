@@ -88,6 +88,6 @@ Familien wägen meist die Seegemeinden am linken Ufer (Cologny, Vandœuvres, Col
 
 ## Wie wir Sie unterstützen
 
-Wir arbeiten von Genf aus, gemeinsam mit der Ark Fiduciaire SA, und können das Gesuch um Pauschalbesteuerung hier für Sie übernehmen: das Dossier zum Lebensaufwand vorbereiten, die Bemessungsgrundlage modellieren und die Schritte bei Steuerverwaltung und Migrationsbehörde aufeinander abstimmen. Wenn Sie Genf in Betracht ziehen, beginnen Sie mit unserem [Eignungscheck](/de/eligibility-check/) oder lesen Sie mehr über unsere [Begleitung bei der Pauschalbesteuerung](/de/services/lump-sum-taxation/).
+Wir arbeiten von Genf aus und können das Gesuch um Pauschalbesteuerung hier für Sie übernehmen: das Dossier zum Lebensaufwand vorbereiten, die Bemessungsgrundlage modellieren und die Schritte bei Steuerverwaltung und Migrationsbehörde aufeinander abstimmen. In Rechts- und Bewilligungsfragen arbeiten wir mit einer Partnerkanzlei mit rund 40 Anwältinnen und Anwälten in Genf zusammen. Wenn Sie Genf in Betracht ziehen, beginnen Sie mit unserem [Eignungscheck](/de/eligibility-check/) oder lesen Sie mehr über unsere [Begleitung bei der Pauschalbesteuerung](/de/services/lump-sum-taxation/).
 
 *Diese Seite enthält allgemeine Informationen mit Stand 30. September 2026; für Ihre persönliche Situation braucht es ein Steuerruling und eine individuelle Beratung.*

@@ -33,6 +33,8 @@ sources:
     url: "https://www.efd.admin.ch/en/lump-sum-taxation"
   - label: "Canton of Geneva: how to apply for taxation according to expenditure"
     url: "https://www.ge.ch/imposition-apres-depense/comment-beneficier-imposition-apres-depense"
+  - label: "Canton of Geneva — Lump-sum taxation: calculation (2026 minimum, 10% surcharge)"
+    url: "https://www.ge.ch/imposition-apres-depense/calcul-lie-imposition-apres-depense"
   - label: "Canton of Uri: lump-sum taxation leaflet (1 Jan 2026)"
     url: "https://www.ur.ch/_docn/439772/14_Merkblatt_Aufwandbesteuerung_01.01.2026_1.pdf"
   - label: "SEM: directives on foreign nationals (AIG), §5.3 and §5.5"
@@ -93,7 +95,7 @@ The ordinary federal tax rates then apply to the base, without the usual social 
 
 Switzerland taxes income at three levels: federal, cantonal and communal. The federal minimum of CHF 435,000 applies to the federal tax everywhere the regime is used. Cantonal and communal tax follows the canton's own rules, with its own minimum base and its own way of covering wealth tax.
 
-Published cantonal minimums range widely. As of February 2026, the ESTV fact sheets show CHF 200,000 in Jura, CHF 250,000 in Valais and Fribourg, CHF 415,000 in Vaud (including a surcharge for wealth tax), CHF 500,000 in Zug and CHF 647,100 in Lucerne for 2026. Thurgau works differently, with a minimum cantonal and communal tax of CHF 150,000. The full list, with sources, is in our [lump-sum taxation by canton](/en/guides/lump-sum-taxation-by-canton/) table.
+Published cantonal minimums range widely. As of February 2026, the ESTV fact sheets show CHF 200,000 in Jura, CHF 250,000 in Valais and Fribourg, CHF 415,000 in Vaud (including a surcharge for wealth tax), CHF 426,357 in Geneva (with a 10% surcharge on the base in place of wealth tax), CHF 500,000 in Zug and CHF 647,100 in Lucerne for 2026. Thurgau works differently, with a minimum cantonal and communal tax of CHF 150,000. The full list, with sources, is in our [lump-sum taxation by canton](/en/guides/lump-sum-taxation-by-canton/) table.
 
 Five cantons have stepped away from the regime. The Federal Department of Finance lists Zurich (abolished by vote in 2009, effective 2010), Schaffhausen, Appenzell Ausserrhoden, Basel-Landschaft and Basel-Stadt. Basel-Landschaft still has a provision, but it only runs until the end of the arrival year. Thurgau, St. Gallen, Lucerne and Bern kept the regime but tightened it.
 

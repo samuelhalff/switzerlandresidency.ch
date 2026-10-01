@@ -33,6 +33,8 @@ sources:
     url: "https://www.efd.admin.ch/en/lump-sum-taxation"
   - label: "Canton de Genève : comment bénéficier de l'imposition d'après la dépense"
     url: "https://www.ge.ch/imposition-apres-depense/comment-beneficier-imposition-apres-depense"
+  - label: "Canton de Genève — Imposition d'après la dépense : calcul (minimum 2026, majoration de 10 %)"
+    url: "https://www.ge.ch/imposition-apres-depense/calcul-lie-imposition-apres-depense"
   - label: "Canton d'Uri : notice sur l'imposition d'après la dépense (1er janvier 2026)"
     url: "https://www.ur.ch/_docn/439772/14_Merkblatt_Aufwandbesteuerung_01.01.2026_1.pdf"
   - label: "SEM : directives domaine des étrangers (LEI), ch. 5.3 et 5.5"
@@ -93,7 +95,7 @@ Les barèmes ordinaires de l'impôt fédéral s'appliquent ensuite à la base, s
 
 La Suisse impose le revenu à trois niveaux : fédéral, cantonal et communal. Le minimum fédéral de CHF 435 000 vaut pour l'impôt fédéral partout où le régime est appliqué. L'impôt cantonal et communal suit les règles propres à chaque canton, avec son propre minimum et sa propre manière de tenir compte de l'impôt sur la fortune.
 
-Les minimums cantonaux publiés varient fortement. Selon les fiches de l'AFC de février 2026, ils s'élèvent pour 2026 à CHF 200 000 dans le Jura, CHF 250 000 en Valais et à Fribourg, CHF 415 000 dans le canton de Vaud (y compris un supplément pour l'impôt sur la fortune), CHF 500 000 à Zoug et CHF 647 100 à Lucerne. La Thurgovie fonctionne différemment, avec un impôt cantonal et communal minimal de CHF 150 000. La liste complète, sources à l'appui, figure dans notre tableau du [forfait fiscal par canton](/fr/guides/lump-sum-taxation-by-canton/).
+Les minimums cantonaux publiés varient fortement. Selon les fiches de l'AFC de février 2026, ils s'élèvent pour 2026 à CHF 200 000 dans le Jura, CHF 250 000 en Valais et à Fribourg, CHF 415 000 dans le canton de Vaud (y compris un supplément pour l'impôt sur la fortune), CHF 426 357 à Genève (avec une majoration de 10 % de la base en lieu et place de l'impôt sur la fortune), CHF 500 000 à Zoug et CHF 647 100 à Lucerne. La Thurgovie fonctionne différemment, avec un impôt cantonal et communal minimal de CHF 150 000. La liste complète, sources à l'appui, figure dans notre tableau du [forfait fiscal par canton](/fr/guides/lump-sum-taxation-by-canton/).
 
 Cinq cantons ont renoncé au régime. Le Département fédéral des finances cite Zurich (aboli par votation en 2009, avec effet en 2010), Schaffhouse, Appenzell Rhodes-Extérieures, Bâle-Campagne et Bâle-Ville. Bâle-Campagne conserve une disposition, mais elle ne s'applique que jusqu'à la fin de l'année d'arrivée. La Thurgovie, Saint-Gall, Lucerne et Berne ont maintenu le régime tout en le durcissant.
 

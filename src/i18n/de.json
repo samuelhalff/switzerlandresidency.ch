@@ -56,8 +56,7 @@
     "explore": "Entdecken",
     "company": "Unternehmen",
     "legal": "Rechtliches",
-    "arkBefore": "Teil der Ark-Gruppe, in Zusammenarbeit mit",
-    "arkName": "Ark Fiduciaire SA, Genf",
+    "partner": "In Zusammenarbeit mit einer Partnerkanzlei mit rund 40 Anwältinnen und Anwälten in Genf",
     "cookieSettings": "Cookie-Einstellungen",
     "rights": "Alle Rechte vorbehalten."
   },
@@ -71,7 +70,7 @@
       "headline": "Machen Sie die Schweiz zu Ihrem Zuhause.",
       "headlineAccent": "Zuhause",
       "lead": "Aufenthalt, Steuern, ein Zuhause und Schulen – diskret organisiert und in Ihrer Sprache.",
-      "credibility": "Teil der Ark-Gruppe, Genf",
+      "credibility": "Genf, mit einer Partnerkanzlei von 40 Anwälten",
       "h1": "Relocation Service in der Schweiz für Privatpersonen und ihre Familien"
     },
     "steps": {
@@ -283,7 +282,7 @@
   },
   "origins": {
     "title": "Umzug aus …",
-    "description": "Umzug in die Schweiz aus Grossbritannien, der EU, den Golfstaaten, Amerika oder Asien: die Wegzugsregeln und Schweizer Optionen, die für Sie zählen.",
+    "description": "Umzug in die Schweiz aus Grossbritannien, der EU, den Golfstaaten, Amerika, Asien oder Afrika: die Wegzugsregeln und Schweizer Optionen, die für Sie zählen.",
     "intro": "Woher Sie kommen, ist ebenso wichtig wie wohin Sie gehen. Hier finden Sie die Punkte, die wir uns für jede Weltregion genau ansehen.",
     "items": {
       "united-kingdom": {
@@ -305,6 +304,10 @@
       "asia": {
         "title": "Asien",
         "summary": "Aus Singapur, Hongkong oder Indien: Bewilligungswege, Bankunterlagen und Timing."
+      },
+      "africa": {
+        "title": "Afrika",
+        "summary": "Aus Südafrika, Nigeria, Marokko oder Ägypten: Visa, Wege für Drittstaatsangehörige und Nachweise zur Herkunft der Mittel."
       }
     },
     "detailCta": "Ihren Weg prüfen"
@@ -339,12 +342,12 @@
   },
   "about": {
     "title": "Über uns",
-    "description": "Wer wir sind: ein kleines, erfahrenes Team, das internationale Familien beim Ankommen in der Schweiz begleitet – Teil der Ark-Gruppe in Genf.",
+    "description": "Wer wir sind: ein kleines, erfahrenes Team, das internationale Familien beim Ankommen in der Schweiz begleitet, mit Sitz in Genf.",
     "intro": "Wir sind ein kleines Team von Beraterinnen und Beratern, die Familien mit Freude dabei helfen, in der Schweiz ein Zuhause zu finden.",
     "paragraphs": [
       "Ein Umzug in die Schweiz wirft viele Fragen auf einmal auf: welche Bewilligung, welcher Kanton, wie die Steuern funktionieren, wo die Kinder zur Schule gehen. Wir führen diese Fäden zusammen und kümmern uns mit Sorgfalt darum.",
       "Unsere Arbeit beruht auf langjähriger Erfahrung in der Schweizer Treuhand- und Steuerpraxis. Wir erklären lieber klar als in Fachjargon und geben lieber ehrliche Antworten als leichte Versprechen.",
-      "Wir begleiten Familien aus Grossbritannien, dem übrigen Europa, den Golfstaaten, Amerika und Asien – auf Deutsch, Englisch und Französisch."
+      "Wir begleiten Familien aus Grossbritannien, dem übrigen Europa, den Golfstaaten, Amerika, Asien und Afrika – auf Deutsch, Englisch und Französisch."
     ],
     "valuesTitle": "Worauf Sie zählen können",
     "values": [
@@ -353,9 +356,7 @@
       "Offizielle Quellen hinter jeder wichtigen Aussage.",
       "Absolute Diskretion."
     ],
-    "arkBefore": "Switzerland Residency gehört zur Ark-Gruppe und arbeitet mit",
-    "arkName": "Ark Fiduciaire SA",
-    "arkAfter": " zusammen, einem Treuhand- und Steuerberatungsunternehmen in Genf."
+    "partner": "Switzerland Residency arbeitet von Genf aus mit einer Partnerkanzlei mit rund 40 Anwältinnen und Anwälten in Rechts- und Bewilligungsfragen zusammen sowie mit Treuhandpartnern für Steuererklärungen und Buchhaltung."
   },
   "contact": {
     "title": "Kontakt",
@@ -429,6 +430,7 @@
       "otherOptions": {
         "GULF": "Golfstaaten",
         "ASIA": "Asien",
+        "AFRICA": "Afrika",
         "AMERICAS": "Amerika",
         "OTHER": "Andere"
       }
@@ -449,6 +451,7 @@
         "CA": "Kanada",
         "SG_HK": "Singapur / Hongkong",
         "IN": "Indien",
+        "AFRICA": "Afrika",
         "OTHER": "Anderes Land",
         "CH": "Bereits in der Schweiz"
       }

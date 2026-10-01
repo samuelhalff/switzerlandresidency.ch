@@ -69,7 +69,7 @@ Deshalb kommt es so sehr auf die Qualität des Gesuchs an. Ein Ruling schützt S
 5. **Unterzeichnetes Ergebnis.** Sie erhalten die schriftliche Antwort oder Vereinbarung mit einer kurzen Notiz dazu, was sie abdeckt, was nicht und wodurch sie hinfällig würde.
 6. **Übergabe.** Das Ruling geht an das Team, das Ihre Bewilligung betreut, und nach der Ankunft an jenes, das Ihre jährlichen Steuererklärungen erstellt.
 
-Auf der steuerlichen Seite arbeiten wir mit der Ark Fiduciaire SA in Genf zusammen. So kennen die Personen, die das Ruling aushandeln, auch die Steuererklärungen, die darauf folgen.
+In Rechts- und Bewilligungsfragen arbeiten wir mit einer Partnerkanzlei mit rund 40 Anwältinnen und Anwälten in Genf zusammen, und für die Steuererklärungen, die auf das Ruling folgen, mit unseren Steuerpartnern.
 
 ## Was Sie erhalten
 

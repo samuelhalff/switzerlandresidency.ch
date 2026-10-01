@@ -58,7 +58,7 @@ Wer als Nicht-EU-Bürger in die Schweiz ziehen möchte, ohne hier zu arbeiten, h
 
 Die folgenden Regeln gelten für alle, die nicht Staatsangehörige eines EU- oder EFTA-Staates sind. Amerikanerinnen, Staatsangehörige der Golfstaaten, Asiens und anderer Länder folgen alle denselben Wegen nach dem Ausländer- und Integrationsgesetz (AIG), unabhängig vom Pass. Seit dem 1. Januar 2021 werden auch britische Staatsangehörige so behandelt, die nicht unter das Abkommen über die Rechte der Bürgerinnen und Bürger fallen; im Zustimmungsverfahren des SEM gelten sie als Nicht-EU/EFTA-Staatsangehörige, sofern nichts anderes vermerkt ist. Wer vor diesem Datum zugelassen wurde, behält seine erworbenen Rechte.
 
-Besitzen Sie einen EU- oder EFTA-Pass, auch als zweite Staatsangehörigkeit, ist Ihre Lage deutlich einfacher. Lesen Sie dazu unseren Leitfaden zum [Ausweis B ohne Erwerbstätigkeit für EU/EFTA-Bürger](/de/guides/eu-citizens-b-permit-without-work/).
+Besitzen Sie einen EU- oder EFTA-Pass, auch als zweite Staatsangehörigkeit, ist Ihre Lage deutlich einfacher. Lesen Sie dazu unseren Leitfaden zum [Ausweis B ohne Erwerbstätigkeit für EU/EFTA-Bürger](/de/guides/eu-citizens-b-permit-without-work/). Einreisevisum und Steuerabkommen unterscheiden sich je nach Herkunftsland; für afrikanische Staatsangehörige siehe unsere [Seite zu Afrika](/de/moving-from/africa/) und den Schritt-für-Schritt-Ratgeber [Aus Afrika in die Schweiz auswandern](/de/guides/moving-from-africa/).
 
 ## Weg 1: der Rentnerweg (Art. 28 AIG)
 

@@ -189,7 +189,7 @@ For families, it can be helpful to treat your move as a single project: immigrat
 
 ## How we help
 
-We help non-EU founders structure a self-employed permit file around what the canton and SEM actually assess under art. 19 AIG: economic interest, viability, financing and a deliverable plan. We also coordinate the relocation pieces that tend to affect timing (housing, family arrival planning, and early settling-in steps), working discreetly with Ark Fiduciaire SA in Geneva where appropriate.
+We help non-EU founders structure a self-employed permit file around what the canton and SEM actually assess under art. 19 AIG: economic interest, viability, financing and a deliverable plan. We also coordinate the relocation pieces that tend to affect timing (housing, family arrival planning, and early settling-in steps). We work with a partner law firm of around 40 lawyers in Geneva on legal and permit matters.
 
 Start with our **[eligibility check for Swiss residence](/en/eligibility-check/)**.
 

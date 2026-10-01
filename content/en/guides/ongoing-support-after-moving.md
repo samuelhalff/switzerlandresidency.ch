@@ -120,7 +120,7 @@ Family documents are among the most sensitive a household holds: passports, ruli
 
 We handle the move itself: the [residence permit](/en/services/residence-permit/), the tax ruling, the home, schools and the first months of [settling in](/en/services/settling-in/). Once you are established, our [ongoing tax and wealth service](/en/services/ongoing-tax-wealth/) keeps returns and filings on track.
 
-For families who want broader, ongoing family office support, our sister company [Ridger](https://ridger.ch/en/services/family-office-coordination/), the Ark group's multi-family office in Geneva, acts as a single point of contact orchestrating bankers, lawyers, notaries, tax advisers and insurers, through to household management. Ridger does not manage assets or give investment advice; execution and custody stay with your chosen regulated banks and managers.
+For families who want broader, ongoing family office support, our sister company [Ridger](https://ridger.ch/en/services/family-office-coordination/), a Geneva multi-family office, acts as a single point of contact orchestrating bankers, lawyers, notaries, tax advisers and insurers, through to household management. Ridger does not manage assets or give investment advice; execution and custody stay with your chosen regulated banks and managers.
 
 ## How we help
 
