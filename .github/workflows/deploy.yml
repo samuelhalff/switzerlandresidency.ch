@@ -85,7 +85,9 @@ jobs:
           check "$base/en/" 200
           check "$base/fr/" 200
           check "$base/de/" 200
-          check "$base/_archive-2026-09-30/index.php" 403
+          # Old hacked WordPress was deleted on 2026-10-01: neither it nor its archive may be served.
+          check "$base/_archive-2026-09-30/index.php" 404
+          check "$base/wp-login.php" 404
           check "$base/.deploy-manifest.json" 403
           redirect "http://switzerlandresidency.ch/en/" "https://switzerlandresidency.ch/en/"
           redirect "https://www.switzerlandresidency.ch/en/" "https://switzerlandresidency.ch/en/"

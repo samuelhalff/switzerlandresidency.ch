@@ -120,7 +120,7 @@ Put optimised `.webp` files in `public/images/` using the names in `src/lib/imag
 `.github/workflows/deploy.yml` runs on push to `main` (or manually): lint → typecheck → test →
 deploy-script tests → build → `python3 scripts/deploy-ftp.py --dry-run` (logs the plan) →
 `python3 scripts/deploy-ftp.py` over explicit FTPS → smoke test (`/en/`, `/fr/`, `/de/` = 200,
-`/_archive-2026-09-30/index.php` = 403, `/.deploy-manifest.json` = 403).
+`/_archive-2026-09-30/index.php` and `/wp-login.php` = 404 (old WordPress deleted 2026-10-01), `/.deploy-manifest.json` = 403).
 
 How `scripts/deploy-ftp.py` works (details in its docstring):
 

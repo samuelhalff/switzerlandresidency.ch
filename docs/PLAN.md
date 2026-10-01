@@ -8,7 +8,7 @@ No prices shown. Leads = contact form + WhatsApp + an interactive eligibility & 
 
 ## Decisions (made by Claude, user delegated)
 - **Hosting:** GoDaddy shared hosting, FTP(S) only (no SSH/Node) → **fully static site**.
-  Old hacked WordPress moved to `/_archive-2026-09-30/` (deny-all .htaccess, verified 403).
+  Old hacked WordPress moved to `/_archive-2026-09-30/` (deny-all .htaccess, verified 403). **Deleted 2026-10-01** (owner decision; uploads backed up locally).
   Deploy must never delete `_archive-*`, `.ftpquota`, `.well-known/`, `cgi-bin`.
 - **HTTPS:** origin cert expired 2022 → user must enable SSL (cPanel AutoSSL) or we front
   with Cloudflare. Until then: `NEXT_PUBLIC_NOINDEX=true` (noindex + robots disallow).
@@ -91,7 +91,7 @@ No prices shown. Leads = contact form + WhatsApp + an interactive eligibility & 
   + GA/GTM hosts (no 'unsafe-eval'); everything else strict. Revisit with hashes later.
 - Content work starts only after research/legal-facts.md lands; UNVERIFIED items are not published.
 - Deploy workflow encodes protected-path excludes and a post-deploy smoke test
-  (locale homes 200, `/_archive-2026-09-30/` 403).
+  (locale homes 200, old WordPress paths 404).
 - .env stays local-only (gitignored, chmod 600); rotation is a user action.
 
 ## Wave 2 site changes (2026-09-30)
