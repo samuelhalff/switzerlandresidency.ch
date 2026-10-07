@@ -206,7 +206,7 @@
       },
       "intent": "informational",
       "priority": 1,
-      "status": "todo",
+      "status": "done",
       "source": "legal audit 2026-09 / audit-2026-09-30 topic 5",
       "notes": "Schengen travel vs EU residence rights (Schengen vs EU rights, ETIAS). ETIAS status must be cited from europa.eu with its as-of date. Verified facts: research/audit-2026-09-30.md, 'Missing topics worth a page' §5. Do not state the ETIAS fee (pricing guardrail).",
       "researchedKeywords": {
@@ -257,7 +257,8 @@
             "questions": []
           }
         }
-      }
+      },
+      "doneAt": "2026-10-07"
     },
     {
       "slug": "no-golden-visa-switzerland-adviser-brief",
@@ -5359,6 +5360,12 @@
       "category": "settling-in",
       "date": "2026-10-01",
       "title": "Family support and destination services Switzerland options"
+    },
+    {
+      "slug": "swiss-permit-schengen-travel",
+      "category": "residence-permits",
+      "date": "2026-10-07",
+      "title": "What a Swiss residence permit allows in Schengen and the EU"
     }
   ]
 }
