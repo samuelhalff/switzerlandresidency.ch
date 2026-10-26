@@ -5,6 +5,7 @@ import { trackEvent } from "@/lib/analytics";
 import { CHECK_STORAGE_KEY, type StoredCheck } from "@/lib/eligibility";
 import type { FieldRule } from "@/lib/form-validation";
 import { fieldValue, submitToFormspark } from "@/lib/formspark";
+import { attributionFields } from "@/lib/attribution";
 import type { Messages } from "@/lib/i18n";
 import Panel from "./ui/Panel";
 import { Consent, FallbackPanel, Field, FormFooter, Honeypot, RequiredNote, Select, SuccessPanel, invalidProps, type FormLabels } from "./form/FormParts";
@@ -69,6 +70,7 @@ export default function ContactForm({ labels, extra, locale, formsparkId, whatsa
       consent: true,
       site_locale: locale,
       page: window.location.pathname,
+      ...attributionFields(),
     };
     if (check) {
       payload.check_result = check.summary.join("\n");

@@ -3,6 +3,7 @@
 import { trackEvent } from "@/lib/analytics";
 import type { FieldRule } from "@/lib/form-validation";
 import { fieldValue, submitToFormspark } from "@/lib/formspark";
+import { attributionFields } from "@/lib/attribution";
 import type { Messages } from "@/lib/i18n";
 import Panel from "./ui/Panel";
 import {
@@ -64,6 +65,7 @@ export default function AdviserForm({ labels, adviser, timingOptions, locale, fo
       consent: true,
       site_locale: locale,
       page: window.location.pathname,
+      ...attributionFields(),
     };
     await submitToFormspark(formsparkId, payload);
     trackEvent("generate_lead", { method: "adviser_form" });

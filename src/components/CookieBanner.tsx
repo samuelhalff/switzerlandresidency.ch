@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { CONSENT_EVENT, readConsent, writeConsent, type ConsentValue } from "@/lib/consent";
+import { CONSENT_EVENT, clearAnalyticsCookies, consentState, readConsent, writeConsent, type ConsentValue } from "@/lib/consent";
+import { forgetStoredAttribution, persistAttribution } from "@/lib/attribution";
 import Button from "./ui/Button";
 
 type Props = {
-  gaId: string;
   text: string;
   accept: string;
   decline: string;
@@ -14,47 +14,34 @@ type Props = {
   privacyHref: string;
 };
 
-declare global {
-  interface Window {
-    __srGtag?: (...args: unknown[]) => void;
+/**
+ * The banner only stores the visitor's choice and sends a Consent Mode update for all four keys.
+ * gtag.js itself is loaded on every page by <AnalyticsBootstrap>, with region defaults.
+ */
+function applyChoice(value: ConsentValue) {
+  window.gtag?.("consent", "update", consentState(value));
+  if (value === "granted") {
+    persistAttribution();
+  } else {
+    clearAnalyticsCookies();
+    forgetStoredAttribution();
   }
 }
 
-function enableAnalytics(gaId: string) {
-  const g = window.__srGtag;
-  if (!g || window.gtag) return;
-  window.gtag = g;
-  g("consent", "update", { analytics_storage: "granted" });
-  g("js", new Date());
-  g("config", gaId, { anonymize_ip: true });
-  const s = document.createElement("script");
-  s.async = true;
-  s.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaId)}`;
-  document.head.appendChild(s);
-}
-
-export default function CookieBanner({ gaId, text, accept, decline, more, label, privacyHref }: Props) {
+export default function CookieBanner({ text, accept, decline, more, label, privacyHref }: Props) {
   const [open, setOpen] = useState(false);
   const bannerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const stored = readConsent();
-    if (stored === "granted") enableAnalytics(gaId);
-    if (stored === null) setOpen(true);
+    if (readConsent() === null) setOpen(true);
     const reopen = () => setOpen(true);
     window.addEventListener(CONSENT_EVENT, reopen);
     return () => window.removeEventListener(CONSENT_EVENT, reopen);
-  }, [gaId]);
+  }, []);
 
   const choose = (value: ConsentValue) => {
     writeConsent(value);
-    if (value === "granted") {
-      enableAnalytics(gaId);
-    } else if (window.gtag) {
-      // Previously granted in this page view: revoke and reload so gtag.js is gone.
-      window.gtag("consent", "update", { analytics_storage: "denied" });
-      window.location.reload();
-    }
+    applyChoice(value);
     setOpen(false);
   };
 

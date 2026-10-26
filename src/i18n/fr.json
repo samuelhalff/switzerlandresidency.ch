@@ -376,6 +376,7 @@
       "consentBefore": "J'accepte que mes données soient utilisées pour répondre à ma demande, comme décrit dans la",
       "consentLink": "politique de confidentialité",
       "consentAfter": ".",
+      "attributionNote": "Avec votre message, nous recevons aussi les pages consultées sur ce site et la manière dont vous l'avez trouvé (voir la politique de confidentialité).",
       "submit": "Envoyer le message",
       "sending": "Envoi en cours…",
       "successTitle": "Merci, votre message est bien parti.",
@@ -616,7 +617,8 @@
         "h": "Formulaire de contact et messages",
         "p": [
           "Lorsque vous nous envoyez un message, nous recevons votre nom, votre adresse e-mail, votre numéro de téléphone (facultatif), votre langue préférée, votre message et, si vous choisissez de le joindre, le résultat de votre test d'éligibilité. Nous utilisons ces informations uniquement pour répondre à votre demande et, si vous le souhaitez, pour préparer une proposition.",
-          "Les envois du formulaire transitent par Formspark, un service de traitement de formulaires. Si vous nous contactez par WhatsApp, WhatsApp traite également votre message."
+          "Les envois du formulaire transitent par Formspark, un service de traitement de formulaires. Si vous nous contactez par WhatsApp, WhatsApp traite également votre message.",
+          "Avec un formulaire que vous envoyez, nous recevons aussi la manière dont vous avez trouvé ce site et ce que vous y avez lu : la première page consultée, le site d'où vous venez (son domaine uniquement), les paramètres de campagne du lien suivi (utm_source, utm_medium, utm_campaign, utm_term, utm_content et l'identifiant de clic Google Ads gclid, s'ils sont présents) et jusqu'à 20 pages consultées. Ces informations sont gardées dans la mémoire de la page ouverte pendant votre navigation. Si vous avez accepté les cookies de mesure d'audience, elles sont aussi conservées dans le stockage de session de votre navigateur jusqu'à la fermeture de l'onglet. Elles ne sont transmises qu'avec un formulaire que vous choisissez d'envoyer, et nous les utilisons pour savoir quels contenus et quels canaux sont utiles."
         ]
       },
       {
@@ -628,8 +630,11 @@
       {
         "h": "Mesure d'audience et cookies",
         "p": [
-          "Avec votre consentement, nous utilisons Google Analytics 4 pour comprendre comment le site est utilisé, par exemple quelles pages sont lues et si le test d'éligibilité est mené à terme. Sans votre consentement, Google Analytics n'est pas chargé et aucun cookie de mesure d'audience n'est déposé.",
-          "Nous n'envoyons jamais le contenu de vos réponses ou de vos messages à Google Analytics. Vous pouvez modifier votre choix à tout moment via le lien « Paramètres des cookies » en bas de chaque page."
+          "Nous utilisons Google Analytics 4, un service de Google, pour comprendre comment le site est utilisé, par exemple quelles pages sont lues et si le test d'éligibilité est mené à terme. Google Analytics est chargé sur chaque page en mode de consentement de Google. Ce qu'il peut enregistrer sur votre appareil dépend de l'endroit où vous vous trouvez, que Google détermine à partir de votre adresse IP, et de votre choix :",
+          "Dans l'UE, l'EEE et au Royaume-Uni, aucun cookie de mesure d'audience ou publicitaire n'est déposé sans votre accord. D'ici là, et si vous refusez, Google Analytics ne reçoit que des signaux sans cookie, par exemple qu'une page a été consultée, sans aucun identifiant enregistré sur votre appareil.",
+          "En Suisse, les cookies de mesure d'audience sont utilisés par défaut et vous pouvez les refuser à tout moment. Les signaux liés à la publicité restent désactivés sauf si vous acceptez.",
+          "Dans les autres pays, les cookies de mesure d'audience et les signaux liés à la publicité sont utilisés par défaut, sauf si vous refusez.",
+          "Si vous refusez, Google Analytics passe aux signaux sans cookie et nous supprimons ses cookies sur ce site. Si vous acceptez, les cookies de mesure d'audience et les signaux liés à la publicité sont activés. Google peut traiter ces données aux États-Unis ; voir la [politique de confidentialité de Google](https://policies.google.com/privacy). Nous n'envoyons jamais le contenu de vos réponses ou de vos messages à Google Analytics. Vous pouvez modifier votre choix à tout moment via le lien « Paramètres des cookies » en bas de chaque page."
         ]
       },
       {
@@ -679,7 +684,7 @@
     ]
   },
   "cookies": {
-    "text": "Nous aimerions utiliser Google Analytics pour comprendre comment notre site est utilisé. Il n'est chargé qu'avec votre accord.",
+    "text": "Nous utilisons Google Analytics pour savoir comment le site est utilisé. Dans l'UE et au Royaume-Uni, aucun cookie n'est déposé sans votre accord ; ailleurs, ils le sont sauf si vous refusez.",
     "accept": "Accepter",
     "decline": "Refuser",
     "more": "Politique de confidentialité",

@@ -376,6 +376,7 @@
       "consentBefore": "I agree that my details are used to answer my request, as described in the",
       "consentLink": "privacy policy",
       "consentAfter": ".",
+      "attributionNote": "With your message we also receive the pages you visited here and how you found the site (see the privacy policy).",
       "submit": "Send message",
       "sending": "Sending…",
       "successTitle": "Thank you, your message is on its way.",
@@ -616,7 +617,8 @@
         "h": "Contact form and messages",
         "p": [
           "When you send us a message, we receive your name, email address, optional phone number, preferred language, your message and, if you choose to include it, your eligibility check result. We use this information only to answer your request and, if you wish, to prepare a proposal.",
-          "Form submissions are transmitted through Formspark, a form processing service. If you contact us by WhatsApp, WhatsApp also processes your message."
+          "Form submissions are transmitted through Formspark, a form processing service. If you contact us by WhatsApp, WhatsApp also processes your message.",
+          "With a form you send, we also receive how you found this site and what you read on it: the first page you visited, the website you came from (its domain only), the campaign tags of the link you followed (utm_source, utm_medium, utm_campaign, utm_term, utm_content and the Google Ads click ID gclid, if present) and up to 20 pages you viewed. We keep this in the memory of the open page while you browse. If you have accepted analytics cookies, it is also kept in your browser's session storage until you close the tab. It is sent only with a form you choose to submit, and we use it to understand which content and channels are useful."
         ]
       },
       {
@@ -628,8 +630,11 @@
       {
         "h": "Analytics and cookies",
         "p": [
-          "With your consent, we use Google Analytics 4 to understand how the site is used, for example which pages are read and whether the eligibility check is completed. Without your consent, Google Analytics is not loaded and no analytics cookies are set.",
-          "We never send the content of your answers or messages to Google Analytics. You can change your choice at any time through the cookie settings link at the bottom of every page."
+          "We use Google Analytics 4, provided by Google, to understand how the site is used, for example which pages are read and whether the eligibility check is completed. Google Analytics is loaded on every page in Google's consent mode. What it may store on your device depends on where you are, which Google determines from your IP address, and on your choice:",
+          "In the EU, the EEA and the United Kingdom, no analytics or advertising cookies are set unless you accept. Until then, and if you refuse, Google Analytics only receives cookieless signals, for example that a page was viewed, without any identifier stored on your device.",
+          "In Switzerland, analytics cookies are used by default and you can refuse them at any time. Advertising-related signals stay off unless you accept.",
+          "In other countries, analytics cookies and advertising-related signals are used by default unless you refuse.",
+          "If you refuse, Google Analytics switches to cookieless signals and we delete its cookies on this site. If you accept, analytics cookies and advertising-related signals are enabled. Google may process this data in the United States; see [Google's privacy policy](https://policies.google.com/privacy). We never send the content of your answers or messages to Google Analytics. You can change your choice at any time through the cookie settings link at the bottom of every page."
         ]
       },
       {
@@ -679,7 +684,7 @@
     ]
   },
   "cookies": {
-    "text": "We would like to use Google Analytics to understand how our site is used. It is only loaded if you agree.",
+    "text": "We use Google Analytics to see how the site is used. In the EU and the UK it sets no cookies unless you accept; elsewhere it does unless you refuse.",
     "accept": "Accept",
     "decline": "Decline",
     "more": "Privacy policy",

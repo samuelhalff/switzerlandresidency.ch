@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import AnalyticsBootstrap from "@/components/Analytics";
 import CookieBanner from "@/components/CookieBanner";
+import AttributionCapture from "@/components/AttributionCapture";
 import RevealObserver from "@/components/ui/RevealObserver";
 import { THEME_COLORS, themeInitScript } from "@/lib/theme";
 
@@ -65,9 +66,9 @@ export default async function LocaleLayout({
         </main>
         <Footer locale={locale} />
         <RevealObserver />
+        <AttributionCapture />
         {GA_ID ? (
           <CookieBanner
-            gaId={GA_ID}
             text={t(locale, "cookies.text")}
             accept={t(locale, "cookies.accept")}
             decline={t(locale, "cookies.decline")}

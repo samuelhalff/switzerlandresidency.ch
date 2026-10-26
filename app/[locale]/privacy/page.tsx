@@ -9,7 +9,7 @@ import CookieSettingsButton from "@/components/CookieSettingsButton";
 export const generateMetadata = staticMetadata("/privacy/", "privacy.title", "privacy.description");
 
 /** Bump when the policy text changes. */
-const UPDATED = "2026-09-30";
+const UPDATED = "2026-10-26";
 
 export default async function PrivacyPage({ params }: { params: LocaleParams }) {
   const locale = await getLocale(params);

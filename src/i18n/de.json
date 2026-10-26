@@ -376,6 +376,7 @@
       "consentBefore": "Ich bin einverstanden, dass meine Angaben zur Beantwortung meiner Anfrage verwendet werden, wie in der",
       "consentLink": "Datenschutzerklärung",
       "consentAfter": " beschrieben.",
+      "attributionNote": "Mit Ihrer Nachricht erhalten wir auch die hier besuchten Seiten und wie Sie die Website gefunden haben (siehe Datenschutzerklärung).",
       "submit": "Nachricht senden",
       "sending": "Wird gesendet …",
       "successTitle": "Vielen Dank, Ihre Nachricht ist unterwegs.",
@@ -616,7 +617,8 @@
         "h": "Kontaktformular und Nachrichten",
         "p": [
           "Wenn Sie uns eine Nachricht senden, erhalten wir Ihren Namen, Ihre E-Mail-Adresse, optional Ihre Telefonnummer, Ihre bevorzugte Sprache, Ihre Nachricht und, falls Sie es beifügen möchten, das Ergebnis Ihres Checks. Wir verwenden diese Angaben nur, um Ihre Anfrage zu beantworten und, wenn Sie es wünschen, ein Angebot vorzubereiten.",
-          "Formulareingaben werden über Formspark, einen Dienst zur Formularverarbeitung, übermittelt. Wenn Sie uns per WhatsApp kontaktieren, bearbeitet auch WhatsApp Ihre Nachricht."
+          "Formulareingaben werden über Formspark, einen Dienst zur Formularverarbeitung, übermittelt. Wenn Sie uns per WhatsApp kontaktieren, bearbeitet auch WhatsApp Ihre Nachricht.",
+          "Mit einem Formular, das Sie senden, erhalten wir auch, wie Sie diese Website gefunden und was Sie darauf gelesen haben: die erste besuchte Seite, die Website, von der Sie kamen (nur deren Domain), die Kampagnenparameter des verwendeten Links (utm_source, utm_medium, utm_campaign, utm_term, utm_content und die Google-Ads-Klick-ID gclid, falls vorhanden) und bis zu 20 besuchte Seiten. Diese Angaben werden im Speicher der geöffneten Seite gehalten, während Sie surfen. Haben Sie Analyse-Cookies akzeptiert, werden sie zudem im Sitzungsspeicher (Session Storage) Ihres Browsers abgelegt, bis Sie den Tab schliessen. Sie werden nur mit einem Formular übermittelt, das Sie senden möchten, und wir nutzen sie, um zu verstehen, welche Inhalte und Kanäle nützlich sind."
         ]
       },
       {
@@ -628,8 +630,11 @@
       {
         "h": "Webanalyse und Cookies",
         "p": [
-          "Mit Ihrer Einwilligung verwenden wir Google Analytics 4, um zu verstehen, wie die Website genutzt wird – zum Beispiel, welche Seiten gelesen werden und ob der Check abgeschlossen wird. Ohne Ihre Einwilligung wird Google Analytics nicht geladen, und es werden keine Analyse-Cookies gesetzt.",
-          "Den Inhalt Ihrer Antworten oder Nachrichten senden wir nie an Google Analytics. Sie können Ihre Wahl jederzeit über den Link zu den Cookie-Einstellungen unten auf jeder Seite ändern."
+          "Wir verwenden Google Analytics 4, einen Dienst von Google, um zu verstehen, wie die Website genutzt wird – zum Beispiel, welche Seiten gelesen werden und ob der Check abgeschlossen wird. Google Analytics wird auf jeder Seite im Einwilligungsmodus von Google (Consent Mode) geladen. Was es auf Ihrem Gerät speichern darf, hängt davon ab, wo Sie sich befinden – Google bestimmt dies anhand Ihrer IP-Adresse – und von Ihrer Wahl:",
+          "In der EU, im EWR und im Vereinigten Königreich werden ohne Ihre Zustimmung keine Analyse- oder Werbe-Cookies gesetzt. Bis dahin, und wenn Sie ablehnen, erhält Google Analytics nur cookielose Signale, zum Beispiel dass eine Seite aufgerufen wurde, ohne dass eine Kennung auf Ihrem Gerät gespeichert wird.",
+          "In der Schweiz werden Analyse-Cookies standardmässig verwendet, und Sie können sie jederzeit ablehnen. Werbebezogene Signale bleiben deaktiviert, sofern Sie nicht zustimmen.",
+          "In anderen Ländern werden Analyse-Cookies und werbebezogene Signale standardmässig verwendet, sofern Sie nicht ablehnen.",
+          "Wenn Sie ablehnen, wechselt Google Analytics zu cookielosen Signalen, und wir löschen seine Cookies auf dieser Website. Wenn Sie zustimmen, werden Analyse-Cookies und werbebezogene Signale aktiviert. Google kann diese Daten in den USA bearbeiten; siehe die [Datenschutzerklärung von Google](https://policies.google.com/privacy). Den Inhalt Ihrer Antworten oder Nachrichten senden wir nie an Google Analytics. Sie können Ihre Wahl jederzeit über den Link zu den Cookie-Einstellungen unten auf jeder Seite ändern."
         ]
       },
       {
@@ -679,7 +684,7 @@
     ]
   },
   "cookies": {
-    "text": "Wir möchten Google Analytics verwenden, um zu verstehen, wie unsere Website genutzt wird. Es wird nur geladen, wenn Sie zustimmen.",
+    "text": "Wir verwenden Google Analytics, um zu sehen, wie die Website genutzt wird. In der EU und im Vereinigten Königreich setzt es ohne Ihre Zustimmung keine Cookies, anderswo schon, sofern Sie nicht ablehnen.",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "more": "Datenschutzerklärung",

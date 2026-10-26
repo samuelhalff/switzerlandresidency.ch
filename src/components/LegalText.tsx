@@ -1,8 +1,8 @@
 import type { ReactNode } from "react";
 
-const LINK_RE = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+const LINK_RE = /\[([^\]]+)\]\((\/[^)\s]*|https:\/\/[^)\s]+)\)/g;
 
-/** Render "[label](/internal/path/)" markers inside a paragraph as links; everything else stays plain text. */
+/** Render "[label](/internal/path/)" and "[label](https://…)" markers inside a paragraph as links; everything else stays plain text. */
 function withLinks(text: string): ReactNode[] {
   const out: ReactNode[] = [];
   let last = 0;
@@ -10,7 +10,7 @@ function withLinks(text: string): ReactNode[] {
     const i = m.index ?? 0;
     if (i > last) out.push(text.slice(last, i));
     out.push(
-      <a key={i} href={m[2]} className="link">
+      <a key={i} href={m[2]} className="link" {...(m[2].startsWith("https://") ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
         {m[1]}
       </a>,
     );
@@ -20,7 +20,7 @@ function withLinks(text: string): ReactNode[] {
   return out;
 }
 
-/** Simple sectioned text for privacy / legal notice. Supports internal "[label](/path/)" links. */
+/** Simple sectioned text for privacy / legal notice. Supports "[label](/path/)" and external https links. */
 export default function LegalText({ sections }: { sections: { h: string; p: string[] }[] }) {
   return (
     <div className="prose">

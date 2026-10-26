@@ -147,6 +147,7 @@ export function Consent({ id, labels, privacyHref, error }: { id: string; labels
         </label>
       </div>
       <FieldError id={id} message={error} />
+      <p className="mt-2 text-sm text-muted">{labels.attributionNote}</p>
     </div>
   );
 }
