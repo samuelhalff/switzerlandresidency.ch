@@ -59,6 +59,12 @@ export function consentBootstrapScript(gaId: string): string {
     "if(d){u.ad_storage=d;u.ad_user_data=d;u.ad_personalization=d;}g('consent','update',u);}" +
     `g('js',new Date());g('config',${id});` +
     "var s=document.createElement('script');s.async=true;" +
+    // A refusal made before gtag.js finished loading is processed after the earlier queued
+    // config, which may already have set cookies: clean up once the tag has run.
+    `s.onload=function(){var r=null;try{r=w.localStorage.getItem(${JSON.stringify(CONSENT_KEY)});}catch(e){}` +
+    "if(r===D){try{var h=location.hostname,p=h.split('.'),ds=['',h,'.'+h];for(var i=1;i<p.length-1;i++)ds.push('.'+p.slice(i).join('.'));" +
+    "document.cookie.split(';').forEach(function(k){var n=k.split('=')[0].trim();if(!/^(_ga(_|$)|_gid$|_gcl_)/.test(n))return;" +
+    "ds.forEach(function(d){document.cookie=n+'=; Max-Age=0; path=/'+(d?'; domain='+d:'');});});}catch(e){}}};" +
     `s.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(${id});` +
     "document.head.appendChild(s);})();"
   );
