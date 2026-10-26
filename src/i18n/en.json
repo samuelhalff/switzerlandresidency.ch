@@ -633,7 +633,7 @@
           "We use Google Analytics 4, provided by Google, to understand how the site is used, for example which pages are read and whether the eligibility check is completed. Google Analytics is loaded on every page in Google's consent mode. What it may store on your device depends on where you are, which Google determines from your IP address, and on your choice:",
           "In the EU, the EEA and the United Kingdom, no analytics or advertising cookies are set unless you accept. Until then, and if you refuse, Google Analytics only receives cookieless signals, for example that a page was viewed, without any identifier stored on your device.",
           "In Switzerland, analytics cookies are used by default and you can refuse them at any time. Advertising-related signals stay off unless you accept.",
-          "In other countries, analytics cookies and advertising-related signals are used by default unless you refuse.",
+          "In other countries, analytics cookies and advertising-related signals are used by default unless you refuse. Advertising-related signals means Google's advertising cookies, sending usage data to Google for advertising purposes, and ad personalisation.",
           "If you refuse, Google Analytics switches to cookieless signals and we delete its cookies on this site. If you accept, analytics cookies and advertising-related signals are enabled. Google may process this data in the United States; see [Google's privacy policy](https://policies.google.com/privacy). We never send the content of your answers or messages to Google Analytics. You can change your choice at any time through the cookie settings link at the bottom of every page."
         ]
       },
@@ -684,7 +684,7 @@
     ]
   },
   "cookies": {
-    "text": "We use Google Analytics to see how the site is used. In the EU/EEA and the UK it sets no cookies unless you accept; elsewhere it does unless you refuse.",
+    "text": "We use Google Analytics to see how the site is used. In the EU/EEA and the UK it sets no cookies unless you accept; elsewhere it does unless you refuse. Accepting also allows Google advertising cookies and ad personalisation.",
     "accept": "Accept",
     "decline": "Decline",
     "more": "Privacy policy",

@@ -633,7 +633,7 @@
           "Wir verwenden Google Analytics 4, einen Dienst von Google, um zu verstehen, wie die Website genutzt wird – zum Beispiel, welche Seiten gelesen werden und ob der Check abgeschlossen wird. Google Analytics wird auf jeder Seite im Einwilligungsmodus von Google (Consent Mode) geladen. Was es auf Ihrem Gerät speichern darf, hängt davon ab, wo Sie sich befinden – Google bestimmt dies anhand Ihrer IP-Adresse – und von Ihrer Wahl:",
           "In der EU, im EWR und im Vereinigten Königreich werden ohne Ihre Zustimmung keine Analyse- oder Werbe-Cookies gesetzt. Bis dahin, und wenn Sie ablehnen, erhält Google Analytics nur cookielose Signale, zum Beispiel dass eine Seite aufgerufen wurde, ohne dass eine Kennung auf Ihrem Gerät gespeichert wird.",
           "In der Schweiz werden Analyse-Cookies standardmässig verwendet, und Sie können sie jederzeit ablehnen. Werbebezogene Signale bleiben deaktiviert, sofern Sie nicht zustimmen.",
-          "In anderen Ländern werden Analyse-Cookies und werbebezogene Signale standardmässig verwendet, sofern Sie nicht ablehnen.",
+          "In anderen Ländern werden Analyse-Cookies und werbebezogene Signale standardmässig verwendet, sofern Sie nicht ablehnen. Werbebezogene Signale sind Werbe-Cookies von Google, die Übermittlung von Nutzungsdaten an Google zu Werbezwecken und die Personalisierung von Werbung.",
           "Wenn Sie ablehnen, wechselt Google Analytics zu cookielosen Signalen, und wir löschen seine Cookies auf dieser Website. Wenn Sie zustimmen, werden Analyse-Cookies und werbebezogene Signale aktiviert. Google kann diese Daten in den USA bearbeiten; siehe die [Datenschutzerklärung von Google](https://policies.google.com/privacy). Den Inhalt Ihrer Antworten oder Nachrichten senden wir nie an Google Analytics. Sie können Ihre Wahl jederzeit über den Link zu den Cookie-Einstellungen unten auf jeder Seite ändern."
         ]
       },
@@ -684,7 +684,7 @@
     ]
   },
   "cookies": {
-    "text": "Wir verwenden Google Analytics, um zu sehen, wie die Website genutzt wird. In der EU/im EWR und im Vereinigten Königreich setzt es ohne Ihre Zustimmung keine Cookies, anderswo schon, sofern Sie nicht ablehnen.",
+    "text": "Wir verwenden Google Analytics, um zu sehen, wie die Website genutzt wird. In der EU/im EWR und im Vereinigten Königreich setzt es ohne Ihre Zustimmung keine Cookies, anderswo schon, sofern Sie nicht ablehnen. Mit Ihrer Zustimmung erlauben Sie zudem Werbe-Cookies von Google und personalisierte Werbung.",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "more": "Datenschutzerklärung",
