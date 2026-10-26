@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { CONSENT_KEY, OPT_IN_REGIONS, consentBootstrapScript } from "./consent";
+import { ADS_CONSENT_KEY, CONSENT_KEY, OPT_IN_REGIONS, consentBootstrapScript } from "./consent";
 
-function run(stored: string | null) {
+function run(stored: string | null, ads: string | null = stored) {
   const appended: { src?: string }[] = [];
   const win: { dataLayer?: IArguments[]; gtag?: unknown; localStorage: { getItem: (k: string) => string | null } } = {
-    localStorage: { getItem: (k: string) => (k === CONSENT_KEY ? stored : null) },
+    localStorage: { getItem: (k: string) => (k === CONSENT_KEY ? stored : k === ADS_CONSENT_KEY ? ads : null) },
   };
   const doc = { createElement: () => ({}) as { src?: string }, head: { appendChild: (el: { src?: string }) => appended.push(el) } };
   new Function("window", "document", consentBootstrapScript("G-TEST123"))(win, doc);
@@ -48,6 +48,20 @@ describe("consentBootstrapScript", () => {
     ]);
     expect(calls[4]?.[0]).toBe("js");
     expect(calls[5]).toEqual(["config", "G-TEST123"]);
+  });
+
+  it("treats a legacy analytics-only grant as analytics only", () => {
+    const { calls } = run("granted", null);
+    expect(calls[3]).toEqual(["consent", "update", { analytics_storage: "granted" }]);
+  });
+
+  it("treats a legacy refusal as a refusal of all four keys", () => {
+    const { calls } = run("denied", null);
+    expect(calls[3]).toEqual([
+      "consent",
+      "update",
+      { analytics_storage: "denied", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied" },
+    ]);
   });
 
   it("ignores unknown stored values", () => {

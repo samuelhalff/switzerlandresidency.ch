@@ -618,7 +618,7 @@
         "p": [
           "Wenn Sie uns eine Nachricht senden, erhalten wir Ihren Namen, Ihre E-Mail-Adresse, optional Ihre Telefonnummer, Ihre bevorzugte Sprache, Ihre Nachricht und, falls Sie es beifügen möchten, das Ergebnis Ihres Checks. Wir verwenden diese Angaben nur, um Ihre Anfrage zu beantworten und, wenn Sie es wünschen, ein Angebot vorzubereiten.",
           "Formulareingaben werden über Formspark, einen Dienst zur Formularverarbeitung, übermittelt. Wenn Sie uns per WhatsApp kontaktieren, bearbeitet auch WhatsApp Ihre Nachricht.",
-          "Mit einem Formular, das Sie senden, erhalten wir auch, wie Sie diese Website gefunden und was Sie darauf gelesen haben: die erste besuchte Seite, die Website, von der Sie kamen (nur deren Domain), die Kampagnenparameter des verwendeten Links (utm_source, utm_medium, utm_campaign, utm_term, utm_content und die Google-Ads-Klick-ID gclid, falls vorhanden) und bis zu 20 besuchte Seiten. Diese Angaben werden im Speicher der geöffneten Seite gehalten, während Sie surfen. Haben Sie Analyse-Cookies akzeptiert, werden sie zudem im Sitzungsspeicher (Session Storage) Ihres Browsers abgelegt, bis Sie den Tab schliessen. Sie werden nur mit einem Formular übermittelt, das Sie senden möchten, und wir nutzen sie, um zu verstehen, welche Inhalte und Kanäle nützlich sind."
+          "Mit einem Formular, das Sie senden, erhalten wir auch, wie Sie diese Website gefunden und welche Seiten Sie darauf besucht haben: die erste besuchte Seite, die Website, von der Sie kamen (nur deren Domain), die Kampagnenparameter des verwendeten Links (utm_source, utm_medium, utm_campaign, utm_term, utm_content und die Google-Ads-Klick-ID gclid, falls vorhanden) und bis zu 20 besuchte Seiten. Diese Angaben werden im Speicher der geöffneten Seite gehalten, während Sie surfen. Haben Sie Analyse-Cookies akzeptiert, werden sie zudem im Sitzungsspeicher (Session Storage) Ihres Browsers abgelegt, bis Sie den Tab schliessen. Sie werden nur mit einem Formular übermittelt, das Sie senden möchten, und wir nutzen sie, um zu verstehen, welche Inhalte und Kanäle nützlich sind."
         ]
       },
       {
@@ -684,7 +684,7 @@
     ]
   },
   "cookies": {
-    "text": "Wir verwenden Google Analytics, um zu sehen, wie die Website genutzt wird. In der EU und im Vereinigten Königreich setzt es ohne Ihre Zustimmung keine Cookies, anderswo schon, sofern Sie nicht ablehnen.",
+    "text": "Wir verwenden Google Analytics, um zu sehen, wie die Website genutzt wird. In der EU/im EWR und im Vereinigten Königreich setzt es ohne Ihre Zustimmung keine Cookies, anderswo schon, sofern Sie nicht ablehnen.",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "more": "Datenschutzerklärung",

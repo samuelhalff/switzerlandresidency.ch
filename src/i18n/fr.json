@@ -618,7 +618,7 @@
         "p": [
           "Lorsque vous nous envoyez un message, nous recevons votre nom, votre adresse e-mail, votre numéro de téléphone (facultatif), votre langue préférée, votre message et, si vous choisissez de le joindre, le résultat de votre test d'éligibilité. Nous utilisons ces informations uniquement pour répondre à votre demande et, si vous le souhaitez, pour préparer une proposition.",
           "Les envois du formulaire transitent par Formspark, un service de traitement de formulaires. Si vous nous contactez par WhatsApp, WhatsApp traite également votre message.",
-          "Avec un formulaire que vous envoyez, nous recevons aussi la manière dont vous avez trouvé ce site et ce que vous y avez lu : la première page consultée, le site d'où vous venez (son domaine uniquement), les paramètres de campagne du lien suivi (utm_source, utm_medium, utm_campaign, utm_term, utm_content et l'identifiant de clic Google Ads gclid, s'ils sont présents) et jusqu'à 20 pages consultées. Ces informations sont gardées dans la mémoire de la page ouverte pendant votre navigation. Si vous avez accepté les cookies de mesure d'audience, elles sont aussi conservées dans le stockage de session de votre navigateur jusqu'à la fermeture de l'onglet. Elles ne sont transmises qu'avec un formulaire que vous choisissez d'envoyer, et nous les utilisons pour savoir quels contenus et quels canaux sont utiles."
+          "Avec un formulaire que vous envoyez, nous recevons aussi la manière dont vous avez trouvé ce site et les pages que vous y avez consultées : la première page consultée, le site d'où vous venez (son domaine uniquement), les paramètres de campagne du lien suivi (utm_source, utm_medium, utm_campaign, utm_term, utm_content et l'identifiant de clic Google Ads gclid, s'ils sont présents) et jusqu'à 20 pages consultées. Ces informations sont gardées dans la mémoire de la page ouverte pendant votre navigation. Si vous avez accepté les cookies de mesure d'audience, elles sont aussi conservées dans le stockage de session de votre navigateur jusqu'à la fermeture de l'onglet. Elles ne sont transmises qu'avec un formulaire que vous choisissez d'envoyer, et nous les utilisons pour savoir quels contenus et quels canaux sont utiles."
         ]
       },
       {
@@ -684,7 +684,7 @@
     ]
   },
   "cookies": {
-    "text": "Nous utilisons Google Analytics pour savoir comment le site est utilisé. Dans l'UE et au Royaume-Uni, aucun cookie n'est déposé sans votre accord ; ailleurs, ils le sont sauf si vous refusez.",
+    "text": "Nous utilisons Google Analytics pour savoir comment le site est utilisé. Dans l'UE/EEE et au Royaume-Uni, aucun cookie n'est déposé sans votre accord ; ailleurs, ils le sont sauf si vous refusez.",
     "accept": "Accepter",
     "decline": "Refuser",
     "more": "Politique de confidentialité",

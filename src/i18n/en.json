@@ -618,7 +618,7 @@
         "p": [
           "When you send us a message, we receive your name, email address, optional phone number, preferred language, your message and, if you choose to include it, your eligibility check result. We use this information only to answer your request and, if you wish, to prepare a proposal.",
           "Form submissions are transmitted through Formspark, a form processing service. If you contact us by WhatsApp, WhatsApp also processes your message.",
-          "With a form you send, we also receive how you found this site and what you read on it: the first page you visited, the website you came from (its domain only), the campaign tags of the link you followed (utm_source, utm_medium, utm_campaign, utm_term, utm_content and the Google Ads click ID gclid, if present) and up to 20 pages you viewed. We keep this in the memory of the open page while you browse. If you have accepted analytics cookies, it is also kept in your browser's session storage until you close the tab. It is sent only with a form you choose to submit, and we use it to understand which content and channels are useful."
+          "With a form you send, we also receive how you found this site and which pages you visited: the first page you visited, the website you came from (its domain only), the campaign tags of the link you followed (utm_source, utm_medium, utm_campaign, utm_term, utm_content and the Google Ads click ID gclid, if present) and up to 20 pages you viewed. We keep this in the memory of the open page while you browse. If you have accepted analytics cookies, it is also kept in your browser's session storage until you close the tab. It is sent only with a form you choose to submit, and we use it to understand which content and channels are useful."
         ]
       },
       {
@@ -684,7 +684,7 @@
     ]
   },
   "cookies": {
-    "text": "We use Google Analytics to see how the site is used. In the EU and the UK it sets no cookies unless you accept; elsewhere it does unless you refuse.",
+    "text": "We use Google Analytics to see how the site is used. In the EU/EEA and the UK it sets no cookies unless you accept; elsewhere it does unless you refuse.",
     "accept": "Accept",
     "decline": "Decline",
     "more": "Privacy policy",
