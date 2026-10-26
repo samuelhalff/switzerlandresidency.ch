@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { t, type Locale } from "@/lib/i18n";
 import { localePath } from "@/lib/paths";
-import { GA_ID } from "@/lib/site";
+import { ARK_URL, GA_ID } from "@/lib/site";
 import Logo from "./Logo";
 import CookieSettingsButton from "./CookieSettingsButton";
 import ContactChannels from "./ContactChannels";
@@ -73,7 +73,11 @@ export default function Footer({ locale }: { locale: Locale }) {
             {t(locale, "footer.partner")}
           </p>
           <p>
-            © {year} Switzerland Residency. {t(locale, "footer.rights")}
+            © {year} Switzerland Residency. {t(locale, "footer.operatedBy")}{" "}
+            <a href={`${ARK_URL}/${locale}/`} className="underline-offset-4 hover:text-accent hover:underline">
+              Ark Fiduciaire SA
+            </a>
+            , {t(locale, "footer.operatorCity")}. {t(locale, "footer.rights")}
           </p>
           </div>
         </Container>
